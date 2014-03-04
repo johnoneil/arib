@@ -1,0 +1,135 @@
+# vim: set ts=2 expandtab:
+'''
+
+Analysis.txt
+
+Attempted hand analysis of Elementary Stream demuxed out of MPEG-2 Transport stream.
+Used 'ts2es' tool to demux closed caption Packetized Elementary Stream (PES) out of TS.
+Resultant ES (Elemantary Stream) packets listed below and analyzed.
+
+
+-------------------------------------------------------------------------------
+80 FF F0 <PES packet header fragment>
+00 ???
+00 <6 bit group id, 2 bit group version>(000000 00)<start data group- table 9-1>
+00 <data group link number>
+00 <last data group link number>
+0A <data group size, 0xa= 10 bytes>
+3F <2 bit TMD, 6 bit reserved>(00='free' playback time not on clock, 11.1111=reserved)(table 9-4)
+01 <number of languages> (table 9-3, structure management data)
+1A <3 bits= language tag, 1 bit reserved, 4 bits DMF>=(000 1 1000)
+<8 bit tag here 'dmf' if DMF above is 1100, 1101 or 1110>
+6A 70 6E  (jpn language ascii code)
+A0 <4 bit format, 2 bit TCS 2 bit rollup> (1000=Horizontal writing in 960 x 540, 00=8bit character code, 00=no rollup)
+00 00 00 <data unit loop length>
+87 36 <CRC?>
+
+
+-------------------------------------------------------------------------------
+80 FF F0 <PES packet header fragment>
+04 00 00 00 ???
+41 <6 bit group id, 2 bit group version>(100000 01)<start data group- table 9-1)
+3F <data group link number>
+00 <last data group link number>
+00 3D <data group length> 0x3d = 61 bytes long
+1F 20 00 00 38 (data unit header. 20=character data) size below is 56 decimal bytes)
+9B 39 20 53 9B 36 32 30 3B 34 31 36 20 56 9B 35 30 3B 33 32 20 5F 9B 34 20 58 9B 31 36 20 59 9B 33 36 3B 33 36 20 57 90 6F 90 20 41 90 7E 9B 31 3B 30 30 30 30 20 63 0C (end 56 bytes)
+3E 5C <crc>(in table 9-1)
+
+-------------------------------------------------------------------------------
+80 FF F0 <PES packet header fragment>
+00 ???
+00 00 00 0A 3F <data gropu header>
+01 <number of languages>(table 9-3, structure management data)
+1A <3 bits= language tag, 1 bit reserved, 4 bits DMF>=(000 1 1000)
+6A 70 6E (jpn language code)
+A0 <4 bit format, 2 bit TCS 2 bit rollup> (1000=Horizontal writing in 960 x 540, 00=8bit character code, 00=no rollup)
+00 00 00 <data unit size>
+87 36 <crc> data group coda
+
+-------------------------------------------------------------------------------
+80 <data identifier> Arib std-b37 TABLE 2-25 (pg 30)
+FF <priveate stream id> table 2-25 (pg 30)
+F0 <4 bit reserved, 4 bit PES data packet header length>(1111,0000)
+00 ????
+00 <6 bit group id, 2 bit group version>(000000 00)<start data group- table 9-1)
+00 <data gropu link number>
+00 <last data group link number>
+0A <data group size, 0xa= 10 bytes>
+3F <2 bit TMD, 6 bit reserved>(00='free' playback time not on clock, 11.1111=reserved)(table 9-4)
+01 <num languages> 
+1A <3 bits= language tag, 1 bit reserved, 4 bits DMF>=(000 1 1000)
+6A 70 6E <jpn>
+A0 <4 bit format, 2 bit TCS 2 bit rollup> (1000=Horizontal writing in 960 x 540, 00=8bit character code, 00=no rollup)
+00 00 00 <data unit size>
+87 36 <CRC>
+
+-------------------------------------------------------------------------------
+80 FF F0 <PES header fragment ARIB B37 pg. 30)
+04 00 00 00 ??? <timing info???>
+7F <6 bit group id, 2 bit group version>(011111 11)<start data group- table 9-1)
+3F <data group link number>
+00 <last data group link number>
+00 7B <data group size>(0x7b = 123 bytes)
+1F <unit separator> (start ARIB STD-B24 Version 5.2-E1 table 9-11, data unit used for caption management data and caption statement data)
+20 (20= character data of caption statement. 28=geometric graphcs data 0x30=one byte DCRS, 0x31=two byte DCRS etc. table 9-12)
+00 00 76 (size of data unit, 0x76 = 118 dec)
+*******TELETEXT*************
+0C <clear screen command CS>
+9B 39 20 53 (9 S)
+9B 36 32 30 3B 34 31 36 20 56 (620;415 V)
+9B 35 30 3B 33 32 20 5F (50;32 _)
+9B 34 20 58 (4 X)
+9B 31 36 20 59 (16 Y)
+9B 33 36 3B 33 36 20 57 90 6F 90 20 41 90 7E (36;36 W<COL> A<COL><0x7e>)
+9B 31 3B 30 30 30 30 20 63 1C 46 43 88 90 20 40 83 90 6B 90 20 41 90 7D 90 20 44 90 51 24 33 8A 1C 47 40 89 21 4A 8A 24 5E 24 6B 3B 52 89 21 4B 8A 24 2A 3B 50 24 41 24 63 24 73 24 2C 24 24 24 4A 24 24 24 48 7C 21
+-->(1;0000 C<APS active pos set, 46, 43>)(SSZ small size)(COL color, 20,40= pallette 0)(0x83 YLF yellow foreground)(COL color 20,41= pallette 1)(90=COL 7d=half background color, half intensity magenta)(90=COL 20,44= palette 4)(90=COL 51=background color RED)
+(0x24, 0x33-->GL Area, default=2 byte kanji. b0100100, b0110011 = こ)
+(0x8A=NSZ normal size)(0x1c=APS active pos set, v=47, h=40) (0x89 = MSZ medium size)
+(0x21, 0x4A-->GL, 2 byte kanji, b0100001, b1001010-->"(")
+(0x8A=NSZ normal size)
+(0x24 0x5e-->1011110)-->ま
+(0x24 0x6b-->1101011)-->る
+(0x3b-->111011 0x52-->1010010)-->子
+(0x89　MSZ medium size)(0x21 0x4b)-->")"
+(0x8A NSZ normal size)(24 2A-->お (3B 50-->姉) (24 41->ち) (24 63-->ゃ) (24 73-->ん) (24 2C-->が) (24 24-->い) (24 4A-->な) (24 24-->い) (24 48-->と)
+(0x7c 0x21)-->"→"
+*******TELETEXT*************
+FF 2A <CRC>(end of data group)
+
+for ま:  "ま".decode('utf-8').encode('shift-jisx0213')
+'\x82\xdc'
+x82=10000010, dc=11011100
+x24=00100100, 5e=01011110
+xa4=10100100, de=11011110
+"姉".decode('utf-8').encode('euc-jisx0213')
+'\xbb\xd0' 10111011 11010000
+3B 50      00111011 01010000
+
+
+-------------------------------------------------------------------------------
+80 FF F0 <pes header fragment>
+04 00 00 00 ????
+41 <6 bit group link number, 2 bit group version>(1000.0001= 100000 group link num, 01 group version)
+3F <data group link number>
+00 <last data group link number>
+00 3D <data group size> 0x3d = 61 bytes
+*******teletext***************
+1F <unit separator>
+20 = character caption data
+00 00 38 = size of data unit, 0x38 = 56 bytes
+9B 39 20 53 (9 S) 'S' is ??
+9B 36 32 30 3B 34 31 36 20 56 (620;416 V) 'V' is 'SDF' control code (CC area in pixels)
+9B 35 30 3B 33 32 20 5F (50;32 _) '_' is SDP contolr code (spacing dimensions in pixels)
+9B 34 20 58 (4 X) 'X' is SHS control code: initial x character position
+9B 31 36 20 59 (16 Y) 'Y' is SVS control code: initial y character position
+9B 33 36 3B 33 36 20 57 90 6F 90 20 41 90 7E (36;36 W<COL> A<COL><0x7e>) 'W' is SSM control char for font width, height
+9B 31 3B 30 30 30 30 20 63 0C (1;0000 C<CS>) where CS is the clear screen control character
+*******teletext***************
+3E 5C <crc>
+
+-------------------------------------------------------------------------------
+Don't know what this is
+80 FF F0 04 00 00 01 C1 3F 00 01 BD 1F 30 00 01 4C 01 41 21 01 01 02 24 24 00 FF FF F0 0F 00 0F 00 00 00 FF FF F0 0F 00 0F 00 00 00 00 F0 00 0F 00 0F 00 00 00 00 F0 00 0F 00 0F 00 00 00 00 F0 00 00 F0 F0 00 00 00 00 F0 00 00 F0 F0 00 00 00 00 F0 00 00 0F 00 00 00 00 00 F0 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF FF 00 00 00 FF FF FF FF FF FF 00 00 0F F0 00 00 00 00 0F F0 00 0F F0 00 00 00 00 0F F0 00 0F 00 FF FF FF FF 00 F0 00 0F 00 FF FF FF FF 00 F0 00 0F 0F FF FF FF FF F0 F0 00 0F 0F FF FF FF FF F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF F0 0F F0 F0 00 0F 0F FF FF F0 0F F0 F0 00 0F 00 FF FF FF FF 00 F0 00 0F 00 FF FF FF FF 00 F0 00 0F F0 00 00 00 00 0F F0 00 0F F0 00 00 00 00 0F F0 00 00 FF FF FF FF FF FF 00 00 00 FF FF FF FF FF FF 00 00 00 00 00 0F F0 00 00 00 00 00 00 00 0F F0 00 00 00 00 00 0F FF FF FF FF F0 00 00 00 0F FF FF FF FF F0 00 00 1F 20 00 00 67 0C 9B 39 20 53 9B 36 32 30 3B 34 31 36 20 56 9B 35 30 3B 33 32 20 5F 9B 34 20 58 9B 31 36 20 59 9B 33 36 3B 33 36 20 57 90 6F 90 20 41 90 7E 9B 31 3B 30 30 30 30 20 63 89 1C 47 45 8A 90 20 44 90 51 1B 2A 20 41 A1 89 1B 24 2A 42 21 4A 8A 43 4B 40 2D 89 21 4B 8A 24 73 24 4A 89 20 8A 25 22 25 5B 24 4A 89 21 23 12 4E
+
+
