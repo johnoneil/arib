@@ -7,14 +7,12 @@ Attempted hand analysis of Elementary Stream demuxed out of MPEG-2 Transport str
 Used 'ts2es' tool to demux closed caption Packetized Elementary Stream (PES) out of TS.
 Resultant ES (Elemantary Stream) packets listed below and analyzed.
 
-
 -------------------------------------------------------------------------------
 80 FF F0 <PES packet header fragment>
-00 ???
-00 <6 bit group id, 2 bit group version>(000000 00)<start data group- table 9-1>
+00 <6 bit group id, 2 bit group version>(000000 00)<this is caption management data>
 00 <data group link number>
 00 <last data group link number>
-0A <data group size, 0xa= 10 bytes>
+00 0A <16 biy data group size, 0xa= 10 bytes>
 3F <2 bit TMD, 6 bit reserved>(00='free' playback time not on clock, 11.1111=reserved)(table 9-4)
 01 <number of languages> (table 9-3, structure management data)
 1A <3 bits= language tag, 1 bit reserved, 4 bits DMF>=(000 1 1000)
@@ -24,22 +22,22 @@ A0 <4 bit format, 2 bit TCS 2 bit rollup> (1000=Horizontal writing in 960 x 540,
 00 00 00 <data unit loop length>
 87 36 <CRC?>
 
-
 -------------------------------------------------------------------------------
 80 FF F0 <PES packet header fragment>
-04 00 00 00 ???
-41 <6 bit group id, 2 bit group version>(100000 01)<start data group- table 9-1)
-3F <data group link number>
-00 <last data group link number>
-00 3D <data group length> 0x3d = 61 bytes long
+04 <6 bit group id, 2 bit group version>(0000.01,00)is a caption statement in 1st lang, group A
+00 data group link number
+00 last data group link number
+00 41 <data group size> 0x41 = 65 bytes
+3F <2 bit TMD statement and 6 bit reserved>(00.11,1111)empty tmd
+00 00 3D <24 bit data group length> 0x3d = 61 bytes long
 1F 20 00 00 38 (data unit header. 20=character data) size below is 56 decimal bytes)
 9B 39 20 53 9B 36 32 30 3B 34 31 36 20 56 9B 35 30 3B 33 32 20 5F 9B 34 20 58 9B 31 36 20 59 9B 33 36 3B 33 36 20 57 90 6F 90 20 41 90 7E 9B 31 3B 30 30 30 30 20 63 0C (end 56 bytes)
 3E 5C <crc>(in table 9-1)
 
 -------------------------------------------------------------------------------
 80 FF F0 <PES packet header fragment>
-00 ???
-00 00 00 0A 3F <data gropu header>
+00 00 00 00 0A <data group header, size=A, or 10 bytes> this is caption managment data
+3F <2bit TMD, 6 bit reserved> 00.11,1111 (NO TMD)
 01 <number of languages>(table 9-3, structure management data)
 1A <3 bits= language tag, 1 bit reserved, 4 bits DMF>=(000 1 1000)
 6A 70 6E (jpn language code)
@@ -51,11 +49,10 @@ A0 <4 bit format, 2 bit TCS 2 bit rollup> (1000=Horizontal writing in 960 x 540,
 80 <data identifier> Arib std-b37 TABLE 2-25 (pg 30)
 FF <priveate stream id> table 2-25 (pg 30)
 F0 <4 bit reserved, 4 bit PES data packet header length>(1111,0000)
-00 ????
 00 <6 bit group id, 2 bit group version>(000000 00)<start data group- table 9-1)
 00 <data gropu link number>
 00 <last data group link number>
-0A <data group size, 0xa= 10 bytes>
+00 0A <data group size, 0xa= 10 bytes>
 3F <2 bit TMD, 6 bit reserved>(00='free' playback time not on clock, 11.1111=reserved)(table 9-4)
 01 <num languages> 
 1A <3 bits= language tag, 1 bit reserved, 4 bits DMF>=(000 1 1000)
@@ -66,11 +63,9 @@ A0 <4 bit format, 2 bit TCS 2 bit rollup> (1000=Horizontal writing in 960 x 540,
 
 -------------------------------------------------------------------------------
 80 FF F0 <PES header fragment ARIB B37 pg. 30)
-04 00 00 00 ??? <timing info???>
-7F <6 bit group id, 2 bit group version>(011111 11)<start data group- table 9-1)
-3F <data group link number>
-00 <last data group link number>
-00 7B <data group size>(0x7b = 123 bytes)
+04 00 00 00 7F <data group header-- caption statement group A, data group size = x7f or 127 bytes)
+3F <TMD 2bit tmd marker and 6 bit reserver 00.11,1111 no TMD>
+00 00 7B <data unit length>(0x7b = 123 bytes)
 1F <unit separator> (start ARIB STD-B24 Version 5.2-E1 table 9-11, data unit used for caption management data and caption statement data)
 20 (20= character data of caption statement. 28=geometric graphcs data 0x30=one byte DCRS, 0x31=two byte DCRS etc. table 9-12)
 00 00 76 (size of data unit, 0x76 = 118 dec)
@@ -109,16 +104,14 @@ xa4=10100100, de=11011110
 
 -------------------------------------------------------------------------------
 80 FF F0 <pes header fragment>
-04 00 00 00 ????
-41 <6 bit group link number, 2 bit group version>(1000.0001= 100000 group link num, 01 group version)
-3F <data group link number>
-00 <last data group link number>
-00 3D <data group size> 0x3d = 61 bytes
+04 00 00 00 41 <data group header. this is caption data, size 0x41 or 65bytes>
+3F <caption TMD 00.11,1111 no TMD info>
+00 00 3D <data unit size> 0x3d = 61 bytes
 *******teletext***************
 1F <unit separator>
 20 = character caption data
 00 00 38 = size of data unit, 0x38 = 56 bytes
-9B 39 20 53 (9 S) 'S' is ??
+9B 39 20 53 (9 S) 'S' is ?? <CSI, 
 9B 36 32 30 3B 34 31 36 20 56 (620;416 V) 'V' is 'SDF' control code (CC area in pixels)
 9B 35 30 3B 33 32 20 5F (50;32 _) '_' is SDP contolr code (spacing dimensions in pixels)
 9B 34 20 58 (4 X) 'X' is SHS control code: initial x character position
@@ -129,7 +122,43 @@ xa4=10100100, de=11011110
 3E 5C <crc>
 
 -------------------------------------------------------------------------------
-Don't know what this is
-80 FF F0 04 00 00 01 C1 3F 00 01 BD 1F 30 00 01 4C 01 41 21 01 01 02 24 24 00 FF FF F0 0F 00 0F 00 00 00 FF FF F0 0F 00 0F 00 00 00 00 F0 00 0F 00 0F 00 00 00 00 F0 00 0F 00 0F 00 00 00 00 F0 00 00 F0 F0 00 00 00 00 F0 00 00 F0 F0 00 00 00 00 F0 00 00 0F 00 00 00 00 00 F0 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF FF 00 00 00 FF FF FF FF FF FF 00 00 0F F0 00 00 00 00 0F F0 00 0F F0 00 00 00 00 0F F0 00 0F 00 FF FF FF FF 00 F0 00 0F 00 FF FF FF FF 00 F0 00 0F 0F FF FF FF FF F0 F0 00 0F 0F FF FF FF FF F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF F0 0F F0 F0 00 0F 0F FF FF F0 0F F0 F0 00 0F 00 FF FF FF FF 00 F0 00 0F 00 FF FF FF FF 00 F0 00 0F F0 00 00 00 00 0F F0 00 0F F0 00 00 00 00 0F F0 00 00 FF FF FF FF FF FF 00 00 00 FF FF FF FF FF FF 00 00 00 00 00 0F F0 00 00 00 00 00 00 00 0F F0 00 00 00 00 00 0F FF FF FF FF F0 00 00 00 0F FF FF FF FF F0 00 00 1F 20 00 00 67 0C 9B 39 20 53 9B 36 32 30 3B 34 31 36 20 56 9B 35 30 3B 33 32 20 5F 9B 34 20 58 9B 31 36 20 59 9B 33 36 3B 33 36 20 57 90 6F 90 20 41 90 7E 9B 31 3B 30 30 30 30 20 63 89 1C 47 45 8A 90 20 44 90 51 1B 2A 20 41 A1 89 1B 24 2A 42 21 4A 8A 43 4B 40 2D 89 21 4B 8A 24 73 24 4A 89 20 8A 25 22 25 5B 24 4A 89 21 23 12 4E
+Don't know what this is... let's find out.
+80 FF F0
+04 <6 bit data group id, 2 bit version>(0000.01,00)-->group id 0x1 caption data
+00 group link number
+00 last group link number
+01 C1 <data group size> = 449 bytes
+3F <tmd--> no tmd and 6 bits reserved> 
+00 01 BD caption data size. 445 bytes
+1F <unit separator>
+30 <data unit parameter-- 1 byte DCRS> sEE arib std-b37 PG 119
+00 01 4C <data unit size = 324+8=332 BYTES>
+01 41 21 01 01 02 24 24 -->dcrs DATA STRUCTURE number code 01. character code  41 21 number font -01
+00 FF FF F0 0F 00 0F 00 00 00 FF FF F0 0F 00 0F 00 00 00 00 F0 00 0F 00 0F 00 00 00 00 F0 00 0F 00 0F 00 00 00 00 F0 00 00 F0 F0 00 00 00 00 F0 00 00 F0 F0 00 00 00 00 F0 00 00 0F 00 00 00 00 00 F0 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF FF 00 00 00 FF FF FF FF FF FF 00 00 0F F0 00 00 00 00 0F F0 00 0F F0 00 00 00 00 0F F0 00 0F 00 FF FF FF FF 00 F0 00 0F 00 FF FF FF FF 00 F0 00 0F 0F FF FF FF FF F0 F0 00 0F 0F FF FF FF FF F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF F0 0F F0 F0 00 0F 0F FF FF F0 0F F0 F0 00 0F 00 FF FF FF FF 00 F0 00 0F 00 FF FF FF FF 00 F0 00 0F F0 00 00 00 00 0F F0 00 0F F0 00 00 00 00 0F F0 00 00 FF FF FF FF FF FF 00 00 00 FF FF FF FF FF FF 00 00 00 00 00 0F F0 00 00 00 00 00 00 00 0F F0 00 00 00 00 00 0F FF FF FF FF F0 00 00 00 0F FF FF FF FF F0 00 00
+1F <unit separator>
+20 <data unit parameter, body>
+00 00 67 <data unit size = 0x57 BYTES>
+0C <CLEAR SCREEN>
+9B 39 20 53 "<CSI>9 S" 
+9B 36 32 30 3B 34 31 36 20 56 "<CSI>620;416 V"
+9B 35 30 3B 33 32 20 5F "<CSI>50;32 _"
+9B 34 20 58 "<CSI>4 X"
+9B 31 36 20 59 "<CSI>16 Y" 
+9B 33 36 3B 33 36 20 57 90 6F 90 20 41 90 7E "<CSI>36;36 W<COL><half intensity white><COL><palette 1><COL><half background half intensity cyan>
+9B 31 3B 30 30 30 30 20 63 89 1C 47 45 8A 90 20 44 90 51 1B 2A 20 41 A1 89 1B 24 2A 42 21 4A 8A 43 4B 40 2D 89 21 4B 8A 24 73 24 4A 89 20 8A 25 22 25 5B 24 4A 89 21 23
+-->"<CSI>1;0000 c<medium size><aps, active pos=47,45><normal size><color=background red> <ESC, 2A, 20, 41= 1 byte CRCS read, character==?? 40,20 above?>
+4A 8A
+43 4B
+40 2D
+89 <Medium sized> 21 4b
+8a <Normal sized> 24 73
+24 4a
+89 <Medium sized> (space)
+8a <normal sized> 25 22
+22 25
+5b 24
+4a 89
+21 23
+12 4E <CRC>
 
 
