@@ -182,9 +182,9 @@ Don't know what this is... let's find out.
 3F <tmd--> no tmd and 6 bits reserved> 
 00 01 BD caption data size. 445 bytes
 1F <unit separator>
-30 <data unit parameter-- 1 byte DCRS> sEE arib std-b37 PG 119
+30 <data unit parameter-- 1 byte DRCS> sEE arib std-b37 PG 119
 00 01 4C <data unit size = 324+8=332 BYTES>
-01 41 21 01 01 02 24 24 -->dcrs DATA STRUCTURE number code 01. character code  41 21 number font -01
+01 41 21 01 01 02 24 24 -->DRCS DATA STRUCTURE (1 characer described here). character code = 41 21 (41=DRCS1, 21=code value in CRCS set[can be 0x21 to 0x7e]) number font -01
 00 FF FF F0 0F 00 0F 00 00 00 FF FF F0 0F 00 0F 00 00 00 00 F0 00 0F 00 0F 00 00 00 00 F0 00 0F 00 0F 00 00 00 00 F0 00 00 F0 F0 00 00 00 00 F0 00 00 F0 F0 00 00 00 00 F0 00 00 0F 00 00 00 00 00 F0 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF FF 00 00 00 FF FF FF FF FF FF 00 00 0F F0 00 00 00 00 0F F0 00 0F F0 00 00 00 00 0F F0 00 0F 00 FF FF FF FF 00 F0 00 0F 00 FF FF FF FF 00 F0 00 0F 0F FF FF FF FF F0 F0 00 0F 0F FF FF FF FF F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF FF F0 F0 F0 00 0F 0F FF FF F0 0F F0 F0 00 0F 0F FF FF F0 0F F0 F0 00 0F 00 FF FF FF FF 00 F0 00 0F 00 FF FF FF FF 00 F0 00 0F F0 00 00 00 00 0F F0 00 0F F0 00 00 00 00 0F F0 00 00 FF FF FF FF FF FF 00 00 00 FF FF FF FF FF FF 00 00 00 00 00 0F F0 00 00 00 00 00 00 00 0F F0 00 00 00 00 00 0F FF FF FF FF F0 00 00 00 0F FF FF FF FF F0 00 00
 1F <unit separator>
 20 <data unit parameter, body>
@@ -217,7 +217,7 @@ Don't know what this is... let's find out.
 12 4E <CRC>
 
 
-??? what is this DCRS?? ???
+??? what is this DRCS?? ???
    ■■ ■■ ■   ■     ■      
    ■■ ■■ ■   ■     ■      
       ■      ■     ■      
@@ -255,7 +255,10 @@ Don't know what this is... let's find out.
     ■ ■■ ■■ ■■ ■■ ■       
     ■ ■■ ■■ ■■ ■■ ■       
 
-How can I map this DCRS to GAIJI?
+How can I map this DCRS to GAIJI? well, this one we can't. It's a single character DRCS, using
+the character transferred above at run time.
+When drawing out these characters, perhaps we can display them to the user (even on command line) and ask for
+a 'replacement' character or series of characters to use. In this case '[ﾃﾚﾋﾞ]' would be fine.
 
 --------------------------------------------------
 sequence just before previous
@@ -335,5 +338,101 @@ and before that
 21 23 --> 。
 ***text***
 80 C5<crc>
+
+------------------------------------------------------another DRCS TV too
+80 FF F0
+04 00 00 01 E7
+3F 00 01 E3
+1F 
+30
+00 01 4C
+01 41 21 01
+01 02 24 24
+00 FF FF F0 0F 00 0F 00 00
+00 FF FF F0 0F 00 0F 00 00
+00 00 F0 00 0F 00 0F 00 00
+00 00 F0 00 0F 00 0F 00 00
+00 00 F0 00 00 F0 F0 00 00
+00 00 F0 00 00 F0 F0 00 00
+00 00 F0 00 00 0F 00 00 00
+00 00 F0 00 00 0F 00 00 00
+00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00
+00 FF FF FF FF FF FF 00 00
+00 FF FF FF FF FF FF 00 00
+0F F0 00 00 00 00 0F F0 00
+0F F0 00 00 00 00 0F F0 00
+0F 00 FF FF FF FF 00 F0 00
+0F 00 FF FF FF FF 00 F0 00
+0F 0F FF FF FF FF F0 F0 00
+0F 0F FF FF FF FF F0 F0 00
+0F 0F FF FF FF F0 F0 F0 00
+0F 0F FF FF FF F0 F0 F0 00
+0F 0F FF FF FF F0 F0 F0 00
+0F 0F FF FF FF F0 F0 F0 00
+0F 0F FF FF FF F0 F0 F0 00
+0F 0F FF FF FF F0 F0 F0 00
+0F 0F FF FF F0 0F F0 F0 00
+0F 0F FF FF F0 0F F0 F0 00
+0F 00 FF FF FF FF 00 F0 00
+0F 00 FF FF FF FF 00 F0 00
+0F F0 00 00 00 00 0F F0 00
+0F F0 00 00 00 00 0F F0 00
+00 FF FF FF FF FF FF 00 00
+00 FF FF FF FF FF FF 00 00
+00 00 00 0F F0 00 00 00 00
+00 00 00 0F F0 00 00 00 00
+00 0F FF FF FF FF F0 00 00
+00 0F FF FF FF FF F0 00 00
+
+1F 20 00 00 8D 0C 9B 39 20 53 9B 36 32 30 3B 34 31 36 20 56 9B 35 30 3B 33 32 20 5F 9B 34 20 58 9B 31 36 20 59 9B 33 36 3B 33 36 20 57 90 6F 90 20 41 90 7E 9B 31 3B 30 30 30 30 20 63 89 1C 45 49 88 90 20 44 90 51 24 52 24 47 24 2D 8A 1C 46 43 1B 2A 20 41 A1 89 1B 24 2A 42 21 4A 8A 3D 28 3C 79 89 21 4B 8A 7D 7A 89 21 56 8A 25 6D 21 3C 25 69 89 21 57 8A 1C 47 43 90 20 40 83 90 6B 90 20 41 90 7D 24 22 24 43 89 20 8A 3D 28 3C 79 89 21 23 B0 E2 80
+
+
+---------------- has [TEL] indicator-- is this DRCS?-------------------------
+80 FF F0
+04 00 00 00 72
+
+3F 00 00 6E
+1F 20 00 00 69
+0C
+9B 39 20 53
+9B 36 32 30 3B 34 31 36 20 56
+9B 35 30 3B 33 32 20 5F 9B 34 20 58
+9B 31 36 20 59
+9B 33 36 3B 33 36 20 57 90 6F 90 20 41 90 7E
+9B 31 3B 30 30 30 30 20 63
+89
+1C 46 45
+8A
+90 20 44
+90 51 
+91 40 <flashing control> start flashing
+7D 7B -->1111101, 1111011 --> telephone symbol --> 9391=☎ (row 93, COL 91)
+(row is 93--> 01011101 subtract 32 from decimal binary value to get col-->7D->125-32 = 93!!!
+binary 7d-->  01111101
+0xa6-->       10100110
+0x26-->       00100110
+col   is 91-->01011011
+    binary 7b 01111011 -->7b-->123-32=91!!!
+0xe7-->       11100111
+0x0e-->       00001110
+
+spec CC character is 260E
+EUC decoding i get   '\xa6\xe7'
+
+character 9391, right next to 'tel' symbol above ♬
+EUC-->'\xa2\xfc'
+or 0x26 0x6c
+
+89
+1C 47 45 <position>
+91 4F <flashing control> stop flashing
+21 4A　(
+8A
+24 5E ま
+24 6B　る
+3B 52　子
+89 21
+26 8A 24 39 24 5F 24 6C 89 21 4B 8A 24 73 24 43 21 29 6D 1F
 
 
