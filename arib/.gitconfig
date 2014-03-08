@@ -1,4 +1,0 @@
-[user]
-	name = johnoneil
-	email = oneil.john@gmail.com
-[alias] tree = log --graph --pretty=oneline --abbrev-commit
