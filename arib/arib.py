@@ -124,12 +124,33 @@ class CaptionStatementData:
       self.STM = 0
     self._data_unit_loop_length = read_ui3b(f)
     print 'Caption statement: data unit loop length: ' + str(self._data_unit_loop_length)
-    self._payload = f.read(self._data_unit_loop_length)
+    #self._payload = f.read(self._data_unit_loop_length)
+    bytes_read = 0
+    self._data_units = []
+    while bytes_read < self._data_unit_loop_length:
+      self._data_units.append(DataUnit(f))
+      bytes_read += self._data_units[-1].size()
 
   def load_caption_statement_data(self, data):
     '''Load class contents from caption statement data payload
     '''
     pass
+
+class DataUnit:
+  '''Data Unit structure as defined in ARIP B-24 Table 9-12 pg 157
+  '''
+  def __init__(self, f):
+    self._unit_separator = read_ucb(f)
+    if(self._unit_separator is not 0x1f):
+      raise ValueError
+    self._data_unit_type = read_ucb(f)
+    self._data_unit_size = read_ui3b(f)
+    print 'DataUnit size found to be: ' + str(self._data_unit_size)
+    self._payload = f.read(self._data_unit_size)
+  def size(self):
+    '''return size of inflated data unit in bytes
+    '''
+    return self._data_unit_size + 5
 
 def next_data_group(filepath):
   f = open(filepath, "rb")
