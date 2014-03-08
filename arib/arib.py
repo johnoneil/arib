@@ -53,7 +53,7 @@ def read_ui3b(f):
   return struct.unpack('>I', '\x00'+ (f.read(3)))[0]
   
 
-class DataGroup:
+class DataGroup(object):
   '''Represents an arib Data Group packet structure as
   described in ARIB b-24 Table 9-1 on pg 172
   '''
@@ -109,7 +109,7 @@ class DataGroup:
     '''
     return ((self._group_id >> 2)&(~0x20))==0
 
-class CaptionStatementData:
+class CaptionStatementData(object):
   '''Represents a closed caption text wrapper
   Detailed in table 9-10 in ARIB STD b-24 PG 176
   '''
@@ -136,21 +136,56 @@ class CaptionStatementData:
     '''
     pass
 
-class DataUnit:
+class DataUnit(object):
   '''Data Unit structure as defined in ARIP B-24 Table 9-12 pg 157
   '''
+  StatementBody = 0x20
+  Geometric = 0x28
+  SynthesizedSound = 0x2c
+  OneByteDRCS = 0x30
+  TwoByteDRCS = 0X31
+  ColorMap = 0x34
+  Bitmap = 0x35
+
   def __init__(self, f):
     self._unit_separator = read_ucb(f)
     if(self._unit_separator is not 0x1f):
+      print 'Unit separator not found at start of data unit.'
       raise ValueError
     self._data_unit_type = read_ucb(f)
+    print 'data unit type: ' + str(self._data_unit_type)
     self._data_unit_size = read_ui3b(f)
     print 'DataUnit size found to be: ' + str(self._data_unit_size)
     self._payload = f.read(self._data_unit_size)
+    #self._payload = self.load_unit(f)
+    
   def size(self):
     '''return size of inflated data unit in bytes
     '''
     return self._data_unit_size + 5
+
+  def load_unit(self, f):
+    if self._data_unit_type == StatementBody.ID:
+      return StatementBody(self,f)
+    else:
+      return f.read(self._data_unit_size)
+
+def StatementBody(DataUnit):
+  '''Statement body (caption text) in Data Unit
+  '''
+  ID = 0x20
+  def __init(self, DataUnit, f):
+    self._unit_separator = DataUnit._unit_separator
+    self._data_unit_type = DataUnit._data_unit_type
+    if self._data_unit_type is not 0x20:
+      print 'this is not caption data'
+      raise ValueError
+    self._data_unit_size = DataUnit._size
+    self._payload = f.read(self._data_unit_size)
+    print str(self._payload)
+  
+  def Type(self):
+    return StatementBody.ID
 
 def next_data_group(filepath):
   f = open(filepath, "rb")
