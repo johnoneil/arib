@@ -21,6 +21,8 @@ import argparse
 import string
 import struct
 from copy import copy
+import read
+import control_characters
 
 def get_byte(filepath):
   '''
@@ -36,22 +38,6 @@ def get_byte(filepath):
     pass
   finally:
     f.close()
-
-def read_ucb(f):
-  '''Read unsigned char byte from binary file
-  '''
-  return struct.unpack('B', f.read(1))[0]
-
-def read_usb(f):
-  '''Read unsigned short from binary file
-  '''
-  return struct.unpack('>H', f.read(2))[0]
-
-def read_ui3b(f):
-  '''Read unsigned short from binary file
-  '''
-  return struct.unpack('>I', '\x00'+ (f.read(3)))[0]
-  
 
 class DataGroup(object):
   '''Represents an arib Data Group packet structure as
@@ -69,31 +55,31 @@ class DataGroup(object):
   GroupA_Caption_Statement_lang8 = 0x8
   
   def __init__(self, f):
-    self._stuffing_byte = read_ucb(f)
+    self._stuffing_byte = read.ucb(f)
     print str(self._stuffing_byte)
     if(self._stuffing_byte is not 0x80):
       raise ValueError
-    self._data_identifier = read_ucb(f)
+    self._data_identifier = read.ucb(f)
     print str(self._data_identifier)
     if self._data_identifier is not 0xff:
       raise ValueError
-    self._private_stream_id = read_ucb(f)
+    self._private_stream_id = read.ucb(f)
     print str(self._private_stream_id)
     if self._private_stream_id is not 0xf0:
       raise ValueError
-    self._group_id = read_ucb(f)
+    self._group_id = read.ucb(f)
     print 'group id ' + str((self._group_id >> 2)&(~0x20))
-    self._group_link_number = read_ucb(f)
+    self._group_link_number = read.ucb(f)
     print str(self._group_link_number)
-    self._last_group_link_number = read_ucb(f)
+    self._last_group_link_number = read.ucb(f)
     print str(self._last_group_link_number)
-    self._data_group_size = read_usb(f)
+    self._data_group_size = read.usb(f)
     print 'data group size found is ' + str(self._data_group_size)
     if not self.is_management_data():
       self._payload = CaptionStatementData(f)
     else:
       self._payload = f.read(self._data_group_size)
-    self._crc = read_usb(f)
+    self._crc = read.usb(f)
     print 'crc value is ' + str(self._crc)
 
     #if this is caption data, analyze its structure
@@ -117,12 +103,12 @@ class CaptionStatementData(object):
     '''
     :param bytes: array of bytes payload
     '''
-    self._TMD = read_ucb(f)>>6
+    self._TMD = read.ucb(f)>>6
     if self._TMD == 0x01 or self._TMD == 0X10:
       self.STM = 0#TODO: read four bytes
     else:
       self.STM = 0
-    self._data_unit_loop_length = read_ui3b(f)
+    self._data_unit_loop_length = read.ui3b(f)
     print 'Caption statement: data unit loop length: ' + str(self._data_unit_loop_length)
     #self._payload = f.read(self._data_unit_loop_length)
     bytes_read = 0
@@ -165,48 +151,31 @@ class StatementBody(object):
     statements = []
     bytes_read = 0
     while bytes_read<bytes_to_read:
-      b = read_ucb(f)
-      bytes_read += 1
-      if b is 0x9b:#CIS command. read until we hit <space=0x20><closing command>
-        CIS = []
-        CIS.append(b)
-        c = read_ucb(f)
-        bytes_read += 1
-        while c is not 0x20:
-          CIS.append(c)
-          c = read_ucb(f)
-          bytes_read += 1
-        #lastly read the command code
-        CIS.append(read_ucb(f))
-        bytes_read += 1
-        statements.append(CIS)
-        print 'added CIS of length {len}'.format(len=str(len(CIS)))
-        print str(CIS)
+      b = read.ucb(f)
+      if b in control_characters.COMMAND_TABLE:
+        statement = control_characters.COMMAND_TABLE[b](f)
+        statements.append(statement)
+        bytes_read += len(statement)
+        print 'CSI read of length ' + str(len(statement))
+        print 'total bytes read are ' + str(bytes_read)
+        print statement
       else:
         statements.append(b)
+        bytes_read += 1
         print 'read byte ' + str(b)
-        #bytes_read += 1
     return bytes_read
 
 class DataUnit(object):
   '''Data Unit structure as defined in ARIP B-24 Table 9-12 pg 157
   '''
-  #StatementBody = 0x20
-  #Geometric = 0x28
-  #SynthesizedSound = 0x2c
-  #OneByteDRCS = 0x30
-  #TwoByteDRCS = 0X31
-  #ColorMap = 0x34
-  #Bitmap = 0x35
-
   def __init__(self, f):
-    self._unit_separator = read_ucb(f)
+    self._unit_separator = read.ucb(f)
     if(self._unit_separator is not 0x1f):
       print 'Unit separator not found at start of data unit.'
       raise ValueError
-    self._data_unit_type = read_ucb(f)
+    self._data_unit_type = read.ucb(f)
     print 'data unit type: ' + str(self._data_unit_type)
-    self._data_unit_size = read_ui3b(f)
+    self._data_unit_size = read.ui3b(f)
     print 'DataUnit size found to be: ' + str(self._data_unit_size)
     #self._payload = f.read(self._data_unit_size)
     self._payload = self.load_unit(f)
@@ -234,15 +203,6 @@ def next_data_group(filepath):
   finally:
     f.close()  
     
-#100110010   
-#100101000
-
-#100110010   
-#100101000
-
-#0x80,0x00-->management 10000000
-#0x84,0x00-->caption    10000100
-
 def main():
   parser = argparse.ArgumentParser(description='Draw CC Packets from MPG2 Elementary Stream.')
   parser.add_argument('infile', help='Input filename (MPEG2 Elmentary Stream)', type=str)
@@ -254,11 +214,6 @@ def main():
     print 'Please provide input Elemenatry Stream file.'
     os.exit(-1)
     
-  #open our file and process each packet.
-  #for byte in get_byte(infilename):
-  #  #print str(byte)
-  #  print '{0:x}'.format(ord(byte))
-
   for data_group in next_data_group(infilename):
     pass
 

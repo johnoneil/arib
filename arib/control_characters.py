@@ -20,6 +20,8 @@ import string
 import struct
 from copy import copy
 
+import read
+
 class NUL(object):
   '''Null
   Control code, which can be added or deleted without effecting to
@@ -596,11 +598,33 @@ class CSI(object):
   '''
   CODE = 0x9b
   def __init__(self, f):
-    pass
+    '''read from stream until we get "space" and then our CSI
+      specific control character.
+    '''
+    self._string = []
+    c = read.ucb(f)
+    while c is not 0x20:
+      self._string.append(c)
+      c = read.ucb(f)
+    self._string.append(c)
+    #lastly read the command code
+    c = read.ucb(f)
+    self._string.append(c) 
+
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return len(self._string) + 1
+
+  def __str__(self):
+    return str(self._string)
 
   @staticmethod
   def handler(f):
-    pass
+    return CSI(f)
+
+    
 
 
 class TIME(object):
@@ -616,50 +640,50 @@ class TIME(object):
     pass
 
 COMMAND_TABLE = {
-  NUL.CODE : NUL.handler,
-  SP.CODE : SP.handler,
-  DEL.CODE : DEL.handler,
-  BEL.CODE : BEL.handler,
-  APB.CODE : APB.handler,
-  APF.CODE : APF.handler,
-  APD.CODE : APD.handler,
-  APU.CODE : APU.handler,
-  CS.CODE : CS.handler,
-  APR.CODE : APR.handler,
-  LS1.CODE : LS1.handler,
-  LS0.CODE : LS0.handler,
-  PAPF.CODE : PAPF.handler,
-  CAN.CODE : CAN.handler,
-  SS2.CODE : SS2.handler,
-  ESC.CODE : ESC.handler,
-  APS.CODE : APS.handler,
-  SS3.CODE : SS3.handler,
-  RS.CODE : RS.handler,
-  US.CODE : US.handler,
-  BKF.CODE : BKF.handler,
-  COL.CODE : COL.handler,
-  RDF.CODE : RDF.handler,
-  FLC.CODE : FLC.handler,
-  GRF.CODE : GRF.handler,
-  CDC.CODE : CDC.handler,
-  YLF.CODE : YLF.handler,
-  POL.CODE : POL.handler,
-  BLF.CODE : BLF.handler,
-  WMM.CODE : WMM.handler,
-  MGF.CODE : MGF.handler,
-  MACRO.CODE : MACRO.handler,
-  CNF.CODE : CNF.handler,
-  WHF.CODE : WHF.handler,
-  HLC.CODE : HLC.handler,
-  SSZ.CODE : SSZ.handler,
-  RPC.CODE : RPC.handler,
-  MSZ.CODE : MSZ.handler,
-  SPL.CODE : SPL.handler,
-  NSZ.CODE : NSZ.handler,
-  STL.CODE : STL.handler,
-  SZX.CODE : SZX.handler,
+  #NUL.CODE : NUL.handler,
+  #SP.CODE : SP.handler,
+  #DEL.CODE : DEL.handler,
+  #BEL.CODE : BEL.handler,
+  #APB.CODE : APB.handler,
+  #APF.CODE : APF.handler,
+  #APD.CODE : APD.handler,
+  #APU.CODE : APU.handler,
+  #CS.CODE : CS.handler,
+  #APR.CODE : APR.handler,
+  #LS1.CODE : LS1.handler,
+  #LS0.CODE : LS0.handler,
+  #PAPF.CODE : PAPF.handler,
+  #CAN.CODE : CAN.handler,
+  #SS2.CODE : SS2.handler,
+  #ESC.CODE : ESC.handler,
+  #APS.CODE : APS.handler,
+  #SS3.CODE : SS3.handler,
+  #RS.CODE : RS.handler,
+  #US.CODE : US.handler,
+  #BKF.CODE : BKF.handler,
+  #COL.CODE : COL.handler,
+  #RDF.CODE : RDF.handler,
+  #FLC.CODE : FLC.handler,
+  #GRF.CODE : GRF.handler,
+  #CDC.CODE : CDC.handler,
+  #YLF.CODE : YLF.handler,
+  #POL.CODE : POL.handler,
+  #BLF.CODE : BLF.handler,
+  #WMM.CODE : WMM.handler,
+  #MGF.CODE : MGF.handler,
+  #MACRO.CODE : MACRO.handler,
+  #CNF.CODE : CNF.handler,
+  #WHF.CODE : WHF.handler,
+  #HLC.CODE : HLC.handler,
+  #SSZ.CODE : SSZ.handler,
+  #RPC.CODE : RPC.handler,
+  #MSZ.CODE : MSZ.handler,
+  #SPL.CODE : SPL.handler,
+  #NSZ.CODE : NSZ.handler,
+  #STL.CODE : STL.handler,
+  #SZX.CODE : SZX.handler,
   CSI.CODE : CSI.handler,
-  TIME.CODE : TIME.handler,
+  #TIME.CODE : TIME.handler,
 }
 
 def is_control_character(char):
