@@ -337,11 +337,23 @@ class APS(object):
   '''
   CODE = 0x1C
   def __init__(self, f):
-    pass
+    self._args = []
+    self._args.append(read.ucb(f))#p1
+    self._args.append(read.ucb(f))#p2
+    #TODO: check range of argument values 
+    
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return len(self._args) + 1
+
+  def __str__(self):
+    return 'APS'
 
   @staticmethod
   def handler(f):
-    pass
+    return APS(f)
 
 class SS3(object):
   '''Single shift 3
@@ -411,7 +423,7 @@ class COL(object):
     self._args = []
     p1 = read.ucb(f)
     self._args.append(p1)
-    if p1 == 0x02:
+    if p1 == 0x20:
       self._args.append(read.ucb(f))
 
   def __len__(self):
@@ -605,9 +617,18 @@ class SSZ(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'SSZ'
+
   @staticmethod
   def handler(f):
-    pass
+    return SSZ(f)
 
 
 class RPC(object):
@@ -633,9 +654,18 @@ class MSZ(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'MSZ'
+
   @staticmethod
   def handler(f):
-    pass
+    return MSZ(f)
 
 
 class SPL(object):
@@ -659,9 +689,18 @@ class NSZ(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'NSZ'
+
   @staticmethod
   def handler(f):
-    pass
+    return NSZ(f)
 
 
 class STL(object):
@@ -759,7 +798,7 @@ COMMAND_TABLE = {
   #CAN.CODE : CAN.handler,
   #SS2.CODE : SS2.handler,
   #ESC.CODE : ESC.handler,
-  #APS.CODE : APS.handler,
+  APS.CODE : APS.handler,
   #SS3.CODE : SS3.handler,
   #RS.CODE : RS.handler,
   #US.CODE : US.handler,
@@ -778,11 +817,11 @@ COMMAND_TABLE = {
   #CNF.CODE : CNF.handler,
   #WHF.CODE : WHF.handler,
   #HLC.CODE : HLC.handler,
-  #SSZ.CODE : SSZ.handler,
+  SSZ.CODE : SSZ.handler,
   #RPC.CODE : RPC.handler,
-  #MSZ.CODE : MSZ.handler,
+  MSZ.CODE : MSZ.handler,
   #SPL.CODE : SPL.handler,
-  #NSZ.CODE : NSZ.handler,
+  NSZ.CODE : NSZ.handler,
   #STL.CODE : STL.handler,
   #SZX.CODE : SZX.handler,
   CSI.CODE : CSI.handler,
