@@ -31,9 +31,18 @@ class NUL(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'NUL'
+
   @staticmethod
   def handler(f):
-    pass
+    return NUL(f)
 
 class SP(object):
   '''Space
@@ -42,9 +51,18 @@ class SP(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'SP'
+
   @staticmethod
   def handler(f):
-    pass
+    return SP(f)
 
 class DEL(object):
   '''Delete
@@ -53,9 +71,18 @@ class DEL(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'DEL'
+
   @staticmethod
   def handler(f):
-    pass
+    return DEL(f)
 
 
 class BEL(object):
@@ -65,10 +92,19 @@ class BEL(object):
   CODE = 0X07
   def __init__(self, f):
     pass
+  
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'BEL'
 
   @staticmethod
   def handler(f):
-    pass
+    return BEL(f)
 
 class APB(object):
   '''Active position backward
@@ -82,9 +118,18 @@ class APB(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'APB'
+
   @staticmethod
   def handler(f):
-    pass
+    return APB(f)
 
 class APF(object):
   '''Active position forward
@@ -98,9 +143,18 @@ class APF(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'APF'
+
   @staticmethod
   def handler(f):
-    pass
+    return APF(f)
 
 class APD(object):
   '''Active position down
@@ -113,9 +167,18 @@ class APD(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'APD'
+
   @staticmethod
   def handler(f):
-    pass
+    return APD(f)
 
 class APU(object):
   '''Active position up
@@ -128,9 +191,18 @@ class APU(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'APU'
+
   @staticmethod
   def handler(f):
-    pass
+    return APU(f)
 
 class CS(object):
   '''Clear screen
@@ -140,9 +212,18 @@ class CS(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'CS'
+
   @staticmethod
   def handler(f):
-    pass
+    return CS(f)
 
 class APR(object):
   '''Active position return
@@ -153,9 +234,18 @@ class APR(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'APR'
+
   @staticmethod
   def handler(f):
-    pass
+    return APR(f)
 
 class LS1(object):
   '''Locking shift 1
@@ -318,11 +408,24 @@ class COL(object):
   '''
   CODE = 0x90
   def __init__(self, f):
-    pass
+    self._args = []
+    p1 = read.ucb(f)
+    self._args.append(p1)
+    if p1 == 0x02:
+      self._args.append(read.ucb(f))
+
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return len(self._args) + 1
+
+  def __str__(self):
+    return 'COL:' + str(self._args)
 
   @staticmethod
   def handler(f):
-    pass
+    return COL(f)
 
 
 class RDF(object):
@@ -618,7 +721,7 @@ class CSI(object):
     return len(self._string) + 1
 
   def __str__(self):
-    return str(self._string)
+    return 'CSI:' + str(self._string)
 
   @staticmethod
   def handler(f):
@@ -640,16 +743,16 @@ class TIME(object):
     pass
 
 COMMAND_TABLE = {
-  #NUL.CODE : NUL.handler,
-  #SP.CODE : SP.handler,
-  #DEL.CODE : DEL.handler,
-  #BEL.CODE : BEL.handler,
-  #APB.CODE : APB.handler,
-  #APF.CODE : APF.handler,
-  #APD.CODE : APD.handler,
-  #APU.CODE : APU.handler,
-  #CS.CODE : CS.handler,
-  #APR.CODE : APR.handler,
+  NUL.CODE : NUL.handler,
+  SP.CODE : SP.handler,
+  DEL.CODE : DEL.handler,
+  BEL.CODE : BEL.handler,
+  APB.CODE : APB.handler,
+  APF.CODE : APF.handler,
+  APD.CODE : APD.handler,
+  APU.CODE : APU.handler,
+  CS.CODE : CS.handler,
+  APR.CODE : APR.handler,
   #LS1.CODE : LS1.handler,
   #LS0.CODE : LS0.handler,
   #PAPF.CODE : PAPF.handler,
@@ -661,7 +764,7 @@ COMMAND_TABLE = {
   #RS.CODE : RS.handler,
   #US.CODE : US.handler,
   #BKF.CODE : BKF.handler,
-  #COL.CODE : COL.handler,
+  COL.CODE : COL.handler,
   #RDF.CODE : RDF.handler,
   #FLC.CODE : FLC.handler,
   #GRF.CODE : GRF.handler,
