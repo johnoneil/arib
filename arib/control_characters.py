@@ -318,12 +318,48 @@ class ESC(object):
   Code for code extension.
   '''
   CODE = 0x1b
+
+  LS2 = 0x6e
+  LS3 = 0X6f
+  LS1R = 0x7e
+  LS2R = 0x7d
+  LS3R = 0x7c
+
+  TWO_BYTE = 0x24
+  ONE_BYTE_G0 = 0x28
+  ONE_BYTE_G1 = 0x29
+  ONE_BYTE_G2 = 0x2a
+  ONE_BYTE_G3 = 0x2b
+
+  DCRS = 0x20
+
+  #FINAL BYTE
+  KANJI_2 = 0x42
+  ALPHANUMERIC = 0x4a
+  HIRAGANA = 0x30
+  KATAKANA = 0x31
+  
+
   def __init__(self, f):
-    pass
+    '''the interpretation and bytes read
+    after reading 'ESC' can be complex. Here
+    We'll just attempt to successfully read all
+    required args, and leave interpretation for later
+    '''
+    self._args.append(read.ucb(f))
+
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return len(self._args) + 1
+
+  def __str__(self):
+    return 'ESC ' + ' '.join('{:#x}'.format(x) for x in self._args)
 
   @staticmethod
   def handler(f):
-    pass
+    return ESC(f)
 
 class APS(object):
   '''Active position set
@@ -477,11 +513,21 @@ class FLC(object):
   '''
   CODE = 0x91
   def __init__(self, f):
-    pass
+    self._args = []
+    self._args.append(read.ucb(f))
+
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return len(self._args) + 1
+
+  def __str__(self):
+    return 'FLC ' + ' '.join('{:#x}'.format(x) for x in self._args)
 
   @staticmethod
   def handler(f):
-    pass
+    return FLC(f)
 
 
 class GRF(object):
@@ -844,11 +890,22 @@ class TIME(object):
   '''
   CODE = 0x9d
   def __init__(self, f):
-    pass
+    self._args = []
+    self._args.append(read.ucb(f))
+    self._args.append(read.ucb(f))
+
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return len(self._args) + 1
+
+  def __str__(self):
+    return 'TIME ' + ' '.join('{:#x}'.format(x) for x in self._args)
 
   @staticmethod
   def handler(f):
-    pass
+    return TIME(f)
 
 COMMAND_TABLE = {
   NUL.CODE : NUL.handler,
@@ -866,7 +923,7 @@ COMMAND_TABLE = {
   #PAPF.CODE : PAPF.handler,
   #CAN.CODE : CAN.handler,
   #SS2.CODE : SS2.handler,
-  #ESC.CODE : ESC.handler,
+  ESC.CODE : ESC.handler,
   APS.CODE : APS.handler,
   #SS3.CODE : SS3.handler,
   #RS.CODE : RS.handler,
@@ -874,7 +931,7 @@ COMMAND_TABLE = {
   BKF.CODE : BKF.handler,
   COL.CODE : COL.handler,
   RDF.CODE : RDF.handler,
-  #FLC.CODE : FLC.handler,
+  FLC.CODE : FLC.handler,
   GRF.CODE : GRF.handler,
   #CDC.CODE : CDC.handler,
   YLF.CODE : YLF.handler,
@@ -894,7 +951,7 @@ COMMAND_TABLE = {
   #STL.CODE : STL.handler,
   #SZX.CODE : SZX.handler,
   CSI.CODE : CSI.handler,
-  #TIME.CODE : TIME.handler,
+  TIME.CODE : TIME.handler,
 }
 
 def is_control_character(char):
@@ -902,8 +959,8 @@ def is_control_character(char):
   '''
   return char in COMMAND_TABLE
 
-def handle_control_character(f, char):
+def handle_control_character(b, f):
   '''
   handle a given control character read from stream f
   '''
-  return COMMAND_TABLE[char].handler(f)
+  return COMMAND_TABLE[b](f)

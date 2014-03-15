@@ -24,6 +24,7 @@ from copy import copy
 import read
 import control_characters
 import gl
+from decoder import Decoder
 
 def get_byte(filepath):
   '''
@@ -151,7 +152,15 @@ class StatementBody(object):
     print 'going to read {bytes} bytes in binary file caption statement.'.format(bytes=bytes_to_read)
     statements = []
     bytes_read = 0
+    #TODO: Check to see if decoder state is carred between packet processing
+    #currently recreating the decoder (and therefore resetting its state)
+    #on every packet paylod processing. This may be incorrect
+    decoder = Decoder()
     while bytes_read<bytes_to_read:
+      statement = decoder.decode(f)
+      bytes_read += len(statement)
+      print statement #just dump to stdout for now
+      '''      
       b = read.ucb(f)
       if b in control_characters.COMMAND_TABLE:
         statement = control_characters.COMMAND_TABLE[b](f)
@@ -159,12 +168,13 @@ class StatementBody(object):
         bytes_read += len(statement)
         print statement
       else:
-        #statement = gl.TwoByteKanji(b, f)
-        #statements.append(statement)
-        #bytes_read += len(statement)
-        #print statement
-        bytes_read += 1
         print '--> {:#x}'.format(b)
+        statement = gl.TwoByteKanji(b, f)
+        statements.append(statement)
+        bytes_read += len(statement)
+        print statement
+        #bytes_read += 1
+      '''
     return bytes_read
 
 class DataUnit(object):
