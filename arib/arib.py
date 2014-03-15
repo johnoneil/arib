@@ -23,6 +23,7 @@ import struct
 from copy import copy
 import read
 import control_characters
+import gl
 
 def get_byte(filepath):
   '''
@@ -156,13 +157,14 @@ class StatementBody(object):
         statement = control_characters.COMMAND_TABLE[b](f)
         statements.append(statement)
         bytes_read += len(statement)
-        print 'CSI read of length ' + str(len(statement))
-        print 'total bytes read are ' + str(bytes_read)
         print statement
       else:
-        statements.append(b)
+        #statement = gl.TwoByteKanji(b, f)
+        #statements.append(statement)
+        #bytes_read += len(statement)
+        #print statement
         bytes_read += 1
-        print 'read byte ' + str(b)
+        print '--> {:#x}'.format(b)
     return bytes_read
 
 class DataUnit(object):

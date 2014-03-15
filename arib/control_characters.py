@@ -349,7 +349,7 @@ class APS(object):
     return len(self._args) + 1
 
   def __str__(self):
-    return 'APS'
+    return 'APS {:#x} {:#x}'.format(self._args[0], self._args[1])
 
   @staticmethod
   def handler(f):
@@ -405,9 +405,18 @@ class BKF(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'BKF'
+
   @staticmethod
   def handler(f):
-    pass
+    return BKF(f)
 
 class COL(object):
   '''Color Controls
@@ -433,7 +442,7 @@ class COL(object):
     return len(self._args) + 1
 
   def __str__(self):
-    return 'COL:' + str(self._args)
+    return 'COL ' + ' '.join('{:#x}'.format(x) for x in self._args)
 
   @staticmethod
   def handler(f):
@@ -447,9 +456,18 @@ class RDF(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'RDF'
+
   @staticmethod
   def handler(f):
-    pass
+    return RDF(f)
 
 
 class FLC(object):
@@ -473,9 +491,18 @@ class GRF(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'GRF'
+
   @staticmethod
   def handler(f):
-    pass
+    return GRF(f)
 
 
 class CDC(object):
@@ -499,9 +526,18 @@ class YLF(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'YLF'
+
   @staticmethod
   def handler(f):
-    pass
+    return YLF(f)
 
 
 class POL(object):
@@ -524,9 +560,18 @@ class BLF(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'BLF'
+
   @staticmethod
   def handler(f):
-    pass
+    return BLF(f)
 
 
 class WMM(object):
@@ -552,9 +597,18 @@ class MGF(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'MGF'
+
   @staticmethod
   def handler(f):
-    pass
+    return MGF(f)
 
 
 class MACRO(object):
@@ -578,22 +632,39 @@ class CNF(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'CNF'
+
   @staticmethod
   def handler(f):
-    pass
+    return CNF(f)
 
 
 class WHF(object):
-  '''Single shift 3
-  Code to invoke character code set.
+  '''White background
   '''
   CODE = 0x87
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'WHF'
+
   @staticmethod
   def handler(f):
-    pass
+    return WHF(f)
 
 
 class HLC(object):
@@ -743,30 +814,28 @@ class CSI(object):
     '''read from stream until we get "space" and then our CSI
       specific control character.
     '''
-    self._string = []
+    self._args = []
     c = read.ucb(f)
     while c is not 0x20:
-      self._string.append(c)
+      self._args.append(c)
       c = read.ucb(f)
-    self._string.append(c)
+    self._args.append(c)
     #lastly read the command code
     c = read.ucb(f)
-    self._string.append(c) 
+    self._args.append(c) 
 
   def __len__(self):
     '''Defiing len() operator to help
     in calculating bytes read
     '''
-    return len(self._string) + 1
+    return len(self._args) + 1
 
   def __str__(self):
-    return 'CSI:' + str(self._string)
+    return 'CSI ' + ' '.join('{:#x}'.format(x) for x in self._args)
 
   @staticmethod
   def handler(f):
     return CSI(f)
-
-    
 
 
 class TIME(object):
@@ -802,20 +871,20 @@ COMMAND_TABLE = {
   #SS3.CODE : SS3.handler,
   #RS.CODE : RS.handler,
   #US.CODE : US.handler,
-  #BKF.CODE : BKF.handler,
+  BKF.CODE : BKF.handler,
   COL.CODE : COL.handler,
-  #RDF.CODE : RDF.handler,
+  RDF.CODE : RDF.handler,
   #FLC.CODE : FLC.handler,
-  #GRF.CODE : GRF.handler,
+  GRF.CODE : GRF.handler,
   #CDC.CODE : CDC.handler,
-  #YLF.CODE : YLF.handler,
+  YLF.CODE : YLF.handler,
   #POL.CODE : POL.handler,
-  #BLF.CODE : BLF.handler,
+  BLF.CODE : BLF.handler,
   #WMM.CODE : WMM.handler,
-  #MGF.CODE : MGF.handler,
+  MGF.CODE : MGF.handler,
   #MACRO.CODE : MACRO.handler,
-  #CNF.CODE : CNF.handler,
-  #WHF.CODE : WHF.handler,
+  CNF.CODE : CNF.handler,
+  WHF.CODE : WHF.handler,
   #HLC.CODE : HLC.handler,
   SSZ.CODE : SSZ.handler,
   #RPC.CODE : RPC.handler,
