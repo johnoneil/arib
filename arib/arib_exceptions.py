@@ -14,3 +14,9 @@ class UnimplimentedError(Exception):
     self._msg = msg
   def __str__(self):
     return 'Unimplimented: {msg}'.format(msg=self._msg)
+
+class DecodingError(Exception):
+  def __init__(self, msg='No further info'):
+    self._msg = msg
+  def __str__(self):
+    return 'Decoding Error: {msg}'.format(msg=self._msg)

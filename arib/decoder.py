@@ -11,6 +11,7 @@ DATE: Friday, March 15th 2014
 import read
 from control_characters import is_control_character
 from control_characters import handle_control_character
+import control_characters as control_char
 import code_set
 
 
@@ -41,6 +42,7 @@ class Decoder(object):
     #self._G1 = code_set.Alphanumeric()
     #self._G2 = code_set.Hiragana()
     #self._G3 = code_set.Macro()
+    self._single_shift = None
 
     #default code table 'invocations'
     self._GL = self._G0
@@ -78,28 +80,34 @@ class Decoder(object):
     '''Given first character c, read from f and change current
     encoding appropriately
     '''
-    pass
-    '''
-    if control_code is LS0:
-      self._GL = self._G0 #LOCKING
-    elif control_code is LS1:
-      self._GL = self._G1 #LOCKING
-    elif control_code is LS2:
-      self._GL = self._G2 #LOCKING
-    elif control_code is LS3:
-      self._GL = self._G3 #LOCKING
-    elif control_code is LS1R:
-      self._GR = self._G1 #LOCKING
-    elif control_code is LS2R:
-      self._GR = self._G2 #LOCKING
-    elif control_code is LS3R:
-      self._GR = self._G3 #LOCKING
-    elif control_code is SS2:
-      self._GL = self._G2 #SINGLE SHIFT
-    elif control_code is SS3:
-      self._GL = self._G3 #SINGLE SHIFT  
-    elif control_code is ESC:
-      #TODO: ARIB STD-B-24 table 7-2 pg 56
-      pass
-    '''
+    #If we have a saved control set hanging around, this means the current
+    #was set by SINGLE (NON LOCKING) SHIFT, so revert back to the saved
+    if self._single_shift:
+      self._GL = self._single_shift
+      self._single_shift = None
+
+    #Handle single byte dedicated control codes
+    if control_code is control_char.LS0:
+      self._GL == self._G0
+      return
+    if control_code is control_char.LS1:
+      self._GL == self._G1
+      return
+    if control_code == control_char.SS2:
+      #this is a single shift operator, so store the current mapping
+      #The stored value will be set back to active after decoding one character
+      self._single_shift = self._GL
+      self._GL = self._G2
+      return
+    if control_code == control_char.SS3:
+      #this is a single shift operator, so store the current mapping
+      #The stored value will be set back to active after decoding one character
+      self._single_shift = self._GL
+      self._GL = self._G3
+      return
+    
+    if control_code is not control_char.ESC:
+     return
+    
+  
     

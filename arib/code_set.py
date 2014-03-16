@@ -178,6 +178,135 @@ class Macro(object):
   def decode(b, f):
     raise UnimplimentedError()
 
+class DRCS0(object):
+  FINAL_BYTE = 0x40
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS1(object):
+  FINAL_BYTE = 0x41
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS2(object):
+  FINAL_BYTE = 0x42
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS3(object):
+  FINAL_BYTE = 0x43
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS4(object):
+  FINAL_BYTE = 0x44
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS5(object):
+  FINAL_BYTE = 0x45
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS6(object):
+  FINAL_BYTE = 0x46
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS7(object):
+  FINAL_BYTE = 0x47
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS8(object):
+  FINAL_BYTE = 0x48
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS9(object):
+  FINAL_BYTE = 0x49
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS10(object):
+  FINAL_BYTE = 0x4a
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS11(object):
+  FINAL_BYTE = 0x4b
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS12(object):
+  FINAL_BYTE = 0x4c
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS13(object):
+  FINAL_BYTE = 0x4d
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS14(object):
+  FINAL_BYTE = 0x4e
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+class DRCS15(object):
+  FINAL_BYTE = 0x4f
+  def __init__(self):
+    pass
+  @staticmethod
+  def decode(b, f):
+    pass
+
+#ARIB STD-B24 Table 7-3 Classification of code set and Final Byte (pg.57)
 CODE_SET_TABLE = {
   Kanji.FINAL_BYTE : Kanji.decode,
   Alphanumeric.FINAL_BYTE : Alphanumeric.decode,
@@ -195,11 +324,32 @@ CODE_SET_TABLE = {
   JISCompatiblePlane2.FINAL_BYTE : JISCompatiblePlane2.decode,
   AdditionalSymbols.FINAL_BYTE : AdditionalSymbols.decode,
   Macro.FINAL_BYTE : Macro.decode,
-}
+  DRCS0.FINAL_BYTE : DRCS0.decode,
+  DRCS1.FINAL_BYTE : DRCS1.decode,
+  DRCS2.FINAL_BYTE : DRCS2.decode,
+  DRCS3.FINAL_BYTE : DRCS3.decode,
+  DRCS4.FINAL_BYTE : DRCS4.decode,
+  DRCS5.FINAL_BYTE : DRCS5.decode,
+  DRCS6.FINAL_BYTE : DRCS6.decode,
+  DRCS7.FINAL_BYTE : DRCS7.decode,
+  DRCS8.FINAL_BYTE : DRCS8.decode,
+  DRCS9.FINAL_BYTE : DRCS9.decode,
+  DRCS10.FINAL_BYTE : DRCS10.decode,
+  DRCS11.FINAL_BYTE : DRCS11.decode,
+  DRCS12.FINAL_BYTE : DRCS12.decode,
+  DRCS13.FINAL_BYTE : DRCS13.decode,
+  DRCS14.FINAL_BYTE : DRCS14.decode,
+  DRCS15.FINAL_BYTE : DRCS15.decode,
+  }
 
-def code_set_from_final_byte(b):
+def in_code_set_table(b):
+  '''Is this in the code table
+  '''
+  return b in CODE_SET_TABLE
+
+def code_set_from_final_byte(b, f):
   '''Given the final byte of a code set control sequence
   return an object representing that code set and its decoding
   '''
-  return CODE_SET_TABLE[b]()
+  return CODE_SET_TABLE[b](b, f)
   
