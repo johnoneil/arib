@@ -202,6 +202,7 @@ class DRCS0(object):
 class DRCS1(object):
   FINAL_BYTE = 0x41
   def __init__(self,b, f):
+    print 'init drcs1'
     self._args = []
     self._args.append(b)
 
@@ -215,6 +216,7 @@ class DRCS1(object):
 
   @staticmethod
   def decode(b, f):
+    print 'decode DRCS1'
     return DRCS1(b, f)
 
 class DRCS2(object):
@@ -515,4 +517,10 @@ def code_set_from_final_byte(b, f):
   return an object representing that code set and its decoding
   '''
   return CODE_SET_TABLE[b](b, f)
+
+def code_set_handler_from_final_byte(b):
+  '''Given the final byte of a code set control sequence
+  return an object representing that code set and its decoding
+  '''
+  return CODE_SET_TABLE[b]
   

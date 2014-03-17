@@ -40,7 +40,7 @@ class Decoder(object):
     #default encoding 'designations'
     self._G0 = code_set.Kanji.decode
     self._G1 = code_set.Alphanumeric.decode
-    self._G2 = code_set.Hiragana.decode
+    self._G2 = code_set.DRCS1.decode #code_set.Hiragana.decode
     self._G3 = code_set.Macro.decode
     self._single_shift = None
 
@@ -69,7 +69,7 @@ class Decoder(object):
     elif is_gl_character(b):
       statement = self._GL(b, f)
     elif is_gr_character(b):
-      #statement = self._GR(b, f)
+      statement = self._GR(b, f)
       pass
 
     return statement
@@ -78,7 +78,7 @@ class Decoder(object):
     '''Given first character c, read from f and change current
     encoding appropriately
     '''
-    print 'handle_encoding_change'
+    #print 'handle_encoding_change'
     #If we have a saved control set hanging around, this means the current
     #was set by SINGLE (NON LOCKING) SHIFT, so revert back to the saved
     if self._single_shift:
@@ -108,7 +108,19 @@ class Decoder(object):
     if not isinstance(control_code, control_char.ESC):
      return
 
-    control_code.to_designation()
+    (designation, code_set) = control_code.to_designation()
+    #doing this via logic is pretty sloppy
+    print 'Setting code set {c} onto designation {d} '.format(c=str(code_set), d=str(designation))
+    if designation == 0:
+      self._G0 = code_set
+    elif designation == 1:
+      self._G1 = code_set
+    elif designation == 2:
+      self._G2 = code_set
+    elif designation == 3:
+      self._G3 = code_set
+    else:
+      raise DecodingError() 
     
   
     

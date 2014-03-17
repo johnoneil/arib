@@ -20,6 +20,7 @@ import string
 import struct
 from copy import copy
 from code_set import code_set_from_final_byte
+from code_set import code_set_handler_from_final_byte
 from code_set import in_code_set_table
 from arib_exceptions import DecodingError
 
@@ -567,19 +568,19 @@ class ESC(object):
     [G0.CODE,],
     [G1.CODE,],
     [G2.CODE,],
-    [G3,CODE,],
+    [G3.CODE,],
     [TwoByte.CODE, G0.CODE,],
     [TwoByte.CODE, G1.CODE,],
     [TwoByte.CODE, G2.CODE,],
-    [TwoByte.CODE, G3,CODE,],
+    [TwoByte.CODE, G3.CODE,],
     [G0.CODE, DRCS.CODE,],
     [G1.CODE, DRCS.CODE,],
     [G2.CODE, DRCS.CODE,],
-    [G3,CODE, DRCS.CODE,],
+    [G3.CODE, DRCS.CODE,],
     [TwoByte.CODE, G0.CODE, DRCS.CODE,],
     [TwoByte.CODE, G1.CODE, DRCS.CODE,],
     [TwoByte.CODE, G2.CODE, DRCS.CODE,],
-    [TwoByte.CODE, G3,CODE, DRCS.CODE,],
+    [TwoByte.CODE, G3.CODE, DRCS.CODE,],
   ]
 
   def __init__(self, f):
@@ -630,10 +631,26 @@ class ESC(object):
     designation = self._args[:-1]
     print 'final byte: {b}'.format(b=final_byte)
     print 'designation: {d}'.format(d=str(designation))
+    code_set = code_set_handler_from_final_byte(final_byte)
+    d = 0
     if designation in ESC.GRAPHIC_SETS_TABLE:
       print 'designation in table'
+      #for now i'm assuming i only need the designation g0-g3
+      #and the final byte (to get the new code set)
+      d = ESC.find_designation(designation)
     else:
       print 'not in table'
+      raise DecodingError()
+    return (d, code_set)
+
+  @staticmethod
+  def find_designation(bytes):
+    for i, pattern in enumerate(ESC.GRAPHIC_SETS_TABLE):
+      print '{b} : {i} {p}'.format(b=str(bytes), i=str(i), p=str(pattern))
+      if bytes == pattern:
+        print 'found designation match at {p} at index {i} and desig {d}'.format(p=str(pattern), i=str(i), d=str(i%4))
+        return i%4
+    #raise decoding error?
     
 
   @staticmethod
