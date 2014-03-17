@@ -179,132 +179,295 @@ class Macro(object):
     raise UnimplimentedError()
 
 class DRCS0(object):
+  '''0 is the 2 byte DRCS encoding
+  '''
   FINAL_BYTE = 0x40
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+    self._args.append(read.ucb(f))
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS0(b, f)
 
 class DRCS1(object):
   FINAL_BYTE = 0x41
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS1(b, f)
 
 class DRCS2(object):
   FINAL_BYTE = 0x42
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS2(b, f)
 
 class DRCS3(object):
   FINAL_BYTE = 0x43
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS3(b, f)
 
 class DRCS4(object):
   FINAL_BYTE = 0x44
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS4(b, f)
 
 class DRCS5(object):
   FINAL_BYTE = 0x45
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS5(b, f)
 
 class DRCS6(object):
   FINAL_BYTE = 0x46
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS6(b, f)
 
 class DRCS7(object):
   FINAL_BYTE = 0x47
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS7(b, f)
 
 class DRCS8(object):
   FINAL_BYTE = 0x48
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS8(b, f)
 
 class DRCS9(object):
   FINAL_BYTE = 0x49
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS9(b, f)
 
 class DRCS10(object):
   FINAL_BYTE = 0x4a
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS10(b, f)
 
 class DRCS11(object):
   FINAL_BYTE = 0x4b
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS11(b, f)
 
 class DRCS12(object):
   FINAL_BYTE = 0x4c
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS12(b, f)
 
 class DRCS13(object):
   FINAL_BYTE = 0x4d
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS13(b, f)
 
 class DRCS14(object):
   FINAL_BYTE = 0x4e
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS14(b, f)
 
 class DRCS15(object):
   FINAL_BYTE = 0x4f
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    pass
+    return DRCS15(b, f)
 
 #ARIB STD-B24 Table 7-3 Classification of code set and Final Byte (pg.57)
 CODE_SET_TABLE = {

@@ -39,14 +39,14 @@ class Decoder(object):
     '''
     #default encoding 'designations'
     self._G0 = code_set.Kanji.decode
-    #self._G1 = code_set.Alphanumeric()
-    #self._G2 = code_set.Hiragana()
-    #self._G3 = code_set.Macro()
+    self._G1 = code_set.Alphanumeric.decode
+    self._G2 = code_set.Hiragana.decode
+    self._G3 = code_set.Macro.decode
     self._single_shift = None
 
     #default code table 'invocations'
     self._GL = self._G0
-    #self._GR = self._G2
+    self._GR = self._G2
 
   def decode(self, f):
     '''Return an object representing the current character
@@ -72,14 +72,13 @@ class Decoder(object):
       #statement = self._GR(b, f)
       pass
 
-    #TODO: revert the encoding change if it was a non-locking shift
-
     return statement
 
   def handle_encoding_change(self, control_code):
     '''Given first character c, read from f and change current
     encoding appropriately
     '''
+    print 'handle_encoding_change'
     #If we have a saved control set hanging around, this means the current
     #was set by SINGLE (NON LOCKING) SHIFT, so revert back to the saved
     if self._single_shift:
@@ -87,13 +86,13 @@ class Decoder(object):
       self._single_shift = None
 
     #Handle single byte dedicated control codes
-    if control_code is control_char.LS0:
+    if isinstance(control_code, control_char.LS0):
       self._GL == self._G0
       return
-    if control_code is control_char.LS1:
+    if isinstance(control_code ,control_char.LS1):
       self._GL == self._G1
       return
-    if control_code == control_char.SS2:
+    if isinstance(control_code, control_char.SS2):
       #this is a single shift operator, so store the current mapping
       #The stored value will be set back to active after decoding one character
       self._single_shift = self._GL
@@ -106,8 +105,10 @@ class Decoder(object):
       self._GL = self._G3
       return
     
-    if control_code is not control_char.ESC:
+    if not isinstance(control_code, control_char.ESC):
      return
+
+    control_code.to_designation()
     
   
     

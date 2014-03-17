@@ -259,6 +259,15 @@ class LS1(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'LS1'
+
   @staticmethod
   def handler(f):
     return LS1(f)
@@ -552,6 +561,26 @@ class ESC(object):
   Code for code extension.
   '''
   CODE = 0x1b
+  #Mapping by ESC led byte patterns to code "designations"
+  #refer to ARIB STD B-24 table 7-12 (pg. 56)
+  GRAPHIC_SETS_TABLE = [
+    [G0.CODE,],
+    [G1.CODE,],
+    [G2.CODE,],
+    [G3,CODE,],
+    [TwoByte.CODE, G0.CODE,],
+    [TwoByte.CODE, G1.CODE,],
+    [TwoByte.CODE, G2.CODE,],
+    [TwoByte.CODE, G3,CODE,],
+    [G0.CODE, DRCS.CODE,],
+    [G1.CODE, DRCS.CODE,],
+    [G2.CODE, DRCS.CODE,],
+    [G3,CODE, DRCS.CODE,],
+    [TwoByte.CODE, G0.CODE, DRCS.CODE,],
+    [TwoByte.CODE, G1.CODE, DRCS.CODE,],
+    [TwoByte.CODE, G2.CODE, DRCS.CODE,],
+    [TwoByte.CODE, G3,CODE, DRCS.CODE,],
+  ]
 
   def __init__(self, f):
     '''the interpretation and bytes read
@@ -561,21 +590,18 @@ class ESC(object):
     '''
     b = read.ucb(f)
     self._args = []
-    self._args.append(read.ucb(f))
+    self._args.append(b)
     
     if b in INVOCATION_TABLE:
       print 'ESC INVOCATION {:#x}'.format(b)
-      self._args.append(b)
       INVOCATION_TABLE[b](self, f)
       #self._args.append(next)
     elif b in DESIGNATION_TABLE:
       print 'ESC DESIGNATION {:#x}'.format(b)
-      self._args.append(b)
       DESIGNATION_TABLE[b](self, f)
       #self._args.append(next)
     elif b == TwoByte.CODE:
       print 'ESC TWO BYTE {:#x}'.format(b)
-      self._args.append(b)
       TwoByte.handler(self, f)
       #self._args.append(next)
     else:
@@ -589,6 +615,26 @@ class ESC(object):
 
   def __str__(self):
     return 'ESC ' + ' '.join('{:#x}'.format(x) for x in self._args)
+
+  def to_designation(self):
+    '''Look at current ESC arguments and return their meaning
+    as a change in mapping in designation to code set
+    '''
+    if len(self._args) < 2:
+      raise DecodingError()
+
+    #strip the last byte of _args to examine, since it varies by final byte
+    #(i.e. the final byte indicates the code set we'll change to)
+    final_byte = self._args[-1]
+    #TODO: check final_byte to make sure it's code_set or throw
+    designation = self._args[:-1]
+    print 'final byte: {b}'.format(b=final_byte)
+    print 'designation: {d}'.format(d=str(designation))
+    if designation in ESC.GRAPHIC_SETS_TABLE:
+      print 'designation in table'
+    else:
+      print 'not in table'
+    
 
   @staticmethod
   def handler(f):
@@ -657,6 +703,15 @@ class SS3(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'SS3'
+
   @staticmethod
   def handler(f):
     return SS3(f)
@@ -670,6 +725,15 @@ class RS(object):
   def __init__(self, f):
     pass
 
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'RS'
+
   @staticmethod
   def handler(f):
     pass
@@ -682,6 +746,15 @@ class US(object):
   CODE = 0x1f
   def __init__(self, f):
     pass
+
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 1
+
+  def __str__(self):
+    return 'US'
 
   @staticmethod
   def handler(f):
