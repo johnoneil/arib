@@ -172,11 +172,21 @@ class AdditionalSymbols(object):
 
 class Macro(object):
   FINAL_BYTE = 0x70
-  def __init__(self):
-    pass
+  def __init__(self, b, f):
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    raise UnimplimentedError()
+    return Macro(b, f)
 
 class DRCS0(object):
   '''0 is the 2 byte DRCS encoding

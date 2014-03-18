@@ -78,13 +78,13 @@ class Decoder(object):
     #handle the current character for current encoding
     if is_control_character(b):
       statement = handle_control_character(b, f)
-      #possible internal encoding state change via returned control character.
-      self.handle_encoding_change(statement)
     elif is_gl_character(b):
       statement = self._GL(b, f)
     elif is_gr_character(b):
       statement = self._GR(b, f)
-      pass
+
+    #possible internal encoding state change via returned control character.
+    self.handle_encoding_change(statement)
 
     return statement
 
@@ -96,7 +96,7 @@ class Decoder(object):
     #If we have a saved control set hanging around, this means the current
     #was set by SINGLE (NON LOCKING) SHIFT, so revert back to the saved
     if self._single_shift:
-      self._GL = self._single_shift
+      self._GL.set(self._single_shift)
       self._single_shift = None
 
     #Handle single byte dedicated control codes
@@ -112,7 +112,7 @@ class Decoder(object):
       self._single_shift = self._GL.get()
       self._GL = self._G2
       return
-    if control_code == control_char.SS3:
+    if isinstance(control_code, control_char.SS3):
       #this is a single shift operator, so store the current mapping
       #The stored value will be set back to active after decoding one character
       self._single_shift = self._GL.get()
@@ -122,6 +122,8 @@ class Decoder(object):
     if not isinstance(control_code, control_char.ESC):
      return
 
+    #TODO: This control code can be EITHER  a designation or invocation
+    #currently only handling designation below.
     (designation, code_set) = control_code.to_designation()
     #doing this via logic is pretty sloppy
     print 'Setting code set {c} onto designation {d} '.format(c=str(code_set), d=str(designation))

@@ -590,12 +590,13 @@ class ESC(object):
     required args, and leave interpretation for later
     '''
     b = read.ucb(f)
+    print 'esc first byte is ' + '{:#x}'.format(b)
     self._args = []
     self._args.append(b)
     
     if b in INVOCATION_TABLE:
       print 'ESC INVOCATION {:#x}'.format(b)
-      INVOCATION_TABLE[b](self, f)
+      INVOCATION_TABLE[b](f)
       #self._args.append(next)
     elif b in DESIGNATION_TABLE:
       print 'ESC DESIGNATION {:#x}'.format(b)
@@ -621,6 +622,7 @@ class ESC(object):
     '''Look at current ESC arguments and return their meaning
     as a change in mapping in designation to code set
     '''
+    print 'ESC ' + str(self)
     if len(self._args) < 2:
       raise DecodingError()
 
