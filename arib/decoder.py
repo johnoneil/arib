@@ -15,6 +15,20 @@ import control_characters as control_char
 import code_set
 
 
+class ref(object):
+  '''Emulate pointer behavior
+  After http://stackoverflow.com/questions/1145722/simulating-pointers-in-python
+  '''
+  def __init__(self, obj):
+    self.obj = obj
+  def get(self):
+    return self.obj
+  def set(self, obj):
+    self.obj = obj
+  def __call__(self, *args):
+    return self.obj(*args)
+
+
 def is_gl_character(char):
   '''Is the current character in the GL area
   ARIB STD-B24 figure 7-1
@@ -38,10 +52,10 @@ class Decoder(object):
     '''Init decoding of code table areas to defaults
     '''
     #default encoding 'designations'
-    self._G0 = code_set.Kanji.decode
-    self._G1 = code_set.Alphanumeric.decode
-    self._G2 = code_set.DRCS1.decode #code_set.Hiragana.decode
-    self._G3 = code_set.Macro.decode
+    self._G0 = ref(code_set.Kanji.decode)
+    self._G1 = ref(code_set.Alphanumeric.decode)
+    self._G2 = ref(code_set.Hiragana.decode) #code_set.DRCS1.decode
+    self._G3 = ref(code_set.Macro.decode)
     self._single_shift = None
 
     #default code table 'invocations'
@@ -87,21 +101,21 @@ class Decoder(object):
 
     #Handle single byte dedicated control codes
     if isinstance(control_code, control_char.LS0):
-      self._GL == self._G0
+      self._GL = self._G0
       return
     if isinstance(control_code ,control_char.LS1):
-      self._GL == self._G1
+      self._GL = self._G1
       return
     if isinstance(control_code, control_char.SS2):
       #this is a single shift operator, so store the current mapping
       #The stored value will be set back to active after decoding one character
-      self._single_shift = self._GL
+      self._single_shift = self._GL.get()
       self._GL = self._G2
       return
     if control_code == control_char.SS3:
       #this is a single shift operator, so store the current mapping
       #The stored value will be set back to active after decoding one character
-      self._single_shift = self._GL
+      self._single_shift = self._GL.get()
       self._GL = self._G3
       return
     
@@ -112,13 +126,13 @@ class Decoder(object):
     #doing this via logic is pretty sloppy
     print 'Setting code set {c} onto designation {d} '.format(c=str(code_set), d=str(designation))
     if designation == 0:
-      self._G0 = code_set
+      self._G0.set(code_set)
     elif designation == 1:
-      self._G1 = code_set
+      self._G1.set(code_set)
     elif designation == 2:
-      self._G2 = code_set
+      self._G2.set(code_set)
     elif designation == 3:
-      self._G3 = code_set
+      self._G3.set(code_set)
     else:
       raise DecodingError() 
     
