@@ -122,9 +122,15 @@ class Decoder(object):
     if not isinstance(control_code, control_char.ESC):
      return
 
-    #TODO: This control code can be EITHER  a designation or invocation
-    #currently only handling designation below.
-    (designation, code_set) = control_code.to_designation()
+    if control_code.is_invocation():
+      control_code.invoke(self)
+      return
+
+    if control_code.is_designation():
+      control_code.designate(self)
+      return
+
+    '''(designation, code_set) = control_code.to_designation()
     #doing this via logic is pretty sloppy
     print 'Setting code set {c} onto designation {d} '.format(c=str(code_set), d=str(designation))
     if designation == 0:
@@ -136,7 +142,8 @@ class Decoder(object):
     elif designation == 3:
       self._G3.set(code_set)
     else:
-      raise DecodingError() 
+    '''
+    raise DecodingError() 
     
   
     

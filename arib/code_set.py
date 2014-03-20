@@ -17,7 +17,7 @@ import read
 class Kanji(object):
   '''2 byte kanji code set.
   basically just euc-jisx0213 seven bit encoding.
-  We read the initial byte from a binary filestream, it's purpose is
+  We read the initial byte from a binary filestream, its purpose is
   detected, and that byte (and the stream) passed to this class for
   further reading and decoding.
   so it goes BYTE-->(logic determining type)-->Instance of Kanji class
@@ -59,28 +59,65 @@ class Kanji(object):
 
 class Alphanumeric(object):
   FINAL_BYTE = 0x4a
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    '''Read from stream one byte alphanumeric
+    '''
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return 'One Byte alphanumeric ' + ' '.join('{:#x}'.format(x) for x in self._args)
 
   @staticmethod
   def decode(b, f):
-    raise UnimplimentedError()
+    return Alphanumeric(b, f)
+
 
 class Hiragana(object):
   FINAL_BYTE = 0x30
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    '''Read from stream one byte hiragana
+    '''
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return 'One Byte Hiragana ' + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    raise UnimplimentedError()
+    return Hiragana(b, f)
 
 class Katakana(object):
   FINAL_BYTE = 0x31
-  def __init__(self):
-    pass
+  def __init__(self,b, f):
+    '''Read from stream one byte katakana
+    '''
+    self._args = []
+    self._args.append(b)
+
+  def __len__(self):
+    return len(self._args)
+
+  def __str__(self):
+    '''stringify to utf-8
+    '''
+    return 'One Byte katakana ' + ' '.join('{:#x}'.format(x) for x in self._args)
+
   @staticmethod
   def decode(b, f):
-    raise UnimplimentedError()
+    return Katakana(b, f)
+
 
 class MosaicA(object):
   FINAL_BYTE = 0x32

@@ -361,11 +361,16 @@ class LS2(object):
     '''
     return 2
 
+  def __call__(self, decoder):
+    '''cause in  INVOCATION change on decoder
+    '''
+    decoder._GL = decoder._G2
+
   def __str__(self):
     return 'LS2'
 
   @staticmethod
-  def handler(f):
+  def handler(f=None):
     return LS2(f)
 
 class LS3(object):
@@ -382,11 +387,16 @@ class LS3(object):
     '''
     return 2
 
+  def __call__(self, decoder):
+    '''cause in  INVOCATION change on decoder
+    '''
+    decoder._GL = decoder._G3
+
   def __str__(self):
     return 'LS3'
 
   @staticmethod
-  def handler(f):
+  def handler(f=None):
     return LS3(f)
 
 class LS1R(object):
@@ -402,6 +412,11 @@ class LS1R(object):
     in calculating bytes read
     '''
     return 2
+
+  def __call__(self, decoder):
+    '''cause in  INVOCATION change on decoder
+    '''
+    decoder._GR = decoder._G1
 
   def __str__(self):
     return 'LS1R'
@@ -424,11 +439,16 @@ class LS2R(object):
     '''
     return 2
 
+  def __call__(self, decoder):
+    '''cause in  INVOCATION change on decoder
+    '''
+    decoder._GR = decoder._G2
+
   def __str__(self):
     return 'LS2R'
 
   @staticmethod
-  def handler(f):
+  def handler(f=None):
     return LS2R(f)
 
 class LS3R(object):
@@ -445,11 +465,16 @@ class LS3R(object):
     '''
     return 2
 
+  def __call__(self, decoder):
+    '''cause in  INVOCATION change on decoder
+    '''
+    decoder._GR = decoder._G3
+
   def __str__(self):
     return 'LS3R'
 
   @staticmethod
-  def handler(f):
+  def handler(f=None):
     return LS3R(f)
 
 INVOCATION_TABLE = {
@@ -462,8 +487,15 @@ INVOCATION_TABLE = {
 
 class G0(object):
   CODE = 0x28
+  
+  def __init__(self):
+    pass
+
   @staticmethod
-  def handler(esc, f):
+  def factory():
+    return G0()
+
+  def load(self, esc, f):
     b = read.ucb(f)
     if b == DRCS.CODE:
       print 'G0 DRCS {:#x}'.format(b)
@@ -472,14 +504,25 @@ class G0(object):
     elif in_code_set_table(b):
       print 'G0 CODESET {:#x}'.format(b)
       esc._args.append(b)
-      #return  code_set_from_final_byte(b, f)
     else:
       raise DecodingError()
 
+  def designate(self, decoder, final_byte):
+    '''cause in  Designation change on decoder
+    '''
+    decoder._G0.set(code_set_handler_from_final_byte(final_byte))
+
 class G1(object):
   CODE = 0x29
+
+  def __init__(self):
+    pass
+
   @staticmethod
-  def handler(esc, f):
+  def factory():
+    return G1()
+
+  def load(self, esc, f):
     b = read.ucb(f)
     if b == DRCS.CODE:
       print 'G1 DRCS {:#x}'.format(b)
@@ -488,14 +531,26 @@ class G1(object):
     elif in_code_set_table(b):
       print 'G1 CODESET {:#x}'.format(b)
       esc._args.append(b)
-      #return  code_set_from_final_byte(b, f)
     else:
       raise DecodingError()
 
+  def designate(self, decoder, final_byte):
+    '''cause in  Designation change on decoder
+    '''
+    decoder._G1.set(code_set_handler_from_final_byte(final_byte))
+
+
 class G2(object):
   CODE = 0x2a
+
+  def __init__(self):
+    pass
+
   @staticmethod
-  def handler(esc, f):
+  def factory():
+    return G2()
+
+  def load(self, esc, f):
     b = read.ucb(f)
     if b == DRCS.CODE:
       print 'G2 DRCS {:#x}'.format(b)
@@ -504,14 +559,24 @@ class G2(object):
     elif in_code_set_table(b):
       print 'G2 CODESET {:#x}'.format(b)
       esc._args.append(b)
-      #return  code_set_from_final_byte(b, f)
     else:
       raise DecodingError()
 
+  def designate(self, decoder, final_byte):
+    '''cause in  Designation change on decoder
+    '''
+    decoder._G2.set(code_set_handler_from_final_byte(final_byte))
+
 class G3(object):
   CODE = 0x2b
+  def __init__(self):
+    pass
+
   @staticmethod
-  def handler(esc, f):
+  def factory():
+    return G3()
+
+  def load(self, esc, f):
     b = read.ucb(f)
     if b == DRCS.CODE:
       print 'G3 DRCS {:#x}'.format(b)
@@ -520,15 +585,19 @@ class G3(object):
     elif in_code_set_table(b):
       print 'G3 CODESET {:#x}'.format(b)
       esc._args.append(b)
-      #return  code_set_from_final_byte(b, f)
     else:
       raise DecodingError()
 
+  def designate(self, decoder, final_byte):
+    '''cause in  Designation change on decoder
+    '''
+    decoder._G3.set(code_set_handler_from_final_byte(final_byte))
+
 DESIGNATION_TABLE = {
-  G0.CODE : G0.handler,
-  G1.CODE : G1.handler,
-  G2.CODE : G2.handler,
-  G3.CODE : G3.handler,
+  G0.CODE : G0.factory,
+  G1.CODE : G1.factory,
+  G2.CODE : G2.factory,
+  G3.CODE : G3.factory,
 }
 
 class TwoByte(object):
@@ -541,7 +610,8 @@ class TwoByte(object):
       #return  code_set_from_final_byte(b, f)
     elif b in DESIGNATION_TABLE:
       esc._args.append(b)
-      DESIGNATION_TABLE[b](esc, f)
+      d = DESIGNATION_TABLE[b]()
+      d.load(esc, f)
     else:
       raise DecodingError() 
 
@@ -600,7 +670,8 @@ class ESC(object):
       #self._args.append(next)
     elif b in DESIGNATION_TABLE:
       print 'ESC DESIGNATION {:#x}'.format(b)
-      DESIGNATION_TABLE[b](self, f)
+      d = DESIGNATION_TABLE[b]()
+      d.load(self, f)
       #self._args.append(next)
     elif b == TwoByte.CODE:
       print 'ESC TWO BYTE {:#x}'.format(b)
@@ -617,6 +688,40 @@ class ESC(object):
 
   def __str__(self):
     return 'ESC ' + ' '.join('{:#x}'.format(x) for x in self._args)
+
+  def is_invocation(self):
+    '''Return whether this ESC control sequence
+    describes an invocation or not
+    '''
+    return self._args[0] in INVOCATION_TABLE
+
+  def invoke(self, decoder):
+    '''Carry out an INVOCATION on a decoder object
+    '''
+    if not self.is_invocation():
+      raise DecodingError('Attempting to get invocation from ESC sequence that has none.')
+    invocation = INVOCATION_TABLE[self._args[0]]()
+    invocation(decoder)
+
+  def is_designation(self):
+    #print 'ESC ' + str(self)
+    if len(self._args) < 2:
+      raise DecodingError()
+
+    designation = self._args[:-1]
+    return designation in ESC.GRAPHIC_SETS_TABLE
+
+  def designate(self, decoder):
+    '''Carry out an INVOCATION on a decoder object
+    '''
+    if not self.is_designation():
+      raise DecodingError('Attempting to get designation from ESC sequence that has none.')
+    final_byte = self._args[-1]
+    byte_pattern = self._args[:-1]
+    d = ESC.find_designation(byte_pattern)
+    designation = DESIGNATION_TABLE[d]()
+    designation.designate(decoder, final_byte)
+      
 
   def to_designation(self):
     '''Look at current ESC arguments and return their meaning
@@ -651,7 +756,7 @@ class ESC(object):
       print '{b} : {i} {p}'.format(b=str(bytes), i=str(i), p=str(pattern))
       if bytes == pattern:
         print 'found designation match at {p} at index {i} and desig {d}'.format(p=str(pattern), i=str(i), d=str(i%4))
-        return i%4
+        return DESIGNATION_TABLE.keys()[i%4]
     #raise decoding error?
     
 
