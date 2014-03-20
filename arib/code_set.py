@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # vim: set ts=2 expandtab:
 '''
 Module: code_set.py
@@ -61,9 +62,18 @@ class Alphanumeric(object):
   FINAL_BYTE = 0x4a
   def __init__(self,b, f):
     '''Read from stream one byte alphanumeric
+    Arib alphanumeric is the same as ASCII, except 
+    the '\' backslash has been replaced by　¥.
+    In cases of characters not representable by on screen
+    characters, decoding error is raised.
     '''
     self._args = []
     self._args.append(b)
+
+    s =''.join('{:02x}'.format(a & 0xef) for a in self._args)
+    h = s.decode('hex')
+    decoded = h.decode('ascii')
+    self._character = 'ASCII ' + decoded.encode('utf-8') 
 
   def __len__(self):
     return len(self._args)
@@ -71,7 +81,8 @@ class Alphanumeric(object):
   def __str__(self):
     '''stringify to utf-8
     '''
-    return 'One Byte alphanumeric ' + ' '.join('{:#x}'.format(x) for x in self._args)
+    return self._character
+
 
   @staticmethod
   def decode(b, f):
@@ -86,17 +97,43 @@ class Hiragana(object):
     self._args = []
     self._args.append(b)
 
+    upper_byte = (b >> 4) & 0x0e
+    lower_byte = b & 0x0f
+    #self._character = '{:#x}'.format(self._args[0] & 0xef)
+    self._character = Hiragana.CODING[lower_byte][upper_byte]
+
   def __len__(self):
     return len(self._args)
 
   def __str__(self):
     '''stringify to utf-8
     '''
-    return 'One Byte Hiragana ' + ' '.join('{:#x}'.format(x) for x in self._args)
+    return 'One Byte Hiragana ' + self._character
 
   @staticmethod
   def decode(b, f):
     return Hiragana(b, f)
+
+  #single byte hiragana coding table ARIB STD-B24 table 7-7 pg.50
+  CODING = {
+    0x0 : {0x2 : ' ', 0x3 : 'ぐ', 0x4 : 'だ', 0x5 : 'ば', 0x6 :'む', 0x7 : 'る',},
+    0x1 : {0x2 : 'ぁ', 0x3 : 'け', 0x4 : 'ち', 0x5 : 'ぱ', 0x6 :'め', 0x7 : 'ゑ',},
+    0x2 : {0x2 : 'あ', 0x3 : 'げ', 0x4 : 'ぢ', 0x5 : 'ひ', 0x6 :'も', 0x7 : 'を',},
+    0x3 : {0x2 : 'ぃ', 0x3 : 'こ', 0x4 : 'っ', 0x5 : 'び', 0x6 :'ゃ', 0x7 : 'ん',},
+    0x4 : {0x2 : 'い', 0x3 : 'ご', 0x4 : 'つ', 0x5 : 'ぴ', 0x6 :'や', 0x7 : '　',},
+    0x5 : {0x2 : 'ぅ', 0x3 : 'さ', 0x4 : 'づ', 0x5 : 'ふ', 0x6 :'ゅ', 0x7 : '　',},
+    0x6 : {0x2 : 'う', 0x3 : 'ざ', 0x4 : 'て', 0x5 : 'ぶ', 0x6 :'ゆ', 0x7 : '　',},
+    0x7 : {0x2 : 'ぇ', 0x3 : 'し', 0x4 : 'で', 0x5 : 'ぷ', 0x6 :'ょ', 0x7 : 'ゝ',},
+    0x8 : {0x2 : 'え', 0x3 : 'じ', 0x4 : 'と', 0x5 : 'へ', 0x6 :'よ', 0x7 : 'ゞ',},
+    0x9 : {0x2 : 'ぉ', 0x3 : 'す', 0x4 : 'ど', 0x5 : 'べ', 0x6 :'ら', 0x7 : 'ー',},
+    0xa : {0x2 : 'お', 0x3 : 'ず', 0x4 : 'な', 0x5 : 'ぺ', 0x6 :'り', 0x7 : '。',},
+    0xb : {0x2 : 'か', 0x3 : 'せ', 0x4 : 'に', 0x5 : 'ほ', 0x6 :'る', 0x7 : '「',},
+    0xc : {0x2 : 'が', 0x3 : 'ぜ', 0x4 : 'ぬ', 0x5 : 'ぼ', 0x6 :'れ', 0x7 : '」',},
+    0xd : {0x2 : 'き', 0x3 : 'そ', 0x4 : 'ね', 0x5 : 'ぽ', 0x6 :'ろ', 0x7 : '、',},
+    0xe : {0x2 : 'ぎ', 0x3 : 'ぞ', 0x4 : 'の', 0x5 : 'ま', 0x6 :'ゎ', 0x7 : '.',},
+    0xf : {0x2 : 'く', 0x3 : 'た', 0x4 : 'は', 0x5 : 'み', 0x6 :'わ', 0x7 : '　',},
+  }
+
 
 class Katakana(object):
   FINAL_BYTE = 0x31
