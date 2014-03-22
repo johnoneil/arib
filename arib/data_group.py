@@ -70,9 +70,8 @@ class DataGroup(object):
     if DEBUG:
       print 'crc value is ' + str(self._crc)
 
-    #if this is caption data, analyze its structure
-    #if not self.is_management_data():
-    #  payload = copy(self._payload)
+  def payload(self):
+    return self._payload
 
   def is_management_data(self):
     '''Estimate whether the payload of this packet is 

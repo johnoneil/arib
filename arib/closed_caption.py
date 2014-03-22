@@ -44,6 +44,12 @@ class CaptionStatementData(object):
     '''
     pass
 
+def next_data_unit(caption_statement_data):
+    current = 0
+    while current < len(caption_statement_data._data_units):
+        yield caption_statement_data._data_units[current]
+        current += 1
+
 class StatementBody(object):
   '''Statement body (caption text) in Data Unit
   '''
@@ -59,6 +65,9 @@ class StatementBody(object):
     #self._payload = f.read(self._data_unit_size)
     self._payload = StatementBody.parse_contents(f, self._data_unit_size)
     #print str(self._payload)
+
+  def payload(self):
+    return self._payload
 
   @staticmethod
   def Type():
@@ -82,14 +91,15 @@ class StatementBody(object):
     while bytes_read<bytes_to_read:
       statement = decoder.decode(f)
       bytes_read += len(statement)
-      if isinstance(statement, code_set.Kanji) or isinstance(statement, code_set.Alphanumeric) \
-        or isinstance(statement, code_set.Hiragana) or isinstance(statement, code_set.Katakana):
-        if DEBUG:
-          print statement #just dump to stdout for now
-        line += str(statement)
-    if len(line)>0:
-      print '{l}\n'.format(l=line)
-    return bytes_read
+      statements.append(statement)
+      #if isinstance(statement, code_set.Kanji) or isinstance(statement, code_set.Alphanumeric) \
+      #  or isinstance(statement, code_set.Hiragana) or isinstance(statement, code_set.Katakana):
+      #  if DEBUG:
+      #    print statement #just dump to stdout for now
+    #    line += str(statement)
+    #if len(line)>0:
+    #  print '{l}\n'.format(l=line)
+    return statements
 
 
 class DataUnit(object):
@@ -109,6 +119,9 @@ class DataUnit(object):
       print 'DataUnit size found to be: ' + str(self._data_unit_size)
     #self._payload = f.read(self._data_unit_size)
     self._payload = self.load_unit(f)
+
+  def payload(self):
+    return self._payload
     
   def size(self):
     '''return size of inflated data unit in bytes
