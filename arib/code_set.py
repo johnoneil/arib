@@ -73,7 +73,7 @@ class Alphanumeric(object):
     s =''.join('{:02x}'.format(a & 0xef) for a in self._args)
     h = s.decode('hex')
     decoded = h.decode('ascii')
-    self._character = 'ASCII ' + decoded.encode('utf-8')
+    self._character = decoded.encode('utf-8')
     if self._character == '\\':
       self._character = '¥'
 
@@ -110,7 +110,7 @@ class Hiragana(object):
   def __str__(self):
     '''stringify to utf-8
     '''
-    return 'One Byte Hiragana ' + self._character
+    return self._character
 
   @staticmethod
   def decode(b, f):
@@ -155,7 +155,7 @@ class Katakana(object):
   def __str__(self):
     '''stringify to utf-8
     '''
-    return 'One Byte katakana ' + self._character
+    return self._character
 
   @staticmethod
   def decode(b, f):

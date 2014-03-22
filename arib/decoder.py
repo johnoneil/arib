@@ -14,6 +14,8 @@ from control_characters import handle_control_character
 import control_characters as control_char
 import code_set
 
+DEBUG = False
+
 
 class ref(object):
   '''Emulate pointer behavior
@@ -53,7 +55,7 @@ class Decoder(object):
     '''
     #default encoding 'designations'
     self._G0 = ref(code_set.Kanji.decode)
-    self._G1 = ref(code_set.Alphanumeric.decode)
+    self._G1 = ref(code_set.Katakana.decode)#ref(code_set.Alphanumeric.decode)
     self._G2 = ref(code_set.Hiragana.decode) #code_set.DRCS1.decode
     self._G3 = ref(code_set.Macro.decode)
     self._single_shift = None
@@ -66,7 +68,8 @@ class Decoder(object):
     '''Return an object representing the current character
     '''
     b = read.ucb(f)
-    print '-->{:02x}'.format(b)
+    if DEBUG:
+      print '-->{:02x}'.format(b)
     #the interpretation and how many more bytes we have to read
     #depends upon:
     #1) What code table is this character in? c0? GR? GL? etc.
@@ -130,19 +133,6 @@ class Decoder(object):
       control_code.designate(self)
       return
 
-    '''(designation, code_set) = control_code.to_designation()
-    #doing this via logic is pretty sloppy
-    print 'Setting code set {c} onto designation {d} '.format(c=str(code_set), d=str(designation))
-    if designation == 0:
-      self._G0.set(code_set)
-    elif designation == 1:
-      self._G1.set(code_set)
-    elif designation == 2:
-      self._G2.set(code_set)
-    elif designation == 3:
-      self._G3.set(code_set)
-    else:
-    '''
     raise DecodingError() 
     
   
