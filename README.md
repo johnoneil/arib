@@ -5,7 +5,7 @@ Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stre
 ##Description
 Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separate PES (Packetized Elementary Stream) within the TS. The format of the data within this PES is described by the (Japanese native) ARIB B-24 standard. An English document describing this standard is included in the Arib/docs directory in this repository.
 
-My aim in writing this code was to draw out this Closed Caption data, and make it available for whatever purpose. Currently a small example exists (arib.py) which draws out CC character info from a PES (.es) file and dumps it to stdout.
+My aim in writing this code was to draw out this Closed Caption data, and make it available for whatever purpose. Currently a small example exists (examples/extract_ccs_from_es.py) which draws out CC character info from a PES (.es) file and dumps it to stdout.
 
 #Installation
 Basic installation is now supported, but I only currently recommend installing into a virtualenvironment as the lib is still only pre-alpha.
