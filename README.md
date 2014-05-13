@@ -8,9 +8,9 @@ Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separa
 My aim in writing this code was to draw out this Closed Caption data, and make it available for whatever purpose. Currently a small example exists (examples/extract_ccs_from_es.py) which draws out CC character info from a PES (.es) file and dumps it to stdout.
 
 #Installation
-Basic installation is now supported, but I only currently recommend installing into a virtualenvironment as the lib is still only pre-alpha.
+Basic installation is now supported, but I only currently recommend installing into a virtualenv as the lib is still only pre-alpha.
 
-That said, installation can now be carried out via pip. I recommend 'editable' (development) instal as below.
+That said, installation can now be carried out via pip. I recommend 'editable' (development) install as below.
 ```
 pip install -e git+https://github.com/johnoneil/arib#egg=arib
 ```
