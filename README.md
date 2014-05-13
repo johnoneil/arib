@@ -3,18 +3,9 @@
 Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stream Closed Caption Decoding Tools
 
 ##Description
-Closed Captions (CCs) are encoded in Japanese Elementary Streams as a separate PES (Packetized Elementary Stream) within the TS. The format of the dataa within this PES is described by the (Japanese native) ARIB B-24 standard. An english document describing this standard is included in the Arib/docs directory in this repository.
-My aim in writing this code was to draw out this Closed Caption data, and make it available for whatever purpose. Currently a small example exists where .ES data is drawn out and the CC info is dumped to the command line.
+Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separate PES (Packetized Elementary Stream) within the TS. The format of the data within this PES is described by the (Japanese native) ARIB B-24 standard. An English document describing this standard is included in the Arib/docs directory in this repository.
 
-##Status
-First, this project is currenly only a prototype (proof of concept). Much more work remains to make it a usable library.
-That said, this project currently operates on MPEG PES streams. These need to be separately drawn from .TS files via some other applicaiton. I'm currently using the TSTools 'ts2es' tool to do this.
-The basic ARIB decoder turns this PES (.es file) into an array of objects that contain info regarding things like characters on the screen, text positions and sizes and colors. These objects need a formatter to be written to turn them into whatever you want (extracted text, for example).
-Some areas have not bee implemented (yet?)
-* There is no current Gaiji support (i.e. custom Arib characters outside the normal shift-jis encoding table).
-* DRCS characters (custom characters described as simple bitmaps in the stream data) are detected, but not parsed.
-* Many other areas of the ARIB B-24 standard (such as  Mosaic image info) are not implemented.
-* Encoding is still weakly handled. Does not follow the best practice of "decode early, encode late" therefore many utf-8 encoding exceptions are likely.
+My aim in writing this code was to draw out this Closed Caption data, and make it available for whatever purpose. Currently a small example exists (arib.py) which draws out CC character info from a PES (.es) file and dumps it to stdout.
 
 #Installation
 Standard python installation not yet supported.
@@ -94,4 +85,16 @@ Then use ts2es to draw out the ES
 ```
 ts2es -pid 274 <input>.ts <output>.es
 ```
+##Status
+First, this project is currenly only a prototype (proof of concept). Much more work remains to make it a usable library.
+
+That said, this project currently operates on MPEG PES streams. These need to be separately drawn from .TS files via some other applicaiton. I'm currently using the TSTools 'ts2es' tool to do this.
+
+The basic ARIB decoder turns this PES (.es file) into an array of objects that contain info regarding things like characters on the screen, text positions and sizes and colors. These objects need a formatter to be written to turn them into whatever you want (extracted text, for example).
+
+Some areas have not bee implemented (yet?)
+* There is no current Gaiji support (i.e. custom Arib characters outside the normal shift-jis encoding table).
+* DRCS characters (custom characters described as simple bitmaps in the stream data) are detected, but not parsed.
+* Many other areas of the ARIB B-24 standard (such as  Mosaic image info) are not implemented.
+* Encoding is still weakly handled. Does not follow the best practice of "decode early, encode late" therefore many utf-8 encoding exceptions are likely.
 
