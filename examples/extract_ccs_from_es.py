@@ -2,19 +2,19 @@
 # vim: set ts=2 expandtab:
 '''
 Module:arib.py
-Desc: parsing Closed Captions from Japanese transport/elementary streams
+Desc: Example xtracting Japanese ARIB std B-24 CC data from an MPEG PES fille
 Author: John O'Neil
 Email: oneil.john@gmail.com
 DATE: Thursday, March 6th 2014
-
+updated: Tuesday, May 13th 2014
   
 '''
 import os
 import argparse
-from data_group import next_data_group
-from closed_caption import next_data_unit
-from closed_caption import StatementBody
-import code_set
+from arib.data_group import next_data_group
+from arib.closed_caption import next_data_unit
+from arib.closed_caption import StatementBody
+import arib.code_set as code_set
 
 def formatter(statements):
   '''Turn a list of decoded closed caption statements
@@ -40,15 +40,22 @@ def main():
     print 'Please provide input Elemenatry Stream file.'
     os.exit(-1)
   
-  #go through the file, taking packets apart as we go
+  #ARIB data is packed into a PES at a high level as 'Data Group' structures
+  #We iterate through the input PES file via the next_data_group generator
   for data_group in next_data_group(infilename):
-    #if this isn't management data it must have caption data
+    #There are several types of Data Groups. I'm here filtering out those
+    #that are 'management data' to get to those which contain basic CC text.
     if not data_group.is_management_data():
-      #take the caption data apart
+      #We now have a Data Group that contains caption data.
+      #We take out its payload, but this is further divided into 'Data Unit' structures
       caption = data_group.payload()
+      #iterate through the Data Units in this payload via another generator.
       for data_unit in next_data_unit(caption):
+        #we're only interested in those Data Units which are "statement body" to get CC data.
         if not isinstance(data_unit.payload(), StatementBody):
           continue
+        #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
+        #formatter function above. This dumps the basic text to stdout.
         print formatter(data_unit.payload().payload())
         
 
