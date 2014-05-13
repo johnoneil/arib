@@ -8,16 +8,21 @@ Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separa
 My aim in writing this code was to draw out this Closed Caption data, and make it available for whatever purpose. Currently a small example exists (arib.py) which draws out CC character info from a PES (.es) file and dumps it to stdout.
 
 #Installation
-Standard python installation not yet supported.
+Basic installation is now supported, but I only currently recommend installing into a virtualenvironment as the lib is still only pre-alpha.
+
+That said, installation can now be carried out via pip. I recommend 'editable' (development) instal as below.
+```
+pip install -e git+https://github.com/johnoneil/arib#egg=arib
+```
 
 #Example
-A simple example that should be easy to run is provided as arib.py. This example requies a PES input and simply draws out CC text found in the file, dumping it to the command line. Run it as:
+A simple example that should be easy to run is provided as examples/extract_ccs_from_es.py. This example requies a PES input and simply draws out CC text found in the file, dumping it to the command line. Run it as:
 ```
-./arib.py <pes filename>
+./extract_ccs_from_es <pes filename>
 ```
 A concrete example of a run follows:
 ```
-joneil@joneilDesktop ~/code/arib $ ./arib/arib.py analysis/toriko_subs.es
+joneil@joneilDesktop ~/code/arib $ ./examples/extract_ccs_from_es.py examples/toriko_subs.es
 
 うお〜！
 そろおやおや四天王がお揃いとは。
