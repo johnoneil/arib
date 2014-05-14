@@ -42,8 +42,8 @@ def formatter(statements):
   for s in statements:
     if type(s) in DISPLAYED_CC_STATEMENTS:
       line += str(s)
-    else:
-      print(str(type(s)))
+    #else:
+    #  print(str(type(s)))
 
   return line
 

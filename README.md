@@ -56,7 +56,14 @@ An example of inline control sequences carrying text position and other info fol
 ```
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">えいえゅゃ<Normal Text><CS:"170;449 a">栄純が<Medium Text><Small Text><CS:"530;449 a">い<Normal Text><CS:"190;509 a">きのぃとはゃなに言っくら訢
 ```
-Refer to the ARIB standard for descriptions of what these control sequences mean, but some are obvious (e.g. 620x480 is screen resolution for which position info is valid, 36,36 is character height, width in pixels, and "a" tags indicate the position in pixels a given text element will be positioned at).
+Refer to the ARIB documentation for descriptions of what these control sequences mean, but some can be summarized here:
+* 'S' character indicates time in secons caption is shown (here 7)
+* '_' underscore indicates UL corner in pixels of CC area (here at x=170,y=30).
+* 'V' indicates the width, height in pixels of the CC area (here 620x480). Note that this is inset inside a stanard screen dimension of 960x540.
+* 'W' indicates the height and width of a normal sized character in pixels. Japanese characters tend to be square.
+* 'X' is the pixel spacing between characters in CCs.
+* 'Y' is the pixel spacing between lines in CCs.
+* 'a' Positions the cursor to a particular Line/Column in the CC area. Here, 170, 380 is not a position in pixels, but rather the character row 170 and character column 380.
 
 #Manually drawing a PES from a TS file
 I'm currently using TSTools to draw out .es streams (Packetized Elemenatry Streams) from released MPEG TS files.
