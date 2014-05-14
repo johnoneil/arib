@@ -23,23 +23,24 @@ A simple example that should be easy to run is provided as examples/extract_ccs_
 A concrete example of a run follows:
 ```
 joneil@joneilDesktop ~/code/arib $ ./examples/extract_ccs_from_es.py examples/toriko_subs.es
-<clear screen>
-<clear screen><clear screen>
-<clear screen>
+
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 71,67>＜世はグルメ時代＞
-<clear screen>
-<Screen Posiiton to 71,65>＜食の探求者<Medium Size Text> <Normal Size Text>美食屋たちは訢
-<clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 71,65>＜食の探求者<Medium Text> <Normal Text>美食屋たちは訢
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 71,65>あまたの食材を追い求める＞
-<clear screen><Small Text>
-<Screen Posiiton to 76,66><Normal Size Text>＜そして<Medium Size Text> <Normal Size Text>この世の食材の頂点
-<Screen Posiiton to 70,66><Small Text>ゴッド<Medium Size Text>
-<Screen Posiiton to 70,75><Small Text>ほかく<Normal Size Text>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 76,66><Normal Text>＜そして<Medium Text> <Normal Text>この世の食材の頂点
+<Screen Posiiton to 70,66><Small Text>ゴッド<Medium Text>
+<Screen Posiiton to 70,75><Small Text>ほかく<Normal Text>
 <Screen Posiiton to 71,65>ＧＯＤの捕獲を目指す訢
-<clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 71,66>一人の美食屋がいた！＞
-<clear screen>
-<clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 71,64>頰〜
 ...
 ```

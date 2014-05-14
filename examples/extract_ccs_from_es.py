@@ -30,6 +30,16 @@ DISPLAYED_CC_STATEMENTS = [
   control_characters.SSZ,
   control_characters.CS,
   control_characters.CSI,
+  #control_characters.COL,
+  control_characters.BKF,
+  control_characters.RDF,
+  control_characters.GRF,
+  control_characters.YLF,
+  control_characters.BLF,
+  control_characters.MGF,
+  control_characters.CNF,
+  control_characters.WHF,
+
 ]
 
 def formatter(statements):

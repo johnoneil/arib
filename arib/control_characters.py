@@ -929,7 +929,7 @@ class BKF(object):
     return 1
 
   def __unicode__(self):
-    return u'BKF'
+    return u'<black>'
 
   @staticmethod
   def handler(f):
@@ -980,7 +980,7 @@ class RDF(object):
     return 1
 
   def __unicode__(self):
-    return u'RDF'
+    return u'<red>'
 
   @staticmethod
   def handler(f):
@@ -1025,7 +1025,7 @@ class GRF(object):
     return 1
 
   def __unicode__(self):
-    return u'GRF'
+    return u'<green>'
 
   @staticmethod
   def handler(f):
@@ -1060,7 +1060,7 @@ class YLF(object):
     return 1
 
   def __unicode__(self):
-    return u'YLF'
+    return u'<yellow>'
 
   @staticmethod
   def handler(f):
@@ -1094,7 +1094,7 @@ class BLF(object):
     return 1
 
   def __unicode__(self):
-    return u'BLF'
+    return u'<blue>'
 
   @staticmethod
   def handler(f):
@@ -1131,7 +1131,7 @@ class MGF(object):
     return 1
 
   def __unicode__(self):
-    return u'MGF'
+    return u'<magenta>'
 
   @staticmethod
   def handler(f):
@@ -1166,7 +1166,7 @@ class CNF(object):
     return 1
 
   def __unicode__(self):
-    return u'CNF'
+    return u'<cyan>'
 
   @staticmethod
   def handler(f):
@@ -1174,7 +1174,7 @@ class CNF(object):
 
 
 class WHF(object):
-  '''White background
+  '''White foreground color (text color)
   '''
   CODE = 0x87
   def __init__(self, f):
@@ -1187,7 +1187,7 @@ class WHF(object):
     return 1
 
   def __unicode__(self):
-    return u'WHF'
+    return u'<white>'
 
   @staticmethod
   def handler(f):
