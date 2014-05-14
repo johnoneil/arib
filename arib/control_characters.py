@@ -1358,7 +1358,7 @@ class CSI(object):
     return len(self._args) + 1
 
   def __str__(self):
-    return 'CSI ' + ' '.join('{:#x}'.format(x) for x in self._args)
+    return '<CS:"{seq}">'.format(seq=''.join('{:#c}'.format(x) for x in self._args))
 
   @staticmethod
   def handler(f):

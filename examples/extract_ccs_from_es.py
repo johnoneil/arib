@@ -29,6 +29,7 @@ DISPLAYED_CC_STATEMENTS = [
   control_characters.SP,
   control_characters.SSZ,
   control_characters.CS,
+  control_characters.CSI,
 ]
 
 def formatter(statements):
@@ -41,6 +42,8 @@ def formatter(statements):
   for s in statements:
     if type(s) in DISPLAYED_CC_STATEMENTS:
       line += str(s)
+    else:
+      print(str(type(s)))
 
   return line
 

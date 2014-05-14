@@ -49,6 +49,15 @@ Interestingly, you can see how the furigana for certain words (perl or kanji pro
 
 Timestamp info for the for the various text and clear screen commands would have to be drawn out of the .TS packet info. This functionality is not present in this package.
 
+Also note that in the example above, screen positions and other textual information was described using the ARIB control character set.
+There is another way in which such info is carried around: via the ARIB control *seqence* character set. Please refer to the ARIB.control_characters.CS class for more info.
+
+An example of inline control sequences carrying text position and other info follows:
+```
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">えいえゅゃ<Normal Text><CS:"170;449 a">栄純が<Medium Text><Small Text><CS:"530;449 a">い<Normal Text><CS:"190;509 a">きのぃとはゃなに言っくら訢
+```
+Refer to the ARIB standard for descriptions of what these control sequences mean, but some are obvious (e.g. 620x480 is screen resolution for which position info is valid, 36,36 is character height, width in pixels, and "a" tags indicate the position in pixels a given text element will be positioned at).
+
 #Manually drawing a PES from a TS file
 I'm currently using TSTools to draw out .es streams (Packetized Elemenatry Streams) from released MPEG TS files.
 
