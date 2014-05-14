@@ -15,15 +15,31 @@ from arib.data_group import next_data_group
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
 import arib.code_set as code_set
+import arib.control_characters as control_characters
+
+
+DISPLAYED_CC_STATEMENTS = [
+  code_set.Kanji,
+  code_set.Alphanumeric,
+  code_set.Hiragana,
+  code_set.Katakana,
+  control_characters.APS,
+  control_characters.MSZ,
+  control_characters.NSZ,
+  control_characters.SP,
+  control_characters.SSZ,
+  control_characters.CS,
+]
 
 def formatter(statements):
   '''Turn a list of decoded closed caption statements
     into something we want (probably just plain text)
   '''
   line = ''
+  #for s in statements:
+  #  print(str(type(s)))
   for s in statements:
-    if isinstance(s, code_set.Kanji) or isinstance(s, code_set.Alphanumeric) \
-      or isinstance(s, code_set.Hiragana) or isinstance(s, code_set.Katakana):
+    if type(s) in DISPLAYED_CC_STATEMENTS:
       line += str(s)
 
   return line
@@ -56,7 +72,9 @@ def main():
           continue
         #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
         #formatter function above. This dumps the basic text to stdout.
-        print formatter(data_unit.payload().payload())
+        line = formatter(data_unit.payload().payload())
+        if len(line):
+          print(line)
         
 
 if __name__ == "__main__":

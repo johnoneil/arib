@@ -18,31 +18,36 @@ pip install -e git+https://github.com/johnoneil/arib#egg=arib
 #Example
 A simple example that should be easy to run is provided as examples/extract_ccs_from_es.py. This example requies a PES input and simply draws out CC text found in the file, dumping it to the command line. Run it as:
 ```
-./extract_ccs_from_es <pes filename>
+./extract_ccs_from_es.py <pes filename>
 ```
 A concrete example of a run follows:
 ```
 joneil@joneilDesktop ~/code/arib $ ./examples/extract_ccs_from_es.py examples/toriko_subs.es
-
-うお〜！
-そろおやおや四天王がお揃いとは。
-
-
-いいでしょう。訢
-すぐに料理してさしあげましょう。
-
-頰〜
-
-
-
-（ティナ）無敵のジョアに対し訢
-ココサニーゼブラトリコがう迎え撃つ。訢
-これぞ四天王合体技祭り！
-
-（ティナ）次回も楽しさてんこ盛りです！
+<clear screen>
+<clear screen><clear screen>
+<clear screen>
+<Screen Posiiton to 71,67>＜世はグルメ時代＞
+<clear screen>
+<Screen Posiiton to 71,65>＜食の探求者<Medium Size Text> <Normal Size Text>美食屋たちは訢
+<clear screen>
+<Screen Posiiton to 71,65>あまたの食材を追い求める＞
+<clear screen><Small Text>
+<Screen Posiiton to 76,66><Normal Size Text>＜そして<Medium Size Text> <Normal Size Text>この世の食材の頂点
+<Screen Posiiton to 70,66><Small Text>ゴッド<Medium Size Text>
+<Screen Posiiton to 70,75><Small Text>ほかく<Normal Size Text>
+<Screen Posiiton to 71,65>ＧＯＤの捕獲を目指す訢
+<clear screen>
+<Screen Posiiton to 71,66>一人の美食屋がいた！＞
+<clear screen>
+<clear screen>
+<Screen Posiiton to 71,64>頰〜
 ...
 ```
-The above text dumped to the command line is correct, but note that furigana (pearl or kanji pronunciation guide) is inline in the text. This is because the formatter for the example output ignores text size and position objects parsed from the stream. This could be included in time, however.
+In the above each line is not timestamped, but you can see the cursor movement info (screen positions in character row/col) text size info, and the on screen CC text data.
+
+Interestingly, you can see how the furigana for certain words (perl or kanji pronunciation guide) is present for many romaji (latin alphabet) and kanji characters. For example the furigana "ゴッド" is positioned as small text above the normal sized text word "ＧＯＤ".
+
+Timestamp info for the for the various text and clear screen commands would have to be drawn out of the .TS packet info. This functionality is not present in this package.
 
 #Manually drawing a PES from a TS file
 I'm currently using TSTools to draw out .es streams (Packetized Elemenatry Streams) from released MPEG TS files.

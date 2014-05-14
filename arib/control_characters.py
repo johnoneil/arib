@@ -64,7 +64,7 @@ class SP(object):
     return 1
 
   def __str__(self):
-    return 'SP'
+    return ' '
 
   @staticmethod
   def handler(f):
@@ -225,7 +225,7 @@ class CS(object):
     return 1
 
   def __str__(self):
-    return 'CS'
+    return '<clear screen>'
 
   @staticmethod
   def handler(f):
@@ -838,7 +838,7 @@ class APS(object):
     return len(self._args) + 1
 
   def __str__(self):
-    return 'APS {:#x} {:#x}'.format(self._args[0], self._args[1])
+    return '\n<Screen Posiiton to {:#d},{:#d}>'.format(self._args[0], self._args[1])
 
   @staticmethod
   def handler(f):
@@ -1222,7 +1222,7 @@ class SSZ(object):
     return 1
 
   def __str__(self):
-    return 'SSZ'
+    return '<Small Text>'
 
   @staticmethod
   def handler(f):
@@ -1259,7 +1259,7 @@ class MSZ(object):
     return 1
 
   def __str__(self):
-    return 'MSZ'
+    return '<Medium Text>'
 
   @staticmethod
   def handler(f):
@@ -1294,7 +1294,7 @@ class NSZ(object):
     return 1
 
   def __str__(self):
-    return 'NSZ'
+    return '<Normal Text>'
 
   @staticmethod
   def handler(f):
