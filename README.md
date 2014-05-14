@@ -125,5 +125,5 @@ Some areas have not bee implemented (yet?)
 * There is no current Gaiji support (i.e. custom Arib characters outside the normal shift-jis encoding table).
 * DRCS characters (custom characters described as simple bitmaps in the stream data) are detected, but not parsed.
 * Many other areas of the ARIB B-24 standard (such as  Mosaic image info) are not implemented.
-* Encoding is still weakly handled. Does not follow the best practice of "decode early, encode late" therefore many utf-8 encoding exceptions are likely.
+* ~~Encoding is still weakly handled. Does not follow the best practice of "decode early, encode late" therefore many utf-8 encoding exceptions are likely.~~
 
