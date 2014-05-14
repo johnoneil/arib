@@ -63,7 +63,7 @@ Refer to the ARIB documentation for descriptions of what these control sequences
 * 'W' indicates the height and width of a normal sized character in pixels. Japanese characters tend to be square.
 * 'X' is the pixel spacing between characters in CCs.
 * 'Y' is the pixel spacing between lines in CCs.
-* 'a' Positions the cursor to a particular Line/Column in the CC area. Here, 170, 380 is not a position in pixels, but rather the character row 170 and character column 380.
+* 'a' Positions the cursor to a screen position in pixels. This is in contrast to the dedicated control character APS (Active Position Set) above which positions the cursor to a particular character *line* and *column*. APS style line and column positions can be translated to pixel positions by using the character width and height, space between characters and lines and the UL position of the CC area (see above).
 
 #Manually drawing a PES from a TS file
 I'm currently using TSTools to draw out .es streams (Packetized Elemenatry Streams) from released MPEG TS files.
