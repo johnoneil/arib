@@ -35,16 +35,9 @@ DISPLAYED_CC_STATEMENTS = [
 def formatter(statements):
   '''Turn a list of decoded closed caption statements
     into something we want (probably just plain text)
+    Note we deal with unicode only here.
   '''
-  line = ''
-  #for s in statements:
-  #  print(str(type(s)))
-  for s in statements:
-    if type(s) in DISPLAYED_CC_STATEMENTS:
-      line += str(s)
-    #else:
-    #  print(str(type(s)))
-
+  line = u''.join([unicode(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
   return line
 
 
@@ -75,9 +68,13 @@ def main():
           continue
         #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
         #formatter function above. This dumps the basic text to stdout.
-        line = formatter(data_unit.payload().payload())
-        if len(line):
-          print(line)
+        cc = formatter(data_unit.payload().payload())
+        if cc:
+          #according to best practice, always deal internally with UNICODE, and encode to
+          #your encoding of choice as late as possible. Here, i'm encoding as UTF-8 for
+          #my command line.
+          #DECODE EARLY, ENCODE LATE
+          print(cc.encode('utf-8'))
         
 
 if __name__ == "__main__":
