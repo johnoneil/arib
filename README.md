@@ -45,7 +45,10 @@ joneil@joneilDesktop ~/code/arib $ ./examples/extract_ccs_from_es.py examples/to
 The above text dumped to the command line is correct, but note that furigana (pearl or kanji pronunciation guide) is inline in the text. This is because the formatter for the example output ignores text size and position objects parsed from the stream. This could be included in time, however.
 
 #Manually drawing a PES from a TS file
-I'm currently using TSTools to draw out .es streams (Packetized Elemenatry Streams) from released MPEG TS files. This operation isn't difficult, and it could be added, but I just haven't gotten to to it yet.
+I'm currently using TSTools to draw out .es streams (Packetized Elemenatry Streams) from released MPEG TS files.
+
+Parsing .ts streams isn't *too* difficult, but I haven't found a decent python library that I can use yet. Building one will therefore take some time.
+
 Still, here's an example of drawing out an .es from a .ts.
 
 First, use tsinfo to examine the contents of the .ts
@@ -88,7 +91,7 @@ tsinfo -max 20000 <filename>.ts
 
 Then use ts2es to draw out the ES
 ```
-ts2es -pid 274 <input>.ts <output>.es
+ts2es -pid 276 <input>.ts <output>.es
 ```
 ##Status
 First, this project is currenly only a prototype (proof of concept). Much more work remains to make it a usable library.
