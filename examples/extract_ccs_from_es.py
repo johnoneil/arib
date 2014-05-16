@@ -39,7 +39,7 @@ DISPLAYED_CC_STATEMENTS = [
   control_characters.MGF,
   control_characters.CNF,
   control_characters.WHF,
-
+  control_characters.TIME,
 ]
 
 def formatter(statements):

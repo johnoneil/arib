@@ -20,6 +20,13 @@ def usb(f):
   return struct.unpack('>H', f.read(2))[0]
 
 def ui3b(f):
-  '''Read unsigned short from binary file
+  '''Read 3 byte unsigned short from binary file
   '''
   return struct.unpack('>I', '\x00'+ (f.read(3)))[0]
+
+def uib(f):
+  '''
+  '''
+  return struct.unpack('>L', f.read(4))[0]
+
+
