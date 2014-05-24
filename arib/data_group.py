@@ -65,7 +65,8 @@ class DataGroup(object):
     if not self.is_management_data():
       self._payload = CaptionStatementData(f)
     else:
-      self._payload = f.read(self._data_group_size)
+      #self._payload = f.read(self._data_group_size)
+      self._payload = read.buffer(f, self._data_group_size)
     self._crc = read.usb(f)
     if DEBUG:
       print 'crc value is ' + str(self._crc)

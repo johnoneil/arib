@@ -20,6 +20,7 @@ import argparse
 from arib_exceptions import DecodingError
 from struct import error as struct_error
 from copy import copy
+import struct
 
 '''
 http://en.wikipedia.org/wiki/MPEG_transport_stream
@@ -95,8 +96,70 @@ class AdaptationField(object):
   def OCR(self):
     return self._ocr
 
+  def payload(self):
+    return self._payload
+
   def __len__(self):
     return self._adaptation_field_length + 1
+
+def split_buffer(length, buf):
+  '''split provided array at index x
+  '''
+  a = buf[:length]
+  b = buf[length:]
+  return (a,b)
+
+def toub(list):
+  '''Convert a list of length 1 to an unsigned byte integer value
+  '''
+  return int(list[0])
+def tous(list):
+  '''convert a list of length 2 to an unsigned short integer value
+  '''
+  return int((list[0]<<8)|list[1])
+
+class PESPacket(object):
+  '''00 00 01 -->pes packet header
+  BD --->ped steam id
+  00 D2 -->PES packet length
+  80 81 17 23 C1 75 8D 23 8E
+  FF -->stuffing bytes
+  '''
+  def __init__(self, buf):
+    '''extract PES packet contents from buffer
+    '''
+    start_code, buf = split_buffer(3, buf)
+    #print('start code {c}'.format(c=start_code))
+    if start_code[2] != 0x1:
+      raise DecodingError("Incorrect start code on PES packet header.") 
+    stream_id, buf = split_buffer(1, buf)
+    self._stream_id = toub(stream_id)
+    #print('PES stream id: '+str(self._stream_id))
+    packet_length, buf = split_buffer(2, buf)
+    #print(str(packet_length))
+    #self._pes_packet_length = struct.unpack('>H', self._pes_packet_length)[0]
+    self._pes_packet_length = tous(packet_length)
+    #print('packet length ' + str(self._pes_packet_length))
+    if self._pes_packet_length == 0:
+      #it's possible the pes packet length is zero.
+      return
+    self._flags, buf = split_buffer(2, buf)
+    header_data_length, buf = split_buffer(1, buf)
+    self._header_data_length = toub(header_data_length)
+    #print ('header data length ' + str(self._header_data_length))
+    padding, self._payload = split_buffer(self._header_data_length, buf)
+
+  def header_size(self):
+    return self._header_data_length + 3 #3 additional bytes for header flags and the 2 byte size itself.
+
+  def length(self):
+    return self._pes_packet_length
+
+  def payload_size(self):
+    return len(self._payload)
+
+  def payload(self):
+    return self._payload
 
 
 class TSPacket(object):
@@ -131,10 +194,16 @@ class TSPacket(object):
   def payload(self):
     return self._payload
 
+  def pid(self):
+    return self._pid
+
   def adapatation_field(self):
     if not self._adaptation_field_exists:
       return None
     return self._adaptation_field
+
+  def payload_start(self):
+    return self._payload_start_indicator
 
 
 def next_ts_packet(filepath):
@@ -151,6 +220,38 @@ def next_ts_packet(filepath):
     pass
   finally:
     f.close()
+
+def next_pes_packet(filepath, pes_id):
+  '''Given the path to a .TS file, generate
+  a series of PES packet structures, given an PES id
+  '''
+  pes_packet = None
+  pes = []
+  for packet in next_ts_packet(infilename):
+    #always process timestamp info, regardless of PID
+    if packet.adapatation_field() and packet.adapatation_field().PCR():
+      current_timestamp = packet.adapatation_field().PCR()
+      initial_timestamp = initial_timestamp or current_timestamp
+      delta = current_timestamp - initial_timestamp
+      elapsed_time_s = float(delta)/90000.0
+      #print('{i} {c} {d} {s}'.format(i=initial_timestamp, c=current_timestamp, d=delta, s=elapsed_time_s))
+
+    #if this is the stream PID we're interestd in, reconstruct the ES
+    if packet.pid() == pes_id:
+      print('packet of interest.')
+      if packet.payload_start():
+        #print('Payload start:' + str(packet.payload_start()))
+        pes = copy.deepcopy(packet.payload())
+        #print('initial length of packet payload is {l}'.format(l=len(pes)))
+      else:
+        #print('Packet continued.')
+        #print('length of ts packet payload is {l}'.format(l=len(packet.payload())))
+        pes.extend(packet.payload())
+        #print('Current length of packet payload is {l}'.format(l=len(pes)))
+      pes_packet = PESPacket(pes)
+      #print 'Pes packet length: {p} and header size {h} and payload length: {l}'.format(p=pes_packet._pes_packet_length, h=pes_packet.header_size(), l=len(pes_packet._payload))
+      if pes_packet.length() == (pes_packet.header_size()+pes_packet.payload_size()):
+        yield pes_packet
   
 
 
