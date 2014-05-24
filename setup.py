@@ -12,7 +12,7 @@ def requirements():
     return f.read().splitlines()
 
 setup(name='arib',
-  version='0.1',
+  version='0.2',
   description='Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stream Closed Caption Decoding Tools',
   long_description = readme(),
 	classifiers=[

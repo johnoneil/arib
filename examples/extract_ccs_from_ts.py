@@ -2,7 +2,7 @@
 # vim: set ts=2 expandtab:
 '''
 Module:arib.py
-Desc: Example xtracting Japanese ARIB std B-24 CC data from an MPEG PES fille
+Desc: Example xtracting Japanese ARIB std B-24 CC data from an MPEG Transport stream
 Author: John O'Neil
 Email: oneil.john@gmail.com
 DATE: Thursday, March 6th 2014
@@ -56,15 +56,15 @@ def formatter(statements):
   return line
 
 def main():
-  parser = argparse.ArgumentParser(description='Draw CC Packets from MPG2 Elementary Stream.')
-  parser.add_argument('infile', help='Input filename (MPEG2 Elmentary Stream)', type=str)
+  parser = argparse.ArgumentParser(description='Draw CC Packets from MPG2 Transport Stream file.')
+  parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
   parser.add_argument('pid', help='Pid of closed caption ES to extract from stream.', type=int)
   args = parser.parse_args()
 
   pid = args.pid
   infilename = args.infile
   if not os.path.exists(infilename):
-    print 'Please provide input Elemenatry Stream file.'
+    print 'Please provide input Transport Stream file.'
     os.exit(-1)
 
   #CC data is not, in itself timestamped, so we've got to use packet info
@@ -81,28 +81,19 @@ def main():
       initial_timestamp = initial_timestamp or current_timestamp
       delta = current_timestamp - initial_timestamp
       elapsed_time_s = float(delta)/90000.0
-      #print('{i} {c} {d} {s}'.format(i=initial_timestamp, c=current_timestamp, d=delta, s=elapsed_time_s))
 
     #if this is the stream PID we're interestd in, reconstruct the ES
     if packet.pid() == pid:
-      #print('packet of interest.')
       if packet.payload_start():
-        #print('Payload start:' + str(packet.payload_start()))
         pes = copy.deepcopy(packet.payload())
-        #print('initial length of packet payload is {l}'.format(l=len(pes)))
       else:
-        #print('Packet continued.')
-        #print('length of ts packet payload is {l}'.format(l=len(packet.payload())))
         pes.extend(packet.payload())
-        #print('Current length of packet payload is {l}'.format(l=len(pes)))
       pes_packet = PESPacket(pes)
       
 
       #if our packet is fully formed (payload all present) we can parse its contents
       if pes_packet.length() == (pes_packet.header_size() + pes_packet.payload_size()):
         print('{s}'.format(s=elapsed_time_s))
-        #print 'Pes packet length: {p} and header size {h} and payload length: {l}'.format(p=pes_packet.length(), h=pes_packet.header_size(), l=pes_packet.payload_size())
-        #print u' '.join(u'{:#x}'.format(x) for x in pes_packet.payload())
         data_group = DataGroup(pes_packet.payload())
 
         if not data_group.is_management_data():
