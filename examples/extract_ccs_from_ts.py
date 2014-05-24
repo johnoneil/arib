@@ -47,11 +47,12 @@ DISPLAYED_CC_STATEMENTS = [
   #control_characters.TIME,
 ]
 
-def formatter(statements):
+def formatter(statements, timestamp):
   '''Turn a list of decoded closed caption statements
     into something we want (probably just plain text)
     Note we deal with unicode only here.
   '''
+  print('File elapsed time seconds: {s}'.format(s=timestamp))
   line = u''.join([unicode(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
   return line
 
@@ -93,7 +94,7 @@ def main():
 
       #if our packet is fully formed (payload all present) we can parse its contents
       if pes_packet.length() == (pes_packet.header_size() + pes_packet.payload_size()):
-        print('{s}'.format(s=elapsed_time_s))
+        
         data_group = DataGroup(pes_packet.payload())
 
         if not data_group.is_management_data():
@@ -107,7 +108,7 @@ def main():
               continue
             #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
             #formatter function above. This dumps the basic text to stdout.
-            cc = formatter(data_unit.payload().payload())
+            cc = formatter(data_unit.payload().payload(), elapsed_time_s)
             if cc:
               #according to best practice, always deal internally with UNICODE, and encode to
               #your encoding of choice as late as possible. Here, i'm encoding as UTF-8 for
