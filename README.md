@@ -5,7 +5,9 @@ Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stre
 ##Description
 Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separate PES (Packetized Elementary Stream) within the TS. The format of the data within this PES is described by the (Japanese native) ARIB B-24 standard. An English document describing this standard is included in the Arib/docs directory in this repository.
 
-My aim in writing this code was to draw out this Closed Caption data, and make it available for whatever purpose. Currently a small example exists (examples/extract_ccs_from_es.py) which draws out CC character info from a PES (.es) file and dumps it to stdout.
+My aim in writing this code was to draw this Closed Caption data from MPEG Transport Stream files, and make it available for whatever purpose. Currently, two small examples exist that show how the code can be used.
+* `examples/extract_ccs_from_ts.py` extracts both timestamp and closed caption info from .ts files if the closed caption es PID is known (see below)
+* `examples/extract_ccs_from_es.py` extracts closed captions only from .es (elementary stream) files.
 
 #Installation
 Basic installation is now supported, but I only currently recommend installing into a virtualenv as the lib is still only pre-alpha.
@@ -66,8 +68,10 @@ Refer to the ARIB documentation for descriptions of what these control sequences
 * 'Y' is the pixel spacing between lines in CCs.
 * 'a' Positions the cursor to a screen position in pixels. This is in contrast to the dedicated control character APS (Active Position Set) above which positions the cursor to a particular character *line* and *column*. APS style line and column positions can be translated to pixel positions by using the character width and height, space between characters and lines and the UL position of the CC area (see above).
 
-#Manually drawing a PES from a TS file
-I'm currently using TSTools to draw out .es streams (Packetized Elemenatry Streams) from released MPEG TS files.
+#Manually drawing a PID and/or PES from a TS file
+I'm currently using TSTools to draw out both program PID info and .es streams (Packetized Elemenatry Streams) from released MPEG TS files. To exampine CCs in a .ts file you need at least to know what the PID of the elementary stream withing the Transport Stream is. This section attempts to describe:
+* How to find the PID of a CC elementary stream in a .TS file (ts stream)
+* How to extract a given elementary stream from the 
 
 Parsing .ts streams isn't *too* difficult, but I haven't found a decent python library that I can use yet. Building one will therefore take some time.
 
@@ -118,7 +122,7 @@ ts2es -pid 276 <input>.ts <output>.es
 ##Status
 First, this project is currenly only a prototype (proof of concept). Much more work remains to make it a usable library.
 
-That said, this project currently operates on MPEG PES streams. These need to be separately drawn from .TS files via some other applicaiton. I'm currently using the TSTools 'ts2es' tool to do this.
+~~That said, this project currently operates on MPEG PES streams. These need to be separately drawn from .TS files via some other applicaiton. I'm currently using the TSTools 'ts2es' tool to do this.~~
 
 The basic ARIB decoder turns this PES (.es file) into an array of objects that contain info regarding things like characters on the screen, text positions and sizes and colors. These objects need a formatter to be written to turn them into whatever you want (extracted text, for example).
 
