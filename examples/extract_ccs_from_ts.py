@@ -73,6 +73,7 @@ def main():
   initial_timestamp = 0
   pes_packet = None
   pes = []
+  elapsed_time_s = 0
   for packet in next_ts_packet(infilename):
     #always process timestamp info, regardless of PID
     if packet.adapatation_field() and packet.adapatation_field().PCR():
