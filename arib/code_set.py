@@ -100,10 +100,9 @@ class Hiragana(object):
     self._args = []
     self._args.append(b)
 
-    upper_byte = (b >> 4) & 0x0e
-    lower_byte = b & 0x0f
-    #self._character = '{:#x}'.format(self._args[0] & 0xef)
-    self._character = Hiragana.ENCODING[lower_byte][upper_byte]
+    upper_nibble = (b >> 4) & 0x07
+    lower_nibble = b & 0x0f
+    self._character = Hiragana.ENCODING[lower_nibble][upper_nibble]
 
   def __len__(self):
     return len(self._args)
@@ -146,9 +145,9 @@ class Katakana(object):
     self._args = []
     self._args.append(b)
 
-    upper_byte = (b >> 4) & 0x0e
-    lower_byte = b & 0x0f
-    self._character = Katakana.ENCODING[lower_byte][upper_byte]
+    upper_nibble = (b >> 4) & 0x07
+    lower_nibble = b & 0x0f
+    self._character = Katakana.ENCODING[lower_nibble][upper_nibble]
 
   def __len__(self):
     return len(self._args)

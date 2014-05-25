@@ -222,6 +222,8 @@ def clear_screen(formatter, cs, timestamp):
 
   if len(formatter._current_lines[0]) or len(formatter._current_lines):
     for l in formatter._current_lines:
+      if not len(l):
+        continue
       line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=asstime(formatter._elapsed_time_s), end_time=asstime(timestamp), line=l)
       print line.encode('utf-8')
       formatter._ass_file.write(line)
