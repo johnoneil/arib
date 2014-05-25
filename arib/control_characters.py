@@ -832,11 +832,11 @@ class APS(object):
 
   @property
   def col(self):
-      return self._args[0]
+      return self._args[1]
 
   @property
   def row(self):
-      return self._args[1]
+      return self._args[0]
   
   def __len__(self):
     '''Defiing len() operator to help

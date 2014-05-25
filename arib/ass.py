@@ -197,7 +197,8 @@ def position_set(formatter, p, timestamp):
   So we have to calculate pixel coordinates (and then sale them)
   '''
   pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col)
-  formatter._current_lines[-1] += u'{{\pos({x},{y})}}'.format(x=pos.x, y=pos.y)
+  line = u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
+  formatter._current_lines.append(line)
 
 a_regex = ur'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
 
@@ -208,10 +209,8 @@ def control_character(formatter, csi, timestamp):
   <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">
   '''
   cmd = unicode(csi)
-  #print u"attempting to match " + cmd
   a_match = re.search(a_regex, cmd)
   if a_match:
-    #print 'match found'
     x = a_match.group('x')
     y = a_match.group('y')
     formatter._current_lines.append(u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y))
@@ -220,15 +219,13 @@ def control_character(formatter, csi, timestamp):
 pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'
 
 def clear_screen(formatter, cs, timestamp):
-  if formatter._current_lines[0]:
-    #split current line so we don't have more than one {pos} markup per line
-    #lines = re.split(pos_regex, formatter._current_line)
-    #for l in lines:
-    #  line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=asstime(formatter._elapsed_time_s), end_time=asstime(timestamp), line=l)
+
+  if len(formatter._current_lines[0]) or len(formatter._current_lines):
     for l in formatter._current_lines:
       line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=asstime(formatter._elapsed_time_s), end_time=asstime(timestamp), line=l)
       print line.encode('utf-8')
       formatter._ass_file.write(line)
+
   formatter._elapsed_time_s = timestamp
   formatter._current_lines = [u'']
 
