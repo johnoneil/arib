@@ -829,8 +829,16 @@ class APS(object):
     self._args = []
     self._args.append(read.ucb(f))#p1
     self._args.append(read.ucb(f))#p2
-    #TODO: check range of argument values 
-    
+    #TODO: check range of argument values
+
+  @property
+  def col(self):
+      return self._args[0]
+
+  @property
+  def row(self):
+      return self._args[1]
+  
   def __len__(self):
     '''Defiing len() operator to help
     in calculating bytes read

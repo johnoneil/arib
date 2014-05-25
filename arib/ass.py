@@ -16,6 +16,7 @@ file.
 import arib.code_set as code_set
 import arib.control_characters as control_characters
 import codecs
+import re
 
 class Pos(object):
   '''Screen position in pixels
@@ -107,7 +108,7 @@ Video File: {title}
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: normal,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
 Style: Box,MS UI Gothic,24,&HFFFFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,0
-Style: medium,MS UI Gothic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
+Style: medium,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,50,100,0,0,1,2,2,1,10,10,10,0
 Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
 
 
@@ -142,8 +143,51 @@ def katakana(formatter, k, timestamp):
   formatter._current_line += unicode(k)
   #print formatter._current_line.encode('utf-8')
 
+def medium(formatter, k, timestamp):
+  formatter._current_line += u'{\\rmedium}'
+
+def normal(formatter, k, timestamp):
+  formatter._current_line += u'{\\rnormal}'
+
+def small(formatter, k, timestamp):
+  formatter._current_line += u'{\\rsmall}'
+
+def space(formatter, k, timestamp):
+  formatter._current_line += u' '
+
+def position_set(formatter, p, timestamp):
+  '''Active Position set coordinates are given in character row, colum
+  So we have to calculate pixel coordinates (and then sale them)
+  '''
+  pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col)
+  formatter._current_line += u'{{\pos({x},{y})}}'.format(x=pos.x, y=pos.y)
+
+a_regex = ur'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
+
+def control_character(formatter, csi, timestamp):
+  '''This will be the most difficult to format, since the same class here
+  can represent so many different commands.
+  e.g:
+  <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">
+  '''
+  cmd = unicode(csi)
+  #print u"attempting to match " + cmd
+  a_match = re.search(a_regex, cmd)
+  if a_match:
+    #print 'match found'
+    x = a_match.group('x')
+    y = a_match.group('y')
+    formatter._current_line += u'{{\pos({x},{y})}}'.format(x=x, y=y)
+    return
+
+pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'
+
 def clear_screen(formatter, cs, timestamp):
   if formatter._current_line:
+    #split current line so we don't have more than one {pos} markup per line
+    #lines = re.split(pos_regex, formatter._current_line)
+    #for l in lines:
+    #  line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=asstime(formatter._elapsed_time_s), end_time=asstime(timestamp), line=l)
     line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=asstime(formatter._elapsed_time_s), end_time=asstime(timestamp), line=formatter._current_line)
     print line.encode('utf-8')
     formatter._ass_file.write(line)
@@ -163,13 +207,13 @@ class ASSFormatter(object):
   code_set.Alphanumeric : alphanumeric,
   code_set.Hiragana : hiragana,
   code_set.Katakana : katakana,
-  #control_characters.APS, #{\pos(<X>,<Y>)}
-  #control_characters.MSZ,
-  #control_characters.NSZ,
-  #control_characters.SP,
-  #control_characters.SSZ,
+  control_characters.APS : position_set,#{\pos(<X>,<Y>)}
+  control_characters.MSZ : medium, #{\rmedium}
+  control_characters.NSZ : normal, #{\rnormal}
+  control_characters.SP : space, #' '
+  control_characters.SSZ : small, #{\rsmall}
   control_characters.CS : clear_screen,
-  #control_characters.CSI,#{\pos(<X>,<Y>)}
+  control_characters.CSI : control_character, #{\pos(<X>,<Y>)}
   #control_characters.COL,
   #control_characters.BKF,#{\c&H000000&} \c&H<bb><gg><rr>&
   #control_characters.RDF,#{\c&H0000ff&}
