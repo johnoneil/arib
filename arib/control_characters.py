@@ -827,9 +827,8 @@ class APS(object):
   CODE = 0x1C
   def __init__(self, f):
     self._args = []
-    self._args.append(read.ucb(f))#p1
-    self._args.append(read.ucb(f))#p2
-    #TODO: check range of argument values
+    self._args.append(read.ucb(f)&0x3f)#p1
+    self._args.append(read.ucb(f)&0x3f)#p2
 
   @property
   def col(self):

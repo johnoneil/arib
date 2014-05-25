@@ -52,11 +52,11 @@ class Size(object):
 
 class ClosedCaptionArea(object):
   def __init__(self):
-    self._UL = Pos(120, 70)
-    self._Dimensions = Size(640, 480)
+    self._UL = Pos(170, 30)
+    self._Dimensions = Size(620, 480)
     self._CharacterDim = Size(36, 36)
-    self._char_spacing = 3
-    self._line_spacing = 10
+    self._char_spacing = 4
+    self._line_spacing = 24
 
   @property
   def UL(self):
