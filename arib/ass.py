@@ -107,7 +107,6 @@ Video File: {title}
     styles = u'''[V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: normal,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
-Style: Box,MS UI Gothic,24,&HFFFFFFFF,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,0
 Style: medium,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,50,100,0,0,1,2,2,1,10,10,10,0
 Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
 
@@ -128,39 +127,77 @@ def asstime(seconds):
 
 
 def kanji(formatter, k, timestamp):
-  formatter._current_line += unicode(k)
+  formatter._current_lines[-1] += unicode(k)
   #print formatter._current_line.encode('utf-8')
 
 def alphanumeric(formatter, a, timestamp):
-  formatter._current_line += unicode(a)
+  formatter._current_lines[-1] += unicode(a)
   #print formatter._current_line.encode('utf-8')
 
 def hiragana(formatter, h, timestamp):
-  formatter._current_line += unicode(h)
+  formatter._current_lines[-1] += unicode(h)
   #print formatter._current_line.encode('utf-8')
 
 def katakana(formatter, k, timestamp):
-  formatter._current_line += unicode(k)
+  formatter._current_lines[-1] += unicode(k)
   #print formatter._current_line.encode('utf-8')
 
 def medium(formatter, k, timestamp):
-  formatter._current_line += u'{\\rmedium}'
+  formatter._current_lines[-1] += u'{\\rmedium}' + formatter._current_color
+  formatter._current_style = 'medium'
 
 def normal(formatter, k, timestamp):
-  formatter._current_line += u'{\\rnormal}'
+  formatter._current_lines[-1] += u'{\\rnormal}' + formatter._current_color
+  formatter._current_style = 'normal'
 
 def small(formatter, k, timestamp):
-  formatter._current_line += u'{\\rsmall}'
+  formatter._current_lines[-1] += u'{\\rsmall}' + formatter._current_color
+  formatter._current_style = 'small'
 
 def space(formatter, k, timestamp):
-  formatter._current_line += u' '
+  formatter._current_lines[-1] += u' '
+
+def black(formatter, k, timestamp):
+  #{\c&H000000&} \c&H<bb><gg><rr>& {\c&Hffffff&}
+  formatter._current_lines[-1] += u'{\c&H000000&}'
+  formatter._current_color = '{\c&H000000&}'
+
+def red(formatter, k, timestamp):
+  #{\c&H0000ff&}
+  formatter._current_lines[-1] += u'{\c&H0000ff&}'
+  formatter._current_color = '{\c&H0000ff&}'
+def green(formatter, k, timestamp):
+  #{\c&H00ff00&}
+  formatter._current_lines[-1] += u'{\c&H00ff00&}'
+  formatter._current_color = '{\c&H00ff00&}'
+
+def yellow(formatter, k, timestamp):
+  #{\c&H00ffff&}
+  formatter._current_lines[-1] += u'{\c&H00ffff&}'
+  formatter._current_color = '{\c&H00ffff&}'
+def blue(formatter, k, timestamp):
+  #{\c&Hff0000&}
+  formatter._current_lines[-1] += u'{\c&Hff0000&}'
+  formatter._current_color = '{\c&Hff0000&}'
+def magenta(formatter, k, timestamp):
+  #{\c&Hff00ff&}
+  formatter._current_lines[-1] += u'{\c&Hff00ff&}'
+  formatter._current_color = '{\c&Hff00ff&}'
+def cyan(formatter, k, timestamp):
+  #{\c&Hffff00&}
+  formatter._current_lines[-1] += u'{\c&Hffff00&}'
+  formatter._current_color = '{\c&Hffff00&}'
+def white(formatter, k, timestamp):
+  #{\c&Hffffff&}
+  formatter._current_lines[-1] += u'{\c&Hffffff&}'
+  formatter._current_color = '{\c&Hffffff&}'
 
 def position_set(formatter, p, timestamp):
   '''Active Position set coordinates are given in character row, colum
   So we have to calculate pixel coordinates (and then sale them)
   '''
   pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col)
-  formatter._current_line += u'{{\pos({x},{y})}}'.format(x=pos.x, y=pos.y)
+  formatter._current_lines[-1] += u'{{\pos({x},{y})}}'.format(x=pos.x, y=pos.y)
 
 a_regex = ur'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
 
@@ -177,22 +214,23 @@ def control_character(formatter, csi, timestamp):
     #print 'match found'
     x = a_match.group('x')
     y = a_match.group('y')
-    formatter._current_line += u'{{\pos({x},{y})}}'.format(x=x, y=y)
+    formatter._current_lines.append(u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y))
     return
 
 pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'
 
 def clear_screen(formatter, cs, timestamp):
-  if formatter._current_line:
+  if formatter._current_lines[0]:
     #split current line so we don't have more than one {pos} markup per line
     #lines = re.split(pos_regex, formatter._current_line)
     #for l in lines:
     #  line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=asstime(formatter._elapsed_time_s), end_time=asstime(timestamp), line=l)
-    line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=asstime(formatter._elapsed_time_s), end_time=asstime(timestamp), line=formatter._current_line)
-    print line.encode('utf-8')
-    formatter._ass_file.write(line)
+    for l in formatter._current_lines:
+      line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=asstime(formatter._elapsed_time_s), end_time=asstime(timestamp), line=l)
+      print line.encode('utf-8')
+      formatter._ass_file.write(line)
   formatter._elapsed_time_s = timestamp
-  formatter._current_line = u''
+  formatter._current_lines = [u'']
 
 class ASSFormatter(object):
   '''
@@ -215,14 +253,14 @@ class ASSFormatter(object):
   control_characters.CS : clear_screen,
   control_characters.CSI : control_character, #{\pos(<X>,<Y>)}
   #control_characters.COL,
-  #control_characters.BKF,#{\c&H000000&} \c&H<bb><gg><rr>&
-  #control_characters.RDF,#{\c&H0000ff&}
-  #control_characters.GRF,#{\c&H00ff00&}
-  #control_characters.YLF,#{\c&H00ffff&}
-  #control_characters.BLF,#{\c&Hff0000&}
-  #control_characters.MGF,#{\c&Hff00ff&}
-  #control_characters.CNF,#{\c&Hffff00&}
-  #control_characters.WHF,#{\c&Hffffff&}
+  control_characters.BKF : black,#{\c&H000000&} \c&H<bb><gg><rr>&
+  control_characters.RDF : red,#{\c&H0000ff&}
+  control_characters.GRF : green,#{\c&H00ff00&}
+  control_characters.YLF : yellow,#{\c&H00ffff&}
+  control_characters.BLF : blue,#{\c&Hff0000&}
+  control_characters.MGF : magenta,#{\c&Hff00ff&}
+  control_characters.CNF : cyan,#{\c&Hffff00&}
+  control_characters.WHF : white,#{\c&Hffffff&}
   }
 
 
@@ -240,7 +278,9 @@ class ASSFormatter(object):
     self._ass_file = ass_file or ASSFile(u'./output.ass')
     self._ass_file.write_header(width,height, video_filename)
     self._ass_file.write_styles()
-    self._current_line = u''
+    self._current_lines = [u'']
+    self._current_style = 'normal'
+    self._current_color = '{\c&Hffffff&}'
 
   def format(self, captions, timestamp):
     '''Format ARIB closed caption info tinto text for an .ASS file
