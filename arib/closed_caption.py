@@ -132,7 +132,6 @@ class DataUnit(object):
     if self._data_unit_type == StatementBody.ID:
       return StatementBody(f, self)
     else:
-      #return f.read(self._data_unit_size)
       read.buffer(f, self._data_unit_size)
 
 
