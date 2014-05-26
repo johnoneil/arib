@@ -125,7 +125,7 @@ class Gaiji(object):
     #upper byte can be used to calculate row
     row = v[0]&0x7f-0x20
     col = v[1]&0x007f-0x20
-    print 'gaiji-->{r},{c},'.format(r=row, c=col)
+    #print 'gaiji-->{r},{c},'.format(r=row, c=col)
     return Gaiji.ENCODING[col][row]
 
 
@@ -189,7 +189,7 @@ class Alphanumeric(object):
     self._args = []
     self._args.append(b)
 
-    s =''.join('{:02x}'.format(a & 0xef) for a in self._args)
+    s =''.join('{:02x}'.format(a) for a in self._args)
     h = s.decode('hex')
     self._character = h.decode('ascii')
     if self._character == u'\\':
@@ -718,7 +718,7 @@ CODE_SET_TABLE = {
   Macro.FINAL_BYTE : Macro.decode,
   DRCS0.FINAL_BYTE : DRCS0.decode,
   DRCS1.FINAL_BYTE : DRCS1.decode,
-  DRCS2.FINAL_BYTE : DRCS2.decode,
+  #DRCS2.FINAL_BYTE : DRCS2.decode,#TODO: fix final byte key overlap with non-DRCS
   DRCS3.FINAL_BYTE : DRCS3.decode,
   DRCS4.FINAL_BYTE : DRCS4.decode,
   DRCS5.FINAL_BYTE : DRCS5.decode,
@@ -726,7 +726,7 @@ CODE_SET_TABLE = {
   DRCS7.FINAL_BYTE : DRCS7.decode,
   DRCS8.FINAL_BYTE : DRCS8.decode,
   DRCS9.FINAL_BYTE : DRCS9.decode,
-  DRCS10.FINAL_BYTE : DRCS10.decode,
+  #DRCS10.FINAL_BYTE : DRCS10.decode,#TODO: fix final byte key overlap with non-DRCS
   DRCS11.FINAL_BYTE : DRCS11.decode,
   DRCS12.FINAL_BYTE : DRCS12.decode,
   DRCS13.FINAL_BYTE : DRCS13.decode,
