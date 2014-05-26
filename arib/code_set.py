@@ -17,106 +17,105 @@ import read
 class Gaiji(object):
   #after ARIB std docs pg 54 onwards
   ENCODING = {
-    1  : { 90 : u'', 91 : u'', 92 : u'➡', 93 : u'', 94 : u'',},
-    2  : { 90 : u'', 91 : u'', 92 : u'⬅', 93 : u'', 94 : u'',},
-    3  : { 90 : u'', 91 : u'', 92 : u'⬆', 93 : u'', 94 : u'',},
-    4  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    5  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    6  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    7  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    8  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    9  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    10 : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    11  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    12  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    13  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    14  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    15  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    16  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    17  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    18  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    19  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    20  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    21  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    22  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    23  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    24  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    25  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    26  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    27  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    28  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    29  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    30  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    31  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    32  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    33  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    34  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    35  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    36  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    37  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    38  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    39  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    40  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    41  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    42  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    43  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    44  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    45  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    46  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    47  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    48  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    49  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    50  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    51  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    52  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    53  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    54  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    55  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    56  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    57  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    58  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    59  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    60  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    61  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    62  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    63  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    64  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    65  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    66  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    67  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    68  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    69  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    70  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    71  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    72  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    73  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    74  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    75  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    76  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    77  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    78  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    79  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    80  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    81  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    82  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    83  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    84  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    85  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    86  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    87  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    88  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    89  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    90  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'♫', 94 : u'',},
-    91  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'☎', 94 : u'',},
-    92  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    93  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
-    94  : { 90 : u'', 91 : u'', 92 : u'', 93 : u'', 94 : u'',},
+    1  : { 90 : u'◻', 91 : u'◻', 92 : u'➡', 93 : u'◻', 94 : u'◻',},
+    2  : { 90 : u'◻', 91 : u'◻', 92 : u'⬅', 93 : u'◻', 94 : u'◻',},
+    3  : { 90 : u'◻', 91 : u'◻', 92 : u'⬆', 93 : u'◻', 94 : u'◻',},
+    4  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    5  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    6  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    7  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    8  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    9  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    10 : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    11  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    12  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    13  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    14  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    15  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    16  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    17  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    18  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    19  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    20  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    21  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    22  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    23  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    24  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    25  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    26  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    27  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    28  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    29  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    30  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    31  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    32  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    33  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    34  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    35  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    36  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    37  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    38  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    39  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    40  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    41  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    42  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    43  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    44  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    45  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    46  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    47  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    48  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    49  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    50  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    51  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    52  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    53  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    54  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    55  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    56  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    57  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    58  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    59  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    60  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    61  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    62  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    63  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    64  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    65  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    66  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    67  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    68  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    69  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    70  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    71  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    72  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    73  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    74  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    75  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    76  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    77  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    78  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    79  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    80  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    81  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    82  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    83  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    84  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    85  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    86  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    87  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    88  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    89  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    90  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'♫', 94 : u'◻',},
+    91  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'☎', 94 : u'◻',},
+    92  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    93  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
+    94  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
     }
     
   @staticmethod
   def is_gaiji(v):
-    value = v[0]<<8 | v[1]
-    row = ((value>>8)&0x7f-0x20)
+    row = v[0]&0x7f-0x20
     return  row >= 90 and row <= 94
 
   @staticmethod
@@ -124,9 +123,9 @@ class Gaiji(object):
     #[124][33]--> 0b01111100, 0b00100001
     #(0x7c-0x20)(0x21-0x20)--> 0x5c, 0x1 --> 92(col), 1(row)
     #upper byte can be used to calculate row
-    value = v[0]<<16 | v[1]
     row = v[0]&0x7f-0x20
     col = v[1]&0x007f-0x20
+    print 'gaiji-->{r},{c},'.format(r=row, c=col)
     return Gaiji.ENCODING[col][row]
 
 
@@ -192,7 +191,6 @@ class Alphanumeric(object):
 
     s =''.join('{:02x}'.format(a & 0xef) for a in self._args)
     h = s.decode('hex')
-    #decoded = h.decode('ascii')
     self._character = h.decode('ascii')
     if self._character == u'\\':
       self._character = u'¥'
@@ -398,10 +396,10 @@ class Macro(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'{n} {s}'.format(n=self.__class__.__name__, s=u' '.join('{:#x}'.format(x) for x in self._args))
 
   @staticmethod
   def decode(b, f):
@@ -419,10 +417,11 @@ class DRCS0(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'{n} {s}'.format(n=unicode(self.__class__.__name__), s=u' '.join('{:#x}'.format(x) for x in self._args))
+    #return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
 
   @staticmethod
   def decode(b, f):
@@ -431,21 +430,20 @@ class DRCS0(object):
 class DRCS1(object):
   FINAL_BYTE = 0x41
   def __init__(self,b, f):
-    print 'init drcs1'
+    #print 'init drcs1'
     self._args = []
     self._args.append(b)
 
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
-    print 'decode DRCS1'
     return DRCS1(b, f)
 
 class DRCS2(object):
@@ -457,10 +455,10 @@ class DRCS2(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify to
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -475,10 +473,10 @@ class DRCS3(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -493,10 +491,10 @@ class DRCS4(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -511,10 +509,10 @@ class DRCS5(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -529,10 +527,10 @@ class DRCS6(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -547,10 +545,10 @@ class DRCS7(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -565,10 +563,10 @@ class DRCS8(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -583,10 +581,10 @@ class DRCS9(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -601,10 +599,10 @@ class DRCS10(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -619,10 +617,10 @@ class DRCS11(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -637,10 +635,10 @@ class DRCS12(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -655,10 +653,10 @@ class DRCS13(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -673,10 +671,10 @@ class DRCS14(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):
@@ -691,10 +689,10 @@ class DRCS15(object):
   def __len__(self):
     return len(self._args)
 
-  def __str__(self):
-    '''stringify to utf-8
+  def __unicode__(self):
+    '''stringify
     '''
-    return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'◻'
 
   @staticmethod
   def decode(b, f):

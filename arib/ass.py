@@ -157,6 +157,9 @@ def small(formatter, k, timestamp):
 def space(formatter, k, timestamp):
   formatter._current_lines[-1] += u' '
 
+def drcs(formatter, c, timestamp):
+  formatter._current_lines[-1] += unicode(c)
+
 def black(formatter, k, timestamp):
   #{\c&H000000&} \c&H<bb><gg><rr>& {\c&Hffffff&}
   formatter._current_lines[-1] += u'{\c&H000000&}'
@@ -261,6 +264,25 @@ class ASSFormatter(object):
   control_characters.MGF : magenta,#{\c&Hff00ff&}
   control_characters.CNF : cyan,#{\c&Hffff00&}
   control_characters.WHF : white,#{\c&Hffffff&}
+
+  #largely unhandled DRCS just replaces them with unicode unknown character square
+  code_set.DRCS0 : drcs,
+  code_set.DRCS1 : drcs,
+  code_set.DRCS2 : drcs,
+  code_set.DRCS3 : drcs,
+  code_set.DRCS4 : drcs,
+  code_set.DRCS5 : drcs,
+  code_set.DRCS6 : drcs,
+  code_set.DRCS7 : drcs,
+  code_set.DRCS8 : drcs,
+  code_set.DRCS9 : drcs,
+  code_set.DRCS10 : drcs,
+  code_set.DRCS11 : drcs,
+  code_set.DRCS12 : drcs,
+  code_set.DRCS13 : drcs,
+  code_set.DRCS14 : drcs,
+  code_set.DRCS15 : drcs,
+
   }
 
 
@@ -285,12 +307,15 @@ class ASSFormatter(object):
   def format(self, captions, timestamp):
     '''Format ARIB closed caption info tinto text for an .ASS file
     '''
+    #TODO: Show progress in some way
     #print('File elapsed time seconds: {s}'.format(s=timestamp))
     #line = u'{t}: {l}\n'.format(t=timestamp, l=u''.join([unicode(s) for s in captions if type(s) in ASSFormatter.DISPLAYED_CC_STATEMENTS]))
     
-    #in some cases dump current line to file
-    #self._ass_file.write(line)
     for c in captions:
       if type(c) in ASSFormatter.DISPLAYED_CC_STATEMENTS:
         #invoke the handler for this object type
         ASSFormatter.DISPLAYED_CC_STATEMENTS[type(c)](self, c, timestamp)
+      else:
+        #TODO: Warning of unhandled characters
+        pass
+        #print str(type(c))
