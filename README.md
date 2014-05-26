@@ -1,13 +1,23 @@
 #arib
 
-Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stream Closed Caption Decoding Tools
+Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stream Closed Caption Decoding Tools.
 
 ##Description
 Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separate PES (Packetized Elementary Stream) within the TS. The format of the data within this PES is described by the (Japanese native) ARIB B-24 standard. An English document describing this standard is included in the Arib/docs directory in this repository.
 
-My aim in writing this code was to draw this Closed Caption data from MPEG Transport Stream files, and make it available for whatever purpose. Currently, two small examples exist that show how the code can be used.
-* `examples/extract_ccs_from_ts.py` extracts both timestamp and closed caption info from .ts files if the closed caption es PID is known (see below)
-* `examples/extract_ccs_from_es.py` extracts closed captions only from .es (elementary stream) files.
+My aim in writing this code was to draw this Closed Caption data from MPEG Transport Stream files, and make it available for whatever purpose.
+
+##ts2ass
+
+This package provides a tool (ts2ass) that extracts ARIB based closed caption information from an MPEG Transport Stream recording, and formats the info into a standard .ass (Advanced Substation Alpha) subtitle file. The image below shows a resultant .ass subtitle file loaded to the video file it was generated off:
+![example of ass file](img/haikyu.png "Example ass file.")
+Note the ts2ass tool supports (in a basic way) closed caption locations, furigana (pronunciation guide), text size and color.
+
+Basic command line help and and a running example follows.
+```
+(arib)joneil@joneilDesktop ~/code/arib $ ./bin/ts2ass  <input transport stream file>.ts <closed captions PES ID>
+```
+To find the PES ID of the closed captions stream within any TS (if it exists!) see the section below.
 
 #Installation
 Basic installation is now supported, but I only currently recommend installing into a virtualenv as the lib is still only pre-alpha.
@@ -17,7 +27,10 @@ That said, installation can now be carried out via pip. I recommend 'editable' (
 pip install -e git+https://github.com/johnoneil/arib#egg=arib
 ```
 
-#Example
+#Further example code
+* `examples/extract_ccs_from_ts.py` extracts both timestamp and closed caption info from .ts files if the closed caption es PID is known (see below)
+* `examples/extract_ccs_from_es.py` extracts closed captions only from .es (elementary stream) files.
+
 A simple example that should be easy to run is provided as examples/extract_ccs_from_es.py. This example requies a PES input and simply draws out CC text found in the file, dumping it to the command line. Run it as:
 ```
 ./extract_ccs_from_es.py <pes filename>
@@ -127,7 +140,7 @@ First, this project is currenly only a prototype (proof of concept). Much more w
 The basic ARIB decoder turns this PES (.es file) into an array of objects that contain info regarding things like characters on the screen, text positions and sizes and colors. These objects need a formatter to be written to turn them into whatever you want (extracted text, for example).
 
 Some areas have not bee implemented (yet?)
-* There is no current Gaiji support (i.e. custom Arib characters outside the normal shift-jis encoding table).
+* ~~There is no current Gaiji support (i.e. custom Arib characters outside the normal shift-jis encoding table).~~
 * DRCS characters (custom characters described as simple bitmaps in the stream data) are detected, but not parsed.
 * Many other areas of the ARIB B-24 standard (such as  Mosaic image info) are not implemented.
 * ~~Encoding is still weakly handled. Does not follow the best practice of "decode early, encode late" therefore many utf-8 encoding exceptions are likely.~~
