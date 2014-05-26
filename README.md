@@ -86,9 +86,9 @@ I'm currently using TSTools to draw out both program PID info and .es streams (P
 * How to find the PID of a CC elementary stream in a .TS file (ts stream)
 * How to extract a given elementary stream from the 
 
-Parsing .ts streams isn't *too* difficult, but I haven't found a decent python library that I can use yet. Building one will therefore take some time.
+~~Parsing .ts streams isn't *too* difficult, but I haven't found a decent python library that I can use yet. Building one will therefore take some time.~~
 
-Still, here's an example of drawing out an .es from a .ts.
+~~Still, here's an example of drawing out an .es from a .ts.~~
 
 First, use tsinfo to examine the contents of the .ts
 ```
@@ -122,13 +122,14 @@ Packet 796 is PMT with PID 0101 (257)
         ES info (20 bytes): 52 01 38 09 04 00 05 ff ff f6 04 00 0e ff ff fd 03 00 08 3c
 ...
 ```
-I recognize the PID 276, (stream type 6) as the PES private CC data. That seems to be typical.
+I recognize the PID 276, (stream type 6) as the PES private CC data from experience. Typically, tsinfo identifies Closed Caption elementary streams as `PES private data (maybe Dolby/AC-3 in DVB)`. The relevant CCs are usually the *first* elementary stream reported as well.
+
 Note that sometimes an adequate PAT (Program allocation table) may not be within the first 1000 packets of the .TS, so you might have to run tsinfo with an additional argument (look through more packets for a PAT).
 ```
 tsinfo -max 20000 <filename>.ts
 ```
 
-Then use ts2es to draw out the ES
+Then, if you wish, you can use ts2es to draw out the ES.
 ```
 ts2es -pid 276 <input>.ts <output>.es
 ```
