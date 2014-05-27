@@ -7,6 +7,10 @@ Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separa
 
 My aim in writing this code was to draw this Closed Caption data from MPEG Transport Stream files, and make it available for whatever purpose.
 
+The image below shows example ARIB closed caption data displayed at runtime on a media player. The text, position and color are all driven by data derived from the MPEG TS Closed Caption elemenatry stream.
+
+![example of ass file](img/gaki.png "Example ass file.")
+
 ##ts2ass
 
 This package provides a tool (ts2ass) that extracts ARIB based closed caption information from an MPEG Transport Stream recording, and formats the info into a standard .ass (Advanced Substation Alpha) subtitle file. The image below shows a resultant .ass subtitle file loaded to the video file it was generated off:
