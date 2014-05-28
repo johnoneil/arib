@@ -9,7 +9,7 @@ My aim in writing this code was to draw this Closed Caption data from MPEG Trans
 
 The image below shows example ARIB closed caption data displayed at runtime on a media player. The text, position and color are all driven by data derived from the MPEG TS Closed Caption elemenatry stream.
 
-![example of ass file](img/gaki.png "Example ass file.")
+![example of ass file](img/gaki2.png "Example ass file.")
 
 ##ts2ass
 
