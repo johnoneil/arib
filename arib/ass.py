@@ -106,9 +106,9 @@ Video File: {title}
   def write_styles(self):
     styles = u'''[V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: normal,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
-Style: medium,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,50,100,0,0,1,2,2,1,10,10,10,0
-Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
+Style: normal,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
+Style: medium,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,50,100,0,0,1,2,2,1,10,10,10,0
+Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
 
 
 '''
@@ -223,17 +223,21 @@ pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'
 
 def clear_screen(formatter, cs, timestamp):
 
-  if len(formatter._current_lines[0]) or len(formatter._current_lines):
+  start_time = asstime(formatter._elapsed_time_s)
+  end_time = asstime(timestamp)
+
+  if (len(formatter._current_lines[0]) or len(formatter._current_lines)) and start_time != end_time:
     for l in formatter._current_lines:
       if not len(l):
         continue
-      line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=asstime(formatter._elapsed_time_s), end_time=asstime(timestamp), line=l)
+      line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=start_time, end_time=end_time, line=l)
       #TODO: add option to dump to stdout
       #print line.encode('utf-8')
       formatter._ass_file.write(line)
+      formatter._current_lines = [u'']
 
   formatter._elapsed_time_s = timestamp
-  formatter._current_lines = [u'']
+  
 
 class ASSFormatter(object):
   '''
