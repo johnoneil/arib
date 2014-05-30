@@ -11,17 +11,33 @@ The image below shows example ARIB closed caption data displayed at runtime on a
 
 ![example of ass file](img/gaki2.png "Example ass file.")
 
-##ts2ass
+##arib-ts2ass
 
-This package provides a tool (ts2ass) that extracts ARIB based closed caption information from an MPEG Transport Stream recording, and formats the info into a standard .ass (Advanced Substation Alpha) subtitle file. The image below shows a resultant .ass subtitle file loaded to the video file it was generated off:
+This package provides a tool (arib-ts2ass) that extracts ARIB based closed caption information from an MPEG Transport Stream recording, and formats the info into a standard .ass (Advanced Substation Alpha) subtitle file. The image below shows a resultant .ass subtitle file loaded to the video file it was generated off:
 ![example of ass file](img/haikyu.png "Example ass file.")
 Note the ts2ass tool supports (in a basic way) closed caption locations, furigana (pronunciation guide), text size and color.
 
 Basic command line help and and a running example follows.
 ```
-(arib)joneil@joneilDesktop ~/code/arib $ ./bin/ts2ass  <input transport stream file>.ts <closed captions PES ID>
+(arib)joneil@joneilDesktop ~/code/arib $ arib-ts2ass  <input transport stream file>.ts <closed captions PES ID>
 ```
+
+##autosub
+The package also makes available an experimental applicaiton "arib-autosub" that draws Closed Caption and timing data from an MPEG TS stream file, feeds the data through Bing Translate, and dumps out an "auto translated" .ass subtitle file.
+
+The application requires 2 command line arguments, the name of the input .ts file and the PID of the CC elementary stream. Please see below regarding how to identify a Closed Caption PID in a .ts file using the tsinfo tool.
+
+An example screenshot of a resultant subtitle follows (from a news broadcast):
+![example of translated ccs](img/news.png "Example of auto translated Closed Captions.")
+
+Currently, text position and color are not carried through the translation process.
+
+Because this tool uses the Bing Translate API, the user must get their own "Client ID" and "Client scret" credentials from the windows Azue Marketplace. These need be defined in the arib.secret_key module.
+
 To find the PES ID of the closed captions stream within any TS (if it exists!) see the section below.
+
+The translation results are not good. In fact, they are often lewd and comical. Still, this is an interesting experiment. To illustrate the defficiencies of the approach, I present the following screenshot, translating the shot from the previous section. You'll notice that despite the simplicity of the original source, the translation is off. It does give a "general sense" of meaning, however.
+![example of auto translation](img/haikyu_eng.png "Example poor auto translation.")
 
 #Installation
 Basic installation is now supported, but I only currently recommend installing into a virtualenv as the lib is still only pre-alpha.
