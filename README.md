@@ -32,7 +32,7 @@ optional arguments:
   -h, --help  show this help message and exit
 ```
 
-##autosub
+##arib-autosub
 The package also makes available an experimental applicaiton "arib-autosub" that draws Closed Caption and timing data from an MPEG TS stream file, feeds the data through Bing Translate, and dumps out an "auto translated" .ass subtitle file.
 
 Command line help is available as below:
