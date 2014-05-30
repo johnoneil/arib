@@ -17,13 +17,39 @@ This package provides a tool (arib-ts2ass) that extracts ARIB based closed capti
 ![example of ass file](img/haikyu.png "Example ass file.")
 Note the ts2ass tool supports (in a basic way) closed caption locations, furigana (pronunciation guide), text size and color.
 
-Basic command line help and and a running example follows.
+Basic command line help is available as below.
 ```
-(arib)joneil@joneilDesktop ~/code/arib $ arib-ts2ass  <input transport stream file>.ts <closed captions PES ID>
+(arib)joneil@joneilDesktop ~/code/arib $ arib-ts2ass -h
+usage: arib-ts2ass [-h] infile pid
+
+Draw CC Packets from MPG2 Transport Stream file.
+
+positional arguments:
+  infile      Input filename (MPEG2 Transport Stream File)
+  pid         Pid of closed caption ES to extract from stream.
+
+optional arguments:
+  -h, --help  show this help message and exit
 ```
 
 ##autosub
 The package also makes available an experimental applicaiton "arib-autosub" that draws Closed Caption and timing data from an MPEG TS stream file, feeds the data through Bing Translate, and dumps out an "auto translated" .ass subtitle file.
+
+Command line help is available as below:
+```
+(arib)joneil@joneilDesktop ~/code/arib $ arib-autosub -h
+usage: arib-autosub [-h] infile pid
+
+Auto translate jp CCs in MPEG TS file.
+
+positional arguments:
+  infile      Input filename (MPEG2 Transport Stream File)
+  pid         Pid of closed caption ES to extract from stream.
+
+optional arguments:
+  -h, --help  show this help message and exit
+
+```
 
 The application requires 2 command line arguments, the name of the input .ts file and the PID of the CC elementary stream. Please see below regarding how to identify a Closed Caption PID in a .ts file using the tsinfo tool.
 
