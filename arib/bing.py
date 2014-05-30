@@ -16,13 +16,13 @@ import json
 import requests
 import urllib
 
-def translate(text, from_language=u'ja', to_language=u'en', secret_key=u''):
+def translate(text, from_language=u'ja', to_language=u'en', client_id=u'', secret_key=u''):
   if not secret_key:
     raise Exception(u'No Microsoft Azure secret key provided on bing.translate call.')
 
   args = {
-          'client_id': 'arib_CCs_auto_translate',
-          'client_secret': secret_key.decode('utf-8'),#your azure secret here
+          'client_id': client_id.encode('utf8'),
+          'client_secret': secret_key.encode('utf-8'),#your azure secret here
           'scope': 'http://api.microsofttranslator.com',
           'grant_type': 'client_credentials'
       }
