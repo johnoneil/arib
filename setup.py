@@ -4,6 +4,7 @@ from setuptools import setup
 #version 0.1: Initial version
 #version 0.2: Added simple parsing of .ts files
 #version 0.3: Added ts2ass tool
+#version 0.4: Added autosub tool
 
 def readme():
   with open('README.md') as f:
@@ -34,7 +35,8 @@ setup(name='arib',
   install_requires = requirements(),
   entry_points = {
     'console_scripts': [
-      'ts2ass=arib.ts2ass:main',
+      'arib-ts2ass=arib.ts2ass:main',
+      'arib-autosub=arib.autosub:main',
   ],
   },
   zip_safe=True)
