@@ -1,3 +1,6 @@
+#specific credentials file
+arib/secret_key.py
+
 *.py[cod]
 
 # C extensions
@@ -35,5 +38,4 @@ nosetests.xml
 .project
 .pydevproject
 
-#specific credentials file
-arib/secret_key.py
+
