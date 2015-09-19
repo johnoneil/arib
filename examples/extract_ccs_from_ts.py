@@ -1,4 +1,4 @@
-#!/usr/bin/env python 
+#!/usr/bin/env python
 # vim: set ts=2 expandtab:
 '''
 Module:arib.py
@@ -7,7 +7,7 @@ Author: John O'Neil
 Email: oneil.john@gmail.com
 DATE: Thursday, March 6th 2014
 updated: Tuesday, May 13th 2014
-  
+
 '''
 import os
 import argparse
@@ -85,37 +85,40 @@ def main():
 
     #if this is the stream PID we're interestd in, reconstruct the ES
     if packet.pid() == pid:
-      if packet.payload_start():
-        pes = copy.deepcopy(packet.payload())
-      else:
-        pes.extend(packet.payload())
-      pes_packet = PESPacket(pes)
-      
+      try:
+          if packet.payload_start():
+            pes = copy.deepcopy(packet.payload())
+          else:
+            pes.extend(packet.payload())
+          pes_packet = PESPacket(pes)
 
-      #if our packet is fully formed (payload all present) we can parse its contents
-      if pes_packet.length() == (pes_packet.header_size() + pes_packet.payload_size()):
-        
-        data_group = DataGroup(pes_packet.payload())
 
-        if not data_group.is_management_data():
-        #We now have a Data Group that contains caption data.
-        #We take out its payload, but this is further divided into 'Data Unit' structures
-          caption = data_group.payload()
-          #iterate through the Data Units in this payload via another generator.
-          for data_unit in next_data_unit(caption):
-            #we're only interested in those Data Units which are "statement body" to get CC data.
-            if not isinstance(data_unit.payload(), StatementBody):
-              continue
-            #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
-            #formatter function above. This dumps the basic text to stdout.
-            cc = formatter(data_unit.payload().payload(), elapsed_time_s)
-            if cc:
-              #according to best practice, always deal internally with UNICODE, and encode to
-              #your encoding of choice as late as possible. Here, i'm encoding as UTF-8 for
-              #my command line.
-              #DECODE EARLY, ENCODE LATE
-              print(cc.encode('utf-8'))
-    
+          #if our packet is fully formed (payload all present) we can parse its contents
+          if pes_packet.length() == (pes_packet.header_size() + pes_packet.payload_size()):
+
+            data_group = DataGroup(pes_packet.payload())
+
+            if not data_group.is_management_data():
+            #We now have a Data Group that contains caption data.
+            #We take out its payload, but this is further divided into 'Data Unit' structures
+              caption = data_group.payload()
+              #iterate through the Data Units in this payload via another generator.
+              for data_unit in next_data_unit(caption):
+                #we're only interested in those Data Units which are "statement body" to get CC data.
+                if not isinstance(data_unit.payload(), StatementBody):
+                  continue
+                #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
+                #formatter function above. This dumps the basic text to stdout.
+                cc = formatter(data_unit.payload().payload(), elapsed_time_s)
+                if cc:
+                  #according to best practice, always deal internally with UNICODE, and encode to
+                  #your encoding of choice as late as possible. Here, i'm encoding as UTF-8 for
+                  #my command line.
+                  #DECODE EARLY, ENCODE LATE
+                  print(cc.encode('utf-8'))
+      except:
+          print "failure to parse packet. Going to next"
+
 
 if __name__ == "__main__":
   main()

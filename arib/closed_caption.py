@@ -8,7 +8,7 @@ DATE: Thursday, March 6th 2014
 
 represents closed caption specific data within
 an ARIB data group
-  
+
 '''
 
 import read
@@ -90,8 +90,9 @@ class StatementBody(object):
     line = ''
     while bytes_read<bytes_to_read:
       statement = decoder.decode(f)
-      bytes_read += len(statement)
-      statements.append(statement)
+      if statement:
+          bytes_read += len(statement)
+          statements.append(statement)
       #if isinstance(statement, code_set.Kanji) or isinstance(statement, code_set.Alphanumeric) \
       #  or isinstance(statement, code_set.Hiragana) or isinstance(statement, code_set.Katakana):
       #  if DEBUG:
@@ -122,7 +123,7 @@ class DataUnit(object):
 
   def payload(self):
     return self._payload
-    
+
   def size(self):
     '''return size of inflated data unit in bytes
     '''
@@ -133,5 +134,3 @@ class DataUnit(object):
       return StatementBody(f, self)
     else:
       read.buffer(f, self._data_unit_size)
-
-

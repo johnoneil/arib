@@ -112,7 +112,7 @@ class Gaiji(object):
     93  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
     94  : { 90 : u'◻', 91 : u'◻', 92 : u'◻', 93 : u'◻', 94 : u'◻',},
     }
-    
+
   @staticmethod
   def is_gaiji(v):
     row = v[0]&0x7f-0x20
@@ -136,7 +136,7 @@ class Kanji(object):
   detected, and that byte (and the stream) passed to this class for
   further reading and decoding.
   so it goes BYTE-->(logic determining type)-->Instance of Kanji class
-  Intances of this clas can then be stored, and printed, resulting in 
+  Intances of this clas can then be stored, and printed, resulting in
   a UTF-8 version of the character.
   '''
   FINAL_BYTE = 0x42
@@ -161,8 +161,10 @@ class Kanji(object):
       #form utf-8 encoding of character
       s = u''.join(u'{:02x}'.format(a|0x80) for a in self._args)
       h = s.decode('hex')
-      self._character = h.decode('euc-jisx0213')
-    
+      try:
+          self._character = h.decode('euc-jisx0213')
+      except:
+          self._character = u'◻'
     #print(u'{code}-->{char}'.format(code=str(self._args), char=self._character).encode('utf-8'))
 
   def __len__(self):
@@ -181,7 +183,7 @@ class Alphanumeric(object):
   FINAL_BYTE = 0x4a
   def __init__(self,b, f):
     '''Read from stream one byte alphanumeric
-    Arib alphanumeric is the same as ASCII, except 
+    Arib alphanumeric is the same as ASCII, except
     the '\' backslash has been replaced by　¥.
     In cases of characters not representable by on screen
     characters, decoding error is raised.
@@ -750,4 +752,3 @@ def code_set_handler_from_final_byte(b):
   return an object representing that code set and its decoding
   '''
   return CODE_SET_TABLE[b]
-  

@@ -12,7 +12,11 @@ import struct
 def split_buffer(length, buf):
   '''split provided array at index x
   '''
+  #print "split-buffer******"
   a = []
+  if len(buf)<length:
+    return (a, buf)
+  #print "length of buf is" + str(len(buf))
   for i in range(length):
     a.append(buf.pop(0))
   return (a,buf)
@@ -64,5 +68,3 @@ def buffer(f, size):
     return n
   else:
     return f.read(size)
-
-
