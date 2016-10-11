@@ -223,13 +223,17 @@ pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'
 
 def clear_screen(formatter, cs, timestamp):
 
+  if(timestamp - formatter._elapsed_time_s > formatter._tmax):
+    end_time = asstime(formatter._elapsed_time_s + formatter._tmax)
+  else:
+    end_time = asstime(timestamp)
   start_time = asstime(formatter._elapsed_time_s)
-  end_time = asstime(timestamp)
 
   if (len(formatter._current_lines[0]) or len(formatter._current_lines)) and start_time != end_time:
     for l in formatter._current_lines:
       if not len(l):
         continue
+     
       line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=start_time, end_time=end_time, line=l)
       #TODO: add option to dump to stdout
       #print line.encode('utf-8')
@@ -248,56 +252,57 @@ class ASSFormatter(object):
   '''
 
   DISPLAYED_CC_STATEMENTS = {
-  code_set.Kanji : kanji,
-  code_set.Alphanumeric : alphanumeric,
-  code_set.Hiragana : hiragana,
-  code_set.Katakana : katakana,
-  control_characters.APS : position_set,#{\pos(<X>,<Y>)}
-  control_characters.MSZ : medium, #{\rmedium}
-  control_characters.NSZ : normal, #{\rnormal}
-  control_characters.SP : space, #' '
-  control_characters.SSZ : small, #{\rsmall}
-  control_characters.CS : clear_screen,
-  control_characters.CSI : control_character, #{\pos(<X>,<Y>)}
-  #control_characters.COL,
-  control_characters.BKF : black,#{\c&H000000&} \c&H<bb><gg><rr>&
-  control_characters.RDF : red,#{\c&H0000ff&}
-  control_characters.GRF : green,#{\c&H00ff00&}
-  control_characters.YLF : yellow,#{\c&H00ffff&}
-  control_characters.BLF : blue,#{\c&Hff0000&}
-  control_characters.MGF : magenta,#{\c&Hff00ff&}
-  control_characters.CNF : cyan,#{\c&Hffff00&}
-  control_characters.WHF : white,#{\c&Hffffff&}
+    code_set.Kanji : kanji,
+    code_set.Alphanumeric : alphanumeric,
+    code_set.Hiragana : hiragana,
+    code_set.Katakana : katakana,
+    control_characters.APS : position_set,#{\pos(<X>,<Y>)}
+    control_characters.MSZ : medium, #{\rmedium}
+    control_characters.NSZ : normal, #{\rnormal}
+    control_characters.SP : space, #' '
+    control_characters.SSZ : small, #{\rsmall}
+    control_characters.CS : clear_screen,
+    control_characters.CSI : control_character, #{\pos(<X>,<Y>)}
+    #control_characters.COL,
+    control_characters.BKF : black,#{\c&H000000&} \c&H<bb><gg><rr>&
+    control_characters.RDF : red,#{\c&H0000ff&}
+    control_characters.GRF : green,#{\c&H00ff00&}
+    control_characters.YLF : yellow,#{\c&H00ffff&}
+    control_characters.BLF : blue,#{\c&Hff0000&}
+    control_characters.MGF : magenta,#{\c&Hff00ff&}
+    control_characters.CNF : cyan,#{\c&Hffff00&}
+    control_characters.WHF : white,#{\c&Hffffff&}
 
-  #largely unhandled DRCS just replaces them with unicode unknown character square
-  code_set.DRCS0 : drcs,
-  code_set.DRCS1 : drcs,
-  code_set.DRCS2 : drcs,
-  code_set.DRCS3 : drcs,
-  code_set.DRCS4 : drcs,
-  code_set.DRCS5 : drcs,
-  code_set.DRCS6 : drcs,
-  code_set.DRCS7 : drcs,
-  code_set.DRCS8 : drcs,
-  code_set.DRCS9 : drcs,
-  code_set.DRCS10 : drcs,
-  code_set.DRCS11 : drcs,
-  code_set.DRCS12 : drcs,
-  code_set.DRCS13 : drcs,
-  code_set.DRCS14 : drcs,
-  code_set.DRCS15 : drcs,
+    #largely unhandled DRCS just replaces them with unicode unknown character square
+    code_set.DRCS0 : drcs,
+    code_set.DRCS1 : drcs,
+    code_set.DRCS2 : drcs,
+    code_set.DRCS3 : drcs,
+    code_set.DRCS4 : drcs,
+    code_set.DRCS5 : drcs,
+    code_set.DRCS6 : drcs,
+    code_set.DRCS7 : drcs,
+    code_set.DRCS8 : drcs,
+    code_set.DRCS9 : drcs,
+    code_set.DRCS10 : drcs,
+    code_set.DRCS11 : drcs,
+    code_set.DRCS12 : drcs,
+    code_set.DRCS13 : drcs,
+    code_set.DRCS14 : drcs,
+    code_set.DRCS15 : drcs,
 
   }
 
 
-  def __init__(self, ass_file=None, width=960, height=540, video_filename='unknown'):
+  def __init__(self, ass_file=None, default_color='white', tmax=5, width=960, height=540, video_filename='unknown'):
     '''
     :param width: width of target screen in pixels
     :param height: height of target screen in pixels
     :param format_callback: callback method of form <None>callback(string) that
     can be used to dump strings to file upon each subsequent "clear screen" command.
     '''
-    self._color = 'white'
+    self._color = default_color
+    self._tmax = tmax
     self._CCArea = ClosedCaptionArea()
     self._pos = Pos(0, 0)
     self._elapsed_time_s = 0.0
