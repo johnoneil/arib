@@ -7,6 +7,7 @@ from setuptools import setup
 #version 0.4: Added autosub tool
 #version 0.5: Improved ts2ass tool
 #version 0.55: Removed autosub tool, automated PID handling
+#version 0.56: Better file writing and messages.
 
 def readme():
   with open('README.md') as f:
@@ -17,7 +18,7 @@ def requirements():
     return f.read().splitlines()
 
 setup(name='arib',
-  version='0.55',
+  version='0.56',
   description='Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stream Closed Caption Decoding Tools',
   long_description = readme(),
 	classifiers=[

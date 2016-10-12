@@ -26,8 +26,6 @@ from arib.data_group import DataGroup
 from arib.ass import ASSFormatter
 from arib.ass import ASSFile
 
-
-
 def main():
   parser = argparse.ArgumentParser(description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
   parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
@@ -48,8 +46,8 @@ def main():
     os.exit(-1)
 
   #open an Ass file and formatter
-  ass_file = ASSFile(infilename+'.ass')
-  ass = ASSFormatter(ass_file, tmax=tmax)
+  ass_file = None #ASSFile(infilename+'.ass')
+  ass = None #ASSFormatter(ass_file, tmax=tmax)
 
   #CC data is not, in itself timestamped, so we've got to use packet info
   #to reconstruct the timing of the closed captions (i.e. how many seconds into
@@ -110,10 +108,16 @@ def main():
                 if not isinstance(data_unit.payload(), StatementBody):
                   continue
 
+                # only write the file if we've actually found some Closed Captions
+                if not ass_file:
+                  ass_file = ASSFile(infilename+'.ass')
+                if not ass:
+                  ass = ASSFormatter(ass_file, tmax=tmax)
+
                 ass.format(data_unit.payload().payload(), elapsed_time_s)
                 if pid < 0:
                     pid = packet.pid()
-                    print("Found Closed Caption data in PID:"+str(pid))
+                    print("Found Closed Caption data in PID: "+str(pid))
                     print("Will now only process this PID to improve performance.")
                 #print("properly formed packet with pid: "+ str(packet.pid()))
                 #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
@@ -128,6 +132,8 @@ def main():
       except:
           #print("exception thrown on packet with PID: " + str(packet.pid()))
           pass
+  if pid < 0 or not ass:
+    print("Did not find any Closed Caption data in the file " + infilename)
 
 if __name__ == "__main__":
   main()
