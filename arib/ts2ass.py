@@ -31,7 +31,7 @@ from arib.ass import ASSFile
 def main():
   parser = argparse.ArgumentParser(description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
   parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
-  parser.add_argument('pid', help='Pid of closed caption ES to extract from stream.', type=int)
+  parser.add_argument('-p', '--pid', help='Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).', type=int, default=-1)
   parser.add_argument('-v','--verbose', help='Verbose output.', action='store_true')
   parser.add_argument('-q','--quiet', help='Does not write to stdout.', action='store_true')
   parser.add_argument('-t','--tmax', help='Subtitle display time limit (seconds).', type=int, default=5)
@@ -86,7 +86,7 @@ def main():
       elapsed_time_s = float(delta)/90000.0
 
     #if this is the stream PID we're interestd in, reconstruct the ES
-    if packet.pid() == pid:
+    if pid < 0 or ( pid == packet.pid() ):
       try:
           if packet.payload_start():
             pes = copy.deepcopy(packet.payload())
@@ -111,6 +111,11 @@ def main():
                   continue
 
                 ass.format(data_unit.payload().payload(), elapsed_time_s)
+                if pid < 0:
+                    pid = packet.pid()
+                    print("Found Closed Caption data in PID:"+str(pid))
+                    print("Will now only process this PID to improve performance.")
+                #print("properly formed packet with pid: "+ str(packet.pid()))
                 #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
                 #formatter function above. This dumps the basic text to stdout.
                 #cc = formatter(data_unit.payload().payload(), elapsed_time_s)
@@ -121,6 +126,7 @@ def main():
                   #DECODE EARLY, ENCODE LATE
                   #print(cc.encode('utf-8'))
       except:
+          #print("exception thrown on packet with PID: " + str(packet.pid()))
           pass
 
 if __name__ == "__main__":
