@@ -35,7 +35,6 @@ def main():
   parser.add_argument('-v','--verbose', help='Verbose output.', action='store_true')
   parser.add_argument('-q','--quiet', help='Does not write to stdout.', action='store_true')
   parser.add_argument('-t','--tmax', help='Subtitle display time limit (seconds).', type=int, default=5)
-  parser.add_argument('-c','--color', help='Subtitle display default color (commonsense html like color name).', type=str, default="white")
   args = parser.parse_args()
 
   pid = args.pid
@@ -43,7 +42,6 @@ def main():
   quiet = args.quiet
   verbose = args.verbose
   tmax = args.tmax
-  default_color = args.color
 
   if not os.path.exists(infilename):
     print 'Input filename :' + infilename + " does not exist."
@@ -51,7 +49,7 @@ def main():
 
   #open an Ass file and formatter
   ass_file = ASSFile(infilename+'.ass')
-  ass = ASSFormatter(ass_file, tmax=tmax, default_color=default_color)
+  ass = ASSFormatter(ass_file, tmax=tmax)
 
   #CC data is not, in itself timestamped, so we've got to use packet info
   #to reconstruct the timing of the closed captions (i.e. how many seconds into
