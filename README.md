@@ -5,11 +5,21 @@ Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stre
 ##Description
 Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separate PES (Packetized Elementary Stream) within the TS. The format of the data within this PES is described by the (Japanese native) ARIB B-24 standard. An English document describing this standard is included in the Arib/docs directory in this repository.
 
-My aim in writing this code was to draw this Closed Caption data from MPEG Transport Stream files, and make it available for whatever purpose.
+This python package provides tools to find and parse this ARIB closed caption information in MPGEG TS files.
 
-The image below shows example ARIB closed caption data displayed at runtime on a media player. The text, position and color are all driven by data derived from the MPEG TS Closed Caption elemenatry stream.
+This code can be used in your own applications or used via the arib-ts2ass tool which this package provides.
+
+The image below shows example ARIB closed caption data displayed at runtime on a media player, generated via arib-ts2ass. The text, position and color are all driven by data derived from the MPEG TS Closed Caption elemenatry stream.
 
 ![example of ass file](img/gaki2.png "Example ass file.")
+
+#Installation
+Basic installation is now supported, but I only currently recommend installing into a virtualenv as the lib is still only pre-alpha.
+
+That said, installation can now be carried out via pip as below.
+```
+pip install -e git+https://github.com/johnoneil/arib#egg=arib
+```
 
 ##arib-ts2ass
 
@@ -17,23 +27,32 @@ This package provides a tool (arib-ts2ass) that extracts ARIB based closed capti
 ![example of ass file](img/haikyu.png "Example ass file.")
 Note the ts2ass tool supports (in a basic way) closed caption locations, furigana (pronunciation guide), text size and color.
 
+If no PID is specified to the tool, arib-ts2ass will attempt to find the PID of the elementary stream carriing Closed Caption information within the specified MPEG TS file. Or one can be specified if it is known (see below concerning how to find PID values in TS files).
+
 Basic command line help is available as below.
 ```
-(arib)joneil@joneilDesktop ~/code/arib $ arib-ts2ass -h
-usage: arib-ts2ass [-h] infile pid
+usage: arib-ts2ass [-h] [-p PID] [-v] [-q] [-t TMAX] infile
 
-Draw CC Packets from MPG2 Transport Stream file.
+Remove ARIB formatted Closed Caption information from an MPEG TS file and
+format the results as a standard .ass subtitle file.
 
 positional arguments:
-  infile      Input filename (MPEG2 Transport Stream File)
-  pid         Pid of closed caption ES to extract from stream.
+  infile                Input filename (MPEG2 Transport Stream File)
 
 optional arguments:
-  -h, --help  show this help message and exit
+  -h, --help            show this help message and exit
+  -p PID, --pid PID     Specify a PID of a PES known to contain closed caption
+                        info (tool will attempt to find the proper PID if not
+                        specified.).
+  -v, --verbose         Verbose output.
+  -q, --quiet           Does not write to stdout.
+  -t TMAX, --tmax TMAX  Subtitle display time limit (seconds).
 ```
 
 ##arib-autosub
-The package also makes available an experimental applicaiton "arib-autosub" that draws Closed Caption and timing data from an MPEG TS stream file, feeds the data through Bing Translate, and dumps out an "auto translated" .ass subtitle file.
+This repo also contains some code for an experimental application "arib-autosub" which draws Closed Caption information out of an MPEG TS file and then translates it via Bing Translate.
+
+As I'm no longer installing this tool when this package is installed the description below is only for reference:
 
 Command line help is available as below:
 ```
@@ -64,14 +83,6 @@ To find the PES ID of the closed captions stream within any TS (if it exists!) s
 
 The translation results are not good. In fact, they are often lewd and comical. Still, this is an interesting experiment. To illustrate the defficiencies of the approach, I present the following screenshot, translating the shot from the previous section. You'll notice that despite the simplicity of the original source, the translation is off. It does give a "general sense" of meaning, however.
 ![example of auto translation](img/haikyu_eng.png "Example poor auto translation.")
-
-#Installation
-Basic installation is now supported, but I only currently recommend installing into a virtualenv as the lib is still only pre-alpha.
-
-That said, installation can now be carried out via pip. I recommend 'editable' (development) install as below.
-```
-pip install -e git+https://github.com/johnoneil/arib#egg=arib
-```
 
 #Further example code
 * `examples/extract_ccs_from_ts.py` extracts both timestamp and closed caption info from .ts files if the closed caption es PID is known (see below)
@@ -128,15 +139,7 @@ Refer to the ARIB documentation for descriptions of what these control sequences
 * 'a' Positions the cursor to a screen position in pixels. This is in contrast to the dedicated control character APS (Active Position Set) above which positions the cursor to a particular character *line* and *column*. APS style line and column positions can be translated to pixel positions by using the character width and height, space between characters and lines and the UL position of the CC area (see above).
 
 #Manually drawing a PID and/or PES from a TS file
-I'm currently using TSTools to draw out both program PID info and .es streams (Packetized Elemenatry Streams) from released MPEG TS files. To exampine CCs in a .ts file you need at least to know what the PID of the elementary stream withing the Transport Stream is. This section attempts to describe:
-* How to find the PID of a CC elementary stream in a .TS file (ts stream)
-* How to extract a given elementary stream from the 
-
-~~Parsing .ts streams isn't *too* difficult, but I haven't found a decent python library that I can use yet. Building one will therefore take some time.~~
-
-~~Still, here's an example of drawing out an .es from a .ts.~~
-
-First, use tsinfo to examine the contents of the .ts
+I've update the arib-ts2ass tool above to automatically find the id (PID) of the elementary stream carrying closed captions (if there is one) in any MPEG TS file. However, if  you'd like to find these PID values for yourself I recommend using the ```tsinfo``` tool as below:
 ```
 joneil@joneilDesktop ~/code/arib/analysis $ tsinfo <filename>.ts 
 Reading from <filename>.ts
@@ -179,16 +182,3 @@ Then, if you wish, you can use ts2es to draw out the ES.
 ```
 ts2es -pid 276 <input>.ts <output>.es
 ```
-##Status
-First, this project is currenly only a prototype (proof of concept). Much more work remains to make it a usable library.
-
-~~That said, this project currently operates on MPEG PES streams. These need to be separately drawn from .TS files via some other applicaiton. I'm currently using the TSTools 'ts2es' tool to do this.~~
-
-The basic ARIB decoder turns this PES (.es file) into an array of objects that contain info regarding things like characters on the screen, text positions and sizes and colors. These objects need a formatter to be written to turn them into whatever you want (extracted text, for example).
-
-Some areas have not bee implemented (yet?)
-* ~~There is no current Gaiji support (i.e. custom Arib characters outside the normal shift-jis encoding table).~~
-* DRCS characters (custom characters described as simple bitmaps in the stream data) are detected, but not parsed.
-* Many other areas of the ARIB B-24 standard (such as  Mosaic image info) are not implemented.
-* ~~Encoding is still weakly handled. Does not follow the best practice of "decode early, encode late" therefore many utf-8 encoding exceptions are likely.~~
-
