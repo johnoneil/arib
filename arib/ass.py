@@ -33,6 +33,18 @@ class Pos(object):
   def y(self):
     return self._y
 
+class Dialog(object):
+  ''' text and dialog
+  '''
+  def __init__(self, s, x=None, y=None):
+    self._s = s
+    self._x = x
+    self._y = y
+  def __iadd__(self, other):
+    self._s += other
+    return self
+  def __len__(self):
+    return len(self._s)
 
 class Size(object):
   '''Screen width, height of an area in pixels
@@ -132,18 +144,22 @@ def asstime(seconds):
 def kanji(formatter, k, timestamp):
   formatter._current_lines[-1] += unicode(k)
   #print formatter._current_line.encode('utf-8')
+  print unicode(k)
 
 def alphanumeric(formatter, a, timestamp):
   formatter._current_lines[-1] += unicode(a)
   #print formatter._current_line.encode('utf-8')
+  print unicode(a)
 
 def hiragana(formatter, h, timestamp):
   formatter._current_lines[-1] += unicode(h)
   #print formatter._current_line.encode('utf-8')
+  print unicode(h)
 
 def katakana(formatter, k, timestamp):
   formatter._current_lines[-1] += unicode(k)
   #print formatter._current_line.encode('utf-8')
+  print unicode(k)
 
 def medium(formatter, k, timestamp):
   formatter._current_lines[-1] += u'{\\rmedium}' + formatter._current_color
@@ -204,7 +220,7 @@ def position_set(formatter, p, timestamp):
   '''
   pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col)
   line = u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
-  formatter._current_lines.append(line)
+  formatter._current_lines.append(Dialog(line))
 
 a_regex = ur'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
 
@@ -219,7 +235,7 @@ def control_character(formatter, csi, timestamp):
   if a_match:
     x = a_match.group('x')
     y = a_match.group('y')
-    formatter._current_lines.append(u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y))
+    formatter._current_lines.append( Dialog( u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y)))
     return
 
 pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'
@@ -237,11 +253,11 @@ def clear_screen(formatter, cs, timestamp):
       if not len(l):
         continue
      
-      line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=start_time, end_time=end_time, line=l)
+      line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=start_time, end_time=end_time, line=l._s)
       #TODO: add option to dump to stdout
       #print line.encode('utf-8')
       formatter._ass_file.write(line)
-      formatter._current_lines = [u'']
+      formatter._current_lines = [Dialog(u'')]
 
   formatter._elapsed_time_s = timestamp
   
@@ -312,7 +328,7 @@ class ASSFormatter(object):
     self._ass_file = ass_file or ASSFile(u'./output.ass')
     self._ass_file.write_header(width,height, video_filename.decode("utf-8"))
     self._ass_file.write_styles()
-    self._current_lines = [u'']
+    self._current_lines = [Dialog(u'')]
     self._current_style = 'normal'
     self._current_color = '{\c&Hffffff&}'
 
