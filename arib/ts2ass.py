@@ -112,7 +112,7 @@ def main():
                 if not ass_file:
                   ass_file = ASSFile(infilename+'.ass')
                 if not ass:
-                  ass = ASSFormatter(ass_file, tmax=tmax)
+                  ass = ASSFormatter(ass_file, tmax=tmax, video_filename=infilename)
 
                 ass.format(data_unit.payload().payload(), elapsed_time_s)
                 if pid < 0:
