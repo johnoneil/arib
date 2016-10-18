@@ -75,8 +75,8 @@ class ClosedCaptionArea(object):
     # I'm assuming (again with no documentation justification) that these values
     # are meant to provide sub-line positioning data, so we'll scale the APS data by 0.5
     # allowing positioning at, say, the 6.5th text line rather than just integer value lines.
-    r = row/2
-    c = col/2
+    r = float(row)/2.0
+    c = float(col)/2.0
     return Pos(self.UL.x + c * (self._CharacterDim.width + self._char_spacing), self.UL.y + r * (self._CharacterDim.height + self._line_spacing))
 
 class ASSFile(object):
