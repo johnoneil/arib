@@ -142,34 +142,28 @@ Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0
 def asstime(seconds):
   '''format floating point seconds elapsed time to 0:02:14.53
   '''
-  days = int(seconds / 86400)
-  seconds -= 86400*days
   hrs = int(seconds / 3600)
   seconds -= 3600*hrs
   mins = int(seconds / 60)
   seconds -= 60*mins
-  return u'{h:01d}:{m:02d}:{s:02.2f}'.format(h=hrs, m=mins, s=seconds)
+  return u'{h:d}:{m:02d}:{s:02.2f}'.format(h=hrs, m=mins, s=seconds)
 
 
 def kanji(formatter, k, timestamp):
   formatter._current_lines[-1] += unicode(k)
-  #print formatter._current_line.encode('utf-8')
-  print unicode(k)
+  #print unicode(k)
 
 def alphanumeric(formatter, a, timestamp):
   formatter._current_lines[-1] += unicode(a)
-  #print formatter._current_line.encode('utf-8')
-  print unicode(a)
+  #print unicode(a)
 
 def hiragana(formatter, h, timestamp):
   formatter._current_lines[-1] += unicode(h)
-  #print formatter._current_line.encode('utf-8')
-  print unicode(h)
+  #print unicode(h)
 
 def katakana(formatter, k, timestamp):
   formatter._current_lines[-1] += unicode(k)
-  #print formatter._current_line.encode('utf-8')
-  print unicode(k)
+  #print unicode(k)
 
 def medium(formatter, k, timestamp):
   formatter._current_lines[-1] += u'{\\rmedium}' + formatter._current_color
