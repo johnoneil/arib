@@ -33,6 +33,7 @@ def main():
   parser.add_argument('-v','--verbose', help='Verbose output.', action='store_true')
   parser.add_argument('-q','--quiet', help='Does not write to stdout.', action='store_true')
   parser.add_argument('-t','--tmax', help='Subtitle display time limit (seconds).', type=int, default=5)
+  parser.add_argument('-o', '--timeoffset', help='Shift all time values in generated .ass file by indicated floating point offset in seconds.', type=float, default=0.0)
   args = parser.parse_args()
 
   pid = args.pid
@@ -40,6 +41,7 @@ def main():
   quiet = args.quiet
   verbose = args.verbose
   tmax = args.tmax
+  time_offset = args.timeoffset
 
   if not os.path.exists(infilename):
     print 'Input filename :' + infilename + " does not exist."
@@ -81,7 +83,7 @@ def main():
       current_timestamp = packet.adapatation_field().PCR()
       initial_timestamp = initial_timestamp or current_timestamp
       delta = current_timestamp - initial_timestamp
-      elapsed_time_s = float(delta)/90000.0
+      elapsed_time_s = float(delta)/90000.0 + time_offset
 
     #if this is the stream PID we're interestd in, reconstruct the ES
     if pid < 0 or ( pid == packet.pid() ):
