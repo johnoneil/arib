@@ -67,7 +67,17 @@ class ClosedCaptionArea(object):
     return self._Dimensions
 
   def RowCol2ScreenPos(self, row, col):
-    return Pos(self.UL.x+col*(self._CharacterDim.width+self._char_spacing), self.UL.y+row*(self._CharacterDim.height+self._line_spacing))
+    # issue #13. Active Position Set values seem incorrect.
+    # It doesn't jive with any documentation i've read but the APS values coming
+    # out of some .ts files (specifically aijin) seem incorrect by a factor of 2.
+    # According to text area data, there should be 8 text lines in the CC area but
+    # values for CC APS values are 12-15.
+    # I'm assuming (again with no documentation justification) that these values
+    # are meant to provide sub-line positioning data, so we'll scale the APS data by 0.5
+    # allowing positioning at, say, the 6.5th text line rather than just integer value lines.
+    r = float(row)/2.0
+    c = float(col)/2.0
+    return Pos(self.UL.x + c * (self._CharacterDim.width + self._char_spacing), self.UL.y + r * (self._CharacterDim.height + self._line_spacing))
 
 class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
