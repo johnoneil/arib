@@ -25,6 +25,19 @@ PUSI_MASK = 0x40
 PID_START_INDEX = 1
 PID_LENGTH_BYTES = 2
 PID_MASK = 0x1fff
+# Transport Scrambling Control (TSC)
+TSC_INDEX = 3
+TSC_MASK = 0xc0
+# Adaptation field control
+ADAPTATION_FIELD_CONTROL_INDEX = 3
+ADAPTATION_FIELD_CONTROL_MASK = 0x30
+NO_ADAPTATON_FIELD = 0b01
+ADAPTATION_FIELD_ONLY = 0b10
+ADAPTATION_FIELD_AND_PAYLOAD = 0b11
+ADAPTATION_FIELD_RESERVED = 0b00
+# Continuity counter
+CONTINUITY_COUNTER_INDEX = 3
+CONTINUITY_COUNTER_MASK = 0x0f
 
 
 def check_packet_formedness(packet):
@@ -75,6 +88,22 @@ def get_pid(packet):
   """
   return ((ord(packet[PID_START_INDEX]) & 0x1f)<<8) | ord(packet[PID_START_INDEX+1])
 
+def get_tsc(packet):
+  """get value of Transport Scrambling Control indicato
+  """
+  return (ord(packet[TSC_INDEX]) & TSC_MASK) >> 6
+
+def get_adaptation_field_control(packet):
+  """ get the adaptation field control value for this packet
+  """
+  return (ord(packet[ADAPTATION_FIELD_CONTROL_INDEX]) & ADAPTATION_FIELD_CONTROL_MASK) >> 4
+
+def get_continuity_counter(packet):
+  """ Get the continuity counter value for this packet
+  """
+  return ord(packet[CONTINUITY_COUNTER_INDEX]) & CONTINUITY_COUNTER_MASK
+
+
 def main():
   parser = argparse.ArgumentParser(description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
   parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
@@ -113,6 +142,9 @@ def main():
     pei = get_transport_error_indicator(packet)
     pusi = get_payload_start(packet)
     pid = get_pid(packet)
+    tsc = get_tsc(packet)
+    adaptation_field_control = get_adaptation_field_control(packet)
+    continuity_counter = get_continuity_counter(packet)
     
 if __name__ == "__main__":
   main()
