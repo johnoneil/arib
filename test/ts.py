@@ -10,6 +10,7 @@ DATE: Thursday, October 20th 2016
 import os
 import sys
 import argparse
+import struct
 
 PACKET_SIZE = 188
 # sync byte
@@ -39,6 +40,15 @@ ADAPTATION_FIELD_RESERVED = 0b00
 CONTINUITY_COUNTER_INDEX = 3
 CONTINUITY_COUNTER_MASK = 0x0f
 
+# Adaptation field data (if present)
+ADAPTATION_FIELD_LENGTH_INDEX = 4
+ADAPTATION_FIELD_DATA_INDEX = 5
+
+# Program Clock Reference (PCR)
+# Present flag tagged in ADAPTATION_FIELD_DATA_INDEX byte
+PCR_FLAG_MASK = 0x10
+PCR_START_INDEX = 6 
+PCR_SIZE_BYTES = 6
 
 def check_packet_formedness(packet):
   """Check some features of this packet and see if it's well formed or not
@@ -103,6 +113,38 @@ def get_continuity_counter(packet):
   """
   return ord(packet[CONTINUITY_COUNTER_INDEX]) & CONTINUITY_COUNTER_MASK
 
+def get_adaptation_field_length(packet):
+  """ Get the length of the adaptation field for this packet.
+  Can return 0 if none is present.
+  """
+  if get_adaptation_field_control(packet) == NO_ADAPTATION_FIELD:
+    return 0
+
+  return ord(packet[ADAPTATION_FIELD_LENGTH_INDEX])
+
+def adaptation_field_present(packet):
+  return get_adaptation_field_control(packet) != NO_ADAPTATON_FIELD
+
+def get_pcr(packet):
+  """ Get the Program Clock Reference for this packet if present.
+  Can return 0 if data not present.
+  """
+  if not adaptation_field_present(packet):
+    return 0
+  if not ord(packet[ADAPTATION_FIELD_DATA_INDEX]) & PCR_FLAG_MASK:
+    return 0
+  b1 = struct.unpack('>L', packet[PCR_START_INDEX:PCR_START_INDEX+4])[0]
+  b2 = struct.unpack('>H', packet[PCR_START_INDEX+4:PCR_START_INDEX+6])[0]
+  base = b1 << 1 | b2 >> 15 # 33 bit base
+  extension = b2 & 0x1ff # 9 bit exstension
+  return base * 300 + extension
+
+def pcr_delta_time_ms(pcr_t1, pcr_t2, offset = 0):
+  """Return a floating point time in milliseconds representing the
+  Difference in time between two PCR timestamps
+  """
+  return float(pcr_t2-pcr_t1)/90000.0 + offset
+
 
 def main():
   parser = argparse.ArgumentParser(description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
@@ -120,15 +162,15 @@ def main():
   percent_read = 0
   prev_percent_read = percent_read
 
-  #CC data is not, in itself timestamped, so we've got to use packet info
-  #to reconstruct the timing of the closed captions (i.e. how many seconds into
-  #the file are they shown?)
-  #show initial progress information
+  # Show on-screen progress info.
   sys.stdout.write("progress: %d%%   \r" % (percent_read) )
   sys.stdout.flush()
-  
+ 
+  initial_timestamp = None
 
   for packet in next_packet(infilename):
+
+    # Show on-screen progress info.
     read_size += PACKET_SIZE
     percent_read =((read_size/float(total_filesize))* 100)
     new_percent_read = int(percent_read * 100)
@@ -145,6 +187,11 @@ def main():
     tsc = get_tsc(packet)
     adaptation_field_control = get_adaptation_field_control(packet)
     continuity_counter = get_continuity_counter(packet)
+    pcr = get_pcr(packet)
+    #if pcr > 0:
+    #  if not initial_timestamp:
+    #    initial_timestamp = pcr
+    #  print "elapsed time: " + str(pcr_delta_time_ms(initial_timestamp, pcr))
     
 if __name__ == "__main__":
   main()
