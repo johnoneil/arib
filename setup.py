@@ -9,6 +9,7 @@ from setuptools import setup
 #version 0.55: Removed autosub tool, automated PID handling
 #version 0.56: Better file writing and messages.
 #version 0.57: Fixes for issues 13, 14
+#version 0.58: fix for vertical position in some cases
 
 def readme():
   with open('README.md') as f:
