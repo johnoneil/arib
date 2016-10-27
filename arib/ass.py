@@ -230,7 +230,7 @@ def position_set(formatter, p, timestamp):
   So we have to calculate pixel coordinates (and then sale them)
   '''
   pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col)
-  line = u'{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an7}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
+  line = u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
   formatter._current_lines.append(Dialog(line))
 
 a_regex = ur'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
