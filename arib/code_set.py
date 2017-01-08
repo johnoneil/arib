@@ -16,6 +16,8 @@ import read
 
 class Gaiji(object):
   #after ARIB std docs pg 54 onwards
+  # note that columns and rows are swapped in this table to
+  # facilitate reading
   ENCODING = {
     1  : { 90 : u'◻', 91 : u'◻', 92 : u'➡', 93 : u'◻', 94 : u'◻',},
     2  : { 90 : u'◻', 91 : u'◻', 92 : u'⬅', 93 : u'◻', 94 : u'◻',},
@@ -116,7 +118,8 @@ class Gaiji(object):
   @staticmethod
   def is_gaiji(v):
     row = v[0]&0x7f-0x20
-    return  row >= 90 and row <= 94
+    col = v[1] & 0x007f - 0x20
+    return  (row >= 90 and row <= 94) and (col >=1 and col <= 94)
 
   @staticmethod
   def decode(v):

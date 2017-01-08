@@ -133,7 +133,7 @@ def main():
                   #print(cc.encode('utf-8'))
       except:
           if(pid >= 0):
-            print("exception thrown while processing packet with PID: " + str(packet.pid()))
+            print("exception thrown: ",sys.exc_info()[0])
             print("This could indicate an application error, file corruption or this file uses features not yet supported by the application.");
           pass
   if pid < 0 or not ass:
