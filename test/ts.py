@@ -12,6 +12,10 @@ import sys
 import argparse
 import struct
 
+# memorymap file on 64 bit systems
+import platform
+import mmap
+
 PACKET_SIZE = 188
 # sync byte
 SYNC_BYTE_INDEX = 0
@@ -60,10 +64,16 @@ def check_packet_formedness(packet):
     raise Exception("Provided input packet does not begin with correct sync byte.")
 
 #generator
-def next_packet(filename):
+def next_packet(filename, memorymap=True):
   with open(filename, 'rb') as f:
+    
+    #memory map the file if necessary (prob requires 64 bit systems)
+    _file = f
+    if memorymap:
+      _file = mmap.mmap(f.fileno(), 0, prot=mmap.PROT_READ)
+    
     while True:
-      packet = f.read(PACKET_SIZE)
+      packet = _file.read(PACKET_SIZE)
       if packet:
         # first byte SHOULD be the sync byte
         # but if it isn't find one.
@@ -79,7 +89,7 @@ def next_packet(filename):
             #print ":".join("{:02x}".format(ord(c)) for c in packet)
             raise Exception("failure to find sync byte in ts packet size.")
             continue
-          remainder = f.read(PACKET_SIZE - start_byte)
+          remainder = _file.read(PACKET_SIZE - start_byte)
           packet = packet[start_byte:] + remainder
         yield packet
       else:
@@ -168,7 +178,12 @@ def main():
  
   initial_timestamp = None
 
-  for packet in next_packet(infilename):
+  #turn off memory mapping files on 32 bit systems
+  memory_mapping = True
+  if platform.architecture()[0] != '64bit':
+    memor_mapping = False;
+
+  for packet in next_packet(infilename, memory_mapping):
 
     # Show on-screen progress info.
     read_size += PACKET_SIZE
