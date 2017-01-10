@@ -195,18 +195,18 @@ def main():
       sys.stdout.flush()
     
     # extract data from packet to do a "worst case" access test
-    #check_packet_formedness(packet)
-    #pei = get_transport_error_indicator(packet)
-    #pusi = get_payload_start(packet)
-    #pid = get_pid(packet)
-    #tsc = get_tsc(packet)
-    #adaptation_field_control = get_adaptation_field_control(packet)
-    #continuity_counter = get_continuity_counter(packet)
-    #pcr = get_pcr(packet)
-    #if pcr > 0:
-    #  if not initial_timestamp:
-    #    initial_timestamp = pcr
-    #  print "elapsed time: " + str(pcr_delta_time_ms(initial_timestamp, pcr))
+    check_packet_formedness(packet)
+    pei = get_transport_error_indicator(packet)
+    pusi = get_payload_start(packet)
+    pid = get_pid(packet)
+    tsc = get_tsc(packet)
+    adaptation_field_control = get_adaptation_field_control(packet)
+    continuity_counter = get_continuity_counter(packet)
+    pcr = get_pcr(packet)
+    if pcr > 0:
+      if not initial_timestamp:
+        initial_timestamp = pcr
+      #print "elapsed time: " + str(pcr_delta_time_ms(initial_timestamp, pcr))
     
 if __name__ == "__main__":
   main()
