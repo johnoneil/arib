@@ -36,7 +36,7 @@ TSC_MASK = 0xc0
 # Adaptation field control
 ADAPTATION_FIELD_CONTROL_INDEX = 3
 ADAPTATION_FIELD_CONTROL_MASK = 0x30
-NO_ADAPTATON_FIELD = 0b01
+NO_ADAPTATION_FIELD = 0b01
 ADAPTATION_FIELD_ONLY = 0b10
 ADAPTATION_FIELD_AND_PAYLOAD = 0b11
 ADAPTATION_FIELD_RESERVED = 0b00
@@ -133,7 +133,7 @@ def get_adaptation_field_length(packet):
   return ord(packet[ADAPTATION_FIELD_LENGTH_INDEX])
 
 def adaptation_field_present(packet):
-  return get_adaptation_field_control(packet) != NO_ADAPTATON_FIELD
+  return get_adaptation_field_control(packet) != NO_ADAPTATION_FIELD
 
 def get_pcr(packet):
   """ Get the Program Clock Reference for this packet if present.
@@ -155,6 +155,18 @@ def pcr_delta_time_ms(pcr_t1, pcr_t2, offset = 0):
   """
   return float(pcr_t2-pcr_t1)/90000.0 + offset
 
+
+def get_payload_length(packet):
+  """Payload length from an 188 byte ts packet
+  """
+  adaptation_field_len = get_adaptation_field_length(packet)
+  return 188 - 4 - adaptation_field_len
+
+def get_payload(packet):
+  """ return a byte array deep copy of 188 byte ts packet payload
+  """
+  payload_len = get_payload_length(packet)
+  return packet[:-payload_len]
 
 def main():
   parser = argparse.ArgumentParser(description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
@@ -183,6 +195,8 @@ def main():
   if platform.architecture()[0] != '64bit':
     memor_mapping = False;
 
+  current_payload = None
+
   for packet in next_packet(infilename, memory_mapping):
 
     # Show on-screen progress info.
@@ -207,6 +221,10 @@ def main():
       if not initial_timestamp:
         initial_timestamp = pcr
       #print "elapsed time: " + str(pcr_delta_time_ms(initial_timestamp, pcr))
-    
+    if not current_payload or get_payload_start(packet):
+      current_payload = get_payload(packet)
+    else:
+      current_payload += get_payload(packet)
+
 if __name__ == "__main__":
   main()
