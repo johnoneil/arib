@@ -22,6 +22,8 @@ from struct import error as struct_error
 from copy import copy
 import struct
 
+import mmap
+
 '''
 http://en.wikipedia.org/wiki/MPEG_transport_stream
 
@@ -206,11 +208,16 @@ class TSPacket(object):
     return self._payload_start_indicator
 
 
-def next_ts_packet(filepath):
+def next_ts_packet(filepath, memory_map_file=True):
   '''Given the path to a .TS file, generate
   a series of TS packets structures.
   '''
   f = open(filepath, "rb")
+  _f = f
+  # Memory map the file to speed reading (64bit systems)
+  if memory_map_file:
+    _f = mmap.mmap(f.fileno(), 0, prot=mmap.PROT_READ)
+
   packet = TSPacket(f)
   try:
     while packet:
