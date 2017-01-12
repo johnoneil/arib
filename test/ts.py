@@ -96,10 +96,10 @@ def next_packet(filename, memorymap=True):
         break
 
 def get_transport_error_indicator(packet):
-  return (ord(packet[TEI_INDEX]) & TEI_MASK) == 1
+  return (ord(packet[TEI_INDEX]) & TEI_MASK) != 0
 
 def get_payload_start(packet):
-  return (ord(packet[PUSI_INDEX]) & PUSI_MASK) == 1
+  return (ord(packet[PUSI_INDEX]) & PUSI_MASK) != 0
 
 def get_pid(packet):
   """Given a stringified MPEG TS packet, extract the PID value
@@ -130,7 +130,8 @@ def get_adaptation_field_length(packet):
   if get_adaptation_field_control(packet) == NO_ADAPTATION_FIELD:
     return 0
 
-  return ord(packet[ADAPTATION_FIELD_LENGTH_INDEX])
+  #we add one byte here for the adaptation field length data itself
+  return ord(packet[ADAPTATION_FIELD_LENGTH_INDEX]) + 1
 
 def adaptation_field_present(packet):
   return get_adaptation_field_control(packet) != NO_ADAPTATION_FIELD
@@ -165,8 +166,58 @@ def get_payload_length(packet):
 def get_payload(packet):
   """ return a byte array deep copy of 188 byte ts packet payload
   """
-  payload_len = get_payload_length(packet)
-  return packet[:-payload_len]
+  #payload_len = get_payload_length(packet)
+  adaptation_field_len = get_adaptation_field_length(packet)
+  header_size = 4 + adaptation_field_len
+  return packet[header_size:]
+
+
+PES_STREAM_ID_INDEX = 3
+
+def pes_packet_check_formedness(payload):
+  """ Check formedness of pes packet and indicate we have the entire payload
+  """
+  b1 = ord(payload[0])
+  b2 = ord(payload[1])
+  b3 = ord(payload[2])
+
+  b4 = ord(payload[3])
+  if b1 != 0 or b2 != 0 or b3 != 1:
+    return False
+  return True
+
+def get_pes_stream_id(payload):
+  return ord(payload[PES_STREAM_ID_INDEX])
+
+def get_pes_packet_length(payload):
+  if len(payload)<6:
+    return 0
+  # we add 6 for start code, stream id and pes packet length itself
+  return struct.unpack('>H', payload[4:6])[0] + 6
+
+def get_pes_flags(payload):
+  return struct.unpack('>H', payload[6:8])[0]
+
+def get_pes_header_length(payload):
+  # 6 is initial prefix, streamid and then pes packet length
+  # 3 is for header flags and header size value
+  # value at byte 8 gives the remaining bytes in the header including stuffing
+  if len(payload) < 9:
+    return 0
+  return 6 + 3 + ord(payload[8])
+
+def get_pes_payload_length(payload):
+  return get_pes_packet_length(payload) - get_pes_header_length(payload)
+
+def get_pes_payload(payload):
+  payload_start = get_pes_header_length(payload)
+  return payload[payload_start:]
+
+def pes_packet_complete(payload):
+  pes_packet_len = get_pes_packet_length(payload)
+  payload_len = len(payload)
+  return pes_packet_len == payload_len
+
 
 def main():
   parser = argparse.ArgumentParser(description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
@@ -195,7 +246,7 @@ def main():
   if platform.architecture()[0] != '64bit':
     memor_mapping = False;
 
-  current_payload = None
+  elementary_streams = {};
 
   for packet in next_packet(infilename, memory_mapping):
 
@@ -216,15 +267,39 @@ def main():
     tsc = get_tsc(packet)
     adaptation_field_control = get_adaptation_field_control(packet)
     continuity_counter = get_continuity_counter(packet)
+    
+    # handle timestamp if necessary
     pcr = get_pcr(packet)
     if pcr > 0:
       if not initial_timestamp:
         initial_timestamp = pcr
       #print "elapsed time: " + str(pcr_delta_time_ms(initial_timestamp, pcr))
-    if not current_payload or get_payload_start(packet):
-      current_payload = get_payload(packet)
+    
+    # put together PES from payloads
+    #print('.')
+    payload = get_payload(packet)
+    if pusi == True:
+      #print("Payload start pid:", pid)
+      if not pes_packet_check_formedness(payload):
+        #print("Malformed pes packet header.")
+        if pid in elementary_streams:
+          elementary_streams[pid] = None
+        continue
+      pes_id = get_pes_stream_id(payload)
+      elementary_streams[pid] = payload
     else:
-      current_payload += get_payload(packet)
+      if pid in elementary_streams:
+        #print("Payload continued: ", pid)
+        # TODO: check packet sequence counter
+        elementary_streams[pid] += payload
+      else:
+        # TODO: throw. this situaiton means out of order packets
+        pass
+    if pid in elementary_streams and pes_packet_complete(elementary_streams[pid]):
+      #print("pes packet complete on streamid: ",pid)
+      #TODO: handle packet contents here (callback)
+      es = elementary_streams[pid]
+
 
 if __name__ == "__main__":
   main()
