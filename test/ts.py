@@ -219,6 +219,92 @@ def pes_packet_complete(payload):
   return pes_packet_len == payload_len
 
 
+class TransportStreamParser(object):
+  """
+  Parse an transport stream file and invokes some callbacks when ES packets are available
+  Can be subsequently updated to only extract ES packets with a particular ID (PES ID)
+  Also has support to invoke a callback when timestamp information is available.git
+  """
+  def __init__(self, filename):
+    self._filename = filename
+    self._total_filesize = os.path.getsize(filename)
+    self._read_size = 0
+    self.Progress = None
+    self.OnTSPacket = None
+    self.OnESPacket = None
+    self.OnTSPacketError = None
+    self.OnESPacketError = None
+    self._elementary_streams = {}
+
+  def Parse(self):
+    """ Go through the .ts file, and invoke a callback on each TS packet and ES packet
+    Also invoke progress callbacks and packet error callbacks as appropriate
+    """
+    prev_percent_read = 0
+    for packet in next_packet(self._filename):
+      #check_packet_formedness(packet)
+      pei = get_transport_error_indicator(packet)
+      pusi = get_payload_start(packet)
+      pid = get_pid(packet)
+      tsc = get_tsc(packet)
+
+      # per .ts packet handler
+      if self.OnTSPacket:
+        self.OnTSPacket(packet)
+
+      # Update a progress callback
+      self._read_size += PACKET_SIZE
+      percent_read = ((self._read_size  / float(self._total_filesize)) * 100)
+      new_percent_read = int(percent_read * 100)
+      if new_percent_read != prev_percent_read and self.Progress:
+        self.Progress(self._read_size, self._total_filesize, percent_read)
+        prev_percent_read = new_percent_read
+
+      adaptation_field_control = get_adaptation_field_control(packet)
+      continuity_counter = get_continuity_counter(packet)
+
+      # put together PES from payloads
+      payload = get_payload(packet)
+      if pusi == True:
+        # print("Payload start pid:", pid)
+        if not pes_packet_check_formedness(payload):
+          # print("Malformed pes packet header.")
+          if pid in self._elementary_streams:
+            elementary_streams[pid] = None
+          continue
+        pes_id = get_pes_stream_id(payload)
+        self._elementary_streams[pid] = payload
+      else:
+        if pid in self._elementary_streams:
+          # print("Payload continued: ", pid)
+          # TODO: check packet sequence counter
+          self._elementary_streams[pid] += payload
+        else:
+          # TODO: throw. this situaiton means out of order packets
+          pass
+      if pid in self._elementary_streams and pes_packet_complete(self._elementary_streams[pid]):
+        # print("pes packet complete on streamid: ",pid)
+        # TODO: handle packet contents here (callback)
+        es = self._elementary_streams[pid]
+        if self.OnESPacket:
+          header_size = get_pes_header_length(es)
+          self.OnESPacket(pid, es, header_size)
+
+
+def OnProgress(bytes_read, total_bytes, percent):
+  sys.stdout.write("progress: %.2f%%   \r" % (percent))
+  sys.stdout.flush()
+
+def OnTSPacket(packet):
+  # draw a timestamp out of any given packet if necessary
+  pcr = get_pcr(packet)
+  #if pcr > 0:
+  #  initial_timestamp = pcr
+
+def OnESPacket(pid, packet, header_size):
+  #print("ESPacket pid " + str(pid))
+  pass
+
 def main():
   parser = argparse.ArgumentParser(description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
   parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
@@ -230,75 +316,13 @@ def main():
     print 'Input filename :' + infilename + " does not exist."
     os.exit(-1)
 
-  total_filesize = os.path.getsize(infilename)
-  read_size = 0
-  percent_read = 0
-  prev_percent_read = percent_read
+  TS = TransportStreamParser(infilename)
 
-  # Show on-screen progress info.
-  sys.stdout.write("progress: %d%%   \r" % (percent_read) )
-  sys.stdout.flush()
- 
-  initial_timestamp = None
+  TS.Progress = OnProgress
+  TS.OnTSPacket = OnTSPacket
+  TS.OnESPacket = OnESPacket
 
-  #turn off memory mapping files on 32 bit systems
-  memory_mapping = True
-  if platform.architecture()[0] != '64bit':
-    memor_mapping = False;
-
-  elementary_streams = {};
-
-  for packet in next_packet(infilename, memory_mapping):
-
-    # Show on-screen progress info.
-    read_size += PACKET_SIZE
-    percent_read =((read_size/float(total_filesize))* 100)
-    new_percent_read = int(percent_read * 100)
-    if new_percent_read != prev_percent_read:
-      prev_percent_read = new_percent_read
-      sys.stdout.write("progress: %.2f%%   \r" % (percent_read) )
-      sys.stdout.flush()
-    
-    # extract data from packet to do a "worst case" access test
-    check_packet_formedness(packet)
-    pei = get_transport_error_indicator(packet)
-    pusi = get_payload_start(packet)
-    pid = get_pid(packet)
-    tsc = get_tsc(packet)
-    adaptation_field_control = get_adaptation_field_control(packet)
-    continuity_counter = get_continuity_counter(packet)
-    
-    # handle timestamp if necessary
-    pcr = get_pcr(packet)
-    if pcr > 0:
-      if not initial_timestamp:
-        initial_timestamp = pcr
-      #print "elapsed time: " + str(pcr_delta_time_ms(initial_timestamp, pcr))
-    
-    # put together PES from payloads
-    #print('.')
-    payload = get_payload(packet)
-    if pusi == True:
-      #print("Payload start pid:", pid)
-      if not pes_packet_check_formedness(payload):
-        #print("Malformed pes packet header.")
-        if pid in elementary_streams:
-          elementary_streams[pid] = None
-        continue
-      pes_id = get_pes_stream_id(payload)
-      elementary_streams[pid] = payload
-    else:
-      if pid in elementary_streams:
-        #print("Payload continued: ", pid)
-        # TODO: check packet sequence counter
-        elementary_streams[pid] += payload
-      else:
-        # TODO: throw. this situaiton means out of order packets
-        pass
-    if pid in elementary_streams and pes_packet_complete(elementary_streams[pid]):
-      #print("pes packet complete on streamid: ",pid)
-      #TODO: handle packet contents here (callback)
-      es = elementary_streams[pid]
+  TS.Parse()
 
 
 if __name__ == "__main__":
