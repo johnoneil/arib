@@ -86,7 +86,7 @@ class DataGroup(object):
     caption management data (as opposed to caption data itself.
     There appears to be some deviation from the standard, which
     states that the top 6 bits of _group_id should be zero or 0x20
-    to qualify as managment data.
+    to qualify as management data.
     '''
     return ((self._group_id >> 2)&(~0x20))==0
 
