@@ -28,8 +28,8 @@ def ucb(f):
   '''Read unsigned char byte from binary file
   '''
   if isinstance(f, list):
-    n, f = split_buffer(1, f)
-    return int(n[0])
+    b, f = split_buffer(1, f)
+    return struct.unpack('B', ''.join(b))[0]
   else:
     return struct.unpack('B', f.read(1))[0]
 
@@ -38,7 +38,7 @@ def usb(f):
   '''
   if isinstance(f, list):
     n, f = split_buffer(2, f)
-    return (n[0]<<8)|n[1]
+    return struct.unpack('>H', ''.join(n))[0]
   else:
     return struct.unpack('>H', f.read(2))[0]
 
@@ -47,7 +47,7 @@ def ui3b(f):
   '''
   if isinstance(f, list):
     n, f = split_buffer(3, f)
-    return (n[0]<<16)|(n[1]<<8)|n[2]
+    return struct.unpack('>I', '\x00'+ ''.join(n))[0]
   else:
     return struct.unpack('>I', '\x00'+ (f.read(3)))[0]
 
@@ -56,7 +56,7 @@ def uib(f):
   '''
   if isinstance(f, list):
     n, f = split_buffer(4, f)
-    return (n[0]<<24)|(n[1]<<16)|(n[2]<<8)|n[0]
+    return struct.unpack('>L', ''.join(n))[0]
   else:
     return struct.unpack('>L', f.read(4))[0]
 
@@ -65,6 +65,6 @@ def buffer(f, size):
   '''
   if isinstance(f, list):
     n, f = split_buffer(size, f)
-    return n
+    return ''.join(n)
   else:
     return f.read(size)
