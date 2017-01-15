@@ -33,7 +33,7 @@ class DataGroup(object):
   GroupA_Caption_Statement_lang6 = 0x6
   GroupA_Caption_Statement_lang7 = 0x7
   GroupA_Caption_Statement_lang8 = 0x8
-  
+
   def __init__(self, f):
     if DEBUG:
       print("__DATA_GROUP_START__")
@@ -71,10 +71,10 @@ class DataGroup(object):
       #self._payload = f.read(self._data_group_size)
       self._payload = read.buffer(f, self._data_group_size)
     # we may be lacking a CRC?
-    if len(f) >= 2:  # a short remains to be read
-      self._crc = read.usb(f)
-    else:
-      self._crc = 0;
+    #if len(f) >= 2:  # a short remains to be read
+    self._crc = read.usb(f)
+    #else:
+    #  self._crc = 0;
     if DEBUG:
       print 'crc value is ' + str(self._crc)
 
