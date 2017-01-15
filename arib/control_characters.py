@@ -1365,7 +1365,10 @@ class CSI(object):
     return len(self._args) + 1
 
   def __unicode__(self):
-    return u'<CS:"{seq}">'.format(seq=u''.join(u'{:#c}'.format(x) for x in self._args))
+    try:
+      return u'<CS:"{seq}">'.format(seq=u''.join(u'{:#c}'.format(x) for x in self._args))
+    except UnicodeDecodeError:
+        return u'<CS:"{seq}">'.format(seq=u''.join(u':{h}'.format(h=hex(x)) for x in self._args))
 
   @staticmethod
   def handler(f):

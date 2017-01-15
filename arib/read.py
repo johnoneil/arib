@@ -9,6 +9,11 @@ DATE: Thursday, March 13th 2014
 '''
 import struct
 
+class EOFError(Exception):
+  """ Custom exception raised when we read to EOF
+  """
+  pass
+
 def split_buffer(length, buf):
   '''split provided array at index x
   '''
@@ -31,7 +36,10 @@ def ucb(f):
     b, f = split_buffer(1, f)
     return struct.unpack('B', ''.join(b))[0]
   else:
-    return struct.unpack('B', f.read(1))[0]
+    _f = f.read(1)
+    if len(_f) < 1:
+      raise EOFError()
+    return struct.unpack('B', _f)[0]
 
 def usb(f):
   '''Read unsigned short from binary file
@@ -40,7 +48,10 @@ def usb(f):
     n, f = split_buffer(2, f)
     return struct.unpack('>H', ''.join(n))[0]
   else:
-    return struct.unpack('>H', f.read(2))[0]
+    _f = f.read(2)
+    if len(_f) < 2:
+      raise EOFError()
+    return struct.unpack('>H', _f)[0]
 
 def ui3b(f):
   '''Read 3 byte unsigned short from binary file
@@ -49,7 +60,11 @@ def ui3b(f):
     n, f = split_buffer(3, f)
     return struct.unpack('>I', '\x00'+ ''.join(n))[0]
   else:
-    return struct.unpack('>I', '\x00'+ (f.read(3)))[0]
+    _f = f.read(3)
+    if len(_f) < 3:
+      raise EOFError()
+ 
+    return struct.unpack('>I', '\x00'+ (_f))[0]
 
 def uib(f):
   '''
@@ -58,7 +73,11 @@ def uib(f):
     n, f = split_buffer(4, f)
     return struct.unpack('>L', ''.join(n))[0]
   else:
-    return struct.unpack('>L', f.read(4))[0]
+    _f = f.read(4)
+    if len(_f) < 4:
+      raise EOFError()
+ 
+    return struct.unpack('>L', _f)[0]
 
 def buffer(f, size):
   '''Read N bytes from either a file or list
@@ -67,4 +86,8 @@ def buffer(f, size):
     n, f = split_buffer(size, f)
     return ''.join(n)
   else:
-    return f.read(size)
+    _f = f.read(size)
+    if len(_f) < size:
+      raise EOFError()
+ 
+    return _f

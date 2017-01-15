@@ -10,6 +10,7 @@ DATE: Saturday January 14th 2017
 import os
 import sys
 import argparse
+import traceback
 
 from mpeg.ts import TS
 from mpeg.ts import ES
@@ -96,10 +97,9 @@ def main():
             #my command line.
             #DECODE EARLY, ENCODE LATE
             print(cc.encode('utf-8'))
-    except:
-      pass
-
-
+    except Exception, err:
+      print("Exception thrown while handling .es datagroup post parsing.")
+      traceback.print_exc(file=sys.stdout)
  
 if __name__ == "__main__":
   main()
