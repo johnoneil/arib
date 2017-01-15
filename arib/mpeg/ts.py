@@ -61,11 +61,11 @@ class ES:
 
   @staticmethod
   def get_pes_payload_length(payload):
-    return get_pes_packet_length(payload) - get_pes_header_length(payload)
+    return ES.get_pes_packet_length(payload) - ES.get_pes_header_length(payload)
 
   @staticmethod
   def get_pes_payload(payload):
-    payload_start = get_pes_header_length(payload)
+    payload_start = ES.get_pes_header_length(payload)
     return payload[payload_start:]
 
   @staticmethod
