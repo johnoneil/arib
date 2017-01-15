@@ -13,7 +13,6 @@ import argparse
 import struct
 
 # memorymap file on 64 bit systems
-import platform
 import mmap
 
 
@@ -227,9 +226,12 @@ class TS(object):
       return 0
     b1 = struct.unpack('>L', packet[TS.PCR_START_INDEX:TS.PCR_START_INDEX+4])[0]
     b2 = struct.unpack('>H', packet[TS.PCR_START_INDEX+4:TS.PCR_START_INDEX+6])[0]
-    base = b1 << 1 | b2 >> 15 # 33 bit base
-    extension = b2 & 0x1ff # 9 bit exstension
-    return base * 300 + extension
+    base = (b1 << 1) | (b2 >> 15) # 33 bit base
+    extension = b2 & 0x1ff # 9 bit extension
+    # TODO: proper extension handling as per the spec
+    # returning the base gives us good results currently
+    #return base * 300 + extension
+    return base
 
   @staticmethod
   def pcr_delta_time_ms(pcr_t1, pcr_t2, offset = 0):

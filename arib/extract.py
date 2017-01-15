@@ -10,24 +10,14 @@ DATE: Thursday, October 20th 2016
 import os
 import sys
 import argparse
-import struct
-
-# memorymap file on 64 bit systems
-import platform
-import mmap
 
 from mpeg.ts import TS
 from mpeg.ts import ES
 
-
-from arib.data_group import next_data_group
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
 import arib.code_set as code_set
 import arib.control_characters as control_characters
-from arib.ts import next_ts_packet
-from arib.ts import next_pes_packet
-from arib.ts import PESPacket
 from arib.data_group import DataGroup
 
 
@@ -103,7 +93,7 @@ def OnTSPacket(packet):
     current_timestamp = pcr
     initial_timestamp = initial_timestamp or current_timestamp
     delta = current_timestamp - initial_timestamp
-    elapsed_time_s = TS.pcr_delta_time_ms(initial_timestamp, current_timestamp)/1000
+    elapsed_time_s = float(delta) / 90000.0
 
 def OnESPacket(current_pid, packet, header_size):
   """
