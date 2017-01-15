@@ -120,3 +120,1004 @@
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3>（<Normal Text>友蔵<Medium Text>）<Normal Text>そろそろ<Medium Text> <Normal Text>始まるぞ<Medium Text>。
 <Screen Posiiton to 7,3><Normal Text><yellow>えっ？<Medium Text> <Normal Text>あっ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,9><Small Text>ひでき<Normal Text>
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>秀樹<Medium Text>）<Normal Text>♫<Medium Text>「<Normal Text>ローラ<Medium Text>」<Normal Text>
+<Screen Posiiton to 7,3><yellow>あっ<Medium Text> <Normal Text>秀樹<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><yellow>ハァ…<Medium Text> <Normal Text>危なかったね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>お姉ちゃんがいたら
+<Screen Posiiton to 7,1>ケンカになるところだったよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><Medium Text>（<Normal Text>男性<Medium Text>）<Normal Text>んな<Medium Text> <Normal Text>アホな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><Medium Text>（<Normal Text>男性たち<Medium Text>）<Normal Text>どうも<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>ありがとうございました〜<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>まる子<Medium Text>・<Normal Text>すみれ<Medium Text>）<Normal Text>アハハハハ<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text><Medium Text>（<Normal Text>女性<Medium Text>）<Normal Text>私<Medium Text> <Normal Text>チョコ<Medium Text> <Normal Text>大好きなの<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>あっ<Medium Text> <Normal Text>このコマーシャル<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2><Medium Text><white>（<Normal Text>すみれ<Medium Text>）<Normal Text>んっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>いやいや〜ん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9>（<Normal Text>一同<Medium Text>）<Normal Text>んっ？<Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>知らない？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text>初めて見たわ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text><yellow>え〜？<Medium Text> <Normal Text>前から<Medium Text> <Normal Text>やってるじゃん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>いやいや〜ん<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1>チョコは<Medium Text> <Normal Text>ちょこっとにして<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>《あ〜あ<Medium Text>。 <Normal Text>こんなとき
+<Screen Posiiton to 7,2>お姉ちゃんだったら…》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>《いやいや〜ん<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1>チョコは<Medium Text> <Normal Text>ちょこっとにして》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4>《フフフフ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4>似てる<Medium Text> <Normal Text>似てる》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><Medium Text>（<Normal Text>さきこ<Medium Text>・<Normal Text>まる子の笑い声<Medium Text>）
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><yellow>《…って<Medium Text> <Normal Text>なるのになぁ》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,6>☎
+<Screen Posiiton to 7,6><yellow>んっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,7>☎
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>えっ<Medium Text> <Normal Text>あした？
+<Screen Posiiton to 7,0><Medium Text><white>（<Normal Text>たまえ<Medium Text>）<Normal Text>うん<Medium Text>。 <Normal Text>何か<Medium Text> <Normal Text>予定あった？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>別に<Medium Text> <Normal Text>ないけど<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11>（<Normal Text>風の音<Medium Text>）
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><yellow>だったら<Medium Text> <Normal Text>うちに<Medium Text> <Normal Text>おいでよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>お姉ちゃんもいなくて
+<Screen Posiiton to 7,2>部屋も<Medium Text> <Normal Text>広く<Medium Text> <Normal Text>使えるしさ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,7><Small Text><yellow>しんせき<Medium Text>
+<Screen Posiiton to 6,7><Normal Text>親戚から<Medium Text> <Normal Text>もらった<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>ミカンもあるし<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4><yellow>☎あっ<Medium Text> <Normal Text>それから
+<Screen Posiiton to 7,4>温かいココアも<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>《まるちゃん
+<Screen Posiiton to 7,0>寒いから<Medium Text> <Normal Text>外に出たくないんだね》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>うん<Medium Text> <Normal Text>分かった<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>じゃあ<Medium Text> <Normal Text>あしたね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text><yellow>うん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>さて<Medium Text> <Normal Text>続きでも見るかね<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>いやいや〜ん<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>秀樹<Medium Text>）<Normal Text>♫<Medium Text>「<Normal Text>ローラ<Medium Text>」
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>静岡のおばあちゃん<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,0>相変わらずカッコイイね<Medium Text> <Normal Text>秀樹は<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,5>そうじゃな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>《あ〜あ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1>今日の秀樹は<Medium Text> <Normal Text>また<Medium Text> <Normal Text>一段と》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>《あ〜！<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>ホントは<Medium Text> <Normal Text>今すぐ<Medium Text> <Normal Text>全身で➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,16>さけ
+<Screen Posiiton to 12,2><Medium Text>「<Normal Text>秀樹〜！<Medium Text>」<Normal Text>って叫びたいけど<Medium Text>
+<Screen Posiiton to 6,3><Small Text>がまん<Normal Text>
+<Screen Posiiton to 7,1>我慢<Medium Text> <Normal Text>我慢》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>《でも<Medium Text> <Normal Text>うちだったら…》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1>（<Normal Text>さきこ<Medium Text>・<Normal Text>まる子<Medium Text>）<Normal Text>《♫<Medium Text>「<Normal Text>ローラ<Medium Text>」<Normal Text>》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>静岡のおじいち<Medium Text>ゃ<Normal Text>ん<Medium Text>）<Normal Text>まるち<Medium Text>ゃ<Normal Text>んも
+<Screen Posiiton to 7,0>来れば<Medium Text> <Normal Text>よか<Medium Text>っ<Normal Text>たのにのう<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>えっ？<Medium Text> <Normal Text>別に<Medium Text> <Normal Text>いいわよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>それより<Medium Text> <Normal Text>おじいちゃん<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text>おばあちゃん<Medium Text>。 <Normal Text>これ<Medium Text> <Normal Text>おいしい<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>そうかい？<Medium Text> <Normal Text>全部<Medium Text> <Normal Text>お食べ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text>えっ<Medium Text> <Normal Text>ホント？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,21><Small Text><yellow>だいたん<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>たまには<Medium Text> <Normal Text>ちょっと<Medium Text> <Normal Text>大胆に<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>真ん中にっと<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text><yellow>う〜ん…<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>お姉ちゃんがいたら
+<Screen Posiiton to 7,3>絶対<Medium Text> <Normal Text>できないよね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>そうだ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text><yellow>ジャーン<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>お姉ちゃんめ<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>こんなカワイイ服ばっかり<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><yellow>アハハハハ<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>アハ<Medium Text> <Normal Text>アハ<Medium Text> <Normal Text>アハ…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>ああ…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>つっ<Medium Text> <Normal Text>次は<Medium Text> <Normal Text>これ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>アハハハハ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><yellow>アハハハハ<Medium Text>。 <Normal Text>ハァ…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>⚟<Medium Text>（<Normal Text>ヒロシのいびき<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,3><yellow>あっ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>⚟<Medium Text>（<Normal Text>ヒロシのいびき<Medium Text>）
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,9><Small Text><yellow>ね<Normal Text>
+<Screen Posiiton to 7,1>お姉ちゃん<Medium Text> <Normal Text>もう寝たかなぁ<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><green>＜そして<Medium Text> <Normal Text>翌日＞
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><Medium Text>（<Normal Text>すみれ<Medium Text>）<Normal Text>まる子<Medium Text> <Normal Text>まる子！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>もう<Medium Text>１０<Normal Text>時すぎよ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>いいかげん<Medium Text> <Normal Text>起きなさい！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text><yellow>ふぁ〜い<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4><yellow>お姉ちゃんは？
+<Screen Posiiton to 7,4><white>まだじゃよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>そう<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text><white>⚟<Medium Text>（<Normal Text>たまえ<Medium Text>）<Normal Text>こんにちは<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text><yellow>あっ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>たまちゃん<Medium Text> <Normal Text>先<Medium Text> <Normal Text>入ってて<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2><white>うん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>今<Medium Text> <Normal Text>ココアを…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>たまえ<Medium Text>）<Normal Text>まるちゃん<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3><yellow>んっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,6><Small Text>なな<Medium Text>
+<Screen Posiiton to 6,19><Small Text>し<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>お布団<Medium Text> <Normal Text>斜めに敷くの？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>えっ？
+<Screen Posiiton to 7,3>あっ<Medium Text> <Normal Text>こっ<Medium Text> <Normal Text>これは…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4>まっ<Medium Text> <Normal Text>まるちゃん
+<Screen Posiiton to 7,4>私も手伝うよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>わっ<Medium Text> <Normal Text>悪いねぇ<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>あれ？<Medium Text> <Normal Text>この写真<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>どうしたの？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>ああ<Medium Text> <Normal Text>秋に<Medium Text> <Normal Text>おじいちゃんと<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>神社に行ったときだね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,13><Small Text><yellow>と<Normal Text>
+<Screen Posiiton to 7,2>あたしが撮ったんだけど<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>友蔵<Medium Text>）<Normal Text>《うわっ！》
+<Screen Posiiton to 7,3><yellow>《ああ…》
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,2><Normal Text><yellow>おじいちゃん
+<Screen Posiiton to 6,4><Small Text>えさ<Normal Text>
+<Screen Posiiton to 7,1>ハトに餌をやろうとしたら➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><yellow>囲まれちゃってさ<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>アハハハハ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>アハハハハ<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text><white>ま<Medium Text>っ <Normal Text>まるち<Medium Text>ゃ<Normal Text>ん<Medium Text> <Normal Text>助けなか<Medium Text>っ<Normal Text>たの？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>あっ！<Medium Text> <Normal Text>たっ…<Medium Text> <Normal Text>助けたよ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>もちろん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><yellow>《フゥ<Medium Text> <Normal Text>危ない<Medium Text> <Normal Text>危ない》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>《たまちゃんに
+<Screen Posiiton to 7,0>人格を疑われるところだったね》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>《これ<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>お姉ちゃんに話したときは…》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>《あんた<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>助けずに<Medium Text> <Normal Text>写真<Medium Text> <Normal Text>撮ってたの？》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text><yellow>《助けたってば》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>《でも<Medium Text> <Normal Text>ちょうど
+<Screen Posiiton to 7,2>カメラ<Medium Text> <Normal Text>向けたときでさ➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text><yellow>どうしようもなかったんだよ》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>《だからって…》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>《プッ<Medium Text>。 <Normal Text>フフ<Medium Text> <Normal Text>ハハハハ》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1>（<Normal Text>さきこ<Medium Text>・<Normal Text>まる子<Medium Text>）<Normal Text>《アハハハハ》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>《って<Medium Text> <Normal Text>なったんだけど》
+<Screen Posiiton to 7,2><Medium Text><white>（<Normal Text>たまえ<Medium Text>）<Normal Text>まるちゃん？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><yellow>んっ？<Medium Text> <Normal Text>あっ<Medium Text> <Normal Text>ううん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3>（<Normal Text>友蔵<Medium Text>）<Normal Text>まる子<Medium Text>。 <Normal Text>たまちゃん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>テレビで<Medium Text> 『<Normal Text>マンガスペシャル<Medium Text>』<Normal Text>が<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>あるんじゃが<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（<Normal Text>まる子<Medium Text>・<Normal Text>たまえ<Medium Text>）<Normal Text>えっ？<Medium Text>
+<Screen Posiiton to 7,5><Normal Text><yellow>ホント？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>あっ<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>秀樹の歌番組もやるんだね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>えっ？<Medium Text>
+<Screen Posiiton to 7,1><white>（<Normal Text>たまえ<Medium Text>）『ヒデキ・オンステージ』<Normal Text>だって<Medium Text>。<Normal Text>➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>まるちゃんのお姉ちゃん
+<Screen Posiiton to 7,2>秀樹<Medium Text> <Normal Text>大好きだよね<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>《ちょっと！<Medium Text> <Normal Text>録音するんだから<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>声<Medium Text> <Normal Text>出すんじゃないわよ》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,19><Small Text>だめ<Normal Text>
+<Screen Posiiton to 7,2>《息も吸っちゃ駄目！》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>《え〜<Medium Text> <Normal Text>そんな<Medium Text> <Normal Text>無茶な…》<Medium Text>
+<Screen Posiiton to 7,3><Normal Text><white>《いいから<Medium Text> <Normal Text>シー！》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,1><Normal Text><Medium Text>（<Normal Text>司会者<Medium Text>）
+<Screen Posiiton to 6,7><Small Text>さいじょう<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>《次は<Medium Text> <Normal Text>西城<Medium Text> <Normal Text>秀樹さんです》➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>《歌っていただくのは…》<Medium Text>
+<Screen Posiiton to 7,3><Normal Text><green>＜ビデオがない時代は➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><green>このように
+<Screen Posiiton to 7,1>ラジカセをテレビに近づけ➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><green>録音していたものである＞
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>んっ？<Medium Text> <Normal Text>まるちゃん？
+<Screen Posiiton to 7,3><yellow>あっ<Medium Text> <Normal Text>ううん<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（<Normal Text>たまえ<Medium Text>）
+<Screen Posiiton to 7,3><Normal Text>お昼<Medium Text> <Normal Text>ごちそうさまでした<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>じゃあね<Medium Text> <Normal Text>まるちゃん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><yellow>うん<Medium Text>。 <Normal Text>バイバーイ<Medium Text>。
+<Screen Posiiton to 7,7><white>（<Normal Text>戸の閉まる音<Medium Text>）
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>さっ<Medium Text> <Normal Text>夕飯の準備しようかしら<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text><yellow>お姉ちゃんは？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>さっき<Medium Text> <Normal Text>おばあちゃんから
+<Screen Posiiton to 7,2>電話があってね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>２時すぎに出たって<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>えっ？<Medium Text> <Normal Text>だったら<Medium Text> <Normal Text>もう<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>とっくに<Medium Text> <Normal Text>着いてるころじゃん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>日曜日だから<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>道が混んでるのかもね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>そうかなぁ<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text><yellow>あっ<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,17><Small Text>しみず<Normal Text>
+<Screen Posiiton to 7,2>⚟<Medium Text>（アナウンス）「<Normal Text>清水<Medium Text> <Normal Text>清水<Medium Text>」
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>あっ！
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>⚟<Medium Text>（アナウンス）「<Normal Text>清水<Medium Text> <Normal Text>清水<Medium Text>」
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>アハ<Medium Text>。 <Normal Text>ヘヘヘヘ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>⚟<Medium Text>（アナウンス）「<Normal Text>清水<Medium Text> <Normal Text>清水<Medium Text>」
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>あっ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>んっ？<Medium Text> <Normal Text>まる子？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>あんた<Medium Text> <Normal Text>どうしたの？
+<Screen Posiiton to 7,3>こんなとこで<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>お姉ちゃんこそ<Medium Text> <Normal Text>どうしたのさ<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text>何で<Medium Text> <Normal Text>こんなに<Medium Text> <Normal Text>遅くなったの？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 5,8><Small Text>おく<Medium Text>
+<Screen Posiiton to 6,3><Normal Text>静岡で<Medium Text> <Normal Text>バスが遅れたのよ<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>道が混んでて<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text><yellow>そっ<Medium Text> <Normal Text>そうなんだ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>あんたこそ<Medium Text> <Normal Text>何で<Medium Text> <Normal Text>こんなとこに<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text>あっ<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>《行くわけないじゃん<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>こんな寒い中》
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>まったく<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>お姉ちゃんのことだから➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><yellow>迷子にでもなったのかと<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text><yellow>あら<Medium Text> <Normal Text>何すんのさ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>《やっぱり<Medium Text> <Normal Text>冷たい》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,6>まる子<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,6><yellow>何？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,6>お土産<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,6><yellow>えっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>あんたの分よ<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text><yellow>あっ<Medium Text>。 <Normal Text>アハハ<Medium Text> <Normal Text>おいしそう！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>私なんて<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>４つも食べちゃったもんね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>へっ<Medium Text> <Normal Text>へ〜んだ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3>それよりも<Medium Text> <Normal Text>さっき➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>秀樹の歌番組やってたよ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2><white>えっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>あたしゃ<Medium Text> <Normal Text>その裏の
+<Screen Posiiton to 7,0><Medium Text>『<Normal Text>マンガスペシャル<Medium Text>』<Normal Text>見てたけどね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>かっ…<Medium Text> <Normal Text>かわいくない子ね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>だったら<Medium Text> <Normal Text>わざわざ<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>教えなくてもいいじゃない<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><yellow>♫<Medium Text>「<Normal Text>ローラ<Medium Text> <Normal Text>ローラ<Medium Text> <Normal Text>ローラ<Medium Text>」
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,1><Normal Text>バッ<Medium Text> <Normal Text>バカ<Medium Text>。<Normal Text>
+<Screen Posiiton to 6,1><Small Text>は<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>恥ずかしいから<Medium Text> <Normal Text>やめなさいよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>♫<Medium Text>「<Normal Text>ローラ<Medium Text>」<Normal Text>
+<Screen Posiiton to 7,2>はい<Medium Text> <Normal Text>お姉ちゃん<Medium Text> <Normal Text>歌って<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>さきこ<Medium Text>）<Normal Text>えっ<Medium Text>！？<Normal Text>
+<Screen Posiiton to 7,1><yellow>愛してるなら歌って<Medium Text>。 <Normal Text>はい！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><green>＜きょうだいとは<Medium Text> <Normal Text>不思議なもの＞
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 5,7><Small Text><green>たが<Medium Text>
+<Screen Posiiton to 6,1><Normal Text>＜何となく<Medium Text> <Normal Text>お互いがいないと<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>つまらない２人なのであった＞
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>ああ…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,2><Normal Text><yellow>おお…<Medium Text>。 <Normal Text>こんなので洗ったら
+<Screen Posiiton to 6,5><Small Text>こお<Normal Text>
+<Screen Posiiton to 7,1>手も顔も凍っちゃうよ<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 5,9><Small Text><yellow>てぶくろ<Medium Text>
+<Screen Posiiton to 6,5><Normal Text>マフラーして<Medium Text> <Normal Text>手袋して<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>いっぱい<Medium Text> <Normal Text>服<Medium Text> <Normal Text>着ても➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text><yellow>うう…<Medium Text> <Normal Text>寒いねぇ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><green>＜それが<Medium Text> <Normal Text>冬である＞
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><yellow>ああ…<Medium Text> <Normal Text>顔<Medium Text>。 <Normal Text>顔が寒い！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><yellow>だいたい<Medium Text> <Normal Text>顔ってさ<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>むき出しじゃん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>どんなに<Medium Text> <Normal Text>いっぱい<Medium Text> <Normal Text>服<Medium Text> <Normal Text>着たって<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>顔は<Medium Text> <Normal Text>寒いよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>うう…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>この寒さから
+<Screen Posiiton to 7,1>何とか<Medium Text> <Normal Text>顔を守れないものか<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,11><Normal Text>⚟<Medium Text>（<Normal Text>足音<Medium Text>）
+<Screen Posiiton to 7,11><Normal Text><yellow>おっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,5><Small Text>ふじき<Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>藤木<Medium Text>）<Normal Text>うう…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>あっ<Medium Text>。 <Normal Text>アハハ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（<Normal Text>藤木<Medium Text>）<Normal Text>どうしよう<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>絵の具<Medium Text> <Normal Text>忘れちゃったよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,7><Normal Text>でも<Medium Text> <Normal Text>取りに帰ると
+<Screen Posiiton to 6,4><Small Text>ちこく<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>遅刻しちゃうし<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,4><Normal Text>仕方ない<Medium Text>。<Normal Text>
+<Screen Posiiton to 6,2><Small Text>ながさわ<Normal Text>
+<Screen Posiiton to 7,2>永沢君に貸してもらおう<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>あっ<Medium Text>。 <Normal Text>ハンカチも忘れちゃった<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>永沢君<Medium Text> <Normal Text>貸してくれるかなぁ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,5><yellow>え〜<Medium Text> <Normal Text>また？
+<Screen Posiiton to 7,5><white>ひぃ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4>さっ<Medium Text> <Normal Text>さくら<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4><yellow>おはよう<Medium Text> <Normal Text>藤木<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,6><Normal Text>おっ<Medium Text> <Normal Text>おはよう<Medium Text>。<Normal Text>
+<Screen Posiiton to 6,3><Small Text>おど<Normal Text>
+<Screen Posiiton to 7,3>脅かさないでくれよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>ごめん<Medium Text> <Normal Text>ごめん<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1>それより<Medium Text> <Normal Text>あんた<Medium Text> <Normal Text>ちょっと➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>ずうずうしいんじゃない？<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>永沢<Medium Text> <Normal Text>永沢って<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>聞いてたのかい？<Medium Text>
+<Screen Posiiton to 7,7><Normal Text><yellow>聞こえたんだよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>あんたって<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>ひきょうなやつかと思ったら➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>ずうずうしいやつでも<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>あったんだねぇ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>えっ…<Medium Text> <Normal Text>何だよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,1><Normal Text>だいたい<Medium Text> <Normal Text>何で<Medium Text> <Normal Text>さくらは<Medium Text>
+<Screen Posiiton to 6,1><Small Text>ぼく<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>僕の<Medium Text> <Normal Text>すぐ<Medium Text> <Normal Text>後ろにいたんだよ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><yellow>ああ<Medium Text> <Normal Text>そりゃ<Medium Text> <Normal Text>ちょっとね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>まあ<Medium Text> <Normal Text>背中を借りてたっていうか<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,0><white>背中を借りてた？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>あんたって<Medium Text> <Normal Text>背が高いから<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>風よけに<Medium Text> <Normal Text>ぴったりなんだよね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>風よけ？
+<Screen Posiiton to 7,1><yellow>おかげで<Medium Text> <Normal Text>ずいぶん<Medium Text> <Normal Text>ましだよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>悪いんだけど➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>このまま<Medium Text> <Normal Text>後ろに<Medium Text> <Normal Text>ついて
+<Screen Posiiton to 7,2>学校まで<Medium Text> <Normal Text>行かせてよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>えっ…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3><yellow>ほら<Medium Text> <Normal Text>歩いて<Medium Text> <Normal Text>歩いて<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,5>そんな…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,5><yellow>遅刻するよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>わっ<Medium Text> <Normal Text>分かったよ<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text><yellow>フフ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7>（<Normal Text>児童たち<Medium Text>）<Normal Text>んっ？
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>藤木<Medium Text>）<Normal Text>うわ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>あ〜<Medium Text> <Normal Text>やっぱり<Medium Text> <Normal Text>ましだね<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>あたしって<Medium Text> <Normal Text>頭いい<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>君の方が<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>よっぽど<Medium Text> <Normal Text>ずうずうしいよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><green>＜藤木の言うとおりである＞
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,5><Medium Text>（<Normal Text>ハマジ<Medium Text>）<Normal Text>そうなんだよ<Medium Text>。
+<Screen Posiiton to 6,5><Small Text>さみ<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>寒ぃんだよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text>顔が<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9><Normal Text><yellow>でしょ？<Medium Text>
+<Screen Posiiton to 7,9><Normal Text><white>まあ<Medium Text> <Normal Text>確かに<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,1><Normal Text>顔だけが<Medium Text> <Normal Text>この寒いのに<Medium Text>
+<Screen Posiiton to 6,1><Small Text>まるはだか<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>丸裸の<Medium Text> <Normal Text>すっぽんぽんだもんな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>すっぽんぽんって…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3><white>ハハハ…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>マフラーじゃ<Medium Text> <Normal Text>首までだからな<Medium Text>。
+<Screen Posiiton to 7,1>（<Normal Text>ハマジ<Medium Text>）<Normal Text>うん…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>んっ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,0>よし<Medium Text>。 <Normal Text>こうしてみたら<Medium Text> <Normal Text>どうだ？➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Small Text>かく<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>顔が隠れりゃいいんだよな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4>ありゃ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4><yellow>無理があったね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>うん<Medium Text>。
+<Screen Posiiton to 7,7>（<Normal Text>ハマジ<Medium Text>）<Normal Text>う〜ん…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>んっ<Medium Text>。 <Normal Text>じゃあ！➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>これは<Medium Text> <Normal Text>どうだ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>それじゃ<Medium Text> <Normal Text>前が<Medium Text> <Normal Text>見えないじゃん<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text><white>危ないよね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>ハマジ<Medium Text>）<Normal Text>くんくん<Medium Text> <Normal Text>くんくん<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1><Medium Text>（<Normal Text>３人<Medium Text>）<Normal Text>んっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><yellow>あんた<Medium Text> <Normal Text>何<Medium Text> <Normal Text>やってんのさ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>アハハハ<Medium Text>。 <Normal Text>ずっと<Medium Text> <Normal Text>洗ってないからちょっとな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>くんくん<Medium Text> <Normal Text>くんくん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,2><Normal Text>あ〜<Medium Text> <Normal Text>でも<Medium Text> <Normal Text>自分のにおいって<Medium Text>
+<Screen Posiiton to 6,7><Small Text>いや<Normal Text>
+<Screen Posiiton to 7,1>何か<Medium Text> <Normal Text>嫌じゃないよな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>ああ<Medium Text> <Normal Text>それ<Medium Text> <Normal Text>ちょっと分かるね<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1><white>ヘヘヘ…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 5,5><Small Text>はだか<Normal Text>
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>藤木<Medium Text>）<Normal Text>顔が<Medium Text> <Normal Text>裸のままでも
+<Screen Posiiton to 7,0>寒くないようにしたら<Medium Text> <Normal Text>どうかな？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（<Normal Text>たまえ<Medium Text>・<Normal Text>まる子<Medium Text>）<Normal Text>えっ？<Medium Text>
+<Screen Posiiton to 7,3>（<Normal Text>ハマジ<Medium Text>）<Normal Text>どういうことだよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>ほら<Medium Text> <Normal Text>運動した後って<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>体が<Medium Text> <Normal Text>あったかくなるだろ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>だから<Medium Text> <Normal Text>顔を運動させるのさ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9><Normal Text><yellow>顔の運動？<Medium Text>
+<Screen Posiiton to 7,9><Normal Text><white>どうやるの？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text><yellow>藤木<Medium Text> <Normal Text>お手本で<Medium Text> <Normal Text>やって見せてよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>えっ<Medium Text>！？<Normal Text>
+<Screen Posiiton to 7,1><Medium Text>（<Normal Text>ハマジ<Medium Text>）<Normal Text>言いだしっぺだろ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>わっ<Medium Text> <Normal Text>分かったよ<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>えっと…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>うわ〜<Medium Text>。 <Normal Text>う〜<Medium Text>。 <Normal Text>い〜<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（<Normal Text>たまえ<Medium Text>・<Normal Text>まる子<Medium Text>・<Normal Text>ハマジ<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,2>プッ<Medium Text>。 <Normal Text>アハハハハ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,5>何だ<Medium Text> <Normal Text>それ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,0><Normal Text>おい！
+<Screen Posiiton to 6,2><Small Text>いっしょうけんめい<Normal Text>
+<Screen Posiiton to 7,0>僕は<Medium Text> <Normal Text>一生懸命<Medium Text> <Normal Text>やってるんだぞ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（<Normal Text>ハマジ<Medium Text>・<Normal Text>まる子<Medium Text>・<Normal Text>たまえ<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,2>アハハハハ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>でも<Medium Text> <Normal Text>無理<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>笑わないなんて<Medium Text> <Normal Text>無理<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,19><Small Text>いて<Normal Text>
+<Screen Posiiton to 7,3>笑い過ぎて<Medium Text> <Normal Text>腹痛ぇ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（<Normal Text>ハマジ<Medium Text>・<Normal Text>まる子<Medium Text>・<Normal Text>たまえ<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,2>ハハハハ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4>あっ<Medium Text> <Normal Text>ねえ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4>今<Medium Text> <Normal Text>私たちにも➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>すごく<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>顔の運動になったんじゃない？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><yellow>えっ？<Medium Text> <Normal Text>あっ<Medium Text> <Normal Text>ホントだ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>でもよ<Medium Text> <Normal Text>顔<Medium Text> <Normal Text>あったまったか？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text><yellow>う〜ん…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9><Normal Text><yellow>分かんないね<Medium Text>。
+<Screen Posiiton to 7,9><Normal Text><white>それに<Medium Text> <Normal Text>私➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>藤木みたいな顔
+<Screen Posiiton to 7,3>とても<Medium Text> <Normal Text>できないな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><yellow>あたしだって<Medium Text> <Normal Text>あんなの無理だよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>あんなのって…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>う〜ん…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>やっぱり<Medium Text> <Normal Text>こうなったら➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4><yellow>あれしかないね<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4><white>あれって？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><yellow>ほら<Medium Text> <Normal Text>プロレスで<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>かぶってるじゃん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text>ああ！➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>ミル<Medium Text>・<Normal Text>マスカラス！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>あれ<Medium Text> <Normal Text>かぶったら
+<Screen Posiiton to 7,3>寒くないと思うんだ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>藤木<Medium Text>・<Normal Text>ハマジ<Medium Text>）<Normal Text>ああ<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>《おはよう》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（<Normal Text>藤木<Medium Text>・<Normal Text>ハマジ<Medium Text>・<Normal Text>たまえ<Medium Text>）
+<Screen Posiiton to 7,5><Normal Text>《おはよう》
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>う〜ん…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3>ちょっと<Medium Text> <Normal Text>派手かな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>すごく<Medium Text> <Normal Text>派手だと思うよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,6><Normal Text><green>＜これでは<Medium Text> <Normal Text>毎日が<Medium Text>
+<Screen Posiiton to 6,11><Small Text>ぶとう<Normal Text>
+<Screen Posiiton to 7,3>仮面舞踏会である＞
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>ミル<Medium Text>・<Normal Text>マスカラスが
+<Screen Posiiton to 7,1>駄目だとすると…<Medium Text> <Normal Text>う〜ん…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>あっ<Medium Text> <Normal Text>じゃあ
+<Screen Posiiton to 7,1>デストロイヤーなら<Medium Text> <Normal Text>どうだ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>あ<Medium Text>っ <Normal Text>そ<Medium Text>っ<Normal Text>ちなら<Medium Text> <Normal Text>地味で<Medium Text> <Normal Text>いいじ<Medium Text>ゃ<Normal Text>ん<Medium Text>。<Normal Text><white>え<Medium Text>っ<Normal Text>…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>《ねえ<Medium Text> <Normal Text>まるちゃん<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>まるちゃんは<Medium Text> <Normal Text>本当に➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>そんなの<Medium Text> <Normal Text>かぶって<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>平気で<Medium Text> <Normal Text>学校に来れるの？》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><Medium Text>（<Normal Text>タミー<Medium Text>）<Normal Text>《タミー<Medium Text> <Normal Text>絶対<Medium Text> <Normal Text>嫌！》➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>《嫌〜！<Medium Text> <Normal Text>嫌〜！<Medium Text> <Normal Text>嫌…》
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Small Text>ふくめん<Normal Text>
+<Screen Posiiton to 7,1>覆面？<Medium Text> <Normal Text>あるわけないでしょ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>ないか<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>じゃあ<Medium Text> <Normal Text>腹巻きでいいや<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text>腹巻き？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9>（<Normal Text>すみれ<Medium Text>）<Normal Text>はい<Medium Text>。
+<Screen Posiiton to 7,9><Normal Text><yellow>サンキュー<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>こう寒くっちゃね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>おなかをあっためるのは
+<Screen Posiiton to 7,2>いいと思うわ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>えっ？
+<Screen Posiiton to 7,0>おなかをあっためるんじゃないよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>んっ？
+<Screen Posiiton to 7,2>腹巻きは<Medium Text> <Normal Text>おなかでしょ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>やだねぇ<Medium Text> <Normal Text>頭の固い人は<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1>もっと<Medium Text> <Normal Text>自由に考えなくちゃ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4><yellow>こうするんだよ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4><white>えっ？
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>これで<Medium Text> <Normal Text>目と鼻と口のとこを<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>くりぬくんだ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>あしたから
+<Screen Posiiton to 7,1>学校にしていこうと思ってさ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>あしたから学校に？
+<Screen Posiiton to 7,3>ちょ<Medium Text> <Normal Text>ちょっと<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>何<Medium Text> <Normal Text>バカなこと言ってんの<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>腹巻きを顔にかぶって<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>学校に行くだなんて<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>だって<Medium Text> <Normal Text>顔が寒いんだよ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>あったかくしたいんだよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>だからって<Medium Text> <Normal Text>おかしいでしょ？
+<Screen Posiiton to 7,0>どこに<Medium Text> <Normal Text>そんな<Medium Text> <Normal Text>小学生がいるのよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9><Normal Text><yellow>ここにいるよ<Medium Text>。
+<Screen Posiiton to 7,9><Normal Text><white>あっ…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><yellow>それに<Medium Text> <Normal Text>あたしが<Medium Text> <Normal Text>やってったら…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>⚟《おはよう》
+<Screen Posiiton to 7,1><Medium Text><white>（<Normal Text>３人<Medium Text>）<Normal Text>《おはよう<Medium Text>。 <Normal Text>あっ！》
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,2>こながや
+<Screen Posiiton to 12,0><Medium Text>（<Normal Text>小長谷<Medium Text>）<Normal Text>《わ〜<Medium Text> <Normal Text>あったかそう！》<Medium Text>
+<Screen Posiiton to 6,1><Small Text>うちだ<Normal Text>
+<Screen Posiiton to 7,0><Medium Text>（<Normal Text>内田<Medium Text>）<Normal Text>《いいな〜》
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W">
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>沢井<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,0>《私も<Medium Text> <Normal Text>あしたから<Medium Text> <Normal Text>やろうっと》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>エヘヘ<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>はやっちゃったりして<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><green>＜絶対ない＞
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><yellow>チェッ<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>お母さんったら➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>分かってくれないんだから<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>まったく<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text><yellow>あっ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text>うわっ！
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>何やってるの？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><yellow>駄目だ<Medium Text>。 <Normal Text>長さが足りない<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>お姉ちゃんなら<Medium Text> <Normal Text>できそうだね<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text><white>はっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 5,2><Small Text><yellow>かみ<Normal Text>
+<Screen Posiiton to 6,2>髪の毛<Medium Text>。 <Normal Text>前に垂らしたら
+<Screen Posiiton to 7,2>顔<Medium Text> <Normal Text>隠れるでしょ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text>それが<Medium Text> <Normal Text>何よ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>そしたら<Medium Text> <Normal Text>顔が<Medium Text> <Normal Text>寒くないじゃん<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text><white>んっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>さきこ<Medium Text>）<Normal Text>《ああ…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3>顔が<Medium Text> <Normal Text>あったか〜い》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 5,11><Small Text>こわ<Medium Text>
+<Screen Posiiton to 6,3>（<Normal Text>児童たち<Medium Text>）<Normal Text>《うわぁ<Medium Text> <Normal Text>怖い》<Medium Text>
+<Screen Posiiton to 7,3>（<Normal Text>児童<Medium Text>）<Normal Text>《何あれ》
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>するわけないでしょ！<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>そんなこと<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><yellow>え〜<Medium Text> <Normal Text>もったいない<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>そんなことするくらいなら
+<Screen Posiiton to 7,1>顔が凍った方が<Medium Text> １００<Normal Text>倍<Medium Text> <Normal Text>まし<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>そう言わず<Medium Text> <Normal Text>１回<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>１回だけ<Medium Text> <Normal Text>試してみてよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9><Normal Text>試しません！<Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>うっ…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text><green>＜翌朝＞
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>ああ…<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><yellow>はい<Medium Text> <Normal Text>おしまいっと<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>⚟<Medium Text>（<Normal Text>すみれ<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,2>あんた<Medium Text> <Normal Text>それで<Medium Text> <Normal Text>終わり？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,11><Small Text><yellow>ちが<Normal Text>
+<Screen Posiiton to 6,2>えっ？<Medium Text> <Normal Text>違うよ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>いっ<Medium Text> <Normal Text>今から<Medium Text> <Normal Text>洗うんだよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>つっ<Medium Text> <Normal Text>冷た…<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>ねっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,5>ほら<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,5><yellow>ありがとう<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><yellow>お〜！<Medium Text> <Normal Text>目が覚めたよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,6>あら<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,6><yellow>えっ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>ちょっと<Medium Text> <Normal Text>カサカサしてるわ<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,1><Medium Text>（<Normal Text>すみれ<Medium Text>）<Normal Text>これから<Medium Text> <Normal Text>顔<Medium Text> <Normal Text>洗ったら<Medium Text>
+<Screen Posiiton to 6,11><Small Text>ぬ<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>クリーム<Medium Text> <Normal Text>塗っておきなさい<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><yellow>え〜<Medium Text> <Normal Text>めんどくさい<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,5>はい<Medium Text> <Normal Text>よし<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><yellow>何か<Medium Text> <Normal Text>変な感じだな<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7>（<Normal Text>ハマジ<Medium Text>）<Normal Text>お〜っす<Medium Text>。
+<Screen Posiiton to 7,7>（<Normal Text>藤木<Medium Text>）<Normal Text>おはよう<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,5>おはよう<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,5><yellow>おっはよう<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>おはよう<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>ハマジ<Medium Text>）<Normal Text>さくらも➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>してこなかったんだな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>やっぱり<Medium Text>
+<Screen Posiiton to 6,13><Small Text>おこ<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>母ちゃんに怒られたのか？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4>覆面<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4><yellow>ハハハ<Medium Text> <Normal Text>まあね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>あのさ
+<Screen Posiiton to 7,1>今日<Medium Text> <Normal Text>ちょっと<Medium Text> <Normal Text>あったかい？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>えっ？<Medium Text>
+<Screen Posiiton to 7,3>（<Normal Text>ハマジ<Medium Text>）<Normal Text>そんなことないぜ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>昨日より<Medium Text> <Normal Text>寒いくらいだよな？
+<Screen Posiiton to 7,1><Medium Text>（<Normal Text>藤木<Medium Text>）<Normal Text>うん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>そう？<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>何か<Medium Text> <Normal Text>顔<Medium Text> <Normal Text>寒くないんだよね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>えっ？<Medium Text> <Normal Text>何にもしてないのに？
+<Screen Posiiton to 7,1><yellow>うん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9><Normal Text><yellow>あっ<Medium Text>。
+<Screen Posiiton to 7,9><Normal Text><white>どうしたの？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>お母さんが<Medium Text> <Normal Text>顔に
+<Screen Posiiton to 7,1>クリームを塗ってくれたんだ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>へぇ〜<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,0><yellow>わっ<Medium Text> <Normal Text>いつもと<Medium Text> <Normal Text>違うよ<Medium Text>。 <Normal Text>すごいよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>顔<Medium Text> <Normal Text>寒くな〜い！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,4>ホントか？
+<Screen Posiiton to 7,4><Medium Text>（<Normal Text>藤木<Medium Text>）<Normal Text>いいなぁ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>よかったね<Medium Text> <Normal Text>まるちゃん<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2><yellow>うん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><yellow>世紀の大発見だよ<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>バンザーイ！
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><green>＜子供にとっては
+<Screen Posiiton to 7,0>こんなことも<Medium Text> <Normal Text>大発見なのである＞
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 5,6><Small Text>おれ<Normal Text>
+<Screen Posiiton to 6,2>よ〜し<Medium Text>。 <Normal Text>俺も<Medium Text> <Normal Text>あしたから
+<Screen Posiiton to 7,2>顔に塗ってくるぜ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,5>私も<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,5><Medium Text>（<Normal Text>藤木<Medium Text>）<Normal Text>僕も<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,2><Normal Text><yellow>これで<Medium Text> <Normal Text>もう<Medium Text> <Normal Text>覆面がなくても
+<Screen Posiiton to 6,1><Small Text>だいじょうぶ<Normal Text>
+<Screen Posiiton to 7,1>大丈夫だよ<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>んっ？
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><yellow>あの人<Medium Text> <Normal Text>相当<Medium Text> <Normal Text>顔が寒いんだね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9><Normal Text>ああ<Medium Text>。
+<Screen Posiiton to 7,9>（<Normal Text>たまえ<Medium Text>）<Normal Text>うん<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>あれだけ塗れば
+<Screen Posiiton to 7,3>あったかいだろうね<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text>そうだな<Medium Text>。
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,1><Normal Text><green>＜まさか<Medium Text> <Normal Text>通りすがりの小学生に<Medium Text>
+<Screen Posiiton to 6,1><Small Text>かんちが<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>勘違いされているとは➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><green>夢にも思わない
+<Screen Posiiton to 7,3>ＯＬさんであった＞
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>女性<Medium Text>）<Normal Text>寒い！
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>たまち<Medium Text>ゃ<Normal Text>ん<Medium Text> <Normal Text>い<Medium Text>っ<Normal Text>たい<Medium Text> <Normal Text>どうしたの？
+<Screen Posiiton to 7,0>宿題<Medium Text> <Normal Text>忘れたりして➡
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,1><Normal Text><yellow>今日<Medium Text> <Normal Text>何か<Medium Text> <Normal Text>変だよ？
+<Screen Posiiton to 6,8><Small Text>きんちょう<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>授業参観だから<Medium Text> <Normal Text>緊張してるの？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>あっ<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>それとも<Medium Text> <Normal Text>やっぱり<Medium Text> <Normal Text>あれ？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>お肉を食べちゃう植物ってのが<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>気になってるの？
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,17><Small Text><yellow>こ<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>次回の<Medium Text>『<Normal Text>ちびまる子ちゃん<Medium Text>』<Normal Text>は…<Medium Text>。
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+<CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>

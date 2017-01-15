@@ -90,13 +90,39 @@ class DataGroup(object):
     '''
     return ((self._group_id >> 2)&(~0x20))==0
 
+def find_data_group_start(f):
+  """
+  Find the start of the next data group in a binary file
+  :param f: file descriptor we're reading from typically opened 'rb'
+  :return: Boolean describing whether we found a new start pattern or not
+  """
+  start_pattern = '\x80\xff\xf0'
+  read_pattern = ''
+  c = f.read(1)
+  while c:
+    filepos = f.tell()
+    read_pattern += c
+    if len(read_pattern) > 3:
+      read_pattern = read_pattern[1:]
+    if read_pattern == start_pattern:
+      f.seek(filepos-3)
+      return True
+    c = f.read(1)
+  return False
+
 def next_data_group(filepath):
   f = open(filepath, "rb")
   try:
     data_group = DataGroup(f)
     while data_group:
       yield data_group
-      data_group = DataGroup(f)
+      try:
+        data_group = DataGroup(f)
+      except:
+        found = find_data_group_start(f)
+        if found:
+          continue
+        break
   except struct_error:
     pass
   finally:

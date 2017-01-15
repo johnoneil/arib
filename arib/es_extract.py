@@ -86,7 +86,7 @@ def main():
         for data_unit in next_data_unit(caption):
           #we're only interested in those Data Units which are "statement body" to get CC data.
           if not isinstance(data_unit.payload(), StatementBody):
-            return
+            continue
 
           #formatter function above. This dumps the basic text to stdout.
           cc = formatter(data_unit.payload().payload(), 0)
