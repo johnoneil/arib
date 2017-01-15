@@ -38,4 +38,5 @@ nosetests.xml
 .project
 .pydevproject
 
-
+# Jetbrains
+.idea

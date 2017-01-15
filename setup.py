@@ -41,7 +41,8 @@ setup(name='arib',
   entry_points = {
     'console_scripts': [
       'arib-ts2ass=arib.ts2ass:main',
-      'arib-ts-extract=arib.extract:main',
+      'arib-ts-extract=arib.ts_extract:main',
+      'arib-es-extract=arib.es_extract:main',
   ],
   },
   zip_safe=True)

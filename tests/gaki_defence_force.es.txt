@@ -1,0 +1,1654 @@
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;509 a"><その時<Medium Text> <Normal Text>人は…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;359 a"><今年は…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;89 a"><笑いの刺客達は<CS:"190;149 a">過去最強のラインナップで挑む>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;209 a"><豪華ゲストが集結した…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;329 a"><あの恐怖<Medium Text> <Normal Text>再び>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;89 a"><舞台は➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;89 a">サーキット場にスケールアップ>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;89 a"><あの超人気俳優も餌食に!>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;329 a"><体を張った…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;509 a"><その訳は?>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;89 a"><笑い一本で勝負の<CS:"310;149 a">6時間を見逃すな!>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;89 a"><大みそか年越しスペシャル…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;359 a">(<Normal Text>歓声と拍手<Medium Text>)
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><yellow><CS:"430;299 a">まつもと<Normal Text><CS:"330;359 a">さぁ<Medium Text> <Normal Text>松本さん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"270;329 a">今年も<Medium Text> <Normal Text>この日が<CS:"290;389 a">やってまいりました<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><cyan><CS:"190;359 a">(<Normal Text>松本<Medium Text>) <Normal Text>大丈夫ですか?<Medium Text> <Normal Text>皆さん<CS:"350;419 a">我々は<Medium Text><white> <Normal Text><cyan>いいんです<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"250;419 a">皆さんは<Medium Text><white> <Normal Text><cyan>大丈夫ですか?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"190;359 a">ここから<CS:"210;419 a">死ぬほど時間ありますからね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"290;359 a">えんどう<Medium Text><CS:"270;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>長丁場ですよ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;359 a">そこそこ早い花なら<CS:"190;419 a">つぼみから咲くまでぐらいの…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"250;299 a">たなか<Medium Text><CS:"210;359 a">(<Normal Text>田中<Medium Text>)<Normal Text><CS:"250;419 a">…ぐらいの時間ありますよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;389 a">(<Normal Text>田中<Medium Text>) <Normal Text>はい<Medium Text> <Normal Text>来た〜<Medium Text>。<CS:"410;449 a">(<Normal Text>拍手<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"330;329 a">ほうせい<Medium Text><CS:"310;389 a">(<Normal Text>方正<Medium Text>) <Normal Text>自分のね<Medium Text>。<Normal Text><cyan><CS:"390;449 a">そうです<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;389 a">一切<Medium Text> <Normal Text>守れてない<Medium Text>。<CS:"290;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>松本さん…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;449 a">僕ね…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"290;449 a">おケツ終わりました<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"170;449 a">もう始まりますから<Medium Text> <Normal Text>松本さん…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>お願いします!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"190;449 a">もういいですか?<Medium Text> <Normal Text>行きますよ<Medium Text>。<Normal Text><yellow><CS:"330;509 a">行きましょう!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;419 a">VTR…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;419 a">(<Normal Text>笑いと拍手<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;149 a"><朝焼けが東の空を<CS:"350;209 a">染め上げる頃➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;149 a">目覚めた木々達が<CS:"330;209 a">始まりを伝える>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"230;389 a">今から<Medium Text> <Normal Text>何<Medium Text> <Normal Text>ロケがあんの?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;389 a">(<Normal Text>遠藤<Medium Text>)<Normal Text><CS:"250;449 a">ロケとは聞いてますけど…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><cyan><CS:"230;89 a">「<Normal Text>待ってください<Medium Text>」<Normal Text>とか<Medium Text><CS:"250;149 a">「<Normal Text>お待ちください<Medium Text>」<Normal Text>とかね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"230;149 a">何か<Medium Text> <Normal Text>いきなり命令形でね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"250;449 a">何か<Medium Text> <Normal Text>急に飛びだしたし<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>そうっすね<Medium Text>。<CS:"210;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>あの人が来るんやろ?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"190;89 a">何か来たけど<CS:"210;149 a">俺は<Medium Text> <Normal Text>もう<Medium Text><white> <Normal Text><cyan>知らんふりしよう<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;149 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>来たぞ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>ちょっと見てください<CS:"350;509 a">結構なスピードですよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"210;449 a">ちょっとね<Medium Text> <Normal Text>何か<Medium Text> <Normal Text>痩せたのよ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>あっ<Medium Text> <Normal Text>ホンマや<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;329 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>何か<Medium Text> <Normal Text>いろいろ<CS:"330;389 a">買い物した帰りなのか…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"310;389 a">みんな<Medium Text> <Normal Text>おはよう<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"410;389 a">実は…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;389 a">(<Normal Text>ヘリコプターのプロペラ音<Medium Text>)
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;359 a">(<Normal Text>ヘリコプターのプロペラ音<Medium Text>)<Small Text><green><CS:"390;389 a">こ<Normal Text><CS:"270;449 a">大量に買うてもうたで<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;449 a">(<Normal Text>ヘリコプターのプロペラ音<Medium Text>)
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>聞こえへんねん<CS:"370;449 a">ヘリコプターの音で<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;449 a">(<Normal Text>田中<Medium Text>) <Normal Text>聞こえにくいんですよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"370;449 a">俺らがかい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>ヘリコプター<CS:"350;449 a">今<Medium Text> <Normal Text>真上なんですけど<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"250;389 a">(<Normal Text>田中<Medium Text>) <Normal Text>すごいんですよね<CS:"410;449 a">聞こえづらくて<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;449 a">はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;449 a">いや<Medium Text> <Normal Text>結構ありますね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"330;509 a">何やねん<Medium Text> <Normal Text>それ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"330;359 a">今年も<Medium Text> <Normal Text>やるで<Medium Text>。<Normal Text><yellow><CS:"390;419 a">何やねん<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"390;449 a">いや〜…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;389 a">じゃあ<Medium Text> <Normal Text>聞くなよ<Medium Text>。<white><CS:"250;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>関係ないじゃ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;359 a"><5人は…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;359 a"><だが…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>はい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;389 a">あっ<Medium Text> <Normal Text>ありがとうございます<Medium Text>。<Normal Text><green><CS:"230;449 a">何ていう名前やったっけ?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"230;449 a">いまいち<CS:"250;509 a">浸透してないんですよね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"270;389 a">ママチャリのとこから<CS:"290;449 a">行きますか?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;449 a">何ページ目ですか?<Medium Text> <Normal Text>今<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"230;419 a">ハハハ…!<Medium Text> <Normal Text>腹立つわ<Medium Text> <Normal Text>これ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"230;359 a">しゃあないから<CS:"250;419 a">今年から<Medium Text>「<Normal Text>方正<Medium Text>」<Normal Text>で行くで<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;419 a">はい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"310;389 a">それより<Medium Text> <Normal Text>お前…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"350;389 a">おかしいやろ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"210;449 a">今から<Medium Text> <Normal Text>あそこのボックスに<CS:"230;509 a">着替え<Medium Text> <Normal Text>用意しといたから➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"270;509 a">すぐ着替えてもらうで<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;389 a"><そんなわけで<Medium Text> <Normal Text>まずは➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;329 a">新米隊員に<CS:"230;389 a">ふさわしい服装に着替える>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"190;449 a">じゃあ<Medium Text> <Normal Text>みんな<Medium Text> <Normal Text>準備できたら…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"430;449 a">松本<Medium Text>。<Normal Text><cyan><CS:"430;509 a">はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"210;419 a">カッコええなぁ<Medium Text> <Normal Text>たくましい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"210;359 a">鍛えてるだけあって<Medium Text> <Normal Text>力持ちの<CS:"230;419 a">隊員になってくれそうやで<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"270;419 a">ありがとうございます<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"370;449 a">じゃ<Medium Text> <Normal Text>方正<Medium Text>。<white><CS:"350;509 a">(<Normal Text>方正<Medium Text>) <Normal Text>はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"270;419 a">かわいいな<Medium Text> <Normal Text>やっぱり<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"290;359 a">でも<Medium Text> <Normal Text>落語家になって<CS:"310;419 a">味も出て来てるな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"270;449 a">味のある隊員に<CS:"290;509 a">なってくれそうやで<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"430;449 a">遠藤<Medium Text>。<white><CS:"350;509 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"290;359 a">やっぱり<Medium Text> <Normal Text>男前やな<CS:"310;419 a">遠藤<Medium Text> <Normal Text>カッコええわ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;359 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>ありがとうございます<Medium Text>。<Normal Text><green><CS:"230;419 a">まだまだ女にモテそうやで<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"270;359 a">モテモテの隊員に<CS:"290;419 a">なってくれそうやな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"370;449 a">じゃ<Medium Text> <Normal Text>田中<Medium Text>。<white><CS:"350;509 a">(<Normal Text>田中<Medium Text>) <Normal Text>はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"250;359 a">ガリガリやな<CS:"270;419 a">もっと鍛えなアカンわ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"170;359 a">でも<Medium Text> <Normal Text>しん<Medium Text> <Normal Text>強いからな<Medium Text> <Normal Text>しんの強い<CS:"190;419 a">隊員になってくれそうやで<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;419 a">はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;359 a">(<Normal Text>方正<Medium Text>) <Normal Text>アッハハハ…<Medium Text>。<CS:"230;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>何で女子なんすか?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"370;449 a">毎回毎回…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;449 a">買い取ったらいいんじゃない…?<Medium Text><white><CS:"250;509 a">(<Normal Text>方正<Medium Text>) <Normal Text>自前でしょ<Medium Text> <Normal Text>それ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"250;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>いや<Medium Text> <Normal Text>足元がね…<Medium Text>。<CS:"270;509 a">(<Normal Text>田中<Medium Text>) <Normal Text>出てますもん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>相変わらず…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"230;419 a">じゃあ<Medium Text> <Normal Text>ルール説明するで<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"270;89 a">一つ<Medium Text> <Normal Text>今から<Medium Text> <Normal Text>お前達は<CS:"290;149 a">地球防衛軍として➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"250;89 a">丸一日<Medium Text> <Normal Text>さまざまな任務に<CS:"270;149 a">就いてもらう<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"210;359 a">一つ<Medium Text> <Normal Text>地球防衛軍の任務中は➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"230;299 a">何があっても<CS:"250;359 a">絶対に笑ってはいけない<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"250;299 a">一つ<Medium Text> <Normal Text>もしも<CS:"270;359 a">笑ってしまった場合は➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"230;299 a">その場でキツいお仕置きを<CS:"250;359 a">受けてもらう<Medium Text> <Normal Text>以上や<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"350;359 a">分かったな?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"290;299 a">分かったんですけど<CS:"310;359 a">全然<Medium Text> <Normal Text>聞いてない<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;359 a">ハァハァ言うて…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;329 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>さぶいっすか?<yellow><CS:"330;389 a">ホンマに<Medium Text> <Normal Text>ほら<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;389 a">(<Normal Text>方正<Medium Text>) <Normal Text>また<Medium Text> <Normal Text>ガーター<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"350;329 a">さっぶいねん<Medium Text>。<white><CS:"210;389 a">(<Normal Text>方正<Medium Text>) <Normal Text>すっごい<Medium Text>セクシー<Normal Text>な<Medium Text>ガーター。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"250;419 a">(<Normal Text>田中<Medium Text>) <Normal Text>ご自身の防衛が<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"330;359 a">じゃ<Medium Text> <Normal Text>今から…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;359 a">バスか<Medium Text> <Normal Text>また〜<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;449 a">これ<Medium Text> <Normal Text>バス乗ったところから<CS:"250;509 a">スタートでしょ?
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;419 a"><いよいよ<Medium Text> <Normal Text>始まりの時>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;359 a"><いやが応にも<CS:"350;419 a">緊張感が高まる>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;419 a">(<Normal Text>バスのクラクション<Medium Text>)
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;359 a">(<Normal Text>田中<Medium Text>) <Normal Text>来ましたよ<Medium Text>。<Normal Text><green><CS:"410;419 a">来たで<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"190;479 a">絶対<Medium Text> 「<Normal Text>黒光り<Medium Text>」<Normal Text>入ってんねんな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"390;509 a">来たで〜<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><green><CS:"190;509 a">「<Normal Text>ガースー黒光り<Medium Text> <Normal Text>地球防衛軍<Medium Text>」。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"210;449 a">これが<Medium Text> <Normal Text>みんなが<CS:"230;509 a">これから働く場所の名前や<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"250;509 a">どうや<Medium Text> <Normal Text>カッコええやろ?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;359 a"><赤を基調とした<Medium Text> <Normal Text>近未来<Medium Text>デザイン<Normal Text>の<CS:"250;419 a">この通勤バスで…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"330;359 a">乗るんですか?<green><CS:"330;419 a">はい<Medium Text> <Normal Text>じゃあ…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;359 a">乗ったら<CS:"250;419 a">もう<Medium Text> <Normal Text>ダメなんですよね?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>もう<Medium Text> <Normal Text>しゃあないな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;449 a">(<Normal Text>田中<Medium Text>) <Normal Text>始まりますよ<CS:"370;509 a">でも<Medium Text> <Normal Text>乗ったら<Medium Text> <Normal Text>もう<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><cyan><CS:"170;509 a">(スタジオ:<Normal Text>松本<Medium Text>) <Normal Text>うっとうしいわ〜➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"190;509 a">何で<Medium Text> <Normal Text>お前<Medium Text> <Normal Text>そんな歩き方やねん<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"370;449 a">暖か〜い!<cyan><CS:"370;509 a">暖かいです<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>よいしょ〜<Medium Text>。<CS:"210;509 a">(<Normal Text>田中<Medium Text>) <Normal Text>さぁ<Medium Text> <Normal Text>来た<Medium Text> <Normal Text>スタート!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"310;359 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>さぶ〜い<Medium Text>。<CS:"190;419 a">(<Normal Text>方正<Medium Text>) <Normal Text>さっぶいな〜<Medium Text> <Normal Text>ホンマに<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"310;449 a">じゃあ<Medium Text> <Normal Text>みんな…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;419 a"><いよいよ<Medium Text> <Normal Text>バスが…>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;389 a"><5人は…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"330;449 a">こんなもんか?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>学生さんとかと一緒に<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"190;509 a">もう<Medium Text> <Normal Text>ええかげん<Medium Text> <Normal Text>暖かいやろ?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"310;329 a">いやいや<Medium Text> <Normal Text>これで?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;419 a">すごいですね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;359 a">大胆でしょ?<Medium Text> <Normal Text>それは<CS:"310;419 a">大胆過ぎますよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;449 a">普通に…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;509 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"330;389 a">ちょっと待って<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><yellow><CS:"490;389 a">わろ<Normal Text><CS:"170;449 a">その前に<Medium Text> <Normal Text>みんな<Medium Text> <Normal Text>笑うてたやん!<white><CS:"270;509 a">いや<Medium Text> <Normal Text>笑うてないです<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><cyan><CS:"210;509 a">「<Normal Text>ヒヒヒヒ〜<Medium Text>」<Normal Text>言うてたもんね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"250;299 a">どんなのが来んの?<CS:"270;359 a">わ〜!<Medium Text> <Normal Text>やっぱ<Medium Text> <Normal Text>これか<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;89 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>怖い<Medium Text> <Normal Text>怖い<Medium Text> <Normal Text>怖い…<Medium Text>。<Normal Text><cyan><CS:"270;149 a">行ったれ!<Medium Text> <Normal Text>行ったれ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;299 a">(<Normal Text>田中<Medium Text>) <Normal Text>うわ〜!<Medium Text><CS:"350;359 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>痛っ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;449 a">(<Normal Text>田中<Medium Text>) <Normal Text>うわ〜!<Medium Text><CS:"350;509 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>痛っ!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;359 a">ハハハ…<Medium Text>。<Normal Text><white><CS:"290;419 a">こういうの<Medium Text> <Normal Text>アカン<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;509 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;329 a">ちょっと<Medium Text> <Normal Text>ちょっと…<CS:"310;389 a">待ってくださいよ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;389 a">俺<Medium Text> <Normal Text>だって<Medium Text> <Normal Text>顔に…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;449 a">「<Normal Text>痛い<Medium Text> <Normal Text>痛い<Medium Text>」<Normal Text>って<CS:"330;509 a">リアクションが…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;449 a">痛い<Medium Text> <Normal Text>痛い<Medium Text> <Normal Text>痛い!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>あ〜<Medium Text> <Normal Text>痛い!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;449 a">そうでしょ?<CS:"270;509 a">あんなん<Medium Text> <Normal Text>おかしいって<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"290;449 a">もらい罰したもんね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;149 a"><不運な幕開け<Medium Text> <Normal Text>それも<CS:"250;209 a">この企画の恐ろしいところ>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;149 a">⚟あ〜<Medium Text> <Normal Text>ホンマに始まったんやな⚞
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;299 a"><そして<Medium Text> <Normal Text>笑いの刺客が<CS:"330;359 a">その姿を現す>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"390;419 a">(<Normal Text>ブザー<Medium Text>)
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;359 a">(<Normal Text>方正<Medium Text>) <Normal Text>あ〜<Medium Text> <Normal Text>開いたぞ<Medium Text>。<CS:"250;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>止まりましたね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"490;269 a">さき<Normal Text><CS:"370;329 a">おい<Medium Text> <Normal Text>早紀!<CS:"410;389 a">うん?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;329 a">お前<Medium Text> <Normal Text>どっちの男と付き合うのか<CS:"210;389 a">決めたのかよ?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"250;89 a">わかばやし<Medium Text><CS:"230;149 a">(<Normal Text>若林<Medium Text>) <Normal Text>おい<Medium Text> <Normal Text>早紀<Medium Text> <Normal Text>お前は➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;149 a">ロカビリーいちのクールガイと<CS:"210;209 a">呼ばれる俺の妹なんだからよ➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;419 a">ダセェ男と付き合うんじゃねえぞ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;419 a">(<Normal Text>早紀<Medium Text>) <Normal Text>分かってるわよ<Medium Text> <Normal Text>兄貴<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;419 a">でもさぁ<Medium Text> <Normal Text>あの2人…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;419 a">アピールが<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;389 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"290;359 a">仕上げて来てるよね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"330;299 a">いとう<Medium Text><CS:"290;359 a">(<Normal Text>伊藤<Medium Text>) <Normal Text>ヘイ<Medium Text> <Normal Text>早紀!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;449 a">ハハハ…!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;449 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;149 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>もう少し<Medium Text> <Normal Text>声量を…<Medium Text>。<CS:"170;209 a">(<Normal Text>方正<Medium Text>) <Normal Text>アカン<Medium Text> <Normal Text>ヤバい<Medium Text> <Normal Text>ヤバいな!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"210;449 a">ちょっと<CS:"230;509 a">聞き取りにくいところが…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a">あ〜<Medium Text> <Normal Text>痛っ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;509 a">あ〜っ!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a">あっと〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;509 a">声を<Medium Text> <Normal Text>もうちょっと出して<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;449 a">(<Normal Text>伊藤<Medium Text>) <Normal Text>お前みたいなじゃじゃ馬を<CS:"330;509 a">乗りこなせんのは➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;509 a">俺しか<Medium Text> <Normal Text>いないんだけどな<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;389 a">私はさ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;389 a">(<Normal Text>早紀<Medium Text>) <Normal Text>こんなんだったら…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;389 a">よ〜いしょ〜!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;389 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"370;509 a">ハハハ…!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;89 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>マジっすか〜<Medium Text>。<Normal Text><cyan><CS:"370;149 a">ロカビリー<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"230;449 a">てんりゅう<Medium Text><CS:"210;509 a">(<Normal Text>天龍<Medium Text>) <Normal Text>早紀<Medium Text> <Normal Text>俺の仲間がよ➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;449 a">この先の<Medium Text> <Normal Text>○△□×☆※…<CS:"270;509 a">コテージ借りてんだ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;509 a">そこで<Medium Text> <Normal Text>○△□×☆※…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"370;449 a">ハハハ…!<cyan><CS:"350;509 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"310;359 a">何を言うてんねん<Medium Text>。<Normal Text><cyan><CS:"230;419 a">こんなん<Medium Text> <Normal Text>もう<Medium Text> <Normal Text>アカンやん<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;509 a">アウっ!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;389 a">もっと<Medium Text> <Normal Text>もっと<Medium Text> <Normal Text>ねえのかよ?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;389 a">ちなみによ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;449 a">(<Normal Text>天龍<Medium Text>) <Normal Text>あ〜…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;449 a">たけし軍団の…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;449 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;509 a">あ〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;509 a">痛っ!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;509 a">(<Normal Text>若林<Medium Text>) <Normal Text>おい<Medium Text> <Normal Text>いいか?<Medium Text> <Normal Text>2人とも<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;449 a">次はな<Medium Text> <Normal Text>ツイストを踊りながら<CS:"230;509 a">最高の口説き文句で➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;359 a">早紀のハートを射抜いてみせろ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;299 a">2人とも<Medium Text> <Normal Text>ちゃんと<CS:"270;359 a">考えて来たんだろうな?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;359 a">もちろんだ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;359 a">天龍ボーイ<Medium Text> <Normal Text>お前はどうだ?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;359 a">最高の○△□×☆※…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><yellow><CS:"390;389 a">はまだ<Medium Text><CS:"270;449 a">(スタジオ:<Normal Text>浜田<Medium Text>) <Normal Text>ハハハ…!<cyan><CS:"170;509 a">♪〜<yellow><CS:"310;509 a">チラっと見たな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜<white><CS:"390;509 a">俺の…➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜<white><CS:"290;509 a">心のジュークボックス…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜<white><CS:"350;509 a">ナイスな…➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;449 a">恋のナンバーが<cyan><CS:"170;509 a">♪〜<white><CS:"290;509 a">リフレインしっ放しだぜ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;509 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"330;389 a">しゃべれてない<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><cyan><CS:"450;359 a">わろ<Normal Text><CS:"230;419 a">早紀<Medium Text> <Normal Text>ずっと笑うてるから<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"290;509 a">痛い<Medium Text> <Normal Text>痛い<Medium Text> <Normal Text>痛い…!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;509 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>痛い<Medium Text> <Normal Text>痛い<Medium Text> <Normal Text>痛い…!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;419 a">あっ<Medium Text> <Normal Text>痛い<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"410;359 a">わろ<Medium Text><CS:"270;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>笑うてますわ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;419 a">OK<Medium Text> <Normal Text>ミスター伊藤!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;419 a">OK<Medium Text> <Normal Text>最高のミュージック…➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;419 a">カモン!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;449 a">(<Normal Text>若林<Medium Text>) <Normal Text>天龍ボーイ<CS:"350;509 a">口説き文句<Medium Text> <Normal Text>どうした?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;389 a">おう…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;179 a">おう<Medium Text> <Normal Text>早紀<Medium Text> <Normal Text>クリームソーダ<CS:"250;239 a">飲みに行かねえか?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;359 a">(<Normal Text>天龍<Medium Text>) <Normal Text>俺が<Medium Text> <Normal Text>おいしい<Medium Text><CS:"230;419 a">クリームソーダ<Normal Text>のお店<Medium Text> <Normal Text>知ってるから<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;509 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"230;329 a">いや<Medium Text> <Normal Text>違うんですよ<CS:"250;389 a">今のは<Medium Text> <Normal Text>そうじゃなくて…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;509 a">痛っ!
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;449 a">それより<Medium Text> <Normal Text>私…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;419 a">(<Normal Text>早紀<Medium Text>) <Normal Text>ちょっと<Medium Text> <Normal Text>お兄さん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;419 a">そこのお兄さん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;359 a">私<Medium Text> <Normal Text>あなたのこと<CS:"230;419 a">気に入っちゃったんだけど<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<Medium Text><white><CS:"290;419 a">(<Normal Text>早紀<Medium Text>) <Normal Text>ねぇ<Medium Text> <Normal Text>お兄さん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"290;419 a">今から<Medium Text> <Normal Text>このバス降りてさ➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;359 a">私の<Medium Text>『<Normal Text>キャデラック<Medium Text>』<Normal Text>で<cyan><CS:"170;419 a">♪〜<white><CS:"310;419 a">いいことしない?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;449 a">♪〜<white><CS:"350;449 a">ちょっと〜…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;389 a">♪〜<white><CS:"290;389 a">何だよ<Medium Text> <Normal Text>お前さ〜…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;389 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;449 a">♪〜<white><CS:"350;449 a">見てんだろ?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;449 a">♪〜<white><CS:"350;449 a">見てんだろ⁈
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;449 a">♪〜<white><CS:"290;449 a">気持ち悪ぃんだよ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜<yellow><CS:"370;509 a">ハハハ…!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;359 a">気分悪くなった<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;359 a">帰ろう!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"270;299 a">そんなことされんの?<CS:"350;359 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"330;509 a">何か飛んだよね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;509 a">痛っ!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;509 a">あっ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"290;449 a">ちょっと〜<Medium Text> <Normal Text>あとね<CS:"310;509 a">ジャッジが甘いよ!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><cyan><CS:"190;389 a">やまざき<Normal Text><CS:"190;449 a">山崎<CS:"210;509 a">すっげぇ助かってんねんけど<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"350;449 a">いや<Medium Text> <Normal Text>ホンマ<Medium Text>。<Normal Text><white><CS:"250;509 a">3発ぐらいありましたよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;419 a"><公園を出発して<Medium Text> <Normal Text>わずか15分>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;359 a"><すでに5人の<CS:"190;419 a">お仕置きラッシュは止まらない>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;389 a"><が<Medium Text> <Normal Text>無論…>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"390;359 a">(<Normal Text>ブザー<Medium Text>)<Normal Text><CS:"410;419 a">うわ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;419 a">オオタさん!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;389 a">でも…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;389 a">そこを何とか<Medium Text> <Normal Text>お願いしますよ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;359 a">(オオタ) <Normal Text>あなたとは<CS:"230;419 a">長いお付き合いしてるけど…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;449 a">私もう<Medium Text> <Normal Text>時間ないもんで<Medium Text> <Normal Text>じゃあ…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;449 a">いや<Medium Text> <Normal Text>ちょっと…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;509 a">オオタさん!<Medium Text> <Normal Text>オオタさん!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;329 a">私の会社<Medium Text> <Normal Text>つぶさないでくださいよ<CS:"190;389 a">オオタさ〜ん!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;389 a">はぁ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<Medium Text><white><CS:"350;419 a">(<Normal Text>田中<Medium Text>) <Normal Text>早っ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"390;419 a">早いわ〜<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;359 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>何言うてるか<cyan><CS:"170;419 a">♪〜<white><CS:"310;419 a">全然<Medium Text><cyan> <Normal Text><white>分からへんわ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<CS:"370;419 a">手<Medium Text> <Normal Text>パンパンやん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<Medium Text><white><CS:"290;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>お母さん<Medium Text> <Normal Text>お母さん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"310;359 a">何を言うてんのか<cyan><CS:"170;419 a">♪〜<yellow><CS:"330;419 a">全然<Medium Text> <Normal Text>分からへん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"270;359 a">ここが<Medium Text> <Normal Text>やっぱり<Medium Text> <Normal Text>素人…<CS:"170;419 a">♪〜<CS:"290;419 a">全く声が出ない<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<CS:"350;419 a">ここは分かる<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;359 a">まぁ<Medium Text> <Normal Text>そうやろな<Medium Text>。<Normal Text><CS:"170;419 a">♪〜<Medium Text><white><CS:"310;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>弟ですね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><yellow><CS:"290;359 a">かけい<Normal Text><cyan><CS:"170;419 a">♪〜<yellow><CS:"310;419 a">筧さん<Medium Text> <Normal Text>めっちゃ迷惑<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<Medium Text><white><CS:"290;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>筧さん<Medium Text> <Normal Text>すんません<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"290;419 a">筧さん<Medium Text> <Normal Text>全然<Medium Text> <Normal Text>関係ない…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"410;419 a">え〜⁈
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"250;359 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>筧さんも<Medium Text> <Normal Text>すいません<cyan><CS:"170;419 a">♪〜<white><CS:"290;419 a">ありがとうございます<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"410;419 a">えっ?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"370;419 a">違う<Medium Text> <Normal Text>違う<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;359 a">そんなことあったの?<cyan><CS:"170;419 a">♪〜<white><CS:"370;419 a">違う違う…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<Medium Text><white><CS:"290;419 a">(<Normal Text>田中<Medium Text>) <Normal Text>ここで来ました!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"370;359 a">早い<Medium Text> <Normal Text>早い!<CS:"170;419 a">♪〜<white><CS:"330;419 a">早いんですよ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;359 a">早いな<Medium Text>。<Normal Text><CS:"170;419 a">♪〜<white><CS:"390;419 a">早いです<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;359 a">やっぱプロやわ<Medium Text> <Normal Text>声出てるわ<Medium Text>。<Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"350;419 a">うまいな<Medium Text> <Normal Text>歌<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"390;419 a">何でや!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"350;419 a">何でやねん!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;359 a">ファミリー <Normal Text>ちゃいますよ<Medium Text>。<Normal Text><cyan><CS:"170;419 a">♪〜<Medium Text><yellow><CS:"310;419 a">オールスター<Normal Text>や<Medium Text> オールスター。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;359 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>おかしい<Medium Text>。<Normal Text><cyan><CS:"170;419 a">♪〜<CS:"290;419 a">遠藤ファミリーやんか<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<white><CS:"370;419 a">どういう…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;359 a">あ〜<Medium Text> <Normal Text>もうよう分からん<Medium Text> <Normal Text>これ<cyan><CS:"170;419 a">♪〜<white><CS:"290;419 a">よう分かれへんわ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜<CS:"390;419 a">らしいね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><yellow><CS:"210;89 a">(スタジオ:<Normal Text>浜田<Medium Text>) <Normal Text>すごいな<Medium Text> <Normal Text>これ<Medium Text>。<white><CS:"230;149 a">(スタジオ:<Normal Text>遠藤<Medium Text>) <Normal Text>すごいですね<Medium Text>。<Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;89 a">(スタジオ:<Normal Text>遠藤<Medium Text>) <Normal Text>口説き損ねた女が<CS:"230;149 a">一緒に歌ってるって…<Medium Text>。<Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;419 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜<white><CS:"350;509 a">フルでしたね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"250;449 a">としひで<Medium Text><CS:"230;509 a">(<Normal Text>俊秀さん<Medium Text>) <Normal Text>日本の皆様…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;149 a">(<Normal Text>俊秀さん<Medium Text>) <Normal Text>2014年…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;89 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>すいません<CS:"370;149 a">すいません<Medium Text> <Normal Text>ホンマ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;89 a">(<Normal Text>俊秀さん<Medium Text>)<Normal Text><CS:"210;149 a">遠藤家と一緒に頑張りましょう<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;509 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"330;419 a">何やねん<Medium Text> <Normal Text>もう<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"230;449 a">オヤジとオカンの歌詞を<CS:"250;509 a">ちゃんと知りたかったな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;509 a">(<Normal Text>田中<Medium Text>) <Normal Text>そうですよね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;509 a">あ〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>痛〜!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"290;449 a">早かったというかね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"350;59 a">もりさき<Normal Text><CS:"350;119 a">森崎さんが…<Medium Text>。<Normal Text><CS:"230;179 a">ファミリーになったんやな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;89 a">いや<Medium Text> <Normal Text>森崎さん<CS:"250;149 a">ファミリーなってない…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"270;89 a">でも<Medium Text> <Normal Text>すごいよ<Medium Text> <Normal Text>やっぱ<CS:"290;149 a">元嫁とね<Medium Text> <Normal Text>元カノが➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;89 a">肩組んで歌って…<Medium Text>。<Normal Text><white><CS:"310;149 a">元カノじゃ<Medium Text> <Normal Text>ない<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;89 a">元カノじゃないです<Medium Text>。<Normal Text><CS:"170;149 a">普通やったら<Medium Text> <Normal Text>あり得ないですよ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;509 a">口説き<Medium Text> <Normal Text>失敗した<Medium Text> <Normal Text>ただの女性…<Medium Text>。
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;359 a"><開始から45分>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><yellow><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"390;419 a">(<Normal Text>ブザー<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;89 a">(ナレーション)<Normal Text><CS:"250;149 a">今回<Medium Text> <Normal Text>おつかいに行くのは➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;89 a">ショウタくん<Medium Text> <Normal Text>5歳と<CS:"270;149 a">ユウトくん<Medium Text> <Normal Text>4歳の兄弟<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;89 a">しっかり者のお兄ちゃんと<CS:"250;149 a">甘えん坊の弟の➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;89 a">とっても仲のいい<CS:"330;149 a">兄弟なんです<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;389 a">(ユウト<Normal Text>くん<Medium Text>) <Normal Text>うん<Medium Text> <Normal Text>分かった<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;389 a">(ナレーション) <Normal Text>ママに頼まれたのは➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;449 a">ケーキ屋さんに予約してある<CS:"230;509 a">ケーキを買い➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;449 a">お花屋さんで<CS:"270;509 a">お花を買って来ること<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;419 a">そうなんだ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;89 a">(ナレーション) <Normal Text>あららら…➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;89 a">ユウトくん<Medium Text> <Normal Text>不安になって<CS:"270;149 a">泣きだしちゃった<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;419 a">すると<Medium Text> <Normal Text>見てください…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;329 a">(ショウタ<Normal Text>くん<Medium Text>) <Normal Text>ユウト<Medium Text> <Normal Text>ユウト<CS:"270;389 a">クワガタ挟むよ<Medium Text> <Normal Text>行くよ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;389 a">行くよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;389 a">やっぱり<Medium Text> <Normal Text>無理だ<Medium Text> <Normal Text>できない<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;389 a">(ナレーション) <Normal Text>そりゃそうですよ➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;449 a">お兄ちゃんといったって<CS:"230;509 a">まだ5歳<Medium Text> <Normal Text>やっぱり怖いよね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><cyan><CS:"170;89 a">(スタジオ:<Normal Text>松本<Medium Text>) <Normal Text>落語家のおじちゃん<CS:"210;149 a">1人しかおらへんもんね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;389 a">(<Normal Text>方正<Medium Text>) <Normal Text>ユウトくん<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;449 a">イ〜!<Medium Text><CS:"310;509 a">(<Normal Text>子供達の泣き声<Medium Text>)
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;359 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)<CS:"310;419 a">(<Normal Text>子供達の泣き声<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;389 a">痛い痛い痛い…!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"210;509 a">あ〜<Medium Text> <Normal Text>痛っ!<Medium Text> <Normal Text>痛い痛い痛い…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"290;449 a">めっちゃ泣いてる<CS:"310;509 a">めっちゃ泣いてる<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"270;449 a">めっちゃ泣いてるやん<Medium Text>。<white><CS:"350;509 a">(<Normal Text>方正<Medium Text>) <Normal Text>あ〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"250;329 a">(<Normal Text>遠藤<Medium Text>)<cyan> <Normal Text><white>2人とも<CS:"290;389 a">泣いてしまいましたよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;299 a">えっ⁈<Medium Text><white><CS:"230;359 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>う〜わ!<Medium Text> <Normal Text>うわ〜!
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><yellow><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"250;329 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>2人とも<CS:"290;389 a">泣いてしまいましたよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;299 a">えっ⁈<Medium Text><white><CS:"230;359 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>う〜わ!<Medium Text> <Normal Text>うわ〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;89 a">えっ⁈<Medium Text><white><CS:"230;149 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>う〜わ!<Medium Text> <Normal Text>うわ〜!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;359 a">ちょっと待ってください<CS:"210;419 a">笑わしてくれって言われて…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"250;299 a">ちょうの<Medium Text><CS:"230;359 a">(<Normal Text>蝶野<Medium Text>) <Normal Text>何やってんだ<Medium Text> <Normal Text>お前<CS:"390;419 a">拾え<Medium Text> <Normal Text>ちゃんと<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;419 a">どうすんだ<Medium Text> <Normal Text>お前<Medium Text> <Normal Text>この番組<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;449 a">泣かしたらできねえだろ<Medium Text> <Normal Text>番組が<Medium Text>。<Normal Text><cyan><CS:"350;509 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;359 a">(<Normal Text>田中<Medium Text>) <Normal Text>いや<Medium Text> <Normal Text>これ<Medium Text> <Normal Text>まさかですよ<Medium Text>。<CS:"190;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>この展開は<Medium Text> <Normal Text>ちょっと…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;449 a">めっちゃ泣いてる<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>めっちゃ泣いてますよ<CS:"370;449 a">お兄ちゃん<Medium Text> <Normal Text>特に<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;449 a">(<Normal Text>蝶野<Medium Text>)<Normal Text><CS:"230;509 a">泣かされたのか?<Medium Text> <Normal Text>一回<Medium Text> <Normal Text>帰り<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;449 a">一回<Medium Text> <Normal Text>お母さんに言ってみな<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;359 a">何やってんだ<Medium Text> <Normal Text>さっきから<Medium Text> <Normal Text>お前<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;419 a">(<Normal Text>蝶野<Medium Text>) <Normal Text>こっち来い<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;419 a">おい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;359 a">早い早い<Medium Text>。<Normal Text><white><CS:"370;419 a">早いですわ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;509 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>怖いわ<Medium Text> <Normal Text>この後<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"290;509 a">ちょっと<Medium Text> <Normal Text>準備も…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>準備が全然<Medium Text> <Normal Text>なかったです<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;449 a">(<Normal Text>蝶野<Medium Text>) <Normal Text>こっち座りなさい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;449 a">なぁ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;449 a">はい<Medium Text> <Normal Text>ええ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;449 a">てめぇ<Medium Text> <Normal Text>ふざけんな<Medium Text> <Normal Text>この野郎<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;419 a">ククク…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;299 a">これ<Medium Text> <Normal Text>キツいわ〜<Medium Text>。<Small Text><yellow><CS:"350;329 a">やま<Normal Text><CS:"350;389 a">山ちゃんも…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;509 a">(<Normal Text>田中<Medium Text>) <Normal Text>あいっ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;509 a">(<Normal Text>蝶野<Medium Text>) <Normal Text>おい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;449 a">はい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;389 a">なぁ<Medium Text>。<Normal Text><CS:"430;449 a">はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;449 a">はいはい…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;509 a">言葉にせんといて<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"210;449 a">もう<Medium Text><yellow> <Normal Text><cyan>そこは<CS:"230;509 a">言葉にされるとキツいわ〜<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;389 a">(<Normal Text>遠藤<Medium Text>)<Normal Text><CS:"210;449 a">キツいですね<Medium Text> <Normal Text>言葉にされると<Medium Text>。<Normal Text><cyan><CS:"270;509 a">言葉にされるとキツい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;389 a">(<Normal Text>蝶野<Medium Text>)<Normal Text><CS:"230;449 a">よっしゃ<Medium Text> <Normal Text>もう一回<Medium Text> <Normal Text>最後に…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;449 a">(<Normal Text>蝶野<Medium Text>) <Normal Text>何だ?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;449 a">方正です<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;509 a">方正です<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;509 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>え〜…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"250;389 a">(<Normal Text>田中<Medium Text>) <Normal Text>バスですよ<Medium Text> <Normal Text>まだ<Medium Text>。<Normal Text><cyan><CS:"390;449 a">そうやで<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;509 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>痛っ!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"370;389 a">ハハハ…!<cyan><CS:"350;449 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"330;329 a">ウソをつくな!<Medium Text><white><CS:"270;389 a">(<Normal Text>田中<Medium Text>) <Normal Text>大丈夫<Medium Text> <Normal Text>大丈夫<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;389 a">大丈夫<Medium Text> <Normal Text>ずれてないですよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"270;509 a">あ〜<Medium Text> <Normal Text>痛い痛い痛い…!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"310;389 a">(<Normal Text>田中<Medium Text>) <Normal Text>あ〜<Medium Text> <Normal Text>痛い<Medium Text>。<Normal Text><CS:"390;449 a">ハハハ…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"210;449 a">あ〜<Medium Text> <Normal Text>もう<Small Text><CS:"550;449 a">お<Normal Text><CS:"230;509 a">これは<Medium Text> <Normal Text>えらい目<Medium Text> <Normal Text>遭うたね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;449 a">すごいなぁ<Medium Text>。<Normal Text><CS:"410;509 a">え〜!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;359 a"><長かった…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"350;449 a">もう間もなく<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a"><ようやく<Medium Text> <Normal Text>5人を乗せたバスが➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;389 a">地球防衛軍本部に<CS:"330;449 a">その姿を見せた>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;449 a"><だが<Medium Text> <Normal Text>ここは…>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;449 a"><新たな戦場である>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;389 a">長かった<Medium Text>。<Normal Text><white><CS:"350;449 a">長かったです<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"330;449 a">さぁ<Medium Text> <Normal Text>着いたで<Medium Text>。<Normal Text><cyan><CS:"310;509 a">よ〜し<Medium Text> <Normal Text>来た来た!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"330;449 a">やっと着いた〜<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;359 a"><<Medium Text>『<Normal Text>笑ってはいけない<Medium Text>』<Normal Text>舞台…>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"330;509 a">大変やったなぁ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><green><CS:"170;449 a">「<Normal Text>ガースー黒光り<Medium Text><white> <Normal Text><green>地球防衛軍<Medium Text>」<Normal Text>や<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"270;449 a">立派な建物やろ<Medium Text> <Normal Text>これ<Medium Text>。<Normal Text><cyan><CS:"330;509 a">すごいですね〜<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>うわっ<Medium Text> <Normal Text>すごいっすね<Medium Text>。<Normal Text><cyan><CS:"250;509 a">まぁ<Medium Text> <Normal Text>そりゃ<Medium Text> <Normal Text>やっぱり➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"270;509 a">地球防衛軍ですもんね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>スケールが…<Medium Text>。<Normal Text><cyan><CS:"170;509 a">スケールが<Medium Text> <Normal Text>やっぱりさ<Medium Text> <Normal Text>違うわね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"270;389 a">じゃ<Medium Text> <Normal Text>みんな<Medium Text> <Normal Text>ええか?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"430;389 a">はい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"330;449 a">じゃ<Medium Text> <Normal Text>行きます<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"330;449 a">奥から<Medium Text> <Normal Text>浜田…<Medium Text>。<Normal Text><cyan><CS:"370;509 a">失礼します<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"270;389 a">奥から並んでくれるか<CS:"290;449 a">方正<Medium Text> <Normal Text>一番手前<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;449 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;389 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"410;509 a">痛っ!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;419 a">ないです<Medium Text>。<Small Text><white><CS:"310;449 a">まつかた<Medium Text><CS:"290;509 a">(<Normal Text>松方<Medium Text>) <Normal Text>持ってない?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;389 a">(<Normal Text>松方<Medium Text>) <Normal Text>我々…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;389 a">そこで…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;389 a">私が<Medium Text> <Normal Text>つけてあげよう<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;389 a">まずは…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"390;89 a">フフフ…<Medium Text>。<Normal Text><cyan><CS:"350;149 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"770;509 a"> 
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;449 a">君のコードネームは➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;419 a">「<Normal Text>オスゴリラ<Medium Text>」<Normal Text>だ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;509 a">(<Normal Text>方正<Medium Text>) <Normal Text>今の返りキツいな<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;509 a">よし<Medium Text> <Normal Text>次<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"430;449 a">はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;509 a">君のコードネームは➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;419 a">「<Normal Text>まつもときんに君<Medium Text>」<Normal Text>だ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;449 a">はい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;509 a">君のコードネームは…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"310;419 a">「<Normal Text>ヒルナンデス<Medium Text>」<Normal Text>だ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;419 a">ありがとうございます<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;389 a">ありがとうございます<Medium Text>。<Normal Text><yellow><CS:"370;449 a">ちょっと〜<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;449 a">(<Normal Text>田中<Medium Text>) <Normal Text>痛い!<CS:"390;509 a">頂きます<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;449 a">次…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;509 a">君のコードネームは➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"250;419 a">「<Normal Text>アゴ人間<Medium Text>」<Normal Text>だ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;419 a">フフフ…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;329 a">変えてもらえないですかね?<Medium Text><CS:"170;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>いやいや<Medium Text> <Normal Text>そら<Medium Text> <Normal Text>無理やわ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;449 a">次…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;119 a">君のコードネームは➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"410;59 a">おちけん<Medium Text><CS:"390;119 a">「<Normal Text>落研<Medium Text>」<Normal Text>だ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>プロですよね?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;449 a">あ痛っ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;509 a">痛い痛い!<Medium Text> <Normal Text>背中<Medium Text> <Normal Text>背中…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;449 a">痛い痛い…<Medium Text>。<Normal Text><CS:"370;509 a">あぁ<Medium Text> <Normal Text>痛い<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;449 a">(<Normal Text>松方<Medium Text>) <Normal Text>よし<Medium Text> <Normal Text>これで…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;509 a">君達の入隊を祝して➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;509 a">極上のワインを用意しておる<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;359 a">(<Normal Text>秘書<Medium Text>) <Normal Text>どうぞ<Medium Text>。<Normal Text><yellow><CS:"410;419 a">あぁ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;389 a">(<Normal Text>松方<Medium Text>) <Normal Text>それでは…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"370;509 a">ハハハ…!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;359 a">ハハハ…<Medium Text>。<Normal Text><CS:"390;419 a">フフフ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><yellow><CS:"370;389 a">いて<Normal Text><CS:"370;449 a">痛てて…!<Medium Text><white><CS:"350;509 a">(<Normal Text>田中<Medium Text>) <Normal Text>痛い!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;449 a">(<Normal Text>松方<Medium Text>) <Normal Text>では…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;449 a">ねぇ<Medium Text> <Normal Text>長官…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;449 a">あちらが<Medium Text> <Normal Text>松本隊員だよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;359 a">(<Normal Text>秘書<Medium Text>) <Normal Text>ひょっとして<Medium Text> <Normal Text>あの…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;389 a">それ…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;89 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"290;359 a">しっかり覚えたなぁ<Medium Text>。<white><CS:"270;419 a">(<Normal Text>方正<Medium Text>) <Normal Text>ホンマになぁ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"230;509 a">もう痛い痛い…<Medium Text> <Normal Text>ホンマに<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"390;449 a">あ痛っ!<cyan><CS:"410;509 a">あ〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;449 a">痛い!<CS:"410;509 a">あ〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;449 a">いやいや<Medium Text> <Normal Text>これ<CS:"270;509 a">もう<Medium Text> <Normal Text>ええんちゃうかな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;449 a">どうも<Medium Text> <Normal Text>ワインの気分じゃ<CS:"270;509 a">なくなったな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;419 a">例のもん<Medium Text> <Normal Text>出してくれ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"310;359 a">(<Normal Text>松方<Medium Text>) <Normal Text>これは…<Medium Text>。<CS:"330;419 a">(<Normal Text>秘書<Medium Text>) <Normal Text>どうぞ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;359 a">(<Normal Text>松方<Medium Text>)<Normal Text><CS:"250;419 a">地球防衛軍<Medium Text> <Normal Text>隊員の必需品➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;509 a">光線銃だ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;449 a">まだ撃っちゃいかんぞ<CS:"270;509 a">まだ撃っちゃいかんぞ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;509 a">いいか?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;449 a">では…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;509 a">もっと腰を…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;509 a">そう<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;509 a">せ〜の<Medium Text> <Normal Text>撃て〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;509 a">(<Normal Text>5人<Medium Text>) <Normal Text>あ〜⁈
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;389 a">うわ〜!<white><CS:"390;449 a">うわ〜!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;419 a">俺だけ?<Medium Text> <Normal Text>俺だけ?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;449 a">いやいや<CS:"250;509 a">皆さんじゃないんですか?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;509 a">痛っ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;419 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>今ので?<Medium Text> <Normal Text>ホントか<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"390;509 a">あ痛っ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;449 a">痛っ!<white><CS:"410;509 a">痛っ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"330;449 a">すごかったなぁ<Medium Text>。<white><CS:"350;509 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>痛〜<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"270;389 a">こんなん<Medium Text> <Normal Text>売ってんの?<Medium Text><white><CS:"330;449 a">(<Normal Text>松方<Medium Text>) <Normal Text>では…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;449 a">それぞれの任務に就いてくれ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"250;449 a">ありがとうございました<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"270;449 a">じゃあ<Medium Text> <Normal Text>みんな<Medium Text> <Normal Text>行くで<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"330;389 a">すごかったなぁ<Medium Text>。<CS:"330;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>いや〜<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"290;389 a">(<Normal Text>方正<Medium Text>) <Normal Text>ビリビリ〜!<Medium Text><CS:"250;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>すごかったです<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>さすがに<Medium Text> <Normal Text>もうないでしょ<Medium Text>。<Normal Text><yellow><CS:"350;509 a">結構<Medium Text> <Normal Text>遠いな<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"310;389 a">みんな<Medium Text> <Normal Text>こっちや<Medium Text>。<Normal Text><yellow><CS:"430;449 a">おっ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><green><CS:"410;389 a">控室や<Medium Text>。<Normal Text><cyan><CS:"390;449 a">やった!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"230;389 a">ちょっと待って<Medium Text> <Normal Text>じゃあ<Medium Text> <Normal Text>俺<CS:"250;449 a">もう一回<Medium Text> <Normal Text>小便させて<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;449 a">よう小便行くな〜<Medium Text>。<Normal Text><yellow><CS:"330;509 a">いや<Medium Text> <Normal Text>寒いねん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;449 a">目<Medium Text> <Normal Text>すごいチカチカすんな<Medium Text> <Normal Text>これ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"550;389 a">あんど<Normal Text><CS:"210;449 a"><ようやく訪れた<Medium Text> <Normal Text>安堵の時>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;389 a">何か<Medium Text> <Normal Text>でも<Medium Text><white> <Normal Text><cyan>開けんのも怖くてさぁ<Medium Text>。<white><CS:"250;449 a">(<Normal Text>田中<Medium Text>) <Normal Text>そうなんですよ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;449 a"><しかし<Medium Text> <Normal Text>油断は禁物である>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"330;389 a">もう<Medium Text> <Normal Text>俺<Medium Text> <Normal Text>あの…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;509 a">(<Normal Text>田中<Medium Text>) <Normal Text>うわ〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;509 a">(<Normal Text>田中<Medium Text>) <Normal Text>うわ〜!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;509 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;359 a">(<Normal Text>方正<Medium Text>) <Normal Text>もぉ〜<Medium Text> <Normal Text>何よ…<Medium Text>。<CS:"230;419 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>やっぱ<Medium Text> <Normal Text>あったか〜<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;419 a">(<Normal Text>方正<Medium Text>) <Normal Text>今<Medium Text> <Normal Text>言うてたとこやん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;359 a">(<Normal Text>田中<Medium Text>) <Normal Text>ホンマですよ<CS:"370;419 a">言ってた矢先ですよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;449 a">もぉ〜<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;389 a"><…の5人>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;419 a"><この後…>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"230;509 a">さぁ<Medium Text> <Normal Text>開始から<Medium Text><cyan> <Normal Text><yellow>今…<Medium Text> <Normal Text>ねぇ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"290;509 a">研修室までが<Medium Text> <Normal Text>今…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;299 a">すごかったですね<Medium Text>。<Normal Text><CS:"290;359 a">あそこ<Medium Text> <Normal Text>バスん中ね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;299 a">まぁ<Medium Text> <Normal Text>あの<CS:"230;359 a">来はるとは思ってるやんか<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;299 a">やっぱり<Medium Text><cyan> <Normal Text><white>蝶野さんは<Medium Text> <Normal Text>どっかで…<Medium Text>。<Normal Text><yellow><CS:"250;359 a">しかも<Medium Text><cyan> <Normal Text><yellow>最後のほうやと<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;299 a">最後のほうなんやろなと思ったら<CS:"190;359 a">いきなり来て…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;389 a">ホントに<Medium Text>。<Normal Text><yellow><CS:"350;449 a">ずれてへんわ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"350;449 a">ずれてないわ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;329 a">僕は<Medium Text> <Normal Text>また遠藤ファミリーが…<Medium Text>。<Normal Text><cyan><CS:"370;389 a">出て来たね<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"410;389 a">ねぇ!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;329 a">(<Normal Text>田中<Medium Text>)<yellow> <Normal Text><white>あれ何なんですか<Medium Text> <Normal Text>緊張?<cyan><CS:"390;389 a">何なん?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"310;389 a">ちょっと緊張やな<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"250;299 a">安心感あったんちゃう?<white><CS:"250;359 a">安心感あったと思います<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"290;299 a">ちあき<Normal Text><CS:"270;359 a">千秋も一緒になって…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"210;119 a">そうそう<Medium Text> <Normal Text>言うてた<Medium Text> <Normal Text>言うてた<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"410;89 a">(<Normal Text>笑い<Medium Text>)
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"170;89 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>そんなんやったら<CS:"330;149 a">離婚せんでよかったやん<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"390;89 a">そうね!<white><CS:"250;149 a">愛してるんやったらって<Medium Text>。
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;449 a"><毎年5人を悩ます<CS:"350;509 a">引き出しネタへ>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"270;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>どうしますか?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;119 a">それとも<Medium Text> <Normal Text>もうタタっと…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;119 a">引き出しを処理しますか?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"250;449 a">ええよ<Medium Text> <Normal Text>開けんでも<Medium Text> <Normal Text>もう<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;329 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>過去<Medium Text> <Normal Text>やっぱ<CS:"350;389 a">ずっと開けて来てたし<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;389 a">そうや<Medium Text> <Normal Text>スタッフ…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"230;449 a">今年は<Medium Text> <Normal Text>開けないっていう<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"190;449 a">開けたい人は<Medium Text> <Normal Text>開けたらええし➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"310;449 a">開けたくない人は<CS:"330;509 a">開けんでええし<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;359 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>それやったら<CS:"230;419 a">開けたくは<Medium Text> <Normal Text>ないですけどね➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;359 a">ろくなもん<Medium Text> <Normal Text>入ってないから<Medium Text>。<Normal Text><cyan><CS:"210;419 a">だって<Medium Text> <Normal Text>プラスじゃ<Medium Text> <Normal Text>ないのよ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;419 a">う〜ん<Medium Text> <Normal Text>そうっすね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>ウソ〜<Medium Text>。<CS:"270;509 a">(<Normal Text>田中<Medium Text>) <Normal Text>どうしました?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"370;509 a">(<Normal Text>せき込み<Medium Text>)
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"350;89 a">♪〜<Medium Text><white>(<Normal Text>判定音<Medium Text>)<CS:"210;149 a">(<Normal Text>田中<Medium Text>) <Normal Text>アニキみたいですよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"450;359 a">みずき<Medium Text><CS:"190;419 a">(<Normal Text>遠藤<Medium Text>) 「<Normal Text>Z<Medium Text>」<Normal Text>の水木さんですよ<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>えっ<Medium Text> <Normal Text>そんなんまで<CS:"230;449 a">仕掛けてるんすか?<CS:"630;449 a">辛っ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;509 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>え〜!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"410;449 a">痛い!<CS:"390;509 a">痛〜い!
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"310;449 a">似てましたけど…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>何が辛かったんすか?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;449 a">はい<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>何のお菓子ですか?<CS:"290;449 a">おかきみたいなやつ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;389 a">えっ<CS:"190;449 a">そういうものじゃなくてですか?
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;389 a">(<Normal Text>田中<Medium Text>) <Normal Text>痛いです<Medium Text> <Normal Text>痛いです<Medium Text>。<Normal Text><cyan><CS:"330;449 a">寒いからかな?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"430;509 a">はい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;449 a">とは言いながらも<Medium Text> <Normal Text>やっぱね…<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"350;389 a">(<Normal Text>方正<Medium Text>) <Normal Text>はい!<Medium Text><CS:"270;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>お願いします<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"210;89 a">大体のパターンなんですよね<Medium Text>。<Normal Text><CS:"370;149 a">そうですね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;389 a">今回<Medium Text> <Normal Text>僕は<Medium Text> <Normal Text>全くもって<CS:"290;449 a">ないですから<Medium Text> <Normal Text>問題は<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"290;359 a">この間<Medium Text> <Normal Text>あれやもんな<CS:"310;419 a">写真やったもんな<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"270;359 a">はい<Medium Text> <Normal Text>じゃあ<Medium Text> <Normal Text>ちょっと<CS:"290;419 a">行かしてもらいます<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"390;389 a">あるなぁ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"210;389 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>しかも<Medium Text> <Normal Text>これ<Medium Text> <Normal Text>僕は…<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"390;329 a">「<Normal Text>遠藤へ<Medium Text>」。<Normal Text><CS:"210;389 a">マジック<Medium Text> <Normal Text>マジック<Medium Text> <Normal Text>マジック<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"290;389 a">えっ<Medium Text> <Normal Text>何やろ?<Medium Text> <Normal Text>これ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a">行きますね<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"330;449 a">(<Normal Text>遠藤<Medium Text>) <Normal Text>うわっ<Medium Text>。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;449 a">「<Normal Text>この問題を1分以内に解け!<Medium Text>」。
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><cyan><CS:"430;329 a">わろ<Normal Text><CS:"310;389 a">普通に笑てるやん<Medium Text>。<Normal Text><yellow><CS:"290;449 a">めっちゃ<Medium Text> <Normal Text>笑うたで<Medium Text>。
+<clear screen>

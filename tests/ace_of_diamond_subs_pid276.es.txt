@@ -1,0 +1,12 @@
+<clear screen>
+<clear screen>
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"190;359 a">わかな<Medium Text><CS:"170;419 a">(<Normal Text>若菜<Medium Text>)<Normal Text>えっ<Medium Text> ウソ!?<Small Text><CS:"290;449 a">い<CS:"470;449 a">えら<Medium Text><CS:"210;509 a">ベンチ<Normal Text>入り<Medium Text>メンバー<Normal Text>に選ばれたの?
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"170;389 a">えいじゅん<Normal Text><CS:"170;449 a">栄純が<Medium Text>!?<Small Text><CS:"530;449 a">い<Normal Text><CS:"190;509 a">そのことみんなに言ったら➡
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"190;359 a">じぶん<Normal Text><CS:"170;419 a">自分のことみたいに<Small Text><CS:"190;449 a">よろこ<Normal Text><CS:"190;509 a">喜んでたよ!
+<clear screen>
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"290;359 a">えい<Normal Text><CS:"170;419 a">やっぱ栄ちゃんは<Small Text><CS:"190;449 a">おれ<Normal Text><CS:"190;509 a">俺たちの<Medium Text>ヒーロー<Normal Text>だ!<Medium Text> <Normal Text>って<Medium Text>。
+<clear screen>

@@ -51,7 +51,6 @@ def formatter(statements, timestamp):
     into something we want (probably just plain text)
     Note we deal with unicode only here.
   '''
-  print('File elapsed time seconds: {s}'.format(s=timestamp))
   line = u''.join([unicode(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
   return line
 
