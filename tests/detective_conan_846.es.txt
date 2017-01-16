@@ -4,9 +4,8 @@
 <Screen Posiiton to 4,5><Normal Text>＜目覚めると<Small Text>
 <Screen Posiiton to 11,7><Normal Text>俺は暗闇の中にいた＞
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 6,7><yellow>あゆみ造欧鵑◻造澆弔劼◻氾<Normal Text>＜歩美<Medium Text> <Normal Text>元太<Medium Text> <Normal Text>光彦と➡め
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 6,7><yellow>あゆみ造欧鵑◻造澆弔劼◻氾<Normal Text>＜歩美<Medium Text> <Normal Text>元太<Medium Text> <Normal Text>光彦と➡め
+<Screen Posiiton to 6,7><yellow>あゆみげんたみつひこ
+<Screen Posiiton to 8,5><Normal Text>＜歩美<Medium Text> <Normal Text>元太<Medium Text> <Normal Text>光彦と➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 6,0><Normal Text><yellow>新作のゲームソフトを<Small Text>
 <Screen Posiiton to 8,0><Normal Text>買いに行く途中<Medium Text> <Normal Text>とある事務所で➡
@@ -87,11 +86,9 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,3>はいばら里┐匹❹◻預<Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>どうしたの<Medium Text>！？<Normal Text>江戸川君<Medium Text>。
-<Screen Posiiton to 7,8><Normal Text>江戸川君！🉃
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,3>はいばら里┐匹❹◻預<Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>どうしたの<Medium Text>！？<Normal Text>江戸川君<Medium Text>。
-<Screen Posiiton to 7,8><Normal Text>江戸川君！🉃
+<Screen Posiiton to 11,3>はいばらえどがわ
+<Screen Posiiton to 13,2><Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>どうしたの<Medium Text>！？<Normal Text>江戸川君<Medium Text>。
+<Screen Posiiton to 7,8><Normal Text>江戸川君！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text><Medium Text><yellow>（<Normal Text>探偵団<Medium Text>バッジ：コナン<Normal Text>の声<Medium Text>）
 <Screen Posiiton to 7,5><Normal Text>車だ<Medium Text>。<Normal Text>この棺は車に…<Medium Text>。<Normal Text>➡
@@ -147,9 +144,7 @@
 <Screen Posiiton to 6,0>たった今<Medium Text> <Normal Text>お葬式が
 <Screen Posiiton to 7,0>終わったところがあれば…<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,5><Normal Text>なるほど！そこから出発した<Small Text>◻霊◻車の中に<Medium Text> <Normal Text>コナン君が<Medium Text>。◻
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,5><Normal Text>なるほど！そこから出発した<Small Text>◻霊◻車の中に<Medium Text> <Normal Text>コナン君が<Medium Text>。◻
+<Screen Posiiton to 13,5><Normal Text>なるほど！そこから出発した<Small Text><Normal Text>霊◻車の中に<Medium Text> <Normal Text>コナン君が<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>で<Medium Text> <Normal Text>でも<Medium Text> <Normal Text>それがホントなら
 <Screen Posiiton to 7,3>行き先は…<Medium Text>。
@@ -166,9 +161,8 @@
 <Screen Posiiton to 7,9><Normal Text>こっちもよ<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,4><Small Text><green>もうり造蕕◻惑<Medium Text>（<Normal Text>毛利<Medium Text> <Normal Text>蘭<Medium Text>）<Normal Text>みんな！◻
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,4><Small Text><green>もうり造蕕◻惑<Medium Text>（<Normal Text>毛利<Medium Text> <Normal Text>蘭<Medium Text>）<Normal Text>みんな！◻
+<Screen Posiiton to 6,4><Small Text><green>もうりらん
+<Screen Posiiton to 15,7><Medium Text>（<Normal Text>毛利<Medium Text> <Normal Text>蘭<Medium Text>）<Normal Text>みんな！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><Medium Text>（<Normal Text>歩美<Medium Text>）<Normal Text>あ<Medium Text> <Normal Text>蘭おねえさん！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -231,9 +225,7 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Normal Text><cyan>コナンが棺桶の中に<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,8><cyan>遺言状も<Medium Text> <Normal Text>そこに箸△襪辰討里◻！？ぢ
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,8><cyan>遺言状も<Medium Text> <Normal Text>そこに箸△襪辰討里◻！？ぢ
+<Screen Posiiton to 6,8><cyan>遺言状も<Medium Text> <Normal Text>そこにあるってのか<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><Medium Text>（<Normal Text>浅田<Medium Text>）<Normal Text>ほ<Medium Text> <Normal Text>ほんとですか<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -251,9 +243,7 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><cyan>ついさっき終わった<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><cyan>霊◻車も<Medium Text><green> <Normal Text><cyan>遺族と一緒に轍仭鮠譴暴佝唎靴◻。噂
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><cyan>霊◻車も<Medium Text><green> <Normal Text><cyan>遺族と一緒に轍仭鮠譴暴佝唎靴◻。噂
+<Screen Posiiton to 6,5><cyan>霊◻車も<Medium Text><green> <Normal Text><cyan>遺族と一緒に火葬場に出発した<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9><Normal Text><green>なんですって<Medium Text>！？
 <Screen Posiiton to 7,7><white>（<Normal Text>３人<Medium Text>）<Normal Text>やっぱり…<Medium Text>。
@@ -345,9 +335,7 @@
 <Screen Posiiton to 6,1><cyan>毛利です<Medium Text>。
 <Screen Posiiton to 7,22><Normal Text><white>浅田です<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,1><Normal Text>毛利さん<Medium Text> <Normal Text>やはり<Medium Text> <Normal Text>支店のひとつに<Small Text>◻立ち寄っていました<Medium Text>。ん
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,1><Normal Text>毛利さん<Medium Text> <Normal Text>やはり<Medium Text> <Normal Text>支店のひとつに<Small Text>◻立ち寄っていました<Medium Text>。ん
+<Screen Posiiton to 13,1><Normal Text>毛利さん<Medium Text> <Normal Text>やはり<Medium Text> <Normal Text>支店のひとつに<Small Text><Normal Text>立ち寄っていました<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,9>会長の霊◻車<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
@@ -412,6 +400,11 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text>誘拐事件の疑いがある<Small Text>
 <Screen Posiiton to 15,5><Normal Text>緊急事態です<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,4><Small Text>たかぎちば
+<Screen Posiiton to 13,8><Normal Text>高木！千葉！
+<Screen Posiiton to 7,0><Medium Text>（<Normal Text>千葉<Medium Text>・<Normal Text>高木<Medium Text>）<Normal Text>は！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2>いくら警察でも<Medium Text> <Normal Text>こんなこと！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -483,11 +476,8 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>通じないんですか？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,17><Normal Text>どこ行ったんだ<Small Text>◻あいつ…<Medium Text>。
-<Screen Posiiton to 7,8><Normal Text>コナン君…<Medium Text>。忻
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,17><Normal Text>どこ行ったんだ<Small Text>◻あいつ…<Medium Text>。
-<Screen Posiiton to 7,8><Normal Text>コナン君…<Medium Text>。忻
+<Screen Posiiton to 11,17><Normal Text>どこ行ったんだ<Small Text><Normal Text>あいつ…<Medium Text>。
+<Screen Posiiton to 7,8><Normal Text>コナン君…<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text><yellow>灰原！灰原？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -530,11 +520,10 @@
 <Screen Posiiton to 13,17><Normal Text><cyan>お〜っと<Medium Text>。
 <Screen Posiiton to 7,8><white>（<Normal Text>３人<Medium Text>）<Normal Text>うっ！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3><Normal Text><cyan>どちらに行かれるんですかな？◻ ◻千葉！と
+<Screen Posiiton to 13,3><Normal Text><cyan>どちらに行かれるんですかな？<white>千葉！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3><Normal Text><cyan>どちらに行かれるんですかな？◻ ◻千葉！と
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3><Normal Text><cyan>どちらに行かれるんですかな？◻ ◻千葉！と
+<Screen Posiiton to 13,3><Normal Text>はっ！事情がハッキリするまで<Small Text><Normal Text>こちらに<Medium Text> <Normal Text>いて頂きます<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><Medium Text>（<Normal Text>３人<Medium Text>）<Normal Text>くっ<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -591,9 +580,7 @@
 <Screen Posiiton to 12,8><Normal Text>…だそうです<Medium Text>。
 <Screen Posiiton to 7,5><Normal Text>頼むぜ<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1>そう<Medium Text> <Normal Text>だから同様に廃棄処分する狙◻瓩筌疋薀ぅ▲ぅ骨○
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1>そう<Medium Text> <Normal Text>だから同様に廃棄処分する狙◻瓩筌疋薀ぅ▲ぅ骨○
+<Screen Posiiton to 6,1>そう<Medium Text> <Normal Text>だから同様に廃棄処分する線香やドライアイス➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>段ボールなんかも一緒に
 <Screen Posiiton to 7,0>木箱につめて<Medium Text> <Normal Text>のせたんだそうよ<Medium Text>。
@@ -602,14 +589,9 @@
 <Screen Posiiton to 7,0>棺の底なんかじゃなかったのよ！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,0><Medium Text>（<Normal Text>灰原<Medium Text>）
-<Screen Posiiton to 6,2><Normal Text>ゆかりの場所に立ち寄<Medium Text>っ<Normal Text>てるかに岨廚┐申祖圓篦篌屬癲◻。◻
+<Screen Posiiton to 6,2><Normal Text>ゆかりの場所に立ち寄<Medium Text>っ<Normal Text>てるかに思えた徐行や停車も…<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 5,0><Medium Text>（<Normal Text>灰原<Medium Text>）
-<Screen Posiiton to 6,2><Normal Text>ゆかりの場所に立ち寄<Medium Text>っ<Normal Text>てるかに岨廚┐申祖圓篦篌屬癲◻。◻
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1><yellow>ポンコツ霊◻車のエンジン不調<Medium Text>。◻ただの偶然だったってわけだ<Medium Text>。か
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1><yellow>ポンコツ霊◻車のエンジン不調<Medium Text>。◻ただの偶然だったってわけだ<Medium Text>。か
+<Screen Posiiton to 6,1><yellow>ポンコツ霊◻車のエンジン不調<Medium Text>。<Normal Text>ただの偶然だったってわけだ<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><yellow>そんで…これには
 <Screen Posiiton to 7,5>そんな裏事情があった<Medium Text>。
@@ -679,6 +661,15 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,8><Medium Text>◻ ◻◻泥┘鵐献◻が止まる<Medium Text>◻
 <Screen Posiiton to 7,2><Normal Text>◻ ◻いや<Medium Text> <Normal Text>エンジンを切ったんだ<Medium Text>。唹<black>　
+Exception throw while parsing data group from .es
+Traceback (most recent call last):
+  File "/home/on-three/code/arib/arib/data_group.py", line 133, in next_data_group
+    data_group = DataGroup(f)
+  File "/home/on-three/code/arib/arib/data_group.py", line 53, in __init__
+    raise DataGroupParseError("Initial stuffing byte not equal to 0x80: " + hex(self._stuffing_byte))
+DataGroupParseError: Initial stuffing byte not equal to 0x80: 0x0
+Looking for new data group in .es
+Data group found. Continuing.
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,8><Medium Text>◻ ◻◻泥┘鵐献◻が止まる<Medium Text>◻
 <Screen Posiiton to 7,2><Normal Text>◻ ◻いや<Medium Text> <Normal Text>エンジンを切ったんだ<Medium Text>。唹<black>　
@@ -724,9 +715,7 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text><cyan>プレス機を…止めろ〜<Medium Text>！！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,23><Normal Text><cyan>く〜っ！◻ ◻止めてくださ〜い！
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,23><Normal Text><cyan>く〜っ！◻ ◻止めてくださ〜い！
+<Screen Posiiton to 13,23><Normal Text><cyan>く〜っ！<white>止めてくださ〜い！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Normal Text>いっ！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -755,25 +744,16 @@
 <Screen Posiiton to 15,11><Medium Text>（<Normal Text>元太<Medium Text>・<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>あ？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 7,0>♫〜<Small Text>◻<yellow>元太<Medium Text>。い
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 7,0>♫〜<Small Text>◻<yellow>元太<Medium Text>。い
+<Screen Posiiton to 7,0>♫〜<Small Text><Normal Text><yellow>元太<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,10><Normal Text>コ<Medium Text> <Normal Text>コナン！
-<Screen Posiiton to 7,0>♫〜<Small Text>◻（<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>コナン君！◻
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 12,10><Normal Text>コ<Medium Text> <Normal Text>コナン！
-<Screen Posiiton to 7,0>♫〜<Small Text>◻（<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>コナン君！◻
+<Screen Posiiton to 7,0>♫〜<Small Text><Medium Text>（<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>コナン君！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 7,0>♫〜<Small Text>◻<cyan>う…ああっ！よ
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 7,0>♫〜<Small Text>◻<cyan>う…ああっ！よ
+<Screen Posiiton to 7,0>♫〜<Small Text><Normal Text><cyan>う…ああっ！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 7,0>♫〜◻ ◻ふう…危機一髪<Medium Text>。ぷ
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 7,0>♫〜◻ ◻ふう…危機一髪<Medium Text>。ぷ
+<Screen Posiiton to 7,0>♫〜<yellow>ふう…危機一髪<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -787,9 +767,7 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,7><cyan>あ〜っ！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,6><cyan>遺言状は！ま<Medium Text> <Normal Text>まさか椴釖夕屬醗貊錣◻！？せ
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,6><cyan>遺言状は！ま<Medium Text> <Normal Text>まさか椴釖夕屬醗貊錣◻！？せ
+<Screen Posiiton to 6,6><cyan>遺言状は！ま<Medium Text> <Normal Text>まさか霊◻車と一緒に<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>なんてこった！
 <Screen Posiiton to 7,6><green>あれ<Medium Text> <Normal Text>コナン君は？
@@ -803,9 +781,7 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><cyan>…の？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7><Normal Text>遺言状が見つかったって<Medium Text>！？◻ホントなの？
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7><Normal Text>遺言状が見つかったって<Medium Text>！？◻ホントなの？
+<Screen Posiiton to 13,7><Normal Text>遺言状が見つかったって<Medium Text>！？<Normal Text>ホントなの？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,10>って…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
@@ -853,10 +829,7 @@
 <Screen Posiiton to 15,3><Medium Text>（<Normal Text>光代<Medium Text>・<Normal Text>耕造<Medium Text>）<Normal Text>あ！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,1><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）
-<Screen Posiiton to 6,2><Normal Text>本来<Medium Text> <Normal Text>仲が悪い相手のアリバイを曽◻世傾腓Δ覆復◻
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 5,1><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）
-<Screen Posiiton to 6,2><Normal Text>本来<Medium Text> <Normal Text>仲が悪い相手のアリバイを曽◻世傾腓Δ覆復◻
+<Screen Posiiton to 6,2><Normal Text>本来<Medium Text> <Normal Text>仲が悪い相手のアリバイを証明し合うなど➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><cyan>するはずがないという
 <Screen Posiiton to 7,2>先入観を<Medium Text><white> <Normal Text><cyan>たのみにした<Medium Text>。<Normal Text>➡
@@ -898,11 +871,8 @@
 <Screen Posiiton to 6,0><Normal Text>恐らく遺産は３等分か
 <Screen Posiiton to 7,0>自分たちに都合のいいように➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><cyan>遺言状を◻けったく
-<Screen Posiiton to 15,0><Normal Text>書きかえるという条件で結託<Medium Text>。<Normal Text>➡三
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><cyan>遺言状を◻けったく
-<Screen Posiiton to 15,0><Normal Text>書きかえるという条件で結託<Medium Text>。<Normal Text>➡三
+<Screen Posiiton to 6,0><cyan>遺言状を<Small Text>けったく
+<Screen Posiiton to 15,0><Normal Text>書きかえるという条件で結託<Medium Text>。<Normal Text>➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>いずれ解放するつもりの
 <Screen Posiiton to 7,0>コナンと一緒に➡

@@ -307,11 +307,22 @@ class PAPF(object):
   '''
   CODE = 0x16
   def __init__(self, f):
-    pass
+    # read the single byte paramter for now but ignore its effect on text placement
+    # TODO: implement proper screen text placement
+    f.read(1)
+
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 2
+
+  def __unicode__(self):
+    return u'<PAPF>'
 
   @staticmethod
   def handler(f):
-    pass
+    return PAPF(f)
 
 class CAN(object):
   '''Cancel
@@ -1411,7 +1422,7 @@ COMMAND_TABLE = {
   APR.CODE : APR.handler,
   LS1.CODE : LS1.handler,
   LS0.CODE : LS0.handler,
-  #PAPF.CODE : PAPF.handler,
+  PAPF.CODE : PAPF.handler,
   #CAN.CODE : CAN.handler,
   SS2.CODE : SS2.handler,
   ESC.CODE : ESC.handler,

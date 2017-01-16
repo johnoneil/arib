@@ -4,12 +4,8 @@
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,1>パソコンチさとう<Normal Text><Small Text>
-<Screen Posiiton to 15,1><Normal Text>◻(<Normal Text>佐藤<Medium Text>)<Normal Text>やあ<Medium Text> <Normal Text>また会ったね<Medium Text>。<Normal Text>➡◻
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,1>パソコンチさとう<Normal Text><Small Text>
-<Screen Posiiton to 15,1><Normal Text>◻(<Normal Text>佐藤<Medium Text>)<Normal Text>やあ<Medium Text> <Normal Text>また会ったね<Medium Text>。<Normal Text>➡◻
+<Screen Posiiton to 13,1>パソコンさとう<Normal Text><Small Text>
+<Screen Posiiton to 15,1><Normal Text>◻(<Normal Text>佐藤<Medium Text>)<Normal Text>やあ<Medium Text> <Normal Text>また会ったね<Medium Text>。<Normal Text>➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9>あじん<Normal Text><Small Text>
@@ -21,12 +17,8 @@
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,0>せっぱくっわれわれでつ<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>切迫…<Medium Text> <Normal Text>我々は追い詰められた<Medium Text>。<Normal Text>➡捏
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,0>せっぱくっわれわれでつ<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>切迫…<Medium Text> <Normal Text>我々は追い詰められた<Medium Text>。<Normal Text>➡捏
+<Screen Posiiton to 13,0>せっぱくわれわれつ<Normal Text><Small Text>
+<Screen Posiiton to 15,0><Normal Text>切迫…<Medium Text> <Normal Text>我々は追い詰められた<Medium Text>。<Normal Text>➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7>けつだん<Normal Text><Small Text>
@@ -40,12 +32,8 @@
 <Screen Posiiton to 15,19><Normal Text>ドォーーン!
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,8>われわれっぶりょく<Medium Text><Small Text>
-<Screen Posiiton to 15,2><Medium Text>(<Normal Text>佐藤<Medium Text>)<Normal Text>我々は<Medium Text> <Normal Text>武力によって➡ 
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,8>われわれっぶりょく<Medium Text><Small Text>
-<Screen Posiiton to 15,2><Medium Text>(<Normal Text>佐藤<Medium Text>)<Normal Text>我々は<Medium Text> <Normal Text>武力によって➡ 
+<Screen Posiiton to 13,8>われわれぶりょく<Medium Text><Small Text>
+<Screen Posiiton to 15,2><Medium Text>(<Normal Text>佐藤<Medium Text>)<Normal Text>我々は<Medium Text> <Normal Text>武力によって➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7><Normal Text>住みよい国作りを<Small Text>
@@ -76,14 +64,9 @@
 <Screen Posiiton to 15,3><Medium Text>(<Normal Text>佐藤<Medium Text>)<Normal Text>遅い!<Medium Text> 「<Normal Text>作戦は<Medium Text>」<Normal Text>…<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,9>きぢもっ<Medium Text><Small Text>
+<Screen Posiiton to 11,9>きもっ<Medium Text><Small Text>
 <Screen Posiiton to 13,1><Medium Text>(<Normal Text>田中<Medium Text>)「<Normal Text>奇を以て良しとすべし<Medium Text>」<Normal Text><Small Text>
-<Screen Posiiton to 15,1><Normal Text>でしたっけ?ぴ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,9>きぢもっ<Medium Text><Small Text>
-<Screen Posiiton to 13,1><Medium Text>(<Normal Text>田中<Medium Text>)「<Normal Text>奇を以て良しとすべし<Medium Text>」<Normal Text><Small Text>
-<Screen Posiiton to 15,1><Normal Text>でしたっけ?ぴ
+<Screen Posiiton to 15,1><Normal Text>でしたっけ?
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 15,0><Medium Text>(ゲン)<Normal Text>あのおっさん<Medium Text> <Normal Text>人間じゃねぇ<Medium Text>。
@@ -104,20 +87,12 @@
 <Screen Posiiton to 15,0><Normal Text>♫〜
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,8>いずみちとさき<Medium Text><Small Text>
-<Screen Posiiton to 15,7><Medium Text>(<Normal Text>泉<Medium Text>)<Normal Text>戸崎さん!➡◻
+<Screen Posiiton to 13,8>いずみとさき<Medium Text><Small Text>
+<Screen Posiiton to 15,7><Medium Text>(<Normal Text>泉<Medium Text>)<Normal Text>戸崎さん!➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,8>いずみちとさき<Medium Text><Small Text>
-<Screen Posiiton to 15,7><Medium Text>(<Normal Text>泉<Medium Text>)<Normal Text>戸崎さん!➡◻
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,0>ながい けいぢせんぷくさきぢはんめい<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>永井圭の潜伏先が判明しました<Medium Text>。うの
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,0>ながい けいぢせんぷくさきぢはんめい<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>永井圭の潜伏先が判明しました<Medium Text>。うの
+<Screen Posiiton to 13,0>ながい けいせんぷくさきはんめい<Normal Text><Small Text>
+<Screen Posiiton to 15,0><Normal Text>永井圭の潜伏先が判明しました<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,0><Normal Text>♫〜
@@ -128,13 +103,8 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 12,2><Medium Text>(<Normal Text>戸崎<Medium Text>)<Small Text>
-<Screen Posiiton to 13,8>かいぼうだいぢねむ<Normal Text><Small Text>
-<Screen Posiiton to 15,2><Normal Text>今夜は解剖台で眠るといい➡蚪
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
-<Screen Posiiton to 12,2><Medium Text>(<Normal Text>戸崎<Medium Text>)<Small Text>
-<Screen Posiiton to 13,8>かいぼうだいぢねむ<Normal Text><Small Text>
-<Screen Posiiton to 15,2><Normal Text>今夜は解剖台で眠るといい➡蚪
+<Screen Posiiton to 13,8>かいぼうだいねむ<Normal Text><Small Text>
+<Screen Posiiton to 15,2><Normal Text>今夜は解剖台で眠るといい➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7>ゼロゼロサン<Normal Text><Small Text>
@@ -236,24 +206,14 @@
 <Screen Posiiton to 13,1><Normal Text>お前に出迎えられるとはな<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,8>そかべっこうはい<Medium Text><Small Text>
+<Screen Posiiton to 10,8>そかべこうはい<Medium Text><Small Text>
 <Screen Posiiton to 12,6><Medium Text>(<Normal Text>曽我部<Medium Text>)<Normal Text>後輩は<Small Text>
 <Screen Posiiton to 13,6>せんぱい<Normal Text><Small Text>
-<Screen Posiiton to 15,6><Normal Text>先輩を出迎えるものですよ<Medium Text>。す
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,8>そかべっこうはい<Medium Text><Small Text>
-<Screen Posiiton to 12,6><Medium Text>(<Normal Text>曽我部<Medium Text>)<Normal Text>後輩は<Small Text>
-<Screen Posiiton to 13,6>せんぱい<Normal Text><Small Text>
-<Screen Posiiton to 15,6><Normal Text>先輩を出迎えるものですよ<Medium Text>。す
+<Screen Posiiton to 15,6><Normal Text>先輩を出迎えるものですよ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,11>しょぶん<Medium Text><Small Text>
-<Screen Posiiton to 13,5><Medium Text>(<Normal Text>戸崎<Medium Text>)<Normal Text>処分が決まってるなら<Small Text>づ<Normal Text>さっさと言え<Medium Text>。ど
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,11>しょぶん<Medium Text><Small Text>
-<Screen Posiiton to 13,5><Medium Text>(<Normal Text>戸崎<Medium Text>)<Normal Text>処分が決まってるなら<Small Text>づ<Normal Text>さっさと言え<Medium Text>。ど
+<Screen Posiiton to 13,5><Medium Text>(<Normal Text>戸崎<Medium Text>)<Normal Text>処分が決まってるなら<Small Text><Normal Text>さっさと言え<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,8>せんぱい<Medium Text><Small Text>
@@ -327,13 +287,8 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,5><Normal Text>人間は省みることなく<Small Text>
-<Screen Posiiton to 13,5>われわれどだんあつ<Normal Text><Small Text>
-<Screen Posiiton to 15,5><Normal Text>我々<Medium Text> <Normal Text>亜人への弾圧を➡　
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 12,5><Normal Text>人間は省みることなく<Small Text>
-<Screen Posiiton to 13,5>われわれどだんあつ<Normal Text><Small Text>
-<Screen Posiiton to 15,5><Normal Text>我々<Medium Text> <Normal Text>亜人への弾圧を➡　
+<Screen Posiiton to 13,5>われわれだんあつ<Normal Text><Small Text>
+<Screen Posiiton to 15,5><Normal Text>我々<Medium Text> <Normal Text>亜人への弾圧を➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text>加速させている<Medium Text>。<Normal Text>➡
@@ -349,7 +304,15 @@
 <Screen Posiiton to 13,13>じょうほう<Normal Text><Small Text>
 <Screen Posiiton to 15,3><Normal Text>見聞きした情報などから➡
 <clear screen>
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 11,0>いんぼうかたんそしき<Normal Text><Small Text>
+<Screen Posiiton to 13,0><Normal Text>陰謀に加担した組織の主要な面々<Small Text>
+<Screen Posiiton to 15,0><Normal Text>15名をリストアップした<Medium Text>。<Normal Text>➡
 <clear screen>
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,4><Normal Text>私が<Medium Text> <Normal Text>これから出す要求を<Small Text>
+<Screen Posiiton to 13,4>せいふ<Normal Text><Small Text>
+<Screen Posiiton to 15,4><Normal Text>政府がのまなければ➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1>われわれ<Normal Text><Small Text>
@@ -389,12 +352,8 @@
 <Screen Posiiton to 15,0><Normal Text>正式かつ詳細な公表<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,10>しみんけんぢみと<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>2<Medium Text> <Normal Text>亜人に市民権を認めること<Medium Text>。ど
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,10>しみんけんぢみと<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>2<Medium Text> <Normal Text>亜人に市民権を認めること<Medium Text>。ど
+<Screen Posiiton to 13,10>しみんけんみと<Normal Text><Small Text>
+<Screen Posiiton to 15,0><Normal Text>2<Medium Text> <Normal Text>亜人に市民権を認めること<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 15,8><Medium Text>(<Normal Text>戸崎<Medium Text>)<Normal Text>くっ!<Medium Text> <Normal Text>バカな!➡
@@ -428,14 +387,8 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,10>つ<Normal Text><Small Text>
 <Screen Posiiton to 12,3><Normal Text>要求を突きつけるというのは<Small Text>
-<Screen Posiiton to 13,10>ひれつぢこうい<Normal Text><Small Text>
-<Screen Posiiton to 15,3><Normal Text>極めて卑劣な行為であり➡わ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,10>つ<Normal Text><Small Text>
-<Screen Posiiton to 12,3><Normal Text>要求を突きつけるというのは<Small Text>
-<Screen Posiiton to 13,10>ひれつぢこうい<Normal Text><Small Text>
-<Screen Posiiton to 15,3><Normal Text>極めて卑劣な行為であり➡わ
+<Screen Posiiton to 13,10>ひれつこうい<Normal Text><Small Text>
+<Screen Posiiton to 15,3><Normal Text>極めて卑劣な行為であり➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9>いきどお<Normal Text><Small Text>
@@ -461,16 +414,10 @@
 <Screen Posiiton to 15,10><Normal Text><Medium Text> <Normal Text>早期解決に向け➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9>さいだいげんどつ<Normal Text><Small Text>
+<Screen Posiiton to 10,9>さいだいげんつ<Normal Text><Small Text>
 <Screen Posiiton to 12,9><Normal Text>最大限の努力を尽くす<Small Text>
 <Screen Posiiton to 13,9>しょぞん<Normal Text><Small Text>
-<Screen Posiiton to 15,9><Normal Text>所存であります<Medium Text>。ず
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9>さいだいげんどつ<Normal Text><Small Text>
-<Screen Posiiton to 12,9><Normal Text>最大限の努力を尽くす<Small Text>
-<Screen Posiiton to 13,9>しょぞん<Normal Text><Small Text>
-<Screen Posiiton to 15,9><Normal Text>所存であります<Medium Text>。ず
+<Screen Posiiton to 15,9><Normal Text>所存であります<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,11>らん<Normal Text><Small Text>
@@ -481,42 +428,23 @@
 <Screen Posiiton to 15,0><Normal Text>官房長官の記者会見の様子です<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,24><Normal Text>ちっ…<Medium Text>。<Normal Text><white><Small Text>で<Normal Text><Medium Text>(キャスター)<Normal Text>亜人<Medium Text> <Normal Text>佐藤から➡容
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,24><Normal Text>ちっ…<Medium Text>。<Normal Text><white><Small Text>で<Normal Text><Medium Text>(キャスター)<Normal Text>亜人<Medium Text> <Normal Text>佐藤から➡容
+<Screen Posiiton to 13,24><Normal Text>ちっ…<Medium Text>。<Normal Text><white><Small Text><Normal Text><Medium Text>(キャスター)<Normal Text>亜人<Medium Text> <Normal Text>佐藤から➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9>はんこうはいこう<Normal Text><Small Text>
+<Screen Posiiton to 10,9>はんこういこう<Normal Text><Small Text>
 <Screen Posiiton to 12,3><Normal Text>第2の犯行予告が出されて以降<Small Text>
 <Screen Posiiton to 13,3>そうりかんてい<Normal Text><Small Text>
-<Screen Posiiton to 15,3><Normal Text>総理官邸では➡🆐
+<Screen Posiiton to 15,3><Normal Text>総理官邸では➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9>はんこうはいこう<Normal Text><Small Text>
-<Screen Posiiton to 12,3><Normal Text>第2の犯行予告が出されて以降<Small Text>
-<Screen Posiiton to 13,3>そうりかんてい<Normal Text><Small Text>
-<Screen Posiiton to 15,3><Normal Text>総理官邸では➡🆐
+<Screen Posiiton to 13,7>きんきゅうたいさくほんぶせっち<Normal Text><Small Text>
+<Screen Posiiton to 15,7><Normal Text>緊急対策本部が設置され➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7>きんきゅうたいさくほんぶぢせっち<Normal Text><Small Text>
-<Screen Posiiton to 15,7><Normal Text>緊急対策本部が設置され➡ゃ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7>きんきゅうたいさくほんぶぢせっち<Normal Text><Small Text>
-<Screen Posiiton to 15,7><Normal Text>緊急対策本部が設置され➡ゃ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,2>かんけいしょうちょうちれんけい<Normal Text><Small Text>
+<Screen Posiiton to 10,2>かんけいしょうちょうれんけい<Normal Text><Small Text>
 <Screen Posiiton to 12,2><Normal Text>関係省庁と連携して<Small Text>
 <Screen Posiiton to 13,2>じょうほうしゅうしゅう<Normal Text><Small Text>
-<Screen Posiiton to 15,2><Normal Text>情報収集に努めるとしています<Medium Text>。ょ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,2>かんけいしょうちょうちれんけい<Normal Text><Small Text>
-<Screen Posiiton to 12,2><Normal Text>関係省庁と連携して<Small Text>
-<Screen Posiiton to 13,2>じょうほうしゅうしゅう<Normal Text><Small Text>
-<Screen Posiiton to 15,2><Normal Text>情報収集に努めるとしています<Medium Text>。ょ
+<Screen Posiiton to 15,2><Normal Text>情報収集に努めるとしています<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,0><Normal Text>♫〜
@@ -536,47 +464,30 @@
 <Screen Posiiton to 15,6><Normal Text>≪日本中で<Medium Text> <Normal Text>僕似の学生が➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,11><Normal Text>ああ言われてるはず≫<Medium Text><white>◻Óエ<Normal Text>攻<Medium Text>ォ<Normal Text>ああ〜<Medium Text> <Normal Text>すっきりした<Medium Text>。<Normal Text>➡劬
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,11><Normal Text>ああ言われてるはず≫<Medium Text><white>◻Óエ<Normal Text>攻<Medium Text>ォ<Normal Text>ああ〜<Medium Text> <Normal Text>すっきりした<Medium Text>。<Normal Text>➡劬
+<Screen Posiiton to 13,11><Normal Text>ああ言われてるはず≫<Medium Text><white>(<Normal Text>攻<Medium Text>)<Normal Text>ああ〜<Medium Text> <Normal Text>すっきりした<Medium Text>。<Normal Text>➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,12><Normal Text>おい<Medium Text> <Normal Text>永井<Medium Text> <Normal Text>行こうぜ<Medium Text>。<Normal Text><yellow>なはぁ…<Medium Text>。の
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,12><Normal Text>おい<Medium Text> <Normal Text>永井<Medium Text> <Normal Text>行こうぜ<Medium Text>。<Normal Text><yellow>なはぁ…<Medium Text>。の
+<Screen Posiiton to 13,12><Normal Text>おい<Medium Text> <Normal Text>永井<Medium Text> <Normal Text>行こうぜ<Medium Text>。<Normal Text><yellow>はぁ…<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 15,4><Normal Text>バカは死んでも治らないのか<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
-<Screen Posiiton to 13,2><Medium Text>(<Normal Text>攻<Medium Text>)<Normal Text>なあ<Medium Text> <Normal Text>ハンカチ持ってねぇ?B<Medium Text>(キャスター)<Normal Text>こちらが佐藤と➡遅
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
-<Screen Posiiton to 13,2><Medium Text>(<Normal Text>攻<Medium Text>)<Normal Text>なあ<Medium Text> <Normal Text>ハンカチ持ってねぇ?B<Medium Text>(キャスター)<Normal Text>こちらが佐藤と➡遅
+<Screen Posiiton to 13,2><Medium Text>(<Normal Text>攻<Medium Text>)<Normal Text>なあ<Medium Text> <Normal Text>ハンカチ持ってねぇ?<Medium Text>(キャスター)<Normal Text>こちらが佐藤と➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Normal Text>そのほかの亜人です<Medium Text>。<Normal Text>➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,1><Normal Text>発見した場合は<Small Text>
-<Screen Posiiton to 13,1>ただづけいさつぢつうほう<Normal Text><Small Text>
-<Screen Posiiton to 15,1><Normal Text>直ちに<Medium Text> <Normal Text>警察へ通報してください<Medium Text>。よあ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 12,1><Normal Text>発見した場合は<Small Text>
-<Screen Posiiton to 13,1>ただづけいさつぢつうほう<Normal Text><Small Text>
-<Screen Posiiton to 15,1><Normal Text>直ちに<Medium Text> <Normal Text>警察へ通報してください<Medium Text>。よあ
+<Screen Posiiton to 13,1>ただけいさつつうほう<Normal Text><Small Text>
+<Screen Posiiton to 15,1><Normal Text>直ちに<Medium Text> <Normal Text>警察へ通報してください<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,18><Normal Text>あれ?<Medium Text> <Normal Text>あっ!
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3><Normal Text>なあ<Medium Text> <Normal Text>あそこにいたヤツって…<Medium Text>。ふ(<Normal Text>客<Medium Text>)<Normal Text>ああ?ほ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3><Normal Text>なあ<Medium Text> <Normal Text>あそこにいたヤツって…<Medium Text>。ふ(<Normal Text>客<Medium Text>)<Normal Text>ああ?ほ
+<Screen Posiiton to 13,3><Normal Text>なあ<Medium Text> <Normal Text>あそこにいたヤツって…<Medium Text>。(<Normal Text>客<Medium Text>)<Normal Text>ああ?
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 12,1><Medium Text>(<Normal Text>客<Medium Text>)<Normal Text>電話…<Small Text>
@@ -597,10 +508,11 @@
 <Screen Posiiton to 15,8><Medium Text>(<Normal Text>攻<Medium Text>)<Normal Text>なあって!
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,1><Normal Text>なんか<Medium Text> <Normal Text>めんどくさくなってきた<Medium Text>。<Normal Text><white><Small Text>っ<Normal Text>はあ?w
+<Screen Posiiton to 13,1><Normal Text>なんか<Medium Text> <Normal Text>めんどくさくなってきた<Medium Text>。<Normal Text><white><Small Text><Normal Text>はあ?
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,1><Normal Text>なんか<Medium Text> <Normal Text>めんどくさくなってきた<Medium Text>。<Normal Text><white><Small Text>っ<Normal Text>はあ?w
+<Screen Posiiton to 13,11><Normal Text>おばあちゃんのとこに<Small Text><Normal Text>いたかったな<Medium Text>。
+<clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 15,1><Normal Text>もう<Medium Text> <Normal Text>お前が<Medium Text> <Normal Text>全部決めていいよ<Medium Text>。
@@ -628,12 +540,8 @@
 <Screen Posiiton to 15,7><Normal Text>現状<Medium Text> <Normal Text>僕らに勝ち目はない<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 11,8>かりのいばしょ<Normal Text><Small Text>
-<Screen Posiiton to 13,8><Normal Text>仮に<Medium Text> <Normal Text>佐藤さんの居場所がつ分かったとして➡ぴえ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 11,8>かりのいばしょ<Normal Text><Small Text>
-<Screen Posiiton to 13,8><Normal Text>仮に<Medium Text> <Normal Text>佐藤さんの居場所がつ分かったとして➡ぴえ
+<Screen Posiiton to 11,8>かりいばしょ<Normal Text><Small Text>
+<Screen Posiiton to 13,8><Normal Text>仮に<Medium Text> <Normal Text>佐藤さんの居場所が分かったとして➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 15,2><Normal Text>クソガキ2人に<Medium Text> <Normal Text>何ができるよ?
@@ -668,14 +576,14 @@
 <Screen Posiiton to 15,14><Normal Text>僕らは<Medium Text> <Normal Text>麻酔銃も➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 11,7>とっこ<Normal Text><Small Text>
+<Screen Posiiton to 11,7>とこ<Normal Text><Small Text>
 <Screen Posiiton to 13,0><Normal Text>亜人を閉じ込める場所も<Small Text>
-<Screen Posiiton to 15,0><Normal Text>持<Medium Text>っ<Normal Text>てないが<Medium Text> <Normal Text>そこは工夫しだいだ<Medium Text>。よ
+<Screen Posiiton to 15,0><Normal Text>持<Medium Text>っ<Normal Text>てないが<Medium Text> <Normal Text>そこは工夫しだいだ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 11,7>とっこ<Normal Text><Small Text>
-<Screen Posiiton to 13,0><Normal Text>亜人を閉じ込める場所も<Small Text>
-<Screen Posiiton to 15,0><Normal Text>持<Medium Text>っ<Normal Text>てないが<Medium Text> <Normal Text>そこは工夫しだいだ<Medium Text>。よ
+<Screen Posiiton to 11,10>しょうがいしゅだん<Normal Text><Small Text>
+<Screen Posiiton to 13,5><Normal Text>前に<Medium Text> <Normal Text>生涯<Medium Text> <Normal Text>無力化する手段が<Small Text><Normal Text>あるって話しただろ<Medium Text>。
+<clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,0><Normal Text>したっけ?<yellow><Small Text>
@@ -685,14 +593,8 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
 <Screen Posiiton to 10,19>やまおく<Normal Text><Small Text>
 <Screen Posiiton to 12,4><Normal Text>例えば<Medium Text> <Normal Text>あの村の山奥には<Small Text>
-<Screen Posiiton to 13,5>ふるいどっあと<Normal Text><Small Text>
-<Screen Posiiton to 15,4><Normal Text>古井戸の跡があった<Medium Text>。「
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 10,19>やまおく<Normal Text><Small Text>
-<Screen Posiiton to 12,4><Normal Text>例えば<Medium Text> <Normal Text>あの村の山奥には<Small Text>
-<Screen Posiiton to 13,5>ふるいどっあと<Normal Text><Small Text>
-<Screen Posiiton to 15,4><Normal Text>古井戸の跡があった<Medium Text>。「
+<Screen Posiiton to 13,5>ふるいどあと<Normal Text><Small Text>
+<Screen Posiiton to 15,4><Normal Text>古井戸の跡があった<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 12,0><Normal Text>ポイントは<Small Text>
@@ -701,31 +603,23 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 12,13><Normal Text>地中のバクテリアが<Small Text>
-<Screen Posiiton to 13,13>さんそっうば<Normal Text><Small Text>
-<Screen Posiiton to 15,13><Normal Text>酸素を奪って➡へ
+<Screen Posiiton to 13,13>さんそうば<Normal Text><Small Text>
+<Screen Posiiton to 15,13><Normal Text>酸素を奪って➡
+<clear screen>
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
+<Screen Posiiton to 13,6>あなじょうたい<Normal Text><Small Text>
+<Screen Posiiton to 15,6><Normal Text>穴を無酸素状態にするんだ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 12,13><Normal Text>地中のバクテリアが<Small Text>
-<Screen Posiiton to 13,13>さんそっうば<Normal Text><Small Text>
-<Screen Posiiton to 15,13><Normal Text>酸素を奪って➡へ
+<Screen Posiiton to 12,2><Normal Text>人は<Medium Text> <Normal Text>酸素のない所へ急に入ると<Small Text>
+<Screen Posiiton to 13,2>しゅんかんてきいしき<Normal Text><Small Text>
+<Screen Posiiton to 15,2><Normal Text>瞬間的に意識を失う<Medium Text>。
 <clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,6>あなとじょうたい<Normal Text><Small Text>
-<Screen Posiiton to 15,6><Normal Text>穴を無酸素状態にするんだ<Medium Text>。し
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,6>あなとじょうたい<Normal Text><Small Text>
-<Screen Posiiton to 15,6><Normal Text>穴を無酸素状態にするんだ<Medium Text>。し
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 12,10><Normal Text>亜人ならエンドレスだ<Medium Text>。<Small Text><white>
-<Screen Posiiton to 13,7>かんぢふた<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>プシュ<Medium Text>(<Normal Text>缶の蓋を開ける音<Medium Text>)K
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 12,10><Normal Text>亜人ならエンドレスだ<Medium Text>。<Small Text><white>
-<Screen Posiiton to 13,7>かんぢふた<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>プシュ<Medium Text>(<Normal Text>缶の蓋を開ける音<Medium Text>)K
+<Screen Posiiton to 13,7>かんふた<Normal Text><Small Text>
+<Screen Posiiton to 15,0><Normal Text>プシュ<Medium Text>(<Normal Text>缶の蓋を開ける音<Medium Text>)
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,0><Normal Text>♫〜
@@ -735,28 +629,18 @@
 <Screen Posiiton to 15,5><Normal Text>戦うための最大のスキルを➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,8><Normal Text>すでに持ってるってこと<Medium Text>。<Normal Text><white>ぢふ〜ん<Medium Text>。こ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,8><Normal Text>すでに持ってるってこと<Medium Text>。<Normal Text><white>ぢふ〜ん<Medium Text>。こ
+<Screen Posiiton to 13,8><Normal Text>すでに持ってるってこと<Medium Text>。<Normal Text><white>ふ〜ん<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 13,4><Normal Text>戦場で<Small Text>
 <Screen Posiiton to 15,4><Normal Text>次のうち<Medium Text> <Normal Text>1つだけ選ぶなら?
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,5>くっきょうなせんりゃくてきずのう<Normal Text><Small Text>
-<Screen Posiiton to 15,2><Normal Text>1<Medium Text> <Normal Text>屈強な肉体<Medium Text>。 <Normal Text>2<Medium Text> <Normal Text>戦略的頭脳<Medium Text>。ね
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,5>くっきょうなせんりゃくてきずのう<Normal Text><Small Text>
-<Screen Posiiton to 15,2><Normal Text>1<Medium Text> <Normal Text>屈強な肉体<Medium Text>。 <Normal Text>2<Medium Text> <Normal Text>戦略的頭脳<Medium Text>。ね
+<Screen Posiiton to 13,5>くっきょうせんりゃくてきずのう<Normal Text><Small Text>
+<Screen Posiiton to 15,2><Normal Text>1<Medium Text> <Normal Text>屈強な肉体<Medium Text>。 <Normal Text>2<Medium Text> <Normal Text>戦略的頭脳<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,21><Normal Text>3<Medium Text> <Normal Text>不死身<Medium Text>。<Normal Text><white>づ屈強な肉体だろ!ぼ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,21><Normal Text>3<Medium Text> <Normal Text>不死身<Medium Text>。<Normal Text><white>づ屈強な肉体だろ!ぼ
+<Screen Posiiton to 13,21><Normal Text>3<Medium Text> <Normal Text>不死身<Medium Text>。<Normal Text><white>屈強な肉体だろ!
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 13,5><Normal Text>そうだ<Medium Text>。<Normal Text><Small Text>
@@ -769,12 +653,8 @@
 <Screen Posiiton to 15,11><Normal Text>それらを踏まえれば➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,6>たいこうてしゅだん<Normal Text><Small Text>
-<Screen Posiiton to 15,6><Normal Text>対抗できる手段があるはず<Medium Text>。　
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,6>たいこうてしゅだん<Normal Text><Small Text>
-<Screen Posiiton to 15,6><Normal Text>対抗できる手段があるはず<Medium Text>。　
+<Screen Posiiton to 13,6>たいこうしゅだん<Normal Text><Small Text>
+<Screen Posiiton to 15,6><Normal Text>対抗できる手段があるはず<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,2><Normal Text>そんなら…<Medium Text>。<Normal Text><yellow><Small Text>
@@ -782,13 +662,12 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 12,4><Normal Text>それをはるかに上回る<Small Text>
-<Screen Posiiton to 13,9>ぶっしぢけいけん<Normal Text><Small Text>
-<Screen Posiiton to 15,4><Normal Text>人員<Medium Text> <Normal Text>物資<Medium Text> <Normal Text>経験があるんだぞ<Medium Text>。だ
+<Screen Posiiton to 13,9>ぶっしけいけん<Normal Text><Small Text>
+<Screen Posiiton to 15,4><Normal Text>人員<Medium Text> <Normal Text>物資<Medium Text> <Normal Text>経験があるんだぞ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 12,4><Normal Text>それをはるかに上回る<Small Text>
-<Screen Posiiton to 13,9>ぶっしぢけいけん<Normal Text><Small Text>
-<Screen Posiiton to 15,4><Normal Text>人員<Medium Text> <Normal Text>物資<Medium Text> <Normal Text>経験があるんだぞ<Medium Text>。だ
+<Screen Posiiton to 13,15><Normal Text>僕ら2人で戦う?<Small Text><Normal Text>はっ!<Medium Text> <Normal Text>笑えるね<Medium Text>。
+<clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 15,0><Normal Text>そこで<Medium Text> <Normal Text>僕らが<Medium Text> <Normal Text>今やるべきは何か<Medium Text>。
@@ -880,12 +759,8 @@
 <Screen Posiiton to 15,0><Normal Text>亜人管理委員会役員の➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,4>ちょうさっいらいてこうしんじょ<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>身辺調査を依頼した<Medium Text>。 <Normal Text>興信所にだ<Medium Text>。　ゞ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,4>ちょうさっいらいてこうしんじょ<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>身辺調査を依頼した<Medium Text>。 <Normal Text>興信所にだ<Medium Text>。　ゞ
+<Screen Posiiton to 13,4>ちょうさいらいこうしんじょ<Normal Text><Small Text>
+<Screen Posiiton to 15,0><Normal Text>身辺調査を依頼した<Medium Text>。 <Normal Text>興信所にだ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,0><Normal Text>♫〜
@@ -924,25 +799,14 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 8,2><Medium Text>(<Normal Text>戸崎<Medium Text>)<Small Text>
-<Screen Posiiton to 9,2>げんざいつたけんけいつれんけい<Normal Text><Small Text>
-<Screen Posiiton to 11,2><Normal Text>現在は<Medium Text> <Normal Text>他県警とも連携して➡孕
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
-<Screen Posiiton to 8,2><Medium Text>(<Normal Text>戸崎<Medium Text>)<Small Text>
-<Screen Posiiton to 9,2>げんざいつたけんけいつれんけい<Normal Text><Small Text>
-<Screen Posiiton to 11,2><Normal Text>現在は<Medium Text> <Normal Text>他県警とも連携して➡孕
+<Screen Posiiton to 9,2>げんざいたけんけいれんけい<Normal Text><Small Text>
+<Screen Posiiton to 11,2><Normal Text>現在は<Medium Text> <Normal Text>他県警とも連携して➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 6,1>かながわでさいたま<Normal Text><Small Text>
+<Screen Posiiton to 6,1>かながわさいたま<Normal Text><Small Text>
 <Screen Posiiton to 8,0><Normal Text>神奈川<Medium Text> <Normal Text>千葉<Medium Text> <Normal Text>埼玉まで<Small Text>
 <Screen Posiiton to 9,0>そうさくはんい<Normal Text><Small Text>
-<Screen Posiiton to 11,0><Normal Text>捜索範囲を広げていますが➡め
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 6,1>かながわでさいたま<Normal Text><Small Text>
-<Screen Posiiton to 8,0><Normal Text>神奈川<Medium Text> <Normal Text>千葉<Medium Text> <Normal Text>埼玉まで<Small Text>
-<Screen Posiiton to 9,0>そうさくはんい<Normal Text><Small Text>
-<Screen Posiiton to 11,0><Normal Text>捜索範囲を広げていますが➡め
+<Screen Posiiton to 11,0><Normal Text>捜索範囲を広げていますが➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 8,0><Normal Text>佐藤につながる手がかりは<Small Text>
@@ -955,36 +819,20 @@
 <Screen Posiiton to 10,0><Normal Text>1番目に挙げられた➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 5,0>わかいでしゅうげきじ<Normal Text><Small Text>
+<Screen Posiiton to 5,0>わかいしゅうげきじ<Normal Text><Small Text>
 <Screen Posiiton to 7,0><Normal Text>若井氏への襲撃時に<Small Text>
 <Screen Posiiton to 8,1>ほかく<Normal Text><Small Text>
-<Screen Posiiton to 10,0><Normal Text>捕獲するというものです<Medium Text>。ぁ
+<Screen Posiiton to 10,0><Normal Text>捕獲するというものです<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 5,0>わかいでしゅうげきじ<Normal Text><Small Text>
-<Screen Posiiton to 7,0><Normal Text>若井氏への襲撃時に<Small Text>
-<Screen Posiiton to 8,1>ほかく<Normal Text><Small Text>
-<Screen Posiiton to 10,0><Normal Text>捕獲するというものです<Medium Text>。ぁ
+<Screen Posiiton to 8,0>けいさつしゅのう<Normal Text><Small Text>
+<Screen Posiiton to 10,0><Normal Text>警察には<Medium Text> <Normal Text>国家首脳レベルの➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 8,0>けいさつどしゅのう<Normal Text><Small Text>
-<Screen Posiiton to 10,0><Normal Text>警察には<Medium Text> <Normal Text>国家首脳レベルの➡◻
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 8,0>けいさつどしゅのう<Normal Text><Small Text>
-<Screen Posiiton to 10,0><Normal Text>警察には<Medium Text> <Normal Text>国家首脳レベルの➡◻
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 5,0>けいごたいせいつし<Normal Text><Small Text>
+<Screen Posiiton to 5,0>けいごたいせいし<Normal Text><Small Text>
 <Screen Posiiton to 7,0><Normal Text>警護態勢を敷くよう<Small Text>
 <Screen Posiiton to 8,1>しじ<Normal Text><Small Text>
-<Screen Posiiton to 10,0><Normal Text>指示を出していますので…<Medium Text>。ゅ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 5,0>けいごたいせいつし<Normal Text><Small Text>
-<Screen Posiiton to 7,0><Normal Text>警護態勢を敷くよう<Small Text>
-<Screen Posiiton to 8,1>しじ<Normal Text><Small Text>
-<Screen Posiiton to 10,0><Normal Text>指示を出していますので…<Medium Text>。ゅ
+<Screen Posiiton to 10,0><Normal Text>指示を出していますので…<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 9,4><Medium Text>(<Normal Text>大臣<Medium Text>)<Normal Text><Small Text>
@@ -1008,18 +856,20 @@
 <Screen Posiiton to 12,9><Normal Text>こいつは面白い<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 11,5>こんやくしゃっいしき<Normal Text><Small Text>
-<Screen Posiiton to 13,5><Normal Text>婚約者が意識不明の重体で➡ず
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 11,5>こんやくしゃっいしき<Normal Text><Small Text>
-<Screen Posiiton to 13,5><Normal Text>婚約者が意識不明の重体で➡ず
+<Screen Posiiton to 11,5>こんやくしゃいしき<Normal Text><Small Text>
+<Screen Posiiton to 13,5><Normal Text>婚約者が意識不明の重体で➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
 <Screen Posiiton to 8,11>いりょうひ<Normal Text><Small Text>
 <Screen Posiiton to 10,7><Normal Text>その医療費を<Small Text>
 <Screen Posiiton to 11,14>ふたん<Normal Text><Small Text>
 <Screen Posiiton to 13,7><Normal Text>自分で負担してるらしい<Medium Text>。
+<clear screen>
+<clear screen>
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
+<Screen Posiiton to 12,4><Normal Text>それも<Medium Text> <Normal Text>ちょっとやそっとじゃ<Small Text>
+<Screen Posiiton to 13,4>はらがく<Normal Text><Small Text>
+<Screen Posiiton to 15,4><Normal Text>払いきれない額だ<Medium Text>。
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
@@ -1070,6 +920,15 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 13,0><Medium Text>(<Normal Text>恋人<Medium Text>)<Normal Text>タバコやめないの?<Medium Text>◻
 <Screen Posiiton to 15,17><Medium Text><Normal Text>また言う<Medium Text>犖
+Exception throw while parsing data group from .es
+Traceback (most recent call last):
+  File "/home/on-three/code/arib/arib/data_group.py", line 133, in next_data_group
+    data_group = DataGroup(f)
+  File "/home/on-three/code/arib/arib/data_group.py", line 53, in __init__
+    raise DataGroupParseError("Initial stuffing byte not equal to 0x80: " + hex(self._stuffing_byte))
+DataGroupParseError: Initial stuffing byte not equal to 0x80: 0xff
+Looking for new data group in .es
+Data group found. Continuing.
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 13,0><Medium Text>(<Normal Text>恋人<Medium Text>)<Normal Text>タバコやめないの?<Medium Text>◻
@@ -1111,10 +970,7 @@
 <Screen Posiiton to 15,6><Normal Text>誰だ?<Medium Text> <Normal Text>なぜ<Medium Text> <Normal Text>この番号を…<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,6><Normal Text><Medium Text> <Normal Text>いいから<Medium Text> <Normal Text>テレビを見ろ<Medium Text>。<Normal Text>っ早く!F
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 13,6><Normal Text><Medium Text> <Normal Text>いいから<Medium Text> <Normal Text>テレビを見ろ<Medium Text>。<Normal Text>っ早く!F
+<Screen Posiiton to 13,6><Normal Text><Medium Text> <Normal Text>いいから<Medium Text> <Normal Text>テレビを見ろ<Medium Text>。<Normal Text>早く!
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Normal Text>タッ<Medium Text> <Normal Text>タッ
@@ -1122,13 +978,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,12>げんば<Normal Text><Small Text>
 <Screen Posiiton to 12,3><Normal Text><Medium Text>(キャスター)<Normal Text>現場では<Small Text>
-<Screen Posiiton to 13,3>とうなんしゃぢけいさつ<Normal Text><Small Text>
-<Screen Posiiton to 15,3><Normal Text>盗難車と警察車両による➡
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,12>げんば<Normal Text><Small Text>
-<Screen Posiiton to 12,3><Normal Text><Medium Text>(キャスター)<Normal Text>現場では<Small Text>
-<Screen Posiiton to 13,3>とうなんしゃぢけいさつ<Normal Text><Small Text>
+<Screen Posiiton to 13,3>とうなんしゃけいさつ<Normal Text><Small Text>
 <Screen Posiiton to 15,3><Normal Text>盗難車と警察車両による➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
@@ -1147,10 +997,7 @@
 <Screen Posiiton to 13,19><Normal Text><Medium Text> <Normal Text>そうだ<Medium Text>。<Normal Text>➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 11,6><Normal Text>僕らが<Medium Text> <Normal Text>どこに向かってるかっあんたなら分かるだろ…<Medium Text>。せ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 11,6><Normal Text>僕らが<Medium Text> <Normal Text>どこに向かってるかっあんたなら分かるだろ…<Medium Text>。せ
+<Screen Posiiton to 11,6><Normal Text>僕らが<Medium Text> <Normal Text>どこに向かってるかあんたなら分かるだろ…<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,0><Normal Text><Medium Text> <Normal Text>プツッ<Medium Text>(<Normal Text>電話が切れる音<Medium Text>)<Normal Text><yellow><Small Text>
@@ -1185,12 +1032,8 @@
 <Screen Posiiton to 15,0><Normal Text>♫〜
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7>みみせんぢにせ<Normal Text><Small Text>
-<Screen Posiiton to 15,7><Normal Text>耳栓と偽IDは持ったな?<cyan>
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7>みみせんぢにせ<Normal Text><Small Text>
-<Screen Posiiton to 15,7><Normal Text>耳栓と偽IDは持ったな?<cyan>
+<Screen Posiiton to 13,7>みみせんにせ<Normal Text><Small Text>
+<Screen Posiiton to 15,7><Normal Text>耳栓と偽IDは持ったな?
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,18>うらぐち<Normal Text><Small Text>
@@ -1199,24 +1042,14 @@
 <Screen Posiiton to 15,19><Medium Text>(<Normal Text>平沢<Medium Text>)<Normal Text>了解<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,0>ようぎしゃねにっこ<Normal Text><Small Text>
+<Screen Posiiton to 10,0>ようぎしゃにこ<Normal Text><Small Text>
 <Screen Posiiton to 12,0><Normal Text>容疑者は<Medium Text> <Normal Text>病院内に逃げ込んだ<Medium Text>。<Small Text>
 <Screen Posiiton to 13,0>かくほ<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>確保に向かう<Medium Text>。ゃ　
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,0>ようぎしゃねにっこ<Normal Text><Small Text>
-<Screen Posiiton to 12,0><Normal Text>容疑者は<Medium Text> <Normal Text>病院内に逃げ込んだ<Medium Text>。<Small Text>
-<Screen Posiiton to 13,0>かくほ<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>確保に向かう<Medium Text>。ゃ　
+<Screen Posiiton to 15,0><Normal Text>確保に向かう<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,9>うら<Normal Text><Small Text>
-<Screen Posiiton to 13,9><Normal Text>裏と表<Medium Text> <Normal Text>両方から入るぞ<Medium Text>。<Normal Text><Small Text>で<Normal Text>⚞ブオォーー<Medium Text>(<Normal Text>車の<Medium Text>エンジン<Normal Text>音<Medium Text>)す
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,9>うら<Normal Text><Small Text>
-<Screen Posiiton to 13,9><Normal Text>裏と表<Medium Text> <Normal Text>両方から入るぞ<Medium Text>。<Normal Text><Small Text>で<Normal Text>⚞ブオォーー<Medium Text>(<Normal Text>車の<Medium Text>エンジン<Normal Text>音<Medium Text>)す
+<Screen Posiiton to 13,9><Normal Text>裏と表<Medium Text> <Normal Text>両方から入るぞ<Medium Text>。<Normal Text><Small Text><Normal Text>⚞ブオォーー<Medium Text>(<Normal Text>車の<Medium Text>エンジン<Normal Text>音<Medium Text>)
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,16><Normal Text>あっ…<Medium Text> <Normal Text>なんだ?
@@ -1251,16 +1084,10 @@
 <Screen Posiiton to 15,0><Normal Text>どこでもいい!<Medium Text> <Normal Text>敵が➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 10,4>かくほぬゆうれい<Normal Text><Small Text>
+<Screen Posiiton to 10,4>かくほゆうれい<Normal Text><Small Text>
 <Screen Posiiton to 12,0><Normal Text>強行確保に走ったら<Medium Text> <Normal Text>幽霊で<Small Text>
-<Screen Posiiton to 13,11>まつちんあつ<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>ヤツの取り巻きを鎮圧しろ<Medium Text>。ろお
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 10,4>かくほぬゆうれい<Normal Text><Small Text>
-<Screen Posiiton to 12,0><Normal Text>強行確保に走ったら<Medium Text> <Normal Text>幽霊で<Small Text>
-<Screen Posiiton to 13,11>まつちんあつ<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>ヤツの取り巻きを鎮圧しろ<Medium Text>。ろお
+<Screen Posiiton to 13,11>まちんあつ<Normal Text><Small Text>
+<Screen Posiiton to 15,0><Normal Text>ヤツの取り巻きを鎮圧しろ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 13,0><Medium Text>(<Normal Text>攻<Medium Text>)<Normal Text><Small Text>
@@ -1341,12 +1168,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 12,7><Normal Text>戸崎さん<Medium Text>。<Small Text><white>
-<Screen Posiiton to 13,9>ざんねんづわれわれ<Normal Text><Small Text>
-<Screen Posiiton to 15,9><Normal Text>残念だが<Medium Text> <Normal Text>我々は➡
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 12,7><Normal Text>戸崎さん<Medium Text>。<Small Text><white>
-<Screen Posiiton to 13,9>ざんねんづわれわれ<Normal Text><Small Text>
+<Screen Posiiton to 13,9>ざんねんわれわれ<Normal Text><Small Text>
 <Screen Posiiton to 15,9><Normal Text>残念だが<Medium Text> <Normal Text>我々は➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
@@ -1360,18 +1182,11 @@
 <Screen Posiiton to 15,0><Normal Text>物騒なことは<Medium Text> <Normal Text>やめましょうよ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
-<Screen Posiiton to 13,5><Medium Text>(<Normal Text>戸崎<Medium Text>)<Normal Text>話なら外でしないか?<Small Text>E<Normal Text>いい天気だ<Medium Text>。す
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
-<Screen Posiiton to 13,5><Medium Text>(<Normal Text>戸崎<Medium Text>)<Normal Text>話なら外でしないか?<Small Text>E<Normal Text>いい天気だ<Medium Text>。す
+<Screen Posiiton to 13,5><Medium Text>(<Normal Text>戸崎<Medium Text>)<Normal Text>話なら外でしないか?<Small Text><Normal Text>いい天気だ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,1>つかねゆうれい<Normal Text><Small Text>
-<Screen Posiiton to 15,1><Normal Text>捕まえる気なら<Medium Text> <Normal Text>幽霊を放ちます<Medium Text>。ゑ
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,1>つかねゆうれい<Normal Text><Small Text>
-<Screen Posiiton to 15,1><Normal Text>捕まえる気なら<Medium Text> <Normal Text>幽霊を放ちます<Medium Text>。ゑ
+<Screen Posiiton to 13,1>つかゆうれい<Normal Text><Small Text>
+<Screen Posiiton to 15,1><Normal Text>捕まえる気なら<Medium Text> <Normal Text>幽霊を放ちます<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
 <Screen Posiiton to 13,22>ぼうそう<Normal Text><Small Text>
@@ -1450,13 +1265,8 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 12,0><Normal Text>こいつは<Small Text>
-<Screen Posiiton to 13,6>ぎゃくとと<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>命令と逆の行動を執るんだ<Medium Text>。と
-<clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 12,0><Normal Text>こいつは<Small Text>
-<Screen Posiiton to 13,6>ぎゃくとと<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>命令と逆の行動を執るんだ<Medium Text>。と
+<Screen Posiiton to 13,6>ぎゃくと<Normal Text><Small Text>
+<Screen Posiiton to 15,0><Normal Text>命令と逆の行動を執るんだ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 15,17><Medium Text>(<Normal Text>攻<Medium Text>)<Normal Text>はぁ…<Medium Text>。
@@ -1475,12 +1285,12 @@
 <Screen Posiiton to 15,0><Normal Text>日ざしが<Medium Text> <Normal Text>さし込む教室➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,0>あせぴは<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>汗ばんだ手が<Medium Text> <Normal Text>ノートに張り付く<Medium Text>。た
+<Screen Posiiton to 13,0>あせは<Normal Text><Small Text>
+<Screen Posiiton to 15,0><Normal Text>汗ばんだ手が<Medium Text> <Normal Text>ノートに張り付く<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text><yellow>
-<Screen Posiiton to 13,0>あせぴは<Normal Text><Small Text>
-<Screen Posiiton to 15,0><Normal Text>汗ばんだ手が<Medium Text> <Normal Text>ノートに張り付く<Medium Text>。た
+<Screen Posiiton to 13,7>たいくつせんれん<Normal Text><Small Text>
+<Screen Posiiton to 15,1><Normal Text>静かで退屈だが<Medium Text> <Normal Text>洗練されてた<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,0><Normal Text>♫〜
@@ -1550,6 +1360,11 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,20>じょうきょう<Normal Text><Small Text>
 <Screen Posiiton to 15,20><Normal Text>状況は?
+<clear screen>
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 11,14>ようぎしゃかくほ<Medium Text><Small Text>
+<Screen Posiiton to 13,8><Medium Text>(<Normal Text>平沢<Medium Text>)<Normal Text>容疑者は確保した<Medium Text>。<Normal Text>あとは<Medium Text> <Normal Text>こっちでやる<Medium Text>。
+<clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 13,0><Medium Text>(<Normal Text>警官<Medium Text>)<Normal Text><Small Text>
@@ -1647,6 +1462,11 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,18>とうち<Normal Text><Small Text>
 <Screen Posiiton to 15,2><Normal Text><Medium Text> <Normal Text>私が<Medium Text> <Normal Text>この国を統治する<Medium Text>。<Normal Text>➡
+<clear screen>
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 13,3>ちんぷゆめ<Normal Text><Small Text>
+<Screen Posiiton to 15,3><Normal Text>陳腐な夢に聞こえるか?➡
+<clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text>私はやる…<Medium Text> <Normal Text>必ず<Medium Text>。

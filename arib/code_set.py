@@ -14,6 +14,8 @@ handling for code sets in japanese closed captions
 from arib_exceptions import UnimplimentedError
 import read
 
+DEBUG = False
+
 class Gaiji(object):
   #after ARIB std docs pg 54 onwards
   # note that columns and rows are swapped in this table to
@@ -128,7 +130,8 @@ class Gaiji(object):
     #upper byte can be used to calculate row
     row = v[0]&0x7f-0x20
     col = v[1]&0x007f-0x20
-    #print 'gaiji-->{r},{c},'.format(r=row, c=col)
+    if DEBUG:
+      print 'gaiji [{b1}],[{b2}]-->{r},{c},'.format(b1=hex(v[0]), b2=hex(v[1]),r=row, c=col)
     return Gaiji.ENCODING[col][row]
 
 
@@ -168,7 +171,8 @@ class Kanji(object):
           self._character = h.decode('euc-jisx0213')
       except:
           self._character = u'◻'
-    #print(u'{code}-->{char}'.format(code=str(self._args), char=self._character).encode('utf-8'))
+    if DEBUG:
+      print(u'[{b}][{b2}]-->{char}'.format(b=hex(b), b2=hex(b2), char=self._character).encode('utf-8'))
 
   def __len__(self):
     return len(self._args)
