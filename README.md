@@ -55,7 +55,7 @@ optional arguments:
   -q, --quiet           Does not write to stdout.
   -t TMAX, --tmax TMAX  Subtitle display time limit (seconds).
 ```
-I've made some recent changes to this tool and its performance is not much improved, even if the basic arib support is still lacking many parts of the spec.
+I've made some recent changes to this tool and its performance is much improved, even if the basic arib support is still lacking many parts of the spec. Scanning a several gigabyte .ts file for CC info should take less than a minute on a local drive.
 
 # Experiments and Other Info
 
