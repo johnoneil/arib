@@ -20,6 +20,13 @@ That said, installation can now be carried out via pip as below.
 ```
 pip install -e git+https://github.com/johnoneil/arib#egg=arib
 ```
+or install from a local git checkout
+```
+git clone https://github.com/johnoneil/arib.git
+cd arib
+pip install -e .
+```
+The above commands may require ```sudo``` though I recommend again installing them in a python virtualenv.
 
 ##arib-ts2ass
 
@@ -48,53 +55,15 @@ optional arguments:
   -q, --quiet           Does not write to stdout.
   -t TMAX, --tmax TMAX  Subtitle display time limit (seconds).
 ```
+I've made some recent changes to this tool and its performance is not much improved, even if the basic arib support is still lacking many parts of the spec.
 
-##arib-autosub
-This repo also contains some code for an experimental application "arib-autosub" which draws Closed Caption information out of an MPEG TS file and then translates it via Bing Translate.
+# Experiments and Other Info
 
-As I'm no longer installing this tool when this package is installed the description below is only for reference:
-
-Command line help is available as below:
+##arib-ts-extract
+##arib-es-extract
+This package also installs to additional tools which can be used to draw basic CC information from MPEG ts and es files. These are ```arib-ts-extract``` and ```arib-es-extract```. They skip the usual .ass formatting and show a text representation of the basic ARIB codes present in the .ts or .es file. See the example below:
 ```
-(arib)joneil@joneilDesktop ~/code/arib $ arib-autosub -h
-usage: arib-autosub [-h] infile pid
-
-Auto translate jp CCs in MPEG TS file.
-
-positional arguments:
-  infile      Input filename (MPEG2 Transport Stream File)
-  pid         Pid of closed caption ES to extract from stream.
-
-optional arguments:
-  -h, --help  show this help message and exit
-
-```
-
-The application requires 2 command line arguments, the name of the input .ts file and the PID of the CC elementary stream. Please see below regarding how to identify a Closed Caption PID in a .ts file using the tsinfo tool.
-
-An example screenshot of a resultant subtitle follows (from a news broadcast):
-![example of translated ccs](img/news.png "Example of auto translated Closed Captions.")
-
-Currently, text position and color are not carried through the translation process.
-
-Because this tool uses the Bing Translate API, the user must get their own "Client ID" and "Client scret" credentials from the windows Azue Marketplace. These need be defined in the arib.secret_key module.
-
-To find the PES ID of the closed captions stream within any TS (if it exists!) see the section below.
-
-The translation results are not good. In fact, they are often lewd and comical. Still, this is an interesting experiment. To illustrate the defficiencies of the approach, I present the following screenshot, translating the shot from the previous section. You'll notice that despite the simplicity of the original source, the translation is off. It does give a "general sense" of meaning, however.
-![example of auto translation](img/haikyu_eng.png "Example poor auto translation.")
-
-#Further example code
-* `examples/extract_ccs_from_ts.py` extracts both timestamp and closed caption info from .ts files if the closed caption es PID is known (see below)
-* `examples/extract_ccs_from_es.py` extracts closed captions only from .es (elementary stream) files.
-
-A simple example that should be easy to run is provided as examples/extract_ccs_from_es.py. This example requies a PES input and simply draws out CC text found in the file, dumping it to the command line. Run it as:
-```
-./extract_ccs_from_es.py <pes filename>
-```
-A concrete example of a run follows:
-```
-joneil@joneilDesktop ~/code/arib $ ./examples/extract_ccs_from_es.py examples/toriko_subs.es
+joneil@joneilDesktop ~/code/arib $ arib-es-extract tests/toriko_subs.es
 
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
@@ -114,9 +83,9 @@ joneil@joneilDesktop ~/code/arib $ ./examples/extract_ccs_from_es.py examples/to
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 71,64>頰〜
-...
 ```
-In the above each line is not timestamped, but you can see the cursor movement info (screen positions in character row/col) text size info, and the on screen CC text data.
+
+In the above output, each line is not timestamped, but you can see the cursor movement info (screen positions in character row/col) text size info, and the on screen CC text data.
 
 Interestingly, you can see how the furigana for certain words (perl or kanji pronunciation guide) is present for many romaji (latin alphabet) and kanji characters. For example the furigana "ゴッド" is positioned as small text above the normal sized text word "ＧＯＤ".
 
@@ -130,7 +99,7 @@ An example of inline control sequences carrying text position and other info fol
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">えいえゅゃ<Normal Text><CS:"170;449 a">栄純が<Medium Text><Small Text><CS:"530;449 a">い<Normal Text><CS:"190;509 a">きのぃとはゃなに言っくら訢
 ```
 Refer to the ARIB documentation for descriptions of what these control sequences mean, but some can be summarized here:
-* 'S' character indicates time in secons caption is shown (here 7)
+* 'S' character indicates the text layout style according to the ARIB std (here 7 indicates horizontal text with geometry based on a screen of 960x540)
 * '_' underscore indicates UL corner in pixels of CC area (here at x=170,y=30).
 * 'V' indicates the width, height in pixels of the CC area (here 620x480). Note that this is inset inside a stanard screen dimension of 960x540.
 * 'W' indicates the height and width of a normal sized character in pixels. Japanese characters tend to be square.
@@ -182,3 +151,40 @@ Then, if you wish, you can use ts2es to draw out the ES.
 ```
 ts2es -pid 276 <input>.ts <output>.es
 ```
+
+##arib-autosub
+This repo also contains some code for an experimental application "arib-autosub" which draws Closed Caption information out of an MPEG TS file and then translates it via Bing Translate.
+
+As I'm no longer installing this tool when this package is installed the description below is only for reference:
+
+Command line help is available as below:
+```
+(arib)joneil@joneilDesktop ~/code/arib $ arib-autosub -h
+usage: arib-autosub [-h] infile pid
+
+Auto translate jp CCs in MPEG TS file.
+
+positional arguments:
+  infile      Input filename (MPEG2 Transport Stream File)
+  pid         Pid of closed caption ES to extract from stream.
+
+optional arguments:
+  -h, --help  show this help message and exit
+
+```
+
+The application requires 2 command line arguments, the name of the input .ts file and the PID of the CC elementary stream. Please see below regarding how to identify a Closed Caption PID in a .ts file using the tsinfo tool.
+
+An example screenshot of a resultant subtitle follows (from a news broadcast):
+![example of translated ccs](img/news.png "Example of auto translated Closed Captions.")
+
+Currently, text position and color are not carried through the translation process.
+
+Because this tool uses the Bing Translate API, the user must get their own "Client ID" and "Client scret" credentials from the windows Azue Marketplace. These need be defined in the arib.secret_key module.
+
+To find the PES ID of the closed captions stream within any TS (if it exists!) see the section below.
+
+The translation results are not good. In fact, they are often lewd and comical. Still, this is an interesting experiment. To illustrate the defficiencies of the approach, I present the following screenshot, translating the shot from the previous section. You'll notice that despite the simplicity of the original source, the translation is off. It does give a "general sense" of meaning, however.
+![example of auto translation](img/haikyu_eng.png "Example poor auto translation.")
+
+
