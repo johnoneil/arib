@@ -110,7 +110,7 @@ def OnESPacket(current_pid, packet, header_size):
       for data_unit in next_data_unit(caption):
         #we're only interested in those Data Units which are "statement body" to get CC data.
         if not isinstance(data_unit.payload(), StatementBody):
-          return
+          continue
 
         # only write the file if we've actually found some Closed Captions
         if not ass_file:

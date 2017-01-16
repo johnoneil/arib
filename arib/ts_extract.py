@@ -129,7 +129,7 @@ def OnESPacket(current_pid, packet, header_size):
       for data_unit in next_data_unit(caption):
         #we're only interested in those Data Units which are "statement body" to get CC data.
         if not isinstance(data_unit.payload(), StatementBody):
-          return
+          continue
         #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
         if pid < 0 and VERBOSE and not SILENT:
           pid = current_pid
