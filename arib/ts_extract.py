@@ -10,6 +10,8 @@ DATE: Thursday, October 20th 2016
 import os
 import sys
 import argparse
+import traceback
+from read import EOFError
 
 from mpeg.ts import TS
 from mpeg.ts import ES
@@ -142,9 +144,13 @@ def OnESPacket(current_pid, packet, header_size):
           #my command line.
           #DECODE EARLY, ENCODE LATE
           print(cc.encode('utf-8'))
-  except:
-    if pid >= 0:
-      print "failure to parse packet. Going to next"
+  except EOFError:
+    pass
+  except Exception, err:
+    if VERBOSE and not SILENT and pid >= 0:
+      print("Exception thrown while handling DataGroup in ES. This may be due to many factors"
+         + "such as file corruption or the .ts file using as yet unsupported features.")
+      traceback.print_exc(file=sys.stdout)
 
 
 def main():

@@ -97,6 +97,8 @@ def main():
             #my command line.
             #DECODE EARLY, ENCODE LATE
             print(cc.encode('utf-8'))
+    except EOFError:
+      pass
     except Exception, err:
       print("Exception thrown while handling .es datagroup post parsing.")
       traceback.print_exc(file=sys.stdout)

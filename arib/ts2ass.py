@@ -12,6 +12,10 @@ UPDATED: Saturday, Jan 12th 2017
 import os
 import sys
 import argparse
+import traceback
+
+from read import EOFError
+
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
 from arib.data_group import DataGroup
@@ -120,10 +124,14 @@ def OnESPacket(current_pid, packet, header_size):
           pid = current_pid
           print("Found Closed Caption data in PID: " + str(pid))
           print("Will now only process this PID to improve performance.")
+  except EOFError:
+    pass
+  except Exception, err:
 
-  except:
-    if pid >= 0 and not SILENT:
-      print "failure to parse packet. Going to next"
+    if not SILENT and pid >= 0:
+      print("Exception thrown while handling DataGroup in ES. This may be due to many factors"
+        + "such as file corruption or the .ts file using as yet unsupported features.")
+      traceback.print_exc(file=sys.stdout)
 
 
 def main():

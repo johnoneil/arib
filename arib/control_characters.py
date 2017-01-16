@@ -8,18 +8,7 @@ DATE: Sunday, March 9th 2014
 
 ''' 
 
-import os
-import os.path
-from os.path import expanduser
-import re
-import uuid
-import sys
-import time
-import argparse
-import string
-import struct
-from copy import copy
-from code_set import code_set_from_final_byte
+import read
 from code_set import code_set_handler_from_final_byte
 from code_set import in_code_set_table
 from arib_exceptions import DecodingError
@@ -309,7 +298,7 @@ class PAPF(object):
   def __init__(self, f):
     # read the single byte paramter for now but ignore its effect on text placement
     # TODO: implement proper screen text placement
-    f.read(1)
+    read.ucb(f)
 
   def __len__(self):
     '''Defiing len() operator to help

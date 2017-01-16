@@ -35,6 +35,8 @@ def ucb(f):
   '''Read unsigned char byte from binary file
   '''
   if isinstance(f, list):
+    if len(f) < 1:
+      raise EOFError()
     b, f = split_buffer(1, f)
     return struct.unpack('B', ''.join(b))[0]
   else:
