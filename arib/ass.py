@@ -96,7 +96,11 @@ class ClosedCaptionArea(object):
     c = col
     if c >= num_cols:
       c = float(col-1)/2.0
-    return Pos(self.UL.x + c * (self._CharacterDim.width + self._char_spacing), self.UL.y + r * (self._CharacterDim.height + self._line_spacing))
+    # note that character positions here are provided via row/col values, but
+    # the actual position indicated by this is the UPPER LEFT HAND CORNER of that
+    # position. To keep general formatting below in sync with this we're adjusting
+    # the geometry here to return the UL corner by adding one horizontal row.
+    return Pos(self.UL.x + c * (self._CharacterDim.width + self._char_spacing), self.UL.y + (r+1) * (self._CharacterDim.height + self._line_spacing))
 
 class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
@@ -244,9 +248,11 @@ def control_character(formatter, csi, timestamp):
   cmd = unicode(csi)
   a_match = re.search(a_regex, cmd)
   if a_match:
+    # APS Control Sequences (absolute positioning of text as <CS: 170;389 a> above
+    # indicate the LOWER LEFT HAND CORNER of text position.
     x = a_match.group('x')
     y = a_match.group('y')
-    formatter._current_lines.append( Dialog( u'{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an7}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y)))
+    formatter._current_lines.append( Dialog( u'{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an1}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y)))
     return
 
 pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'

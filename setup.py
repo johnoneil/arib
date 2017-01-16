@@ -10,6 +10,7 @@ from setuptools import setup
 #version 0.56: Better file writing and messages.
 #version 0.57: Fixes for issues 13, 14
 #version 0.58: fix for vertical position in some cases
+#version 0.6.1: Performance improvements
 
 def readme():
   with open('README.md') as f:
@@ -20,7 +21,7 @@ def requirements():
     return f.read().splitlines()
 
 setup(name='arib',
-  version='0.57',
+  version='0.6.1',
   description='Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stream Closed Caption Decoding Tools',
   long_description = readme(),
 	classifiers=[
@@ -41,6 +42,8 @@ setup(name='arib',
   entry_points = {
     'console_scripts': [
       'arib-ts2ass=arib.ts2ass:main',
+      'arib-ts-extract=arib.ts_extract:main',
+      'arib-es-extract=arib.es_extract:main',
   ],
   },
   zip_safe=True)

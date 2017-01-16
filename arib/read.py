@@ -9,6 +9,13 @@ DATE: Thursday, March 13th 2014
 '''
 import struct
 
+DEBUG = False
+
+class EOFError(Exception):
+  """ Custom exception raised when we read to EOF
+  """
+  pass
+
 def split_buffer(length, buf):
   '''split provided array at index x
   '''
@@ -28,43 +35,65 @@ def ucb(f):
   '''Read unsigned char byte from binary file
   '''
   if isinstance(f, list):
-    n, f = split_buffer(1, f)
-    return int(n[0])
+    if len(f) < 1:
+      raise EOFError()
+    b, f = split_buffer(1, f)
+    return struct.unpack('B', ''.join(b))[0]
   else:
-    return struct.unpack('B', f.read(1))[0]
+    _f = f.read(1)
+    if len(_f) < 1:
+      raise EOFError()
+    return struct.unpack('B', _f)[0]
 
 def usb(f):
   '''Read unsigned short from binary file
   '''
   if isinstance(f, list):
     n, f = split_buffer(2, f)
-    return (n[0]<<8)|n[1]
+    return struct.unpack('>H', ''.join(n))[0]
   else:
-    return struct.unpack('>H', f.read(2))[0]
+    _f = f.read(2)
+    if DEBUG:
+      print("usb: " + hex(ord(_f[0])) + ":" + hex(ord(_f[1])))
+    if len(_f) < 2:
+      raise EOFError()
+    return struct.unpack('>H', _f)[0]
 
 def ui3b(f):
   '''Read 3 byte unsigned short from binary file
   '''
   if isinstance(f, list):
     n, f = split_buffer(3, f)
-    return (n[0]<<16)|(n[1]<<8)|n[2]
+    return struct.unpack('>I', '\x00'+ ''.join(n))[0]
   else:
-    return struct.unpack('>I', '\x00'+ (f.read(3)))[0]
+    _f = f.read(3)
+    if len(_f) < 3:
+      raise EOFError()
+ 
+    return struct.unpack('>I', '\x00'+ (_f))[0]
 
 def uib(f):
   '''
   '''
   if isinstance(f, list):
     n, f = split_buffer(4, f)
-    return (n[0]<<24)|(n[1]<<16)|(n[2]<<8)|n[0]
+    return struct.unpack('>L', ''.join(n))[0]
   else:
-    return struct.unpack('>L', f.read(4))[0]
+    _f = f.read(4)
+    if len(_f) < 4:
+      raise EOFError()
+ 
+    return struct.unpack('>L', _f)[0]
 
 def buffer(f, size):
   '''Read N bytes from either a file or list
   '''
   if isinstance(f, list):
     n, f = split_buffer(size, f)
-    return n
+    return ''.join(n)
   else:
-    return f.read(size)
+    _f = f.read(size)
+    if len(_f) < size:
+      raise EOFError()
+ 
+    return _f

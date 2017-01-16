@@ -1,0 +1,899 @@
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>♫〜
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Small Text>くろ<Medium Text>
+<Screen Posiiton to 7,3>（<Normal Text>黒ひげ<Medium Text>）<Normal Text>ゼハハハハハッ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Small Text>やみ<Medium Text>
+<Screen Posiiton to 6,19><Small Text>むぎ<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>闇に<Medium Text> <Normal Text>のまれろ！<Medium Text> <Normal Text>麦わら！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,6><Small Text><yellow>おれ<Normal Text>
+<Screen Posiiton to 7,2><Medium Text>（<Normal Text>ルフィ<Medium Text>）<Normal Text>俺は<Medium Text> <Normal Text>負けねえ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><yellow>ワンピースを手に入れて➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Small Text><yellow>かいぞく<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>海賊王に<Medium Text> <Normal Text>俺は<Medium Text> <Normal Text>なる！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,17><Small Text>ねら<Medium Text>
+<Screen Posiiton to 6,3><Normal Text>＜ワンピースを狙う<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>全ての海賊たちが目指す➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,4><Normal Text>グランドライン後半の海<Medium Text>
+<Screen Posiiton to 6,13><Small Text>しんせかい<Normal Text>
+<Screen Posiiton to 7,2>人呼んで<Medium Text> <Normal Text>新世界＞
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>＜しかし
+<Screen Posiiton to 7,1>かつて<Medium Text> <Normal Text>その海を制したのは➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>海賊王<Medium Text> <Normal Text>ゴールド<Medium Text>・<Normal Text>ロジャー<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>ただ<Medium Text> <Normal Text>一人＞
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,13>いくた
+<Screen Posiiton to 12,2><Normal Text>＜新世界は<Medium Text> <Normal Text>幾多の海賊たちの
+<Screen Posiiton to 6,6><Small Text>はば<Normal Text>
+<Screen Posiiton to 7,1>夢と野望を阻んできた＞
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>＜その海に今<Medium Text> <Normal Text>ゴムゴムの実を食べゴム人間となった少年➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,12>ディー
+<Screen Posiiton to 12,4><Normal Text>モンキー<Medium Text>・<Normal Text>Ｄ<Medium Text>・<Normal Text>ルフィと
+<Screen Posiiton to 6,9><Small Text>いど<Normal Text>
+<Screen Posiiton to 7,2>その仲間たちが挑む！＞
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><yellow>海賊王に<Medium Text> <Normal Text>俺は<Medium Text> <Normal Text>なる！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,4><Normal Text>＜新世界を支配する
+<Screen Posiiton to 6,2><Small Text>よんこう<Normal Text>
+<Screen Posiiton to 6,8><Small Text>くず<Normal Text>
+<Screen Posiiton to 7,2>四皇の一角を崩すため➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>トラファルガー<Medium Text>・<Normal Text>ローと
+<Screen Posiiton to 7,0>海賊同盟を組んだ<Medium Text> <Normal Text>ルフィたちは➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>シーザーを<Medium Text>
+<Screen Posiiton to 6,19><Small Text>わた<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>ドフラミンゴに引き渡すため➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,21><Small Text>こ<Normal Text>
+<Screen Posiiton to 7,1>ドレスローザに乗り込んだ＞
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>＜バトルショーの優勝賞品が
+<Screen Posiiton to 7,0>メラメラの実と知った<Medium Text> <Normal Text>ルフィは➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>参加を決意する＞
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>＜そして<Medium Text> <Normal Text>ついに<Medium Text> <Normal Text>ルフィのいる<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>Ｃブロックの戦いが始まった＞
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text><yellow>よっ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Small Text><yellow>いっしょ<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>一緒に<Medium Text> <Normal Text>いこうぜ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,5><Small Text>とうぎゅう<Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>闘牛<Medium Text>）<Normal Text>モー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>＜一方<Medium Text> <Normal Text>サウザンド<Medium Text>・<Normal Text>サニー号で<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>待機していた➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>ナミたちの所には…＞
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5>（ブルック・チョッパー）<Normal Text>ああ…！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><Medium Text><cyan>（<Normal Text>ナミ<Medium Text>）<Normal Text>な…<Medium Text> <Normal Text>何なの<Medium Text> <Normal Text>これー<Medium Text>！？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><Medium Text>（ブルック）<Normal Text>こ…<Medium Text> <Normal Text>これは<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><Medium Text>（チョッパー）<Normal Text>何が<Medium Text> <Normal Text>どうなってるんだ？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,4><Small Text>すけ<Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>モモの助<Medium Text>）<Normal Text>気持ち悪いでござる<Medium Text>。
+<Screen Posiiton to 7,1>（ブルック）<Normal Text>こんなの見せたら➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,6><Normal Text>フランキーさんに
+<Screen Posiiton to 6,3><Small Text>おこ<Normal Text>
+<Screen Posiiton to 7,3>怒られちゃいますよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9>（ジョーラ）<Normal Text>ふん<Medium Text>。
+<Screen Posiiton to 7,9>（<Normal Text>４人<Medium Text>）<Normal Text>えっ<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7>（ジョーラ）<Normal Text>ふん<Medium Text>。 <Normal Text>ふん<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><Medium Text>（ブルック・<Normal Text>ナミ<Medium Text>・<Normal Text>モモの助<Medium Text>）<Normal Text>ああ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><Medium Text>（ジョーラ）<Normal Text>お〜…<Medium Text> <Normal Text>ふん！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>４人<Medium Text>）<Normal Text>えっ<Medium Text>！？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><Medium Text>（<Normal Text>４人<Medium Text>）<Normal Text>えーっ<Medium Text>！？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>ド…<Medium Text> <Normal Text>ドアまで<Medium Text> <Normal Text>変な形に<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5>能力者か？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><cyan>（<Normal Text>ナミ<Medium Text>）<Normal Text>いったい<Medium Text> <Normal Text>何の実よ<Medium Text>！？
+<Screen Posiiton to 7,3><white>（ブルック）<Normal Text>アクシュミ？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5>（ジョーラ）<Normal Text>やだよ<Medium Text> <Normal Text>やだよ<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,0><Medium Text>（ジョーラ）<Normal Text>芸術的センスのないやつは<Medium Text>
+<Screen Posiiton to 6,11><Small Text>いや<Normal Text>
+<Screen Posiiton to 7,0>これだから<Medium Text> <Normal Text>嫌ざます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><Medium Text><cyan>（<Normal Text>ナミ<Medium Text>）<Normal Text>な…<Medium Text> <Normal Text>何なの<Medium Text> <Normal Text>あんた！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,5><Small Text>だま<Normal Text>
+<Screen Posiiton to 7,4>お黙りざます！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,1><Small Text>だれ<Medium Text>
+<Screen Posiiton to 5,7><Small Text>にんぎょひめ<Normal Text>
+<Screen Posiiton to 6,1>誰が<Medium Text> <Normal Text>人魚姫ざます？
+<Screen Posiiton to 7,1><Medium Text>（チョッパー・ブルック）<Normal Text>言ってねえよ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>部下たち<Medium Text>）<Normal Text>とうっ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>やいやいやい！<Medium Text> <Normal Text>こちらのお方を<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>誰だと思ってやがる<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>このお方こそ➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>ドンキホーテファミリーの<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>ジョーラさまだ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 4,2>オーッホッホッホッホ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 4,2>オーッホッホッホッホ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 4,3><Normal Text>ドンキホーテファミリー<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,2><Normal Text>やだよ〜<Medium Text>。<Normal Text>
+<Screen Posiiton to 6,4><Small Text>たましい<Normal Text>
+<Screen Posiiton to 6,7><Small Text>ゆ<Normal Text>
+<Screen Posiiton to 7,1>あ〜！<Medium Text> <Normal Text>魂が揺れてるざます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>オーッホッホッホッホ！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,4><Normal Text>込み上げる<Medium Text> <Normal Text>イメージ<Medium Text>。
+<Screen Posiiton to 6,5><Small Text>ふ<Normal Text>
+<Screen Posiiton to 7,2>吹き出す<Medium Text> <Normal Text>あたくしの心<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9><Normal Text><cyan>えっ<Medium Text>！？
+<Screen Posiiton to 7,9><white>（ジョーラ）<Normal Text>お〜…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,5><Small Text>ばくはつ<Medium Text>
+<Screen Posiiton to 6,5><Normal Text>爆発する<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>解放と<Medium Text> <Normal Text>美のイメージ！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><cyan>嫌ー！
+<Screen Posiiton to 7,1><Medium Text><white>（ブルック・チョッパー・<Normal Text>モモの助<Medium Text>）<Normal Text>わー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><cyan>ああ…<Medium Text> <Normal Text>ううっ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1>（チョッパー）<Normal Text>うわ〜！<Medium Text> <Normal Text>あっ<Medium Text> <Normal Text>うう…！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3>（<Normal Text>モモの助<Medium Text>）<Normal Text>うわ…<Medium Text> <Normal Text>うっ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><Medium Text>（ブルック）<Normal Text>ちょっ…<Medium Text> <Normal Text>あっ<Medium Text> <Normal Text>あ〜！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>４人<Medium Text>）<Normal Text>ん？<Medium Text> <Normal Text>うわー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><Medium Text>（<Normal Text>４人<Medium Text>）<Normal Text>ギャー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（チョッパー）<Normal Text>こ…<Medium Text> <Normal Text>これは<Medium Text>！？
+<Screen Posiiton to 7,5><Normal Text><cyan>ああ…<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3>（ブルック）<Normal Text>なっ…<Medium Text> <Normal Text>何て<Medium Text> <Normal Text>顔に…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>つるっぺろりんと
+<Screen Posiiton to 7,2>何にもなくなっちゃって<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>あんまりですよ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>４人<Medium Text>）<Normal Text>嫌〜！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><cyan>ちょっと<Medium Text> <Normal Text>あんた！<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>何してくれてんのよ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>オッホッホ<Medium Text>。 <Normal Text>芸術よ<Medium Text> <Normal Text>芸術<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,1><Small Text>ぼんじん<Normal Text>
+<Screen Posiiton to 6,1>凡人には<Medium Text> <Normal Text>芸術が
+<Screen Posiiton to 7,1>理解できないでしょうけどね<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>オーッホッホッホッホ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,8><Small Text><cyan>もど<Medium Text>
+<Screen Posiiton to 6,3><Normal Text>何が芸術よ！<Medium Text> <Normal Text>戻しなさい！<Medium Text>
+<Screen Posiiton to 7,3><white>（チョッパー）<Normal Text>そうだぞ！<Medium Text> <Normal Text>戻せ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>ノン<Medium Text> <Normal Text>ノン<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>戻せないざます<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text>ん？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>そうざますね…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1>戻してやってもいいざますよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>その代わり<Medium Text> <Normal Text>おとなしく
+<Screen Posiiton to 7,2>そこにいる<Medium Text> <Normal Text>モモの助を➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>こっちに渡すざます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><cyan>安心して<Medium Text> <Normal Text>モモちゃん<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>絶対<Medium Text> <Normal Text>渡さないから<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3>（ジョーラ）<Normal Text>聞こえたざますよ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>あ〜<Medium Text> <Normal Text>魂が揺れるざます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>もっと<Medium Text> <Normal Text>もっと
+<Screen Posiiton to 7,2>美しくしてやるざます！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>また<Medium Text> <Normal Text>来るぞ！<Medium Text>
+<Screen Posiiton to 7,7>（ブルック）<Normal Text>これ以上➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>ぐにょぐにょになったら<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>どんな姿に<Medium Text> <Normal Text>なっちゃうんです<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>ねぇ<Medium Text>！？
+<Screen Posiiton to 7,5>（ジョーラ）<Normal Text>オッホッホー！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text>ん<Medium Text>！？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><Medium Text>（ジョーラ）<Normal Text>いない！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,21><Small Text>ぬ<Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>部下<Medium Text>）<Normal Text>こんなとこに<Medium Text> <Normal Text>抜け穴が<Medium Text>！？
+<Screen Posiiton to 7,1>（<Normal Text>部下<Medium Text>）<Normal Text>追いますか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>やだよ<Medium Text> <Normal Text>やだよ<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>てこずらせるねぇ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>あっ<Medium Text> <Normal Text>やつら
+<Screen Posiiton to 7,2>あんな所に<Medium Text> <Normal Text>いるざます！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>部下<Medium Text>）<Normal Text>ぬぅ<Medium Text>！？<Normal Text>
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>部下<Medium Text>）<Normal Text>いつの間に<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（ジョーラ）<Normal Text>こら！<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>何のつもりざます<Medium Text>！？<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>早く戻るざます<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text>もっと<Medium Text> <Normal Text>芸術的にするざますよ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,4><Normal Text><cyan>ふざけんじゃないわよ！<Medium Text>
+<Screen Posiiton to 6,21><Small Text>こうげき<Normal Text>
+<Screen Posiiton to 7,2>そんな<Medium Text> <Normal Text>へんてこな攻撃➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><cyan>二度と当たるもんですか！<Medium Text>
+<Screen Posiiton to 7,3><Normal Text><white>そうだぞ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>当てられるもんなら<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>当ててみてください！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,4><Medium Text>（ジョーラ）<Normal Text>あー！
+<Screen Posiiton to 7,4>やだよ<Medium Text> <Normal Text>やだよ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（ブルック）<Normal Text>怒ってますね<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3>作戦どおり<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><cyan>うん<Medium Text>。 <Normal Text>まったく…<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text>あの変な能力で<Medium Text> <Normal Text>暴れられたら➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><cyan>サニー号が<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>めちゃくちゃになっちゃう<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>フランキーさんに<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>怒られることは<Medium Text> <Normal Text>さておき➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>元に戻せるんでしょうか？➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>あの<Medium Text> <Normal Text>元男部屋だった<Medium Text> <Normal Text>部屋<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><cyan>分からないけど…<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>とにかく<Medium Text> <Normal Text>サニー号が➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><cyan>これ以上<Medium Text> <Normal Text>ひどいことに
+<Screen Posiiton to 7,1>ならないようにしなくっちゃ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>何とか<Medium Text> <Normal Text>攻撃を
+<Screen Posiiton to 7,0>こっちへ向けてくれるといいけど<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5>（チョッパー）<Normal Text>船の外へ…<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>あれ<Medium Text>！？ <Normal Text>反対側<Medium Text> <Normal Text>行っちゃった！<Medium Text>
+<Screen Posiiton to 7,1>（ブルック）<Normal Text>どうしたんでしょうね？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（ジョーラ）<Normal Text>まったく<Medium Text> <Normal Text>もう…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>やだよ<Medium Text> <Normal Text>やだよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>こらー！<Medium Text> <Normal Text>お前たち！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>⚟<Medium Text>（<Normal Text>部下たち<Medium Text>）<Normal Text>へーい！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>４人<Medium Text>）<Normal Text>えっ<Medium Text>！？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>あっ…<Medium Text> <Normal Text>あれは！
+<Screen Posiiton to 6,11><Small Text>せんすいかん<Medium Text>
+<Screen Posiiton to 7,1>（チョッパー）<Normal Text>ドフラミンゴの潜水艦<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><cyan>そうだわ<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text>やつら<Medium Text> <Normal Text>あれに乗ってきたのよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,13><Small Text>きり<Medium Text>
+<Screen Posiiton to 5,17><Small Text>まぎ<Medium Text>
+<Screen Posiiton to 6,3>（<Normal Text>モモの助<Medium Text>）<Normal Text>霧に紛れてきた<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>というわけでござるか<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><cyan>まずいわね…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1>仲間が<Medium Text> <Normal Text>あんなにいたなんて<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（ジョーラ）<Normal Text>お前たち<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>何やってんざます！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,5><Small Text>に<Normal Text>
+<Screen Posiiton to 7,1>やつら<Medium Text> <Normal Text>逃げちまうざますよ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,3><Normal Text>さっさと<Medium Text> <Normal Text>あいつらから<Medium Text>
+<Screen Posiiton to 6,13><Small Text>うば<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>モモの助を奪っておいで！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><Medium Text>（<Normal Text>部下たち<Medium Text>）<Normal Text>へい！<Medium Text> <Normal Text>ジョーラさま！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>オーッホッホッホッホ！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>あ〜<Medium Text> <Normal Text>魂が揺れてるざます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>込み上げる<Medium Text> <Normal Text>イメージ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>吹き出す<Medium Text> <Normal Text>あたくしの心<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（チョッパー）<Normal Text>まずいぞ！
+<Screen Posiiton to 7,2>また<Medium Text> <Normal Text>あれを<Medium Text> <Normal Text>やる気だ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>あ〜<Medium Text> <Normal Text>もしもし<Medium Text>！？ <Normal Text>こっちですよ！
+<Screen Posiiton to 7,0><cyan>狙うのは<Medium Text> <Normal Text>こっち！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>船上で<Medium Text> <Normal Text>それをやるな！<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>俺たちは<Medium Text> <Normal Text>こっちだ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>オーッホッホッホッホ！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>あ〜<Medium Text> <Normal Text>爆発する<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>解放と<Medium Text> <Normal Text>美のイメージ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><Medium Text>（<Normal Text>ナミ<Medium Text>・ブルック・チョッパー）<Normal Text>やめて〜！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>世界は<Medium Text> <Normal Text>自由でなきゃざます！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>んざましょー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,9><Normal Text><cyan>うう…！<Medium Text>
+<Screen Posiiton to 7,9><white>（ブルック）<Normal Text>あ〜！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,5><cyan>あっ…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,5><white>くっそー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>やりやがってくれましたよ！
+<Screen Posiiton to 7,1>大変なことに！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>オーッホッホッホッホ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>ん〜<Medium Text> <Normal Text>これこそが<Medium Text> <Normal Text>美！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>どう？<Medium Text> <Normal Text>美しいざましょ？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,4><Normal Text><cyan>くっ…<Medium Text>。
+<Screen Posiiton to 6,5><Small Text><white>だめ<Normal Text>
+<Screen Posiiton to 7,2>駄目だ<Medium Text>。 <Normal Text>もう船じゃねえ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6>ああ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><Medium Text>（ジョーラ）<Normal Text>やだよ<Medium Text> <Normal Text>やだよ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,9><Small Text>ゆうどう<Normal Text>
+<Screen Posiiton to 6,0>ふん<Medium Text>。 <Normal Text>あんたたちの誘導なんかに
+<Screen Posiiton to 7,0>乗るざますか<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,25>ゆうかい
+<Screen Posiiton to 12,0><Normal Text>若さまの指令は<Medium Text> <Normal Text>モモの助の誘拐<Medium Text>。
+<Screen Posiiton to 6,11><Small Text>だっしゅ<Normal Text>
+<Screen Posiiton to 7,0>そして<Medium Text> <Normal Text>船の奪取<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>ホッホッホッホ！<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>そう<Medium Text>。 <Normal Text>これで<Medium Text> <Normal Text>麦わらの一味は➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,17><Small Text>だっしゅつ<Normal Text>
+<Screen Posiiton to 6,0>ドレスローザから<Medium Text> <Normal Text>脱出するすべを失ったのざます<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>オーッホッホッホッホ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>作戦<Medium Text> <Normal Text>失敗か…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6>ああ…<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>観念して
+<Screen Posiiton to 6,7><Small Text>つか<Normal Text>
+<Screen Posiiton to 7,2>おとなしく捕まるざます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>オーッホッホッホッホ！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>オーッホッホッホッホ！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,13><Small Text>かんせい<Normal Text>
+<Screen Posiiton to 7,6><Medium Text>（<Normal Text>歓声<Medium Text>）
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,9><Small Text>ちりょう<Medium Text>
+<Screen Posiiton to 6,3>（リッキー）<Normal Text>治療など必要ない！<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>私は<Medium Text> <Normal Text>このまま帰る！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>リッキー選手
+<Screen Posiiton to 7,3>そういうわけには…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>ゲストは<Medium Text> <Normal Text>特に<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>選手たちの<Medium Text> <Normal Text>傷の手当てまでが
+<Screen Posiiton to 7,1>われわれの仕事だ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><Medium Text>（リッキー）<Normal Text>手当て？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（リッキー）<Normal Text>人前で<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>殺し合いをさせておいて➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>何が<Medium Text> <Normal Text>手当てだ<Medium Text>。
+<Screen Posiiton to 7,5>（<Normal Text>係員<Medium Text>）<Normal Text>えっ…<Medium Text> <Normal Text>あっ！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>頭部の血が止まってない！<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>マスクを取って治療を<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,17><Small Text>さわ<Medium Text>
+<Screen Posiiton to 7,3>（リッキー）<Normal Text>マスクに触るな！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>ぐっ…<Medium Text> <Normal Text>ああ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,13><Small Text>だいじょうぶ<Normal Text>
+<Screen Posiiton to 6,4>だ…<Medium Text> <Normal Text>大丈夫か？
+<Screen Posiiton to 7,4>リッキー選手<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>とにかく<Medium Text> <Normal Text>治療はいらない<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>ハァ<Medium Text> <Normal Text>ハァ…<Medium Text> <Normal Text>出口を開けろ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>いや…<Medium Text> <Normal Text>そういうわけには<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,6><Normal Text>みんなで<Medium Text> <Normal Text>おさえろ<Medium Text>。<Normal Text>
+<Screen Posiiton to 6,3><Small Text>かれ<Normal Text>
+<Screen Posiiton to 7,3>彼は重傷だ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><Medium Text>（リッキー）<Normal Text>ハァ<Medium Text> <Normal Text>ハァ…<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（リッキー）<Normal Text>あっ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7>（レベッカ）<Normal Text>ひどい傷<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>手当ては<Medium Text> <Normal Text>受けた方がいいわ<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（レベッカ）<Normal Text>さあ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（<Normal Text>係員<Medium Text>）<Normal Text>あっ…<Medium Text>。
+<Screen Posiiton to 7,3>（リッキー）<Normal Text>どけ<Medium Text>。 <Normal Text>自分で歩ける<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,7><Small Text>おく<Medium Text>
+<Screen Posiiton to 6,7><Normal Text>あっ…<Medium Text> <Normal Text>奥へ行って<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>階段で<Medium Text> <Normal Text>地下へ<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1>（リッキー）<Normal Text>《レベッカ…<Medium Text> <Normal Text>すまない》
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（ベラミー）<Normal Text>麦わらは<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>大会に<Medium Text> <Normal Text>出場中だ<Medium Text> <Normal Text>ディアマンテ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（ディアマンテ）
+<Screen Posiiton to 7,3><Normal Text>試合が終わってからでいい<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><Medium Text>（ベラミー）<Normal Text>あ？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（ベラミー）<Normal Text>あっ！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>ジョーカーが
+<Screen Posiiton to 7,2>麦わらを<Medium Text> <Normal Text>俺に殺せって？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,10><Small Text>あま<Normal Text>
+<Screen Posiiton to 7,2><Medium Text>（ディアマンテ）<Normal Text>ドフィも甘いな<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,15><Small Text>のが<Medium Text>
+<Screen Posiiton to 6,5><Normal Text>大会優勝を逃した男に<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>また<Medium Text> <Normal Text>チャンスを<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>よかったな<Medium Text> <Normal Text>ベラミー<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>暗殺なら<Medium Text> <Normal Text>やすい仕事だ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>大会が終わるまでに
+<Screen Posiiton to 7,3>片を付けろ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,9><Small Text><yellow>がんば<Normal Text>
+<Screen Posiiton to 7,0>《おい<Medium Text> <Normal Text>ベラミー！<Medium Text> <Normal Text>頑張れ〜！》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（ディアマンテ）<Normal Text>それで<Medium Text> <Normal Text>晴れて
+<Screen Posiiton to 7,1>お前も<Medium Text> <Normal Text>ファミリーの幹部だ<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（バルトロメオ）<Normal Text>ルーシーを
+<Screen Posiiton to 7,2>付け狙ってるらしいな<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>キャベンディッシュ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（キャベンディッシュ）<Normal Text>バルトロメオか<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1>決勝進出<Medium Text> <Normal Text>おめでとう<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>ルーシーの件は<Medium Text> <Normal Text>君に関係ない<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3>（バルトロメオ）<Normal Text>いや…<Medium Text> <Normal Text>あの男は➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Small Text>めえ<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>お前には<Medium Text> <Normal Text>とらせねえべよ<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（キャベンディッシュ）<Normal Text>フフ…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3>そうか<Medium Text>。 <Normal Text>君もか<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>時の人だからな<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,6><Small Text>ぼく<Medium Text>
+<Screen Posiiton to 5,17><Small Text>えもの<Medium Text>
+<Screen Posiiton to 6,7><Normal Text>だが<Medium Text> <Normal Text>僕の獲物だ<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>誰にも<Medium Text> <Normal Text>渡さない<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>もちろん<Medium Text> <Normal Text>君にもね<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Small Text>じゃま<Normal Text>
+<Screen Posiiton to 7,1>邪魔すると<Medium Text> <Normal Text>痛い目を見るよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,10><Small Text>こえ<Medium Text>
+<Screen Posiiton to 7,1>（バルトロメオ）<Normal Text>ヘハハハ！<Medium Text> <Normal Text>怖え<Medium Text> <Normal Text>怖え<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,21><Small Text>ふけ<Normal Text>
+<Screen Posiiton to 7,2>こっちの方が<Medium Text> <Normal Text>根が深え<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,15><Small Text>だつらくしゃ<Normal Text>
+<Screen Posiiton to 7,0><Medium Text>（ギャッツ）<Normal Text>すでに<Medium Text> <Normal Text>脱落者<Medium Text> <Normal Text>続々！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>白熱する<Medium Text> <Normal Text>Ｃブロック！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,8><Small Text>こうぼう<Normal Text>
+<Screen Posiiton to 7,3>すさまじい攻防だ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,2><Medium Text>（ギャッツ）<Normal Text>しかーし！<Medium Text> <Normal Text>かくいう<Medium Text>
+<Screen Posiiton to 6,1><Small Text>きょうごう<Normal Text>
+<Screen Posiiton to 7,1>強豪たちの合戦においても➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,4><Normal Text>文字通り<Medium Text> <Normal Text>頭一つ飛び出た
+<Screen Posiiton to 6,2><Small Text>きょだい<Normal Text>
+<Screen Posiiton to 7,2>巨大な選手が<Medium Text> <Normal Text>一人！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text>あ？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5>（<Normal Text>選手<Medium Text>）<Normal Text>あっ…<Medium Text> <Normal Text>ああ…<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（ハイルディン）<Normal Text>ふん！
+<Screen Posiiton to 7,2><Medium Text>（<Normal Text>選手<Medium Text>）<Normal Text>ひっ…<Medium Text> <Normal Text>ああっ！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text>うっ<Medium Text> <Normal Text>うわ〜！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>選手たち<Medium Text>）<Normal Text>うわー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text>うわー！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,9><Small Text>きょじんこく<Medium Text>
+<Screen Posiiton to 6,5><Normal Text>かの巨人国<Medium Text> <Normal Text>エルバフの<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>新世代の戦士！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,6><Small Text>かいぞくようへい<Normal Text>
+<Screen Posiiton to 7,3>最強の海賊傭兵！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>その名も…<Medium Text> <Normal Text>ハイルディン！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7>（<Normal Text>観客<Medium Text>）<Normal Text>でっけー！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><Medium Text>（<Normal Text>歓声<Medium Text>）
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5>（<Normal Text>観客<Medium Text>）<Normal Text>ハイルディン！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,11><Small Text>やろう<Normal Text>
+<Screen Posiiton to 6,2>でか過ぎるぞ<Medium Text> <Normal Text>この野郎！
+<Screen Posiiton to 7,2>反則じゃねえのか<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,11><Small Text>きょじん<Normal Text>
+<Screen Posiiton to 6,1><Medium Text>（ハイルディン）<Normal Text>ロギア食った巨人を
+<Screen Posiiton to 7,1>見たことあるか？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><Medium Text>（<Normal Text>選手<Medium Text>）<Normal Text>あーっ！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（ハイルディン）<Normal Text>メラメラの実で
+<Screen Posiiton to 7,2>俺がなるのさ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,7><Small Text>きょじんぞく<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>俺は<Medium Text> <Normal Text>全巨人族の➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5>王になる！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>パンチ<Medium Text> <Normal Text>一発！
+<Screen Posiiton to 7,3>いかずちのごとし！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>誰が<Medium Text> <Normal Text>こいつを止められようか！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>おっ？<Medium Text> <Normal Text>おーっと！<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>そして<Medium Text> <Normal Text>一方…<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,4><Small Text>もさ<Medium Text>
+<Screen Posiiton to 5,17><Small Text>おそ<Medium Text>
+<Screen Posiiton to 6,1><Normal Text>数々の猛者たちを恐れもせずに<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>暴走する闘牛が<Medium Text> <Normal Text>一頭！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,5><Normal Text>当コロシアムにて<Medium Text>
+<Screen Posiiton to 6,5><Small Text>しけいしゅう<Medium Text>
+<Screen Posiiton to 6,15><Small Text>けっとう<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>死刑囚との決闘の後➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,4><Small Text>じごく<Normal Text>
+<Screen Posiiton to 6,10><Small Text>さつじんぎゅう<Medium Text>
+<Screen Posiiton to 7,1>２１<Normal Text>人を地獄へ送った<Medium Text> <Normal Text>殺人牛！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>コロシアムの死に神➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,3><Normal Text>人呼んで<Medium Text> <Normal Text>ブルータルブル<Medium Text>。
+<Screen Posiiton to 6,3><Small Text>ひじょう<Medium Text>
+<Screen Posiiton to 6,11><Small Text>うし<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>非常なる牛！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>そして<Medium Text> <Normal Text>なぜか<Medium Text> <Normal Text>その死に神を
+<Screen Posiiton to 7,1>乗りこなすのが<Medium Text> <Normal Text>この男！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,0><Normal Text>きら星のごとく現れ
+<Screen Posiiton to 6,6><Small Text>またた<Normal Text>
+<Screen Posiiton to 7,0>軽快な強さで<Medium Text> <Normal Text>瞬く間に人気者！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5>ルーシー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><yellow>うおー！<Medium Text> <Normal Text>いけー<Medium Text> <Normal Text>ウーシー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>闘牛<Medium Text>）<Normal Text>モー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（ギャッツ）<Normal Text>私も好きだー！
+<Screen Posiiton to 7,2>この男！<Medium Text> <Normal Text>ギャハハ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,6><Medium Text>（<Normal Text>係員<Medium Text>）<Normal Text>ギャッツさん
+<Screen Posiiton to 6,3><Small Text>じっきょう<Normal Text>
+<Screen Posiiton to 7,3>実況は公平に！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><Medium Text>（<Normal Text>歓声<Medium Text>）
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><yellow>いいぞ！<Medium Text> <Normal Text>やれ<Medium Text> <Normal Text>やれ〜！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>みんな<Medium Text> <Normal Text>やっつけろ！
+<Screen Posiiton to 7,3><Medium Text><white>（<Normal Text>闘牛<Medium Text>）<Normal Text>モー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><Medium Text>（<Normal Text>観客たち<Medium Text>）<Normal Text>ルーシー！<Medium Text> <Normal Text>ウーシー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,8><Small Text>かく<Medium Text>
+<Screen Posiiton to 6,5><Normal Text>くっ…<Medium Text> <Normal Text>名を隠しても<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>人気を取るか<Medium Text> <Normal Text>麦わら！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>フフフ…<Medium Text> <Normal Text>面白い人<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>なーっはっはっは！
+<Screen Posiiton to 7,3>いけー<Medium Text> <Normal Text>ウーシー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>闘牛<Medium Text>）<Normal Text>モー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>おっ？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>あれ？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>うん？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（ハイルディン）<Normal Text>ん？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,4>あっ！
+<Screen Posiiton to 7,4><Medium Text>（<Normal Text>観客<Medium Text>）<Normal Text>ヤベえ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>ハイルディンに<Medium Text> <Normal Text>ケンカ売った！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5>俺に挑むか<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><yellow>危ねえ！<Medium Text> <Normal Text>逃げろ<Medium Text> <Normal Text>ウーシー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>ウーシー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,4><Medium Text>（<Normal Text>観客<Medium Text>）<Normal Text>キャー！
+<Screen Posiiton to 7,4><Medium Text>（<Normal Text>観客<Medium Text>）<Normal Text>ブル！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6>ああ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>観客<Medium Text>）<Normal Text>ブル！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7>（<Normal Text>観客<Medium Text>）<Normal Text>ルーシー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><Medium Text>（ギャッツ）<Normal Text>何と…<Medium Text> <Normal Text>あっけない！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text>ふん<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><Medium Text>（ギャッツ）<Normal Text>力の差は<Medium Text> <Normal Text>歴然！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>エルバフのルーキーの前に…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1><Medium Text>（ハイルディン）<Normal Text>うおー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,3><Normal Text>コロシアムの死に神と<Medium Text>
+<Screen Posiiton to 6,3><Small Text>なぞ<Medium Text>
+<Screen Posiiton to 6,7><Small Text>けんとうし<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>謎の剣闘士<Medium Text> <Normal Text>ルーシーは…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>あっ<Medium Text>。 <Normal Text>ギャ…<Medium Text> <Normal Text>ギャッツさん<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><Medium Text>（ギャッツ）<Normal Text>力なく…<Medium Text> <Normal Text>ん？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6>あっ！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>ぬえっ<Medium Text>！？ <Normal Text>だっ<Medium Text> <Normal Text>かっ…<Medium Text> <Normal Text>えっ<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><Medium Text>（ハイルディン）<Normal Text>あっ<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,9><Small Text>たお<Medium Text>
+<Screen Posiiton to 7,3><Normal Text><Medium Text>（ギャッツ）<Normal Text>巨人が<Medium Text> <Normal Text>倒れたー！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,19><Small Text>そうだつせん<Normal Text>
+<Screen Posiiton to 6,2>＜メラメラの実<Medium Text> <Normal Text>争奪戦が
+<Screen Posiiton to 7,2>さらに<Medium Text> <Normal Text>白熱していく中➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,5><Normal Text>ルーシーの前に<Medium Text>
+<Screen Posiiton to 6,11><Small Text>かた<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>異形の肩を持つ選手➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Small Text>はかいほう<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>破壊砲<Medium Text> <Normal Text>イデオが立ちふさがる＞
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,3><Normal Text>＜巨人を吹き飛ばす
+<Screen Posiiton to 6,1><Small Text>きょうれつ<Normal Text>
+<Screen Posiiton to 6,9><Small Text>く<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>強烈なパンチを繰り出す➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,3><Normal Text>最強の難敵と<Medium Text> <Normal Text>ルーシーとの
+<Screen Posiiton to 6,5><Small Text>いっきう<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>激しい一騎打ちが始まる＞
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text><yellow>次回<Medium Text> 『<Normal Text>ワンピース<Medium Text>』
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><yellow>海賊王に<Medium Text> <Normal Text>俺は<Medium Text> <Normal Text>なる！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X"><Medium Text>
+<Screen Posiiton to 3,1><Small Text><green>ひがしの<Normal Text>
+<Screen Posiiton to 4,0><Medium Text>（<Normal Text>東野<Medium Text>）<Normal Text>おはようございます<Medium Text>。<Normal Text>
+<Screen Posiiton to 5,0><Medium Text>『ワイドナショー』<Normal Text>のお時間でございます<Medium Text>。
+<clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X">
+<Screen Posiiton to 4,1><green>さあ<Medium Text> <Normal Text>けさのスペシャルゲスト
+<Screen Posiiton to 5,1>ついに<Medium Text> <Normal Text>やって来ました<Medium Text>。
+<clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X"><Medium Text>
+<Screen Posiiton to 4,1><Normal Text><green>深夜から<Medium Text> <Normal Text>やって来ました<Medium Text>。
+<Screen Posiiton to 5,1><Normal Text>あの時代から<Medium Text> <Normal Text>やって来ました<Medium Text>。
+<clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X">
+<Screen Posiiton to 6,3><Small Text><green>いわき<Medium Text>
+<Screen Posiiton to 6,11><Small Text>こういち<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>男<Medium Text> <Normal Text>岩城<Medium Text> <Normal Text>⑥一でございます<Medium Text>。
+<clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>岩城<Medium Text>）<Normal Text>俺かよ<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text><green>どんな発言をするんでしょうか<Medium Text>。
+<clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X">
+<Screen Posiiton to 6,0><green>ちょっとドキドキしますけれども
+<Screen Posiiton to 7,0>楽しみでもあります<Medium Text>。
+<clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X">
+<Screen Posiiton to 6,0><green>さあ<Medium Text> <Normal Text>それでは
+<Screen Posiiton to 7,0><Medium Text>『<Normal Text>ワイドナショー<Medium Text>』 <Normal Text>スタートです！
+<clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X">
+<Screen Posiiton to 0,5><green>よいしょ！
+<clear screen>

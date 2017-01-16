@@ -1,42 +1,68 @@
 #!/usr/bin/env python
-# vim: set ts=2 expandtab:
-"""
-Module: ts2ass
-Desc: Extract ARIB CCs from an MPEG transport stream and produce an .ass subtitle file off them.
+'''
+Module: test
+Desc: Test to see how quickly I can parse TS es packets
 Author: John O'Neil
 Email: oneil.john@gmail.com
-DATE: Saturday, May 24th 2014
-UPDATED: Saturday, Jan 12th 2017
-"""
+DATE: Thursday, October 20th 2016
 
+'''
 import os
 import sys
 import argparse
 import traceback
-
 from read import EOFError
-
-from arib.closed_caption import next_data_unit
-from arib.closed_caption import StatementBody
-from arib.data_group import DataGroup
 
 from mpeg.ts import TS
 from mpeg.ts import ES
 
-from arib.ass import ASSFormatter
-from arib.ass import ASSFile
+from arib.closed_caption import next_data_unit
+from arib.closed_caption import StatementBody
+import arib.code_set as code_set
+import arib.control_characters as control_characters
+from arib.data_group import DataGroup
+
+
+DISPLAYED_CC_STATEMENTS = [
+  code_set.Kanji,
+  code_set.Alphanumeric,
+  code_set.Hiragana,
+  code_set.Katakana,
+  control_characters.APS,
+  control_characters.MSZ,
+  control_characters.NSZ,
+  control_characters.SP,
+  control_characters.SSZ,
+  control_characters.CS,
+  control_characters.CSI,
+  #control_characters.COL,
+  control_characters.BKF,
+  control_characters.RDF,
+  control_characters.GRF,
+  control_characters.YLF,
+  control_characters.BLF,
+  control_characters.MGF,
+  control_characters.CNF,
+  control_characters.WHF,
+  #control_characters.TIME,
+]
 
 # GLOBALS TO KEEP TRACK OF STATE
-initial_timestamp = None
+initial_timestamp = 0
 elapsed_time_s = 0
 pid = -1
-VERBOSE = False
+VERBOSE = True
 SILENT = False
 DEBUG = False
-ass = None
-ass_file = None
-infilename = ""
-tmax = 0
+
+def formatter(statements, timestamp):
+  '''Turn a list of decoded closed caption statements
+    into something we want (probably just plain text)
+    Note we deal with unicode only here.
+  '''
+  print('File elapsed time seconds: {s}'.format(s=timestamp))
+  line = u''.join([unicode(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
+  return line
 
 
 def OnProgress(bytes_read, total_bytes, percent):
@@ -62,8 +88,6 @@ def OnTSPacket(packet):
   """
   global initial_timestamp
   global elapsed_time_s
-  global time_offset
-
   #pcr (program count record) can be used to calculate elapsed time in seconds
   # we've read through the .ts file
   pcr = TS.get_pcr(packet)
@@ -71,7 +95,7 @@ def OnTSPacket(packet):
     current_timestamp = pcr
     initial_timestamp = initial_timestamp or current_timestamp
     delta = current_timestamp - initial_timestamp
-    elapsed_time_s = float(delta) / 90000.0 + time_offset
+    elapsed_time_s = float(delta) / 90000.0
 
 def OnESPacket(current_pid, packet, header_size):
   """
@@ -88,11 +112,6 @@ def OnESPacket(current_pid, packet, header_size):
   global VERBOSE
   global SILENT
   global elapsed_time_s
-  global ass
-  global ass_file
-  global infilename
-  global tmax
-  global time_offset
 
   if pid >= 0 and current_pid != pid:
     return
@@ -111,59 +130,41 @@ def OnESPacket(current_pid, packet, header_size):
         #we're only interested in those Data Units which are "statement body" to get CC data.
         if not isinstance(data_unit.payload(), StatementBody):
           continue
-
-        # only write the file if we've actually found some Closed Captions
-        if not ass_file:
-          ass_file = ASSFile(infilename + '.ass')
-        if not ass:
-          ass = ASSFormatter(ass_file, tmax=tmax, video_filename=infilename)
-
-        ass.format(data_unit.payload().payload(), elapsed_time_s)
-
-        if pid < 0 and not SILENT:
+        #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
+        if pid < 0 and VERBOSE and not SILENT:
           pid = current_pid
           print("Found Closed Caption data in PID: " + str(pid))
           print("Will now only process this PID to improve performance.")
+
+        #formatter function above. This dumps the basic text to stdout.
+        cc = formatter(data_unit.payload().payload(), elapsed_time_s)
+        if cc and VERBOSE:
+          #according to best practice, always deal internally with UNICODE, and encode to
+          #your encoding of choice as late as possible. Here, i'm encoding as UTF-8 for
+          #my command line.
+          #DECODE EARLY, ENCODE LATE
+          print(cc.encode('utf-8'))
   except EOFError:
     pass
   except Exception, err:
-
-    if not SILENT and pid >= 0:
+    if VERBOSE and not SILENT and pid >= 0:
       print("Exception thrown while handling DataGroup in ES. This may be due to many factors"
-        + "such as file corruption or the .ts file using as yet unsupported features.")
+         + "such as file corruption or the .ts file using as yet unsupported features.")
       traceback.print_exc(file=sys.stdout)
 
 
 def main():
   global pid
-  global VERBOSE
-  global SILENT
-  global infilename
-  global tmax
-  global time_offset
 
-  parser = argparse.ArgumentParser(
-    description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
+  parser = argparse.ArgumentParser(description='Draw CC Packets from MPG2 Transport Stream file.')
   parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
-  parser.add_argument('-p', '--pid',
-                      help='Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).',
-                      type=int, default=-1)
-  parser.add_argument('-v', '--verbose', help='Verbose output.', action='store_true')
-  parser.add_argument('-q', '--quiet', help='Does not write to stdout.', action='store_true')
-  parser.add_argument('-t', '--tmax', help='Subtitle display time limit (seconds).', type=int, default=5)
-  parser.add_argument('-o', '--timeoffset',
-                      help='Shift all time values in generated .ass file by indicated floating point offset in seconds.',
-                      type=float, default=0.0)
+  parser.add_argument('-p', '--pid', help='Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).', type=int, default=-1)
   args = parser.parse_args()
 
-  pid = args.pid
   infilename = args.infile
-  SILENT = args.quiet
-  VERBOSE = args.verbose
-  tmax = args.tmax
-  time_offset = args.timeoffset
+  pid = args.pid
 
-  if not os.path.exists(infilename) and not SILENT:
+  if not os.path.exists(infilename):
     print 'Input filename :' + infilename + " does not exist."
     os.exit(-1)
 
@@ -178,4 +179,3 @@ def main():
 
 if __name__ == "__main__":
   main()
-

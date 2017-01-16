@@ -1,0 +1,1019 @@
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,9><Small Text>は ざ ま<Normal Text>
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>記者<Medium Text>）<Normal Text>羽佐間さん<Medium Text> <Normal Text>一言！
+<Screen Posiiton to 7,1><Medium Text>（<Normal Text>記者<Medium Text>）<Normal Text>こちら<Medium Text> <Normal Text>お願いします<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,19><Small Text>こくみんえいゆう<Normal Text>
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>記者<Medium Text>）<Normal Text>羽佐間さん<Medium Text> <Normal Text>国民英雄賞
+<Screen Posiiton to 7,1>第１号に輝いた<Medium Text> <Normal Text>感想を一言！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3>（オペレーター）<Normal Text>報告いたします<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,0>先日<Medium Text> <Normal Text>九州<Medium Text> <Normal Text>四国<Medium Text> <Normal Text>東北の３カ所で➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>フロム・ビヨンド<Normal Text>の拠点と思われる場所を
+<Screen Posiiton to 7,0>調査しましたところ➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>いずれも<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>すでに<Medium Text> <Normal Text>放棄されていました<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>活動の痕跡は<Medium Text> <Normal Text>ありますが➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>現在<Medium Text> <Normal Text>彼らが<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>どこにいるのかは不明です<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,3><Small Text>そういち<Normal Text>
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>蒼一<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,1>逃げられたってことっすか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,3><Small Text>へきる<Medium Text>
+<Screen Posiiton to 6,3>（<Normal Text>碧<Medium Text>）<Normal Text>あるいは<Medium Text> <Normal Text>自主的に<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>逃げたのかもしれませんね<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>これは<Medium Text> フロム・ビヨンド<Normal Text>関連事件の<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>発生件数です<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>目撃例を含めても
+<Screen Posiiton to 7,2>著しく<Medium Text> <Normal Text>減少しています<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,3><Small Text>あんじ<Normal Text>
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>闇児<Medium Text>）<Normal Text>俺たちの仕事が
+<Screen Posiiton to 7,1>実を結んでるんじゃないの？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>闇児<Medium Text>）<Normal Text>結成以来<Medium Text> <Normal Text>連戦連勝だし<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text>ハハハッ！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>まっ<Medium Text> <Normal Text>一人相手に<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>５人掛かりだしな<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,5><Small Text>さくら<Medium Text>
+<Screen Posiiton to 6,5>（<Normal Text>桜<Medium Text>）<Normal Text>手段は<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>選ばなくていいでしょ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>早く<Medium Text> <Normal Text>普通の女の子になって➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>愛に満ちた暮らしをしたい<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,0><Small Text>かなめ<Normal Text>
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>要<Medium Text>）<Normal Text>フロム<Medium Text>・<Normal Text>ビヨンドは<Medium Text> <Normal Text>日本から
+<Screen Posiiton to 7,0>撤退しようとしているのかね？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>その可能性も<Medium Text> <Normal Text>ありますが…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1><Medium Text>（<Normal Text>碧<Medium Text>）<Normal Text>逆の可能性も<Medium Text> <Normal Text>あります<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（<Normal Text>碧<Medium Text>）<Normal Text>私なりに<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>仮説を立ててみました<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>われわれが
+<Screen Posiiton to 7,2>最初に戦った敵<Medium Text> <Normal Text>四天王<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>当初<Medium Text> <Normal Text>フロム<Medium Text>・<Normal Text>ビヨンドの幹部かと
+<Screen Posiiton to 7,0>思われていましたが…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>怪人<Medium Text>）「<Normal Text>これで<Medium Text> <Normal Text>終わりではないぞ
+<Screen Posiiton to 7,0>フラメンジャー<Medium Text>」<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>「<Normal Text>四天王など<Medium Text> <Normal Text>われら
+<Screen Posiiton to 7,0>六十四軍神の前では<Medium Text> <Normal Text>赤子同然よ<Medium Text>」
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>組織内の<Medium Text> <Normal Text>いち<Medium Text>グループ<Normal Text>であることが<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>発覚しました<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text>さらに…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>怪人<Medium Text>）「<Normal Text>六十四軍神など
+<Screen Posiiton to 7,0>われら<Medium Text> <Normal Text>二百五十六将軍の中では➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>ぼっちが集まった集団にすぎない<Medium Text>」
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>これは<Medium Text> <Normal Text>先日<Medium Text> <Normal Text>マッハクラゲ…<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>つまり<Medium Text> <Normal Text>六十四軍神の８体目を
+<Screen Posiiton to 7,1>倒した後に<Medium Text> <Normal Text>送られてきた➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4>メッセージです<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>六十四軍神に<Medium Text> <Normal Text>二百五十六将軍って何人いるんだよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>問題は<Medium Text> <Normal Text>そこです<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text>私たちは<Medium Text> <Normal Text>フロム<Medium Text>・<Normal Text>ビヨンドを➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>ピラミッド型の組織と<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>考えていましたが➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>四天王が
+<Screen Posiiton to 7,0>六十四軍神の一団体とするなら➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>組織は<Medium Text> <Normal Text>こうなります<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>そして<Medium Text> <Normal Text>六十四軍神が➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>さらに<Medium Text> <Normal Text>二百五十六将軍を
+<Screen Posiiton to 7,2>構成しているとすれば…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><Medium Text>（<Normal Text>蒼一<Medium Text>）<Normal Text>結局<Medium Text> <Normal Text>何人いるんすか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>単純計算で<Medium Text> <Normal Text>６万<Medium Text>５，５３６<Normal Text>人<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,3><Small Text><yellow>まさよし<Normal Text>
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>正義<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,1>まだ<Medium Text> <Normal Text>そんなにいるんですか<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>正確には<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>すでに<Medium Text> １２<Normal Text>人<Medium Text> <Normal Text>倒しているので➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>６万<Medium Text>５，５２４<Normal Text>人です<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>２日に１人倒しても
+<Screen Posiiton to 7,3><Medium Text>３５９<Normal Text>年かかる<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>３５９<Normal Text>年<Medium Text>！？ <Normal Text>私<Medium Text> <Normal Text>おばあちゃんに<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>なってるじゃない！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>いや<Medium Text> <Normal Text>そこまで生きてりゃ
+<Screen Posiiton to 7,2>妖怪だって<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>碧<Medium Text>）<Normal Text>これは<Medium Text> <Normal Text>相手の言うことを
+<Screen Posiiton to 7,1>うのみにした➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>私の仮説にすぎません<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>しかし<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>もし<Medium Text> <Normal Text>彼らの言葉が真実で➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>一斉攻撃を仕掛けてくれば➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>われわれでは<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>到底<Medium Text> <Normal Text>対応できません<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>そのために<Medium Text> <Normal Text>今までの戦いで<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>最下層の怪人を使い➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>フラメンジ<Medium Text>ャ<Normal Text>ーの戦力を
+<Screen Posiiton to 7,0>調べていたのではないでし<Medium Text>ょ<Normal Text>うか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>一斉攻撃は<Medium Text> <Normal Text>本当にあるのかね？<Medium Text>
+<Screen Posiiton to 7,1>（<Normal Text>碧<Medium Text>）<Normal Text>分かりません<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>…が<Medium Text> <Normal Text>基地の放棄や<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>集団での失踪は➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>戦力を集中させているようにも<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>思えます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>基地の跡を<Medium Text> <Normal Text>再度<Medium Text> <Normal Text>調査したまえ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>残されているものは<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>全て<Medium Text> <Normal Text>回収するんだ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>人員は<Medium Text> <Normal Text>どれだけ使ってもいい<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>蒼一<Medium Text>）<Normal Text>ん？<Medium Text>
+<Screen Posiiton to 7,1>（<Normal Text>要<Medium Text>）<Normal Text>総理に<Medium Text> <Normal Text>それを話しておく<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（<Normal Text>蒼一<Medium Text>）<Normal Text>要さん！<Medium Text> <Normal Text>相手の出方<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>待ってる理由ないっすよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>こっちから出てって
+<Screen Posiiton to 7,3>ぶっ倒しましょう<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,5><Small Text>みどりかわ<Medium Text>
+<Screen Posiiton to 6,1><Normal Text>まだ<Medium Text> <Normal Text>緑川君の仮説が<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>正しいと決まったわけじゃない<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>敵が大勢なのは<Medium Text> <Normal Text>同じっす<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>だからこそ<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>集まる前に<Medium Text> <Normal Text>がーっと！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>総理の意見を聞いてからだ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>はあ<Medium Text>！？
+<Screen Posiiton to 7,1><Normal Text>どうしちゃったんすか<Medium Text> <Normal Text>要さん<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>前なら<Medium Text> <Normal Text>真っ先に<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>飛び出していったのに<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>確かに<Medium Text> <Normal Text>レッドアックスなら<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>行っただろう<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>だが<Medium Text> <Normal Text>今の私は<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>フラメンジャー<Medium Text> <Normal Text>長官だ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>個人の判断で<Medium Text> <Normal Text>軽々しく
+<Screen Posiiton to 7,0>組織を動かすわけにはいかんのだ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>何すか<Medium Text> <Normal Text>その言い訳…<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>要さん<Medium Text> <Normal Text>さび付いちまったっすね<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>ハーッハッハッハッハ！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>調子に乗るなー！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（<Normal Text>蒼一<Medium Text>）<Normal Text>だー！<Medium Text> <Normal Text>ぐあ…<Medium Text>。
+<Screen Posiiton to 7,5>（<Normal Text>要<Medium Text>）<Normal Text>はっ<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5>（<Normal Text>要<Medium Text>）<Normal Text>大丈夫か<Medium Text>！？ <Normal Text>蒼一！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><Medium Text>（<Normal Text>蒼一<Medium Text>）<Normal Text>へ…<Medium Text> <Normal Text>平気っす…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>誰が<Medium Text> <Normal Text>こんなことを！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>いや…<Medium Text> <Normal Text>要さんっすよ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（<Normal Text>桜<Medium Text>）<Normal Text>５対６万<Medium Text>５，０００<Normal Text>って<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>どんな感じなの？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>碧<Medium Text>）<Normal Text>われわれが<Medium Text> <Normal Text>アルゼンチンの<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>ウスアイアに行ったら➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>市民全員に
+<Screen Posiiton to 7,2>襲われるようなものです<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text>分かりにくっ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>それで…<Medium Text> <Normal Text>勝つ方法って<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>あるんでしょうか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><Medium Text>（<Normal Text>闇児<Medium Text>）<Normal Text>ねえよ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text>撤退しろ<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><yellow>僕たちが撤退できても➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><yellow>国民は<Medium Text> <Normal Text>日本という国から
+<Screen Posiiton to 7,2>撤退することはできない<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>もう一度
+<Screen Posiiton to 7,2>データを調べてみます<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>私の思い過ごしかもしれない<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1><yellow>お願いします<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>闇児<Medium Text>）<Normal Text>俺も<Medium Text> <Normal Text>対集団専用の武器を<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>リストアップしとくよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text><yellow>頼みます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>私は<Medium Text> <Normal Text>都民の避難プログラムを
+<Screen Posiiton to 7,1>アップデートしとく<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><yellow>国民バージョンで<Medium Text> <Normal Text>よろしく<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>店員<Medium Text>）<Normal Text>ここで
+<Screen Posiiton to 7,1>引換券を渡してくださーい！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>女性<Medium Text>）<Normal Text>私<Medium Text> サムライフラメンコ<Normal Text>のときからの
+<Screen Posiiton to 7,0>ファンです！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><yellow>ありがとうございます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（<Normal Text>女性<Medium Text>）<Normal Text>モデルのときから
+<Screen Posiiton to 7,2>見てました<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><yellow>ありがとうございます<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（<Normal Text>女性<Medium Text>）<Normal Text>１千万<Medium Text> <Normal Text>目当てで<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>追っ掛けました<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,4><yellow>いい思い出です<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4>今となっては<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text><yellow>やあ<Medium Text> <Normal Text>こんにちは<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>母親<Medium Text>）<Normal Text>ほら<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>フラメンレッドの<Medium Text> <Normal Text>お兄さんよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>どうしたのかな？<Medium Text>
+<Screen Posiiton to 7,5><white>（<Normal Text>母親<Medium Text>）<Normal Text>この子<Medium Text> <Normal Text>いつも➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>大きくなったら<Medium Text> <Normal Text>フラメンレッドになるんだって<Medium Text> <Normal Text>言ってるんですよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,5><yellow>そうなんだ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,5>うれしいよ<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><Medium Text>（<Normal Text>悲鳴<Medium Text>）
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（ドメスティックバイオレンス Ｎｏ．１）
+<Screen Posiiton to 7,3><Normal Text>ワーッハッハッハッハ！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 6,0><Normal Text>フラメンレッド<Medium Text> <Normal Text>死んでもらうぞ！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>あっ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>あっ…<Medium Text> <Normal Text>あ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>うわーっ<Medium Text>！！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Small Text>いしはら<Normal Text>
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>石原<Medium Text>）<Normal Text>どうしたの？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>いえ<Medium Text> <Normal Text>何でも…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,4><Medium Text>（<Normal Text>石原<Medium Text>）<Normal Text>うなされてたわよ<Medium Text>。<Small Text>
+<Screen Posiiton to 12,4><Normal Text><yellow>平気です<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,5><Normal Text><yellow>ちょっと<Medium Text> <Normal Text>おかしな夢を<Small Text>
+<Screen Posiiton to 12,5><Normal Text>見ただけで<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,5><Medium Text>（<Normal Text>石原<Medium Text>）<Normal Text>汗<Medium Text> <Normal Text>拭きなさい<Medium Text>。<Small Text>
+<Screen Posiiton to 12,5><Normal Text><yellow>すいません<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,0><Normal Text>ごめんなさい<Medium Text>。 <Normal Text>睡眠時間も<Small Text>
+<Screen Posiiton to 12,0><Normal Text>まともに取ってあげられなくて…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,4><Normal Text>政府の人たちと<Small Text>
+<Screen Posiiton to 12,4><Normal Text>話してはいるんだけど➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,9><Normal Text>なかなかね…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,9><Normal Text>どうしたの？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,3><Normal Text><yellow>いえ<Medium Text> <Normal Text>石原さんが優しいんで<Small Text>
+<Screen Posiiton to 12,3><Normal Text>びっくりして…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,8><Normal Text>どういう意味？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,3><Normal Text><yellow>いや…<Medium Text> <Normal Text>変な意味ないです！<Small Text>
+<Screen Posiiton to 12,3><Normal Text>ホントに！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,8><Normal Text><yellow>ただ…<Medium Text> <Normal Text>あの…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><yellow>前と<Medium Text> <Normal Text>ちょっと変わったかなって<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>変わったのは<Medium Text> <Normal Text>あなたの方でしょ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>何よ<Medium Text> <Normal Text>サムライフラメンコって<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>まあ<Medium Text> <Normal Text>正直<Medium Text> <Normal Text>最初に知ったときは<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>殺してやろうかとも思ったけど<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>やっぱり！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>まさか<Medium Text> <Normal Text>こんな形で<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>ブレークするなんてね<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>すいません…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,6>ん<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,6><yellow>えっ？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><yellow>うえっ！<Medium Text>
+<Screen Posiiton to 7,7><Normal Text><white>しゃんとしなさい<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>今日は<Medium Text> <Normal Text>これからが本番でしょ？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>は…<Medium Text> <Normal Text>はい<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>蒼一<Medium Text>）<Normal Text>羽佐間君！<Medium Text>
+<Screen Posiiton to 7,1><Normal Text><yellow>すいません<Medium Text> <Normal Text>お待たせしました<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><yellow>どうしたんですか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>今<Medium Text> <Normal Text>サムライベースから<Medium Text> <Normal Text>連絡が…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>敵の基地から回収した
+<Screen Posiiton to 7,0>端末のデータ解析に成功したって<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（<Normal Text>碧<Medium Text>）<Normal Text>残念ながら<Medium Text> <Normal Text>私の予想が<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>当たってしまいました<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>フロム<Medium Text>・<Normal Text>ビヨンドは<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>一斉攻撃を<Medium Text> <Normal Text>たくらんでいます<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>碧<Medium Text>）<Normal Text>データからは<Medium Text> <Normal Text>２月７日の
+<Screen Posiiton to 7,1>日付が<Medium Text> <Normal Text>見つかっています<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>これが<Medium Text> <Normal Text>一斉攻撃の実行日に<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>間違いないかと<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Small Text>おくざき<Normal Text>
+<Screen Posiiton to 7,1>奥崎総理<Medium Text> <Normal Text>時間がありません<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3>国民への発表と
+<Screen Posiiton to 7,3>一時避難の告知を！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5>（<Normal Text>総理大臣<Medium Text>）<Normal Text>いつかね？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>今日です！<Medium Text> <Normal Text>今です！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（<Normal Text>総理大臣<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,2>それは<Medium Text> <Normal Text>どうだろう<Medium Text> <Normal Text>要君<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6>はっ<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>政治には<Medium Text> <Normal Text>機というものがある<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>今<Medium Text> <Normal Text>何の準備もなく発表して➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>マスコミから対策を問われたら<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>われわれは<Medium Text> <Normal Text>返答ができない<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>それでは<Medium Text> <Normal Text>いたずらに
+<Screen Posiiton to 7,2>不安を<Medium Text> <Normal Text>あおるだけだよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>要<Medium Text>）<Normal Text>それは<Medium Text> <Normal Text>そうですが…<Medium Text>。
+<Screen Posiiton to 7,1>（<Normal Text>総理大臣<Medium Text>）<Normal Text>それが<Medium Text> <Normal Text>きっかけで➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>国民の間に<Medium Text> <Normal Text>パニックでも起きたら取り返しがつかない<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>しかし…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,0><Medium Text>（<Normal Text>総理大臣<Medium Text>）<Normal Text>今<Medium Text> <Normal Text>一番<Medium Text> <Normal Text>必要なのは➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>準備と時間だ<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text>大丈夫<Medium Text> <Normal Text>私に任せてくれたまえ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>総理<Medium Text> <Normal Text>せめて<Medium Text> <Normal Text>警報だけでも…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>総理大臣<Medium Text>）<Normal Text>これだけ言っても
+<Screen Posiiton to 7,1>分からんか！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>これから<Medium Text> <Normal Text>授賞式だぞ！
+<Screen Posiiton to 7,0>アメリカや国連の大使も来てる<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>君は<Medium Text> <Normal Text>外交に水を差す気かね<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>５人<Medium Text>）<Normal Text>あっ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>この奥崎<Medium Text> <Normal Text>国を守る君たちに<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>お願い申し上げる<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>あっ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>総理大臣<Medium Text>）<Normal Text>今日のところは
+<Screen Posiiton to 7,0>どうか<Medium Text> <Normal Text>極秘にしてくれたまえ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>私の態度を<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>軽蔑しているだろう<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>しかし<Medium Text> <Normal Text>われわれ政治家は➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>大所高所に立って
+<Screen Posiiton to 7,0>全てを判断しなければならない<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>時に<Medium Text> <Normal Text>何もしないことが
+<Screen Posiiton to 7,1>最善であるケースもあるのだ<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><Medium Text>（<Normal Text>シャッター音<Medium Text>）
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5>（<Normal Text>記者<Medium Text>）<Normal Text>羽佐間さん<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>こちら<Medium Text> <Normal Text>お願いします<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>記者<Medium Text>）<Normal Text>国民英雄賞<Medium Text> <Normal Text>第１号に輝いた感想を一言！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>記者<Medium Text>）<Normal Text>羽佐間さん？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（<Normal Text>記者<Medium Text>）<Normal Text>羽佐間さん？<Medium Text>
+<Screen Posiiton to 7,3>（<Normal Text>記者<Medium Text>）<Normal Text>どうしたんですか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>記者<Medium Text>）<Normal Text>何か<Medium Text> <Normal Text>一言<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3><Medium Text>（<Normal Text>記者<Medium Text>）<Normal Text>羽佐間さん？
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text><yellow>これからも…<Medium Text> <Normal Text>国民の皆さんを➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>フロム<Medium Text>・<Normal Text>ビヨンドから
+<Screen Posiiton to 7,1>守っていきたいと思います…<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><yellow>落ち着きなよ<Medium Text> <Normal Text>蒼一<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>落ち着いてられないっすよ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>こうしてる間にも
+<Screen Posiiton to 7,0>敵は<Medium Text> <Normal Text>攻撃の準備<Medium Text> <Normal Text>進めてるっす<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>早く<Medium Text> <Normal Text>発表した方が<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>みんなのためっすよ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>総理の言うことも<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>一理はあるぜ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>事が公になれば<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>パニックは<Medium Text> <Normal Text>必ず<Medium Text> <Normal Text>起こる<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>警察や自衛隊に<Medium Text> <Normal Text>その対応を<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>しっかり準備させないと<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>警察…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>碧<Medium Text>）<Normal Text>さらに言えば
+<Screen Posiiton to 7,3>総理は<Medium Text> <Normal Text>外交に強い<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>米軍の協力も期待できます<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>敵の集結ポイントで
+<Screen Posiiton to 7,1>大量破壊兵器を使用すれば➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>わずかながら<Medium Text> <Normal Text>勝算もあります<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>⚟<Medium Text>（<Normal Text>ドアの開く音<Medium Text>）
+<Screen Posiiton to 7,7>（<Normal Text>蒼一<Medium Text>）<Normal Text>ん？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 4,1><Normal Text><yellow>師匠<Medium Text>。<Small Text>
+<Screen Posiiton to 6,1><Normal Text><white>対<Medium Text>フロム・ビヨンド <Normal Text>一斉攻撃について➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 6,2><Normal Text>総理が<Medium Text> <Normal Text>最終決断をなさった<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 6,6><Normal Text>どうなったんすか<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>国民への発表は行う<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>ただし<Medium Text> <Normal Text>条件がある<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（<Normal Text>石原<Medium Text>）<Normal Text>はい<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>本人に確認してみます<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>ええ<Medium Text> <Normal Text>そこから<Medium Text> <Normal Text>あらためて<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>⚟<Medium Text>（<Normal Text>ドアの開閉音<Medium Text>）
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>では<Medium Text> <Normal Text>また<Medium Text>。 <Normal Text>失礼します<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>遅かったじゃない<Medium Text>。
+<Screen Posiiton to 7,7><Normal Text>どうしたの？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>いえ<Medium Text> <Normal Text>何でも…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,4><Medium Text>（<Normal Text>石原<Medium Text>）<Normal Text>覚えてる？
+<Screen Posiiton to 6,2><Small Text>きょうたん<Medium Text>
+<Screen Posiiton to 6,13><Small Text>どうデ<Normal Text>
+<Screen Posiiton to 7,2><Medium Text>『<Normal Text>驚嘆<Medium Text>！！ <Normal Text>動ＤＥショー<Medium Text>』<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2>あのときのスタッフが➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>生放送で<Medium Text> <Normal Text>特番やりたいって<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>言ってるんだけど<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>はあ…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3><white>出られなくはないの<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>正直<Medium Text> <Normal Text>あなたしだい<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>要<Medium Text>）<Normal Text>《万が一の場合に備え
+<Screen Posiiton to 7,1>首脳と<Medium Text> <Normal Text>その関係者<Medium Text> <Normal Text>家族は➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>先行して
+<Screen Posiiton to 7,0>国家用シェルターに避難する》➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>《国民への発表は<Medium Text> <Normal Text>その後だ》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>《それって<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>自分たちだけ<Medium Text> <Normal Text>先に…》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>《無用の混乱を避けるためだ》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>《何すか！<Medium Text> <Normal Text>国民<Medium Text> <Normal Text>後回しにして<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>ひきょうじゃないっすか！》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>《いや<Medium Text> <Normal Text>指揮系統を<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>確保しておくことも➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>作戦には<Medium Text> <Normal Text>重要だぜ》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><Medium Text>（<Normal Text>碧<Medium Text>）<Normal Text>《しかし
+<Screen Posiiton to 7,2>ひきょうなことには…》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>《変わらねえけどな》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>《避難が終わるまで
+<Screen Posiiton to 7,0>われわれは<Medium Text> <Normal Text>通常任務を遂行する》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>《特例として<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>フラメンジャーのスタッフは➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>周辺５名までに限り➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>同シェルターへの<Medium Text> <Normal Text>優先避難を
+<Screen Posiiton to 7,1>許可する<Medium Text> <Normal Text>…とのことだ》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><Medium Text>（<Normal Text>蒼一<Medium Text>）<Normal Text>《要さん！
+<Screen Posiiton to 7,0>そんな条件<Medium Text> <Normal Text>のんできたんすか<Medium Text>！？<Normal Text>》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><yellow>《蒼一！》<Medium Text>
+<Screen Posiiton to 7,7><white>（<Normal Text>闇児<Medium Text>）<Normal Text>《よせ！》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>《自分たちだけ<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>先に逃げるっすか<Medium Text>！？<Normal Text>》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>《それでも<Medium Text> <Normal Text>ヒーローっすか<Medium Text>！？<Normal Text>》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>《正義の味方が
+<Screen Posiiton to 7,2>聞いて<Medium Text> <Normal Text>あきれるっす！》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5>（<Normal Text>闇児<Medium Text>・<Normal Text>正義<Medium Text>）<Normal Text>《あっ！》
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>《師匠…》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9>（<Normal Text>桜<Medium Text>）<Normal Text>《ほれ》
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text>《全員に<Medium Text>
+<Screen Posiiton to 7,3>２４<Normal Text>時間の猶予を与える》➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>《周辺から５人<Medium Text> <Normal Text>シェルターに
+<Screen Posiiton to 7,0>避難させる人間を<Medium Text> <Normal Text>選出したまえ》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text>何？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>いえ…<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><Medium Text>（<Normal Text>義姉<Medium Text>）<Normal Text>碧君<Medium Text> <Normal Text>どうしたの？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>いきなり<Medium Text> <Normal Text>すみません<Medium Text> <Normal Text>姉さん<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>一緒に<Medium Text> <Normal Text>来ていただけますか？
+<Screen Posiiton to 7,1><Medium Text>（<Normal Text>義姉<Medium Text>）<Normal Text>えっ…<Medium Text> <Normal Text>どうして？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>要<Medium Text>）<Normal Text>《この情報は<Medium Text> <Normal Text>決して<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>外部に<Medium Text> <Normal Text>漏らしてはならない》➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>《情報が漏えいした場合には
+<Screen Posiiton to 7,1>責任を取ってもらう》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,7><Medium Text>（<Normal Text>闇児<Medium Text>）<Normal Text>じいちゃん<Medium Text>。
+<Screen Posiiton to 6,11><Small Text>とうりょう<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>もう投了だよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>《１》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>《２<Medium Text> <Normal Text>３…》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>《あっ…<Medium Text> <Normal Text>４》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,5><Medium Text>（<Normal Text>通知音<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,5><yellow>うわ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,10><Medium Text>（<Normal Text>ノック<Medium Text>）
+<Screen Posiiton to 6,11><Small Text><yellow>ごとう<Normal Text>
+<Screen Posiiton to 7,5>後藤さん！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><Medium Text><green>（<Normal Text>後藤<Medium Text>）<Normal Text>何だよ<Medium Text> <Normal Text>お前…<Medium Text> <Normal Text>いきなり！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,2><Normal Text><yellow>あっ<Medium Text> <Normal Text>すいません<Medium Text>。<Small Text>
+<Screen Posiiton to 12,2><Normal Text>ちょっと<Medium Text> <Normal Text>急ぎの用があって<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,7><Normal Text><green>連絡ぐらいしろよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,5><Normal Text>⚟お巡りさ〜ん<Small Text>
+<Screen Posiiton to 12,5><Normal Text>タオル<Medium Text> <Normal Text>ちょうだ〜い！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,7><Normal Text><yellow>彼女さんですか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,9><Normal Text>⚟タオル〜！<Small Text>
+<Screen Posiiton to 12,9><Normal Text><yellow>でも…<Medium Text> <Normal Text>あれ？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 10,7><Normal Text><yellow>あっ！<Small Text>
+<Screen Posiiton to 12,7><Medium Text><white>（<Normal Text>まり<Medium Text>）<Normal Text>ん？<Medium Text> <Normal Text>あっ！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
+<Screen Posiiton to 12,8><Normal Text><yellow>何で…<Medium Text> <Normal Text>ここに？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><Medium Text>（<Normal Text>まり<Medium Text>）<Normal Text>死ね<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><green>どうにも<Medium Text> <Normal Text>ほっとけなくてな<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>事務所には？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><green>「<Normal Text>言ったら死ぬ！<Medium Text>」<Normal Text>って<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>言いやがるからよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,1><Small Text><green>みずき<Medium Text>
+<Screen Posiiton to 5,7><Small Text>もえ<Medium Text>
+<Screen Posiiton to 6,1><Normal Text>瑞希と萌には<Medium Text> <Normal Text>タイミング見て<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>教えようと思ってたんだけどな<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><green>だいぶ<Medium Text> <Normal Text>ましになったんだ<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>最初は<Medium Text> <Normal Text>口も利かなかった<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><green>もう少しで<Medium Text> <Normal Text>立ち直ると思うんだ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><green>黙っててくれないか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><yellow>それは<Medium Text> <Normal Text>後藤さんに
+<Screen Posiiton to 7,3>お任せしますけど➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><yellow>こういうのって<Medium Text> <Normal Text>彼女さんに<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>悪いんじゃないかと…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><green>あいつなら<Medium Text> <Normal Text>もう<Medium Text> <Normal Text>知ってる<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>知ってて<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><green>あいつは<Medium Text> <Normal Text>何も言わねえよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3><green>相手が<Medium Text> <Normal Text>誰だろうが➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><green>俺が<Medium Text> <Normal Text>浮気なんて<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>するはずがないって➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><green>分かってるからな<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>いや<Medium Text> <Normal Text>実際<Medium Text> <Normal Text>何もしてねえし<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,4><yellow>はあ…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4><green>で？<Medium Text> <Normal Text>何の用だ？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>いえ<Medium Text> <Normal Text>何も…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><green>何もってことはねえだろ<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,2>こんな夜に<Medium Text> <Normal Text>来といてよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><yellow>国から<Medium Text> <Normal Text>賞をもらったので➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>後藤さんにも<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>見てもらおうと思って<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><green>それなら<Medium Text> <Normal Text>ニュースで見たよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><green>すげえな<Medium Text> <Normal Text>お前<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>総理大臣と会ってたな<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>ええ<Medium Text> <Normal Text>まあ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>後藤さんは<Medium Text> <Normal Text>どうですか？
+<Screen Posiiton to 7,1>仕事<Medium Text> <Normal Text>何か<Medium Text> <Normal Text>変わりましたか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><green>そうだな…<Medium Text> <Normal Text>前より<Medium Text> <Normal Text>少しだけ
+<Screen Posiiton to 7,1>静かになったか<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><green>あきれた話だけどよ
+<Screen Posiiton to 7,3>怪人がどうの➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><green>悪の組織がどうのって<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>世の中になっても➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0><green>盗みや<Medium Text> <Normal Text>ケンカは<Medium Text> <Normal Text>なくならねえよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text><green>だけど<Medium Text> <Normal Text>妙なとこで<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>人間ってのは➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2><green>変わらないもんだなって
+<Screen Posiiton to 7,2>気もしてる<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3><Normal Text><green>俺には<Medium Text> <Normal Text>これくらいの日常が<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>ちょうどいい<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><green>お前も<Medium Text> <Normal Text>そっちで頑張れよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>…はい<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><yellow>５<Medium Text> <Normal Text>６<Medium Text> <Normal Text>７…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text><yellow>７…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 5,5><Small Text><yellow>ひらい<Medium Text>
+<Screen Posiiton to 6,3><Normal Text>《平井さんに黙ったままで<Medium Text>
+<Screen Posiiton to 7,3><Normal Text>いいのか？》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>《<Medium Text>『<Normal Text>アンサンブルー<Medium Text>』<Normal Text>の<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>スタッフは…》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><yellow>《誰を救い<Medium Text> <Normal Text>誰を救わないか》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>《僕らに
+<Screen Posiiton to 7,0>それを決める権利は<Medium Text> <Normal Text>あるのか？》
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>要<Medium Text>）<Normal Text>それは<Medium Text> <Normal Text>ヒーローにとって
+<Screen Posiiton to 7,1>永遠の難問だ<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>われわれは<Medium Text> <Normal Text>フロム<Medium Text>・<Normal Text>ビヨンドから
+<Screen Posiiton to 7,0>日本を救う<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>では<Medium Text> <Normal Text>彼らが隣の国を襲ったとき<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>何もしなくていいのか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>海の向こうの国では<Medium Text> <Normal Text>どうだ？
+<Screen Posiiton to 7,1>地球の裏側では？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>そういう問題だよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><yellow>物理的な限界があります<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>地球の裏側に<Medium Text> <Normal Text>僕たちが向かっても間に合いません<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text>そのとおりだ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>正義の力は<Medium Text> <Normal Text>そこまで届かない<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>だが<Medium Text> <Normal Text>心は<Medium Text> <Normal Text>どうかな？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text><yellow>心？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>私は<Medium Text> <Normal Text>今回の情報を
+<Screen Posiiton to 7,1>誰にも知らせないことにした<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>むろん<Medium Text> <Normal Text>家内にもだ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text><yellow>どうしてですか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>気が付いたからだ<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>自分のやるべきことに<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>いつものように<Medium Text> <Normal Text>敵を全員<Medium Text> <Normal Text>倒し
+<Screen Posiiton to 7,0>それ以外を<Medium Text> <Normal Text>全員<Medium Text> <Normal Text>救えばいいのだ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>どんな敵が相手でも<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>ヒーローのすることは同じだよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>それを強要するつもりはない<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1>これは<Medium Text> <Normal Text>あくまで<Medium Text> <Normal Text>私の考えだ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5>私の決断だ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>それにしても<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>この年で<Medium Text> <Normal Text>まだ惑わされるとは➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text>正義とは<Medium Text> <Normal Text>奥深いものだね<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,2>取りあえず
+<Screen Posiiton to 7,2>君は<Medium Text> <Normal Text>睡眠を取りたまえ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>起きてから<Medium Text> <Normal Text>対応策を考えよう<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,13><Normal Text><yellow>はい<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,1><Medium Text>（<Normal Text>蒼一<Medium Text>）<Normal Text>リーダー！<Medium Text> <Normal Text>リーダー！
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text><yellow>どうしたの？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5>要さんが…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text><yellow>これは…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>碧<Medium Text>）<Normal Text>それだけ残して
+<Screen Posiiton to 7,3>失踪したようです<Medium Text>。<Normal Text>➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,7><Normal Text>誰も<Medium Text> <Normal Text>行き先などは<Medium Text>
+<Screen Posiiton to 7,7><Normal Text>聞いておりません<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7>（<Normal Text>闇児<Medium Text>）<Normal Text>マジかよ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><yellow>そんな…<Medium Text> <Normal Text>バカな…<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,1><Medium Text><white>（<Normal Text>蒼一<Medium Text>）<Normal Text>何かの間違いっす！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,3>絶対<Medium Text> <Normal Text>間違いっす…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,4>長官代理<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,4>総理から通信が<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,6><yellow>代理？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>いったい<Medium Text> <Normal Text>どういうことかね<Medium Text>！？
+<Screen Posiiton to 7,1><Normal Text>要君とは<Medium Text> <Normal Text>連絡が取れないのか？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0><yellow>今は<Medium Text> <Normal Text>まったく<Medium Text>。 <Normal Text>装備<Medium Text> <Normal Text>一式も
+<Screen Posiiton to 7,0>置いたままで<Medium Text> <Normal Text>出掛けたようです<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>この国難に
+<Screen Posiiton to 7,1>最高責任者が失踪するとは！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text><yellow>申し訳ありません<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>彼から<Medium Text> <Normal Text>情報が漏れる
+<Screen Posiiton to 7,1>ということはないだろうね？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>それは…<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text><white>要人のシェルター避難には➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text>あと３日は<Medium Text> <Normal Text>かかる<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>それまで<Medium Text> <Normal Text>この情報は➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,7><Normal Text>隠し通してくれよ<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>通信の切れる音<Medium Text>）<Normal Text>
+<Screen Posiiton to 7,3><yellow>ハァ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1>（<Normal Text>碧<Medium Text>）<Normal Text>どうしますか？<Medium Text> <Normal Text>リーダー<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text><yellow>予定どおり<Medium Text> <Normal Text>対フロム<Medium Text>・<Normal Text>ビヨンド<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>一斉攻撃の準備を進めましょう<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,3><Medium Text>（<Normal Text>闇児<Medium Text>）<Normal Text>分かった<Medium Text>。<Normal Text>
+<Screen Posiiton to 7,3>だが<Medium Text> <Normal Text>あいつらは…<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1><Medium Text>（<Normal Text>碧<Medium Text>）<Normal Text>もし<Medium Text> <Normal Text>この情報が
+<Screen Posiiton to 7,1>フロム<Medium Text>・<Normal Text>ビヨンドに伝われば➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,1>総攻撃には<Medium Text> <Normal Text>絶好のチャンスと
+<Screen Posiiton to 7,1>考えるでしょう<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><Medium Text>（<Normal Text>闇児<Medium Text>）<Normal Text>だな<Medium Text>。 <Normal Text>チクショー<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,3><Normal Text><yellow>そんな…<Medium Text> <Normal Text>伝わるわけが…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text>ないと言えますか？➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>この基地の中に
+<Screen Posiiton to 7,0>彼らのスパイがいるわけがないと<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><Medium Text>（<Normal Text>碧<Medium Text>）<Normal Text>リーダー？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text><yellow>うえっ…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>う…<Medium Text> <Normal Text>ゲホッ…<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,9><Normal Text>あっ<Medium Text> <Normal Text>大丈夫？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><yellow>はい…<Medium Text> <Normal Text>行きましょう<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><Medium Text>（<Normal Text>司会<Medium Text>）<Normal Text>さあ<Medium Text> <Normal Text>それでは！➡
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 6,0>番組が生んだ<Medium Text> <Normal Text>スーパーヒーローをお呼びいたしましょう<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1>（<Normal Text>司会<Medium Text>）<Normal Text>サムライフラメンコこと<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>フラメンレッド<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>先日<Medium Text> <Normal Text>初の国民英雄賞を受賞した<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>羽佐間<Medium Text> <Normal Text>正義さんです！
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,5><Medium Text>（<Normal Text>歓声<Medium Text>・<Normal Text>拍手<Medium Text>）
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,3>（アナウンサー）<Normal Text>こちらへ<Medium Text> <Normal Text>どうぞ<Medium Text>。
+<Screen Posiiton to 7,3>（<Normal Text>石原<Medium Text>）<Normal Text>ん？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,1><Normal Text>ご無沙汰してます<Medium Text> <Normal Text>羽佐間さん<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 5,3><Small Text>こんの<Medium Text>
+<Screen Posiiton to 6,5>（<Normal Text>今野<Medium Text>）<Normal Text>いや〜<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>面白くなりそうですね<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,2><Medium Text>（<Normal Text>石原<Medium Text>）<Normal Text>あっ！<Medium Text> <Normal Text>今野さん<Medium Text>！？
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,1><Normal Text>羽佐間さん<Medium Text> <Normal Text>テレビの向こうの<Medium Text>
+<Screen Posiiton to 7,1><Normal Text>日本中の皆さんにメッセージを<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 7,11><Normal Text><yellow>皆さん…<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,4><yellow>逃げてください<Medium Text>。
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
+<Screen Posiiton to 6,5><Normal Text><yellow>フロム<Medium Text>・<Normal Text>ビヨンドの<Medium Text>
+<Screen Posiiton to 7,5><Normal Text>総攻撃が<Medium Text> <Normal Text>始まります<Medium Text>。
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
+<Screen Posiiton to 7,0>♫〜
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>

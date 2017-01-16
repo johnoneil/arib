@@ -8,18 +8,7 @@ DATE: Sunday, March 9th 2014
 
 ''' 
 
-import os
-import os.path
-from os.path import expanduser
-import re
-import uuid
-import sys
-import time
-import argparse
-import string
-import struct
-from copy import copy
-from code_set import code_set_from_final_byte
+import read
 from code_set import code_set_handler_from_final_byte
 from code_set import in_code_set_table
 from arib_exceptions import DecodingError
@@ -307,11 +296,22 @@ class PAPF(object):
   '''
   CODE = 0x16
   def __init__(self, f):
-    pass
+    # read the single byte paramter for now but ignore its effect on text placement
+    # TODO: implement proper screen text placement
+    read.ucb(f)
+
+  def __len__(self):
+    '''Defiing len() operator to help
+    in calculating bytes read
+    '''
+    return 2
+
+  def __unicode__(self):
+    return u'<PAPF>'
 
   @staticmethod
   def handler(f):
-    pass
+    return PAPF(f)
 
 class CAN(object):
   '''Cancel
@@ -1365,7 +1365,10 @@ class CSI(object):
     return len(self._args) + 1
 
   def __unicode__(self):
-    return u'<CS:"{seq}">'.format(seq=u''.join(u'{:#c}'.format(x) for x in self._args))
+    try:
+      return u'<CS:"{seq}">'.format(seq=u''.join(u'{:#c}'.format(x) for x in self._args))
+    except UnicodeDecodeError:
+        return u'<CS:"{seq}">'.format(seq=u''.join(u':{h}'.format(h=hex(x)) for x in self._args))
 
   @staticmethod
   def handler(f):
@@ -1408,7 +1411,7 @@ COMMAND_TABLE = {
   APR.CODE : APR.handler,
   LS1.CODE : LS1.handler,
   LS0.CODE : LS0.handler,
-  #PAPF.CODE : PAPF.handler,
+  PAPF.CODE : PAPF.handler,
   #CAN.CODE : CAN.handler,
   SS2.CODE : SS2.handler,
   ESC.CODE : ESC.handler,

@@ -57,6 +57,7 @@ class Decoder(object):
     self._G0 = ref(code_set.Kanji.decode)
     self._G1 = ref(code_set.Katakana.decode)#ref(code_set.Alphanumeric.decode)
     self._G2 = ref(code_set.Hiragana.decode) #code_set.DRCS1.decode
+    #self._G2 = ref(code_set.DRCS1.decode)
     self._G3 = ref(code_set.Macro.decode)
     self._single_shift = None
 
@@ -104,20 +105,28 @@ class Decoder(object):
 
     #Handle single byte dedicated control codes
     if isinstance(control_code, control_char.LS0):
+      if DEBUG:
+        print("switching _GL to table G0")
       self._GL = self._G0
       return
     if isinstance(control_code ,control_char.LS1):
+      if DEBUG:
+        print("switching GL to table G1")
       self._GL = self._G1
       return
     if isinstance(control_code, control_char.SS2):
       #this is a single shift operator, so store the current mapping
       #The stored value will be set back to active after decoding one character
+      if DEBUG:
+        print("setting table GL to single shift G2")
       self._single_shift = self._GL.get()
       self._GL = self._G2
       return
     if isinstance(control_code, control_char.SS3):
       #this is a single shift operator, so store the current mapping
       #The stored value will be set back to active after decoding one character
+      if DEBUG:
+        print("setting table GL to single shift GL")
       self._single_shift = self._GL.get()
       self._GL = self._G3
       return
@@ -126,10 +135,14 @@ class Decoder(object):
      return
 
     if control_code.is_invocation():
+      if DEBUG:
+        print("control code invocation.")
       control_code.invoke(self)
       return
 
     if control_code.is_designation():
+      if DEBUG:
+        print("control code designation")
       control_code.designate(self)
       return
 

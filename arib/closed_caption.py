@@ -104,7 +104,7 @@ class StatementBody(object):
 
 
 class DataUnit(object):
-  '''Data Unit structure as defined in ARIP B-24 Table 9-12 pg 157
+  '''Data Unit structure as defined in ARIB B-24 Table 9-12 pg 157
   '''
   def __init__(self, f):
     self._unit_separator = read.ucb(f)
