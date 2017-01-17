@@ -549,10 +549,10 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 12,11><Normal Text>ヤツを止める方法は?<Small Text>
 <Screen Posiiton to 13,11>おり<Normal Text><Small Text>
-<Screen Posiiton to 15,11><Normal Text>㈬にでも入れるか?
+<Screen Posiiton to 15,11><Normal Text>檻にでも入れるか?
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
-<Screen Posiiton to 15,12><Normal Text>その㈬は<Medium Text> <Normal Text>どうする?
+<Screen Posiiton to 15,12><Normal Text>その檻は<Medium Text> <Normal Text>どうする?
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,4><Normal Text>できることはないってのか?<yellow><Small Text>

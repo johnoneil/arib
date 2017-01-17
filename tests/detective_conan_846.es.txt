@@ -94,8 +94,8 @@
 <Screen Posiiton to 7,5><Normal Text>車だ<Medium Text>。<Normal Text>この棺は車に…<Medium Text>。<Normal Text>➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,4><Small Text><yellow>れいきゅうしゃ
-<Screen Posiiton to 13,2><Normal Text>ここは霊◻車の中だったんだ<Medium Text>。
-<Screen Posiiton to 7,8><white>（<Normal Text>４人<Medium Text>）<Normal Text>霊◻車<Medium Text>！？
+<Screen Posiiton to 13,2><Normal Text>ここは霊柩車の中だったんだ<Medium Text>。
+<Screen Posiiton to 7,8><white>（<Normal Text>４人<Medium Text>）<Normal Text>霊柩車<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Normal Text><yellow>ああ<Medium Text> <Normal Text>線香のにおいと➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -109,14 +109,14 @@
 <Screen Posiiton to 12,2><Medium Text>（<Normal Text>元太<Medium Text>・<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>ええ〜っ<Medium Text>！？
 <Screen Posiiton to 7,8>（<Normal Text>歩美<Medium Text>）<Normal Text>す<Medium Text> <Normal Text>すぐに探そう！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 5,0><Medium Text>（<Normal Text>元太<Medium Text>）<Normal Text>おう<Medium Text> <Normal Text>霊◻車だったら
+<Screen Posiiton to 5,0><Medium Text>（<Normal Text>元太<Medium Text>）<Normal Text>おう<Medium Text> <Normal Text>霊柩車だったら
 <Screen Posiiton to 6,3>すぐ見つかるぜ<Medium Text>。
 <Screen Posiiton to 7,17>（<Normal Text>光彦<Medium Text>）<Normal Text>ですね！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,9><Normal Text>どうかしら？
 <Screen Posiiton to 7,2><Medium Text>（<Normal Text>元太<Medium Text>・<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>えっ？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,2>今は<Medium Text> <Normal Text>昔ながらの霊◻車が
+<Screen Posiiton to 6,2>今は<Medium Text> <Normal Text>昔ながらの霊柩車が
 <Screen Posiiton to 7,2>少なくて➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>普通のセダンタイプが
@@ -144,7 +144,7 @@
 <Screen Posiiton to 6,0>たった今<Medium Text> <Normal Text>お葬式が
 <Screen Posiiton to 7,0>終わったところがあれば…<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,5><Normal Text>なるほど！そこから出発した<Small Text><Normal Text>霊◻車の中に<Medium Text> <Normal Text>コナン君が<Medium Text>。
+<Screen Posiiton to 13,5><Normal Text>なるほど！そこから出発した<Small Text><Normal Text>霊柩車の中に<Medium Text> <Normal Text>コナン君が<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>で<Medium Text> <Normal Text>でも<Medium Text> <Normal Text>それがホントなら
 <Screen Posiiton to 7,3>行き先は…<Medium Text>。
@@ -175,9 +175,9 @@
 <Screen Posiiton to 13,7><Normal Text>見つかりました！
 <Screen Posiiton to 7,0><green>ホント<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 15,3><Normal Text>あいつ<Medium Text> <Normal Text>今<Medium Text> <Normal Text>霊◻車の中だぜ<Medium Text>。
+<Screen Posiiton to 15,3><Normal Text>あいつ<Medium Text> <Normal Text>今<Medium Text> <Normal Text>霊柩車の中だぜ<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 7,5><green>れ<Medium Text> <Normal Text>霊◻車<Medium Text>！？
+<Screen Posiiton to 7,5><green>れ<Medium Text> <Normal Text>霊柩車<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><green>あ…あら？ここって…<Medium Text>。
 <Screen Posiiton to 7,3><white>（<Normal Text>元太たち<Medium Text>）<Normal Text>ん？
@@ -243,7 +243,7 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><cyan>ついさっき終わった<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><cyan>霊◻車も<Medium Text><green> <Normal Text><cyan>遺族と一緒に火葬場に出発した<Medium Text>。
+<Screen Posiiton to 6,5><cyan>霊柩車も<Medium Text><green> <Normal Text><cyan>遺族と一緒に火葬場に出発した<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9><Normal Text><green>なんですって<Medium Text>！？
 <Screen Posiiton to 7,7><white>（<Normal Text>３人<Medium Text>）<Normal Text>やっぱり…<Medium Text>。
@@ -269,7 +269,7 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,17><Normal Text><cyan>わかってるよ！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,1><Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>今日ここを出た霊◻車は<Small Text>
+<Screen Posiiton to 13,1><Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>今日ここを出た霊柩車は<Small Text>
 <Screen Posiiton to 15,7><Normal Text>その１台だけだそうよ<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>で<Medium Text> <Normal Text>火葬場に連絡してもらったら➡
@@ -337,7 +337,7 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Normal Text>毛利さん<Medium Text> <Normal Text>やはり<Medium Text> <Normal Text>支店のひとつに<Small Text><Normal Text>立ち寄っていました<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 7,9>会長の霊◻車<Medium Text>。
+<Screen Posiiton to 7,9>会長の霊柩車<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>しかし<Medium Text> <Normal Text>今日は休日で<Small Text>
 <Screen Posiiton to 15,3><Normal Text>道路状況が悪いということで➡
@@ -498,7 +498,7 @@
 <Screen Posiiton to 15,7><Normal Text><yellow>灰原<Medium Text> <Normal Text>聞こえるか？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><cyan>な<Medium Text> <Normal Text>何<Medium Text>！？
-<Screen Posiiton to 7,4><Normal Text>もう１台<Medium Text> <Normal Text>別の霊◻車が？
+<Screen Posiiton to 7,4><Normal Text>もう１台<Medium Text> <Normal Text>別の霊柩車が？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,6><green>うん<Medium Text> <Normal Text>コナン君が
 <Screen Posiiton to 7,6>そう言ってきたって<Medium Text>。
@@ -528,14 +528,14 @@
 <Screen Posiiton to 7,5><Medium Text>（<Normal Text>３人<Medium Text>）<Normal Text>くっ<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>警部！やはり<Medium Text> <Normal Text>もう１台
-<Screen Posiiton to 7,0>霊◻車が存在しました<Medium Text>。
+<Screen Posiiton to 7,0>霊柩車が存在しました<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,23><Normal Text>本当か<Medium Text>！？
 <Screen Posiiton to 6,13><Small Text>はいしゃ
 <Screen Posiiton to 15,0><Normal Text>なんでも今朝<Medium Text> <Normal Text>廃車扱いで➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>スクラップに出した
-<Screen Posiiton to 7,0>古いタイプの霊◻車で➡
+<Screen Posiiton to 7,0>古いタイプの霊柩車で➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>地下の駐車場に
 <Screen Posiiton to 7,0>停められていたそうです<Medium Text>。
@@ -553,7 +553,7 @@
 <Screen Posiiton to 6,6><Normal Text><green>もしもし<Medium Text> <Normal Text>哀ちゃん！
 <Screen Posiiton to 7,3>一体<Medium Text> <Normal Text>どこに<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1><green>え…？コナン君の霊◻車を
+<Screen Posiiton to 6,1><green>え…？コナン君の霊柩車を
 <Screen Posiiton to 7,1>追いかけてる<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>何<Medium Text>！？
@@ -591,7 +591,7 @@
 <Screen Posiiton to 5,0><Medium Text>（<Normal Text>灰原<Medium Text>）
 <Screen Posiiton to 6,2><Normal Text>ゆかりの場所に立ち寄<Medium Text>っ<Normal Text>てるかに思えた徐行や停車も…<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1><yellow>ポンコツ霊◻車のエンジン不調<Medium Text>。<Normal Text>ただの偶然だったってわけだ<Medium Text>。
+<Screen Posiiton to 6,1><yellow>ポンコツ霊柩車のエンジン不調<Medium Text>。<Normal Text>ただの偶然だったってわけだ<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><yellow>そんで…これには
 <Screen Posiiton to 7,5>そんな裏事情があった<Medium Text>。
@@ -767,7 +767,7 @@ Data group found. Continuing.
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,7><cyan>あ〜っ！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,6><cyan>遺言状は！ま<Medium Text> <Normal Text>まさか霊◻車と一緒に<Medium Text>！？
+<Screen Posiiton to 6,6><cyan>遺言状は！ま<Medium Text> <Normal Text>まさか霊柩車と一緒に<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>なんてこった！
 <Screen Posiiton to 7,6><green>あれ<Medium Text> <Normal Text>コナン君は？
@@ -877,7 +877,7 @@ Data group found. Continuing.
 <Screen Posiiton to 6,0><cyan>いずれ解放するつもりの
 <Screen Posiiton to 7,0>コナンと一緒に➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><cyan>使われていない霊◻車に
+<Screen Posiiton to 6,0><cyan>使われていない霊柩車に
 <Screen Posiiton to 7,0>隠したのは<Medium Text><white> <Normal Text><cyan>よかったが➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>まさか今日

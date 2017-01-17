@@ -884,7 +884,7 @@
 <clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X">
 <Screen Posiiton to 6,3><Small Text><green>いわき<Medium Text>
 <Screen Posiiton to 6,11><Small Text>こういち<Medium Text>
-<Screen Posiiton to 7,3><Normal Text>男<Medium Text> <Normal Text>岩城<Medium Text> <Normal Text>⑥一でございます<Medium Text>。
+<Screen Posiiton to 7,3><Normal Text>男<Medium Text> <Normal Text>岩城<Medium Text> <Normal Text>滉一でございます<Medium Text>。
 <clear screen><CS:"7 S"><CS:"36;36 W"><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><CS:"24 Y"><CS:"4 X"><Medium Text>
 <Screen Posiiton to 6,1>（<Normal Text>岩城<Medium Text>）<Normal Text>俺かよ<Medium Text>。
 <Screen Posiiton to 7,1><Normal Text><green>どんな発言をするんでしょうか<Medium Text>。
