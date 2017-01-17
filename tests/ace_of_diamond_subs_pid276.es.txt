@@ -9,6 +9,28 @@
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"190;359 a">じぶん<Normal Text><CS:"170;419 a">自分のことみたいに<Small Text><CS:"190;449 a">よろこ<Normal Text><CS:"190;509 a">喜んでたよ!
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"290;359 a">えい<Normal Text><CS:"170;419 a">やっぱ栄ちゃんは<Small Text><CS:"190;449 a">おれ<Normal Text><CS:"190;509 a">俺たちの<Medium Text>ヒーロー<Normal Text>だ!<Medium Text> <Normal Text>って<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -3174437220813644284
+DRCS character: font: 0
+      ▐█ 
+     ▐██ 
+    ██▌▐ 
+    █▌▐█ 
+    ▌▐██ 
+    ██▌▐ 
+    █▌ ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌ █▐ 
+    ▌▐██ 
+  ▐▌▌███ 
+  ██▌██▌ 
+ ▐██▌▐█  
+ ▐██     
+  █▌     
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a">�〜
 <clear screen>
@@ -63,10 +85,76 @@
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"270;359 a">じゅん<Normal Text><CS:"270;419 a">純さん<Medium Text> サードフライ<Normal Text>です<Medium Text>。<Small Text><CS:"390;449 a">み<Normal Text><CS:"290;509 a">どう見ても<Medium Text>。
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"330;359 a">ふん<Normal Text><CS:"170;419 a">�もう<Medium Text>10<Normal Text>分くらい<Small Text><CS:"290;449 a">かま<CS:"590;449 a">てつ<Medium Text><CS:"230;509 a">バット<Normal Text>構えたままだぜ<Medium Text> <Normal Text>哲さん<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"530;449 a">ちかよ<Normal Text><CS:"350;509 a">�つうか<Medium Text> <Normal Text>近寄れねぇ…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -3174437220813644284
+DRCS character: font: 0
+      ▐█ 
+     ▐██ 
+    ██▌▐ 
+    █▌▐█ 
+    ▌▐██ 
+    ██▌▐ 
+    █▌ ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌ █▐ 
+    ▌▐██ 
+  ▐▌▌███ 
+  ██▌██▌ 
+ ▐██▌▐█  
+ ▐██     
+  █▌     
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a">�〜
 <clear screen>
@@ -75,8 +163,52 @@
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"430;449 a">れんしゅう<Normal Text><CS:"250;509 a">よし<Medium Text> <Normal Text>いい練習だった<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;419 a">えぇ!<CS:"230;509 a">どんな<Medium Text>!?
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"350;359 a">じゅん<Normal Text><CS:"170;419 a">�<Medium Text>キャプテン<Normal Text>も純さんも<Small Text><CS:"370;449 a">きはく<CS:"470;449 a">ちが<Normal Text><CS:"230;509 a">やっぱ気迫が違うな<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"410;359 a">おれ<Normal Text><CS:"270;419 a">�ああ<Medium Text> <Normal Text>俺たちも<Small Text><CS:"450;449 a">こえ<CS:"510;449 a">だ<Normal Text><CS:"330;509 a">もっと声出していこうぜ<Medium Text>。
 <clear screen>
@@ -210,6 +342,28 @@
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"430;449 a">にん<Medium Text><CS:"370;509 a">(<Normal Text>3人<Medium Text>)<Normal Text>え?
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"190;359 a">はるの<Medium Text><CS:"170;419 a">(<Normal Text>春乃<Medium Text>)ブラスバンド<Normal Text>とか<Medium Text> チア<Normal Text>とか<Small Text><CS:"330;449 a">れんしゅう<Normal Text><CS:"210;509 a">みんな練習してて…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -3174437220813644284
+DRCS character: font: 0
+      ▐█ 
+     ▐██ 
+    ██▌▐ 
+    █▌▐█ 
+    ▌▐██ 
+    ██▌▐ 
+    █▌ ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌ █▐ 
+    ▌▐██ 
+  ▐▌▌███ 
+  ██▌██▌ 
+ ▐██▌▐█  
+ ▐██     
+  █▌     
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a">�〜
 <clear screen>
@@ -293,6 +447,28 @@
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"170;449 a">あせ<CS:"510;449 a">なお<Normal Text><CS:"170;509 a">焦らずに<Medium Text> <Normal Text>じっくり治せよ<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -3174437220813644284
+DRCS character: font: 0
+      ▐█ 
+     ▐██ 
+    ██▌▐ 
+    █▌▐█ 
+    ▌▐██ 
+    ██▌▐ 
+    █▌ ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌ █▐ 
+    ▌▐██ 
+  ▐▌▌███ 
+  ██▌██▌ 
+ ▐██▌▐█  
+ ▐██     
+  █▌     
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a">�〜
 <clear screen>
@@ -334,8 +510,52 @@
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"310;449 a">ついし<CS:"630;449 a">う<Normal Text><CS:"310;509 a">追試は<Medium Text> <Normal Text>ちゃんと受けろよ<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"430;449 a">ついし<Normal Text><CS:"390;509 a">《追試…》
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"430;449 a">ばん<Normal Text><CS:"170;509 a">�あいつが<Medium Text> 11<Normal Text>番か…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"210;359 a">はる<CS:"470;359 a">ばん<Normal Text><CS:"170;419 a">�春のときは<Medium Text> 18<Normal Text>番だから<Small Text><CS:"190;449 a">だいしゅっせ<Normal Text><CS:"190;509 a">大出世だな<Medium Text>。
 <clear screen>
@@ -456,8 +676,52 @@
 <clear screen>
 <clear screen>
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: -7036522249175460012
+DRCS character: font: 0
+         
+         
+   ▐▌    
+   ▌▌    
+  ▐ ▌ ▌  
+ █▌ ▌▌▐  
+ ▌▌ ▌▐▐  
+ ▌▌ ▌▐▐  
+ ▌▌ ▌▐▐  
+ ▌▌ ▌▐▐  
+ ▌▌ ▌▐▐  
+ ▌▌ ▌▐▐  
+ █▌ ▌▐▐  
+  ▐ ▌▌▐  
+   ▌▌ ▌  
+   ▐▌    
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"390;359 a">ぜんこくこうこうやきゅうせんしゅけん<Normal Text><CS:"170;419 a">�これより<Medium Text> <Normal Text>全国高校野球選手権<Small Text><CS:"190;449 a">とうざいとうきょうたいかい<CS:"470;449 a">かいさい<Normal Text><CS:"190;509 a">東西東京大会を開催いたします<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -3174437220813644284
+DRCS character: font: 0
+      ▐█ 
+     ▐██ 
+    ██▌▐ 
+    █▌▐█ 
+    ▌▐██ 
+    ██▌▐ 
+    █▌ ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌  ▐ 
+    ▌ █▐ 
+    ▌▐██ 
+  ▐▌▌███ 
+  ██▌██▌ 
+ ▐██▌▐█  
+ ▐██     
+  █▌     
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a">�〜
 <clear screen>
@@ -557,8 +821,52 @@
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"530;359 a">と<Normal Text><CS:"170;419 a">《まずは<Medium Text> <Normal Text>ちゃんと捕る<Medium Text>。<Small Text><CS:"490;449 a">ふ<Normal Text><CS:"230;509 a">そして<Medium Text> ベース<Normal Text>を踏む》
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;389 a">�<Medium Text>ナイスカバー。<Small Text><CS:"190;449 a">ゆうき<CS:"290;449 a">いま<CS:"370;449 a">はい<CS:"450;449 a">かた<Medium Text><CS:"170;509 a">(<Normal Text>結城<Medium Text>)<Normal Text>今の入り方はよかったぞ<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"350;449 a">ふるや<Normal Text><CS:"170;509 a">�いいぞ<Medium Text> <Normal Text>降谷<Medium Text>。
 <clear screen>
@@ -566,8 +874,52 @@
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"470;389 a">っしゃあ!<Small Text><white><CS:"230;449 a">みゆき<CS:"370;449 a">みっ<CS:"590;449 a">ま<CS:"670;449 a">あ<Medium Text><CS:"190;509 a">(<Normal Text>御幸<Medium Text>)ボール<Normal Text>3つ!<Medium Text> サード<Normal Text>間に合うぞ<Medium Text>。
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;419 a">�<Medium Text>ナイスフィールディング。<Normal Text><CS:"190;509 a">�やるじゃねえか<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 3626218632846089044
+DRCS character: font: 0
+         
+         
+     ██  
+    ██   
+   ██    
+  ██     
+ ██      
+         
+ ██████  
+ ██████  
+         
+ ██      
+  ██     
+   ██    
+    ██   
+     ██  
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a">�まぐれだけどな<Medium Text>。
 <clear screen>

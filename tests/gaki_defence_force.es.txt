@@ -1651,6 +1651,28 @@
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"190;449 a">「<Normal Text>この問題を1分以内に解け!<Medium Text>」。
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><cyan><CS:"430;329 a">わろ<Normal Text><CS:"310;389 a">普通に笑てるやん<Medium Text>。<Normal Text><yellow><CS:"290;449 a">めっちゃ<Medium Text> <Normal Text>笑うたで<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -6328951014288157962
+DRCS character: font: 0
+ ███████▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ███████▌
+ █▐▐██▐▐▌
+ ███████▌
+   ▐██   
+  ▐████  
+ ▐█▌  ██ 
+ ▐█   ▐█ 
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a">�<cyan>♪〜
 <clear screen>
@@ -1674,6 +1696,28 @@
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;419 a">えっ<Medium Text> <Normal Text>違うの?
+DRCS character font id: 0
+DRCS character hash: -6328951014288157962
+DRCS character: font: 0
+ ███████▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ███████▌
+ █▐▐██▐▐▌
+ ███████▌
+   ▐██   
+  ▐████  
+ ▐█▌  ██ 
+ ▐█   ▐█ 
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;359 a">�<Medium Text> <Normal Text>レスラーによるヘッドバット<CS:"270;419 a">執行<Medium Text>。
 <clear screen>
@@ -1728,6 +1772,28 @@
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;329 a">ペンとか入ってないですもんね<Medium Text>。<Normal Text><CS:"330;389 a">あっ<Medium Text> <Normal Text>ホンマや<Medium Text>。
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: 1113567731799993878
+DRCS character: font: 0
+   ▐██   
+  ▐▌  █  
+  ▌    ▌ 
+ ▐  ▐  ▐ 
+ ▐  █  ▐ 
+ ▌ ▐▐   ▌
+ ▌  ▐   ▌
+ ▌  ▐   ▌
+ ▌  ▐   ▌
+ ▌  ▐   ▌
+ ▌  ▐   ▌
+ ▌  ▐   ▌
+ ▌  ▐   ▌
+ ▐  ▐  ▐ 
+ ▐     ▐ 
+  ▌    ▌ 
+  ▐▌  █  
+   ▐██   
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>いや<Medium Text> <Normal Text>�からでしょ<Medium Text>。<Normal Text><cyan><CS:"390;509 a">そやなぁ<Medium Text>。
 <clear screen>
@@ -8770,6 +8836,28 @@
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;389 a"><再び地球防衛軍本部>
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: -6328951014288157962
+DRCS character: font: 0
+ ███████▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ███████▌
+ █▐▐██▐▐▌
+ ███████▌
+   ▐██   
+  ▐████  
+ ▐█▌  ██ 
+ ▐█   ▐█ 
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a">�<Medium Text>(<Normal Text>ノイズ<Medium Text>)
 <clear screen>
@@ -9004,6 +9092,28 @@
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♫〜
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: -6328951014288157962
+DRCS character: font: 0
+ ███████▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ███████▌
+ █▐▐██▐▐▌
+ ███████▌
+   ▐██   
+  ▐████  
+ ▐█▌  ██ 
+ ▐█   ▐█ 
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a">�<Medium Text>(<Normal Text>ノイズ<Medium Text>)
 <clear screen>
@@ -9160,6 +9270,28 @@
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;359 a"><すると…>
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: -6328951014288157962
+DRCS character: font: 0
+ ███████▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ▌      ▌
+ ███████▌
+ █▐▐██▐▐▌
+ ███████▌
+   ▐██   
+  ▐████  
+ ▐█▌  ██ 
+ ▐█   ▐█ 
+
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a">�<Medium Text>(<Normal Text>ノイズ<Medium Text>)
 <clear screen>

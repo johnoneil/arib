@@ -2,6 +2,28 @@
 <clear screen>
 <clear screen>
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: 7569189553178784666
+DRCS character: font: 0
+         
+ ███████ 
+ ▌     ▐ 
+ ▌█████▐ 
+ ▌▌   ▐▐ 
+ ▌▌   ▐▐ 
+ ▌▌   ▐▐ 
+ ▌█████▐ 
+ ▌     ▐ 
+ ███████ 
+   ▌     
+ ▐█████▌ 
+ ▌     ▐ 
+ ▌▐▐▐▐▐▐ 
+ ▌▌▌▌▌▌▐ 
+ ▌     ▐ 
+ ▐█████▌ 
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1>パソコンさとう<Normal Text><Small Text>
@@ -279,6 +301,28 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,12><Normal Text>はっ…<Medium Text>。
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: -4423112833225195876
+DRCS character: font: 0
+         
+         
+         
+ ▐██████ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+ ▐████ █ 
+ ▐██████ 
+         
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,0>モニター<Normal Text><Small Text>
@@ -377,6 +421,28 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,18><Normal Text>くっ!
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: -2447858794908567462
+DRCS character: font: 0
+    ▐▌   
+    ▌▌ ▐ 
+   ▐ ▌ ▌ 
+   ▌ ▌▐  
+  ▐  ▌▌  
+▐█▌  ▌   
+▐ ▌  ▌   
+▐ ▌  ▌   
+▐ ▌  ▌██ 
+▐ ▌  ▌   
+▐ ▌  ▌   
+▐█▌  ▌   
+  ▐  ▌▌  
+   ▌ ▌▐  
+   ▐ ▌ ▌ 
+    ▌▌ ▐ 
+    ▐▌   
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,3>かんぼうちょうかん<Normal Text><Small Text>
@@ -408,6 +474,28 @@
 <Screen Posiiton to 12,2><Normal Text>事実がない以上<Medium Text> <Normal Text>政府としては<Small Text>
 <Screen Posiiton to 13,8>くっ<Normal Text><Small Text>
 <Screen Posiiton to 15,2><Normal Text>テロに屈することなく➡
+DRCS character font id: 0
+DRCS character hash: -7054764751876937278
+DRCS character: font: 0
+         
+   ▌  ▌  
+   ▐ ▐   
+    ▌▌   
+  █████▌ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+  ████ ▌ 
+  █████▌ 
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,17>かいけつ<Normal Text><Small Text>
@@ -418,6 +506,28 @@
 <Screen Posiiton to 12,9><Normal Text>最大限の努力を尽くす<Small Text>
 <Screen Posiiton to 13,9>しょぞん<Normal Text><Small Text>
 <Screen Posiiton to 15,9><Normal Text>所存であります<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -7054764751876937278
+DRCS character: font: 0
+         
+   ▌  ▌  
+   ▐ ▐   
+    ▌▌   
+  █████▌ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+  ████ ▌ 
+  █████▌ 
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,11>らん<Normal Text><Small Text>
@@ -426,6 +536,28 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,0>かんぼうちょうかん<Normal Text><Small Text>
 <Screen Posiiton to 15,0><Normal Text>官房長官の記者会見の様子です<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -7054764751876937278
+DRCS character: font: 0
+         
+   ▌  ▌  
+   ▐ ▐   
+    ▌▌   
+  █████▌ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+  ████ ▌ 
+  █████▌ 
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 13,24><Normal Text>ちっ…<Medium Text>。<Normal Text><white><Small Text><Normal Text>�<Medium Text>(キャスター)<Normal Text>亜人<Medium Text> <Normal Text>佐藤から➡
@@ -471,6 +603,28 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 15,4><Normal Text>バカは死んでも治らないのか<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -7054764751876937278
+DRCS character: font: 0
+         
+   ▌  ▌  
+   ▐ ▐   
+    ▌▌   
+  █████▌ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+  ████ ▌ 
+  █████▌ 
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 13,2><Medium Text>(<Normal Text>攻<Medium Text>)<Normal Text>なあ<Medium Text> <Normal Text>ハンカチ持ってねぇ?�<Medium Text>(キャスター)<Normal Text>こちらが佐藤と➡
@@ -741,6 +895,28 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 15,0><Normal Text>はっ…<Medium Text>。 <Normal Text>ちっ!
+DRCS character font id: 0
+DRCS character hash: 7675785349947576464
+DRCS character: font: 0
+      ▐▌ 
+      ▐▌ 
+  █████▌ 
+ ▐█   █▌ 
+ ▐▌   ▐▌ 
+ ▐▌   ▐▌ 
+ ▐█   █▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+  █████  
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,0><Normal Text>�<Medium Text>(メール<Normal Text>着信<Medium Text>・マナーモード)<Normal Text><yellow><Small Text>
@@ -911,11 +1087,99 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,0><Normal Text>♫〜
+DRCS character font id: 0
+DRCS character hash: -8588766517861681222
+DRCS character: font: 0
+    ▌▐   
+    ▌▐   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▌▐    
+   ▌▐    
+   ▌▐    
+   ▌▐    
+   ▌▐    
+   ▌▐    
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+    ▌▐   
+    ▌▐   
+    ▐ ▌  
+         
+
+DRCS character font id: 0
+DRCS character hash: -137322149189423910
+DRCS character: font: 0
+   ▌▐    
+   ▌▐    
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+    ▌▐   
+    ▌▐   
+    ▌▐   
+    ▌▐   
+    ▌▐   
+    ▌▐   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▌▐    
+   ▌▐    
+  ▐ ▌    
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,15>ゆう<Medium Text><Small Text>
 <Screen Posiiton to 15,2><Medium Text>(<Normal Text>恋人<Medium Text>・<Normal Text>回想<Medium Text>)<Normal Text>�優<Medium Text>。 <Normal Text>優さぁ…�
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: -8884896295922033014
+DRCS character: font: 0
+ ╳╳╳
+ ╳╳╳
+ ╳╳╳
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+╳╳╳ 
+ ╳╳╳
+ ╳╳╳
+ ╳╳╳
+
+DRCS character font id: 0
+DRCS character hash: -5876459750587952470
+DRCS character: font: 0
+╳╳╳ 
+ ╳╳╳
+ ╳╳╳
+ ╳╳╳
+ ╳╳╳
+ ╳╳╳
+  ╳╳
+  ╳╳
+  ╳╳
+  ╳╳
+  ╳╳
+  ╳╳
+ ╳╳╳
+ ╳╳╳
+ ╳╳╳
+ ╳╳╳
+ ╳╳╳
+╳╳╳ 
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 13,0><Medium Text>(<Normal Text>恋人<Medium Text>)�<Normal Text>タバコやめないの?<Medium Text>◻
@@ -933,6 +1197,50 @@ Data group found. Continuing.
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 13,0><Medium Text>(<Normal Text>恋人<Medium Text>)�<Normal Text>タバコやめないの?<Medium Text>◻
 <Screen Posiiton to 15,17><Medium Text>�<Normal Text>また言う<Medium Text>犖
+DRCS character font id: 0
+DRCS character hash: -8588766517861681222
+DRCS character: font: 0
+    ▌▐   
+    ▌▐   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▌▐    
+   ▌▐    
+   ▌▐    
+   ▌▐    
+   ▌▐    
+   ▌▐    
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+    ▌▐   
+    ▌▐   
+    ▐ ▌  
+         
+
+DRCS character font id: 0
+DRCS character hash: -137322149189423910
+DRCS character: font: 0
+   ▌▐    
+   ▌▐    
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+    ▌▐   
+    ▌▐   
+    ▌▐   
+    ▌▐   
+    ▌▐   
+    ▌▐   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▌▐    
+   ▌▐    
+  ▐ ▌    
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 12,0><Medium Text>(<Normal Text>恋人<Medium Text>)<Normal Text>�だって<Medium Text> <Normal Text>あなたと<Small Text>
@@ -952,13 +1260,79 @@ Data group found. Continuing.
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,24>しもむら<Normal Text><Small Text>
 <Screen Posiiton to 15,17><Normal Text>行くぞ<Medium Text> <Normal Text>下村君<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 7675785349947576464
+DRCS character: font: 0
+      ▐▌ 
+      ▐▌ 
+  █████▌ 
+ ▐█   █▌ 
+ ▐▌   ▐▌ 
+ ▐▌   ▐▌ 
+ ▐█   █▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+  █████  
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,15><Normal Text>�<Small Text>
 <Screen Posiiton to 15,13><Normal Text>ん?
+DRCS character font id: 0
+DRCS character hash: 7675785349947576464
+DRCS character: font: 0
+      ▐▌ 
+      ▐▌ 
+  █████▌ 
+ ▐█   █▌ 
+ ▐▌   ▐▌ 
+ ▐▌   ▐▌ 
+ ▐█   █▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+  █████  
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,14><Normal Text>�
+DRCS character font id: 0
+DRCS character hash: 7675785349947576464
+DRCS character: font: 0
+      ▐▌ 
+      ▐▌ 
+  █████▌ 
+ ▐█   █▌ 
+ ▐▌   ▐▌ 
+ ▐▌   ▐▌ 
+ ▐█   █▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+  █████  
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,9>けいたいそうさおん<Normal Text><Small Text>
@@ -968,12 +1342,56 @@ Data group found. Continuing.
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,6>だれ<Normal Text><Small Text>
 <Screen Posiiton to 15,6><Normal Text>誰だ?<Medium Text> <Normal Text>なぜ<Medium Text> <Normal Text>この番号を…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 7675785349947576464
+DRCS character: font: 0
+      ▐▌ 
+      ▐▌ 
+  █████▌ 
+ ▐█   █▌ 
+ ▐▌   ▐▌ 
+ ▐▌   ▐▌ 
+ ▐█   █▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+  █████  
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 13,6><Normal Text>�<Medium Text> <Normal Text>いいから<Medium Text> <Normal Text>テレビを見ろ<Medium Text>。<Normal Text>早く!
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Normal Text>タッ<Medium Text> <Normal Text>タッ
+DRCS character font id: 0
+DRCS character hash: -7054764751876937278
+DRCS character: font: 0
+         
+   ▌  ▌  
+   ▐ ▐   
+    ▌▌   
+  █████▌ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+  ████ ▌ 
+  █████▌ 
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,12>げんば<Normal Text><Small Text>
@@ -991,6 +1409,28 @@ Data group found. Continuing.
 <Screen Posiiton to 12,1><Normal Text>同乗しているのは<Medium Text> <Normal Text>逃亡中の亜人<Small Text>
 <Screen Posiiton to 13,11>じょうほう<Normal Text><Small Text>
 <Screen Posiiton to 15,1><Normal Text>永井圭との情報です<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 7675785349947576464
+DRCS character: font: 0
+      ▐▌ 
+      ▐▌ 
+  █████▌ 
+ ▐█   █▌ 
+ ▐▌   ▐▌ 
+ ▐▌   ▐▌ 
+ ▐█   █▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+  █████  
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,7><Normal Text>永井圭だと⁈<yellow><Small Text>
@@ -998,10 +1438,54 @@ Data group found. Continuing.
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><yellow><Small Text>
 <Screen Posiiton to 11,6><Normal Text>僕らが<Medium Text> <Normal Text>どこに向かってるかあんたなら分かるだろ…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 7675785349947576464
+DRCS character: font: 0
+      ▐▌ 
+      ▐▌ 
+  █████▌ 
+ ▐█   █▌ 
+ ▐▌   ▐▌ 
+ ▐▌   ▐▌ 
+ ▐█   █▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐▌▐ ▌▐▌ 
+ ▐█████▌ 
+  █████  
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,0><Normal Text>�<Medium Text> <Normal Text>プツッ<Medium Text>(<Normal Text>電話が切れる音<Medium Text>)<Normal Text><yellow><Small Text>
 <Screen Posiiton to 13,3><Normal Text>あっ…<Medium Text> <Normal Text>くそっ<Medium Text> <Normal Text>バッテリーが!
+DRCS character font id: 0
+DRCS character hash: -7054764751876937278
+DRCS character: font: 0
+         
+   ▌  ▌  
+   ▐ ▐   
+    ▌▌   
+  █████▌ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+  ████ ▌ 
+  █████▌ 
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 8,9>けいさつ<Normal Text><Small Text>
@@ -1013,10 +1497,54 @@ Data group found. Continuing.
 <Screen Posiiton to 9,6>ひか<Normal Text><Small Text>
 <Screen Posiiton to 11,0><Normal Text>外出を控えるように求めて…<Medium Text>。<Normal Text><Small Text>
 <Screen Posiiton to 13,8><Normal Text>この道は…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -7054764751876937278
+DRCS character: font: 0
+         
+   ▌  ▌  
+   ▐ ▐   
+    ▌▌   
+  █████▌ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+  ████ ▌ 
+  █████▌ 
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,0><Normal Text>�<Medium Text>(キャスター)<Normal Text><Small Text>
 <Screen Posiiton to 13,0><Normal Text>また<Medium Text> <Normal Text>運転をする協力者と共に…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -7054764751876937278
+DRCS character: font: 0
+         
+   ▌  ▌  
+   ▐ ▐   
+    ▌▌   
+  █████▌ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+  ████ ▌ 
+  █████▌ 
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 8,13>やろう<Normal Text><Small Text>
@@ -1394,6 +1922,28 @@ Data group found. Continuing.
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Medium Text><Small Text>
 <Screen Posiiton to 15,11><Medium Text>(ゲン)<Normal Text>おっ<Medium Text> <Normal Text>始まったぞ<Medium Text>。
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: 7569189553178784666
+DRCS character: font: 0
+         
+ ███████ 
+ ▌     ▐ 
+ ▌█████▐ 
+ ▌▌   ▐▐ 
+ ▌▌   ▐▐ 
+ ▌▌   ▐▐ 
+ ▌█████▐ 
+ ▌     ▐ 
+ ███████ 
+   ▌     
+ ▐█████▌ 
+ ▌     ▐ 
+ ▌▐▐▐▐▐▐ 
+ ▌▌▌▌▌▌▐ 
+ ▌     ▐ 
+ ▐█████▌ 
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>◻ <Normal Text>やあ<Medium Text> <Normal Text>またまた会ったね<Medium Text>。<Normal Text><Small Text>
@@ -1413,31 +1963,185 @@ Data group found. Continuing.
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text>だから<Medium Text> <Normal Text>始めることにした<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -4423112833225195876
+DRCS character: font: 0
+         
+         
+         
+ ▐██████ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+ ▐████ █ 
+ ▐██████ 
+         
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,1><Normal Text>�<Medium Text>(<Normal Text>若井<Medium Text>)<Normal Text>んん…<Medium Text> <Normal Text>んっ<Medium Text> <Normal Text>んっ…<Medium Text>。<Normal Text>➡
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,6><Normal Text>んっ…<Medium Text> <Normal Text>んん<Medium Text> <Normal Text>んん…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -4423112833225195876
+DRCS character: font: 0
+         
+         
+         
+ ▐██████ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+ ▐████ █ 
+ ▐██████ 
+         
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,2><Normal Text>�<Medium Text> <Normal Text>そう<Small Text>
 <Screen Posiiton to 15,2><Normal Text>トップバッターの若井さんだ<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -4423112833225195876
+DRCS character: font: 0
+         
+         
+         
+ ▐██████ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+ ▐████ █ 
+ ▐██████ 
+         
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Normal Text>�<Medium Text>(<Normal Text>若井<Medium Text>)<Normal Text><Small Text>
 <Screen Posiiton to 15,1><Normal Text>んっ<Medium Text> <Normal Text>んんっ!<Medium Text> <Normal Text>んん〜<Medium Text> <Normal Text>んん〜!
+DRCS character font id: 0
+DRCS character hash: -4423112833225195876
+DRCS character: font: 0
+         
+         
+         
+ ▐██████ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+ ▐████ █ 
+ ▐██████ 
+         
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,6><Normal Text>�<Medium Text> <Normal Text>そして<Medium Text> <Normal Text>これが…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -4423112833225195876
+DRCS character: font: 0
+         
+         
+         
+ ▐██████ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+ ▐████ █ 
+ ▐██████ 
+         
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Normal Text>�<Medium Text>(<Normal Text>若井<Medium Text>)<Normal Text>ん…<Medium Text> <Normal Text>んんっ<Medium Text> <Normal Text>んん〜!<Small Text>
 <Screen Posiiton to 15,1><Normal Text>んっ<Medium Text> <Normal Text>んっ!<Medium Text> <Normal Text>んん…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -4423112833225195876
+DRCS character: font: 0
+         
+         
+         
+ ▐██████ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+ ▐████ █ 
+ ▐██████ 
+         
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Normal Text>�<Medium Text> <Normal Text>バン!
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: -4423112833225195876
+DRCS character: font: 0
+         
+         
+         
+ ▐██████ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+ ▐████ █ 
+ ▐██████ 
+         
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,4><Normal Text>�<Medium Text> <Normal Text>カウントダウン開始の<Small Text>
@@ -1453,11 +2157,55 @@ Data group found. Continuing.
 <Screen Posiiton to 13,18>こま<Normal Text><Small Text>
 <Screen Posiiton to 15,2><Normal Text>次のウェーブへと駒を進める<Medium Text>。
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: 7569189553178784666
+DRCS character: font: 0
+         
+ ███████ 
+ ▌     ▐ 
+ ▌█████▐ 
+ ▌▌   ▐▐ 
+ ▌▌   ▐▐ 
+ ▌▌   ▐▐ 
+ ▌█████▐ 
+ ▌     ▐ 
+ ███████ 
+   ▌     
+ ▐█████▌ 
+ ▌     ▐ 
+ ▌▐▐▐▐▐▐ 
+ ▌▌▌▌▌▌▐ 
+ ▌     ▐ 
+ ▐█████▌ 
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,0><Normal Text>◻(<Normal Text>佐藤<Medium Text>)<Normal Text><Small Text>
 <Screen Posiiton to 15,0><Normal Text>第3…<Medium Text> <Normal Text>それが最終ウェーブだ<Medium Text>。
 <clear screen>
+DRCS character font id: 0
+DRCS character hash: -4423112833225195876
+DRCS character: font: 0
+         
+         
+         
+ ▐██████ 
+ ▐██████ 
+ ▐▌    █ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐     ▐ 
+ ▐▌    █ 
+ ▐██████ 
+ ▐████ █ 
+ ▐████ █ 
+ ▐██████ 
+         
+         
+         
+
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,18>とうち<Normal Text><Small Text>

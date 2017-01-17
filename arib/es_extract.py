@@ -22,6 +22,10 @@ import arib.control_characters as control_characters
 from arib.data_group import DataGroup
 from arib.data_group import next_data_group
 
+# print out some additional info for DRCS values
+from arib.closed_caption import set_DRCS_debug
+set_DRCS_debug(True)
+
 
 DISPLAYED_CC_STATEMENTS = [
   code_set.Kanji,

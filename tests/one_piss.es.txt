@@ -629,6 +629,28 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,21><Small Text>ふけ<Normal Text>
 <Screen Posiiton to 7,2>こっちの方が<Medium Text> <Normal Text>根が深え<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -6623079553638809300
+DRCS character: font: 0
+  ████   
+  █▐▐▐   
+  ▌▌▌█   
+ ██▐▐▐█  
+ ▌▌▌▌█▐  
+ ▌█▐▐▐▐  
+ ▌▌▌▌█▐  
+ ▌████▐  
+ ▌████▐  
+ ▌█  █▐  
+ ▌████▐  
+ ▌████▐  
+ ▌    ▐  
+ ██████▐ 
+   ▐▌  ▌ 
+   ▐▌  ▌ 
+ ▐████▌▌ 
+▐██▌▐██▌ 
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,15><Small Text>だつらくしゃ<Normal Text>
 <Screen Posiiton to 7,0>�<Medium Text>（ギャッツ）<Normal Text>すでに<Medium Text> <Normal Text>脱落者<Medium Text> <Normal Text>続々！➡
@@ -741,6 +763,28 @@
 <Screen Posiiton to 7,1><yellow>うおー！<Medium Text> <Normal Text>いけー<Medium Text> <Normal Text>ウーシー！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9>（<Normal Text>闘牛<Medium Text>）<Normal Text>モー！
+DRCS character font id: 0
+DRCS character hash: -6623079553638809300
+DRCS character: font: 0
+  ████   
+  █▐▐▐   
+  ▌▌▌█   
+ ██▐▐▐█  
+ ▌▌▌▌█▐  
+ ▌█▐▐▐▐  
+ ▌▌▌▌█▐  
+ ▌████▐  
+ ▌████▐  
+ ▌█  █▐  
+ ▌████▐  
+ ▌████▐  
+ ▌    ▐  
+ ██████▐ 
+   ▐▌  ▌ 
+   ▐▌  ▌ 
+ ▐████▌▌ 
+▐██▌▐██▌ 
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>�<Medium Text>（ギャッツ）<Normal Text>私も好きだー！
 <Screen Posiiton to 7,2>この男！<Medium Text> <Normal Text>ギャハハ！
@@ -803,11 +847,55 @@
 <Screen Posiiton to 7,9>（<Normal Text>観客<Medium Text>）<Normal Text>ブル！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7>（<Normal Text>観客<Medium Text>）<Normal Text>ルーシー！
+DRCS character font id: 0
+DRCS character hash: -6623079553638809300
+DRCS character: font: 0
+  ████   
+  █▐▐▐   
+  ▌▌▌█   
+ ██▐▐▐█  
+ ▌▌▌▌█▐  
+ ▌█▐▐▐▐  
+ ▌▌▌▌█▐  
+ ▌████▐  
+ ▌████▐  
+ ▌█  █▐  
+ ▌████▐  
+ ▌████▐  
+ ▌    ▐  
+ ██████▐ 
+   ▐▌  ▌ 
+   ▐▌  ▌ 
+ ▐████▌▌ 
+▐██▌▐██▌ 
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1>�<Medium Text>（ギャッツ）<Normal Text>何と…<Medium Text> <Normal Text>あっけない！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,13><Normal Text>ふん<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+DRCS character font id: 0
+DRCS character hash: -6623079553638809300
+DRCS character: font: 0
+  ████   
+  █▐▐▐   
+  ▌▌▌█   
+ ██▐▐▐█  
+ ▌▌▌▌█▐  
+ ▌█▐▐▐▐  
+ ▌▌▌▌█▐  
+ ▌████▐  
+ ▌████▐  
+ ▌█  █▐  
+ ▌████▐  
+ ▌████▐  
+ ▌    ▐  
+ ██████▐ 
+   ▐▌  ▌ 
+   ▐▌  ▌ 
+ ▐████▌▌ 
+▐██▌▐██▌ 
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,3><Normal Text>�<Medium Text>（ギャッツ）<Normal Text>力の差は<Medium Text> <Normal Text>歴然！➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -820,6 +908,28 @@
 <Screen Posiiton to 7,3><Normal Text>謎の剣闘士<Medium Text> <Normal Text>ルーシーは…<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1>あっ<Medium Text>。 <Normal Text>ギャ…<Medium Text> <Normal Text>ギャッツさん<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -6623079553638809300
+DRCS character: font: 0
+  ████   
+  █▐▐▐   
+  ▌▌▌█   
+ ██▐▐▐█  
+ ▌▌▌▌█▐  
+ ▌█▐▐▐▐  
+ ▌▌▌▌█▐  
+ ▌████▐  
+ ▌████▐  
+ ▌█  █▐  
+ ▌████▐  
+ ▌████▐  
+ ▌    ▐  
+ ██████▐ 
+   ▐▌  ▌ 
+   ▐▌  ▌ 
+ ▐████▌▌ 
+▐██▌▐██▌ 
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,5><Normal Text>�<Medium Text>（ギャッツ）<Normal Text>力なく…<Medium Text> <Normal Text>ん？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -839,6 +949,28 @@
 <Screen Posiiton to 7,0>♫〜
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+DRCS character font id: 0
+DRCS character hash: -6623079553638809300
+DRCS character: font: 0
+  ████   
+  █▐▐▐   
+  ▌▌▌█   
+ ██▐▐▐█  
+ ▌▌▌▌█▐  
+ ▌█▐▐▐▐  
+ ▌▌▌▌█▐  
+ ▌████▐  
+ ▌████▐  
+ ▌█  █▐  
+ ▌████▐  
+ ▌████▐  
+ ▌    ▐  
+ ██████▐ 
+   ▐▌  ▌ 
+   ▐▌  ▌ 
+ ▐████▌▌ 
+▐██▌▐██▌ 
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,9><Small Text>たお<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>�<Medium Text>（ギャッツ）<Normal Text>巨人が<Medium Text> <Normal Text>倒れたー！

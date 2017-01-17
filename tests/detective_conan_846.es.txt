@@ -89,6 +89,28 @@
 <Screen Posiiton to 11,3>はいばらえどがわ
 <Screen Posiiton to 13,2><Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>どうしたの<Medium Text>！？<Normal Text>江戸川君<Medium Text>。
 <Screen Posiiton to 7,8><Normal Text>江戸川君！
+DRCS character font id: 0
+DRCS character hash: -3827305093498498888
+DRCS character: font: 0
+  ▐███   
+  █  ▐█  
+ ▐▌█▌▌▐  
+ ▐ ▌▌█▐▌ 
+ ▐ ▌▌█▐▌ 
+ ▐▌▌▌█▐▌ 
+ ▐▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+  ▌▌▌█▐▌ 
+  ▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+ ▐ █▌█▐▌ 
+ ▐    █▌ 
+ ▐█████  
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>�<Medium Text><yellow>（<Normal Text>探偵団<Medium Text>バッジ：コナン<Normal Text>の声<Medium Text>）
 <Screen Posiiton to 7,5><Normal Text>車だ<Medium Text>。<Normal Text>この棺は車に…<Medium Text>。<Normal Text>➡
@@ -126,6 +148,28 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>やっぱり<Small Text>
 <Screen Posiiton to 15,3><Normal Text>警察に知らせた方がいいわ<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -3827305093498498888
+DRCS character: font: 0
+  ▐███   
+  █  ▐█  
+ ▐▌█▌▌▐  
+ ▐ ▌▌█▐▌ 
+ ▐ ▌▌█▐▌ 
+ ▐▌▌▌█▐▌ 
+ ▐▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+  ▌▌▌█▐▌ 
+  ▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+ ▐ █▌█▐▌ 
+ ▐    █▌ 
+ ▐█████  
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9><Normal Text>�<yellow>待て<Medium Text> <Normal Text>灰原<Medium Text>。
 <Screen Posiiton to 7,13><Normal Text><white>ん…<Medium Text>。
@@ -134,6 +178,28 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><yellow>あの場所は
 <Screen Posiiton to 7,1>十中八九<Medium Text> <Normal Text>葬儀場だ<Medium Text>。<Normal Text>だから…<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -3827305093498498888
+DRCS character: font: 0
+  ▐███   
+  █  ▐█  
+ ▐▌█▌▌▐  
+ ▐ ▌▌█▐▌ 
+ ▐ ▌▌█▐▌ 
+ ▐▌▌▌█▐▌ 
+ ▐▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+  ▌▌▌█▐▌ 
+  ▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+ ▐ █▌█▐▌ 
+ ▐    █▌ 
+ ▐█████  
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,1><Normal Text>�<Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>わかった<Medium Text> <Normal Text>調べてみる<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
@@ -285,6 +351,28 @@
 <Screen Posiiton to 15,3><Normal Text>それが分かりゃ苦労は…➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text><yellow>また停まってんな<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -3827305093498498888
+DRCS character: font: 0
+  ▐███   
+  █  ▐█  
+ ▐▌█▌▌▐  
+ ▐ ▌▌█▐▌ 
+ ▐ ▌▌█▐▌ 
+ ▐▌▌▌█▐▌ 
+ ▐▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+  ▌▌▌█▐▌ 
+  ▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+ ▐ █▌█▐▌ 
+ ▐    █▌ 
+ ▐█████  
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>�<Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>またって？
 <Screen Posiiton to 7,6><yellow>ああ…<Medium Text>。
@@ -471,6 +559,28 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text>江戸川君！<Small Text>
 <Screen Posiiton to 15,5><Normal Text>今どこなの？江戸川君<Medium Text>！？
+DRCS character font id: 0
+DRCS character hash: -3827305093498498888
+DRCS character: font: 0
+  ▐███   
+  █  ▐█  
+ ▐▌█▌▌▐  
+ ▐ ▌▌█▐▌ 
+ ▐ ▌▌█▐▌ 
+ ▐▌▌▌█▐▌ 
+ ▐▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+  ▌▌▌█▐▌ 
+  ▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+ ▐ █▌█▐▌ 
+ ▐    █▌ 
+ ▐█████  
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text>�<Medium Text>（<Normal Text>ノイズ音<Medium Text>）
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
@@ -480,6 +590,28 @@
 <Screen Posiiton to 7,8><Normal Text>コナン君…<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text><yellow>灰原！灰原？
+DRCS character font id: 0
+DRCS character hash: -3827305093498498888
+DRCS character: font: 0
+  ▐███   
+  █  ▐█  
+ ▐▌█▌▌▐  
+ ▐ ▌▌█▐▌ 
+ ▐ ▌▌█▐▌ 
+ ▐▌▌▌█▐▌ 
+ ▐▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+  ▌▌▌█▐▌ 
+  ▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+ ▐ █▌█▐▌ 
+ ▐    █▌ 
+ ▐█████  
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5>�<Medium Text>（<Normal Text>ノイズ音<Medium Text>）
 <Screen Posiiton to 7,1><Normal Text><yellow>クッソー！一体どこ走ってんだ<Medium Text>！？
@@ -587,6 +719,28 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>あなたが閉じ込められているのは
 <Screen Posiiton to 7,0>棺の底なんかじゃなかったのよ！
+DRCS character font id: 0
+DRCS character hash: -3827305093498498888
+DRCS character: font: 0
+  ▐███   
+  █  ▐█  
+ ▐▌█▌▌▐  
+ ▐ ▌▌█▐▌ 
+ ▐ ▌▌█▐▌ 
+ ▐▌▌▌█▐▌ 
+ ▐▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+  ▌▌▌█▐▌ 
+  ▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+ ▐ █▌█▐▌ 
+ ▐    █▌ 
+ ▐█████  
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,0>�<Medium Text>（<Normal Text>灰原<Medium Text>）
 <Screen Posiiton to 6,2><Normal Text>ゆかりの場所に立ち寄<Medium Text>っ<Normal Text>てるかに思えた徐行や停車も…<Medium Text>。
@@ -639,10 +793,54 @@
 <Screen Posiiton to 7,0>右<Medium Text> <Normal Text>左<Medium Text> <Normal Text>左…その先に横断歩道は<Medium Text>！？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text>あ…結構あるわね<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: -3827305093498498888
+DRCS character: font: 0
+  ▐███   
+  █  ▐█  
+ ▐▌█▌▌▐  
+ ▐ ▌▌█▐▌ 
+ ▐ ▌▌█▐▌ 
+ ▐▌▌▌█▐▌ 
+ ▐▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+  ▌▌▌█▐▌ 
+  ▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+ ▐ █▌█▐▌ 
+ ▐    █▌ 
+ ▐█████  
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text>�<yellow>動き出した<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Medium Text>（<Normal Text>カンカンカン…<Medium Text>）
+DRCS character font id: 0
+DRCS character hash: -3827305093498498888
+DRCS character: font: 0
+  ▐███   
+  █  ▐█  
+ ▐▌█▌▌▐  
+ ▐ ▌▌█▐▌ 
+ ▐ ▌▌█▐▌ 
+ ▐▌▌▌█▐▌ 
+ ▐▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+  ▌▌▌█▐▌ 
+  ▌▌▌▌█  
+  ▌▌▌▐▌  
+  ▌▌▌▌█  
+  ▌▌▌█▐▌ 
+ ▐ █▌█▐▌ 
+ ▐    █▌ 
+ ▐█████  
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9><Normal Text><yellow>今度は踏切だ<Medium Text>。
 <Screen Posiiton to 7,7><Normal Text><white>�<Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>踏切<Medium Text>！？
@@ -756,9 +954,97 @@ Data group found. Continuing.
 <Screen Posiiton to 7,0>♫〜<yellow>ふう…危機一髪<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+DRCS character font id: 0
+DRCS character hash: -775118510460996568
+DRCS character: font: 0
+     ▐   
+     ▌   
+    ▐ ▐  
+    ▌ ▌  
+    ▌▐   
+   ▐ ▐   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▐   
+    ▌▐   
+    ▌ ▌  
+    ▐ ▐  
+     ▌   
+     ▐   
+
+DRCS character font id: 0
+DRCS character hash: -4397084408988046416
+DRCS character: font: 0
+  ▌      
+  ▐      
+ ▌ ▌     
+ ▐ ▐     
+  ▌▐     
+  ▌ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▌ ▌    
+  ▌▐     
+ ▐ ▐     
+ ▌ ▌     
+  ▐      
+  ▌      
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><yellow>�今だ！今しかねぇ！�
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+DRCS character font id: 0
+DRCS character hash: -775118510460996568
+DRCS character: font: 0
+     ▐   
+     ▌   
+    ▐ ▐  
+    ▌ ▌  
+    ▌▐   
+   ▐ ▐   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▌   
+   ▐ ▐   
+    ▌▐   
+    ▌ ▌  
+    ▐ ▐  
+     ▌   
+     ▐   
+
+DRCS character font id: 0
+DRCS character hash: -4397084408988046416
+DRCS character: font: 0
+  ▌      
+  ▐      
+ ▌ ▌     
+ ▐ ▐     
+  ▌▐     
+  ▌ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▐ ▌    
+  ▌ ▌    
+  ▌▐     
+ ▐ ▐     
+ ▌ ▌     
+  ▐      
+  ▌      
+
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,11><Medium Text>（<Normal Text>バン！<Medium Text>）
 <Screen Posiiton to 7,14><Normal Text><yellow>�う<Medium Text> <Normal Text>うわあ！�
