@@ -768,7 +768,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"230;509 a"><yellow>もしもし<Medium Text> <Normal Text>特命係です<Medium Text>。
 <clear screen>
 <clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"350;509 a">♫〜<Medium Text>（<Normal Text>歌声<Medium Text>）
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"350;509 a">�♫〜<Medium Text>（<Normal Text>歌声<Medium Text>）
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"270;509 a">杉下さんですか？<Medium Text> <Normal Text>梶原です<Medium Text>。
@@ -2004,7 +2004,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"170;509 a">♫〜
 <clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"450;509 a"><Medium Text>（<Normal Text>梶原<Medium Text>）<Normal Text>ただいま<Medium Text>。
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"450;509 a">�<Medium Text>（<Normal Text>梶原<Medium Text>）<Normal Text>ただいま<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"490;509 a"><Medium Text>（<Normal Text>初恵<Medium Text>）<Normal Text>おかえり<Medium Text>。
 <clear screen>
@@ -2645,7 +2645,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W">
 <clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"170;509 a">ああ…<Medium Text> <Normal Text>参った<Medium Text> <Normal Text>参った<Medium Text>。
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"170;509 a">�ああ…<Medium Text> <Normal Text>参った<Medium Text> <Normal Text>参った<Medium Text>。
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"290;449 a"><Small Text>しん<CS:"170;509 a"><Medium Text>（<Normal Text>里崎<Medium Text> <Normal Text>森<Medium Text>）<Normal Text>どうも<Medium Text>。 <Normal Text>ご無沙汰<Medium Text>。
@@ -3419,7 +3419,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"190;359 a"><Medium Text>（<Normal Text>小松真琴<Medium Text>）<Normal Text>笑ってるよ<Medium Text>。<CS:"230;419 a"><Normal Text>特命がそんなにうれしいかね？
 <clear screen>
-<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"190;329 a"><Medium Text>（<Normal Text>大木長十郎<Medium Text>）<Normal Text>どっかネジが１本<CS:"270;389 a">緩んでるんだな<Medium Text> <Normal Text>たぶん<Medium Text>。
+<CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"190;329 a">�<Medium Text>（<Normal Text>大木長十郎<Medium Text>）<Normal Text>どっかネジが１本<CS:"270;389 a">緩んでるんだな<Medium Text> <Normal Text>たぶん<Medium Text>。
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><CS:"410;359 a"><cyan>おはようございます<Medium Text>。<CS:"230;419 a"><Normal Text><yellow>おはようございます<Medium Text>。

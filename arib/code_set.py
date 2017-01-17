@@ -429,8 +429,9 @@ class DRCS0(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'{n} {s}'.format(n=unicode(self.__class__.__name__), s=u' '.join('{:#x}'.format(x) for x in self._args))
+    #return u'{n} {s}'.format(n=unicode(self.__class__.__name__), s=u' '.join('{:#x}'.format(x) for x in self._args))
     #return self.__class__.__name__ + ' '.join('{:#x}'.format(x) for x in self._args)
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -449,7 +450,7 @@ class DRCS1(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -467,7 +468,7 @@ class DRCS2(object):
   def __unicode__(self):
     '''stringify to
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -485,7 +486,7 @@ class DRCS3(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -503,7 +504,7 @@ class DRCS4(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -521,7 +522,7 @@ class DRCS5(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -539,7 +540,7 @@ class DRCS6(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -557,7 +558,7 @@ class DRCS7(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -575,7 +576,7 @@ class DRCS8(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -593,7 +594,7 @@ class DRCS9(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -611,7 +612,7 @@ class DRCS10(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -629,7 +630,7 @@ class DRCS11(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -647,7 +648,7 @@ class DRCS12(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -665,7 +666,7 @@ class DRCS13(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -683,7 +684,7 @@ class DRCS14(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):
@@ -701,7 +702,7 @@ class DRCS15(object):
   def __unicode__(self):
     '''stringify
     '''
-    return u'◻'
+    return u'�'
 
   @staticmethod
   def decode(b, f):

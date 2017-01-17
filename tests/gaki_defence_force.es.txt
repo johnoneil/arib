@@ -1652,7 +1652,7 @@
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><cyan><CS:"430;329 a">わろ<Normal Text><CS:"310;389 a">普通に笑てるやん<Medium Text>。<Normal Text><yellow><CS:"290;449 a">めっちゃ<Medium Text> <Normal Text>笑うたで<Medium Text>。
 <clear screen>
-<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a"><cyan>♪〜
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"170;509 a">�<cyan>♪〜
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"570;449 a">え〜!<CS:"550;509 a">1分やて<Medium Text>。
@@ -1675,7 +1675,7 @@
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;419 a">えっ<Medium Text> <Normal Text>違うの?
 <clear screen>
-<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;359 a"><Medium Text> <Normal Text>レスラーによるヘッドバット<CS:"270;419 a">執行<Medium Text>。
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;359 a">�<Medium Text> <Normal Text>レスラーによるヘッドバット<CS:"270;419 a">執行<Medium Text>。
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;359 a">ウソ!<Medium Text> <Normal Text>何で?<Medium Text><CS:"290;419 a">(<Normal Text>方正<Medium Text>) <Normal Text>いや<Medium Text> <Normal Text>遠藤…<Medium Text>。
 <clear screen>
@@ -1729,7 +1729,7 @@
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"190;329 a">ペンとか入ってないですもんね<Medium Text>。<Normal Text><CS:"330;389 a">あっ<Medium Text> <Normal Text>ホンマや<Medium Text>。
 <clear screen>
 <clear screen>
-<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>いや<Medium Text> <Normal Text>からでしょ<Medium Text>。<Normal Text><cyan><CS:"390;509 a">そやなぁ<Medium Text>。
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Medium Text><white><CS:"230;449 a">(<Normal Text>方正<Medium Text>) <Normal Text>いや<Medium Text> <Normal Text>�からでしょ<Medium Text>。<Normal Text><cyan><CS:"390;509 a">そやなぁ<Medium Text>。
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><yellow><CS:"350;509 a">こうします?
@@ -8771,7 +8771,7 @@
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"250;389 a"><再び地球防衛軍本部>
 <clear screen>
 <clear screen>
-<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a"><Medium Text>(<Normal Text>ノイズ<Medium Text>)
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a">�<Medium Text>(<Normal Text>ノイズ<Medium Text>)
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♪〜
@@ -9005,7 +9005,7 @@
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><cyan><CS:"170;509 a">♫〜
 <clear screen>
 <clear screen>
-<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a"><Medium Text>(<Normal Text>ノイズ<Medium Text>)
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a">�<Medium Text>(<Normal Text>ノイズ<Medium Text>)
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"770;509 a"> 
@@ -9161,7 +9161,7 @@
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"350;359 a"><すると…>
 <clear screen>
 <clear screen>
-<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a"><Medium Text>(<Normal Text>ノイズ<Medium Text>)
+<CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Normal Text><white><CS:"370;509 a">�<Medium Text>(<Normal Text>ノイズ<Medium Text>)
 <clear screen>
 <clear screen>
 <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><white><CS:"770;509 a"> 

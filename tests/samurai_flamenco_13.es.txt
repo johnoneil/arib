@@ -680,7 +680,7 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>《あっ…<Medium Text> <Normal Text>４》
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><Medium Text>（<Normal Text>通知音<Medium Text>）<Normal Text>
+<Screen Posiiton to 6,5>�<Medium Text>（<Normal Text>通知音<Medium Text>）<Normal Text>
 <Screen Posiiton to 7,5><yellow>うわ！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,10><Medium Text>（<Normal Text>ノック<Medium Text>）
@@ -901,29 +901,29 @@
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><yellow>代理？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
-<Screen Posiiton to 6,1><Normal Text>いったい<Medium Text> <Normal Text>どういうことかね<Medium Text>！？
+<Screen Posiiton to 6,1><Normal Text>�いったい<Medium Text> <Normal Text>どういうことかね<Medium Text>！？
 <Screen Posiiton to 7,1><Normal Text>要君とは<Medium Text> <Normal Text>連絡が取れないのか？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><yellow>今は<Medium Text> <Normal Text>まったく<Medium Text>。 <Normal Text>装備<Medium Text> <Normal Text>一式も
 <Screen Posiiton to 7,0>置いたままで<Medium Text> <Normal Text>出掛けたようです<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1>この国難に
+<Screen Posiiton to 6,1>�この国難に
 <Screen Posiiton to 7,1>最高責任者が失踪するとは！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7><Normal Text><yellow>申し訳ありません<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1>彼から<Medium Text> <Normal Text>情報が漏れる
+<Screen Posiiton to 6,1>�彼から<Medium Text> <Normal Text>情報が漏れる
 <Screen Posiiton to 7,1>ということはないだろうね？
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text><yellow>それは…<Medium Text>。
-<Screen Posiiton to 7,1><Normal Text><white>要人のシェルター避難には➡
+<Screen Posiiton to 7,1><Normal Text><white>�要人のシェルター避難には➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,5><Normal Text>あと３日は<Medium Text> <Normal Text>かかる<Medium Text>。
 <Screen Posiiton to 7,5><Normal Text>それまで<Medium Text> <Normal Text>この情報は➡
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7><Normal Text>隠し通してくれよ<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,3><Medium Text>（<Normal Text>通信の切れる音<Medium Text>）<Normal Text>
+<Screen Posiiton to 6,3>�<Medium Text>（<Normal Text>通信の切れる音<Medium Text>）<Normal Text>
 <Screen Posiiton to 7,3><yellow>ハァ…<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,1>（<Normal Text>碧<Medium Text>）<Normal Text>どうしますか？<Medium Text> <Normal Text>リーダー<Medium Text>。
