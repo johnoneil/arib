@@ -175,6 +175,8 @@ def main():
 
   ts.Parse()
 
+  if pid < 0 and not SILENT:
+    print("Sorry. No ARIB subtitle content was found in file: " + infilename)
 
 if __name__ == "__main__":
   main()
