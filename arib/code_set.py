@@ -119,8 +119,8 @@ class Gaiji(object):
 
   @staticmethod
   def is_gaiji(v):
-    row = v[0]&0x7f-0x20
-    col = v[1] & 0x007f - 0x20
+    row = (v[0] & 0x007f) - 0x20
+    col = (v[1] & 0x007f) - 0x20
     return  (row >= 90 and row <= 94) and (col >=1 and col <= 94)
 
   @staticmethod
@@ -128,8 +128,8 @@ class Gaiji(object):
     #[124][33]--> 0b01111100, 0b00100001
     #(0x7c-0x20)(0x21-0x20)--> 0x5c, 0x1 --> 92(col), 1(row)
     #upper byte can be used to calculate row
-    row = v[0]&0x7f-0x20
-    col = v[1]&0x007f-0x20
+    row = (v[0] & 0x007f) - 0x20
+    col = (v[1] & 0x007f) - 0x20
     if DEBUG:
       print 'gaiji [{b1}],[{b2}]-->{r},{c},'.format(b1=hex(v[0]), b2=hex(v[1]),r=row, c=col)
     return Gaiji.ENCODING[col][row]
