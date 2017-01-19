@@ -425,7 +425,7 @@ class LS1R(object):
     return u'LS1R'
 
   @staticmethod
-  def handler(f):
+  def handler(f=None):
     return LS1R(f)
 
 class LS2R(object):
