@@ -11,6 +11,7 @@ from setuptools import setup
 #version 0.57: Fixes for issues 13, 14
 #version 0.58: fix for vertical position in some cases
 #version 0.6.1: Performance improvements
+#version 0.6.2: Numerous fixes and initial DRCS parsing
 
 def readme():
   with open('README.md') as f:
@@ -21,7 +22,7 @@ def requirements():
     return f.read().splitlines()
 
 setup(name='arib',
-  version='0.6.1',
+  version='0.6.2',
   description='Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stream Closed Caption Decoding Tools',
   long_description = readme(),
 	classifiers=[
