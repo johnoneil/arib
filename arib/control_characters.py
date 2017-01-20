@@ -1207,11 +1207,23 @@ class HLC(object):
   '''
   CODE = 0x97
   def __init__(self, f):
-    pass
+    self._code = read.ucb(f)
+    self._start = False
+    if self._code & 0x1:
+      self._start = True
 
+  def __len__(self):
+    return 2
+
+  def __unicode__(self):
+    if self._start:
+      return u'<Highlight start>'
+    else:
+      return u'<Highlight end>'
+    
   @staticmethod
   def handler(f):
-    pass
+    return HLC(f)
 
 
 class SSZ(object):
@@ -1433,7 +1445,7 @@ COMMAND_TABLE = {
   #MACRO.CODE : MACRO.handler,
   CNF.CODE : CNF.handler,
   WHF.CODE : WHF.handler,
-  #HLC.CODE : HLC.handler,
+  HLC.CODE : HLC.handler,
   SSZ.CODE : SSZ.handler,
   #RPC.CODE : RPC.handler,
   MSZ.CODE : MSZ.handler,

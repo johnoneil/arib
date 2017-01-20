@@ -66,6 +66,7 @@ DISPLAYED_CC_STATEMENTS = [
   control_characters.CNF,
   control_characters.WHF,
   #control_characters.TIME,
+  control_characters.HLC,
 ]
 
 # GLOBALS TO KEEP TRACK OF STATE

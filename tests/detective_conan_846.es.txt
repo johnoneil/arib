@@ -857,20 +857,8 @@ DRCS character: font: 0
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text><yellow>また停まった…！
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 12,8><Medium Text>◻ ◻◻泥┘鵐献◻が止まる<Medium Text>◻
-<Screen Posiiton to 7,2><Normal Text>◻ ◻いや<Medium Text> <Normal Text>エンジンを切ったんだ<Medium Text>。唹<black>　
-Exception throw while parsing data group from .es
-Traceback (most recent call last):
-  File "/home/on-three/code/arib/arib/data_group.py", line 133, in next_data_group
-    data_group = DataGroup(f)
-  File "/home/on-three/code/arib/arib/data_group.py", line 53, in __init__
-    raise DataGroupParseError("Initial stuffing byte not equal to 0x80: " + hex(self._stuffing_byte))
-DataGroupParseError: Initial stuffing byte not equal to 0x80: 0x0
-Looking for new data group in .es
-Data group found. Continuing.
-<clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 12,8><Medium Text>◻ ◻◻泥┘鵐献◻が止まる<Medium Text>◻
-<Screen Posiiton to 7,2><Normal Text>◻ ◻いや<Medium Text> <Normal Text>エンジンを切ったんだ<Medium Text>。唹<black>　
+<Screen Posiiton to 12,8><Medium Text><Highlight start> <Highlight start>エンジン<Normal Text>が止まる<Medium Text><Highlight start> 
+<Screen Posiiton to 7,2><Normal Text><Highlight end><yellow>いや<Medium Text> <Normal Text>エンジンを切ったんだ<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,3><Normal Text><yellow>ということは<Medium Text> <Normal Text>ここは…<Medium Text>。
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
