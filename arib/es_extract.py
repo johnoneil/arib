@@ -22,12 +22,32 @@ import arib.control_characters as control_characters
 from arib.data_group import DataGroup
 from arib.data_group import next_data_group
 
+# print out some additional info for DRCS values
+from arib.closed_caption import set_DRCS_debug
+set_DRCS_debug(True)
+
 
 DISPLAYED_CC_STATEMENTS = [
   code_set.Kanji,
   code_set.Alphanumeric,
   code_set.Hiragana,
   code_set.Katakana,
+  code_set.DRCS0,
+  code_set.DRCS1,
+  code_set.DRCS2,
+  code_set.DRCS3,
+  code_set.DRCS4,
+  code_set.DRCS5,
+  code_set.DRCS6,
+  code_set.DRCS7,
+  code_set.DRCS8,
+  code_set.DRCS9,
+  code_set.DRCS10,
+  code_set.DRCS11,
+  code_set.DRCS12,
+  code_set.DRCS13,
+  code_set.DRCS14,
+  code_set.DRCS15,
   control_characters.APS,
   control_characters.MSZ,
   control_characters.NSZ,
@@ -45,6 +65,7 @@ DISPLAYED_CC_STATEMENTS = [
   control_characters.CNF,
   control_characters.WHF,
   #control_characters.TIME,
+  control_characters.HLC,
 ]
 
 def formatter(statements, timestamp):

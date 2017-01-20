@@ -165,7 +165,7 @@ def main():
 
   if not os.path.exists(infilename) and not SILENT:
     print 'Input filename :' + infilename + " does not exist."
-    os.exit(-1)
+    sys.exit(-1)
 
   ts = TS(infilename)
 
@@ -175,6 +175,11 @@ def main():
 
   ts.Parse()
 
+  if pid < 0 and not SILENT:
+    print("Sorry. No ARIB subtitle content was found in file: " + infilename)
+    sys.exit(-1)
+
+  sys.exit(0)
 
 if __name__ == "__main__":
   main()

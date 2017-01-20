@@ -192,7 +192,7 @@ def space(formatter, k, timestamp):
   formatter._current_lines[-1] += u' '
 
 def drcs(formatter, c, timestamp):
-  formatter._current_lines[-1] += unicode(c)
+  formatter._current_lines[-1] += u'�'
 
 def black(formatter, k, timestamp):
   #{\c&H000000&} \c&H<bb><gg><rr>& {\c&Hffffff&}

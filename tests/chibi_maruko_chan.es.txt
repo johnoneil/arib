@@ -120,23 +120,111 @@
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3>（<Normal Text>友蔵<Medium Text>）<Normal Text>そろそろ<Medium Text> <Normal Text>始まるぞ<Medium Text>。
 <Screen Posiiton to 7,3><Normal Text><yellow>えっ？<Medium Text> <Normal Text>あっ<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 2149867084803144864
+DRCS character: font: 0
+ ██▌▐ ▐  
+  ▌ ▐ ▐  
+  ▌  ▌▌  
+  ▌  ▐   
+         
+ ██████  
+▐▌    ▐▌ 
+▐ ████ ▌ 
+▐▐████▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐██▌▐▌▌ 
+▐ ████ ▌ 
+▐▌    ▐▌ 
+ ██████  
+   ▐▌    
+ ▐████▌  
+
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,9><Small Text>ひでき<Normal Text>
-<Screen Posiiton to 6,3><Medium Text>（<Normal Text>秀樹<Medium Text>）<Normal Text>♫<Medium Text>「<Normal Text>ローラ<Medium Text>」<Normal Text>
+<Screen Posiiton to 6,3>�<Medium Text>（<Normal Text>秀樹<Medium Text>）<Normal Text>♫<Medium Text>「<Normal Text>ローラ<Medium Text>」<Normal Text>
 <Screen Posiiton to 7,3><yellow>あっ<Medium Text> <Normal Text>秀樹<Medium Text>。
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,5><Normal Text><yellow>ハァ…<Medium Text> <Normal Text>危なかったね<Medium Text>。
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><yellow>お姉ちゃんがいたら
 <Screen Posiiton to 7,1>ケンカになるところだったよ<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 2149867084803144864
+DRCS character: font: 0
+ ██▌▐ ▐  
+  ▌ ▐ ▐  
+  ▌  ▌▌  
+  ▌  ▐   
+         
+ ██████  
+▐▌    ▐▌ 
+▐ ████ ▌ 
+▐▐████▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐██▌▐▌▌ 
+▐ ████ ▌ 
+▐▌    ▐▌ 
+ ██████  
+   ▐▌    
+ ▐████▌  
+
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
-<Screen Posiiton to 7,5><Normal Text><Medium Text>（<Normal Text>男性<Medium Text>）<Normal Text>んな<Medium Text> <Normal Text>アホな<Medium Text>。
+<Screen Posiiton to 7,5><Normal Text>�<Medium Text>（<Normal Text>男性<Medium Text>）<Normal Text>んな<Medium Text> <Normal Text>アホな<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 2149867084803144864
+DRCS character: font: 0
+ ██▌▐ ▐  
+  ▌ ▐ ▐  
+  ▌  ▌▌  
+  ▌  ▐   
+         
+ ██████  
+▐▌    ▐▌ 
+▐ ████ ▌ 
+▐▐████▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐██▌▐▌▌ 
+▐ ████ ▌ 
+▐▌    ▐▌ 
+ ██████  
+   ▐▌    
+ ▐████▌  
+
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
-<Screen Posiiton to 6,3><Normal Text><Medium Text>（<Normal Text>男性たち<Medium Text>）<Normal Text>どうも<Medium Text>
+<Screen Posiiton to 6,3><Normal Text>�<Medium Text>（<Normal Text>男性たち<Medium Text>）<Normal Text>どうも<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>ありがとうございました〜<Medium Text>。
+DRCS character font id: 0
+DRCS character hash: 2149867084803144864
+DRCS character: font: 0
+ ██▌▐ ▐  
+  ▌ ▐ ▐  
+  ▌  ▌▌  
+  ▌  ▐   
+         
+ ██████  
+▐▌    ▐▌ 
+▐ ████ ▌ 
+▐▐████▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐██▌▐▌▌ 
+▐ ████ ▌ 
+▐▌    ▐▌ 
+ ██████  
+   ▐▌    
+ ▐████▌  
+
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1>（<Normal Text>まる子<Medium Text>・<Normal Text>すみれ<Medium Text>）<Normal Text>アハハハハ<Medium Text>。
-<Screen Posiiton to 7,1><Normal Text><Medium Text>（<Normal Text>女性<Medium Text>）<Normal Text>私<Medium Text> <Normal Text>チョコ<Medium Text> <Normal Text>大好きなの<Medium Text>。
+<Screen Posiiton to 7,1><Normal Text>�<Medium Text>（<Normal Text>女性<Medium Text>）<Normal Text>私<Medium Text> <Normal Text>チョコ<Medium Text> <Normal Text>大好きなの<Medium Text>。
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><yellow>あっ<Medium Text> <Normal Text>このコマーシャル<Medium Text>。<Normal Text>
 <Screen Posiiton to 7,2><Medium Text><white>（<Normal Text>すみれ<Medium Text>）<Normal Text>んっ？
@@ -202,8 +290,30 @@
 <Screen Posiiton to 6,2><yellow>さて<Medium Text> <Normal Text>続きでも見るかね<Medium Text>。<Normal Text>
 <Screen Posiiton to 7,2>いやいや〜ん<Medium Text>。
 <CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+DRCS character font id: 0
+DRCS character hash: 2149867084803144864
+DRCS character: font: 0
+ ██▌▐ ▐  
+  ▌ ▐ ▐  
+  ▌  ▌▌  
+  ▌  ▐   
+         
+ ██████  
+▐▌    ▐▌ 
+▐ ████ ▌ 
+▐▐████▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐██▌▐▌▌ 
+▐ ████ ▌ 
+▐▌    ▐▌ 
+ ██████  
+   ▐▌    
+ ▐████▌  
+
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
-<Screen Posiiton to 7,3><Medium Text>（<Normal Text>秀樹<Medium Text>）<Normal Text>♫<Medium Text>「<Normal Text>ローラ<Medium Text>」
+<Screen Posiiton to 7,3>�<Medium Text>（<Normal Text>秀樹<Medium Text>）<Normal Text>♫<Medium Text>「<Normal Text>ローラ<Medium Text>」
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><Medium Text>（<Normal Text>静岡のおばあちゃん<Medium Text>）<Normal Text>
 <Screen Posiiton to 7,0>相変わらずカッコイイね<Medium Text> <Normal Text>秀樹は<Medium Text>。
@@ -399,8 +509,30 @@
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3><Normal Text><yellow>《え〜<Medium Text> <Normal Text>そんな<Medium Text> <Normal Text>無茶な…》<Medium Text>
 <Screen Posiiton to 7,3><Normal Text><white>《いいから<Medium Text> <Normal Text>シー！》
+DRCS character font id: 0
+DRCS character hash: 2149867084803144864
+DRCS character: font: 0
+ ██▌▐ ▐  
+  ▌ ▐ ▐  
+  ▌  ▌▌  
+  ▌  ▐   
+         
+ ██████  
+▐▌    ▐▌ 
+▐ ████ ▌ 
+▐▐████▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐███▌▌▌ 
+▐▐██▌▐▌▌ 
+▐ ████ ▌ 
+▐▌    ▐▌ 
+ ██████  
+   ▐▌    
+ ▐████▌  
+
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 12,1><Normal Text><Medium Text>（<Normal Text>司会者<Medium Text>）
+<Screen Posiiton to 12,1><Normal Text>�<Medium Text>（<Normal Text>司会者<Medium Text>）
 <Screen Posiiton to 6,7><Small Text>さいじょう<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>《次は<Medium Text> <Normal Text>西城<Medium Text> <Normal Text>秀樹さんです》➡
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
@@ -444,20 +576,86 @@
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,13><Normal Text><yellow>あっ<Medium Text>。
 <CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+DRCS character font id: 0
+DRCS character hash: -6623079553638809300
+DRCS character: font: 0
+  ████   
+  █▐▐▐   
+  ▌▌▌█   
+ ██▐▐▐█  
+ ▌▌▌▌█▐  
+ ▌█▐▐▐▐  
+ ▌▌▌▌█▐  
+ ▌████▐  
+ ▌████▐  
+ ▌█  █▐  
+ ▌████▐  
+ ▌████▐  
+ ▌    ▐  
+ ██████▐ 
+   ▐▌  ▌ 
+   ▐▌  ▌ 
+ ▐████▌▌ 
+▐██▌▐██▌ 
+
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,17><Small Text>しみず<Normal Text>
-<Screen Posiiton to 7,2>⚟<Medium Text>（アナウンス）「<Normal Text>清水<Medium Text> <Normal Text>清水<Medium Text>」
+<Screen Posiiton to 7,2>⚟�<Medium Text>（アナウンス）「<Normal Text>清水<Medium Text> <Normal Text>清水<Medium Text>」
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><yellow>あっ！
 <CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
+DRCS character font id: 0
+DRCS character hash: -6623079553638809300
+DRCS character: font: 0
+  ████   
+  █▐▐▐   
+  ▌▌▌█   
+ ██▐▐▐█  
+ ▌▌▌▌█▐  
+ ▌█▐▐▐▐  
+ ▌▌▌▌█▐  
+ ▌████▐  
+ ▌████▐  
+ ▌█  █▐  
+ ▌████▐  
+ ▌████▐  
+ ▌    ▐  
+ ██████▐ 
+   ▐▌  ▌ 
+   ▐▌  ▌ 
+ ▐████▌▌ 
+▐██▌▐██▌ 
+
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
-<Screen Posiiton to 7,2>⚟<Medium Text>（アナウンス）「<Normal Text>清水<Medium Text> <Normal Text>清水<Medium Text>」
+<Screen Posiiton to 7,2>⚟�<Medium Text>（アナウンス）「<Normal Text>清水<Medium Text> <Normal Text>清水<Medium Text>」
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><yellow>アハ<Medium Text>。 <Normal Text>ヘヘヘヘ<Medium Text>。
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+DRCS character font id: 0
+DRCS character hash: -6623079553638809300
+DRCS character: font: 0
+  ████   
+  █▐▐▐   
+  ▌▌▌█   
+ ██▐▐▐█  
+ ▌▌▌▌█▐  
+ ▌█▐▐▐▐  
+ ▌▌▌▌█▐  
+ ▌████▐  
+ ▌████▐  
+ ▌█  █▐  
+ ▌████▐  
+ ▌████▐  
+ ▌    ▐  
+ ██████▐ 
+   ▐▌  ▌ 
+   ▐▌  ▌ 
+ ▐████▌▌ 
+▐██▌▐██▌ 
+
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
-<Screen Posiiton to 7,2>⚟<Medium Text>（アナウンス）「<Normal Text>清水<Medium Text> <Normal Text>清水<Medium Text>」
+<Screen Posiiton to 7,2>⚟�<Medium Text>（アナウンス）「<Normal Text>清水<Medium Text> <Normal Text>清水<Medium Text>」
 <CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c"><clear screen>
 <clear screen><CS:"9 S"><CS:"620;416 V"><CS:"50;32 _"><CS:"4 X"><CS:"16 Y"><CS:"36;36 W"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><yellow>あっ！

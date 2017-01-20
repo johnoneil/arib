@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # vim: set ts=2 expandtab:
 '''
 Module: closed_caption.py
@@ -15,6 +16,11 @@ import read
 from decoder import Decoder
 import code_set
 DEBUG = False
+DRCS_DEBUG = False
+
+def set_DRCS_debug(v):
+  global DRCS_DEBUG
+  DRCS_DEBUG = v
 
 class CaptionStatementData(object):
   '''Represents a closed caption text wrapper
@@ -102,6 +108,127 @@ class StatementBody(object):
     #  print '{l}\n'.format(l=line)
     return statements
 
+class DRCSFont(object):
+  """ A single character in DRCS
+  Called a 'font' to agree with Table D-1 in ARIB b-24 spec page 141
+  """
+  # in order to provide SOME kind of info when we encounter a DRCS, i have
+  # a small hash table mapping to known (encountered) values.
+  # There seems to be at least two new DRCS characters in every .ts file I
+  # examine, so this is very limited.
+  character_hashes = {
+    -3174437220813644284 : u'♬',
+    3626218632846089044 : u'[ｽﾋﾟｰｶｰ]', #u"\U0001F50A", # unicode 'speaker with 3 sound U+1f50A
+    -7036522249175460012 : u'[ｽﾋﾟｰｶｰ]', #u"\U0001F508", # unicode "SPEAKER U+1F508
+    7569189553178784666 : u'[ﾊﾟｿｺﾝ]', #u"\U0001F4BB", #unicode personal computer U+1F4BB
+    -7054764751876937278 : u'[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
+    7675785349947576464 : u'[携帯]', #u"\U0001F4F1", # unicode cellphone U+1F4F1
+    -8588766517861681222 : u'｟',
+    -137322149189423910 : u'｠',
+    -8884896295922033014 : u'⟪',
+    -5876459750587952470 : u'⟫',
+    2149867084803144864 : u'[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
+    -6623079553638809300: u'[ﾏｲｸ]',
+    -3827305093498498888 : u'𝔹', # custom Conan 'meitantei badge". yes. really.
+    -775118510460996568 : u'｟',
+    -4397084408988046416 : u'｠',
+    -6328951014288157962 : u'[ﾊﾟｿｺﾝ]',
+    1113567731799993878 : u'①',
+    6707059547002745896 : u'[ﾗｼﾞｵ]',
+    6692026985814559272 : u'[携帯]',
+    }
+
+  # first is  combiled font id + font number four bits each
+  def __init__(self, f):
+    b = read.ucb(f)
+    self._font_id = (b & 0xf0) >> 8
+    self._mode = (b & 0x0f)
+    if self._mode == 0 or self._mode == 0x1:
+      self._depth = read.ucb(f)
+      self._width = read.ucb(f)
+      self._height = read.ucb(f)
+      self._pixels = []
+
+      # assuming 4 pixels per byte. How is this tied to depth above? (typical depth = 2)
+      for i in range((self._width * self._height)/4):
+        self._pixels.append(read.ucb(f))
+
+      tmp_str = str(self._pixels)
+      self._hash = hash(tmp_str)
+
+      if DRCS_DEBUG:
+        print("DRCS character font id: {id}".format(id=self._font_id))
+        print("DRCS character hash: {h}".format(h=self._hash))
+
+      if self._hash in DRCSFont.character_hashes:
+        self._character = DRCSFont.character_hashes[self._hash]
+      else:
+        self._character = u'�'
+
+    else:
+        raise ValueError("DRCSFont mode not supported.")
+    if DRCS_DEBUG:
+      print("DRCS character: font: {font}".format(font=self._font_id))
+      px = ''
+      i = 0
+      for h in range(self._height/2):
+        for w in range(self._width/4):
+          #px += str(self._pixels[i]) + " "
+          p = self._pixels[h * self._width/2 + w]
+          if p == 0:
+            px += " "
+          elif p == 0xff:
+            px += "█"
+          elif p == 0x0f:
+            px += "▐"
+          elif p == 0xf0:
+            px += "▌"
+          else:
+            px += "╳"
+          i = i + 1
+        px += '\n'
+      print(px)
+
+
+
+class DRCSCharacter(object):
+  """ DRCS character parsed by DRCS2ByteCharacter class
+  """
+  def __init__(self, f):
+    """
+    :param f: file descriptor we're reading from
+    """
+    self._character_code = read.usb(f)
+    self._number_of_font = read.ucb(f)
+    self._fonts = []
+    for i in range(self._number_of_font):
+      self._fonts.append(DRCSFont(f))
+
+class DRCS1ByteCharacter(object):
+  """ DRCS data structure
+  Describes custom character data delivered at runtime in the TS stream
+  """
+  ID = 0x30
+  def __init__(self, f, data_unit):
+    self._unit_separator = data_unit._unit_separator
+    self._data_unit_type = data_unit._data_unit_type
+    if self._data_unit_type is not DRCS1ByteCharacter.ID:
+      if DEBUG:
+        print 'this is not a DRCS character'
+      raise ValueError
+    self._data_unit_size = data_unit._data_unit_size
+    self._characters = []
+    self._number_of_code = read.ucb(f)
+    for i in range(self._number_of_code):
+      self._characters.append(DRCSCharacter(f))
+
+  def payload(self):
+    return self._payload
+
+  @staticmethod
+  def Type():
+    return DRCS1ByteCharacter.ID
+
 
 class DataUnit(object):
   '''Data Unit structure as defined in ARIB B-24 Table 9-12 pg 157
@@ -132,5 +259,8 @@ class DataUnit(object):
   def load_unit(self, f):
     if self._data_unit_type == StatementBody.ID:
       return StatementBody(f, self)
+    elif self._data_unit_type == DRCS1ByteCharacter.ID:
+      # DRCS character data unit
+      return DRCS1ByteCharacter(f, self)
     else:
       read.buffer(f, self._data_unit_size)
