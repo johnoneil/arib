@@ -85,6 +85,19 @@ def uib(f):
  
     return struct.unpack('>L', _f)[0]
 
+def ulb(f):
+  '''Read unsigned long long (64bit integer) from binary file
+  '''
+  if isinstance(f, list):
+    n, f = split_buffer(8, f)
+    return struct.unpack('>Q', ''.join(n))[0]
+  else:
+    _f = f.read(8)
+    if len(_f) < 8:
+      raise EOFError()
+    return struct.unpack('>Q', _f)[0]
+
+
 def buffer(f, size):
   '''Read N bytes from either a file or list
   '''
