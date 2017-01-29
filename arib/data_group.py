@@ -16,6 +16,7 @@ from read import EOFError
 import traceback
 
 from closed_caption import CaptionStatementData
+from closed_caption import CaptionManagementData
 from struct import error as struct_error
 from copy import copy
 
@@ -83,7 +84,8 @@ class DataGroup(object):
       self._payload = CaptionStatementData(f)
     else:
       #self._payload = f.read(self._data_group_size)
-      self._payload = read.buffer(f, self._data_group_size)
+      #self._payload = read.buffer(f, self._data_group_size)
+      self._payload = CaptionManagementData(f)
     
     self._crc = read.usb(f)
     if DEBUG:

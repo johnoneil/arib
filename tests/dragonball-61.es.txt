@@ -1,10 +1,107 @@
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen>
 <clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,3>ごくう
 <Screen Posiiton to 10,26>はかい
@@ -13,711 +110,2022 @@
 <Screen Posiiton to 6,17><Small Text>そし<Normal Text>
 <Screen Posiiton to 7,0>その狂気の計画を阻止した＞
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>＜果たして
 <Screen Posiiton to 7,2>未来は<Medium Text> <Normal Text>変わったのか？＞
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 4,1>＜確かめるべく
 <Screen Posiiton to 5,1>未来へ向かった悟空たちを➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 4,2><Small Text>ざんこく<Normal Text>
 <Screen Posiiton to 4,9><Small Text>でむか<Normal Text>
 <Screen Posiiton to 5,2>残酷な現実が<Medium Text> <Normal Text>出迎える＞
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 3,21><Small Text>そん<Normal Text>
 <Screen Posiiton to 4,1><Medium Text>（ブラック）<Normal Text>これは<Medium Text> <Normal Text>本物の孫<Medium Text> <Normal Text>悟空<Medium Text>。<Normal Text>
 <Screen Posiiton to 5,1>お前本人の体だ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,21><Small Text>おれ<Medium Text>
 <Screen Posiiton to 6,7><Normal Text>だが<Medium Text> <Normal Text>心は<Medium Text> <Normal Text>この俺<Medium Text>
 <Screen Posiiton to 7,7><Normal Text>ザマスのものだ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Medium Text><yellow>（<Normal Text>悟空<Medium Text>）<Normal Text>じゃあ
 <Screen Posiiton to 6,2><Small Text>うば<Normal Text>
 <Screen Posiiton to 7,0>体を奪われたオラは<Medium Text> <Normal Text>どうなった<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>俺が…<Medium Text> <Normal Text>殺した<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5>この手でな<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,3><yellow>めえ
 <Screen Posiiton to 12,1><Normal Text>お前が<Medium Text> <Normal Text>ザマスだっちゅうなら<Medium Text>
 <Screen Posiiton to 6,23><Small Text>だれ<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>ザマスの顔した<Medium Text> <Normal Text>お前は<Medium Text> <Normal Text>誰だ<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3>（<Normal Text>ザマス<Medium Text>）<Normal Text>私も<Medium Text> <Normal Text>また<Medium Text> <Normal Text>ザマス<Medium Text>。
 <Screen Posiiton to 7,3><Normal Text>この世界のザマスなのです<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><yellow>はぁ<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><Medium Text>（<Normal Text>ザマス<Medium Text>）<Normal Text>
 <Screen Posiiton to 7,1>お前たちの世界から見れば➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1>私は<Medium Text> <Normal Text>この世界<Medium Text> <Normal Text>未来のザマス<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,5><Normal Text>過去から来たザマスと<Medium Text>
 <Screen Posiiton to 7,5><Normal Text>手を組んだのです<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>正義のために！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,7>（トランクス）<Normal Text>未来の…<Medium Text>。
 <Screen Posiiton to 7,7><Normal Text><yellow>うん<Medium Text>！？ <Normal Text>えっ<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,1>（<Normal Text>ブルマ<Medium Text>）<Normal Text>いったい<Medium Text> <Normal Text>どういう…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><Medium Text>（ブラック）<Normal Text>気が付かないか？<Medium Text> <Normal Text>孫<Medium Text> <Normal Text>悟空<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>この俺こそ<Medium Text> <Normal Text>神の身でありながら➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,1><Small Text>みじ<Medium Text>
 <Screen Posiiton to 6,1><Normal Text>惨めにも<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>人間のお前に<Medium Text> <Normal Text>打ち負かされた➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,13><Small Text>かいおう<Medium Text>
 <Screen Posiiton to 7,5><Normal Text>かつての界王<Medium Text> <Normal Text>ザマス<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><Medium Text>（ブラック）<Normal Text>ザマスという体を捨てて➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>俺の心は<Medium Text> <Normal Text>お前の肉体と一つになりさらなる力を得たのだ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text><yellow>でも<Medium Text> <Normal Text>お前は<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>ビルスさまが<Medium Text> <Normal Text>破壊したはずだ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>オラ<Medium Text> <Normal Text>見たぞ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>全ては
 <Screen Posiiton to 7,0>この<Medium Text> <Normal Text>時の指輪が<Medium Text> <Normal Text>もたらしたもの<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5>時の指輪…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1>（ブラック）
 <Screen Posiiton to 7,1><Normal Text>過去の世界で<Medium Text> <Normal Text>何が起きようと➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,17><Small Text>えいきょう<Normal Text>
 <Screen Posiiton to 6,1>今の俺には<Medium Text> <Normal Text>何の影響もない<Medium Text>。<Normal Text>
 <Screen Posiiton to 7,1><yellow>何だって<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,1><Normal Text>やっぱり<Medium Text> <Normal Text>あいつは<Medium Text>
 <Screen Posiiton to 6,1><Small Text>かいおうしん<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>界王神さまを殺していたんだ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>そう…<Medium Text> <Normal Text>時の指輪を
 <Screen Posiiton to 7,2>使うことができるのは➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5>界王神のみ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,3>（<Normal Text>ゴワス<Medium Text>）<Normal Text>《うわああー！》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><Medium Text>（ブラック）<Normal Text>
 <Screen Posiiton to 7,0>俺は<Medium Text> <Normal Text>ゴワスを<Medium Text> <Normal Text>この手にかけて…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,3>（ブラック）<Normal Text>界王神の座に就いた<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3><Normal Text>やるか？<Medium Text> <Normal Text>ザマス<Medium Text>。
 <Screen Posiiton to 7,3>（<Normal Text>ザマス<Medium Text>）<Normal Text>よかろう<Medium Text> <Normal Text>ザマス<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><Medium Text>（ベジータ）<Normal Text>ああっ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,7><Small Text>だいじょうぶ<Medium Text>
 <Screen Posiiton to 6,1>（ベジータ）<Normal Text>大丈夫か<Medium Text>！？ <Normal Text>トランクス！<Medium Text>
 <Screen Posiiton to 7,1>（トランクス）<Normal Text>はい！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7><Normal Text><yellow>やりやがったな！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>忘れたのか<Medium Text>！？ <Normal Text>ザマスの不死身を！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>うおおおー！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><yellow>おりゃー！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><yellow>あっ…<Medium Text>。<Normal Text>
 <Screen Posiiton to 6,7><Small Text><white>いちげき<Normal Text>
 <Screen Posiiton to 7,0><Medium Text>（<Normal Text>ブルマ<Medium Text>）<Normal Text>孫君の一撃を受けても➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>すぐに<Medium Text> <Normal Text>元通りだなんて！
 <Screen Posiiton to 7,0><Medium Text>（ヤジロベー）<Normal Text>だから<Medium Text> <Normal Text>不死身なんだぎ<Medium Text>ゃ<Normal Text>！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><yellow>こんにゃろー！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><yellow>うっ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,5><Normal Text><yellow>ぐわっ！<Medium Text> <Normal Text>うわああー！<Medium Text>
 <Screen Posiiton to 7,5><white>（トランクス）<Normal Text>悟空さん！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,21><Small Text>と<Normal Text>
 <Screen Posiiton to 6,0><Medium Text>（ブラック）<Normal Text>俺の正義を成し遂げるには
 <Screen Posiiton to 7,0>最高の理解者が<Medium Text> <Normal Text>必要だった<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7><Normal Text>同じ正義を持ち➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,3><Normal Text>同じように<Medium Text>
 <Screen Posiiton to 6,9><Small Text>おろ<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>人間の愚かしさに苦しみ➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>同じように<Medium Text>
 <Screen Posiiton to 6,19><Small Text>いだ<Normal Text>
 <Screen Posiiton to 7,1>理想の世界を<Medium Text> <Normal Text>胸に抱く者…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>すなわち<Medium Text> <Normal Text>私だ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>私も<Medium Text> <Normal Text>また<Medium Text> <Normal Text>お前たちが未来と呼ぶ
 <Screen Posiiton to 7,0>この世界で➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,7><Normal Text>人間の愚かしさを<Medium Text>
 <Screen Posiiton to 6,7><Small Text>なげ<Medium Text>
 <Screen Posiiton to 7,7><Normal Text>嘆く日々であった<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>俺は<Medium Text> <Normal Text>時の指輪を使って
 <Screen Posiiton to 7,2>この世界へ<Medium Text> <Normal Text>やって来た<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5>《ハッ！》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><Medium Text>（<Normal Text>ザマス<Medium Text>）<Normal Text>《あっ<Medium Text> <Normal Text>ああ…》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7><Normal Text>《ゴワスさま…》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><Medium Text>（<Normal Text>ザマス<Medium Text>）<Normal Text>《あっ…》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>《お前も
 <Screen Posiiton to 7,1>こうしたかったのだろう？》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,3><Normal Text>《これで<Medium Text> <Normal Text>お前も界王神だ》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5>《あっ…》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>《誰だ…<Medium Text> <Normal Text>お前は…》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>《私は<Medium Text> <Normal Text>お前だ》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>《お前は<Medium Text> <Normal Text>私？》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3><Normal Text>《過去から<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>正義を求めて<Medium Text> <Normal Text>やって来た》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,11><Small Text>ほろ<Medium Text>
 <Screen Posiiton to 7,5><Normal Text>《悪を滅ぼすために》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,5><Normal Text>《お前が<Medium Text> <Normal Text>必要なのだ》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><Medium Text>（ブラック・<Normal Text>ザマス<Medium Text>）<Normal Text>《共に<Medium Text> <Normal Text>正義を！》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><Medium Text>（<Normal Text>ザマス<Medium Text>）<Normal Text>かくして<Medium Text> <Normal Text>私は➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,1><Small Text>スーパー<Medium Text>
 <Screen Posiiton to 6,3><Normal Text>超ドラゴンボールによって<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>不死身となった<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>時の指輪を用いれば
 <Screen Posiiton to 7,2>俺が<Medium Text> <Normal Text>この体になった後➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,6>むだ
 <Screen Posiiton to 12,1><Normal Text>時を無駄にせず<Medium Text> <Normal Text>再び
 <Screen Posiiton to 6,0><Small Text>スーパー<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>超ドラゴンボールを使えるのだ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>そんなことのために
 <Screen Posiiton to 7,3>界王神さまを！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text>そして<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>われわれが<Medium Text> <Normal Text>かなえた願いを…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,5><Small Text>くつがえ<Normal Text>
 <Screen Posiiton to 7,0><Medium Text>（ブラック）<Normal Text>覆されることがないよう➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,5><Small Text>スーパー<Normal Text>
 <Screen Posiiton to 6,3>超ドラゴンボールは
 <Screen Posiiton to 7,3>全て<Medium Text> <Normal Text>破壊した<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><Small Text><yellow>スーパー<Medium Text>
 <Screen Posiiton to 7,5><Normal Text>超ドラゴンボールを<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,11><Small Text>きょうじん<Medium Text>
 <Screen Posiiton to 6,1><Normal Text>さらに<Medium Text> <Normal Text>この強廚米禘里鬚發辰◻
 <Screen Posiiton to 7,1><Normal Text>全宇宙の神々を殺した<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,1><Normal Text><yellow>神様全部<Medium Text> <Normal Text>殺したっちゅうんか<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>よって<Medium Text> <Normal Text>今<Medium Text> <Normal Text>この世界で
 <Screen Posiiton to 7,0>絶対的な力を持つのは<Medium Text> <Normal Text>私と私…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,1>（<Normal Text>ザマス<Medium Text>・ブラック）<Normal Text>この２人だけだ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,1><Normal Text>これは<Medium Text> <Normal Text>全て<Medium Text> <Normal Text>わが願い<Medium Text>
 <Screen Posiiton to 6,5><Small Text>ゼロ<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>人間０計画を成し遂げるため！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text>人間０計画…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>ご大層な名前だな…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,1><Normal Text>人間を<Medium Text>
 <Screen Posiiton to 6,1><Small Text>みなごろ<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>皆殺しにしたいだけではないか<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>世界は<Medium Text> <Normal Text>美しい<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,18>みにく
 <Screen Posiiton to 12,7><Normal Text>だが<Medium Text> <Normal Text>人間の醜さが<Medium Text>
 <Screen Posiiton to 6,19><Small Text>けが<Medium Text>
 <Screen Posiiton to 7,7><Normal Text>その美しさを汚す<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>よって<Medium Text> <Normal Text>われわれは
 <Screen Posiiton to 7,2>全ての人間を消し去り➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,21><Small Text>もど<Medium Text>
 <Screen Posiiton to 7,5><Normal Text>美しい世界を取り戻す<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>俺たちは<Medium Text> <Normal Text>すでに
 <Screen Posiiton to 7,1>あまたの人間を滅ぼしてきた<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,3><Medium Text>（<Normal Text>ザマス<Medium Text>）<Normal Text>そして<Medium Text> <Normal Text>今度は
 <Screen Posiiton to 6,4><Small Text>こ<Normal Text>
 <Screen Posiiton to 6,10><Small Text>ちえ<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>時を超えるほどの知恵と➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,9><Small Text>く<Normal Text>
 <Screen Posiiton to 6,0>絶え間なく<Medium Text> <Normal Text>争いを繰り返す暴力を持ち合わせた➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>宇宙で<Medium Text> <Normal Text>最も醜い地球人を滅ぼす<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,4><Medium Text>（ブラック）<Normal Text>最も醜いものには
 <Screen Posiiton to 6,4><Small Text>ばつ<Normal Text>
 <Screen Posiiton to 7,2>重い罰を受けてもらう<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,3><Normal Text>はい出ることすらできない<Medium Text>
 <Screen Posiiton to 6,9><Small Text>きょうふ<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>絶望と恐怖を<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><Medium Text>（ベジータ）<Normal Text>来るぞ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6>チッ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,5><Normal Text>サイヤ人ども<Medium Text>
 <Screen Posiiton to 7,5><Normal Text>人間０計画のために➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>あだ花と散れ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5>たーっ！➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4>うわー！
 <Screen Posiiton to 7,4><Medium Text>（トランクス）<Normal Text>はーっ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><yellow>うりゃー！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>うわああー！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>うわああー！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><yellow>ベジータ！<Medium Text> <Normal Text>トランクス！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,11><Normal Text><yellow>うわっ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>あなたの家族が<Medium Text> <Normal Text>どうなったか
 <Screen Posiiton to 7,1>知りたくはないですか？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><yellow>家族<Medium Text>！？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen>
 <clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 8,2><Medium Text>（<Normal Text>ザマス<Medium Text>）<Normal Text>話してあげなさい<Medium Text>
 <Screen Posiiton to 4,7><Small Text>かれ<Normal Text>
 <Screen Posiiton to 5,1>君が<Medium Text> <Normal Text>彼の家族にしたことを<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 4,3><Normal Text><yellow>うん<Medium Text>！？
 <Screen Posiiton to 5,3><Normal Text><white>さて<Medium Text> <Normal Text>どこからがいいかな？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 4,7><Normal Text>そうですね…<Medium Text>。
 <Screen Posiiton to 5,7><Normal Text>時の指輪を使い➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 3,0><Small Text>スーパー<Medium Text>
 <Screen Posiiton to 4,1><Normal Text>超ドラゴンボールを<Medium Text>
 <Screen Posiiton to 5,1><Normal Text>集めてからでは<Medium Text> <Normal Text>いかがですか？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>フッ<Medium Text> <Normal Text>よかろう<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1>《テエナカヲ<Medium Text> <Normal Text>イガネテシソ➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>ウユリノミカ<Medium Text> <Normal Text>ヨデイ
 <Screen Posiiton to 7,3>チョンマゲ！》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text>《わが肉体と<Medium Text>
 <Screen Posiiton to 6,21><Small Text>か<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>孫<Medium Text> <Normal Text>悟空の肉体を入れ替えよ！》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><yellow>《フゥ…》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><yellow>《うん<Medium Text>！？<Normal Text>》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,5><Normal Text><yellow>《あっ…》<Medium Text>
 <Screen Posiiton to 6,7><Small Text><white>ごてん<Medium Text>
 <Screen Posiiton to 7,5>（<Normal Text>悟天<Medium Text>）<Normal Text>《お父さん！》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text>《うん？》➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,7><Normal Text>《悟空…<Medium Text>。
 <Screen Posiiton to 7,7><Normal Text>私は<Medium Text> <Normal Text>孫<Medium Text> <Normal Text>悟空だ》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><yellow>《あれ？
 <Screen Posiiton to 7,1>オラ<Medium Text> <Normal Text>どうしちまったんだ<Medium Text>！？<Normal Text>》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3>（<Normal Text>悟天<Medium Text>）<Normal Text>《見てよ<Medium Text> <Normal Text>見てよ！》<Medium Text>
 <Screen Posiiton to 7,3><Normal Text><yellow>《うん？》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><Medium Text>（<Normal Text>チチ<Medium Text>）<Normal Text>《ご…<Medium Text> <Normal Text>悟空さ！》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,5><Small Text>とつぜん<Medium Text>
 <Screen Posiiton to 6,1><Normal Text>《ねっ！<Medium Text> <Normal Text>突然<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>こんなに<Medium Text> <Normal Text>なっちゃったんだ！》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>《なして<Medium Text>！？ <Normal Text>何があった<Medium Text>！？<Normal Text>
 <Screen Posiiton to 7,1>お前<Medium Text> <Normal Text>ホントに<Medium Text> <Normal Text>悟空さか<Medium Text>！？<Normal Text>》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><yellow>《悟空だよ！
 <Screen Posiiton to 7,1>ホントに<Medium Text> <Normal Text>ホントの悟空だ！》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,7><Normal Text>《孫<Medium Text> <Normal Text>悟空なのは<Medium Text>
 <Screen Posiiton to 7,7><Normal Text>心だけですがね》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7>（<Normal Text>一同<Medium Text>）<Normal Text>《うん<Medium Text>！？<Normal Text>》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,5>（<Normal Text>チチ<Medium Text>）<Normal Text>《悟空さ！》<Medium Text>
 <Screen Posiiton to 7,5>（<Normal Text>悟天<Medium Text>）<Normal Text>《お父さん<Medium Text>！？<Normal Text>》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><yellow>《お前…<Medium Text> <Normal Text>オラの顔》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3><Normal Text>そして<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>彼は<Medium Text> <Normal Text>君の息の根を止めた<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><yellow>ぐわあっ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><yellow>あっ…<Medium Text>。 <Normal Text>ああ…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>こんな<Medium Text> <Normal Text>やり方でな<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3><Normal Text><yellow>貴様…<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>チチと悟天に<Medium Text> <Normal Text>何をした…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2>もう<Medium Text> <Normal Text>察しているだろう？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>うわああー！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>俺は<Medium Text> <Normal Text>お前の妻と子の前で
 <Screen Posiiton to 7,2>お前を殺した<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,11><Normal Text>そして…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3>（<Normal Text>チチ<Medium Text>・<Normal Text>悟天<Medium Text>）
 <Screen Posiiton to 7,3><Normal Text>《うわっ…<Medium Text> <Normal Text>うわああー！》
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7><Normal Text><yellow>くっ…<Medium Text>。 <Normal Text>ううっ…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,11><Normal Text><yellow>お前…！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>許さねえ…！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,11><Normal Text>ああっ…<Medium Text>。
 <Screen Posiiton to 7,11><Normal Text><yellow>お前…➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><yellow>オラの体<Medium Text> <Normal Text>乗っ取って
 <Screen Posiiton to 7,2>チチと悟天まで殺した…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><Small Text><yellow>おこ<Normal Text>
 <Screen Posiiton to 7,5>怒ったぞ…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><yellow>オラ
 <Screen Posiiton to 7,2>本気の本当に怒ったぞ<Medium Text>！！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>オラ<Medium Text> <Normal Text>もう…➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><yellow>許さねえぞー<Medium Text>！！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6>おお…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4><yellow>だーっ！
 <Screen Posiiton to 7,4><Medium Text><white>（ブラック）<Normal Text>うわー！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><yellow>不死身が<Medium Text> <Normal Text>何だってんだ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><yellow>どりゃあ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><yellow>だりゃあ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>おりゃああ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,5><yellow>うわあっ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 8,3><Normal Text>孫<Medium Text> <Normal Text>悟空…<Medium Text>
 <Screen Posiiton to 4,9><Small Text>いか<Medium Text>
 <Screen Posiiton to 5,3><Normal Text>お前の怒りが<Medium Text> <Normal Text>心地いいぞ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 8,3><Medium Text>（<Normal Text>ザマス<Medium Text>）<Normal Text>感じるぞ…
 <Screen Posiiton to 4,2><Small Text>わ<Medium Text>
 <Screen Posiiton to 5,3><Normal Text>湧き上がり<Medium Text> <Normal Text>みなぎる力を！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4>受けるがいい…
 <Screen Posiiton to 7,4>わが<Medium Text> <Normal Text>やいば！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text><yellow>うわあああ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9>（ブラック）<Normal Text>はっ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>孫君…<Medium Text> <Normal Text>そんな！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,5><Normal Text>こりゃ…<Medium Text> <Normal Text>やびゃあ…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><Medium Text>（ブラック）<Normal Text>フフフ…<Medium Text>。 <Normal Text>素晴らしい<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,6><Normal Text>サイヤ人の肉体こそ
 <Screen Posiiton to 6,5><Small Text>めぐ<Normal Text>
 <Screen Posiiton to 7,3>神の恵みの究極！➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>打たれれば打たれるほど
 <Screen Posiiton to 7,2>力が<Medium Text> <Normal Text>高まる！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,1>（<Normal Text>ザマス<Medium Text>）<Normal Text>次は<Medium Text> <Normal Text>お前たちの番だ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,3><Normal Text>じっくり<Medium Text> <Normal Text>始末してやろう<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>くっ…<Medium Text>。 <Normal Text>うん？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5>トランクス<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>ブラックは<Medium Text> <Normal Text>俺が<Medium Text> <Normal Text>やります<Medium Text>。<Normal Text>
 <Screen Posiiton to 7,0><Medium Text>（ベジータ）<Normal Text>何だと<Medium Text>！？ <Normal Text>貴様には無理だ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,4><Normal Text>やってみせます！
 <Screen Posiiton to 6,6><Small Text>さ<Medium Text>
 <Screen Posiiton to 6,15><Small Text>ちが<Normal Text>
 <Screen Posiiton to 7,2>たとえ<Medium Text> <Normal Text>刺し違えてでも！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><Medium Text>（トランクス）<Normal Text>父さんは
 <Screen Posiiton to 7,2>ザマスを<Medium Text> <Normal Text>お願いします！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><Medium Text>（ブラック）<Normal Text>大した決意だ<Medium Text> <Normal Text>トランクス<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,7><Small Text>だま<Normal Text>
 <Screen Posiiton to 6,0><Medium Text>（トランクス）<Normal Text>黙れ！<Medium Text> <Normal Text>貴様が<Medium Text> <Normal Text>悟空さんの体を使って<Medium Text> <Normal Text>やっていることは➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7><Normal Text>ただの人殺しだ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7><Normal Text>フッ<Medium Text>。 <Normal Text>そうかな？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text>俺よりも<Medium Text> <Normal Text>お前の方が<Medium Text> <Normal Text>はるかに<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>大きな罪を犯しているのだ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,5><Normal Text>罪<Medium Text>！？
 <Screen Posiiton to 7,5>（ブラック）<Normal Text>トランクスよ➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,11><Small Text>まっさつ<Normal Text>
 <Screen Posiiton to 6,0>俺が<Medium Text> <Normal Text>人間を抹殺すべきだと
 <Screen Posiiton to 7,0>断じた理由の一つが<Medium Text> <Normal Text>お前なのだ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><Medium Text>（ブラック）<Normal Text>お前は<Medium Text> <Normal Text>過去を変えたことで新たな時の指輪を生んだ<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1>これこそ<Medium Text> <Normal Text>お前の罪の証し<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>過去と未来を行き来するのは
 <Screen Posiiton to 7,1>もう<Medium Text> <Normal Text>何度目だ？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2>われわれは<Medium Text> <Normal Text>知っている<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2>お前は<Medium Text> <Normal Text>神々のタブーを➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,5><Normal Text>人間の身でありながら<Medium Text>
 <Screen Posiiton to 7,5><Normal Text>犯し続けた<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><Medium Text>（ブラック）<Normal Text>トランクス<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>お前は<Medium Text> <Normal Text>心臓の病で死ぬはずだった孫<Medium Text> <Normal Text>悟空を救ったな？➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3><Normal Text>やつが<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>歴史どおり<Medium Text> <Normal Text>死んでいれば➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>俺は
 <Screen Posiiton to 7,0>この肉体を求めることもなかった<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Medium Text>（<Normal Text>ザマス<Medium Text>）<Normal Text>だが<Medium Text> <Normal Text>お前のために<Medium Text>
 <Screen Posiiton to 6,7><Small Text>くる<Normal Text>
 <Screen Posiiton to 7,0>歴史は<Medium Text> <Normal Text>狂い<Medium Text> <Normal Text>ゆがんでしまった<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>この世界をつくったのは
 <Screen Posiiton to 7,2>お前なのだ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>この事態は<Medium Text> <Normal Text>全て
 <Screen Posiiton to 7,3>トランクス<Medium Text> <Normal Text>お前が！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>さらに<Medium Text> <Normal Text>加えて<Medium Text> <Normal Text>お前たち人間の…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><Medium Text>（<Normal Text>ザマス<Medium Text>・ブラック）<Normal Text>
 <Screen Posiiton to 7,1><Medium Text>タイムマシン<Normal Text>などという<Medium Text> <Normal Text>おごりが➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1>招いたものに<Medium Text> <Normal Text>ほかならない！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,5><Normal Text>聞くな！<Medium Text> <Normal Text>トランクス！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><Medium Text>（<Normal Text>ザマス<Medium Text>・ブラック）<Normal Text>故に<Medium Text> <Normal Text>われら➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text>この世界を<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>人間の罪から<Medium Text> <Normal Text>救っているのだ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4>トランクス！
 <Screen Posiiton to 7,4>お前は<Medium Text> <Normal Text>罪人だ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,17><Small Text>せんたく<Medium Text>
 <Screen Posiiton to 7,5><Normal Text>お前の愚かな選択が…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3><Normal Text>私の正義に<Medium Text> <Normal Text>火を付け<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>人間０計画へと走らせた！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,5><Normal Text>よって<Medium Text> <Normal Text>地球人は<Medium Text>
 <Screen Posiiton to 7,5><Normal Text>お前が殺したも同然！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1>（トランクス）<Normal Text>俺は…<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>みんなを助けたかっただけだ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,11><Normal Text>やーっ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6>貴様！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,11><Normal Text>ああっ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><Medium Text>（<Normal Text>マイ<Medium Text>）<Normal Text>トランクス！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Medium Text>（<Normal Text>ザマス<Medium Text>）
 <Screen Posiiton to 6,7><Small Text>ふ<Normal Text>
 <Screen Posiiton to 7,0>時間に触れることは<Medium Text> <Normal Text>神の特権<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,6><Normal Text>それを乱す<Medium Text> <Normal Text>やからは<Medium Text>
 <Screen Posiiton to 6,5><Small Text>しゅくせい<Normal Text>
 <Screen Posiiton to 7,3>粛清あるのみ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>神を殺し<Medium Text> <Normal Text>人間を殺し
 <Screen Posiiton to 7,0>貴様が言う理想の世界とは<Medium Text> <Normal Text>何だ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>人間には<Medium Text> <Normal Text>理解できぬ…<Medium Text>。<Normal Text>
 <Screen Posiiton to 7,1><Medium Text>（ブラック）<Normal Text>気高く<Medium Text> <Normal Text>美しい世界だ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9>（ベジータ）<Normal Text>くっ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6>あっ…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text>トランクス…<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><Medium Text>（トランクス）<Normal Text>うわあああ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><Medium Text>（トランクス）<Normal Text>
 <Screen Posiiton to 7,1>罪と呼ぶなら<Medium Text> <Normal Text>呼ぶがいい！➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,9><Normal Text>うおおおお！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7>（<Normal Text>ブルマ<Medium Text>）<Normal Text>ううっ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,11><Normal Text>あいつ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><Medium Text>（トランクス）<Normal Text>うおおおお！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,7>（トランクス）<Normal Text>ブラック！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>貴様は…<Medium Text> <Normal Text>貴様は…➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>貴様は<Medium Text> <Normal Text>俺が<Medium Text> <Normal Text>やる！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>♫〜
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><yellow>おっす<Medium Text> <Normal Text>オラ<Medium Text> <Normal Text>悟空！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text><yellow>トランクス<Medium Text> <Normal Text>すっげえパワーだ！<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>ブラック相手に<Medium Text> <Normal Text>負けてねえ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text><yellow>だけど<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>２人相手じゃ<Medium Text> <Normal Text>長くは持たねえ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,3><Normal Text><yellow>すまねえ！<Medium Text>
 <Screen Posiiton to 7,3><Normal Text>オラたちが<Medium Text> <Normal Text>回復するまで➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 7,5><Normal Text><yellow>持ちこたえてくれよ！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text><yellow>何だって<Medium Text>！？
 <Screen Posiiton to 7,1><Normal Text>ザマスをやっつける技がある<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,23><Small Text><yellow>スーパー<Normal Text>
 <Screen Posiiton to 7,2>次回<Medium Text> 『<Normal Text>ドラゴンボール超<Medium Text>』
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3><Small Text><yellow>ぜってえ<Normal Text>
 <Screen Posiiton to 7,3>絶対<Medium Text> <Normal Text>見てくれよな！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen>
 <clear screen>
