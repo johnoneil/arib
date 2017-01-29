@@ -99,8 +99,9 @@ def OnProgress(bytes_read, total_bytes, percent):
   global VERBOSE
   global SILENT
   if not VERBOSE and not SILENT:
-    sys.stdout.write("progress: %.2f%%   \r" % (percent))
-    sys.stdout.flush()
+    #sys.stdout.write("progress: %.2f%%   \r" % (percent))
+    #sys.stdout.flush()
+    pass
 
 def OnTSPacket(packet):
   """
@@ -141,7 +142,6 @@ def OnESPacket(current_pid, packet, header_size):
   try:
     payload = ES.get_pes_payload(packet)
     f = list(payload)
-    #f = bytearray(payload)
     data_group = DataGroup(f)
     if not data_group.is_management_data():
       #We now have a Data Group that contains caption data.
@@ -152,11 +152,14 @@ def OnESPacket(current_pid, packet, header_size):
         #we're only interested in those Data Units which are "statement body" to get CC data.
         if not isinstance(data_unit.payload(), StatementBody):
           continue
-        #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
-        if pid < 0 and VERBOSE and not SILENT:
-          pid = current_pid
-          print("Found Closed Caption data in PID: " + str(pid))
-          print("Will now only process this PID to improve performance.")
+
+        # this code used to sed the PID we're scanning via first successful ARIB decode
+        # but i've changed it below to draw present CC language info form ARIB
+        # management data. Leaving this here for reference.
+        #if pid < 0 and VERBOSE and not SILENT:
+        #  pid = current_pid
+        #  print("Found Closed Caption data in PID: " + str(pid))
+        #  print("Will now only process this PID to improve performance.")
 
         #formatter function above. This dumps the basic text to stdout.
         cc = formatter(data_unit.payload().payload(), elapsed_time_s)
@@ -166,6 +169,19 @@ def OnESPacket(current_pid, packet, header_size):
           #my command line.
           #DECODE EARLY, ENCODE LATE
           print(cc.encode('utf-8'))
+    else:
+      # management data
+      management_data = data_group.payload()
+      numlang = management_data.num_languages()
+      if pid < 0 and numlang > 0:
+        for language in range(numlang):
+          if not SILENT:
+            print("Closed caption management data for language: "
+              + management_data.language_code(language)
+              + " available in PID: " + str(current_pid))
+            print("Will now only process this PID to improve performance.")
+        pid = current_pid
+
   except EOFError:
     pass
   except Exception, err:

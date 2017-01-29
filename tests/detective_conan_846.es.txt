@@ -1,94 +1,149 @@
 <clear screen>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 7,5><Medium Text><yellow>（<Normal Text>コナン<Medium Text>）
 <Screen Posiiton to 4,5><Normal Text>＜目覚めると<Small Text>
 <Screen Posiiton to 11,7><Normal Text>俺は暗闇の中にいた＞
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 6,7><yellow>あゆみげんたみつひこ
 <Screen Posiiton to 8,5><Normal Text>＜歩美<Medium Text> <Normal Text>元太<Medium Text> <Normal Text>光彦と➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 6,0><Normal Text><yellow>新作のゲームソフトを<Small Text>
 <Screen Posiiton to 8,0><Normal Text>買いに行く途中<Medium Text> <Normal Text>とある事務所で➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text><yellow>金庫をこじ開けている人影を<Small Text>
 <Screen Posiiton to 15,3><Normal Text>目撃したのだが➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><yellow>逆に襲われ➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,4><Small Text><yellow>ひつぎ
 <Screen Posiiton to 13,2><Normal Text>なんと棺の中に
 <Screen Posiiton to 7,1>閉じ込められてしまったのだ＞
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><Small Text><yellow>こごろう
 <Screen Posiiton to 15,0><Normal Text>＜同じ頃<Medium Text> <Normal Text>小五郎のおっちゃんは➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text><yellow>３日前に亡くなった<Small Text>
 <Screen Posiiton to 15,5><Normal Text>ある企業グループ会長➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,2><Small Text><yellow>からはし ごうたろう
 <Screen Posiiton to 13,4><Normal Text>唐橋剛太郎氏の
 <Screen Posiiton to 7,2>盗まれた遺言状の行方と➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4><yellow>その犯人の調査を
 <Screen Posiiton to 7,4>依頼されていた＞
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><yellow>＜探偵バッジを使い➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text><yellow>ようやく<Medium Text> <Normal Text>少年探偵団と<Small Text>
 <Screen Posiiton to 15,5><Normal Text>連絡が取れた<Medium Text> <Normal Text>その時➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3><yellow>俺を閉じ込めた
 <Screen Posiiton to 7,3>暗闇が動き出した！＞
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><yellow>＜天も見てるか<Medium Text> <Normal Text>世界の迷宮
 <Screen Posiiton to 7,1>推理全開<Medium Text> <Normal Text>すべてをつらぬく！＞
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Normal Text><yellow>＜閉じ込められた棺の暗闇<Small Text>
 <Screen Posiiton to 15,3><Normal Text>脱出できる手だてが見えない＞
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><yellow>＜たった１つの真実<Medium Text> <Normal Text>見抜く
 <Screen Posiiton to 7,2>見た目は子供<Medium Text> <Normal Text>頭脳は大人＞
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><yellow>＜その名は<Medium Text> <Normal Text>名探偵コナン！＞
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>♫〜
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen>
 <clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<clear screen>
-<clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
-<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen>
 <clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<clear screen>
+<clear screen>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,3>はいばらえどがわ
 <Screen Posiiton to 13,2><Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>どうしたの<Medium Text>！？<Normal Text>江戸川君<Medium Text>。
 <Screen Posiiton to 7,8><Normal Text>江戸川君！
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -3827305093498498888
 DRCS character: font: 0
@@ -114,40 +169,53 @@ DRCS character: font: 0
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>�<Medium Text><yellow>（<Normal Text>探偵団<Medium Text>バッジ：コナン<Normal Text>の声<Medium Text>）
 <Screen Posiiton to 7,5><Normal Text>車だ<Medium Text>。<Normal Text>この棺は車に…<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,4><Small Text><yellow>れいきゅうしゃ
 <Screen Posiiton to 13,2><Normal Text>ここは霊柩車の中だったんだ<Medium Text>。
 <Screen Posiiton to 7,8><white>（<Normal Text>４人<Medium Text>）<Normal Text>霊柩車<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Normal Text><yellow>ああ<Medium Text> <Normal Text>線香のにおいと➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><yellow>ドライアイスの冷気も感じた<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text><yellow>間違いねえ<Medium Text>。
 <Screen Posiiton to 7,5><Normal Text>こいつは二重底の棺で➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,3><Normal Text><yellow>俺の上には<Medium Text> <Normal Text>誰かの遺体が…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,2><Medium Text>（<Normal Text>元太<Medium Text>・<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>ええ〜っ<Medium Text>！？
 <Screen Posiiton to 7,8>（<Normal Text>歩美<Medium Text>）<Normal Text>す<Medium Text> <Normal Text>すぐに探そう！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,0><Medium Text>（<Normal Text>元太<Medium Text>）<Normal Text>おう<Medium Text> <Normal Text>霊柩車だったら
 <Screen Posiiton to 6,3>すぐ見つかるぜ<Medium Text>。
 <Screen Posiiton to 7,17>（<Normal Text>光彦<Medium Text>）<Normal Text>ですね！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,9><Normal Text>どうかしら？
 <Screen Posiiton to 7,2><Medium Text>（<Normal Text>元太<Medium Text>・<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>えっ？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>今は<Medium Text> <Normal Text>昔ながらの霊柩車が
 <Screen Posiiton to 7,2>少なくて➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>普通のセダンタイプが
 <Screen Posiiton to 7,3>多いらしいから➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>そう簡単には見つからないかも…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>やっぱり<Small Text>
 <Screen Posiiton to 15,3><Normal Text>警察に知らせた方がいいわ<Medium Text>。
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -3827305093498498888
 DRCS character: font: 0
@@ -173,11 +241,14 @@ DRCS character: font: 0
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9><Normal Text>�<yellow>待て<Medium Text> <Normal Text>灰原<Medium Text>。
 <Screen Posiiton to 7,13><Normal Text><white>ん…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><yellow>だとしても<Medium Text> <Normal Text>情報が必要だ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><yellow>あの場所は
 <Screen Posiiton to 7,1>十中八九<Medium Text> <Normal Text>葬儀場だ<Medium Text>。<Normal Text>だから…<Medium Text>。
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -3827305093498498888
 DRCS character: font: 0
@@ -203,154 +274,216 @@ DRCS character: font: 0
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,1><Normal Text>�<Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>わかった<Medium Text> <Normal Text>調べてみる<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>みんなで
 <Screen Posiiton to 7,0>手分けして探しましょ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>たった今<Medium Text> <Normal Text>お葬式が
 <Screen Posiiton to 7,0>終わったところがあれば…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text>なるほど！そこから出発した<Small Text><Normal Text>霊柩車の中に<Medium Text> <Normal Text>コナン君が<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>で<Medium Text> <Normal Text>でも<Medium Text> <Normal Text>それがホントなら
 <Screen Posiiton to 7,3>行き先は…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>ええ<Medium Text> <Normal Text>火葬場でしょうね<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>か<Medium Text> <Normal Text>火葬場<Medium Text>！？
 <Screen Posiiton to 7,6><Normal Text>コナン君<Medium Text> <Normal Text>焼かれちゃうの<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Normal Text>だから<Medium Text> <Normal Text>急いで探すの<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,11><Normal Text>ダメです<Medium Text> <Normal Text>空振りです<Medium Text>。
 <Screen Posiiton to 7,9><Normal Text>こっちもよ<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4><Small Text><green>もうりらん
 <Screen Posiiton to 15,7><Medium Text>（<Normal Text>毛利<Medium Text> <Normal Text>蘭<Medium Text>）<Normal Text>みんな！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><Medium Text>（<Normal Text>歩美<Medium Text>）<Normal Text>あ<Medium Text> <Normal Text>蘭おねえさん！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><green>すいません<Medium Text> <Normal Text>ちょっと
 <Screen Posiiton to 7,2>待っててもらえますか？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><green>心配してたのよ<Medium Text> <Normal Text>みんな<Medium Text>。
 <Screen Posiiton to 7,4><Normal Text>コナン君は？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7><Normal Text>見つかりました！
 <Screen Posiiton to 7,0><green>ホント<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,3><Normal Text>あいつ<Medium Text> <Normal Text>今<Medium Text> <Normal Text>霊柩車の中だぜ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><green>れ<Medium Text> <Normal Text>霊柩車<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><green>あ…あら？ここって…<Medium Text>。
 <Screen Posiiton to 7,3><white>（<Normal Text>元太たち<Medium Text>）<Normal Text>ん？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><yellow>遺言状<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Medium Text>（<Normal Text>光彦<Medium Text>）
 <Screen Posiiton to 7,3><Normal Text>え？眠りの小五郎の依頼人<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,15>あさだ
 <Screen Posiiton to 15,3><Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>ここの浅田弁護士が？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><green>そう<Medium Text> <Normal Text>今朝早く<Medium Text> <Normal Text>ここへ出かけて…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,1><Medium Text>（<Normal Text>光彦<Medium Text>）
 <Screen Posiiton to 6,1><Normal Text>もしかして<Medium Text> <Normal Text>コナン君が言ってた<Small Text>
 <Screen Posiiton to 15,1><Normal Text>盗難事件に関係が<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>みたいね…どうやら<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 14,2><Normal Text><green>あ<Medium Text> <Normal Text>でも<Medium Text> <Normal Text>さっき連絡があって➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,1><Normal Text><green>その浅田先生と<Small Text>
 <Screen Posiiton to 14,1><Normal Text>お葬式に出るかもしれないから➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text><green>念のため<Small Text>
 <Screen Posiiton to 15,3><Normal Text>喪服を持って来てくれって<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><Medium Text>（<Normal Text>元太<Medium Text>・<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>あ<Medium Text> <Normal Text>お葬式<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>場所は<Medium Text> <Normal Text>ここね？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><green>そう<Medium Text> <Normal Text>この葬儀場<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3><green>え…あっ<Medium Text> <Normal Text>何？
 <Screen Posiiton to 7,3>どうしたの？みんな<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>蘭おねえさん<Medium Text> <Normal Text>早く！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,13><Normal Text>急いでください！
 <Screen Posiiton to 7,5>置いてくぞ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><Medium Text><cyan>（<Normal Text>毛利小五郎<Medium Text>）<Normal Text>な<Medium Text> <Normal Text>なんだと<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Normal Text><cyan>コナンが棺桶の中に<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,8><cyan>遺言状も<Medium Text> <Normal Text>そこにあるってのか<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><Medium Text>（<Normal Text>浅田<Medium Text>）<Normal Text>ほ<Medium Text> <Normal Text>ほんとですか<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>コナン君は
 <Screen Posiiton to 7,0>そう言ってます！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,6>小さい桐の箱に
 <Screen Posiiton to 7,6>入ってるって<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,0><Normal Text>それです！<Small Text>
 <Screen Posiiton to 12,0><Normal Text>間違いありません！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,17><Normal Text>やったぜ！
 <Screen Posiiton to 7,1><green>それで<Medium Text> <Normal Text>お父さん<Medium Text> <Normal Text>お葬式は？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><cyan>ついさっき終わった<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><cyan>霊柩車も<Medium Text><green> <Normal Text><cyan>遺族と一緒に火葬場に出発した<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9><Normal Text><green>なんですって<Medium Text>！？
 <Screen Posiiton to 7,7><white>（<Normal Text>３人<Medium Text>）<Normal Text>やっぱり…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text>そんな…<Medium Text>。
 <Screen Posiiton to 7,11>（<Normal Text>元太<Medium Text>）<Normal Text>ウソだろ…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,4><Medium Text>（<Normal Text>歩美<Medium Text>）<Normal Text>コナン君…<Medium Text>。
 <Screen Posiiton to 7,10><Normal Text>すみません！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Normal Text><cyan>ま<Medium Text> <Normal Text>まさか…<Small Text>
 <Screen Posiiton to 15,1><Normal Text>犯人は遺体もろとも遺言状を…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>遺言状がなければ
 <Screen Posiiton to 7,0>実質<Medium Text><yellow> <Normal Text><white>３人の子供達で➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>等分に遺産を分ける事になります<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><cyan>となると<Medium Text> <Normal Text>犯人は一体…？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><green>何言ってるの<Medium Text> <Normal Text>お父さん！
 <Screen Posiiton to 7,1>そんなことよりコナン君が…<Medium Text>！！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,17><Normal Text><cyan>わかってるよ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>今日ここを出た霊柩車は<Small Text>
 <Screen Posiiton to 15,7><Normal Text>その１台だけだそうよ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>で<Medium Text> <Normal Text>火葬場に連絡してもらったら➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>そろそろ着いていいはずだけど
 <Screen Posiiton to 7,1>まだ来ていないって<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>え<Medium Text> <Normal Text>どういうことだ<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text>今どこ？江戸川君！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text><yellow>どこって…<Small Text>
 <Screen Posiiton to 15,3><Normal Text>それが分かりゃ苦労は…➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text><yellow>また停まってんな<Medium Text>。
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -3827305093498498888
 DRCS character: font: 0
@@ -376,189 +509,286 @@ DRCS character: font: 0
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>�<Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>またって？
 <Screen Posiiton to 7,6><yellow>ああ…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><yellow>さっきから<Medium Text> <Normal Text>たびたび
 <Screen Posiiton to 7,2>停まったり徐行したり➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><yellow>１分ずつぐらいかな<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text>あるいは<Small Text>
 <Screen Posiiton to 15,5><Normal Text>到着が遅れているのは➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>故人にゆかりのある場所に
 <Screen Posiiton to 7,1>立ち寄っているからかも…<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Normal Text>大企業から町工場まで<Small Text>
 <Screen Posiiton to 15,1><Normal Text>人望の厚い方でしたから<Medium Text> <Normal Text>会長は<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7><Normal Text><cyan>ゆかりの場所…<Medium Text>。
 <Screen Posiiton to 7,7><Normal Text>唐橋グループの支社とか➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,8><cyan>取引先ですか<Medium Text>。
 <Screen Posiiton to 7,0><Normal Text><white>はい<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4><cyan>大至急<Medium Text> <Normal Text>確認を！
 <Screen Posiiton to 7,4>私は火葬場に直行します<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><cyan>そういうことなら
 <Screen Posiiton to 7,2>十分こっちが先行できる！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text><cyan>もしもし<Medium Text> <Normal Text>警部殿！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,13><Normal Text>コナン君…<Medium Text>。
 <Screen Posiiton to 7,5><Normal Text>どうか間に合ってください！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>もっと飛ばせよ<Medium Text> <Normal Text>おっちゃん！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>やった！間に合ったぞ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4><green>でも…なんか変<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4><Medium Text>（<Normal Text>携帯の着信音<Medium Text>）
 <Screen Posiiton to 7,4><Normal Text><cyan>ん…？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><cyan>毛利です<Medium Text>。
 <Screen Posiiton to 7,22><Normal Text><white>浅田です<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Normal Text>毛利さん<Medium Text> <Normal Text>やはり<Medium Text> <Normal Text>支店のひとつに<Small Text><Normal Text>立ち寄っていました<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,9>会長の霊柩車<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>しかし<Medium Text> <Normal Text>今日は休日で<Small Text>
 <Screen Posiiton to 15,3><Normal Text>道路状況が悪いということで➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>中止して<Medium Text> <Normal Text>すぐに
 <Screen Posiiton to 7,3>火葬場に向かったそうです<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>なんですと<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4>時間的に見て
 <Screen Posiiton to 7,4>もう到着するところだと<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>ちょっと<Medium Text> <Normal Text>これを見て！
 <Screen Posiiton to 7,2><cyan>ん？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><green>別館<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>あそこじゃないですか？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><Medium Text>（<Normal Text>一同<Medium Text>）<Normal Text>エーッ<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4><cyan>ま<Medium Text> <Normal Text>待て！
 <Screen Posiiton to 7,5><green>待ってください！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9><Medium Text>（<Normal Text>元太<Medium Text>）<Normal Text>コナン！<Small Text>
 <Screen Posiiton to 15,5><Medium Text>（<Normal Text>光彦<Medium Text>・<Normal Text>歩美<Medium Text>）<Normal Text>コナン君！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,4><Medium Text>（<Normal Text>唐橋耕造<Medium Text>）<Small Text>
 <Screen Posiiton to 12,4><Normal Text>か<Medium Text> <Normal Text>火葬を中止しろだと<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Medium Text>（<Normal Text>唐橋光代<Medium Text>）<Normal Text>何を言ってるの<Medium Text> <Normal Text>一体<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,8><Medium Text>（<Normal Text>唐橋英輔<Medium Text>）<Small Text>
 <Screen Posiiton to 12,8><Normal Text>やっぱヘボ探偵だったか<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><green>中にコナン君が…！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><green>棺の中に子供が入ってるんです！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><cyan>ん？どうやら
 <Screen Posiiton to 7,2>心当たりがあるようですな<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,17><Normal Text>バカな！
 <Screen Posiiton to 7,3>そんなものないわ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6>ああ<Medium Text> <Normal Text>あるはずない！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,3>めぐれ
 <Screen Posiiton to 13,1><Medium Text>（<Normal Text>目暮<Medium Text>）<Normal Text>でしたら<Medium Text> <Normal Text>棺を<Small Text>
 <Screen Posiiton to 15,7><Normal Text>開けてもらえますかな？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><cyan>お待ちしていました<Medium Text> <Normal Text>警部殿！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>警視庁捜査一課です<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text>誘拐事件の疑いがある<Small Text>
 <Screen Posiiton to 15,5><Normal Text>緊急事態です<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,4><Small Text>たかぎちば
 <Screen Posiiton to 13,8><Normal Text>高木！千葉！
 <Screen Posiiton to 7,0><Medium Text>（<Normal Text>千葉<Medium Text>・<Normal Text>高木<Medium Text>）<Normal Text>は！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2>いくら警察でも<Medium Text> <Normal Text>こんなこと！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>何か不都合でも？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,8>あ<Medium Text> <Normal Text>いや<Medium Text> <Normal Text>別に…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><green>ご遺体の下に<Medium Text> <Normal Text>コナン君が…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,20><Normal Text>うむ<Medium Text>。
 <Screen Posiiton to 7,4>（<Normal Text>千葉<Medium Text>・<Normal Text>高木<Medium Text>）<Normal Text>失礼します<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2>いません<Medium Text>。
 <Screen Posiiton to 7,8>（<Normal Text>一同<Medium Text>）<Normal Text>えっ<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Normal Text>っていうか<Small Text>
 <Screen Posiiton to 15,1><Normal Text>二重底になっていません<Medium Text> <Normal Text>この棺<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><cyan>な<Medium Text> <Normal Text>なんだって<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><green>ウソ…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen>
 <clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen>
 <clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>どういうことだね<Medium Text> <Normal Text>毛利君<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>あ<Medium Text> <Normal Text>いや<Medium Text> <Normal Text>そんなはずは…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>おい！一体どういうことだ<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,3><Normal Text>そんなの<Medium Text> <Normal Text>私達に聞かれても<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,2><Normal Text>つ〜か<Medium Text> <Normal Text>これって問題じゃねぇ？
 <Screen Posiiton to 7,0>責任取ってくれるんでしょうね？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>そ<Medium Text> <Normal Text>それについては<Medium Text> <Normal Text>改めて…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text>江戸川君！<Small Text>
 <Screen Posiiton to 15,5><Normal Text>今どこなの？江戸川君<Medium Text>！？
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -3827305093498498888
 DRCS character: font: 0
@@ -583,13 +813,17 @@ DRCS character: font: 0
 
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text>�<Medium Text>（<Normal Text>ノイズ音<Medium Text>）
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>通じないんですか？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,17><Normal Text>どこ行ったんだ<Small Text><Normal Text>あいつ…<Medium Text>。
 <Screen Posiiton to 7,8><Normal Text>コナン君…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text><yellow>灰原！灰原？
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -3827305093498498888
 DRCS character: font: 0
@@ -616,109 +850,151 @@ DRCS character: font: 0
 <Screen Posiiton to 6,5>�<Medium Text>（<Normal Text>ノイズ音<Medium Text>）
 <Screen Posiiton to 7,1><Normal Text><yellow>クッソー！一体どこ走ってんだ<Medium Text>！？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><Medium Text>（<Normal Text>村上<Medium Text>）<Normal Text>まったくポンコツが…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>だいぶ道草食っちまったぜ<Medium Text>。
 <Screen Posiiton to 7,3><Normal Text>チッ…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3><yellow>そうか<Medium Text> <Normal Text>ということは
 <Screen Posiiton to 7,3>もしかしたら…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text><yellow>灰原<Medium Text> <Normal Text>聞こえるか？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><cyan>な<Medium Text> <Normal Text>何<Medium Text>！？
 <Screen Posiiton to 7,4><Normal Text>もう１台<Medium Text> <Normal Text>別の霊柩車が？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,6><green>うん<Medium Text> <Normal Text>コナン君が
 <Screen Posiiton to 7,6>そう言ってきたって<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><green>たぶん<Medium Text> <Normal Text>葬儀場の
 <Screen Posiiton to 7,2>地下駐車場に停めてあって…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text><green>あれ？あの子達<Medium Text> <Normal Text>また…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>警部殿！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,10>高木<Medium Text>。
 <Screen Posiiton to 7,0><Normal Text>はっ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>もしもし<Medium Text> <Normal Text>葬儀場ですか？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,17><Normal Text><cyan>お〜っと<Medium Text>。
 <Screen Posiiton to 7,8><white>（<Normal Text>３人<Medium Text>）<Normal Text>うっ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text><cyan>どちらに行かれるんですかな？<white>千葉！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>はっ！事情がハッキリするまで<Small Text><Normal Text>こちらに<Medium Text> <Normal Text>いて頂きます<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><Medium Text>（<Normal Text>３人<Medium Text>）<Normal Text>くっ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>警部！やはり<Medium Text> <Normal Text>もう１台
 <Screen Posiiton to 7,0>霊柩車が存在しました<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,23><Normal Text>本当か<Medium Text>！？
 <Screen Posiiton to 6,13><Small Text>はいしゃ
 <Screen Posiiton to 15,0><Normal Text>なんでも今朝<Medium Text> <Normal Text>廃車扱いで➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>スクラップに出した
 <Screen Posiiton to 7,0>古いタイプの霊柩車で➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>地下の駐車場に
 <Screen Posiiton to 7,0>停められていたそうです<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><green>やっぱり…！<Small Text>
 <Screen Posiiton to 15,5><Normal Text><cyan>どこの処理場に出したんだ<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,1><Medium Text>（<Normal Text>高木<Medium Text>）
 <Screen Posiiton to 7,1><Normal Text>それが担当者が休みだそうで…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>わからないのか<Medium Text>！？
 <Screen Posiiton to 7,10>（<Normal Text>携帯の着信音<Medium Text>）
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,6><Medium Text>（<Normal Text>ピッ<Medium Text>）
 <Screen Posiiton to 6,6><Normal Text><green>もしもし<Medium Text> <Normal Text>哀ちゃん！
 <Screen Posiiton to 7,3>一体<Medium Text> <Normal Text>どこに<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><green>え…？コナン君の霊柩車を
 <Screen Posiiton to 7,1>追いかけてる<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>何<Medium Text>！？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,5><Normal Text><yellow>なるほどな…こいつは<Small Text>
 <Screen Posiiton to 15,5><Normal Text>スクラップだったのか<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><Medium Text>（<Normal Text>キィィ…<Medium Text>）
 <Screen Posiiton to 7,8><Normal Text><yellow>今<Medium Text> <Normal Text>右に曲がった<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,13><Medium Text>（<Normal Text>キィィィ<Medium Text>）
 <Screen Posiiton to 7,14><Normal Text><yellow>すぐ左<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><Medium Text>（<Normal Text>キィィィ<Medium Text>）
 <Screen Posiiton to 7,8><Normal Text><yellow>まっすぐ行って<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,6><Medium Text>（<Normal Text>キィィッ<Medium Text>）
 <Screen Posiiton to 7,14><Normal Text><yellow>また左だ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7><Normal Text>右<Medium Text> <Normal Text>曲がって<Medium Text> <Normal Text>左<Medium Text>。
 <Screen Posiiton to 7,7><Normal Text>まっすぐ行って<Medium Text> <Normal Text>また左ね<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,8><Normal Text>…だそうです<Medium Text>。
 <Screen Posiiton to 7,5><Normal Text>頼むぜ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1>そう<Medium Text> <Normal Text>だから同様に廃棄処分する線香やドライアイス➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>段ボールなんかも一緒に
 <Screen Posiiton to 7,0>木箱につめて<Medium Text> <Normal Text>のせたんだそうよ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0>あなたが閉じ込められているのは
 <Screen Posiiton to 7,0>棺の底なんかじゃなかったのよ！
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -3827305093498498888
 DRCS character: font: 0
@@ -744,55 +1020,82 @@ DRCS character: font: 0
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,0>�<Medium Text>（<Normal Text>灰原<Medium Text>）
 <Screen Posiiton to 6,2><Normal Text>ゆかりの場所に立ち寄<Medium Text>っ<Normal Text>てるかに思えた徐行や停車も…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><yellow>ポンコツ霊柩車のエンジン不調<Medium Text>。<Normal Text>ただの偶然だったってわけだ<Medium Text>。
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><yellow>そんで…これには
 <Screen Posiiton to 7,5>そんな裏事情があった<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><yellow>読めてきたぜ<Medium Text> <Normal Text>この事件<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,4><Normal Text><yellow>あの時<Medium Text> <Normal Text>あそこには<Small Text>
 <Screen Posiiton to 12,4><Normal Text>確かに複数の人間がいた<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2>なるほど…それが…え？➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,3><Normal Text>でも彼らにはアリバイが！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><yellow>そいつは多分…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Normal Text><yellow>そして<Medium Text> <Normal Text>その間に…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>現場で落ち合った<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4><Medium Text>（<Normal Text>２人<Medium Text>）<Normal Text>フフフ…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text><yellow>《金庫破り…！》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Medium Text>（<Normal Text>ガン！<Medium Text>）
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,13><Normal Text>フン！
 <Screen Posiiton to 7,0>フフフ…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7><Normal Text><yellow>ああ<Medium Text> <Normal Text>間違いねぇ<Medium Text>。
 <Screen Posiiton to 7,9><white>（<Normal Text>キィィッ<Medium Text>）
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><yellow>停まった！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3><Medium Text>（カッコー カッコー カッコー<Normal Text>…<Medium Text>）
 <Screen Posiiton to 7,10><Normal Text><yellow>横断歩道！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><Medium Text>（カッコー カッコー カッコー<Normal Text>…<Medium Text>）
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,1><Normal Text>葬儀場を出てトンネルを抜けて➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>右<Medium Text> <Normal Text>左<Medium Text> <Normal Text>左…その先に横断歩道は<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text>あ…結構あるわね<Medium Text>。
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -3827305093498498888
 DRCS character: font: 0
@@ -817,8 +1120,10 @@ DRCS character: font: 0
 
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text>�<yellow>動き出した<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Medium Text>（<Normal Text>カンカンカン…<Medium Text>）
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -3827305093498498888
 DRCS character: font: 0
@@ -845,103 +1150,152 @@ DRCS character: font: 0
 <Screen Posiiton to 13,9><Normal Text><yellow>今度は踏切だ<Medium Text>。
 <Screen Posiiton to 7,7><Normal Text><white>�<Medium Text>（<Normal Text>灰原<Medium Text>）<Normal Text>踏切<Medium Text>！？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>踏切…これね！
 <Screen Posiiton to 7,3>わかったわ<Medium Text> <Normal Text>行き先！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><Medium Text>（<Normal Text>元太<Medium Text>・<Normal Text>光彦<Medium Text>・<Normal Text>歩美<Medium Text>）<Normal Text>うん！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><yellow>やったぜ！これなら解けるぞ<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text><yellow>また停まった…！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,8><Medium Text><Highlight start> <Highlight start>エンジン<Normal Text>が止まる<Medium Text><Highlight start> 
 <Screen Posiiton to 7,2><Normal Text><Highlight end><yellow>いや<Medium Text> <Normal Text>エンジンを切ったんだ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,3><Normal Text><yellow>ということは<Medium Text> <Normal Text>ここは…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,8><Small Text>くりにじ
 <Screen Posiiton to 13,1><Medium Text>（<Normal Text>目暮<Medium Text>）<Normal Text>行き先は<Medium Text> <Normal Text>栗虹町の<Small Text>
 <Screen Posiiton to 15,7><Normal Text>スクラップ処理場！急げ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Medium Text>（<Normal Text>パトカーのサイレン<Medium Text>）
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><Medium Text>（<Normal Text>ドスン！<Medium Text>）
 <Screen Posiiton to 7,12><Normal Text><yellow>え<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Medium Text>（<Normal Text>ピィピィピィ…<Medium Text>）
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><Medium Text>（<Normal Text>ズウン！<Medium Text>）
 <Screen Posiiton to 7,9><Normal Text><yellow>ぐっ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Normal Text><yellow>やった！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><Medium Text>（<Normal Text>バリン！<Medium Text>）
 <Screen Posiiton to 7,12><Normal Text><yellow>はっ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text><yellow>うわあぁ〜っ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><Medium Text>（<Normal Text>歩美<Medium Text>）<Normal Text>コナン君！
 <Screen Posiiton to 7,0>どこだ〜<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>あそこ！
 <Screen Posiiton to 7,0><Medium Text>（<Normal Text>元太<Medium Text>・<Normal Text>光彦<Medium Text>・<Normal Text>歩美<Medium Text>）<Normal Text>えっ<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Medium Text>（<Normal Text>パトカーのサイレン<Medium Text>）
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2>そ<Medium Text> <Normal Text>そんな…コナン君！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,3><Normal Text><green>はっ！コナン…！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><cyan>と<Medium Text> <Normal Text>止めろ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,9><Normal Text><cyan>プレス機を…止めろ〜<Medium Text>！！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,23><Normal Text><cyan>く〜っ！<white>止めてくださ〜い！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Normal Text>いっ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,4><Medium Text>（<Normal Text>バリッ<Medium Text>）
 <Screen Posiiton to 7,16><Normal Text>お<Medium Text> <Normal Text>遅かったか<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><green>ウソ…ウソ〜<Medium Text>！！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><cyan>バ<Medium Text> <Normal Text>バカな！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><cyan>バカな〜！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5>そ<Medium Text> <Normal Text>そんな…そんなぁ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,7><Normal Text>いや<Medium Text> <Normal Text>いやあ<Medium Text> <Normal Text>コナン君〜！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3>コナン…うな重１０杯
 <Screen Posiiton to 7,3>おごるから！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,4>生き返ってくれ〜！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3><yellow>いくらなんでも
 <Screen Posiiton to 7,3>そんなに食えねぇよ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Medium Text>（<Normal Text>元太<Medium Text>・<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>あ？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜<Small Text><Normal Text><yellow>元太<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,10><Normal Text>コ<Medium Text> <Normal Text>コナン！
 <Screen Posiiton to 7,0>♫〜<Small Text><Medium Text>（<Normal Text>歩美<Medium Text>・<Normal Text>光彦<Medium Text>）<Normal Text>コナン君！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜<Small Text><Normal Text><cyan>う…ああっ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜<yellow>ふう…危機一髪<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -775118510460996568
 DRCS character: font: 0
@@ -989,6 +1343,8 @@ DRCS character: font: 0
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><yellow>�今だ！今しかねぇ！�
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 DRCS character font id: 0
 DRCS character hash: -775118510460996568
 DRCS character: font: 0
@@ -1036,205 +1392,313 @@ DRCS character: font: 0
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,11><Medium Text>（<Normal Text>バン！<Medium Text>）
 <Screen Posiiton to 7,14><Normal Text><yellow>�う<Medium Text> <Normal Text>うわあ！�
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Normal Text><yellow>ハハハ…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,7><cyan>あ〜っ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,6><cyan>遺言状は！ま<Medium Text> <Normal Text>まさか霊柩車と一緒に<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>なんてこった！
 <Screen Posiiton to 7,6><green>あれ<Medium Text> <Normal Text>コナン君は？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,5><Medium Text>（<Normal Text>プシュッ！<Medium Text>）
 <Screen Posiiton to 7,11><Normal Text><cyan>あっ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><cyan>あらほれひれはれ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>ゆいごん<Medium Text> <Normal Text>ごんごん<Medium Text> <Normal Text>じょうした？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,6><cyan>…の？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7><Normal Text>遺言状が見つかったって<Medium Text>！？<Normal Text>ホントなの？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,10>って…<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>眠りの小五郎<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3>ん？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）<Normal Text>コナン！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,11><Normal Text><yellow>は〜い！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><yellow>はい<Medium Text> <Normal Text>これ<Medium Text>。
 <Screen Posiiton to 7,20><Normal Text><white>ありがとう<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7><Medium Text>（<Normal Text>浅田<Medium Text>）<Normal Text>間違いない<Medium Text>。
 <Screen Posiiton to 7,9>（<Normal Text>３人<Medium Text>）<Normal Text>あっ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,9><Normal Text>会長が書きかえた<Small Text>
 <Screen Posiiton to 15,9><Normal Text>一番<Medium Text> <Normal Text>新しい遺言状です<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,2><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）
 <Screen Posiiton to 6,4><Normal Text>いやいや<Medium Text> <Normal Text>残念でしたな<Medium Text>。
 <Screen Posiiton to 7,4><Normal Text>英輔さん<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,11>あ？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><yellow>ガム踏んだでしょ？<Small Text>
 <Screen Posiiton to 15,23><Normal Text><white>ガム？
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><yellow>においとか<Medium Text><white> <Normal Text><yellow>ベタベタとか
 <Screen Posiiton to 7,0>移っちゃって困ってるんだけど<Medium Text>。
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,19><Normal Text>そ<Medium Text> <Normal Text>それは…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,0><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）
 <Screen Posiiton to 6,0><Normal Text>そして<Medium Text><white> <Normal Text><cyan>耕造さんと光代さん
 <Screen Posiiton to 7,0>あなた方も<Medium Text> <Normal Text>あの場所にいた<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,3><Medium Text>（<Normal Text>光代<Medium Text>・<Normal Text>耕造<Medium Text>）<Normal Text>あ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,1><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）
 <Screen Posiiton to 6,2><Normal Text>本来<Medium Text> <Normal Text>仲が悪い相手のアリバイを証明し合うなど➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><cyan>するはずがないという
 <Screen Posiiton to 7,2>先入観を<Medium Text><white> <Normal Text><cyan>たのみにした<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,1><cyan>まあ<Medium Text> <Normal Text>古典的な手を使ってね<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,9>しょ<Medium Text> <Normal Text>証拠は<Medium Text>！？<Normal Text>そうよ<Medium Text>。<Normal Text>証拠は<Medium Text><green> <Normal Text><white>どこにあるの<Medium Text>！？
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）<Normal Text>警部殿<Medium Text>。
 <Screen Posiiton to 7,0><Normal Text><white>ん<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,0><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）
 <Screen Posiiton to 6,0><Normal Text>遺言状の指紋採取を
 <Screen Posiiton to 7,0>お願いします<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>私の推測が正しければ
 <Screen Posiiton to 7,0>故人と浅田先生とコナンの他に➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,2><Small Text><cyan>さんかた
 <Screen Posiiton to 13,2><Normal Text>お三方の指紋が
 <Screen Posiiton to 7,1>検出されるはずです<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,7><Medium Text>（<Normal Text>光代<Medium Text>・<Normal Text>耕造<Medium Text>）<Normal Text>あっ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5>本当かね<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,3><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）
 <Screen Posiiton to 6,3><Normal Text>どうせ処分する<Medium Text> <Normal Text>あるいは<Small Text>
 <Screen Posiiton to 15,3><Normal Text>書きかえるつもりなので➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>素手で<Medium Text><green> <Normal Text><cyan>さわった<Medium Text>。
 <Screen Posiiton to 7,0><Normal Text>一刻も早く中身を確かめたくて<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2><cyan>違いますかな？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>あ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 5,0><Medium Text><cyan>（<Normal Text>変声機<Medium Text>：<Normal Text>小五郎の声<Medium Text>）
 <Screen Posiiton to 6,0><Normal Text>恐らく遺産は３等分か
 <Screen Posiiton to 7,0>自分たちに都合のいいように➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>遺言状を<Small Text>けったく
 <Screen Posiiton to 15,0><Normal Text>書きかえるという条件で結託<Medium Text>。<Normal Text>➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>いずれ解放するつもりの
 <Screen Posiiton to 7,0>コナンと一緒に➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>使われていない霊柩車に
 <Screen Posiiton to 7,0>隠したのは<Medium Text><white> <Normal Text><cyan>よかったが➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><cyan>まさか今日
 <Screen Posiiton to 7,0>スクラップに出されるとは➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><cyan>思わなかったんでしょうなぁ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,2>フン！悪いのは親父だ！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0>ったく！冗談じゃないわよ<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text>秘書<Medium Text> <Normal Text>いえ<Medium Text> <Normal Text>愛人なんかに<Small Text>
 <Screen Posiiton to 15,3><Normal Text>全財産を譲るなんて<Medium Text>！！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,3><Normal Text>許せるかって<Medium Text> <Normal Text>そんなの！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,5><Normal Text><green>そんなことのために！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,21><green>いのち
 <Screen Posiiton to 13,3><Normal Text>子供の…コナン君の生命を<Small Text>
 <Screen Posiiton to 15,3><Normal Text>危険にさらして！
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text><green>許せないのは<Small Text>
 <Screen Posiiton to 15,3><Normal Text>あなたたちの方じゃない！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,5><Medium Text>（<Normal Text>３人<Medium Text>）<Normal Text>あ！
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,9><green>う…う…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,13><Normal Text><yellow>蘭…<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,27><Normal Text><cyan>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,27><Normal Text><cyan>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,27><Normal Text><cyan>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,27><Normal Text><cyan>♫〜
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 14,27><Normal Text><cyan>♫〜
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 9,27><Normal Text><cyan>♫〜
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><yellow>＜後日<Medium Text> <Normal Text>遺言どおり<Medium Text> <Normal Text>財産は
 <Screen Posiiton to 7,2>秘書の女性に譲られたが➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,2><yellow>彼女は全額
 <Screen Posiiton to 7,2>慈善団体に寄付したと➡
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,1><yellow>浅田弁護士が
 <Screen Posiiton to 7,1>おっちゃんに知らせてきた＞
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,0><green>大変だったわね<Medium Text> <Normal Text>コナン君<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><green>暗くて狭いところに
 <Screen Posiiton to 7,0>閉じ込められて<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 7,3><green>夜１人で<Medium Text><white> <Normal Text><green>おトイレ行ける？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,3><green>ついてってあげようか<Medium Text>。
 <Screen Posiiton to 7,0><Normal Text><yellow>え！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,7><Normal Text><yellow>そ<Medium Text> <Normal Text>そんなの<Medium Text><green> <Normal Text><yellow>いいよ<Small Text>
 <Screen Posiiton to 15,7><Normal Text>蘭ねえちゃん！
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 15,13><Normal Text><cyan>ん<Medium Text>！？
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
 <Screen Posiiton to 6,0><green>もお<Medium Text> <Normal Text>遠慮なんか<Medium Text> <Normal Text>しないで！
 <Screen Posiiton to 7,0>蘭おねえちゃんに甘えなさい<Medium Text>。
+<Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 13,3><Normal Text><yellow>《冗談だろ<Medium Text>！？
 <Screen Posiiton to 7,5><Normal Text>俺は高校生だっつ〜の》
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <clear screen>
 <clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
 <clear screen>
 <clear screen>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
+<Closed caption management data for language: jpn>
 <CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><clear screen>
+<Closed caption management data for language: jpn>
 <clear screen>
 <clear screen>
+<Closed caption management data for language: jpn>

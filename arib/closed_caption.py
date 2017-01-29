@@ -31,14 +31,21 @@ class CaptionStatementData(object):
     :param bytes: array of bytes payload
     '''
     self._TMD = read.ucb(f)>>6
-    if self._TMD == 0x01 or self._TMD == 0X10:
-      self.STM = 0#TODO: read four bytes
+    if self._TMD == 0x1 or self._TMD == 0x2:
+      # 36 bit STM time, followed by 4 bit reserved data
+      # followed by 24 bit data_unit_loop_length.
+      # We'll read all that as a single 64 bit value and break it up
+      d = read.ulb(f)
+      self.STM = d >> 28
+      self._data_unit_loop_length = d & 0xffffffff
+      if DEBUG:
+        print 'CaptionStatementData: STM (time) ' + str(self.STM)
+        print 'CaptionStatementData: data unit loop length: ' + str(self._data_unit_loop_length)
     else:
       self.STM = 0
-    self._data_unit_loop_length = read.ui3b(f)
+      self._data_unit_loop_length = read.ui3b(f)
     if DEBUG:
       print 'Caption statement: data unit loop length: ' + str(self._data_unit_loop_length)
-    #self._payload = f.read(self._data_unit_loop_length)
     bytes_read = 0
     self._data_units = []
     while bytes_read < self._data_unit_loop_length:
@@ -264,3 +271,126 @@ class DataUnit(object):
       return DRCS1ByteCharacter(f, self)
     else:
       read.buffer(f, self._data_unit_size)
+
+
+class Language(object):
+  def __init__(self, f):
+    d = read.ucb(f)
+    self._language_tag = d >> 5
+    if DEBUG:
+      print("caption management language tag: " + str(self._language_tag))
+    self._DMF = d & 0x7
+    if self._DMF == 0b1100 or self._DMF == 0b1101 or self._DMF == 0b1110:
+      self._DC = read.ucb(f)
+    else:
+      self._DC = 0
+
+    if DEBUG:
+      print("caption managment DC: " + str(self._DC))
+
+    self._language_code = ''
+    self._language_code += str(unichr(read.ucb(f)))
+    self._language_code += str(unichr(read.ucb(f)))
+    self._language_code += str(unichr(read.ucb(f)))
+    if DEBUG:
+      print("caption managment language code: " + str(self._language_code))
+    
+    formats = read.ucb(f)
+    self._format = formats >> 4
+    if DEBUG:
+      print("caption management format: " + str(self._format))
+    
+    self._rollup_mode = formats & 0x3
+    if DEBUG:
+      print("caption management rollup mode: " + str(self._rollup_mode))
+    
+
+class CaptionManagementData(object):
+  """
+  Describes caption managment data as per Arib b24 std
+  table 9-3 on p173
+  """
+  # Time control (TMD) values as pert table 9-4
+  TIME_CONTROL_FREE = 0b0
+  TIME_CONTROL_REALTIME = 0b1
+  TIME_CONTROL_OFFSET = 0b10
+  TIME_CONTROL_RESERVED = 0b11
+
+  # Display mode (DMF) masks per table 9-5
+  DISPLAY_MODE_DISPLAY_MASK = 0b0000
+  DISPLAY_MODE_NOT_DISPLAYED_MASK = 0b0100
+  DISPLAY_MODE_SELECTABLE_MASK = 0b1000
+  DISPLAY_MODE_AUTOMATIC_SELECTABLE_MASK = 0b1100
+  DISPLAY_MODE_AUTOMATIC_RECORDING_MASK = 0b0000
+  DISPLAY_MODE_NOT_DISPLAYED_AUTO_MASK = 0b0001
+  DISPLAY_MODE_SELECTABLE_RECORDING_MASK = 0b0010
+
+  # rollup as per table 9-9 p176
+  NO_ROLLUP = 0b00
+  ROLLUP = 0b01
+
+  @staticmethod
+  def display_format(format):
+    """ Caption managment format code to string
+    After Arib b24 std table9-7 p175
+    """
+    if format == 0x0:
+      return "Horizontal writing in standard density:"
+    if format == 0x1:
+      return "Vertical writing in standard density:"
+    if format == 0x2:
+      return "Horizontal writing in high density:"
+    if format == 0x3:
+      return "Vertical writing in high density:"
+    if format == 0x4:
+      return "Horizontal writing of Western language:"
+    if format == 0x6:
+      return "Horizontal writing in 1920x1080:"
+    if format == 0x7:
+      return "Vertical writing in 1920x1080:"
+    if format == 0x8:
+      return "Horizontal writing in 960x540:"
+    if format == 0x9:
+      return "Vertical writing in 960x540:"
+    if format == 0xa:
+      return "Horizontal writing in 1280x720:"
+    if format == 0xb:
+      return "Vertical writing in 1280x720:"
+    if format == 0xc:
+      return "Horizontal writing in 720x480:"
+    if format == 0xd:
+      return "Vertical writing in 720x480:"
+    else:
+      return "invalid caption managment format value."
+
+  def num_languages(self):
+    return len(self._languages)
+
+  def language_code(self, language):
+    return self._languages[language]._language_code
+ 
+  def __init__(self, f):
+    """
+    """
+    self.TMD = read.ucb(f) >> 6
+    if self.TMD == 0b10:
+      _t = read.uib(f)
+      _ub = read.uic(f) >> 4
+      self._OTM = _t | (_ub << 32)
+      if DEBUG:
+        print "Caption management OTM: " + str(self._OTM)
+
+    self._num_languages = read.ucb(f)
+    self._languages = []
+    for lang in range(self._num_languages):
+      self._languages.append(Language(f))
+
+    self._data_unit_loop_length = read.ui3b(f)
+    if DEBUG:
+      print 'Caption managmentdata : data unit loop length: ' + str(self._data_unit_loop_length)
+    bytes_read = 0
+    self._data_units = []
+    while bytes_read < self._data_unit_loop_length:
+      self._data_units.append(DataUnit(f))
+      bytes_read += self._data_units[-1].size()
+
