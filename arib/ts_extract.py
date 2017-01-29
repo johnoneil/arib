@@ -152,7 +152,10 @@ def OnESPacket(current_pid, packet, header_size):
         #we're only interested in those Data Units which are "statement body" to get CC data.
         if not isinstance(data_unit.payload(), StatementBody):
           continue
-        #okay. Finally we've got a data unit with CC data. Feed its payload to the custom
+
+        # this code used to sed the PID we're scanning via first successful ARIB decode
+        # but i've changed it below to draw present CC language info form ARIB
+        # managment data. Leavig this here for reference.
         #if pid < 0 and VERBOSE and not SILENT:
         #  pid = current_pid
         #  print("Found Closed Caption data in PID: " + str(pid))
@@ -169,12 +172,14 @@ def OnESPacket(current_pid, packet, header_size):
     else:
       # management data
       management_data = data_group.payload()
-      numlang = len(management_data._languages)
+      numlang = management_data.num_languages()
       if pid < 0 and numlang > 0:
-        # don't know why i can't use method to acces num languages here
         for language in range(numlang):
-          print("Closed caption management data for language: " + management_data.language_code(language) + " available in PID: " + str(current_pid))
-        print("Will now only process this PID to improve performance.")
+          if not SILENT:
+            print("Closed caption management data for language: "
+              + management_data.language_code(language)
+              + " available in PID: " + str(current_pid))
+            print("Will now only process this PID to improve performance.")
         pid = current_pid
 
   except EOFError:
