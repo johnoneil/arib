@@ -100,7 +100,6 @@ def OnESPacket(current_pid, packet, header_size):
   try:
     payload = ES.get_pes_payload(packet)
     f = list(payload)
-    #f = bytearray(payload)
     data_group = DataGroup(f)
     if not data_group.is_management_data():
       #We now have a Data Group that contains caption data.
@@ -120,10 +119,27 @@ def OnESPacket(current_pid, packet, header_size):
 
         ass.format(data_unit.payload().payload(), elapsed_time_s)
 
-        if pid < 0 and not SILENT:
-          pid = current_pid
-          print("Found Closed Caption data in PID: " + str(pid))
-          print("Will now only process this PID to improve performance.")
+        # this code used to sed the PID we're scanning via first successful ARIB decode
+        # but i've changed it below to draw present CC language info form ARIB
+        # management data. Leaving this here for reference.
+        #if pid < 0 and not SILENT:
+        #  pid = current_pid
+        #  print("Found Closed Caption data in PID: " + str(pid))
+        #  print("Will now only process this PID to improve performance.")
+
+    else:
+      # management data
+      management_data = data_group.payload()
+      numlang = management_data.num_languages()
+      if pid < 0 and numlang > 0:
+        for language in range(numlang):
+          if not SILENT:
+            print("Closed caption management data for language: "
+              + management_data.language_code(language)
+              + " available in PID: " + str(current_pid))
+            print("Will now only process this PID to improve performance.")
+        pid = current_pid
+
   except EOFError:
     pass
   except Exception, err:

@@ -155,7 +155,7 @@ def OnESPacket(current_pid, packet, header_size):
 
         # this code used to sed the PID we're scanning via first successful ARIB decode
         # but i've changed it below to draw present CC language info form ARIB
-        # managment data. Leavig this here for reference.
+        # management data. Leaving this here for reference.
         #if pid < 0 and VERBOSE and not SILENT:
         #  pid = current_pid
         #  print("Found Closed Caption data in PID: " + str(pid))
