@@ -1,8 +1,8 @@
-#arib
+# arib
 
 Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stream Closed Caption Decoding Tools.
 
-##Description
+## Description
 Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separate PES (Packetized Elementary Stream) within the TS. The format of the data within this PES is described by the (Japanese native) ARIB B-24 standard. An English document describing this standard is included in the Arib/docs directory in this repository.
 
 This python package provides tools to find and parse this ARIB closed caption information in MPGEG TS files.
@@ -13,7 +13,7 @@ The image below shows example ARIB closed caption data displayed at runtime on a
 
 ![example of ass file](img/gaki2.png "Example ass file.")
 
-#Installation
+# Installation
 Basic installation is now supported, but I only currently recommend installing into a virtualenv as the lib is still only pre-alpha.
 
 That said, installation can now be carried out via pip as below.
@@ -28,7 +28,7 @@ pip install -e .
 ```
 The above commands may require ```sudo``` though I recommend again installing them in a python virtualenv.
 
-##arib-ts2ass
+## arib-ts2ass
 
 This package provides a tool (arib-ts2ass) that extracts ARIB based closed caption information from an MPEG Transport Stream recording, and formats the info into a standard .ass (Advanced Substation Alpha) subtitle file. The image below shows a resultant .ass subtitle file loaded to the video file it was generated off:
 ![example of ass file](img/haikyu.png "Example ass file.")
@@ -107,7 +107,7 @@ Refer to the ARIB documentation for descriptions of what these control sequences
 * 'Y' is the pixel spacing between lines in CCs.
 * 'a' Positions the cursor to a screen position in pixels. This is in contrast to the dedicated control character APS (Active Position Set) above which positions the cursor to a particular character *line* and *column*. APS style line and column positions can be translated to pixel positions by using the character width and height, space between characters and lines and the UL position of the CC area (see above).
 
-#Manually drawing a PID and/or PES from a TS file
+# Manually drawing a PID and/or PES from a TS file
 I've update the arib-ts2ass tool above to automatically find the id (PID) of the elementary stream carrying closed captions (if there is one) in any MPEG TS file. However, if  you'd like to find these PID values for yourself I recommend using the ```tsinfo``` tool as below:
 ```
 joneil@joneilDesktop ~/code/arib/analysis $ tsinfo <filename>.ts 
@@ -152,7 +152,7 @@ Then, if you wish, you can use ts2es to draw out the ES.
 ts2es -pid 276 <input>.ts <output>.es
 ```
 
-##arib-autosub
+## arib-autosub
 This repo also contains some code for an experimental application "arib-autosub" which draws Closed Caption information out of an MPEG TS file and then translates it via Bing Translate.
 
 As I'm no longer installing this tool when this package is installed the description below is only for reference:
