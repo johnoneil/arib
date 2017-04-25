@@ -59,9 +59,9 @@ I've made some recent changes to this tool and its performance is much improved,
 
 # Experiments and Other Info
 
-##arib-ts-extract
-##arib-es-extract
-This package also installs to additional tools which can be used to draw basic CC information from MPEG ts and es files. These are ```arib-ts-extract``` and ```arib-es-extract```. They skip the usual .ass formatting and show a text representation of the basic ARIB codes present in the .ts or .es file. See the example below:
+## arib-ts-extract
+## arib-es-extract
+This package also installs two additional tools which can be used to draw basic CC information from MPEG ts and es files. These are ```arib-ts-extract``` and ```arib-es-extract```. They skip the usual .ass formatting and show a text representation of the basic ARIB codes present in the .ts or .es file. See the example below:
 ```
 joneil@joneilDesktop ~/code/arib $ arib-es-extract tests/toriko_subs.es
 
