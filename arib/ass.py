@@ -61,9 +61,16 @@ class Size(object):
   def height(self):
     return self._h
 
+class TextSize(object):
+  SMALL = 1
+  MEDIUM = 2
+  NORMAL = 3
+
 
 class ClosedCaptionArea(object):
   def __init__(self):
+    # these values represent horizontal mode ('7')
+    # TODO: make these configurable via CSI
     self._UL = Pos(170, 30)
     self._Dimensions = Size(620, 480)
     self._CharacterDim = Size(36, 36)
@@ -78,30 +85,28 @@ class ClosedCaptionArea(object):
   def Dimensions(self):
     return self._Dimensions
 
-  def RowCol2ScreenPos(self, row, col):
-    # issue #13. Active Position Set values seem incorrect.
-    # It doesn't jive with any documentation i've read but the APS values coming
-    # out of some .ts files (specifically aijin) seem incorrect by a factor of 2.
-    # According to text area data, there should be 8 text lines in the CC area but
-    # values for CC APS values are 12-15.
-    # I'm assuming (again with no documentation justification) that these values
-    # are meant to provide sub-line positioning data, so we'll scale the APS data by 0.5
-    # allowing positioning at, say, the 6.5th text line rather than just integer value lines.
-    num_rows = int(self._Dimensions.height / (self._CharacterDim.height + self._line_spacing))
-    num_cols = int(self._Dimensions.width / (self._CharacterDim.width + self._char_spacing))
-    r = row
-    if row >= num_rows:
-      r = float(row-1)/2.0
+  def RowCol2ScreenPos(self, row, col, size=TextSize.NORMAL):
+    # Issue #27: Horizontal text alignment incorrect
+    # Without documentation justification I'm now assuming that currently set font size
+    # affects the final text position as follows:
+    # Normal Text: calculate position normally
+    # Medium Text: characters are half width, so position horizontally is doubled
+    # Small Text: characters are half width AND height, so row and column are both doubled.
 
+    # for .ass files we specify the UL corner of text but row values from ARIB are
+    # the LL. So we adjust for this by adding one row before adjusting for text size.
+    r = row + 1
     c = col
-    if c >= num_cols:
-      c = float(col-1)/2.0
-    # note that character positions here are provided via row/col values, but
-    # the actual position indicated by this is the UPPER LEFT HAND CORNER of that
-    # position. To keep general formatting below in sync with this we're adjusting
-    # the geometry here to return the UL corner by adding one horizontal row.
-    return Pos(self.UL.x + c * (self._CharacterDim.width + self._char_spacing), self.UL.y + (r+1) * (self._CharacterDim.height + self._line_spacing))
-
+    w = self._CharacterDim.width + self._char_spacing
+    h = self._CharacterDim.height + self._line_spacing
+    if size == TextSize.SMALL:
+      h = h / float(2)
+ 
+    if size == TextSize.SMALL or size == TextSize.MEDIUM:
+      w = w / float(2)
+        
+    return Pos(self.UL.x + c * w, self.UL.y + r * h)
+  
 class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
   '''
@@ -179,14 +184,17 @@ def katakana(formatter, k, timestamp):
 def medium(formatter, k, timestamp):
   formatter._current_lines[-1] += u'{\\rmedium}' + formatter._current_color
   formatter._current_style = 'medium'
+  formatter._current_textsize = TextSize.MEDIUM
 
 def normal(formatter, k, timestamp):
   formatter._current_lines[-1] += u'{\\rnormal}' + formatter._current_color
   formatter._current_style = 'normal'
+  formatter._current_textsize = TextSize.NORMAL
 
 def small(formatter, k, timestamp):
   formatter._current_lines[-1] += u'{\\rsmall}' + formatter._current_color
   formatter._current_style = 'small'
+  formatter._current_textsize = TextSize.SMALL
 
 def space(formatter, k, timestamp):
   formatter._current_lines[-1] += u' '
@@ -230,10 +238,10 @@ def white(formatter, k, timestamp):
   formatter._current_color = '{\c&Hffffff&}'
 
 def position_set(formatter, p, timestamp):
-  '''Active Position set coordinates are given in character row, colum
+  '''Active Position set coordinates are given in character row, column
   So we have to calculate pixel coordinates (and then sale them)
   '''
-  pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col)
+  pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col, formatter._current_textsize)
   line = u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
   formatter._current_lines.append(Dialog(line))
 
@@ -277,6 +285,7 @@ def clear_screen(formatter, cs, timestamp):
       formatter._current_lines = [Dialog(u'')]
 
   formatter._elapsed_time_s = timestamp
+  formatter._current_textsize = TextSize.NORMAL
   
 
 class ASSFormatter(object):
@@ -348,6 +357,7 @@ class ASSFormatter(object):
     self._current_lines = [Dialog(u'')]
     self._current_style = 'normal'
     self._current_color = '{\c&Hffffff&}'
+    self._current_textsize = TextSize.NORMAL
 
   def format(self, captions, timestamp):
     '''Format ARIB closed caption info tinto text for an .ASS file
