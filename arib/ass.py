@@ -285,6 +285,7 @@ def clear_screen(formatter, cs, timestamp):
       formatter._current_lines = [Dialog(u'')]
 
   formatter._elapsed_time_s = timestamp
+  formatter._current_textsize = TextSize.NORMAL
   
 
 class ASSFormatter(object):
