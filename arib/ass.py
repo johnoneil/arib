@@ -91,19 +91,21 @@ class ClosedCaptionArea(object):
     # affects the final text position as follows:
     # Normal Text: calculate position normally
     # Medium Text: characters are half width, so position horizontally is doubled
-    # Small Text: characters are half width AND height, so row and colum are both doubled.
-    num_rows = int(self._Dimensions.height / (self._CharacterDim.height + self._line_spacing))
-    num_cols = int(self._Dimensions.width / (self._CharacterDim.width + self._char_spacing))
-    
-    r = row
+    # Small Text: characters are half width AND height, so row and column are both doubled.
+
+    # for .ass files we specify the UL corner of text but row values from ARIB are
+    # the LL. So we adjust for this by adding one row before adjusting for text size.
+    r = row + 1
     c = col
+    w = self._CharacterDim.width + self._char_spacing
+    h = self._CharacterDim.height + self._line_spacing
     if size == TextSize.SMALL:
-      r = (r - 1) / 2
+      h = h / float(2)
  
-    if size == ClosedCaptionArea.SMALL_TEXT or size == TextSize.MEDIUM:
-      c = (c - 1) / 2
+    if size == TextSize.SMALL or size == TextSize.MEDIUM:
+      w = w / float(2)
         
-    return Pos(self.UL.x + c * (self._CharacterDim.width + self._char_spacing), self.UL.y + (r + 1) * (self._CharacterDim.height + self._line_spacing))
+    return Pos(self.UL.x + c * w, self.UL.y + r * h)
   
 class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
