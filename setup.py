@@ -13,6 +13,8 @@ from setuptools import setup
 #version 0.6.1: Performance improvements
 #version 0.6.2: Numerous fixes and initial DRCS parsing
 #version 0.6.3: Basic management data handling and language detection.
+#version 0.6.4: Fixes to issues #27, #33 (subtitle positions in generatd .ass files).
+
 
 def readme():
   with open('README.md') as f:
