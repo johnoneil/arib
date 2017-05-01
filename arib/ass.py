@@ -286,6 +286,7 @@ def clear_screen(formatter, cs, timestamp):
 
   formatter._elapsed_time_s = timestamp
   formatter._current_textsize = TextSize.NORMAL
+  formatter._current_color = '{\c&Hffffff&}'
   
 
 class ASSFormatter(object):
