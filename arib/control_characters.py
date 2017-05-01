@@ -62,7 +62,8 @@ class SP(object):
 class DEL(object):
   '''Delete
   '''
-  CODE = 0x70
+  # See control character table 7-14 on page 89 arib std b-24
+  CODE = 0x7f
   def __init__(self, f):
     pass
 
@@ -829,6 +830,8 @@ class APS(object):
     self._args = []
     self._args.append(read.ucb(f)&0x3f)#p1
     self._args.append(read.ucb(f)&0x3f)#p2
+    if DEBUG:
+      print(u'APS: --> {:#d},{:#d}>'.format(self._args[0], self._args[1]).encode('utf-8'))
 
   @property
   def col(self):
@@ -1232,7 +1235,8 @@ class SSZ(object):
   '''
   CODE = 0x88
   def __init__(self, f):
-    pass
+    if DEBUG:
+      print(u'SSZ: --> 0x88'.encode('utf-8'))
 
   def __len__(self):
     '''Defiing len() operator to help
@@ -1269,7 +1273,8 @@ class MSZ(object):
   '''
   CODE = 0x89
   def __init__(self, f):
-    pass
+    if DEBUG:
+      print(u'MSZ: --> 0x89'.encode('utf-8'))
 
   def __len__(self):
     '''Defiing len() operator to help
@@ -1304,7 +1309,8 @@ class NSZ(object):
   '''
   CODE = 0x8a
   def __init__(self, f):
-    pass
+    if DEBUG:
+      print(u'NSZ: --> 0x8a'.encode('utf-8'))
 
   def __len__(self):
     '''Defiing len() operator to help
@@ -1344,7 +1350,8 @@ class SZX(object):
   '''
   CODE = 0x8b
   def __init__(self, f):
-    pass
+    if DEBUG:
+      print(u'SZX: --> 0x8b'.encode('utf-8'))
 
   @staticmethod
   def handler(f):
