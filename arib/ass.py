@@ -110,8 +110,10 @@ class ClosedCaptionArea(object):
 class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
   '''
-  def __init__(self, filepath):
+  def __init__(self, filepath, width=960, height=540):
     self._f = codecs.open(filepath,'w',encoding='utf8')
+    self.write_header(width,height, filepath)
+    self.write_styles()
 
   def __del__(self):
     if self._f:
@@ -166,74 +168,90 @@ def asstime(seconds):
 
 
 def kanji(formatter, k, timestamp):
+  formatter.open_file()
   formatter._current_lines[-1] += unicode(k)
   #print unicode(k)
 
 def alphanumeric(formatter, a, timestamp):
+  formatter.open_file()
   formatter._current_lines[-1] += unicode(a)
   #print unicode(a)
 
 def hiragana(formatter, h, timestamp):
+  formatter.open_file()
   formatter._current_lines[-1] += unicode(h)
   #print unicode(h)
 
 def katakana(formatter, k, timestamp):
+  formatter.open_file()
   formatter._current_lines[-1] += unicode(k)
   #print unicode(k)
 
 def medium(formatter, k, timestamp):
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\\rmedium}' + formatter._current_color
   formatter._current_style = 'medium'
   formatter._current_textsize = TextSize.MEDIUM
 
 def normal(formatter, k, timestamp):
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\\rnormal}' + formatter._current_color
   formatter._current_style = 'normal'
   formatter._current_textsize = TextSize.NORMAL
 
 def small(formatter, k, timestamp):
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\\rsmall}' + formatter._current_color
   formatter._current_style = 'small'
   formatter._current_textsize = TextSize.SMALL
 
 def space(formatter, k, timestamp):
+  formatter.open_file()
   formatter._current_lines[-1] += u' '
 
 def drcs(formatter, c, timestamp):
   formatter._current_lines[-1] += u'�'
 
 def black(formatter, k, timestamp):
+  formatter.open_file()
   #{\c&H000000&} \c&H<bb><gg><rr>& {\c&Hffffff&}
   formatter._current_lines[-1] += u'{\c&H000000&}'
   formatter._current_color = '{\c&H000000&}'
 
 def red(formatter, k, timestamp):
   #{\c&H0000ff&}
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\c&H0000ff&}'
   formatter._current_color = '{\c&H0000ff&}'
 def green(formatter, k, timestamp):
   #{\c&H00ff00&}
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\c&H00ff00&}'
   formatter._current_color = '{\c&H00ff00&}'
 
 def yellow(formatter, k, timestamp):
   #{\c&H00ffff&}
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\c&H00ffff&}'
   formatter._current_color = '{\c&H00ffff&}'
 def blue(formatter, k, timestamp):
   #{\c&Hff0000&}
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\c&Hff0000&}'
   formatter._current_color = '{\c&Hff0000&}'
 def magenta(formatter, k, timestamp):
   #{\c&Hff00ff&}
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\c&Hff00ff&}'
   formatter._current_color = '{\c&Hff00ff&}'
 def cyan(formatter, k, timestamp):
   #{\c&Hffff00&}
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\c&Hffff00&}'
   formatter._current_color = '{\c&Hffff00&}'
 def white(formatter, k, timestamp):
   #{\c&Hffffff&}
+  formatter.open_file()
   formatter._current_lines[-1] += u'{\c&Hffffff&}'
   formatter._current_color = '{\c&Hffffff&}'
 
@@ -281,7 +299,8 @@ def clear_screen(formatter, cs, timestamp):
       line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=start_time, end_time=end_time, line=l._s)
       #TODO: add option to dump to stdout
       #print line.encode('utf-8')
-      formatter._ass_file.write(line)
+      if formatter._ass_file:
+        formatter._ass_file.write(line)
       formatter._current_lines = [Dialog(u'')]
 
   formatter._elapsed_time_s = timestamp
@@ -340,7 +359,7 @@ class ASSFormatter(object):
   }
 
 
-  def __init__(self, ass_file=None, default_color='white', tmax=5, width=960, height=540, video_filename='unknown'):
+  def __init__(self, default_color='white', tmax=5, width=960, height=540, video_filename='output.ass'):
     '''
     :param width: width of target screen in pixels
     :param height: height of target screen in pixels
@@ -352,13 +371,22 @@ class ASSFormatter(object):
     self._CCArea = ClosedCaptionArea()
     self._pos = Pos(0, 0)
     self._elapsed_time_s = 0.0
-    self._ass_file = ass_file or ASSFile(u'./output.ass')
-    self._ass_file.write_header(width,height, video_filename.decode("utf-8"))
-    self._ass_file.write_styles()
+    self._ass_file = None
     self._current_lines = [Dialog(u'')]
     self._current_style = 'normal'
     self._current_color = '{\c&Hffffff&}'
     self._current_textsize = TextSize.NORMAL
+    self._filename = video_filename
+    self._width = width
+    self._height = height
+    self._height = height
+
+  def open_file(self):
+    if not self._ass_file:
+      self._ass_file = ASSFile(self._filename)
+
+  def file_written(self):
+    return self._ass_file is not None
 
   def format(self, captions, timestamp):
     '''Format ARIB closed caption info tinto text for an .ASS file
@@ -366,7 +394,7 @@ class ASSFormatter(object):
     #TODO: Show progress in some way
     #print('File elapsed time seconds: {s}'.format(s=timestamp))
     #line = u'{t}: {l}\n'.format(t=timestamp, l=u''.join([unicode(s) for s in captions if type(s) in ASSFormatter.DISPLAYED_CC_STATEMENTS]))
-    
+
     for c in captions:
       if type(c) in ASSFormatter.DISPLAYED_CC_STATEMENTS:
         #invoke the handler for this object type

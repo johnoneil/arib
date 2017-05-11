@@ -34,7 +34,6 @@ VERBOSE = False
 SILENT = False
 DEBUG = False
 ass = None
-ass_file = None
 infilename = ""
 tmax = 0
 
@@ -89,7 +88,6 @@ def OnESPacket(current_pid, packet, header_size):
   global SILENT
   global elapsed_time_s
   global ass
-  global ass_file
   global infilename
   global tmax
   global time_offset
@@ -111,11 +109,8 @@ def OnESPacket(current_pid, packet, header_size):
         if not isinstance(data_unit.payload(), StatementBody):
           continue
 
-        # only write the file if we've actually found some Closed Captions
-        if not ass_file:
-          ass_file = ASSFile(infilename + '.ass')
         if not ass:
-          ass = ASSFormatter(ass_file, tmax=tmax, video_filename=infilename)
+          ass = ASSFormatter(tmax=tmax, video_filename=infilename+".ass")
 
         ass.format(data_unit.payload().payload(), elapsed_time_s)
 
@@ -193,6 +188,10 @@ def main():
 
   if pid < 0 and not SILENT:
     print("Sorry. No ARIB subtitle content was found in file: " + infilename)
+    sys.exit(-1)
+
+  if ass and not ass.file_written() and not SILENT:
+    print("Sorry. No nonempty ARIB closed caption content found in file " + infilename)
     sys.exit(-1)
 
   sys.exit(0)
