@@ -110,7 +110,8 @@ def OnESPacket(current_pid, packet, header_size):
           continue
 
         if not ass:
-          ass = ASSFormatter(tmax=tmax, video_filename=infilename+".ass")
+          v = not SILENT
+          ass = ASSFormatter(tmax=tmax, video_filename=infilename+".ass", verbose=v)
 
         ass.format(data_unit.payload().payload(), elapsed_time_s)
 
@@ -187,11 +188,11 @@ def main():
   ts.Parse()
 
   if pid < 0 and not SILENT:
-    print("Sorry. No ARIB subtitle content was found in file: " + infilename)
+    print("*** Sorry. No ARIB subtitle content was found in file: " + infilename + " ***")
     sys.exit(-1)
 
   if ass and not ass.file_written() and not SILENT:
-    print("Sorry. No nonempty ARIB closed caption content found in file " + infilename)
+    print("*** Sorry. No nonempty ARIB closed caption content found in file " + infilename + " ***")
     sys.exit(-1)
 
   sys.exit(0)

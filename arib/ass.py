@@ -359,7 +359,7 @@ class ASSFormatter(object):
   }
 
 
-  def __init__(self, default_color='white', tmax=5, width=960, height=540, video_filename='output.ass'):
+  def __init__(self, default_color='white', tmax=5, width=960, height=540, video_filename='output.ass', verbose=False):
     '''
     :param width: width of target screen in pixels
     :param height: height of target screen in pixels
@@ -380,9 +380,13 @@ class ASSFormatter(object):
     self._width = width
     self._height = height
     self._height = height
+    self._verbose = verbose
 
   def open_file(self):
     if not self._ass_file:
+      if self._verbose:
+        print("Found nonempty ARIB closed caption data in file.")
+        print("Writing .ass file: " + self._filename)
       self._ass_file = ASSFile(self._filename)
 
   def file_written(self):
