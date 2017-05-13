@@ -757,7 +757,7 @@
 <Closed caption management data for language: jpn>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 5,11><Small Text>きょうじん<Medium Text>
-<Screen Posiiton to 6,1><Normal Text>さらに<Medium Text> <Normal Text>この強廚米禘里鬚發辰◻
+<Screen Posiiton to 6,1><Normal Text>さらに<Medium Text> <Normal Text>この強靱な肉体をもって<Medium Text>
 <Screen Posiiton to 7,1><Normal Text>全宇宙の神々を殺した<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>

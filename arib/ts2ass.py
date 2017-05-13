@@ -10,6 +10,7 @@ UPDATED: Saturday, Jan 12th 2017
 """
 
 import os
+import errno
 import sys
 import argparse
 import traceback
@@ -19,6 +20,7 @@ from read import EOFError
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
 from arib.data_group import DataGroup
+from arib_exceptions import FileOpenError
 
 from mpeg.ts import TS
 from mpeg.ts import ES
@@ -34,8 +36,8 @@ VERBOSE = False
 SILENT = False
 DEBUG = False
 ass = None
-ass_file = None
 infilename = ""
+outfilename = ""
 tmax = 0
 
 
@@ -89,8 +91,8 @@ def OnESPacket(current_pid, packet, header_size):
   global SILENT
   global elapsed_time_s
   global ass
-  global ass_file
   global infilename
+  global outfilename
   global tmax
   global time_offset
 
@@ -111,11 +113,9 @@ def OnESPacket(current_pid, packet, header_size):
         if not isinstance(data_unit.payload(), StatementBody):
           continue
 
-        # only write the file if we've actually found some Closed Captions
-        if not ass_file:
-          ass_file = ASSFile(infilename + '.ass')
         if not ass:
-          ass = ASSFormatter(ass_file, tmax=tmax, video_filename=infilename)
+          v = not SILENT
+          ass = ASSFormatter(tmax=tmax, video_filename=outfilename, verbose=v)
 
         ass.format(data_unit.payload().payload(), elapsed_time_s)
 
@@ -142,8 +142,10 @@ def OnESPacket(current_pid, packet, header_size):
 
   except EOFError:
     pass
+  except FileOpenError as ex:
+    # allow IOErrors to kill application
+    raise ex
   except Exception, err:
-
     if not SILENT and pid >= 0:
       print("Exception thrown while handling DataGroup in ES. This may be due to many factors"
         + "such as file corruption or the .ts file using as yet unsupported features.")
@@ -155,25 +157,31 @@ def main():
   global VERBOSE
   global SILENT
   global infilename
+  global outfilename
   global tmax
   global time_offset
 
   parser = argparse.ArgumentParser(
     description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
   parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
+  parser.add_argument('-o', '--outfile', help='Output filename (.ass subtitle file)', type=str, default=None)
   parser.add_argument('-p', '--pid',
                       help='Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).',
                       type=int, default=-1)
   parser.add_argument('-v', '--verbose', help='Verbose output.', action='store_true')
   parser.add_argument('-q', '--quiet', help='Does not write to stdout.', action='store_true')
   parser.add_argument('-t', '--tmax', help='Subtitle display time limit (seconds).', type=int, default=5)
-  parser.add_argument('-o', '--timeoffset',
+  parser.add_argument('-m', '--timeoffset',
                       help='Shift all time values in generated .ass file by indicated floating point offset in seconds.',
                       type=float, default=0.0)
   args = parser.parse_args()
 
   pid = args.pid
   infilename = args.infile
+  outfilename = infilename + ".ass"
+  if args.outfile is not None:
+    outfilename = args.outfile
+
   SILENT = args.quiet
   VERBOSE = args.verbose
   tmax = args.tmax
@@ -189,10 +197,19 @@ def main():
   ts.OnTSPacket = OnTSPacket
   ts.OnESPacket = OnESPacket
 
-  ts.Parse()
+  try:
+    ts.Parse()
+  except Exception as ex:
+    if not SILENT:
+      print("*** Sorry, " + str(ex))
+    sys.exit(-1)
 
   if pid < 0 and not SILENT:
-    print("Sorry. No ARIB subtitle content was found in file: " + infilename)
+    print("*** Sorry. No ARIB subtitle content was found in file: " + infilename + " ***")
+    sys.exit(-1)
+
+  if ass and not ass.file_written() and not SILENT:
+    print("*** Sorry. No nonempty ARIB closed caption content found in file " + infilename + " ***")
     sys.exit(-1)
 
   sys.exit(0)
