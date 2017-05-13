@@ -17,6 +17,7 @@ import arib.code_set as code_set
 import arib.control_characters as control_characters
 import codecs
 import re
+from arib_exceptions import FileOpenError
 
 class Pos(object):
   '''Screen position in pixels
@@ -111,13 +112,19 @@ class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
   '''
   def __init__(self, filepath, width=960, height=540):
-    self._f = codecs.open(filepath,'w',encoding='utf8')
-    self.write_header(width,height, filepath)
-    self.write_styles()
+    try:
+      self._f = codecs.open(filepath,'w',encoding='utf8')
+      self.write_header(width,height, filepath)
+      self.write_styles()
+    except:
+        raise FileOpenError("Could not open file " + filepath +" for writing.")
 
   def __del__(self):
-    if self._f:
-      self._f.close()
+    try:
+      if self._f:
+        self._f.close()
+    except AttributeError:
+      pass
 
   def write(self, line):
     '''Write indicated string to file. usually a line of dialog.
