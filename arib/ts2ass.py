@@ -37,6 +37,7 @@ SILENT = False
 DEBUG = False
 ass = None
 infilename = ""
+outfilename = ""
 tmax = 0
 
 
@@ -91,6 +92,7 @@ def OnESPacket(current_pid, packet, header_size):
   global elapsed_time_s
   global ass
   global infilename
+  global outfilename
   global tmax
   global time_offset
 
@@ -113,7 +115,7 @@ def OnESPacket(current_pid, packet, header_size):
 
         if not ass:
           v = not SILENT
-          ass = ASSFormatter(tmax=tmax, video_filename=infilename+".ass", verbose=v)
+          ass = ASSFormatter(tmax=tmax, video_filename=outfilename, verbose=v)
 
         ass.format(data_unit.payload().payload(), elapsed_time_s)
 
@@ -155,25 +157,31 @@ def main():
   global VERBOSE
   global SILENT
   global infilename
+  global outfilename
   global tmax
   global time_offset
 
   parser = argparse.ArgumentParser(
     description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
   parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
+  parser.add_argument('-o', '--outfile', help='Output filename (.ass subtitle file)', type=str, default=None)
   parser.add_argument('-p', '--pid',
                       help='Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).',
                       type=int, default=-1)
   parser.add_argument('-v', '--verbose', help='Verbose output.', action='store_true')
   parser.add_argument('-q', '--quiet', help='Does not write to stdout.', action='store_true')
   parser.add_argument('-t', '--tmax', help='Subtitle display time limit (seconds).', type=int, default=5)
-  parser.add_argument('-o', '--timeoffset',
+  parser.add_argument('-m', '--timeoffset',
                       help='Shift all time values in generated .ass file by indicated floating point offset in seconds.',
                       type=float, default=0.0)
   args = parser.parse_args()
 
   pid = args.pid
   infilename = args.infile
+  outfilename = infilename + ".ass"
+  if args.outfile is not None:
+    outfilename = args.outfile
+
   SILENT = args.quiet
   VERBOSE = args.verbose
   tmax = args.tmax
