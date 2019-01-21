@@ -301,13 +301,15 @@ class TS(object):
       if pusi == True:
         if not ES.pes_packet_check_formedness(payload):
           if pid in self._elementary_streams:
-            elementary_streams[pid] = None
+            self._elementary_streams[pid] = None
           continue
         pes_id = ES.get_pes_stream_id(payload)
         self._elementary_streams[pid] = payload
       else:
         if pid in self._elementary_streams:
           # TODO: check packet sequence counter
+          if not self._elementary_streams[pid]:
+            self._elementary_streams[pid] = ""
           self._elementary_streams[pid] += payload
         else:
           # TODO: throw. this situaiton means out of order packets

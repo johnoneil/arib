@@ -197,12 +197,7 @@ def main():
   ts.OnTSPacket = OnTSPacket
   ts.OnESPacket = OnESPacket
 
-  try:
-    ts.Parse()
-  except Exception as ex:
-    if not SILENT:
-      print("*** Sorry, " + str(ex))
-    sys.exit(-1)
+  ts.Parse()
 
   if pid < 0 and not SILENT:
     print("*** Sorry. No ARIB subtitle content was found in file: " + infilename + " ***")
