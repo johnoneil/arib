@@ -150,7 +150,7 @@ Last Style Storage: Default
 Video File: {title}
 
 
-'''.format(width=width, height=height, title=title)
+'''.format(width=width, height=height, title=unicode(title, 'utf-8'))
     self._f.write(header)
 
   def write_styles(self):
