@@ -11,10 +11,10 @@ handling for code sets in japanese closed captions
 
 '''
 
-from arib_exceptions import UnimplimentedError
-import read
+from arib.arib_exceptions import UnimplimentedError
+from arib import read
 
-DEBUG = False
+DEBUG = True
 
 class Gaiji(object):
   #after ARIB std docs pg 54 onwards
@@ -131,7 +131,7 @@ class Gaiji(object):
     row = (v[0] & 0x007f) - 0x20
     col = (v[1] & 0x007f) - 0x20
     if DEBUG:
-      print 'gaiji [{b1}],[{b2}]-->{r},{c},'.format(b1=hex(v[0]), b2=hex(v[1]),r=row, c=col)
+      print('gaiji [{b1}],[{b2}]-->{r},{c},'.format(b1=hex(v[0]), b2=hex(v[1]),r=row, c=col))
     return Gaiji.ENCODING[col][row]
 
 

@@ -1,6 +1,9 @@
 #specific credentials file
 arib/secret_key.py
 
+#virtualenv
+.venv
+
 *.py[cod]
 
 # C extensions

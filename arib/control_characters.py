@@ -8,14 +8,12 @@ DATE: Sunday, March 9th 2014
 
 ''' 
 
-import read
-from code_set import code_set_handler_from_final_byte
-from code_set import in_code_set_table
-from arib_exceptions import DecodingError
+from arib import read
+from arib.code_set import code_set_handler_from_final_byte
+from arib.code_set import in_code_set_table
+from arib.arib_exceptions import DecodingError
 
-import read
-
-DEBUG = False
+DEBUG = True
 
 class NUL(object):
   '''Null
@@ -503,12 +501,12 @@ class G0(object):
     b = read.ucb(f)
     if b == DRCS.CODE:
       if DEBUG:
-        print 'G0 DRCS {:#x}'.format(b)
+        print('G0 DRCS {:#x}'.format(b))
       esc._args.append(b)
       DRCS.handler(esc, f)
     elif in_code_set_table(b):
       if DEBUG:
-        print 'G0 CODESET {:#x}'.format(b)
+        print('G0 CODESET {:#x}'.format(b))
       esc._args.append(b)
     else:
       raise DecodingError()
@@ -532,12 +530,12 @@ class G1(object):
     b = read.ucb(f)
     if b == DRCS.CODE:
       if DEBUG:
-        print 'G1 DRCS {:#x}'.format(b)
+        print('G1 DRCS {:#x}'.format(b))
       esc._args.append(b)
       DRCS.handler(esc, f)
     elif in_code_set_table(b):
       if DEBUG:
-        print 'G1 CODESET {:#x}'.format(b)
+        print('G1 CODESET {:#x}'.format(b))
       esc._args.append(b)
     else:
       raise DecodingError()
@@ -562,12 +560,12 @@ class G2(object):
     b = read.ucb(f)
     if b == DRCS.CODE:
       if DEBUG:
-        print 'G2 DRCS {:#x}'.format(b)
+        print('G2 DRCS {:#x}'.format(b))
       esc._args.append(b)
       DRCS.handler(esc, f)
     elif in_code_set_table(b):
       if DEBUG:
-        print 'G2 CODESET {:#x}'.format(b)
+        print('G2 CODESET {:#x}'.format(b))
       esc._args.append(b)
     else:
       raise DecodingError()
@@ -590,12 +588,12 @@ class G3(object):
     b = read.ucb(f)
     if b == DRCS.CODE:
       if DEBUG:
-        print 'G3 DRCS {:#x}'.format(b)
+        print('G3 DRCS {:#x}'.format(b))
       esc._args.append(b)
       DRCS.handler(esc, f)
     elif in_code_set_table(b):
       if DEBUG:
-        print 'G3 CODESET {:#x}'.format(b)
+        print('G3 CODESET {:#x}'.format(b))
       esc._args.append(b)
     else:
       raise DecodingError()
@@ -633,7 +631,7 @@ class DRCS(object):
   def handler(esc, f):
     b = read.ucb(f)
     if DEBUG:
-      print 'DRCS {:#x}'.format(b)
+      print('DRCS {:#x}'.format(b))
     if in_code_set_table(b):
       esc._args.append(b)
     else:
@@ -674,24 +672,24 @@ class ESC(object):
     '''
     b = read.ucb(f)
     if DEBUG:
-      print 'esc first byte is ' + '{:#x}'.format(b)
+      print('esc first byte is ' + '{:#x}'.format(b))
     self._args = []
     self._args.append(b)
     
     if b in INVOCATION_TABLE:
       if DEBUG:
-        print 'ESC INVOCATION {:#x}'.format(b)
+        print('ESC INVOCATION {:#x}'.format(b))
       INVOCATION_TABLE[b](f)
       #self._args.append(next)
     elif b in DESIGNATION_TABLE:
       if DEBUG:
-        print 'ESC DESIGNATION {:#x}'.format(b)
+        print('ESC DESIGNATION {:#x}'.format(b))
       d = DESIGNATION_TABLE[b]()
       d.load(self, f)
       #self._args.append(next)
     elif b == TwoByte.CODE:
       if DEBUG:
-        print 'ESC TWO BYTE {:#x}'.format(b)
+        print('ESC TWO BYTE {:#x}'.format(b))
       TwoByte.handler(self, f)
       #self._args.append(next)
     else:
@@ -719,7 +717,7 @@ class ESC(object):
       raise DecodingError('Attempting to get invocation from ESC sequence that has none.')
     invocation = INVOCATION_TABLE[self._args[0]]()
     if DEBUG:
-      print 'invoking {:#x}'.format(self._args[0])
+      print('invoking {:#x}'.format(self._args[0]))
     invocation(decoder)
 
   def is_designation(self):
@@ -738,7 +736,7 @@ class ESC(object):
     final_byte = self._args[-1]
     byte_pattern = self._args[:-1]
     if DEBUG:
-      print 'designating via final_byte {:#x}'.format(final_byte)
+      print('designating via final_byte {:#x}'.format(final_byte))
     d = ESC.find_designation(byte_pattern)
     designation = DESIGNATION_TABLE[d]()
     designation.designate(decoder, final_byte)
@@ -749,7 +747,7 @@ class ESC(object):
     as a change in mapping in designation to code set
     '''
     if DEBUG:
-      print 'ESC ' + str(self)
+      print('ESC ' + str(self))
     if len(self._args) < 2:
       raise DecodingError()
 
@@ -759,19 +757,19 @@ class ESC(object):
     #TODO: check final_byte to make sure it's code_set or throw
     designation = self._args[:-1]
     if DEBUG:
-      print 'final byte: {b}'.format(b=final_byte)
-      print 'designation: {d}'.format(d=str(designation))
+      print('final byte: {b}'.format(b=final_byte))
+      print('designation: {d}'.format(d=str(designation)))
     code_set = code_set_handler_from_final_byte(final_byte)
     d = 0
     if designation in ESC.GRAPHIC_SETS_TABLE:
       if DEBUG:
-        print 'designation in table'
+        print('designation in table')
       #for now i'm assuming i only need the designation g0-g3
       #and the final byte (to get the new code set)
       d = ESC.find_designation(designation)
     else:
       if DEBUG:
-        print 'not in table'
+        print('not in table')
       raise DecodingError()
     return (d, code_set)
 
@@ -779,10 +777,10 @@ class ESC(object):
   def find_designation(bytes):
     for i, pattern in enumerate(ESC.GRAPHIC_SETS_TABLE):
       if DEBUG:
-        print '{b} : {i} {p}'.format(b=str(bytes), i=str(i), p=str(pattern))
+        print('{b} : {i} {p}'.format(b=str(bytes), i=str(i), p=str(pattern)))
       if bytes == pattern:
         if DEBUG:
-          print 'found designation match at {p} at index {i} and desig {d}'.format(p=str(pattern), i=str(i), d=str(i%4))
+          print('found designation match at {p} at index {i} and desig {d}'.format(p=str(pattern), i=str(i), d=str(i%4)))
         return DESIGNATION_TABLE.keys()[i%4]
     #raise decoding error?
     

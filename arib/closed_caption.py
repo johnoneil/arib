@@ -12,11 +12,11 @@ an ARIB data group
 
 '''
 
-import read
-from decoder import Decoder
-import code_set
-DEBUG = False
-DRCS_DEBUG = False
+from arib import read
+from arib.decoder import Decoder
+from arib import code_set
+DEBUG = True
+DRCS_DEBUG = True
 
 def set_DRCS_debug(v):
   global DRCS_DEBUG
@@ -39,13 +39,13 @@ class CaptionStatementData(object):
       self.STM = d >> 28
       self._data_unit_loop_length = d & 0xffffffff
       if DEBUG:
-        print 'CaptionStatementData: STM (time) ' + str(self.STM)
-        print 'CaptionStatementData: data unit loop length: ' + str(self._data_unit_loop_length)
+        print('CaptionStatementData: STM (time) ' + str(self.STM))
+        print('CaptionStatementData: data unit loop length: ' + str(self._data_unit_loop_length))
     else:
       self.STM = 0
       self._data_unit_loop_length = read.ui3b(f)
     if DEBUG:
-      print 'Caption statement: data unit loop length: ' + str(self._data_unit_loop_length)
+      print('Caption statement: data unit loop length: ' + str(self._data_unit_loop_length))
     bytes_read = 0
     self._data_units = []
     while bytes_read < self._data_unit_loop_length:
@@ -72,7 +72,7 @@ class StatementBody(object):
     self._data_unit_type = data_unit._data_unit_type
     if self._data_unit_type is not 0x20:
       if DEBUG:
-        print 'this is not caption data'
+        print('this is not caption data')
       raise ValueError
     self._data_unit_size = data_unit._data_unit_size
     #self._payload = f.read(self._data_unit_size)
@@ -93,7 +93,7 @@ class StatementBody(object):
     Return a list of statements and characters
     '''
     if DEBUG:
-      print 'going to read {bytes} bytes in binary file caption statement.'.format(bytes=bytes_to_read)
+      print('going to read {bytes} bytes in binary file caption statement.'.format(bytes=bytes_to_read))
     statements = []
     bytes_read = 0
     #TODO: Check to see if decoder state is carred between packet processing
@@ -221,7 +221,7 @@ class DRCS1ByteCharacter(object):
     self._data_unit_type = data_unit._data_unit_type
     if self._data_unit_type is not DRCS1ByteCharacter.ID:
       if DEBUG:
-        print 'this is not a DRCS character'
+        print('this is not a DRCS character')
       raise ValueError
     self._data_unit_size = data_unit._data_unit_size
     self._characters = []
@@ -244,14 +244,14 @@ class DataUnit(object):
     self._unit_separator = read.ucb(f)
     if(self._unit_separator is not 0x1f):
       if DEBUG:
-        print 'Unit separator not found at start of data unit.'
+        print('Unit separator not found at start of data unit.')
       raise ValueError
     self._data_unit_type = read.ucb(f)
     if DEBUG:
-      print 'data unit type: ' + str(self._data_unit_type)
+      print('data unit type: ' + str(self._data_unit_type))
     self._data_unit_size = read.ui3b(f)
     if DEBUG:
-      print 'DataUnit size found to be: ' + str(self._data_unit_size)
+      print('DataUnit size found to be: ' + str(self._data_unit_size))
     #self._payload = f.read(self._data_unit_size)
     self._payload = self.load_unit(f)
 
@@ -289,9 +289,9 @@ class Language(object):
       print("caption managment DC: " + str(self._DC))
 
     self._language_code = ''
-    self._language_code += str(unichr(read.ucb(f)))
-    self._language_code += str(unichr(read.ucb(f)))
-    self._language_code += str(unichr(read.ucb(f)))
+    self._language_code += str(chr(read.ucb(f)))
+    self._language_code += str(chr(read.ucb(f)))
+    self._language_code += str(chr(read.ucb(f)))
     if DEBUG:
       print("caption managment language code: " + str(self._language_code))
     
@@ -378,7 +378,7 @@ class CaptionManagementData(object):
       _ub = read.uic(f) >> 4
       self._OTM = _t | (_ub << 32)
       if DEBUG:
-        print "Caption management OTM: " + str(self._OTM)
+        print("Caption management OTM: " + str(self._OTM))
 
     self._num_languages = read.ucb(f)
     self._languages = []
@@ -387,7 +387,7 @@ class CaptionManagementData(object):
 
     self._data_unit_loop_length = read.ui3b(f)
     if DEBUG:
-      print 'Caption managmentdata : data unit loop length: ' + str(self._data_unit_loop_length)
+      print('Caption managmentdata : data unit loop length: ' + str(self._data_unit_loop_length))
     bytes_read = 0
     self._data_units = []
     while bytes_read < self._data_unit_loop_length:

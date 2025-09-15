@@ -26,9 +26,9 @@ from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
 import arib.code_set as code_set
 import arib.control_characters as control_characters
-from arib.ts import next_ts_packet
-from arib.ts import next_pes_packet
-from arib.ts import PESPacket
+from arib.mpeg.ts import next_ts_packet
+from arib.mpeg.ts import next_pes_packet
+from arib.mpeg.ts import PESPacket
 from arib.data_group import DataGroup
 from arib.secret_key import SECRET_KEY
 from arib.secret_key import CLIENT_ID
@@ -144,19 +144,19 @@ def asstime(seconds):
 def kanji(formatter, k, timestamp):
   #ignore all 'small' styled characters as they're prob furigana
   if formatter._current_style != 'small':
-    formatter._current_lines[-1] += unicode(k)
+    formatter._current_lines[-1] += (k)
 
 def alphanumeric(formatter, a, timestamp):
   if formatter._current_style != 'small':
-    formatter._current_lines[-1] += unicode(a)
+    formatter._current_lines[-1] += (a)
 
 def hiragana(formatter, h, timestamp):
   if formatter._current_style != 'small':
-    formatter._current_lines[-1] += unicode(h)
+    formatter._current_lines[-1] += (h)
 
 def katakana(formatter, k, timestamp):
   if formatter._current_style != 'small':
-    formatter._current_lines[-1] += unicode(k)
+    formatter._current_lines[-1] += (k)
 
 def medium(formatter, k, timestamp):
   #formatter._current_lines[-1] += u'{\\rmedium}' + formatter._current_color
@@ -174,7 +174,7 @@ def space(formatter, k, timestamp):
   formatter._current_lines[-1] += u' '
 
 def drcs(formatter, c, timestamp):
-  formatter._current_lines[-1] += unicode(c)
+  formatter._current_lines[-1] += (c)
 
 def black(formatter, k, timestamp):
   #{\c&H000000&} \c&H<bb><gg><rr>& {\c&Hffffff&}
@@ -220,7 +220,7 @@ def position_set(formatter, p, timestamp):
   line = u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
   #formatter._current_lines.append(line)
 
-a_regex = ur'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
+a_regex = r'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
 
 def control_character(formatter, csi, timestamp):
   '''This will be the most difficult to format, since the same class here
@@ -228,7 +228,7 @@ def control_character(formatter, csi, timestamp):
   e.g:
   <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">
   '''
-  cmd = unicode(csi)
+  cmd = (csi)
   a_match = re.search(a_regex, cmd)
   if a_match:
     x = a_match.group('x')
@@ -236,7 +236,7 @@ def control_character(formatter, csi, timestamp):
     #formatter._current_lines.append(u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y))
     return
 
-pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'
+pos_regex = r'({\\pos\(\d{1,4},\d{1,4}\)})'
 
 def clear_screen(formatter, cs, timestamp):
 
@@ -248,7 +248,7 @@ def clear_screen(formatter, cs, timestamp):
       if not len(l):
         continue
       eng = translate(l, client_id=CLIENT_ID, secret_key=SECRET_KEY)
-      print eng
+      print(eng)
       line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=start_time, end_time=end_time, line=eng)
       #TODO: add option to dump to stdout
       #print line.encode('utf-8')
@@ -354,7 +354,7 @@ def main():
   pid = args.pid
   infilename = args.infile
   if not os.path.exists(infilename):
-    print 'Please provide input Transport Stream file.'
+    print('Please provide input Transport Stream file.')
     os.exit(-1)
 
   #open an Ass file and formatter

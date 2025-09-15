@@ -1,0 +1,54 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arib"
+version = "0.6.5"                     # or use dynamic versioning; see note below
+description = "ARIB MPEG-2 TS Closed Caption Decoding Tools"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "John O'Neil", email = "oneil.john@gmail.com" }]
+keywords = ["Japanese", "Closed Caption", "arib", "b-24", "MPEG", "TS", "PES"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Multimedia :: Sound/Audio :: Conversion",
+]
+
+dependencies = [
+  "requests>=2.31.0",
+  # add other true runtime deps here
+]
+
+[project.urls]
+Homepage = "https://github.com/johnoneil/arib"
+Source = "https://github.com/johnoneil/arib"
+Issues = "https://github.com/johnoneil/arib/issues"
+
+[project.entry-points."console_scripts"]
+arib-ts2ass = "arib.ts2ass:main"
+arib-ts-extract = "arib.ts_extract:main"
+arib-es-extract = "arib.es_extract:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests", "docs", "examples"]
+
+# If you ship non-.py assets inside the package, either:
+# 1) declare them here:
+# [tool.setuptools.package-data]
+# "arib" = ["data/*.tmpl", "assets/*"]
+#
+# or (legacy) add a MANIFEST.in and keep include_package_data = true:
+# [tool.setuptools]
+# include-package-data = true

@@ -12,8 +12,8 @@ import sys
 import argparse
 import traceback
 
-from mpeg.ts import TS
-from mpeg.ts import ES
+from arib.mpeg.ts import TS
+from arib.mpeg.ts import ES
 
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
@@ -73,13 +73,13 @@ def formatter(statements, timestamp):
     into something we want (probably just plain text)
     Note we deal with unicode only here.
   '''
-  line = u''.join([unicode(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
+  line = u''.join([(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
   return line
 
 # GLOBALS TO KEEP TRACK OF STATE
 VERBOSE = True
 SILENT = False
-DEBUG = False
+DEBUG = True
 
 def main():
   global elapsed_time_s
@@ -95,7 +95,7 @@ def main():
   pid = args.pid
 
   if not os.path.exists(infilename):
-    print 'Input filename :' + infilename + " does not exist."
+    print('Input filename :' + infilename + " does not exist.")
     os.exit(-1)
 
   for data_group in next_data_group(infilename):
@@ -126,7 +126,7 @@ def main():
             management_data.language_code(language) + ">")
     except EOFError:
       pass
-    except Exception, err:
+    except Exception as err:
       print("Exception thrown while handling .es datagroup post parsing.")
       traceback.print_exc(file=sys.stdout)
  

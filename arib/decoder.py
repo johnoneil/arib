@@ -8,13 +8,14 @@ DATE: Friday, March 15th 2014
 
 '''
 
-import read
-from control_characters import is_control_character
-from control_characters import handle_control_character
-import control_characters as control_char
-import code_set
+from arib import read
+from arib.control_characters import is_control_character
+from arib.control_characters import handle_control_character
+import arib.control_characters as control_char
+from arib import code_set
+from arib.arib_exceptions import DecodingError
 
-DEBUG = False
+DEBUG = True
 
 
 class ref(object):
@@ -70,7 +71,7 @@ class Decoder(object):
     '''
     b = read.ucb(f)
     if DEBUG:
-      print '-->{:02x}'.format(b)
+      print('-->{:02x}'.format(b))
     #the interpretation and how many more bytes we have to read
     #depends upon:
     #1) What code table is this character in? c0? GR? GL? etc.

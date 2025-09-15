@@ -15,15 +15,15 @@ import sys
 import argparse
 import traceback
 
-from read import EOFError
+from arib.read import EOFError
 
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
 from arib.data_group import DataGroup
-from arib_exceptions import FileOpenError
+from arib.arib_exceptions import FileOpenError
 
-from mpeg.ts import TS
-from mpeg.ts import ES
+from arib.mpeg.ts import TS
+from arib.mpeg.ts import ES
 
 from arib.ass import ASSFormatter
 from arib.ass import ASSFile
@@ -32,9 +32,9 @@ from arib.ass import ASSFile
 initial_timestamp = None
 elapsed_time_s = 0
 pid = -1
-VERBOSE = False
+VERBOSE = True
 SILENT = False
-DEBUG = False
+DEBUG = True
 ass = None
 infilename = ""
 outfilename = ""
@@ -145,7 +145,7 @@ def OnESPacket(current_pid, packet, header_size):
   except FileOpenError as ex:
     # allow IOErrors to kill application
     raise ex
-  except Exception, err:
+  except Exception as err:
     if not SILENT and pid >= 0:
       print("Exception thrown while handling DataGroup in ES. This may be due to many factors"
         + "such as file corruption or the .ts file using as yet unsupported features.")
@@ -188,7 +188,7 @@ def main():
   time_offset = args.timeoffset
 
   if not os.path.exists(infilename) and not SILENT:
-    print 'Input filename :' + infilename + " does not exist."
+    print('Input filename :' + infilename + " does not exist.")
     sys.exit(-1)
 
   ts = TS(infilename)

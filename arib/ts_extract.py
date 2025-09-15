@@ -11,10 +11,10 @@ import os
 import sys
 import argparse
 import traceback
-from read import EOFError
+from arib.read import EOFError
 
-from mpeg.ts import TS
-from mpeg.ts import ES
+from arib.mpeg.ts import TS
+from arib.mpeg.ts import ES
 
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
@@ -75,7 +75,7 @@ elapsed_time_s = 0
 pid = -1
 VERBOSE = True
 SILENT = False
-DEBUG = False
+DEBUG = True
 
 def formatter(statements, timestamp):
   '''Turn a list of decoded closed caption statements
@@ -83,7 +83,7 @@ def formatter(statements, timestamp):
     Note we deal with unicode only here.
   '''
   print('File elapsed time seconds: {s}'.format(s=timestamp))
-  line = u''.join([unicode(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
+  line = u''.join([(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
   return line
 
 
@@ -184,7 +184,7 @@ def OnESPacket(current_pid, packet, header_size):
 
   except EOFError:
     pass
-  except Exception, err:
+  except Exception as err:
     if VERBOSE and not SILENT and pid >= 0:
       print("Exception thrown while handling DataGroup in ES. This may be due to many factors"
          + "such as file corruption or the .ts file using as yet unsupported features.")
@@ -203,7 +203,7 @@ def main():
   pid = args.pid
 
   if not os.path.exists(infilename):
-    print 'Input filename :' + infilename + " does not exist."
+    print ('Input filename :' + infilename + " does not exist.")
     os.exit(-1)
 
   ts = TS(infilename)

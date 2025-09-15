@@ -17,7 +17,7 @@ import arib.code_set as code_set
 import arib.control_characters as control_characters
 import codecs
 import re
-from arib_exceptions import FileOpenError
+from arib.arib_exceptions import FileOpenError
 
 class Pos(object):
   '''Screen position in pixels
@@ -150,7 +150,7 @@ Last Style Storage: Default
 Video File: {title}
 
 
-'''.format(width=width, height=height, title=unicode(title, 'utf-8'))
+'''.format(width=width, height=height, title=title.decode('utf-8'))
     self._f.write(header)
 
   def write_styles(self):
@@ -176,22 +176,22 @@ def asstime(seconds):
 
 def kanji(formatter, k, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += unicode(k)
+  formatter._current_lines[-1] += (k)
   #print unicode(k)
 
 def alphanumeric(formatter, a, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += unicode(a)
+  formatter._current_lines[-1] += (a)
   #print unicode(a)
 
 def hiragana(formatter, h, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += unicode(h)
+  formatter._current_lines[-1] += (h)
   #print unicode(h)
 
 def katakana(formatter, k, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += unicode(k)
+  formatter._current_lines[-1] += (k)
   #print unicode(k)
 
 def medium(formatter, k, timestamp):
@@ -270,7 +270,7 @@ def position_set(formatter, p, timestamp):
   line = u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
   formatter._current_lines.append(Dialog(line))
 
-a_regex = ur'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
+a_regex = r'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
 
 def control_character(formatter, csi, timestamp):
   '''This will be the most difficult to format, since the same class here
@@ -278,7 +278,7 @@ def control_character(formatter, csi, timestamp):
   e.g:
   <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">
   '''
-  cmd = unicode(csi)
+  cmd = (csi)
   a_match = re.search(a_regex, cmd)
   if a_match:
     # APS Control Sequences (absolute positioning of text as <CS: 170;389 a> above
@@ -288,7 +288,7 @@ def control_character(formatter, csi, timestamp):
     formatter._current_lines.append( Dialog( u'{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an1}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y)))
     return
 
-pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'
+pos_regex = r'({\\pos\(\d{1,4},\d{1,4}\)})'
 
 def clear_screen(formatter, cs, timestamp):
 
@@ -316,13 +316,6 @@ def clear_screen(formatter, cs, timestamp):
   
 
 class ASSFormatter(object):
-  '''
-  Format ARIB objects to dialog of the sort below:
-  Dialogue: 0,0:02:24.54,0:02:30.55,small,,0000,0000,0000,,{\pos(500,900)}ゴッド\N
-  Dialogue: 0,0:02:24.54,0:02:30.55,small,,0000,0000,0000,,{\pos(780,900)}ほかく\N
-  Dialogue: 0,0:02:24.54,0:02:30.55,normal,,0000,0000,0000,,{\pos(420,1020)}ＧＯＤの捕獲を目指す・\N
-  '''
-
   DISPLAYED_CC_STATEMENTS = {
     code_set.Kanji : kanji,
     code_set.Alphanumeric : alphanumeric,
