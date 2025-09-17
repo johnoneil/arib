@@ -11,10 +11,10 @@ import os
 import sys
 import argparse
 import traceback
-from read import EOFError
+from arib.read import EOFError
 
-from mpeg.ts import TS
-from mpeg.ts import ES
+from arib.mpeg.ts import TS
+from arib.mpeg.ts import ES
 
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
@@ -73,7 +73,7 @@ DISPLAYED_CC_STATEMENTS = [
 initial_timestamp = 0
 elapsed_time_s = 0
 pid = -1
-VERBOSE = True
+VERBOSE = False
 SILENT = False
 DEBUG = False
 
@@ -82,9 +82,14 @@ def formatter(statements, timestamp):
     into something we want (probably just plain text)
     Note we deal with unicode only here.
   '''
-  print('File elapsed time seconds: {s}'.format(s=timestamp))
-  line = u''.join([unicode(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
-  return line
+  # print('File elapsed time seconds: {s}'.format(s=timestamp))
+  # line = ''.join([(s) for str(s) in statements if type(s) in DISPLAYED_CC_STATEMENTS])
+  # return line
+  allowed = tuple(DISPLAYED_CC_STATEMENTS)
+  return ''.join(
+    str(s) for s in statements
+    if isinstance(s, allowed)
+  )
 
 
 def OnProgress(bytes_read, total_bytes, percent):
@@ -164,11 +169,7 @@ def OnESPacket(current_pid, packet, header_size):
         #formatter function above. This dumps the basic text to stdout.
         cc = formatter(data_unit.payload().payload(), elapsed_time_s)
         if cc and VERBOSE:
-          #according to best practice, always deal internally with UNICODE, and encode to
-          #your encoding of choice as late as possible. Here, i'm encoding as UTF-8 for
-          #my command line.
-          #DECODE EARLY, ENCODE LATE
-          print(cc.encode('utf-8'))
+          print(cc)
     else:
       # management data
       management_data = data_group.payload()
@@ -184,7 +185,7 @@ def OnESPacket(current_pid, packet, header_size):
 
   except EOFError:
     pass
-  except Exception, err:
+  except Exception as err:
     if VERBOSE and not SILENT and pid >= 0:
       print("Exception thrown while handling DataGroup in ES. This may be due to many factors"
          + "such as file corruption or the .ts file using as yet unsupported features.")
@@ -193,17 +194,20 @@ def OnESPacket(current_pid, packet, header_size):
 
 def main():
   global pid
+  global VERBOSE
 
   parser = argparse.ArgumentParser(description='Draw CC Packets from MPG2 Transport Stream file.')
   parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
   parser.add_argument('-p', '--pid', help='Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).', type=int, default=-1)
+  parser.add_argument('-v', '--verbose', action='store_true', help='enable verbose output')
   args = parser.parse_args()
 
   infilename = args.infile
   pid = args.pid
+  VERBOSE = args.verbose
 
   if not os.path.exists(infilename):
-    print 'Input filename :' + infilename + " does not exist."
+    print ('Input filename :' + infilename + " does not exist.")
     os.exit(-1)
 
   ts = TS(infilename)

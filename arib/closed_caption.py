@@ -12,9 +12,9 @@ an ARIB data group
 
 '''
 
-import read
-from decoder import Decoder
-import code_set
+from arib import read
+from arib.decoder import Decoder
+from arib import code_set
 DEBUG = False
 DRCS_DEBUG = False
 
@@ -39,13 +39,13 @@ class CaptionStatementData(object):
       self.STM = d >> 28
       self._data_unit_loop_length = d & 0xffffffff
       if DEBUG:
-        print 'CaptionStatementData: STM (time) ' + str(self.STM)
-        print 'CaptionStatementData: data unit loop length: ' + str(self._data_unit_loop_length)
+        print('CaptionStatementData: STM (time) ' + str(self.STM))
+        print('CaptionStatementData: data unit loop length: ' + str(self._data_unit_loop_length))
     else:
       self.STM = 0
       self._data_unit_loop_length = read.ui3b(f)
     if DEBUG:
-      print 'Caption statement: data unit loop length: ' + str(self._data_unit_loop_length)
+      print('Caption statement: data unit loop length: ' + str(self._data_unit_loop_length))
     bytes_read = 0
     self._data_units = []
     while bytes_read < self._data_unit_loop_length:
@@ -72,7 +72,7 @@ class StatementBody(object):
     self._data_unit_type = data_unit._data_unit_type
     if self._data_unit_type is not 0x20:
       if DEBUG:
-        print 'this is not caption data'
+        print('this is not caption data')
       raise ValueError
     self._data_unit_size = data_unit._data_unit_size
     #self._payload = f.read(self._data_unit_size)
@@ -93,7 +93,7 @@ class StatementBody(object):
     Return a list of statements and characters
     '''
     if DEBUG:
-      print 'going to read {bytes} bytes in binary file caption statement.'.format(bytes=bytes_to_read)
+      print('going to read {bytes} bytes in binary file caption statement.'.format(bytes=bytes_to_read))
     statements = []
     bytes_read = 0
     #TODO: Check to see if decoder state is carred between packet processing
@@ -124,25 +124,29 @@ class DRCSFont(object):
   # There seems to be at least two new DRCS characters in every .ts file I
   # examine, so this is very limited.
   character_hashes = {
-    -3174437220813644284 : u'♬',
-    3626218632846089044 : u'[ｽﾋﾟｰｶｰ]', #u"\U0001F50A", # unicode 'speaker with 3 sound U+1f50A
-    -7036522249175460012 : u'[ｽﾋﾟｰｶｰ]', #u"\U0001F508", # unicode "SPEAKER U+1F508
-    7569189553178784666 : u'[ﾊﾟｿｺﾝ]', #u"\U0001F4BB", #unicode personal computer U+1F4BB
-    -7054764751876937278 : u'[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
-    7675785349947576464 : u'[携帯]', #u"\U0001F4F1", # unicode cellphone U+1F4F1
-    -8588766517861681222 : u'｟',
-    -137322149189423910 : u'｠',
-    -8884896295922033014 : u'⟪',
-    -5876459750587952470 : u'⟫',
-    2149867084803144864 : u'[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
-    -6623079553638809300: u'[ﾏｲｸ]',
-    -3827305093498498888 : u'𝔹', # custom Conan 'meitantei badge". yes. really.
-    -775118510460996568 : u'｟',
-    -4397084408988046416 : u'｠',
-    -6328951014288157962 : u'[ﾊﾟｿｺﾝ]',
-    1113567731799993878 : u'①',
-    6707059547002745896 : u'[ﾗｼﾞｵ]',
-    6692026985814559272 : u'[携帯]',
+    -7136047064524494493 : '♬',
+    -3174437220813644284 : '♬',
+    -2076470310518076522 : '♬',
+    1000641629893798554 : '[ｽﾋﾟｰｶｰ]', #u"\U0001F50A", # unicode 'speaker with 3 sound U+1f50A
+    -7036522249175460012 : '[ｽﾋﾟｰｶｰ]', #u"\U0001F508", # unicode "SPEAKER U+1F508
+    7569189553178784666 : '[ﾊﾟｿｺﾝ]', #u"\U0001F4BB", #unicode personal computer U+1F4BB
+    -7054764751876937278 : '[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
+    7675785349947576464 : '[携帯]', #u"\U0001F4F1", # unicode cellphone U+1F4F1
+    -8588766517861681222 : '｟',
+    -137322149189423910 : '｠',
+    3677021840720334755 : '⟪',
+    6457285743806425238: '⟪',
+    478862021628494283: '⟪',
+    -2751917473394209870 : '⟫',
+    2149867084803144864 : '[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
+    -6623079553638809300: '[ﾏｲｸ]',
+    -3827305093498498888 : '𝔹', # custom Conan 'meitantei badge". yes. really.
+    -775118510460996568 : '｟',
+    -4397084408988046416 : '｠',
+    7611614277969896833 : '[ﾊﾟｿｺﾝ]',
+    1113567731799993878 : '①',
+    6707059547002745896 : '[ﾗｼﾞｵ]',
+    6692026985814559272 : '[携帯]',
     }
 
   # first is  combiled font id + font number four bits each
@@ -157,7 +161,7 @@ class DRCSFont(object):
       self._pixels = []
 
       # assuming 4 pixels per byte. How is this tied to depth above? (typical depth = 2)
-      for i in range((self._width * self._height)/4):
+      for i in range((self._width * self._height) // 4):
         self._pixels.append(read.ucb(f))
 
       tmp_str = str(self._pixels)
@@ -165,12 +169,12 @@ class DRCSFont(object):
 
       if DRCS_DEBUG:
         print("DRCS character font id: {id}".format(id=self._font_id))
-        print("DRCS character hash: {h}".format(h=self._hash))
+        #print("DRCS character hash: {h}".format(h=self._hash))
 
       if self._hash in DRCSFont.character_hashes:
         self._character = DRCSFont.character_hashes[self._hash]
       else:
-        self._character = u'�'
+        self._character = '�'
 
     else:
         raise ValueError("DRCSFont mode not supported.")
@@ -178,10 +182,10 @@ class DRCSFont(object):
       print("DRCS character: font: {font}".format(font=self._font_id))
       px = ''
       i = 0
-      for h in range(self._height/2):
-        for w in range(self._width/4):
+      for h in range(self._height//2):
+        for w in range(self._width//4):
           #px += str(self._pixels[i]) + " "
-          p = self._pixels[h * self._width/2 + w]
+          p = self._pixels[h * self._width//2 + w]
           if p == 0:
             px += " "
           elif p == 0xff:
@@ -221,7 +225,7 @@ class DRCS1ByteCharacter(object):
     self._data_unit_type = data_unit._data_unit_type
     if self._data_unit_type is not DRCS1ByteCharacter.ID:
       if DEBUG:
-        print 'this is not a DRCS character'
+        print('this is not a DRCS character')
       raise ValueError
     self._data_unit_size = data_unit._data_unit_size
     self._characters = []
@@ -244,14 +248,14 @@ class DataUnit(object):
     self._unit_separator = read.ucb(f)
     if(self._unit_separator is not 0x1f):
       if DEBUG:
-        print 'Unit separator not found at start of data unit.'
+        print('Unit separator not found at start of data unit.')
       raise ValueError
     self._data_unit_type = read.ucb(f)
     if DEBUG:
-      print 'data unit type: ' + str(self._data_unit_type)
+      print('data unit type: ' + str(self._data_unit_type))
     self._data_unit_size = read.ui3b(f)
     if DEBUG:
-      print 'DataUnit size found to be: ' + str(self._data_unit_size)
+      print('DataUnit size found to be: ' + str(self._data_unit_size))
     #self._payload = f.read(self._data_unit_size)
     self._payload = self.load_unit(f)
 
@@ -289,9 +293,9 @@ class Language(object):
       print("caption managment DC: " + str(self._DC))
 
     self._language_code = ''
-    self._language_code += str(unichr(read.ucb(f)))
-    self._language_code += str(unichr(read.ucb(f)))
-    self._language_code += str(unichr(read.ucb(f)))
+    self._language_code += str(chr(read.ucb(f)))
+    self._language_code += str(chr(read.ucb(f)))
+    self._language_code += str(chr(read.ucb(f)))
     if DEBUG:
       print("caption managment language code: " + str(self._language_code))
     
@@ -378,7 +382,7 @@ class CaptionManagementData(object):
       _ub = read.uic(f) >> 4
       self._OTM = _t | (_ub << 32)
       if DEBUG:
-        print "Caption management OTM: " + str(self._OTM)
+        print("Caption management OTM: " + str(self._OTM))
 
     self._num_languages = read.ucb(f)
     self._languages = []
@@ -387,7 +391,7 @@ class CaptionManagementData(object):
 
     self._data_unit_loop_length = read.ui3b(f)
     if DEBUG:
-      print 'Caption managmentdata : data unit loop length: ' + str(self._data_unit_loop_length)
+      print('Caption managmentdata : data unit loop length: ' + str(self._data_unit_loop_length))
     bytes_read = 0
     self._data_units = []
     while bytes_read < self._data_unit_loop_length:

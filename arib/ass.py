@@ -12,12 +12,12 @@ to turn arib package subtitle objects into a .ass
 file.
   
 '''
-
+from pathlib import Path
 import arib.code_set as code_set
 import arib.control_characters as control_characters
 import codecs
 import re
-from arib_exceptions import FileOpenError
+from arib.arib_exceptions import FileOpenError
 
 class Pos(object):
   '''Screen position in pixels
@@ -38,14 +38,24 @@ class Dialog(object):
   ''' text and dialog
   '''
   def __init__(self, s, x=None, y=None):
-    self._s = s
+    # make sure we always hold text
+    self._s = s.decode('utf-8', 'replace') if isinstance(s, (bytes, bytearray)) else str(s)
     self._x = x
     self._y = y
+
   def __iadd__(self, other):
+    if isinstance(other, (bytes, bytearray)):
+      other = other.decode('utf-8', 'replace')
+    else:
+      other = str(other)
     self._s += other
     return self
+
   def __len__(self):
     return len(self._s)
+
+  def __str__(self):
+    return self._s
 
 class Size(object):
   '''Screen width, height of an area in pixels
@@ -112,12 +122,15 @@ class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
   '''
   def __init__(self, filepath, width=960, height=540):
+    Path(filepath).parent.mkdir(parents=True, exist_ok=True)
+
     try:
-      self._f = codecs.open(filepath,'w',encoding='utf8')
-      self.write_header(width,height, filepath)
-      self.write_styles()
-    except:
-        raise FileOpenError("Could not open file " + filepath +" for writing.")
+      self._f = open(filepath, 'w', encoding='utf-8', newline='')
+    except Exception as e:
+      raise FileOpenError(f"Could not open file {filepath!r} for writing: {e}") from e
+
+    self.write_header(width, height, filepath)
+    self.write_styles()
 
   def __del__(self):
     try:
@@ -132,7 +145,7 @@ class ASSFile(object):
     self._f.write(line)
 
   def write_header(self, width, height, title):
-    header = u'''[Script Info]
+    header = '''[Script Info]
 ; *****************************************************************************
 ; File generated via arib-ts2ass
 ; https://github.com/johnoneil/arib
@@ -150,11 +163,11 @@ Last Style Storage: Default
 Video File: {title}
 
 
-'''.format(width=width, height=height, title=unicode(title, 'utf-8'))
+'''.format(width=width, height=height, title=title)
     self._f.write(header)
 
   def write_styles(self):
-    styles = u'''[V4+ Styles]
+    styles = '''[V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: normal,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
 Style: medium,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,50,100,0,0,1,2,2,1,10,10,10,0
@@ -171,95 +184,95 @@ def asstime(seconds):
   seconds -= 3600*hrs
   mins = int(seconds / 60)
   seconds -= 60*mins
-  return u'{h:d}:{m:02d}:{s:02.2f}'.format(h=hrs, m=mins, s=seconds)
+  return '{h:d}:{m:02d}:{s:02.2f}'.format(h=hrs, m=mins, s=seconds)
 
 
 def kanji(formatter, k, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += unicode(k)
+  formatter._current_lines[-1] += (k)
   #print unicode(k)
 
 def alphanumeric(formatter, a, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += unicode(a)
+  formatter._current_lines[-1] += (a)
   #print unicode(a)
 
 def hiragana(formatter, h, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += unicode(h)
+  formatter._current_lines[-1] += (h)
   #print unicode(h)
 
 def katakana(formatter, k, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += unicode(k)
+  formatter._current_lines[-1] += (k)
   #print unicode(k)
 
 def medium(formatter, k, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\\rmedium}' + formatter._current_color
+  formatter._current_lines[-1] += '{\\rmedium}' + formatter._current_color
   formatter._current_style = 'medium'
   formatter._current_textsize = TextSize.MEDIUM
 
 def normal(formatter, k, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\\rnormal}' + formatter._current_color
+  formatter._current_lines[-1] += '{\\rnormal}' + formatter._current_color
   formatter._current_style = 'normal'
   formatter._current_textsize = TextSize.NORMAL
 
 def small(formatter, k, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\\rsmall}' + formatter._current_color
+  formatter._current_lines[-1] += '{\\rsmall}' + formatter._current_color
   formatter._current_style = 'small'
   formatter._current_textsize = TextSize.SMALL
 
 def space(formatter, k, timestamp):
   formatter.open_file()
-  formatter._current_lines[-1] += u' '
+  formatter._current_lines[-1] += ' '
 
 def drcs(formatter, c, timestamp):
-  formatter._current_lines[-1] += u'�'
+  formatter._current_lines[-1] += '�'
 
 def black(formatter, k, timestamp):
   formatter.open_file()
   #{\c&H000000&} \c&H<bb><gg><rr>& {\c&Hffffff&}
-  formatter._current_lines[-1] += u'{\c&H000000&}'
+  formatter._current_lines[-1] += '{\c&H000000&}'
   formatter._current_color = '{\c&H000000&}'
 
 def red(formatter, k, timestamp):
   #{\c&H0000ff&}
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\c&H0000ff&}'
+  formatter._current_lines[-1] += '{\c&H0000ff&}'
   formatter._current_color = '{\c&H0000ff&}'
 def green(formatter, k, timestamp):
   #{\c&H00ff00&}
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\c&H00ff00&}'
+  formatter._current_lines[-1] += '{\c&H00ff00&}'
   formatter._current_color = '{\c&H00ff00&}'
 
 def yellow(formatter, k, timestamp):
   #{\c&H00ffff&}
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\c&H00ffff&}'
+  formatter._current_lines[-1] += '{\c&H00ffff&}'
   formatter._current_color = '{\c&H00ffff&}'
 def blue(formatter, k, timestamp):
   #{\c&Hff0000&}
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\c&Hff0000&}'
+  formatter._current_lines[-1] += '{\c&Hff0000&}'
   formatter._current_color = '{\c&Hff0000&}'
 def magenta(formatter, k, timestamp):
   #{\c&Hff00ff&}
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\c&Hff00ff&}'
+  formatter._current_lines[-1] += '{\c&Hff00ff&}'
   formatter._current_color = '{\c&Hff00ff&}'
 def cyan(formatter, k, timestamp):
   #{\c&Hffff00&}
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\c&Hffff00&}'
+  formatter._current_lines[-1] += '{\c&Hffff00&}'
   formatter._current_color = '{\c&Hffff00&}'
 def white(formatter, k, timestamp):
   #{\c&Hffffff&}
   formatter.open_file()
-  formatter._current_lines[-1] += u'{\c&Hffffff&}'
+  formatter._current_lines[-1] += '{\c&Hffffff&}'
   formatter._current_color = '{\c&Hffffff&}'
 
 def position_set(formatter, p, timestamp):
@@ -267,10 +280,10 @@ def position_set(formatter, p, timestamp):
   So we have to calculate pixel coordinates (and then sale them)
   '''
   pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col, formatter._current_textsize)
-  line = u'{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
+  line = '{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
   formatter._current_lines.append(Dialog(line))
 
-a_regex = ur'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
+a_regex = re.compile(br'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">')
 
 def control_character(formatter, csi, timestamp):
   '''This will be the most difficult to format, since the same class here
@@ -278,17 +291,17 @@ def control_character(formatter, csi, timestamp):
   e.g:
   <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">
   '''
-  cmd = unicode(csi)
-  a_match = re.search(a_regex, cmd)
+  cmd = csi if isinstance(csi, (bytes, bytearray)) else str(csi).encode('utf-8')
+  a_match = a_regex.search(cmd)
   if a_match:
     # APS Control Sequences (absolute positioning of text as <CS: 170;389 a> above
     # indicate the LOWER LEFT HAND CORNER of text position.
     x = a_match.group('x')
     y = a_match.group('y')
-    formatter._current_lines.append( Dialog( u'{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an1}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y)))
+    formatter._current_lines.append( Dialog( '{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an1}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y)))
     return
 
-pos_regex = ur'({\\pos\(\d{1,4},\d{1,4}\)})'
+pos_regex = r'({\\pos\(\d{1,4},\d{1,4}\)})'
 
 def clear_screen(formatter, cs, timestamp):
 
@@ -303,12 +316,12 @@ def clear_screen(formatter, cs, timestamp):
       if not len(l):
         continue
      
-      line = u'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=start_time, end_time=end_time, line=l._s)
+      line = 'Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n'.format(start_time=start_time, end_time=end_time, line=l._s)
       #TODO: add option to dump to stdout
       #print line.encode('utf-8')
       if formatter._ass_file:
         formatter._ass_file.write(line)
-      formatter._current_lines = [Dialog(u'')]
+      formatter._current_lines = [Dialog('')]
 
   formatter._elapsed_time_s = timestamp
   formatter._current_textsize = TextSize.NORMAL
@@ -316,13 +329,6 @@ def clear_screen(formatter, cs, timestamp):
   
 
 class ASSFormatter(object):
-  '''
-  Format ARIB objects to dialog of the sort below:
-  Dialogue: 0,0:02:24.54,0:02:30.55,small,,0000,0000,0000,,{\pos(500,900)}ゴッド\N
-  Dialogue: 0,0:02:24.54,0:02:30.55,small,,0000,0000,0000,,{\pos(780,900)}ほかく\N
-  Dialogue: 0,0:02:24.54,0:02:30.55,normal,,0000,0000,0000,,{\pos(420,1020)}ＧＯＤの捕獲を目指す・\N
-  '''
-
   DISPLAYED_CC_STATEMENTS = {
     code_set.Kanji : kanji,
     code_set.Alphanumeric : alphanumeric,
@@ -379,7 +385,7 @@ class ASSFormatter(object):
     self._pos = Pos(0, 0)
     self._elapsed_time_s = 0.0
     self._ass_file = None
-    self._current_lines = [Dialog(u'')]
+    self._current_lines = [Dialog('')]
     self._current_style = 'normal'
     self._current_color = '{\c&Hffffff&}'
     self._current_textsize = TextSize.NORMAL
@@ -404,7 +410,7 @@ class ASSFormatter(object):
     '''
     #TODO: Show progress in some way
     #print('File elapsed time seconds: {s}'.format(s=timestamp))
-    #line = u'{t}: {l}\n'.format(t=timestamp, l=u''.join([unicode(s) for s in captions if type(s) in ASSFormatter.DISPLAYED_CC_STATEMENTS]))
+    #line = '{t}: {l}\n'.format(t=timestamp, l=''.join([unicode(s) for s in captions if type(s) in ASSFormatter.DISPLAYED_CC_STATEMENTS]))
 
     for c in captions:
       if type(c) in ASSFormatter.DISPLAYED_CC_STATEMENTS:

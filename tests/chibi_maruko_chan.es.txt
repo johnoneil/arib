@@ -343,7 +343,6 @@
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 2149867084803144864
 DRCS character: font: 0
  ██▌▐ ▐  
   ▌ ▐ ▐  
@@ -383,7 +382,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 2149867084803144864
 DRCS character: font: 0
  ██▌▐ ▐  
   ▌ ▐ ▐  
@@ -409,7 +407,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 2149867084803144864
 DRCS character: font: 0
  ██▌▐ ▐  
   ▌ ▐ ▐  
@@ -436,7 +433,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 2149867084803144864
 DRCS character: font: 0
  ██▌▐ ▐  
   ▌ ▐ ▐  
@@ -604,7 +600,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 2149867084803144864
 DRCS character: font: 0
  ██▌▐ ▐  
   ▌ ▐ ▐  
@@ -1058,7 +1053,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 2149867084803144864
 DRCS character: font: 0
  ██▌▐ ▐  
   ▌ ▐ ▐  
@@ -1189,7 +1183,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -6623079553638809300
 DRCS character: font: 0
   ████   
   █▐▐▐   
@@ -1230,7 +1223,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -6623079553638809300
 DRCS character: font: 0
   ████   
   █▐▐▐   
@@ -1276,7 +1268,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -6623079553638809300
 DRCS character: font: 0
   ████   
   █▐▐▐   
