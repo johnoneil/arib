@@ -15,8 +15,8 @@ an ARIB data group
 from arib import read
 from arib.decoder import Decoder
 from arib import code_set
-DEBUG = True
-DRCS_DEBUG = True
+DEBUG = False
+DRCS_DEBUG = False
 
 def set_DRCS_debug(v):
   global DRCS_DEBUG
@@ -124,25 +124,25 @@ class DRCSFont(object):
   # There seems to be at least two new DRCS characters in every .ts file I
   # examine, so this is very limited.
   character_hashes = {
-    -3174437220813644284 : u'♬',
-    3626218632846089044 : u'[ｽﾋﾟｰｶｰ]', #u"\U0001F50A", # unicode 'speaker with 3 sound U+1f50A
-    -7036522249175460012 : u'[ｽﾋﾟｰｶｰ]', #u"\U0001F508", # unicode "SPEAKER U+1F508
-    7569189553178784666 : u'[ﾊﾟｿｺﾝ]', #u"\U0001F4BB", #unicode personal computer U+1F4BB
-    -7054764751876937278 : u'[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
-    7675785349947576464 : u'[携帯]', #u"\U0001F4F1", # unicode cellphone U+1F4F1
-    -8588766517861681222 : u'｟',
-    -137322149189423910 : u'｠',
-    -8884896295922033014 : u'⟪',
-    -5876459750587952470 : u'⟫',
-    2149867084803144864 : u'[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
-    -6623079553638809300: u'[ﾏｲｸ]',
-    -3827305093498498888 : u'𝔹', # custom Conan 'meitantei badge". yes. really.
-    -775118510460996568 : u'｟',
-    -4397084408988046416 : u'｠',
-    -6328951014288157962 : u'[ﾊﾟｿｺﾝ]',
-    1113567731799993878 : u'①',
-    6707059547002745896 : u'[ﾗｼﾞｵ]',
-    6692026985814559272 : u'[携帯]',
+    -3174437220813644284 : '♬',
+    3626218632846089044 : '[ｽﾋﾟｰｶｰ]', #u"\U0001F50A", # unicode 'speaker with 3 sound U+1f50A
+    -7036522249175460012 : '[ｽﾋﾟｰｶｰ]', #u"\U0001F508", # unicode "SPEAKER U+1F508
+    7569189553178784666 : '[ﾊﾟｿｺﾝ]', #u"\U0001F4BB", #unicode personal computer U+1F4BB
+    -7054764751876937278 : '[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
+    7675785349947576464 : '[携帯]', #u"\U0001F4F1", # unicode cellphone U+1F4F1
+    -8588766517861681222 : '｟',
+    -137322149189423910 : '｠',
+    -8884896295922033014 : '⟪',
+    -5876459750587952470 : '⟫',
+    2149867084803144864 : '[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
+    -6623079553638809300: '[ﾏｲｸ]',
+    -3827305093498498888 : '𝔹', # custom Conan 'meitantei badge". yes. really.
+    -775118510460996568 : '｟',
+    -4397084408988046416 : '｠',
+    -6328951014288157962 : '[ﾊﾟｿｺﾝ]',
+    1113567731799993878 : '①',
+    6707059547002745896 : '[ﾗｼﾞｵ]',
+    6692026985814559272 : '[携帯]',
     }
 
   # first is  combiled font id + font number four bits each
@@ -157,7 +157,7 @@ class DRCSFont(object):
       self._pixels = []
 
       # assuming 4 pixels per byte. How is this tied to depth above? (typical depth = 2)
-      for i in range((self._width * self._height)/4):
+      for i in range((self._width * self._height) // 4):
         self._pixels.append(read.ucb(f))
 
       tmp_str = str(self._pixels)
@@ -170,7 +170,7 @@ class DRCSFont(object):
       if self._hash in DRCSFont.character_hashes:
         self._character = DRCSFont.character_hashes[self._hash]
       else:
-        self._character = u'�'
+        self._character = '�'
 
     else:
         raise ValueError("DRCSFont mode not supported.")
@@ -178,10 +178,10 @@ class DRCSFont(object):
       print("DRCS character: font: {font}".format(font=self._font_id))
       px = ''
       i = 0
-      for h in range(self._height/2):
-        for w in range(self._width/4):
+      for h in range(self._height//2):
+        for w in range(self._width//4):
           #px += str(self._pixels[i]) + " "
-          p = self._pixels[h * self._width/2 + w]
+          p = self._pixels[h * self._width//2 + w]
           if p == 0:
             px += " "
           elif p == 0xff:

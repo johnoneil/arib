@@ -32,9 +32,9 @@ from arib.ass import ASSFile
 initial_timestamp = None
 elapsed_time_s = 0
 pid = -1
-VERBOSE = True
+VERBOSE = False
 SILENT = False
-DEBUG = True
+DEBUG = False
 ass = None
 infilename = ""
 outfilename = ""

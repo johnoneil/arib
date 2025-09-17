@@ -75,16 +75,21 @@ elapsed_time_s = 0
 pid = -1
 VERBOSE = True
 SILENT = False
-DEBUG = True
+DEBUG = False
 
 def formatter(statements, timestamp):
   '''Turn a list of decoded closed caption statements
     into something we want (probably just plain text)
     Note we deal with unicode only here.
   '''
-  print('File elapsed time seconds: {s}'.format(s=timestamp))
-  line = u''.join([(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
-  return line
+  # print('File elapsed time seconds: {s}'.format(s=timestamp))
+  # line = ''.join([(s) for str(s) in statements if type(s) in DISPLAYED_CC_STATEMENTS])
+  # return line
+  allowed = tuple(DISPLAYED_CC_STATEMENTS)
+  return ''.join(
+    str(s) for s in statements
+    if isinstance(s, allowed)
+  )
 
 
 def OnProgress(bytes_read, total_bytes, percent):

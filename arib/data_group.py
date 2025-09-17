@@ -20,7 +20,7 @@ from arib.closed_caption import CaptionManagementData
 from struct import error as struct_error
 from copy import copy
 
-DEBUG = True
+DEBUG = False
 
 
 class DataGroupParseError(Exception):

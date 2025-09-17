@@ -13,7 +13,7 @@ from arib.code_set import code_set_handler_from_final_byte
 from arib.code_set import in_code_set_table
 from arib.arib_exceptions import DecodingError
 
-DEBUG = True
+DEBUG = False
 
 class NUL(object):
   '''Null
@@ -30,8 +30,8 @@ class NUL(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'NUL'
+  def __str__(self):
+    return 'NUL'
 
   @staticmethod
   def handler(f):
@@ -50,8 +50,8 @@ class SP(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u' '
+  def __str__(self):
+    return ' '
 
   @staticmethod
   def handler(f):
@@ -71,8 +71,8 @@ class DEL(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'DEL'
+  def __str__(self):
+    return 'DEL'
 
   @staticmethod
   def handler(f):
@@ -93,8 +93,8 @@ class BEL(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'BEL'
+  def __str__(self):
+    return 'BEL'
 
   @staticmethod
   def handler(f):
@@ -118,8 +118,8 @@ class APB(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'APB'
+  def __str__(self):
+    return 'APB'
 
   @staticmethod
   def handler(f):
@@ -143,8 +143,8 @@ class APF(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'APF'
+  def __str__(self):
+    return 'APF'
 
   @staticmethod
   def handler(f):
@@ -167,8 +167,8 @@ class APD(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'APD'
+  def __str__(self):
+    return 'APD'
 
   @staticmethod
   def handler(f):
@@ -191,8 +191,8 @@ class APU(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'APU'
+  def __str__(self):
+    return 'AP'
 
   @staticmethod
   def handler(f):
@@ -212,8 +212,8 @@ class CS(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<clear screen>'
+  def __str__(self):
+    return '<clear screen>'
 
   @staticmethod
   def handler(f):
@@ -234,8 +234,8 @@ class APR(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'APR'
+  def __str__(self):
+    return 'APR'
 
   @staticmethod
   def handler(f):
@@ -256,8 +256,8 @@ class LS1(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'LS1'
+  def __str__(self):
+    return 'LS1'
 
   @staticmethod
   def handler(f):
@@ -278,8 +278,8 @@ class LS0(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'LS0'
+  def __str__(self):
+    return 'LS0'
 
   @staticmethod
   def handler(f):
@@ -305,8 +305,8 @@ class PAPF(object):
     '''
     return 2
 
-  def __unicode__(self):
-    return u'<PAPF>'
+  def __str__(self):
+    return '<PAPF>'
 
   @staticmethod
   def handler(f):
@@ -341,8 +341,8 @@ class SS2(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'SS2'
+  def __str__(self):
+    return 'SS2'
 
   @staticmethod
   def handler(f):
@@ -368,8 +368,8 @@ class LS2(object):
    # print 'setting GL to G2 with contents {g}'.format(g=str(type(decoder._G2.get())))
     decoder._GL = decoder._G2
 
-  def __unicode__(self):
-    return u'LS2'
+  def __str__(self):
+    return 'LS2'
 
   @staticmethod
   def handler(f=None):
@@ -394,8 +394,8 @@ class LS3(object):
     '''
     decoder._GL = decoder._G3
 
-  def __unicode__(self):
-    return u'LS3'
+  def __str__(self):
+    return 'LS3'
 
   @staticmethod
   def handler(f=None):
@@ -420,8 +420,8 @@ class LS1R(object):
     '''
     decoder._GR = decoder._G1
 
-  def __unicode__(self):
-    return u'LS1R'
+  def __str__(self):
+    return 'LS1R'
 
   @staticmethod
   def handler(f=None):
@@ -446,8 +446,8 @@ class LS2R(object):
     '''
     decoder._GR = decoder._G2
 
-  def __unicode__(self):
-    return u'LS2R'
+  def __str__(self):
+    return 'LS2R'
 
   @staticmethod
   def handler(f=None):
@@ -472,8 +472,8 @@ class LS3R(object):
     '''
     decoder._GR = decoder._G3
 
-  def __unicode__(self):
-    return u'LS3R'
+  def __str__(self):
+    return 'LS3R'
 
   @staticmethod
   def handler(f=None):
@@ -701,8 +701,8 @@ class ESC(object):
     '''
     return len(self._args) + 1
 
-  def __unicode__(self):
-    return u'ESC {args}'.format(args=u' '.join(u'{:#x}'.format(x) for x in self._args))
+  def __str__(self):
+    return 'ESC {args}'.format(args=' '.join('{:#x}'.format(x) for x in self._args))
 
   def is_invocation(self):
     '''Return whether this ESC control sequence
@@ -773,16 +773,29 @@ class ESC(object):
       raise DecodingError()
     return (d, code_set)
 
+  # @staticmethod
+  # def find_designation(bytes):
+  #   for i, pattern in enumerate(ESC.GRAPHIC_SETS_TABLE):
+  #     if DEBUG:
+  #       print('{b} : {i} {p}'.format(b=str(bytes), i=str(i), p=str(pattern)))
+  #     if bytes == pattern:
+  #       if DEBUG:
+  #         print('found designation match at {p} at index {i} and desig {d}'.format(p=str(pattern), i=str(i), d=str(i%4)))
+  #       return DESIGNATION_TABLE.keys()[i%4]
+  #   #raise decoding error?
+
   @staticmethod
-  def find_designation(bytes):
-    for i, pattern in enumerate(ESC.GRAPHIC_SETS_TABLE):
-      if DEBUG:
-        print('{b} : {i} {p}'.format(b=str(bytes), i=str(i), p=str(pattern)))
-      if bytes == pattern:
-        if DEBUG:
-          print('found designation match at {p} at index {i} and desig {d}'.format(p=str(pattern), i=str(i), d=str(i%4)))
-        return DESIGNATION_TABLE.keys()[i%4]
-    #raise decoding error?
+  def find_designation(byte_pattern):
+      for i, pattern in enumerate(ESC.GRAPHIC_SETS_TABLE):
+          if DEBUG:
+              print(f'{byte_pattern} : {i} {pattern}')
+          if byte_pattern == pattern:
+              idx = i % len(DESIGNATION_TABLE)   # was 4; safer to use length
+              if DEBUG:
+                  print(f'found designation match at {pattern} at index {i} and desig {idx}')
+              # dict is insertion-ordered in Py3.7+, so this matches your literal order
+              return list(DESIGNATION_TABLE)[idx]
+      raise KeyError(f'No designation for pattern: {byte_pattern!r}')
     
 
   @staticmethod
@@ -829,7 +842,7 @@ class APS(object):
     self._args.append(read.ucb(f)&0x3f)#p1
     self._args.append(read.ucb(f)&0x3f)#p2
     if DEBUG:
-      print(u'APS: --> {:#d},{:#d}>'.format(self._args[0], self._args[1]).encode('utf-8'))
+      print('APS: --> {:#d},{:#d}>'.format(self._args[0], self._args[1]).encode('utf-8'))
 
   @property
   def col(self):
@@ -845,8 +858,8 @@ class APS(object):
     '''
     return len(self._args) + 1
 
-  def __unicode__(self):
-    return u'\n<Screen Posiiton to {:#d},{:#d}>'.format(self._args[0], self._args[1])
+  def __str__(self):
+    return '\n<Screen Posiiton to {:#d},{:#d}>'.format(self._args[0], self._args[1])
 
   @staticmethod
   def handler(f):
@@ -867,8 +880,8 @@ class SS3(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'SS3'
+  def __str__(self):
+    return 'SS3'
 
   @staticmethod
   def handler(f):
@@ -889,8 +902,8 @@ class RS(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'RS'
+  def __str__(self):
+    return 'RS'
 
   @staticmethod
   def handler(f):
@@ -911,8 +924,8 @@ class US(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'US'
+  def __str__(self):
+    return 'US'
 
   @staticmethod
   def handler(f):
@@ -936,8 +949,8 @@ class BKF(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<black>'
+  def __str__(self):
+    return '<black>'
 
   @staticmethod
   def handler(f):
@@ -966,8 +979,8 @@ class COL(object):
     '''
     return len(self._args) + 1
 
-  def __unicode__(self):
-    return u'COL {args}'.format(args=u' '.join(u'{:#x}'.format(x) for x in self._args))
+  def __str__(self):
+    return 'COL {args}'.format(args=' '.join('{:#x}'.format(x) for x in self._args))
 
   @staticmethod
   def handler(f):
@@ -987,8 +1000,8 @@ class RDF(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<red>'
+  def __str__(self):
+    return '<red>'
 
   @staticmethod
   def handler(f):
@@ -1011,8 +1024,8 @@ class FLC(object):
     '''
     return len(self._args) + 1
 
-  def __unicode__(self):
-    return u'FLC {args}'.format(args=u' '.join(u'{:#x}'.format(x) for x in self._args))
+  def __str__(self):
+    return 'FLC {args}'.format(args=' '.join('{:#x}'.format(x) for x in self._args))
 
   @staticmethod
   def handler(f):
@@ -1032,8 +1045,8 @@ class GRF(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<green>'
+  def __str__(self):
+    return '<green>'
 
   @staticmethod
   def handler(f):
@@ -1067,8 +1080,8 @@ class YLF(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<yellow>'
+  def __str__(self):
+    return '<yellow>'
 
   @staticmethod
   def handler(f):
@@ -1101,8 +1114,8 @@ class BLF(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<blue>'
+  def __str__(self):
+    return '<blue>'
 
   @staticmethod
   def handler(f):
@@ -1138,8 +1151,8 @@ class MGF(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<magenta>'
+  def __str__(self):
+    return '<magenta>'
 
   @staticmethod
   def handler(f):
@@ -1173,8 +1186,8 @@ class CNF(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<cyan>'
+  def __str__(self):
+    return '<cyan>'
 
   @staticmethod
   def handler(f):
@@ -1194,8 +1207,8 @@ class WHF(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<white>'
+  def __str__(self):
+    return '<white>'
 
   @staticmethod
   def handler(f):
@@ -1216,11 +1229,11 @@ class HLC(object):
   def __len__(self):
     return 2
 
-  def __unicode__(self):
+  def __str__(self):
     if self._start:
-      return u'<Highlight start>'
+      return '<Highlight start>'
     else:
-      return u'<Highlight end>'
+      return '<Highlight end>'
     
   @staticmethod
   def handler(f):
@@ -1234,7 +1247,7 @@ class SSZ(object):
   CODE = 0x88
   def __init__(self, f):
     if DEBUG:
-      print(u'SSZ: --> 0x88'.encode('utf-8'))
+      print('SSZ: --> 0x88'.encode('utf-8'))
 
   def __len__(self):
     '''Defiing len() operator to help
@@ -1242,8 +1255,8 @@ class SSZ(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<Small Text>'
+  def __str__(self):
+    return '<Small Text>'
 
   @staticmethod
   def handler(f):
@@ -1272,7 +1285,7 @@ class MSZ(object):
   CODE = 0x89
   def __init__(self, f):
     if DEBUG:
-      print(u'MSZ: --> 0x89'.encode('utf-8'))
+      print('MSZ: --> 0x89'.encode('utf-8'))
 
   def __len__(self):
     '''Defiing len() operator to help
@@ -1280,8 +1293,8 @@ class MSZ(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<Medium Text>'
+  def __str__(self):
+    return '<Medium Text>'
 
   @staticmethod
   def handler(f):
@@ -1308,7 +1321,7 @@ class NSZ(object):
   CODE = 0x8a
   def __init__(self, f):
     if DEBUG:
-      print(u'NSZ: --> 0x8a'.encode('utf-8'))
+      print('NSZ: --> 0x8a'.encode('utf-8'))
 
   def __len__(self):
     '''Defiing len() operator to help
@@ -1316,8 +1329,8 @@ class NSZ(object):
     '''
     return 1
 
-  def __unicode__(self):
-    return u'<Normal Text>'
+  def __str__(self):
+    return '<Normal Text>'
 
   @staticmethod
   def handler(f):
@@ -1349,7 +1362,7 @@ class SZX(object):
   CODE = 0x8b
   def __init__(self, f):
     if DEBUG:
-      print(u'SZX: --> 0x8b'.encode('utf-8'))
+      print('SZX: --> 0x8b'.encode('utf-8'))
 
   @staticmethod
   def handler(f):
@@ -1381,11 +1394,19 @@ class CSI(object):
     '''
     return len(self._args) + 1
 
-  def __unicode__(self):
+  def __str__(self):
     try:
-      return u'<CS:"{seq}">'.format(seq=u''.join(u'{:#c}'.format(x) for x in self._args))
-    except UnicodeDecodeError:
-        return u'<CS:"{seq}">'.format(seq=u''.join(u':{h}'.format(h=hex(x)) for x in self._args))
+      # Use ':c' (no '#'), and handle 1-byte bytes by taking x[0]
+      return '<CS:"{seq}">'.format(
+          seq=''.join('{:c}'.format(x if isinstance(x, int) else x[0])
+                      for x in self._args)
+      )
+    except (ValueError, TypeError):
+      # Fallback to hex; handle 1-byte bytes the same way
+      return '<CS:"{seq}">'.format(
+          seq=''.join(':{h}'.format(h=hex(x if isinstance(x, int) else x[0]))
+                      for x in self._args)
+      )
 
   @staticmethod
   def handler(f):
@@ -1408,8 +1429,8 @@ class TIME(object):
     '''
     return len(self._args) + 1
 
-  def __unicode__(self):
-    return u'TIME {args}'.format(args=u' '.join(u'{:#x}'.format(x) for x in self._args))
+  def __str__(self):
+    return 'TIME {args}'.format(args=' '.join('{:#x}'.format(x) for x in self._args))
 
   @staticmethod
   def handler(f):

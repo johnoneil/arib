@@ -76,13 +76,18 @@ def formatter(statements, timestamp):
     into something we want (probably just plain text)
     Note we deal with unicode only here.
   '''
-  line = u''.join([(s) for s in statements if type(s) in DISPLAYED_CC_STATEMENTS])
-  return line
+  # line = ''.join(s for s in statements if type(s) in DISPLAYED_CC_STATEMENTS)
+  # return line
+  allowed = tuple(DISPLAYED_CC_STATEMENTS)
+  return ''.join(
+    str(s) for s in statements
+    if isinstance(s, allowed)
+  )
 
 # GLOBALS TO KEEP TRACK OF STATE
 VERBOSE = True
 SILENT = False
-DEBUG = True
+DEBUG = False
 
 def main():
   global elapsed_time_s
@@ -97,13 +102,10 @@ def main():
   infilename = args.infile
   pid = args.pid
 
-  # if not os.path.exists(infilename):
-  #   print('Input filename :' + infilename + " does not exist.")
-  #   os.exit(-1)
   inpath = Path(infilename)
   if not inpath.is_file():
     print(f"Input filename: {inpath} does not exist.")
-    exit(1)  # or: raise SystemExit(1)
+    exit(1)
 
   for data_group in next_data_group(infilename):
     try:
@@ -120,11 +122,7 @@ def main():
           #formatter function above. This dumps the basic text to stdout.
           cc = formatter(data_unit.payload().payload(), 0)
           if cc and VERBOSE:
-            #according to best practice, always deal internally with UNICODE, and encode to
-            #your encoding of choice as late as possible. Here, i'm encoding as UTF-8 for
-            #my command line.
-            #DECODE EARLY, ENCODE LATE
-            print(cc.encode('utf-8'))
+            print(cc)
       else:
         # management data
         management_data = data_group.payload()

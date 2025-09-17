@@ -15,7 +15,7 @@ import arib.control_characters as control_char
 from arib import code_set
 from arib.arib_exceptions import DecodingError
 
-DEBUG = True
+DEBUG = False
 
 
 class ref(object):
