@@ -12,7 +12,7 @@ to turn arib package subtitle objects into a .ass
 file.
   
 '''
-
+from pathlib import Path
 import arib.code_set as code_set
 import arib.control_characters as control_characters
 import codecs
@@ -38,14 +38,24 @@ class Dialog(object):
   ''' text and dialog
   '''
   def __init__(self, s, x=None, y=None):
-    self._s = s
+    # make sure we always hold text
+    self._s = s.decode('utf-8', 'replace') if isinstance(s, (bytes, bytearray)) else str(s)
     self._x = x
     self._y = y
+
   def __iadd__(self, other):
+    if isinstance(other, (bytes, bytearray)):
+      other = other.decode('utf-8', 'replace')
+    else:
+      other = str(other)
     self._s += other
     return self
+
   def __len__(self):
     return len(self._s)
+
+  def __str__(self):
+    return self._s
 
 class Size(object):
   '''Screen width, height of an area in pixels
@@ -112,12 +122,15 @@ class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
   '''
   def __init__(self, filepath, width=960, height=540):
+    Path(filepath).parent.mkdir(parents=True, exist_ok=True)
+
     try:
-      self._f = codecs.open(filepath,'w',encoding='utf8')
-      self.write_header(width,height, filepath)
-      self.write_styles()
-    except:
-        raise FileOpenError("Could not open file " + filepath +" for writing.")
+      self._f = open(filepath, 'w', encoding='utf-8', newline='')
+    except Exception as e:
+      raise FileOpenError(f"Could not open file {filepath!r} for writing: {e}") from e
+
+    self.write_header(width, height, filepath)
+    self.write_styles()
 
   def __del__(self):
     try:
@@ -150,7 +163,7 @@ Last Style Storage: Default
 Video File: {title}
 
 
-'''.format(width=width, height=height, title=title.decode('utf-8'))
+'''.format(width=width, height=height, title=title)
     self._f.write(header)
 
   def write_styles(self):
@@ -270,7 +283,7 @@ def position_set(formatter, p, timestamp):
   line = '{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
   formatter._current_lines.append(Dialog(line))
 
-a_regex = r'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
+a_regex = re.compile(br'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">')
 
 def control_character(formatter, csi, timestamp):
   '''This will be the most difficult to format, since the same class here
@@ -278,8 +291,8 @@ def control_character(formatter, csi, timestamp):
   e.g:
   <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">
   '''
-  cmd = (csi)
-  a_match = re.search(a_regex, cmd)
+  cmd = csi if isinstance(csi, (bytes, bytearray)) else str(csi).encode('utf-8')
+  a_match = a_regex.search(cmd)
   if a_match:
     # APS Control Sequences (absolute positioning of text as <CS: 170;389 a> above
     # indicate the LOWER LEFT HAND CORNER of text position.

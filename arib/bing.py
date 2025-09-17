@@ -36,7 +36,7 @@ def translate(text, from_language='ja', to_language='en', client_id='', secret_k
   headers={'Authorization': 'Bearer '+oauth_junk['access_token']}
   translation_url = 'http://api.microsofttranslator.com/V2/Ajax.svc/Translate?'
   translation_result = requests.get(translation_url+urllib.urlencode(translation_args),headers=headers)
-  return translation_result.content.decode('utf-8')
+  return translation_result.content
 
 def main():
 
