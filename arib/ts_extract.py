@@ -73,7 +73,7 @@ DISPLAYED_CC_STATEMENTS = [
 initial_timestamp = 0
 elapsed_time_s = 0
 pid = -1
-VERBOSE = True
+VERBOSE = False
 SILENT = False
 DEBUG = False
 
@@ -169,11 +169,7 @@ def OnESPacket(current_pid, packet, header_size):
         #formatter function above. This dumps the basic text to stdout.
         cc = formatter(data_unit.payload().payload(), elapsed_time_s)
         if cc and VERBOSE:
-          #according to best practice, always deal internally with UNICODE, and encode to
-          #your encoding of choice as late as possible. Here, i'm encoding as UTF-8 for
-          #my command line.
-          #DECODE EARLY, ENCODE LATE
-          print(cc.encode('utf-8'))
+          print(cc)
     else:
       # management data
       management_data = data_group.payload()
@@ -198,14 +194,17 @@ def OnESPacket(current_pid, packet, header_size):
 
 def main():
   global pid
+  global VERBOSE
 
   parser = argparse.ArgumentParser(description='Draw CC Packets from MPG2 Transport Stream file.')
   parser.add_argument('infile', help='Input filename (MPEG2 Transport Stream File)', type=str)
   parser.add_argument('-p', '--pid', help='Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).', type=int, default=-1)
+  parser.add_argument('-v', '--verbose', action='store_true', help='enable verbose output')
   args = parser.parse_args()
 
   infilename = args.infile
   pid = args.pid
+  VERBOSE = args.verbose
 
   if not os.path.exists(infilename):
     print ('Input filename :' + infilename + " does not exist.")
