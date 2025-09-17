@@ -136,8 +136,9 @@ def next_data_group(filepath):
       except EOFError:
           break
       except Exception as err:
-        print("Exception throw while parsing data group from .es")
-        traceback.print_exc(file=sys.stdout)
+        if DEBUG:
+          print("Exception thrown while parsing data group from .es")
+          traceback.print_exc(file=sys.stdout)
         print("Looking for new data group in .es")
         found = find_data_group_start(f)
         if found:
@@ -149,8 +150,9 @@ def next_data_group(filepath):
     # we can quite rightly run into eof here. in that case just bail
     pass
   except Exception as err:
-    print("Exception throw while parsing data group from .es")
-    traceback.print_exc(file=sys.stdout)
+    if DEBUG:
+      print("Exception throw while parsing data group from .es")
+      traceback.print_exc(file=sys.stdout)
   finally:
     f.close()
 
