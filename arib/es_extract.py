@@ -12,6 +12,9 @@ import sys
 import argparse
 import traceback
 
+from pathlib import Path
+from sys import exit  # or: import sys
+
 from arib.mpeg.ts import TS
 from arib.mpeg.ts import ES
 
@@ -94,9 +97,13 @@ def main():
   infilename = args.infile
   pid = args.pid
 
-  if not os.path.exists(infilename):
-    print('Input filename :' + infilename + " does not exist.")
-    os.exit(-1)
+  # if not os.path.exists(infilename):
+  #   print('Input filename :' + infilename + " does not exist.")
+  #   os.exit(-1)
+  inpath = Path(infilename)
+  if not inpath.is_file():
+    print(f"Input filename: {inpath} does not exist.")
+    exit(1)  # or: raise SystemExit(1)
 
   for data_group in next_data_group(infilename):
     try:
