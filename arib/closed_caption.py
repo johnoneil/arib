@@ -169,7 +169,7 @@ class DRCSFont(object):
 
       if DRCS_DEBUG:
         print("DRCS character font id: {id}".format(id=self._font_id))
-        print("DRCS character hash: {h}".format(h=self._hash))
+        #print("DRCS character hash: {h}".format(h=self._hash))
 
       if self._hash in DRCSFont.character_hashes:
         self._character = DRCSFont.character_hashes[self._hash]

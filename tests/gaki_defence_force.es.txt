@@ -7707,7 +7707,6 @@
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 8379969167651070174
 DRCS character: font: 0
  ███████▌
  ▌      ▌
@@ -7820,7 +7819,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 8379969167651070174
 DRCS character: font: 0
  ███████▌
  ▌      ▌
@@ -8053,7 +8051,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -5953342984817665724
 DRCS character: font: 0
    ▐██   
   ▐▌  █  
@@ -40795,7 +40792,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 8379969167651070174
 DRCS character: font: 0
  ███████▌
  ▌      ▌
@@ -42044,7 +42040,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 8379969167651070174
 DRCS character: font: 0
  ███████▌
  ▌      ▌
@@ -42807,7 +42802,6 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: 8379969167651070174
 DRCS character: font: 0
  ███████▌
  ▌      ▌
