@@ -145,7 +145,7 @@
 <Screen Posiiton to 7,8><Normal Text>江戸川君！
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -3827305093498498888
+DRCS character hash: -3608223073424602039
 DRCS character: font: 0
   ▐███   
   █  ▐█  
@@ -217,7 +217,7 @@ DRCS character: font: 0
 <Screen Posiiton to 15,3><Normal Text>警察に知らせた方がいいわ<Medium Text>。
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -3827305093498498888
+DRCS character hash: -3608223073424602039
 DRCS character: font: 0
   ▐███   
   █  ▐█  
@@ -250,7 +250,7 @@ DRCS character: font: 0
 <Screen Posiiton to 7,1>十中八九<Medium Text> <Normal Text>葬儀場だ<Medium Text>。<Normal Text>だから…<Medium Text>。
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -3827305093498498888
+DRCS character hash: -3608223073424602039
 DRCS character: font: 0
   ▐███   
   █  ▐█  
@@ -485,7 +485,7 @@ DRCS character: font: 0
 <Screen Posiiton to 15,7><Normal Text><yellow>また停まってんな<Medium Text>。
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -3827305093498498888
+DRCS character hash: -3608223073424602039
 DRCS character: font: 0
   ▐███   
   █  ▐█  
@@ -790,7 +790,7 @@ DRCS character: font: 0
 <Screen Posiiton to 15,5><Normal Text>今どこなの？江戸川君<Medium Text>！？
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -3827305093498498888
+DRCS character hash: -3608223073424602039
 DRCS character: font: 0
   ▐███   
   █  ▐█  
@@ -825,7 +825,7 @@ DRCS character: font: 0
 <Screen Posiiton to 15,9><Normal Text><yellow>灰原！灰原？
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -3827305093498498888
+DRCS character hash: -3608223073424602039
 DRCS character: font: 0
   ▐███   
   █  ▐█  
@@ -996,7 +996,7 @@ DRCS character: font: 0
 <Screen Posiiton to 7,0>棺の底なんかじゃなかったのよ！
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -3827305093498498888
+DRCS character hash: -3608223073424602039
 DRCS character: font: 0
   ▐███   
   █  ▐█  
@@ -1097,7 +1097,7 @@ DRCS character: font: 0
 <Screen Posiiton to 15,7><Normal Text>あ…結構あるわね<Medium Text>。
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -3827305093498498888
+DRCS character hash: -3608223073424602039
 DRCS character: font: 0
   ▐███   
   █  ▐█  
@@ -1125,7 +1125,7 @@ DRCS character: font: 0
 <Screen Posiiton to 15,7><Medium Text>（<Normal Text>カンカンカン…<Medium Text>）
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -3827305093498498888
+DRCS character hash: -3608223073424602039
 DRCS character: font: 0
   ▐███   
   █  ▐█  
@@ -1297,7 +1297,7 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -775118510460996568
+DRCS character hash: 8966897922381696900
 DRCS character: font: 0
      ▐   
      ▌   
@@ -1319,7 +1319,7 @@ DRCS character: font: 0
      ▐   
 
 DRCS character font id: 0
-DRCS character hash: -4397084408988046416
+DRCS character hash: 4745556042942686012
 DRCS character: font: 0
   ▌      
   ▐      
@@ -1346,7 +1346,7 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 DRCS character font id: 0
-DRCS character hash: -775118510460996568
+DRCS character hash: 8966897922381696900
 DRCS character: font: 0
      ▐   
      ▌   
@@ -1368,7 +1368,7 @@ DRCS character: font: 0
      ▐   
 
 DRCS character font id: 0
-DRCS character hash: -4397084408988046416
+DRCS character hash: 4745556042942686012
 DRCS character: font: 0
   ▌      
   ▐      
