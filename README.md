@@ -14,23 +14,26 @@ The image below shows example ARIB closed caption data displayed at runtime on a
 ![example of ass file](img/gaki2.png "Example ass file.")
 
 # Installation
-Basic installation is now supported, but I only currently recommend installing into a virtualenv as the lib is still only pre-alpha.
 
-That said, installation can now be carried out via pip as below.
+Installation should be typical. We recommend a virtual environment.
+
 ```
-pip install -e git+https://github.com/johnoneil/arib#egg=arib
+pip install git+https://github.com/johnoneil/arib
 ```
+
 or install from a local git checkout
+
 ```
 git clone https://github.com/johnoneil/arib.git
 cd arib
 pip install -e .
 ```
+
 The above commands may require ```sudo``` though I recommend again installing them in a python virtualenv.
 
-## arib-ts2ass
+## `arib-ts2ass` tool
 
-This package provides a tool (arib-ts2ass) that extracts ARIB based closed caption information from an MPEG Transport Stream recording, and formats the info into a standard .ass (Advanced Substation Alpha) subtitle file. The image below shows a resultant .ass subtitle file loaded to the video file it was generated off:
+This package provides a tool (`arib-ts2ass`) that extracts ARIB based closed caption information from an MPEG Transport Stream recording, and formats the info into a standard .ass (Advanced Substation Alpha) subtitle file. The image below shows a resultant .ass subtitle file loaded to the video file it was generated off:
 ![example of ass file](img/haikyu.png "Example ass file.")
 Note the ts2ass tool supports (in a basic way) closed caption locations, furigana (pronunciation guide), text size and color.
 
@@ -55,12 +58,13 @@ optional arguments:
   -q, --quiet           Does not write to stdout.
   -t TMAX, --tmax TMAX  Subtitle display time limit (seconds).
 ```
+
 I've made some recent changes to this tool and its performance is much improved, even if the basic arib support is still lacking many parts of the spec. Scanning a several gigabyte .ts file for CC info should take less than a minute on a local drive.
 
 # Experiments and Other Info
 
-## arib-ts-extract
-## arib-es-extract
+## `arib-ts-extract` and `arib-es-extract`
+
 This package also installs two additional tools which can be used to draw basic CC information from MPEG ts and es files. These are ```arib-ts-extract``` and ```arib-es-extract```. They skip the usual .ass formatting and show a text representation of the basic ARIB codes present in the .ts or .es file. See the example below:
 ```
 joneil@joneilDesktop ~/code/arib $ arib-es-extract tests/toriko_subs.es
