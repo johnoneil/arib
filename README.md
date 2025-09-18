@@ -14,11 +14,11 @@ The image below shows example ARIB closed caption data displayed at runtime on a
 ![example of ass file](img/gaki2.png "Example ass file.")
 
 # Installation
-Basic installation is now supported, but I only currently recommend installing into a virtualenv as the lib is still only pre-alpha.
 
-That said, installation can now be carried out via pip as below.
+Installation is typical, but using a python virtual environment is recommended.
+
 ```
-pip install -e git+https://github.com/johnoneil/arib#egg=arib
+pip install git+https://github.com/johnoneil/arib
 ```
 or install from a local git checkout
 ```
@@ -26,7 +26,6 @@ git clone https://github.com/johnoneil/arib.git
 cd arib
 pip install -e .
 ```
-The above commands may require ```sudo``` though I recommend again installing them in a python virtualenv.
 
 ## arib-ts2ass
 
