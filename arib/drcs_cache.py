@@ -9,6 +9,38 @@ import math
 from dataclasses import dataclass
 import math
 
+def normalize_94(b: int) -> int:
+    # map GR (A1–FE) to GL (21–7E); leave others as-is
+    return b - 0x80 if 0xA1 <= b <= 0xFE else b
+
+def is_94_byte(b: int) -> bool:
+    return (0x21 <= b <= 0x7E) or (0xA1 <= b <= 0xFE)
+
+def drcs_set_from_font_id_byte(b: int) -> int | None:
+    # 0x41..0x4E => DRCS-1..14
+    if 0x41 <= b <= 0x4E:
+        return b - 0x40
+    return None  # not a DRCS-1..14 font id byte
+
+def drcs0_pack(row_byte: int, cell_byte: int) -> int:
+    row = normalize_94(row_byte)
+    cell = normalize_94(cell_byte)
+    # optional sanity checks:
+    # if not (0x21 <= row <= 0x7E and 0x21 <= cell <= 0x7E):
+    #     raise ValueError(f"Invalid DRCS-0 code: row={row:#x}, cell={cell:#x}")
+    return (row << 8) | cell
+
+def drcs0_unpack(code: int) -> tuple[int,int]:
+    row = (code >> 8) & 0xFF
+    cell = code & 0xFF
+    return row, cell
+
+def drcs_set_id_from_font_id(font_id_byte):
+    # 0x41..0x4E => 1..14
+    if 0x41 <= font_id_byte <= 0x4E:
+        return font_id_byte - 0x40
+    raise ValueError(f"Unexpected DRCS font id byte: {font_id_byte:#x}")
+
 @dataclass
 class DrcsGlyph:
     font_id: int

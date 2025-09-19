@@ -14,6 +14,9 @@ handling for code sets in japanese closed captions
 from arib.arib_exceptions import UnimplimentedError
 from arib import read
 from arib.drcs_cache import DRCS_CACHE
+from arib.drcs_cache import normalize_94
+from arib.drcs_cache import drcs0_pack
+from arib.drcs_cache import drcs0_unpack
 
 DEBUG = False
 
@@ -413,19 +416,36 @@ class Macro(object):
   def decode(b, f):
     return Macro(b, f)
   
-
-def normalize_94(byte):
-    # map GR (A1-FE) to GL (21-7E)
-    return byte - 0x80 if 0xA1 <= byte <= 0xFE else byte
-
 class DRCS0(object):
   '''0 is the 2 byte DRCS encoding
   '''
   FINAL_BYTE = 0x40
-  def __init__(self,b, f):
-    self._args = []
-    self._args.append(b)
-    self._args.append(read.ucb(f))
+
+  def __init__(self, b, f):
+      self._args = [b]
+      hi = b
+      lo = read.ucb(f) # read second byte of the 2-byte DRCS-0 code
+      self._args.append(lo)
+
+      # Normalize GR (A1–FE) -> GL (21–7E) for both bytes
+      row = normalize_94(hi)
+      cell = normalize_94(lo)
+
+      # Optional sanity checks (good for debugging bad streams)
+      if not (0x21 <= row <= 0x7E and 0x21 <= cell <= 0x7E):
+          print("WARNNG: Invalid DRCS-0 code: row=%02X cell=%02X (raw %02X %02X)", row, cell, hi, lo)
+          self.row = row
+          self.col = cell
+          self.glyph = None
+          return
+
+      self.row = row
+      self.col = cell
+
+      # DRCS-0 uses set_id=0, code = packed(row,cell)
+      set_id = 0
+      code = drcs0_pack(row, cell)  # (row<<8)|cell with bytes already normalized
+      self.glyph = DRCS_CACHE.get(set_id, code)
 
   def __len__(self):
     return len(self._args)

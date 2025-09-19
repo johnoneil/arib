@@ -17,6 +17,11 @@ from arib.decoder import Decoder
 from arib import code_set
 from arib.drcs_cache import DRCS_CACHE
 from arib.drcs_cache import DrcsGlyph
+from arib.drcs_cache import drcs_set_from_font_id_byte
+from arib.drcs_cache import normalize_94
+from arib.drcs_cache import is_94_byte
+from arib.drcs_cache import drcs0_pack
+
 DEBUG = False
 DRCS_DEBUG = False
 import traceback
@@ -118,89 +123,7 @@ class StatementBody(object):
     #  print '{l}\n'.format(l=line)
     return statements
 
-# Deprecated in favor of drcs_cache.DrcsGlyph
-# class DRCSFont(object):
-#   """ A single character in DRCS
-#   Called a 'font' to agree with Table D-1 in ARIB b-24 spec page 141
-#   """
-#   # first is  combiled font id + font number four bits each
-#   def __init__(self, f):
-#     b = read.ucb(f)
-#     self._font_id = (b & 0xf0) >> 8
-#     self._mode = (b & 0x0f)
-#     if self._mode == 0 or self._mode == 0x1:
-#       self._depth = read.ucb(f)
-#       self._width = read.ucb(f)
-#       self._height = read.ucb(f)
-#       self._pixels = []
-
-#       # assuming 4 pixels per byte. How is this tied to depth above? (typical depth = 2)
-#       for i in range((self._width * self._height) // 4):
-#         self._pixels.append(read.ucb(f))
-
-#       tmp_str = str(self._pixels)
-#       self._hash = hash(tmp_str)
-
-#       if DRCS_DEBUG:
-#         print("DRCS character font id: {id}".format(id=self._font_id))
-#         #print("DRCS character hash: {h}".format(h=self._hash))
-
-#       if self._hash in DRCSFont.character_hashes:
-#         self._character = DRCSFont.character_hashes[self._hash]
-#       else:
-#         self._character = '�'
-
-#     else:
-#         raise ValueError("DRCSFont mode not supported.")
-#     if DRCS_DEBUG:
-#       traceback.print_stack()
-#       print("DRCS character: font: {font}".format(font=self._font_id))
-#       px = ''
-#       i = 0
-#       for h in range(self._height//2):
-#         for w in range(self._width//4):
-#           #px += str(self._pixels[i]) + " "
-#           p = self._pixels[h * self._width//2 + w]
-#           if p == 0:
-#             px += " "
-#           elif p == 0xff:
-#             px += "█"
-#           elif p == 0x0f:
-#             px += "▐"
-#           elif p == 0xf0:
-#             px += "▌"
-#           else:
-#             px += "╳"
-#           i = i + 1
-#         px += '\n'
-#       print(px)
-  
-#   def __str__(self):
-#     px = ''
-#     i = 0
-#     for h in range(self._height//2):
-#       for w in range(self._width//4):
-#         p = self._pixels[h * self._width//2 + w]
-#         if p == 0:
-#           px += " "
-#         elif p == 0xff:
-#           px += "█"
-#         elif p == 0x0f:
-#           px += "▐"
-#         elif p == 0xf0:
-#           px += "▌"
-#         else:
-#           px += "╳"
-#         i = i + 1
-#       px += '\n'
-#     return px
-
-
-def drcs_set_id_from_font_id(font_id_byte):
-    # 0x41..0x4E => 1..14
-    if 0x41 <= font_id_byte <= 0x4E:
-        return font_id_byte - 0x40
-    raise ValueError(f"Unexpected DRCS font id byte: {font_id_byte:#x}")
+# class DRCSFont is Deprecated in favor of drcs_cache.DrcsGlyph
 
 class DRCSCharacter(object):
   """ DRCS character parsed by DRCS2ByteCharacter class
@@ -209,14 +132,27 @@ class DRCSCharacter(object):
     """
     :param f: file descriptor we're reading from
     """
-    self._character_code = read.usb(f)
-    self._number_of_font = read.ucb(f)
-    font_id_byte = (self._character_code >> 8) & 0xFF
-    set_id = drcs_set_id_from_font_id(font_id_byte)
-    char_code = self._character_code & 0xFF
+    self._character_code = read.usb(f)      # 16-bit from stream
+    self._number_of_font = read.ucb(f)      # keep doing whatever you need with this
+
+    hi = (self._character_code >> 8) & 0xFF
+    lo = self._character_code & 0xFF
+
+    set_id = drcs_set_from_font_id_byte(hi)
+    if set_id is not None:
+        # DRCS-1..14 path (1 byte code in low byte)
+        char_code = normalize_94(lo)        # map GR A1–FE -> GL 21–7E
+    else:
+        # DRCS-0 path: the two bytes are row/cell
+        if not (is_94_byte(hi) and is_94_byte(lo)):
+            # If you hit this, either the stream is malformed or a different payload.
+            # You can log and skip, or handle other cases here.
+            # log.warning("Unexpected DRCS bytes: %02X %02X", hi, lo)
+            return
+        set_id = 0
+        char_code = drcs0_pack(hi, lo)      # pack row/cell into a single int
 
     glyph = DrcsGlyph(f)
-    #insert this new character in our DRCS cache
     DRCS_CACHE.put(set_id, char_code, glyph)
     # If we're debugging, dump the DRCS character in some basic way to stdout
     if DRCS_DEBUG:
