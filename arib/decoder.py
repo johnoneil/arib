@@ -56,7 +56,8 @@ class Decoder(object):
     '''
     #default encoding 'designations'
     self._G0 = ref(code_set.Kanji.decode)
-    self._G1 = ref(code_set.Katakana.decode)#ref(code_set.Alphanumeric.decode)
+    #self._G1 = ref(code_set.Katakana.decode)#ref(code_set.Alphanumeric.decode)
+    self._G1 = ref(code_set.Alphanumeric.decode)
     self._G2 = ref(code_set.Hiragana.decode) #code_set.DRCS1.decode
     #self._G2 = ref(code_set.DRCS1.decode)
     self._G3 = ref(code_set.Macro.decode)

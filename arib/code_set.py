@@ -13,6 +13,7 @@ handling for code sets in japanese closed captions
 
 from arib.arib_exceptions import UnimplimentedError
 from arib import read
+from arib.drcs_cache import DRCS_CACHE
 
 DEBUG = False
 
@@ -411,6 +412,11 @@ class Macro(object):
   @staticmethod
   def decode(b, f):
     return Macro(b, f)
+  
+
+def normalize_94(byte):
+    # map GR (A1-FE) to GL (21-7E)
+    return byte - 0x80 if 0xA1 <= byte <= 0xFE else byte
 
 class DRCS0(object):
   '''0 is the 2 byte DRCS encoding
@@ -436,9 +442,11 @@ class DRCS0(object):
 class DRCS1(object):
   FINAL_BYTE = 0x41
   def __init__(self,b, f):
-    #print 'init drcs1'
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(1, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -457,6 +465,9 @@ class DRCS2(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(2, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -475,6 +486,12 @@ class DRCS3(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(3, n_64)
+
+  def glyph(self):
+    return self.glyph
 
   def __len__(self):
     return len(self._args)
@@ -493,6 +510,9 @@ class DRCS4(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(4, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -511,6 +531,9 @@ class DRCS5(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(5, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -529,6 +552,9 @@ class DRCS6(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(6, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -547,6 +573,9 @@ class DRCS7(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(7, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -565,6 +594,9 @@ class DRCS8(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(8, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -583,6 +615,9 @@ class DRCS9(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(9, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -601,6 +636,9 @@ class DRCS10(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(10, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -619,6 +657,9 @@ class DRCS11(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(11, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -637,6 +678,9 @@ class DRCS12(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(12, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -655,6 +699,9 @@ class DRCS13(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(13, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -673,6 +720,9 @@ class DRCS14(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(14, n_64)
 
   def __len__(self):
     return len(self._args)

@@ -15,6 +15,8 @@ file.
 from pathlib import Path
 import arib.code_set as code_set
 import arib.control_characters as control_characters
+#from arib.drcs_decoder import ass_draw_drcs_debug
+from arib.drcs_decoder import ass_draw_drcs
 import codecs
 import re
 from arib.arib_exceptions import FileOpenError
@@ -230,7 +232,9 @@ def space(formatter, k, timestamp):
   formatter._current_lines[-1] += ' '
 
 def drcs(formatter, c, timestamp):
-  formatter._current_lines[-1] += '�'
+  drawing_code = ass_draw_drcs(c.glyph)
+  #print(f"DRCS Drawing Code: {drawing_code}")
+  formatter._current_lines[-1] += drawing_code
 
 def black(formatter, k, timestamp):
   formatter.open_file()

@@ -15,8 +15,11 @@ an ARIB data group
 from arib import read
 from arib.decoder import Decoder
 from arib import code_set
+from arib.drcs_cache import DRCS_CACHE
+from arib.drcs_cache import DrcsGlyph
 DEBUG = False
-DRCS_DEBUG = False
+DRCS_DEBUG = True
+import traceback
 
 def set_DRCS_debug(v):
   global DRCS_DEBUG
@@ -115,92 +118,89 @@ class StatementBody(object):
     #  print '{l}\n'.format(l=line)
     return statements
 
-class DRCSFont(object):
-  """ A single character in DRCS
-  Called a 'font' to agree with Table D-1 in ARIB b-24 spec page 141
-  """
-  # in order to provide SOME kind of info when we encounter a DRCS, i have
-  # a small hash table mapping to known (encountered) values.
-  # There seems to be at least two new DRCS characters in every .ts file I
-  # examine, so this is very limited.
-  character_hashes = {
-    -7136047064524494493 : '♬',
-    -3174437220813644284 : '♬',
-    -2076470310518076522 : '♬',
-    1000641629893798554 : '[ｽﾋﾟｰｶｰ]', #u"\U0001F50A", # unicode 'speaker with 3 sound U+1f50A
-    -7036522249175460012 : '[ｽﾋﾟｰｶｰ]', #u"\U0001F508", # unicode "SPEAKER U+1F508
-    7569189553178784666 : '[ﾊﾟｿｺﾝ]', #u"\U0001F4BB", #unicode personal computer U+1F4BB
-    -7054764751876937278 : '[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
-    7675785349947576464 : '[携帯]', #u"\U0001F4F1", # unicode cellphone U+1F4F1
-    -8588766517861681222 : '｟',
-    -137322149189423910 : '｠',
-    3677021840720334755 : '⟪',
-    6457285743806425238: '⟪',
-    478862021628494283: '⟪',
-    -2751917473394209870 : '⟫',
-    2149867084803144864 : '[ﾃﾚﾋﾞ]', #u"\U0001F4FA", # unicode TV U+1f4fa
-    -6623079553638809300: '[ﾏｲｸ]',
-    -3827305093498498888 : '𝔹', # custom Conan 'meitantei badge". yes. really.
-    -775118510460996568 : '｟',
-    -4397084408988046416 : '｠',
-    7611614277969896833 : '[ﾊﾟｿｺﾝ]',
-    1113567731799993878 : '①',
-    6707059547002745896 : '[ﾗｼﾞｵ]',
-    6692026985814559272 : '[携帯]',
-    }
+# Deprecated in favor of drcs_cache.DrcsGlyph
+# class DRCSFont(object):
+#   """ A single character in DRCS
+#   Called a 'font' to agree with Table D-1 in ARIB b-24 spec page 141
+#   """
+#   # first is  combiled font id + font number four bits each
+#   def __init__(self, f):
+#     b = read.ucb(f)
+#     self._font_id = (b & 0xf0) >> 8
+#     self._mode = (b & 0x0f)
+#     if self._mode == 0 or self._mode == 0x1:
+#       self._depth = read.ucb(f)
+#       self._width = read.ucb(f)
+#       self._height = read.ucb(f)
+#       self._pixels = []
 
-  # first is  combiled font id + font number four bits each
-  def __init__(self, f):
-    b = read.ucb(f)
-    self._font_id = (b & 0xf0) >> 8
-    self._mode = (b & 0x0f)
-    if self._mode == 0 or self._mode == 0x1:
-      self._depth = read.ucb(f)
-      self._width = read.ucb(f)
-      self._height = read.ucb(f)
-      self._pixels = []
+#       # assuming 4 pixels per byte. How is this tied to depth above? (typical depth = 2)
+#       for i in range((self._width * self._height) // 4):
+#         self._pixels.append(read.ucb(f))
 
-      # assuming 4 pixels per byte. How is this tied to depth above? (typical depth = 2)
-      for i in range((self._width * self._height) // 4):
-        self._pixels.append(read.ucb(f))
+#       tmp_str = str(self._pixels)
+#       self._hash = hash(tmp_str)
 
-      tmp_str = str(self._pixels)
-      self._hash = hash(tmp_str)
+#       if DRCS_DEBUG:
+#         print("DRCS character font id: {id}".format(id=self._font_id))
+#         #print("DRCS character hash: {h}".format(h=self._hash))
 
-      if DRCS_DEBUG:
-        print("DRCS character font id: {id}".format(id=self._font_id))
-        #print("DRCS character hash: {h}".format(h=self._hash))
+#       if self._hash in DRCSFont.character_hashes:
+#         self._character = DRCSFont.character_hashes[self._hash]
+#       else:
+#         self._character = '�'
 
-      if self._hash in DRCSFont.character_hashes:
-        self._character = DRCSFont.character_hashes[self._hash]
-      else:
-        self._character = '�'
-
-    else:
-        raise ValueError("DRCSFont mode not supported.")
-    if DRCS_DEBUG:
-      print("DRCS character: font: {font}".format(font=self._font_id))
-      px = ''
-      i = 0
-      for h in range(self._height//2):
-        for w in range(self._width//4):
-          #px += str(self._pixels[i]) + " "
-          p = self._pixels[h * self._width//2 + w]
-          if p == 0:
-            px += " "
-          elif p == 0xff:
-            px += "█"
-          elif p == 0x0f:
-            px += "▐"
-          elif p == 0xf0:
-            px += "▌"
-          else:
-            px += "╳"
-          i = i + 1
-        px += '\n'
-      print(px)
+#     else:
+#         raise ValueError("DRCSFont mode not supported.")
+#     if DRCS_DEBUG:
+#       traceback.print_stack()
+#       print("DRCS character: font: {font}".format(font=self._font_id))
+#       px = ''
+#       i = 0
+#       for h in range(self._height//2):
+#         for w in range(self._width//4):
+#           #px += str(self._pixels[i]) + " "
+#           p = self._pixels[h * self._width//2 + w]
+#           if p == 0:
+#             px += " "
+#           elif p == 0xff:
+#             px += "█"
+#           elif p == 0x0f:
+#             px += "▐"
+#           elif p == 0xf0:
+#             px += "▌"
+#           else:
+#             px += "╳"
+#           i = i + 1
+#         px += '\n'
+#       print(px)
+  
+#   def __str__(self):
+#     px = ''
+#     i = 0
+#     for h in range(self._height//2):
+#       for w in range(self._width//4):
+#         p = self._pixels[h * self._width//2 + w]
+#         if p == 0:
+#           px += " "
+#         elif p == 0xff:
+#           px += "█"
+#         elif p == 0x0f:
+#           px += "▐"
+#         elif p == 0xf0:
+#           px += "▌"
+#         else:
+#           px += "╳"
+#         i = i + 1
+#       px += '\n'
+#     return px
 
 
+def drcs_set_id_from_font_id(font_id_byte):
+    # 0x41..0x4E => 1..14
+    if 0x41 <= font_id_byte <= 0x4E:
+        return font_id_byte - 0x40
+    raise ValueError(f"Unexpected DRCS font id byte: {font_id_byte:#x}")
 
 class DRCSCharacter(object):
   """ DRCS character parsed by DRCS2ByteCharacter class
@@ -211,9 +211,13 @@ class DRCSCharacter(object):
     """
     self._character_code = read.usb(f)
     self._number_of_font = read.ucb(f)
-    self._fonts = []
-    for i in range(self._number_of_font):
-      self._fonts.append(DRCSFont(f))
+    font_id_byte = (self._character_code >> 8) & 0xFF
+    set_id = drcs_set_id_from_font_id(font_id_byte)
+    char_code = self._character_code & 0xFF
+
+    glyph = DrcsGlyph(f)
+    #insert this new character in our DRCS cache
+    DRCS_CACHE.put(set_id, char_code, glyph)
 
 class DRCS1ByteCharacter(object):
   """ DRCS data structure

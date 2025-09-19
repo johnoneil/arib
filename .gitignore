@@ -4,6 +4,9 @@ arib/secret_key.py
 #virtualenv
 .venv
 
+# purely local .vscode config
+.vscode
+
 *.py[cod]
 
 # C extensions
