@@ -433,7 +433,7 @@ class DRCS0(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"DRCS group 0:"
 
   @staticmethod
   def decode(b, f):
@@ -454,7 +454,7 @@ class DRCS1(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 1 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -475,7 +475,7 @@ class DRCS2(object):
   def __str__(self):
     '''stringify to
     '''
-    return '�'
+    return f"<DRCS group 2 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -499,7 +499,7 @@ class DRCS3(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"DRCS group 3: id: {self._normalized_character_id}."
 
   @staticmethod
   def decode(b, f):
@@ -520,7 +520,7 @@ class DRCS4(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 4 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -541,7 +541,7 @@ class DRCS5(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 5 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -562,7 +562,7 @@ class DRCS6(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 6 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -583,7 +583,7 @@ class DRCS7(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 7 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -604,7 +604,7 @@ class DRCS8(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 8 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -625,7 +625,7 @@ class DRCS9(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 9 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -646,7 +646,7 @@ class DRCS10(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 10 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -667,7 +667,7 @@ class DRCS11(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 11 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -688,7 +688,7 @@ class DRCS12(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 12 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -709,7 +709,7 @@ class DRCS13(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"DRCS group 13: id: {self._normalized_character_id}."
 
   @staticmethod
   def decode(b, f):
@@ -730,7 +730,7 @@ class DRCS14(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 14 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -741,6 +741,9 @@ class DRCS15(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(15, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -748,7 +751,7 @@ class DRCS15(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 15 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):

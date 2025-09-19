@@ -18,7 +18,7 @@ from arib import code_set
 from arib.drcs_cache import DRCS_CACHE
 from arib.drcs_cache import DrcsGlyph
 DEBUG = False
-DRCS_DEBUG = True
+DRCS_DEBUG = False
 import traceback
 
 def set_DRCS_debug(v):
@@ -218,6 +218,11 @@ class DRCSCharacter(object):
     glyph = DrcsGlyph(f)
     #insert this new character in our DRCS cache
     DRCS_CACHE.put(set_id, char_code, glyph)
+    # If we're debugging, dump the DRCS character in some basic way to stdout
+    if DRCS_DEBUG:
+      print(f"<DRCS set=\"{set_id}\" id=\"{char_code}\">")
+      print(str(glyph))
+      print("</DRCS>")
 
 class DRCS1ByteCharacter(object):
   """ DRCS data structure

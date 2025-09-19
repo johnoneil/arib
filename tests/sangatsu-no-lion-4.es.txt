@@ -1167,31 +1167,48 @@
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
-DRCS character font id: 0
-DRCS character: font: 0
-         
-         
-  █▌  █▌ 
- ▐██ ▐██ 
- ▐██ ▐██ 
- ███▌███▌
- ███████▌
- ███████▌
- ███████▌
- ▐██████ 
- ▐██████ 
-  █████▌ 
-  █████▌ 
-  ▐████  
-   ███▌  
-   ▐██   
-    █▌   
-    ▐    
-
+<DRCS set="1" id="33">
+                                    
+                                    
+                                    
+                                    
+        ██████          ██████      
+        ██████          ██████      
+      ██████████      ██████████    
+      ██████████      ██████████    
+      ██████████      ██████████    
+      ██████████      ██████████    
+    ██████████████  ██████████████  
+    ██████████████  ██████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+      ██████████████████████████    
+      ██████████████████████████    
+      ██████████████████████████    
+      ██████████████████████████    
+        ██████████████████████      
+        ██████████████████████      
+        ██████████████████████      
+        ██████████████████████      
+          ██████████████████        
+          ██████████████████        
+            ██████████████          
+            ██████████████          
+              ██████████            
+              ██████████            
+                ██████              
+                ██████              
+                  ██                
+                  ██                
+</DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,7><Medium Text><white>キャー　<Normal Text>やった�<Medium Text>
-<Screen Posiiton to 7,5><Normal Text><cyan>�<Medium Text>スゴーイ。
+<Screen Posiiton to 6,7><Medium Text><white>キャー　<Normal Text>やった<DRCS group 1 id: 33><Medium Text>
+<Screen Posiiton to 7,5><Normal Text><cyan><DRCS group 1 id: 33><Medium Text>スゴーイ。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2355,31 +2372,48 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
-DRCS character font id: 0
-DRCS character: font: 0
-         
-         
-  █▌  █▌ 
- ▐██ ▐██ 
- ▐██ ▐██ 
- ███▌███▌
- ███████▌
- ███████▌
- ███████▌
- ▐██████ 
- ▐██████ 
-  █████▌ 
-  █████▌ 
-  ▐████  
-   ███▌  
-   ▐██   
-    █▌   
-    ▐    
-
+<DRCS set="1" id="33">
+                                    
+                                    
+                                    
+                                    
+        ██████          ██████      
+        ██████          ██████      
+      ██████████      ██████████    
+      ██████████      ██████████    
+      ██████████      ██████████    
+      ██████████      ██████████    
+    ██████████████  ██████████████  
+    ██████████████  ██████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+    ██████████████████████████████  
+      ██████████████████████████    
+      ██████████████████████████    
+      ██████████████████████████    
+      ██████████████████████████    
+        ██████████████████████      
+        ██████████████████████      
+        ██████████████████████      
+        ██████████████████████      
+          ██████████████████        
+          ██████████████████        
+            ██████████████          
+            ██████████████          
+              ██████████            
+              ██████████            
+                ██████              
+                ██████              
+                  ██                
+                  ██                
+</DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
 <Screen Posiiton to 6,7><white>ねーねー<Medium Text>　ボドローッッ
-<Screen Posiiton to 7,15><Normal Text>もっと折ってー�
+<Screen Posiiton to 7,15><Normal Text>もっと折ってー<DRCS group 1 id: 33>
 <clear screen>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
