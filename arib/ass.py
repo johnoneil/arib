@@ -246,7 +246,7 @@ Style: normal,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,
 Style: medium,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,50,100,0,0,1,2,2,1,10,10,10,0
 Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
 
-
+[events]
 '''
     self._f.write(styles)
 
@@ -257,7 +257,7 @@ def asstime(seconds):
   seconds -= 3600*hrs
   mins = int(seconds / 60)
   seconds -= 60*mins
-  return '{h:d}:{m:02d}:{s:02.2f}'.format(h=hrs, m=mins, s=seconds)
+  return f"{hrs:d}:{mins:02d}:{seconds:05.2f}"
 
 
 def kanji(formatter, k, timestamp):
