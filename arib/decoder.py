@@ -56,6 +56,9 @@ class Decoder(object):
     '''
     #default encoding 'designations'
     self._G0 = ref(code_set.Kanji.decode)
+    # NOTE: The standard says this part of the encoder should be initialized to Alphanumeric (as in the comment)
+    # But practice dictates it should be Katakana. This may be due to my using improper or partial .ts files to test,
+    # or perhaps it's a side effect of a bug in my code, but untill I have sources that produce better behavior, this will stand.
     self._G1 = ref(code_set.Katakana.decode)#ref(code_set.Alphanumeric.decode)
     self._G2 = ref(code_set.Hiragana.decode) #code_set.DRCS1.decode
     #self._G2 = ref(code_set.DRCS1.decode)

@@ -13,6 +13,10 @@ handling for code sets in japanese closed captions
 
 from arib.arib_exceptions import UnimplimentedError
 from arib import read
+from arib.drcs_cache import DRCS_CACHE
+from arib.drcs_cache import normalize_94
+from arib.drcs_cache import drcs0_pack
+from arib.drcs_cache import drcs0_unpack
 
 DEBUG = False
 
@@ -411,15 +415,37 @@ class Macro(object):
   @staticmethod
   def decode(b, f):
     return Macro(b, f)
-
+  
 class DRCS0(object):
   '''0 is the 2 byte DRCS encoding
   '''
   FINAL_BYTE = 0x40
-  def __init__(self,b, f):
-    self._args = []
-    self._args.append(b)
-    self._args.append(read.ucb(f))
+
+  def __init__(self, b, f):
+      self._args = [b]
+      hi = b
+      lo = read.ucb(f) # read second byte of the 2-byte DRCS-0 code
+      self._args.append(lo)
+
+      # Normalize GR (A1–FE) -> GL (21–7E) for both bytes
+      row = normalize_94(hi)
+      cell = normalize_94(lo)
+
+      # Optional sanity checks (good for debugging bad streams)
+      if not (0x21 <= row <= 0x7E and 0x21 <= cell <= 0x7E):
+          print("WARNNG: Invalid DRCS-0 code: row=%02X cell=%02X (raw %02X %02X)", row, cell, hi, lo)
+          self.row = row
+          self.col = cell
+          self.glyph = None
+          return
+
+      self.row = row
+      self.col = cell
+
+      # DRCS-0 uses set_id=0, code = packed(row,cell)
+      set_id = 0
+      code = drcs0_pack(row, cell)  # (row<<8)|cell with bytes already normalized
+      self.glyph = DRCS_CACHE.get(set_id, code)
 
   def __len__(self):
     return len(self._args)
@@ -427,7 +453,7 @@ class DRCS0(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"DRCS group 0:"
 
   @staticmethod
   def decode(b, f):
@@ -436,9 +462,11 @@ class DRCS0(object):
 class DRCS1(object):
   FINAL_BYTE = 0x41
   def __init__(self,b, f):
-    #print 'init drcs1'
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(1, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -446,7 +474,7 @@ class DRCS1(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 1 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -457,6 +485,9 @@ class DRCS2(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(2, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -464,7 +495,7 @@ class DRCS2(object):
   def __str__(self):
     '''stringify to
     '''
-    return '�'
+    return f"<DRCS group 2 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -475,6 +506,12 @@ class DRCS3(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(3, n_64)
+
+  def glyph(self):
+    return self.glyph
 
   def __len__(self):
     return len(self._args)
@@ -482,7 +519,7 @@ class DRCS3(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"DRCS group 3: id: {self._normalized_character_id}."
 
   @staticmethod
   def decode(b, f):
@@ -493,6 +530,9 @@ class DRCS4(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(4, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -500,7 +540,7 @@ class DRCS4(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 4 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -511,6 +551,9 @@ class DRCS5(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(5, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -518,7 +561,7 @@ class DRCS5(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 5 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -529,6 +572,9 @@ class DRCS6(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(6, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -536,7 +582,7 @@ class DRCS6(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 6 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -547,6 +593,9 @@ class DRCS7(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(7, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -554,7 +603,7 @@ class DRCS7(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 7 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -565,6 +614,9 @@ class DRCS8(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(8, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -572,7 +624,7 @@ class DRCS8(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 8 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -583,6 +635,9 @@ class DRCS9(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(9, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -590,7 +645,7 @@ class DRCS9(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 9 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -601,6 +656,9 @@ class DRCS10(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(10, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -608,7 +666,7 @@ class DRCS10(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 10 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -619,6 +677,9 @@ class DRCS11(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(11, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -626,7 +687,7 @@ class DRCS11(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 11 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -637,6 +698,9 @@ class DRCS12(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(12, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -644,7 +708,7 @@ class DRCS12(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 12 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -655,6 +719,9 @@ class DRCS13(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(13, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -662,7 +729,7 @@ class DRCS13(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"DRCS group 13: id: {self._normalized_character_id}."
 
   @staticmethod
   def decode(b, f):
@@ -673,6 +740,9 @@ class DRCS14(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(14, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -680,7 +750,7 @@ class DRCS14(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 14 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):
@@ -691,6 +761,9 @@ class DRCS15(object):
   def __init__(self,b, f):
     self._args = []
     self._args.append(b)
+    n_64 = normalize_94(b)
+    self._normalized_character_id = n_64
+    self.glyph = DRCS_CACHE.get(15, n_64)
 
   def __len__(self):
     return len(self._args)
@@ -698,7 +771,7 @@ class DRCS15(object):
   def __str__(self):
     '''stringify
     '''
-    return '�'
+    return f"<DRCS group 15 id: {self._normalized_character_id}>"
 
   @staticmethod
   def decode(b, f):

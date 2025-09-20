@@ -1584,29 +1584,46 @@
 <Screen Posiiton to 7,9><Normal Text><yellow>《あっ…<Medium Text> <Normal Text>４》
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
-DRCS character font id: 0
-DRCS character: font: 0
-     ▐   
-     ▐   
-  ████   
- ▐████   
- ▐   ▐   
- ▐   ▐   
- ▐   ▐   
- ▐████   
-  ███▌   
-  ███▌   
-  ▌▌▌▌   
-  ███▌   
-  ▌▌▌▌   
-  ███▌   
-  ▌▌▌▌   
-  ███▌   
-  █ ▐▌   
-  ▐██    
-
+<DRCS set="1" id="33">
+                      ██            
+                      ██            
+                      ██            
+                      ██            
+        ████████████████            
+        ████████████████            
+      ██████████████████            
+      ██████████████████            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██████████████████            
+      ██████████████████            
+        ██████████████              
+        ██████████████              
+        ██████████████              
+        ██████████████              
+        ██  ██  ██  ██              
+        ██  ██  ██  ██              
+        ██████████████              
+        ██████████████              
+        ██  ██  ██  ██              
+        ██  ██  ██  ██              
+        ██████████████              
+        ██████████████              
+        ██  ██  ██  ██              
+        ██  ██  ██  ██              
+        ██████████████              
+        ██████████████              
+        ████      ████              
+        ████      ████              
+          ██████████                
+          ██████████                
+</DRCS>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,5>�<Medium Text>（<Normal Text>通知音<Medium Text>）<Normal Text>
+<Screen Posiiton to 6,5><DRCS group 1 id: 33><Medium Text>（<Normal Text>通知音<Medium Text>）<Normal Text>
 <Screen Posiiton to 7,5><yellow>うわ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2098,29 +2115,46 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
-DRCS character font id: 0
-DRCS character: font: 0
-     █   
-     █   
-     █   
- ▐████   
- ▐   ▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐   ▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐████   
-         
-
+<DRCS set="1" id="33">
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+      ██████████████████            
+      ██████████████████            
+      ██              ██            
+      ██              ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██████████████████            
+      ██████████████████            
+                                    
+                                    
+</DRCS>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
-<Screen Posiiton to 6,1><Normal Text>�いったい<Medium Text> <Normal Text>どういうことかね<Medium Text>！？
+<Screen Posiiton to 6,1><Normal Text><DRCS group 1 id: 33>いったい<Medium Text> <Normal Text>どういうことかね<Medium Text>！？
 <Screen Posiiton to 7,1><Normal Text>要君とは<Medium Text> <Normal Text>連絡が取れないのか？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2133,29 +2167,46 @@ DRCS character: font: 0
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
-DRCS character font id: 0
-DRCS character: font: 0
-     █   
-     █   
-     █   
- ▐████   
- ▐   ▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐   ▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐████   
-         
-
+<DRCS set="1" id="33">
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+      ██████████████████            
+      ██████████████████            
+      ██              ██            
+      ██              ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██████████████████            
+      ██████████████████            
+                                    
+                                    
+</DRCS>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1>�この国難に
+<Screen Posiiton to 6,1><DRCS group 1 id: 33>この国難に
 <Screen Posiiton to 7,1>最高責任者が失踪するとは！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2165,57 +2216,91 @@ DRCS character: font: 0
 <Screen Posiiton to 7,7><Normal Text><yellow>申し訳ありません<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
-DRCS character font id: 0
-DRCS character: font: 0
-     █   
-     █   
-     █   
- ▐████   
- ▐   ▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐   ▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐████   
-         
-
+<DRCS set="1" id="33">
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+      ██████████████████            
+      ██████████████████            
+      ██              ██            
+      ██              ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██████████████████            
+      ██████████████████            
+                                    
+                                    
+</DRCS>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,1>�彼から<Medium Text> <Normal Text>情報が漏れる
+<Screen Posiiton to 6,1><DRCS group 1 id: 33>彼から<Medium Text> <Normal Text>情報が漏れる
 <Screen Posiiton to 7,1>ということはないだろうね？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
-DRCS character font id: 0
-DRCS character: font: 0
-     █   
-     █   
-     █   
- ▐████   
- ▐   ▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐   ▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐████   
-         
-
+<DRCS set="1" id="33">
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+      ██████████████████            
+      ██████████████████            
+      ██              ██            
+      ██              ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██████████████████            
+      ██████████████████            
+                                    
+                                    
+</DRCS>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c"><Medium Text>
 <Screen Posiiton to 6,1><Normal Text><yellow>それは…<Medium Text>。
-<Screen Posiiton to 7,1><Normal Text><white>�要人のシェルター避難には➡
+<Screen Posiiton to 7,1><Normal Text><white><DRCS group 1 id: 33>要人のシェルター避難には➡
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2228,29 +2313,46 @@ DRCS character: font: 0
 <Screen Posiiton to 7,7><Normal Text>隠し通してくれよ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
-DRCS character font id: 0
-DRCS character: font: 0
-     █   
-     █   
-     █   
- ▐████   
- ▐   ▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐▐██▐   
- ▐   ▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐▐▐▐▐   
- ▐   ▐   
- ▐████   
-         
-
+<DRCS set="1" id="33">
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+                    ████            
+      ██████████████████            
+      ██████████████████            
+      ██              ██            
+      ██              ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██  ██████████  ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██  ██  ██  ██  ██            
+      ██  ██  ██  ██  ██            
+      ██              ██            
+      ██              ██            
+      ██████████████████            
+      ██████████████████            
+                                    
+                                    
+</DRCS>
 <clear screen><CS:"620;480 V"><CS:"170;30 _"><CS:"1;0000 c">
-<Screen Posiiton to 6,3>�<Medium Text>（<Normal Text>通信の切れる音<Medium Text>）<Normal Text>
+<Screen Posiiton to 6,3><DRCS group 1 id: 33><Medium Text>（<Normal Text>通信の切れる音<Medium Text>）<Normal Text>
 <Screen Posiiton to 7,3><yellow>ハァ…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>

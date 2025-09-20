@@ -41,25 +41,38 @@ If no PID is specified to the tool, arib-ts2ass will attempt to find the PID of 
 
 Basic command line help is available as below.
 ```
-usage: arib-ts2ass [-h] [-p PID] [-v] [-q] [-t TMAX] infile
+>arib-ts2ass --help
+usage: arib-ts2ass [-h] [-o OUTFILE] [-p PID] [-v] [-q] [-t TMAX] [-m TIMEOFFSET] [--disable-drcs] infile
 
-Remove ARIB formatted Closed Caption information from an MPEG TS file and
-format the results as a standard .ass subtitle file.
+Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass
+subtitle file.
 
 positional arguments:
   infile                Input filename (MPEG2 Transport Stream File)
 
-optional arguments:
+options:
   -h, --help            show this help message and exit
-  -p PID, --pid PID     Specify a PID of a PES known to contain closed caption
-                        info (tool will attempt to find the proper PID if not
-                        specified.).
+  -o OUTFILE, --outfile OUTFILE
+                        Output filename (.ass subtitle file)
+  -p PID, --pid PID     Specify a PID of a PES known to contain closed caption info (tool will attempt to find the
+                        proper PID if not specified.).
   -v, --verbose         Verbose output.
   -q, --quiet           Does not write to stdout.
   -t TMAX, --tmax TMAX  Subtitle display time limit (seconds).
+  -m TIMEOFFSET, --timeoffset TIMEOFFSET
+                        Shift all time values in generated .ass file by indicated floating point offset in seconds.
+  --disable-drcs        Disable emitting .ass drawing code for runtime (dynamic) DRCS characters.
 ```
 
-I've made some recent changes to this tool and its performance is much improved, even if the basic arib support is still lacking many parts of the spec. Scanning a several gigabyte .ts file for CC info should take less than a minute on a local drive.
+### DRCS Support
+
+I've introduced basic DRCS (dynamic runtime character) support, so when DRCS characters are encountered in the .ts stream they are cached and emitted as .ass drawing code when encountered in text. See the following image:
+
+![DRCS in a closed caption](img/drcs.png)
+
+This behavior can be turned off if the .ass drawing code is too heavyweight by specifying the `--disable-drcs` command line option. This results in previous behavior whereby the "unknown character" glyph is emitted for DRCS (see below).
+
+![DRCS disabled unknown character](img/no-drcs.png)
 
 # Experiments and Other Info
 
