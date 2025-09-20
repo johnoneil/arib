@@ -263,7 +263,7 @@ Style: medium,MS Gothic,42,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,5
 ; Small = half width and half height. Use ~half fontsize (round as needed); ScaleX=100.
 Style: small,MS Gothic,21,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,4,0,1,2,2,7,10,10,10,1
 
-[events]
+[Events]
 '''
     self._f.write(styles)
 
