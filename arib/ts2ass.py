@@ -39,6 +39,7 @@ ass = None
 infilename = ""
 outfilename = ""
 tmax = 0
+disable_drcs = False
 
 
 def OnProgress(bytes_read, total_bytes, percent):
@@ -115,7 +116,7 @@ def OnESPacket(current_pid, packet, header_size):
 
         if not ass:
           v = not SILENT
-          ass = ASSFormatter(tmax=tmax, video_filename=outfilename, verbose=v)
+          ass = ASSFormatter(tmax=tmax, video_filename=outfilename, verbose=v, disable_drcs=disable_drcs)
 
         ass.format(data_unit.payload().payload(), elapsed_time_s)
 
@@ -160,6 +161,7 @@ def main():
   global outfilename
   global tmax
   global time_offset
+  global disable_drcs
 
   parser = argparse.ArgumentParser(
     description='Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file.')
@@ -174,6 +176,7 @@ def main():
   parser.add_argument('-m', '--timeoffset',
                       help='Shift all time values in generated .ass file by indicated floating point offset in seconds.',
                       type=float, default=0.0)
+  parser.add_argument('--disable-drcs', help='Disable emitting .ass drawing code for runtime (dynamic) DRCS characters.', action='store_true')
   args = parser.parse_args()
 
   pid = args.pid
@@ -181,11 +184,11 @@ def main():
   outfilename = infilename + ".ass"
   if args.outfile is not None:
     outfilename = args.outfile
-
   SILENT = args.quiet
   VERBOSE = args.verbose
   tmax = args.tmax
   time_offset = args.timeoffset
+  disable_drcs = args.disable_drcs
 
   if not os.path.exists(infilename) and not SILENT:
     print('Input filename :' + infilename + " does not exist.")

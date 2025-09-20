@@ -320,8 +320,11 @@ def space(formatter, k, timestamp):
   formatter._current_lines[-1] += ' '
 
 def drcs(formatter, c, timestamp):
-  drawing_code = ass_draw_drcs_inline(c.glyph)
-  formatter._current_lines[-1] += drawing_code
+  if formatter._disable_drcs:
+    formatter._current_lines[-1] += '�'
+  else:
+    drawing_code = ass_draw_drcs_inline(c.glyph)
+    formatter._current_lines[-1] += drawing_code
 
 def black(formatter, k, timestamp):
   formatter.open_file()
@@ -466,7 +469,7 @@ class ASSFormatter(object):
   }
 
 
-  def __init__(self, default_color='white', tmax=5, width=960, height=540, video_filename='output.ass', verbose=False):
+  def __init__(self, default_color='white', tmax=5, width=960, height=540, video_filename='output.ass', verbose=False, disable_drcs=False):
     '''
     :param width: width of target screen in pixels
     :param height: height of target screen in pixels
@@ -488,6 +491,7 @@ class ASSFormatter(object):
     self._height = height
     self._height = height
     self._verbose = verbose
+    self._disable_drcs = disable_drcs
 
   def open_file(self):
     if not self._ass_file:
