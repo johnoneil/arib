@@ -170,16 +170,36 @@ class ClosedCaptionArea(object):
     return self._Dimensions
 
   def RowCol2ScreenPos(self, row, col, size=TextSize.NORMAL):
-    # this positioning assumes using the \an1 (anchor 1 tag) in .ass dialog.
-    ULx = self._UL.x
-    ULy = self._UL.y
-    adv_x = self._char_spacing
-    adv_y = self._line_spacing
-    x = ULx + col * adv_x
-    y = ULy + row * adv_y
-    x = ULx + (col - 1) * adv_x
-    y = ULy + (row - 1) * adv_y
-    return Pos(x, y)
+    # to get .ass anchors (using \an1) to line up with ARIB geometry
+    # we treat row data as one based (subtract one to use)
+    r = row - 1
+    c = col
+
+    # Base cell and gap (your caption plane numbers)
+    cw = self._CharacterDim.width      # e.g., 36
+    ch = self._CharacterDim.height     # e.g., 36
+    gx = self._char_spacing            # e.g., 4
+    gy = self._line_spacing            # e.g., 24
+
+    # Size scaling: scale the **cell**, not the **gap**
+    if size == TextSize.SMALL:
+        cell_w = cw * 0.5              # half width
+        cell_h = ch * 0.5              # half height
+    elif size == TextSize.MEDIUM:
+        cell_w = cw * 0.5              # half width
+        cell_h = ch                    # full height
+    else:  # NORMAL
+        cell_w = cw
+        cell_h = ch
+
+    # Step per column/row in this size’s grid
+    w = cell_w + gx
+    h = cell_h + gy
+
+    x = self.UL.x + c * w
+    y = self.UL.y + r * h
+
+    return Pos(int(round(x)), int(round(y)))
   
 class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
