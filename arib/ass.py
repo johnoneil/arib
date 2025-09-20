@@ -370,8 +370,11 @@ def control_character(formatter, csi, timestamp):
   if a_match:
     # APS Control Sequences (absolute positioning of text as <CS: 170;389 a> above
     # indicate the LOWER LEFT HAND CORNER of text position.
-    x = a_match.group('x')
-    y = a_match.group('y')
+    # TODO: this code is very fragile and needs better error handling.
+    x = a_match.group('x').decode('ascii')
+    y = a_match.group('y').decode('ascii')
+    # print(f"x type: {type(x)}-->{x}")
+    # print(f"y type: {type(y)}-->{y}")
     formatter._current_lines.append( Dialog( '{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an1}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y)))
     return
 

@@ -60,52 +60,5 @@ def drcs_unpack_to_bitmap(width, height, data, depth=2):
     return out
 
 
-def bitmap_to_ass_path(bitmap, alpha_threshold=1):
-    """
-    bitmap: 2D list [h][w] with values 0..N (N = 2**depth-1)
-    alpha_threshold: draw pixels with value >= threshold (simple mono)
-    returns: ASS path string like 'm x y l x2 y l x2 y2 l x y2'
-    """
-    h = len(bitmap)
-    if h == 0:
-        return ""
-    w = len(bitmap[0])
 
-    path_parts = []
-    for y in range(h):
-        row = bitmap[y]
-        x = 0
-        while x < w:
-            # find start of a run
-            while x < w and row[x] < alpha_threshold:
-                x += 1
-            if x >= w:
-                break
-            run_start = x
-            while x < w and row[x] >= alpha_threshold:
-                x += 1
-            run_end = x  # exclusive
-
-            # rectangle from (run_start, y) to (run_end, y+1)
-            # ASS path is integer-friendly; y grows downward in libass
-            x1, y1 = run_start, y
-            x2, y2 = run_end, y + 1
-            path_parts.append(f"m {x1} {y1} l {x2} {y1} l {x2} {y2} l {x1} {y2}")
-
-    return " ".join(path_parts)
-
-def ass_draw_dialogue(path, x, y, colour="&H00FFFFFF&", outline_colour="&H00000000&",
-                      alpha="&H00&", border=0, p_scale=1, fscx=100, fscy=100,
-                      anchor=7, extra_tags=""):
-    """
-    x,y are the placement in script pixels (video coordinate space).
-    We'll use \p<p_scale> and \pos(x,y). Path is in pixel units.
-    """
-    # Note: \an<7> top-left anchor is nice for pixel-aligned sprites.
-    # colour is \1c, alpha is \1a; border is \bord for optional outline.
-    return (
-        f"{{\\an{anchor}\\pos({x},{y})\\p{p_scale}\\bord{border}"
-        f"\\1c{colour}\\3c{outline_colour}\\1a{alpha}{extra_tags}}}"
-        f"{path}{{\\p0}}"
-    )
 
