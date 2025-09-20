@@ -109,18 +109,3 @@ def ass_draw_dialogue(path, x, y, colour="&H00FFFFFF&", outline_colour="&H000000
         f"{path}{{\\p0}}"
     )
 
-def ass_draw_drcs(drcs):
-  if not isinstance(drcs, DrcsGlyph):
-        raise TypeError(f"Expected DrcsGlyph, got {type(drcs).__name__}")
-  bmp = drcs_unpack_to_bitmap(drcs.width, drcs.height, drcs.bitmap, depth=drcs.depth_bits)
-  path = bitmap_to_ass_path(bmp, alpha_threshold=1)
-  text = ass_draw_dialogue(path, x=100, y=200)
-  return text
-
-def ass_draw_drcs_debug(drcs):
-    """
-    produce a DRCS like drawing command for .ass files.
-    This is how DRCS characters are "rendered" for .ass.
-    Dialogue: 0,0:00:10.00,0:00:13.00,Default,,0,0,0,,{\p1\an7\pos(100,100)\fscx100\fscy100\1c&HFFFFFF&}m 0 0 l 0 24 24 24 24 0 c{\p0}  Call me!
-    """
-    return "{\p1\an7\pos(100,100)\fscx100\fscy100\1c&HFFFFFF&}m 0 0 l 0 24 24 24 24 0 c{\p0}"
