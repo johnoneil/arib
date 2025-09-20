@@ -69,13 +69,20 @@ def ass_draw_dialogue(path, p_scale=1, fscx=100, fscy=100,
         f"{path}{{\\p0}}"
     )
 
-def ass_draw_drcs(drcs):
-  if not isinstance(drcs, DrcsGlyph):
-        raise TypeError(f"Expected DrcsGlyph, got {type(drcs).__name__}")
-  bmp = drcs_unpack_to_bitmap(drcs.width, drcs.height, drcs.bitmap, depth=drcs.depth_bits)
-  path = bitmap_to_ass_path(bmp, alpha_threshold=1)
-  text = ass_draw_dialogue(path)
-  return text
+def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 2) -> str:
+    """
+    Emit a DRCS vector drawing that inherits the CURRENT ASS state:
+    - inherits \1c (primary color), \1a (alpha), \bord, \shad, etc.
+    - does NOT set \pos or \an (use surrounding tags if you need them)
+    - closes \p mode so following text renders normally
+    - optionally pads with N spaces after the drawing
+
+    Example use (inline):
+      "{\\c&H00FF00&}" + ass_draw_drcs_inline(glyph, pad_spaces=2) + "お前たちは"
+    """
+    bmp = drcs_unpack_to_bitmap(glyph.width, glyph.height, glyph.bitmap, depth=glyph.depth_bits)
+    path = bitmap_to_ass_path(bmp, alpha_threshold=1)
+    return f"{{\\p1}}{path}{{\\p0}}{' ' * pad_spaces}"
 
 def ass_draw_drcs_debug(drcs):
     """
@@ -296,7 +303,7 @@ def space(formatter, k, timestamp):
   formatter._current_lines[-1] += ' '
 
 def drcs(formatter, c, timestamp):
-  drawing_code = ass_draw_drcs(c.glyph)
+  drawing_code = ass_draw_drcs_inline(c.glyph)
   formatter._current_lines[-1] += drawing_code
 
 def black(formatter, k, timestamp):
