@@ -18,6 +18,79 @@ import arib.control_characters as control_characters
 import codecs
 import re
 from arib.arib_exceptions import FileOpenError
+from arib.drcs_decoder import drcs_unpack_to_bitmap
+from arib.drcs_cache import DrcsGlyph
+
+# DRCS drawing support
+def bitmap_to_ass_path(bitmap, alpha_threshold=1):
+    """
+    bitmap: 2D list [h][w] with values 0..N (N = 2**depth-1)
+    alpha_threshold: draw pixels with value >= threshold (simple mono)
+    returns: ASS path string like 'm x y l x2 y l x2 y2 l x y2'
+    """
+    h = len(bitmap)
+    if h == 0:
+        return ""
+    w = len(bitmap[0])
+
+    path_parts = []
+    for y in range(h):
+        row = bitmap[y]
+        x = 0
+        while x < w:
+            # find start of a run
+            while x < w and row[x] < alpha_threshold:
+                x += 1
+            if x >= w:
+                break
+            run_start = x
+            while x < w and row[x] >= alpha_threshold:
+                x += 1
+            run_end = x  # exclusive
+
+            # rectangle from (run_start, y) to (run_end, y+1)
+            # ASS path is integer-friendly; y grows downward in libass
+            x1, y1 = run_start, y
+            x2, y2 = run_end, y + 1
+            path_parts.append(f"m {x1} {y1} l {x2} {y1} l {x2} {y2} l {x1} {y2}")
+
+    return " ".join(path_parts)
+
+def ass_draw_dialogue(path, p_scale=1, fscx=100, fscy=100,
+                      anchor=7):
+    """
+    x,y are the placement in script pixels (video coordinate space).
+    We'll use \p<p_scale> and \pos(x,y). Path is in pixel units.
+    """
+    # Note: \an<7> top-left anchor is nice for pixel-aligned sprites.
+    # colour is \1c, alpha is \1a; border is \bord for optional outline.
+    return (
+        f"{{\\an{anchor}\\p{p_scale}}}"
+        f"{path}{{\\p0}}"
+    )
+
+def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 2) -> str:
+    """
+    Emit a DRCS vector drawing that inherits the CURRENT ASS state:
+    - inherits \1c (primary color), \1a (alpha), \bord, \shad, etc.
+    - does NOT set \pos or \an (use surrounding tags if you need them)
+    - closes \p mode so following text renders normally
+    - optionally pads with N spaces after the drawing
+
+    Example use (inline):
+      "{\\c&H00FF00&}" + ass_draw_drcs_inline(glyph, pad_spaces=2) + "お前たちは"
+    """
+    bmp = drcs_unpack_to_bitmap(glyph.width, glyph.height, glyph.bitmap, depth=glyph.depth_bits)
+    path = bitmap_to_ass_path(bmp, alpha_threshold=1)
+    return f"{{\\p1}}{path}{{\\p0}}{' ' * pad_spaces}"
+
+def ass_draw_drcs_debug(drcs):
+    """
+    produce a DRCS like drawing command for .ass files.
+    This is how DRCS characters are "rendered" for .ass.
+    Dialogue: 0,0:00:10.00,0:00:13.00,Default,,0,0,0,,{\p1\an7\pos(100,100)\fscx100\fscy100\1c&HFFFFFF&}m 0 0 l 0 24 24 24 24 0 c{\p0}  Call me!
+    """
+    return "{\p1\an7\pos(100,100)\fscx100\fscy100\1c&HFFFFFF&}m 0 0 l 0 24 24 24 24 0 c{\p0}"
 
 class Pos(object):
   '''Screen position in pixels
@@ -173,7 +246,7 @@ Style: normal,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,
 Style: medium,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,50,100,0,0,1,2,2,1,10,10,10,0
 Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
 
-
+[events]
 '''
     self._f.write(styles)
 
@@ -184,7 +257,7 @@ def asstime(seconds):
   seconds -= 3600*hrs
   mins = int(seconds / 60)
   seconds -= 60*mins
-  return '{h:d}:{m:02d}:{s:02.2f}'.format(h=hrs, m=mins, s=seconds)
+  return f"{hrs:d}:{mins:02d}:{seconds:05.2f}"
 
 
 def kanji(formatter, k, timestamp):
@@ -230,7 +303,8 @@ def space(formatter, k, timestamp):
   formatter._current_lines[-1] += ' '
 
 def drcs(formatter, c, timestamp):
-  formatter._current_lines[-1] += '�'
+  drawing_code = ass_draw_drcs_inline(c.glyph)
+  formatter._current_lines[-1] += drawing_code
 
 def black(formatter, k, timestamp):
   formatter.open_file()
@@ -296,8 +370,11 @@ def control_character(formatter, csi, timestamp):
   if a_match:
     # APS Control Sequences (absolute positioning of text as <CS: 170;389 a> above
     # indicate the LOWER LEFT HAND CORNER of text position.
-    x = a_match.group('x')
-    y = a_match.group('y')
+    # TODO: this code is very fragile and needs better error handling.
+    x = a_match.group('x').decode('ascii')
+    y = a_match.group('y').decode('ascii')
+    # print(f"x type: {type(x)}-->{x}")
+    # print(f"y type: {type(y)}-->{y}")
     formatter._current_lines.append( Dialog( '{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an1}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y)))
     return
 
