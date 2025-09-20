@@ -57,7 +57,7 @@ def bitmap_to_ass_path(bitmap, alpha_threshold=1):
     return " ".join(path_parts)
 
 def ass_draw_dialogue(path, p_scale=1, fscx=100, fscy=100,
-                      anchor=7):
+                      anchor=1):
     """
     x,y are the placement in script pixels (video coordinate space).
     We'll use \p<p_scale> and \pos(x,y). Path is in pixel units.
@@ -90,7 +90,7 @@ def ass_draw_drcs_debug(drcs):
     This is how DRCS characters are "rendered" for .ass.
     Dialogue: 0,0:00:10.00,0:00:13.00,Default,,0,0,0,,{\p1\an7\pos(100,100)\fscx100\fscy100\1c&HFFFFFF&}m 0 0 l 0 24 24 24 24 0 c{\p0}  Call me!
     """
-    return "{\p1\an7\pos(100,100)\fscx100\fscy100\1c&HFFFFFF&}m 0 0 l 0 24 24 24 24 0 c{\p0}"
+    return "{\\p1\\an1\pos(100,100)\\fscx100\\fscy100\\1c&HFFFFFF&}m 0 0 l 0 24 24 24 24 0 c{\p0}"
 
 class Pos(object):
   '''Screen position in pixels
@@ -170,26 +170,16 @@ class ClosedCaptionArea(object):
     return self._Dimensions
 
   def RowCol2ScreenPos(self, row, col, size=TextSize.NORMAL):
-    # Issue #27: Horizontal text alignment incorrect
-    # Without documentation justification I'm now assuming that currently set font size
-    # affects the final text position as follows:
-    # Normal Text: calculate position normally
-    # Medium Text: characters are half width, so position horizontally is doubled
-    # Small Text: characters are half width AND height, so row and column are both doubled.
-
-    # for .ass files we specify the UL corner of text but row values from ARIB are
-    # the LL. So we adjust for this by adding one row before adjusting for text size.
-    r = row + 1
-    c = col
-    w = self._CharacterDim.width + self._char_spacing
-    h = self._CharacterDim.height + self._line_spacing
-    if size == TextSize.SMALL:
-      h = h / float(2)
- 
-    if size == TextSize.SMALL or size == TextSize.MEDIUM:
-      w = w / float(2)
-        
-    return Pos(self.UL.x + c * w, self.UL.y + r * h)
+    # this positioning assumes using the \an1 (anchor 1 tag) in .ass dialog.
+    ULx = self._UL.x
+    ULy = self._UL.y
+    adv_x = self._char_spacing
+    adv_y = self._line_spacing
+    x = ULx + col * adv_x
+    y = ULy + row * adv_y
+    x = ULx + (col - 1) * adv_x
+    y = ULy + (row - 1) * adv_y
+    return Pos(x, y)
   
 class ASSFile(object):
   '''Wrapper for a single open utf-8 encoded .ass subtitle file
@@ -242,9 +232,16 @@ Video File: {title}
   def write_styles(self):
     styles = '''[V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: normal,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
-Style: medium,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,50,100,0,0,1,2,2,1,10,10,10,0
-Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
+
+; Full-width normal cell ≈ 36 px high. Most CJK fonts need fs a bit larger than 36 to fill the box.
+; Start around 41–42 and tweak by eye 1–2 pts.
+Style: normal,MS Gothic,42,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,4,0,1,2,2,7,10,10,10,1
+
+; Medium = half width, full height. Use the SAME fontsize, but ScaleX=50.
+Style: medium,MS Gothic,42,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,50,100,4,0,1,2,2,7,10,10,10,1
+
+; Small = half width and half height. Use ~half fontsize (round as needed); ScaleX=100.
+Style: small,MS Gothic,21,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,4,0,1,2,2,7,10,10,10,1
 
 [events]
 '''
