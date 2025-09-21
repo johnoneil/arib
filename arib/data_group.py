@@ -119,22 +119,28 @@ class DataGroup(object):
 
 def find_data_group_start(f):
     """
-    Find the start of the next data group in a binary file
-    :param f: file descriptor we're reading from typically opened 'rb'
-    :return: Boolean describing whether we found a new start pattern or not
+    Find the start of the next data group in a binary file.
+    :param f: file object opened in 'rb'
+    :return: True if a start pattern is found (and file pos is set to it), else False
     """
-    start_pattern = "\x80\xff\xf0"
-    read_pattern = ""
+    start_pattern = b"\x80\xff\xf0"
+    window = bytearray()
+
     c = f.read(1)
     while c:
-        filepos = f.tell()
-        read_pattern += c
-        if len(read_pattern) > 3:
-            read_pattern = read_pattern[1:]
-        if read_pattern == start_pattern:
-            f.seek(filepos - 3)
+        filepos = f.tell()  # position *after* reading this byte
+        window += c
+        if len(window) > len(start_pattern):
+            # keep only the last N bytes
+            del window[: -len(start_pattern)]
+
+        if bytes(window) == start_pattern:
+            # rewind to the start of the matched pattern
+            f.seek(filepos - len(start_pattern))
             return True
+
         c = f.read(1)
+
     return False
 
 
@@ -149,9 +155,8 @@ def next_data_group(filepath):
             except EOFError:
                 break
             except Exception:
-                if DEBUG:
-                    print("Exception thrown while parsing data group from .es")
-                    traceback.print_exc(file=sys.stdout)
+                print("Exception thrown while parsing data group from .es.")
+                traceback.print_exc(file=sys.stdout)
                 print("Looking for new data group in .es")
                 found = find_data_group_start(f)
                 if found:
