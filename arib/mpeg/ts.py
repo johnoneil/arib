@@ -304,13 +304,14 @@ class TS(object):
             self._elementary_streams[pid] = None
           continue
         pes_id = ES.get_pes_stream_id(payload)
-        self._elementary_streams[pid] = payload
+        # todo: chek pes_id ?
+        self._elementary_streams[pid] = bytearray(payload)
       else:
         if pid in self._elementary_streams:
           # TODO: check packet sequence counter
           if not self._elementary_streams[pid]:
-            self._elementary_streams[pid] = ""
-          self._elementary_streams[pid] += payload
+            self._elementary_streams[pid] = bytearray()
+          self._elementary_streams[pid] += bytearray(payload)
         else:
           # TODO: throw. this situaiton means out of order packets
           pass
