@@ -78,7 +78,7 @@ class StatementBody(object):
   def __init__(self, f, data_unit):
     self._unit_separator = data_unit._unit_separator
     self._data_unit_type = data_unit._data_unit_type
-    if self._data_unit_type is not 0x20:
+    if self._data_unit_type != 0x20:
       if DEBUG:
         print('this is not caption data')
       raise ValueError
@@ -139,7 +139,7 @@ class DRCSCharacter(object):
     lo = self._character_code & 0xFF
 
     set_id = drcs_set_from_font_id_byte(hi)
-    if set_id is not None:
+    if set_id != None:
         # DRCS-1..14 path (1 byte code in low byte)
         char_code = normalize_94(lo)        # map GR A1–FE -> GL 21–7E
     else:
@@ -168,7 +168,7 @@ class DRCS1ByteCharacter(object):
   def __init__(self, f, data_unit):
     self._unit_separator = data_unit._unit_separator
     self._data_unit_type = data_unit._data_unit_type
-    if self._data_unit_type is not DRCS1ByteCharacter.ID:
+    if self._data_unit_type != DRCS1ByteCharacter.ID:
       if DEBUG:
         print('this is not a DRCS character')
       raise ValueError
@@ -191,9 +191,8 @@ class DataUnit(object):
   '''
   def __init__(self, f):
     self._unit_separator = read.ucb(f)
-    if(self._unit_separator is not 0x1f):
-      if DEBUG:
-        print('Unit separator not found at start of data unit.')
+    if(self._unit_separator != 0x1f):
+      print('Warning: Unit separator not found at start of data unit.')
       raise ValueError
     self._data_unit_type = read.ucb(f)
     if DEBUG:

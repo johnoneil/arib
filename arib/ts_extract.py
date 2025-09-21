@@ -187,8 +187,8 @@ def OnESPacket(current_pid, packet, header_size):
     pass
   except Exception as err:
     if VERBOSE and not SILENT and pid >= 0:
-      print("Exception thrown while handling DataGroup in ES. This may be due to many factors"
-         + "such as file corruption or the .ts file using as yet unsupported features.")
+      print("Warning: Nonfatal Exception thrown while handling DataGroup in ES. This may be due to many factors"
+         + " such as file corruption or the .ts file using as yet unsupported features.")
       traceback.print_exc(file=sys.stdout)
 
 
