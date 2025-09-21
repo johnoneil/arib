@@ -7,7 +7,6 @@ Email: oneil.john@gmail.com
 DATE: Saturday January 14th 2017
 
 """
-import os
 import sys
 import argparse
 import traceback
@@ -15,14 +14,11 @@ import traceback
 from pathlib import Path
 from sys import exit  # or: import sys
 
-from arib.mpeg.ts import TS
-from arib.mpeg.ts import ES
 
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
 import arib.code_set as code_set
 import arib.control_characters as control_characters
-from arib.data_group import DataGroup
 from arib.data_group import next_data_group
 
 # print out some additional info for DRCS values
@@ -100,14 +96,17 @@ def main():
     parser.add_argument(
         "-p",
         "--pid",
-        help="Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).",
+        help=(
+            "Specify a PID of a PES known to contain closed caption info "
+            "(tool will attempt to find the proper PID if not specified.)."
+        ),
         type=int,
         default=-1,
     )
     args = parser.parse_args()
 
     infilename = args.infile
-    pid = args.pid
+    # pid = args.pid
 
     inpath = Path(infilename)
     if not inpath.is_file():
@@ -122,7 +121,8 @@ def main():
                 caption = data_group.payload()
                 # iterate through the Data Units in this payload via another generator.
                 for data_unit in next_data_unit(caption):
-                    # we're only interested in those Data Units which are "statement body" to get CC data.
+                    # we're only interested in those Data Units which are
+                    # "statement body" to get CC data.
                     if not isinstance(data_unit.payload(), StatementBody):
                         continue
 
@@ -141,7 +141,7 @@ def main():
                     )
         except EOFError:
             pass
-        except Exception as err:
+        except Exception:
             print("Exception thrown while handling .es datagroup post parsing.")
             traceback.print_exc(file=sys.stdout)
 

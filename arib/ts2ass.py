@@ -10,7 +10,6 @@ UPDATED: Saturday, Jan 12th 2017
 """
 
 import os
-import errno
 import sys
 import argparse
 import traceback
@@ -26,7 +25,6 @@ from arib.mpeg.ts import TS
 from arib.mpeg.ts import ES
 
 from arib.ass import ASSFormatter
-from arib.ass import ASSFile
 
 # GLOBALS TO KEEP TRACK OF STATE
 initial_timestamp = None
@@ -112,7 +110,8 @@ def OnESPacket(current_pid, packet, header_size):
             caption = data_group.payload()
             # iterate through the Data Units in this payload via another generator.
             for data_unit in next_data_unit(caption):
-                # we're only interested in those Data Units which are "statement body" to get CC data.
+                # we're only interested in those Data Units which are
+                # "statement body" to get CC data.
                 if not isinstance(data_unit.payload(), StatementBody):
                     continue
 
@@ -153,7 +152,7 @@ def OnESPacket(current_pid, packet, header_size):
     except FileOpenError as ex:
         # allow IOErrors to kill application
         raise ex
-    except Exception as err:
+    except Exception:
         if not SILENT and pid >= 0:
             print(
                 "Exception thrown while handling DataGroup in ES. This may be due to many factors"
@@ -173,7 +172,10 @@ def main():
     global disable_drcs
 
     parser = argparse.ArgumentParser(
-        description="Remove ARIB formatted Closed Caption information from an MPEG TS file and format the results as a standard .ass subtitle file."
+        description=(
+            "Remove ARIB formatted Closed Caption information from an MPEG TS file "
+            "and format the results as a standard .ass subtitle file."
+        )
     )
     parser.add_argument("infile", help="Input filename (MPEG2 Transport Stream File)", type=str)
     parser.add_argument(
@@ -182,7 +184,10 @@ def main():
     parser.add_argument(
         "-p",
         "--pid",
-        help="Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).",
+        help=(
+            "Specify a PID of a PES known to contain closed caption info "
+            "(tool will attempt to find the proper PID if not specified.)."
+        ),
         type=int,
         default=-1,
     )
@@ -194,7 +199,10 @@ def main():
     parser.add_argument(
         "-m",
         "--timeoffset",
-        help="Shift all time values in generated .ass file by indicated floating point offset in seconds.",
+        help=(
+            "Shift all time values in generated .ass file"
+            "by indicated floating point offset in seconds."
+        ),
         type=float,
         default=0.0,
     )

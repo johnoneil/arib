@@ -48,9 +48,18 @@ exclude = ["tests", "docs", "examples"]
 dev = [
   "black==24.8.0",
   "pre-commit==3.8.0",
+  "ruff==0.6.7",
 ]
 
 [tool.black]
 line-length = 100
 target-version = ["py312"]
 skip-string-normalization = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"  # or whatever version you run
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]   # pycodestyle/pyflakes/warnings
+ignore = []

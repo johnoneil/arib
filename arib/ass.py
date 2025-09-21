@@ -15,7 +15,6 @@ file.
 from pathlib import Path
 import arib.code_set as code_set
 import arib.control_characters as control_characters
-import codecs
 import re
 from arib.arib_exceptions import FileOpenError
 from arib.drcs_decoder import drcs_unpack_to_bitmap
@@ -59,7 +58,7 @@ def bitmap_to_ass_path(bitmap, alpha_threshold=1):
 
 
 def ass_draw_dialogue(path, p_scale=1, fscx=100, fscy=100, anchor=1):
-    """
+    r"""
     x,y are the placement in script pixels (video coordinate space).
     We'll use \p<p_scale> and \pos(x,y). Path is in pixel units.
     """
@@ -71,9 +70,9 @@ def ass_draw_dialogue(path, p_scale=1, fscx=100, fscy=100, anchor=1):
 def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 2) -> str:
     """
     Emit a DRCS vector drawing that inherits the CURRENT ASS state:
-    - inherits \1c (primary color), \1a (alpha), \bord, \shad, etc.
-    - does NOT set \pos or \an (use surrounding tags if you need them)
-    - closes \p mode so following text renders normally
+    - inherits \1c (primary color), \1a (alpha), \bord, \\shad, etc.
+    - does NOT set \\pos or \an (use surrounding tags if you need them)
+    - closes \\p mode so following text renders normally
     - optionally pads with N spaces after the drawing
 
     Example use (inline):
@@ -82,15 +81,6 @@ def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 2) -> str:
     bmp = drcs_unpack_to_bitmap(glyph.width, glyph.height, glyph.bitmap, depth=glyph.depth_bits)
     path = bitmap_to_ass_path(bmp, alpha_threshold=1)
     return f"{{\\p1}}{path}{{\\p0}}{' ' * pad_spaces}"
-
-
-def ass_draw_drcs_debug(drcs):
-    """
-    produce a DRCS like drawing command for .ass files.
-    This is how DRCS characters are "rendered" for .ass.
-    Dialogue: 0,0:00:10.00,0:00:13.00,Default,,0,0,0,,{\p1\an7\pos(100,100)\fscx100\fscy100\1c&HFFFFFF&}m 0 0 l 0 24 24 24 24 0 c{\p0}  Call me!
-    """
-    return "{\\p1\\an1\pos(100,100)\\fscx100\\fscy100\\1c&HFFFFFF&}m 0 0 l 0 24 24 24 24 0 c{\p0}"
 
 
 class Pos(object):
@@ -270,7 +260,7 @@ Style: medium,MS Gothic,42,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,5
 Style: small,MS Gothic,21,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,4,0,1,2,2,7,10,10,10,1
 
 [Events]
-"""
+"""  # noqa: E501
         self._f.write(styles)
 
 
@@ -344,57 +334,57 @@ def drcs(formatter, c, timestamp):
 def black(formatter, k, timestamp):
     formatter.open_file()
     # {\c&H000000&} \c&H<bb><gg><rr>& {\c&Hffffff&}
-    formatter._current_lines[-1] += "{\c&H000000&}"
-    formatter._current_color = "{\c&H000000&}"
+    formatter._current_lines[-1] += r"{\c&H000000&}"
+    formatter._current_color = r"{\c&H000000&}"
 
 
 def red(formatter, k, timestamp):
     # {\c&H0000ff&}
     formatter.open_file()
-    formatter._current_lines[-1] += "{\c&H0000ff&}"
-    formatter._current_color = "{\c&H0000ff&}"
+    formatter._current_lines[-1] += r"{\c&H0000ff&}"
+    formatter._current_color = r"{\c&H0000ff&}"
 
 
 def green(formatter, k, timestamp):
     # {\c&H00ff00&}
     formatter.open_file()
-    formatter._current_lines[-1] += "{\c&H00ff00&}"
-    formatter._current_color = "{\c&H00ff00&}"
+    formatter._current_lines[-1] += r"{\c&H00ff00&}"
+    formatter._current_color = r"{\c&H00ff00&}"
 
 
 def yellow(formatter, k, timestamp):
     # {\c&H00ffff&}
     formatter.open_file()
-    formatter._current_lines[-1] += "{\c&H00ffff&}"
-    formatter._current_color = "{\c&H00ffff&}"
+    formatter._current_lines[-1] += r"{\c&H00ffff&}"
+    formatter._current_color = r"{\c&H00ffff&}"
 
 
 def blue(formatter, k, timestamp):
     # {\c&Hff0000&}
     formatter.open_file()
-    formatter._current_lines[-1] += "{\c&Hff0000&}"
-    formatter._current_color = "{\c&Hff0000&}"
+    formatter._current_lines[-1] += r"{\c&Hff0000&}"
+    formatter._current_color = r"{\c&Hff0000&}"
 
 
 def magenta(formatter, k, timestamp):
     # {\c&Hff00ff&}
     formatter.open_file()
-    formatter._current_lines[-1] += "{\c&Hff00ff&}"
-    formatter._current_color = "{\c&Hff00ff&}"
+    formatter._current_lines[-1] += r"{\c&Hff00ff&}"
+    formatter._current_color = r"{\c&Hff00ff&}"
 
 
 def cyan(formatter, k, timestamp):
     # {\c&Hffff00&}
     formatter.open_file()
-    formatter._current_lines[-1] += "{\c&Hffff00&}"
-    formatter._current_color = "{\c&Hffff00&}"
+    formatter._current_lines[-1] += r"{\c&Hffff00&}"
+    formatter._current_color = r"{\c&Hffff00&}"
 
 
 def white(formatter, k, timestamp):
     # {\c&Hffffff&}
     formatter.open_file()
-    formatter._current_lines[-1] += "{\c&Hffffff&}"
-    formatter._current_color = "{\c&Hffffff&}"
+    formatter._current_lines[-1] += r"{\c&Hffffff&}"
+    formatter._current_color = r"{\c&Hffffff&}"
 
 
 def position_set(formatter, p, timestamp):
@@ -402,7 +392,7 @@ def position_set(formatter, p, timestamp):
     So we have to calculate pixel coordinates (and then sale them)
     """
     pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col, formatter._current_textsize)
-    line = "{{\\r{style}}}{color}{{\pos({x},{y})}}".format(
+    line = "{{\\r{style}}}{color}{{\\pos({x},{y})}}".format(
         color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y
     )
     formatter._current_lines.append(Dialog(line))
@@ -414,8 +404,6 @@ a_regex = re.compile(rb'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">')
 def control_character(formatter, csi, timestamp):
     """This will be the most difficult to format, since the same class here
     can represent so many different commands.
-    e.g:
-    <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">
     """
     cmd = csi if isinstance(csi, (bytes, bytearray)) else str(csi).encode("utf-8")
     a_match = a_regex.search(cmd)
@@ -451,12 +439,12 @@ def clear_screen(formatter, cs, timestamp):
     if (
         len(formatter._current_lines[0]) or len(formatter._current_lines)
     ) and start_time != end_time:
-        for l in reversed(formatter._current_lines):
-            if not len(l):
+        for current_line in reversed(formatter._current_lines):
+            if not len(current_line):
                 continue
 
             line = "Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n".format(
-                start_time=start_time, end_time=end_time, line=l._s
+                start_time=start_time, end_time=end_time, line=current_line._s
             )
             # TODO: add option to dump to stdout
             # print line.encode('utf-8')
@@ -466,7 +454,7 @@ def clear_screen(formatter, cs, timestamp):
 
     formatter._elapsed_time_s = timestamp
     formatter._current_textsize = TextSize.NORMAL
-    formatter._current_color = "{\c&Hffffff&}"
+    formatter._current_color = r"{\c&Hffffff&}"
 
 
 class ASSFormatter(object):
@@ -534,7 +522,7 @@ class ASSFormatter(object):
         self._ass_file = None
         self._current_lines = [Dialog("")]
         self._current_style = "normal"
-        self._current_color = "{\c&Hffffff&}"
+        self._current_color = r"{\c&Hffffff&}"
         self._current_textsize = TextSize.NORMAL
         self._filename = video_filename
         self._width = width
@@ -555,9 +543,6 @@ class ASSFormatter(object):
 
     def format(self, captions, timestamp):
         """Format ARIB closed caption info tinto text for an .ASS file"""
-        # TODO: Show progress in some way
-        # print('File elapsed time seconds: {s}'.format(s=timestamp))
-        # line = '{t}: {l}\n'.format(t=timestamp, l=''.join([unicode(s) for s in captions if type(s) in ASSFormatter.DISPLAYED_CC_STATEMENTS]))
 
         for c in captions:
             if type(c) in ASSFormatter.DISPLAYED_CC_STATEMENTS:

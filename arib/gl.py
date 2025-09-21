@@ -16,7 +16,7 @@ def in_area(b):
     :returns boolean indicating whether we're in the correct are
     """
     upper_byte = (b & 0xF0) >> 4
-    lower_byte = b & 0x0F
+    # lower_byte = b & 0x0F
     if upper_byte > 0x01 and upper_byte < 0x08 and b != 0 and b != 0x7F:
         return True
     else:

@@ -21,13 +21,9 @@ import re
 import os
 import argparse
 import copy
-from arib.data_group import next_data_group
 from arib.closed_caption import next_data_unit
 from arib.closed_caption import StatementBody
-import arib.code_set as code_set
-import arib.control_characters as control_characters
 from arib.mpeg.ts import next_ts_packet
-from arib.mpeg.ts import next_pes_packet
 from arib.mpeg.ts import PESPacket
 from arib.data_group import DataGroup
 from arib.secret_key import SECRET_KEY
@@ -129,10 +125,9 @@ Video File: {title}
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: normal,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
 Style: medium,MS UI Gothic,37,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,50,100,0,0,1,2,2,1,10,10,10,0
-Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,0
+Style: small,MS UI Gothic,18,&H00FFFFFF,&H000000FF,&H00000000,&H88000000,0,0,0,0,100,100,0,0,1,2,2,1git,10,10,10,0
 
-
-"""
+"""  # noqa: E501
         self._f.write(styles)
 
 
@@ -193,62 +188,62 @@ def drcs(formatter, c, timestamp):
 
 def black(formatter, k, timestamp):
     # {\c&H000000&} \c&H<bb><gg><rr>& {\c&Hffffff&}
-    formatter._current_lines[-1] += "{\c&H000000&}"
-    formatter._current_color = "{\c&H000000&}"
+    formatter._current_lines[-1] += r"{\c&H000000&}"
+    formatter._current_color = r"{\c&H000000&}"
 
 
 def red(formatter, k, timestamp):
     # {\c&H0000ff&}
-    formatter._current_lines[-1] += "{\c&H0000ff&}"
-    formatter._current_color = "{\c&H0000ff&}"
+    formatter._current_lines[-1] += r"{\c&H0000ff&}"
+    formatter._current_color = r"{\c&H0000ff&}"
 
 
 def green(formatter, k, timestamp):
     # {\c&H00ff00&}
-    formatter._current_lines[-1] += "{\c&H00ff00&}"
-    formatter._current_color = "{\c&H00ff00&}"
+    formatter._current_lines[-1] += r"{\c&H00ff00&}"
+    formatter._current_color = r"{\c&H00ff00&}"
 
 
 def yellow(formatter, k, timestamp):
     # {\c&H00ffff&}
-    formatter._current_lines[-1] += "{\c&H00ffff&}"
-    formatter._current_color = "{\c&H00ffff&}"
+    formatter._current_lines[-1] += r"{\c&H00ffff&}"
+    formatter._current_color = r"{\c&H00ffff&}"
 
 
 def blue(formatter, k, timestamp):
     # {\c&Hff0000&}
-    formatter._current_lines[-1] += "{\c&Hff0000&}"
-    formatter._current_color = "{\c&Hff0000&}"
+    formatter._current_lines[-1] += r"{\c&Hff0000&}"
+    formatter._current_color = r"{\c&Hff0000&}"
 
 
 def magenta(formatter, k, timestamp):
     # {\c&Hff00ff&}
-    formatter._current_lines[-1] += "{\c&Hff00ff&}"
-    formatter._current_color = "{\c&Hff00ff&}"
+    formatter._current_lines[-1] += r"{\c&Hff00ff&}"
+    formatter._current_color = r"{\c&Hff00ff&}"
 
 
 def cyan(formatter, k, timestamp):
     # {\c&Hffff00&}
-    formatter._current_lines[-1] += "{\c&Hffff00&}"
-    formatter._current_color = "{\c&Hffff00&}"
+    formatter._current_lines[-1] += r"{\c&Hffff00&}"
+    formatter._current_color = r"{\c&Hffff00&}"
 
 
 def white(formatter, k, timestamp):
     # {\c&Hffffff&}
-    formatter._current_lines[-1] += "{\c&Hffffff&}"
-    formatter._current_color = "{\c&Hffffff&}"
+    formatter._current_lines[-1] += r"{\c&Hffffff&}"
+    formatter._current_color = r"{\c&Hffffff&}"
 
 
 def position_set(formatter, p, timestamp):
     """Active Position set coordinates are given in character row, colum
     So we have to calculate pixel coordinates (and then sale them)
     """
-    pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col)
-    # line = '{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y)
-    line = "{{\\r{style}}}{color}{{\pos({x},{y})}}".format(
-        color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y
-    )
+    # pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col)
+    # line = "{{\\r{style}}}{color}{{\\pos({x},{y})}}".format(
+    #    color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y
+    # )
     # formatter._current_lines.append(line)
+    pass
 
 
 a_regex = r'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
@@ -257,15 +252,12 @@ a_regex = r'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">'
 def control_character(formatter, csi, timestamp):
     """This will be the most difficult to format, since the same class here
     can represent so many different commands.
-    e.g:
-    <CS:"7 S"><CS:"170;30 _"><CS:"620;480 V"><CS:"36;36 W"><CS:"4 X"><CS:"24 Y"><Small Text><CS:"170;389 a">
     """
     cmd = csi
     a_match = re.search(a_regex, cmd)
     if a_match:
-        x = a_match.group("x")
-        y = a_match.group("y")
-        # formatter._current_lines.append('{{\\r{style}}}{color}{{\pos({x},{y})}}'.format(color=formatter._current_color, style=formatter._current_style, x=x, y=y))
+        # x = a_match.group("x")
+        # y = a_match.group("y")
         return
 
 
@@ -280,10 +272,10 @@ def clear_screen(formatter, cs, timestamp):
     if (
         len(formatter._current_lines[0]) or len(formatter._current_lines)
     ) and start_time != end_time:
-        for l in formatter._current_lines:
-            if not len(l):
+        for current_line in formatter._current_lines:
+            if not len(current_line):
                 continue
-            eng = translate(l, client_id=CLIENT_ID, secret_key=SECRET_KEY)
+            eng = translate(current_line, client_id=CLIENT_ID, secret_key=SECRET_KEY)
             print(eng)
             line = "Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n".format(
                 start_time=start_time, end_time=end_time, line=eng
@@ -357,13 +349,10 @@ class ASSFormatter(object):
         self._ass_file.write_styles()
         self._current_lines = [""]
         self._current_style = "normal"
-        self._current_color = "{\c&Hffffff&}"
+        self._current_color = r"{\c&Hffffff&}"
 
     def format(self, captions, timestamp):
         """Format ARIB closed caption info tinto text for an .ASS file"""
-        # TODO: Show progress in some way
-        # print('File elapsed time seconds: {s}'.format(s=timestamp))
-        # line = '{t}: {l}\n'.format(t=timestamp, l=''.join([unicode(s) for s in captions if type(s) in ASSFormatter.DISPLAYED_CC_STATEMENTS]))
 
         for c in captions:
             if type(c) in ASSFormatter.DISPLAYED_CC_STATEMENTS:
@@ -379,7 +368,6 @@ def main():
     parser = argparse.ArgumentParser(description="Auto translate jp CCs in MPEG TS file.")
     parser.add_argument("infile", help="Input filename (MPEG2 Transport Stream File)", type=str)
     parser.add_argument("pid", help="Pid of closed caption ES to extract from stream.", type=int)
-    # parser.add_argument('-k', '--secret_key', help='Windows secret key for bing translate API.', type=str, default='')
     args = parser.parse_args()
 
     pid = args.pid
@@ -422,11 +410,13 @@ def main():
 
                 if not data_group.is_management_data():
                     # We now have a Data Group that contains caption data.
-                    # We take out its payload, but this is further divided into 'Data Unit' structures
+                    # We take out its payload, but this is further divided into
+                    # 'Data Unit' structures
                     caption = data_group.payload()
                     # iterate through the Data Units in this payload via another generator.
                     for data_unit in next_data_unit(caption):
-                        # we're only interested in those Data Units which are "statement body" to get CC data.
+                        # we're only interested in those Data Units which are
+                        # "statement body" to get CC data.
                         if not isinstance(data_unit.payload(), StatementBody):
                             continue
 

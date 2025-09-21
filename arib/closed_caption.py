@@ -14,7 +14,6 @@ an ARIB data group
 
 from arib import read
 from arib.decoder import Decoder
-from arib import code_set
 from arib.drcs_cache import DRCS_CACHE
 from arib.drcs_cache import DrcsGlyph
 from arib.drcs_cache import drcs_set_from_font_id_byte
@@ -24,7 +23,6 @@ from arib.drcs_cache import drcs0_pack
 
 DEBUG = False
 DRCS_DEBUG = False
-import traceback
 
 
 def set_DRCS_debug(v):
@@ -120,19 +118,11 @@ class StatementBody(object):
         # currently recreating the decoder (and therefore resetting its state)
         # on every packet paylod processing. This may be incorrect
         decoder = Decoder()
-        line = ""
         while bytes_read < bytes_to_read:
             statement = decoder.decode(f)
             if statement:
                 bytes_read += len(statement)
                 statements.append(statement)
-            # if isinstance(statement, code_set.Kanji) or isinstance(statement, code_set.Alphanumeric) \
-            #  or isinstance(statement, code_set.Hiragana) or isinstance(statement, code_set.Katakana):
-            #  if DEBUG:
-            #    print statement #just dump to stdout for now
-        #    line += str(statement)
-        # if len(line)>0:
-        #  print '{l}\n'.format(l=line)
         return statements
 
 
@@ -153,7 +143,7 @@ class DRCSCharacter(object):
         lo = self._character_code & 0xFF
 
         set_id = drcs_set_from_font_id_byte(hi)
-        if set_id != None:
+        if set_id is not None:
             # DRCS-1..14 path (1 byte code in low byte)
             char_code = normalize_94(lo)  # map GR A1–FE -> GL 21–7E
         else:

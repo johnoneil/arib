@@ -1,12 +1,8 @@
 from dataclasses import dataclass
-from typing import Dict, Tuple, Optional
+from typing import Tuple, Optional
 from collections import OrderedDict
 import threading
 from arib import read
-import math
-
-from dataclasses import dataclass
-import math
 
 
 def normalize_94(b: int) -> int:
@@ -72,25 +68,25 @@ class DrcsGlyph:
         bytes_needed = (pixels * self.depth_bits + 7) // 8
         self.bitmap = bytearray(read.ucb(f) for _ in range(bytes_needed))
 
-    def __str__(self):
-        px = ""
-        i = 0
-        for h in range(self._height // 2):
-            for w in range(self._width // 4):
-                p = self._pixels[h * self._width // 2 + w]
-                if p == 0:
-                    px += " "
-                elif p == 0xFF:
-                    px += "█"
-                elif p == 0x0F:
-                    px += "▐"
-                elif p == 0xF0:
-                    px += "▌"
-                else:
-                    px += "╳"
-                i = i + 1
-            px += "\n"
-        return px
+    # def __str__(self):
+    #     px = ""
+    #     i = 0
+    #     for h in range(self._height // 2):
+    #         for w in range(self._width // 4):
+    #             p = self._pixels[h * self._width // 2 + w]
+    #             if p == 0:
+    #                 px += " "
+    #             elif p == 0xFF:
+    #                 px += "█"
+    #             elif p == 0x0F:
+    #                 px += "▐"
+    #             elif p == 0xF0:
+    #                 px += "▌"
+    #             else:
+    #                 px += "╳"
+    #             i = i + 1
+    #         px += "\n"
+    #     return px
 
     def __str__(self):
         # expand to 2D pixels

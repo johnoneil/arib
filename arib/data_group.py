@@ -17,8 +17,6 @@ import traceback
 
 from arib.closed_caption import CaptionStatementData
 from arib.closed_caption import CaptionManagementData
-from struct import error as struct_error
-from copy import copy
 
 DEBUG = False
 
@@ -52,7 +50,7 @@ class DataGroup(object):
         self._stuffing_byte = read.ucb(f)
         if DEBUG:
             print(hex(self._stuffing_byte))
-        if self._stuffing_byte is not 0x80:
+        if self._stuffing_byte != 0x80:
             raise DataGroupParseError(
                 "Initial stuffing byte not equal to 0x80: " + hex(self._stuffing_byte)
             )
@@ -60,7 +58,7 @@ class DataGroup(object):
         self._data_identifier = read.ucb(f)
         if DEBUG:
             print(hex(self._data_identifier))
-        if self._data_identifier is not 0xFF:
+        if self._data_identifier != 0xFF:
             raise DataGroupParseError(
                 "Initial data identifier is not equal to 0xff" + hex(self._data_identifier)
             )
@@ -68,7 +66,7 @@ class DataGroup(object):
         self._private_stream_id = read.ucb(f)
         if DEBUG:
             print(hex(self._private_stream_id))
-        if self._private_stream_id is not 0xF0:
+        if self._private_stream_id != 0xF0:
             raise DataGroupParseError(
                 "Private stream id not equal to 0xf0: " + hex(self._private_stream_id)
             )
@@ -150,7 +148,7 @@ def next_data_group(filepath):
                 data_group = DataGroup(f)
             except EOFError:
                 break
-            except Exception as err:
+            except Exception:
                 if DEBUG:
                     print("Exception thrown while parsing data group from .es")
                     traceback.print_exc(file=sys.stdout)
@@ -164,7 +162,7 @@ def next_data_group(filepath):
     except EOFError:
         # we can quite rightly run into eof here. in that case just bail
         pass
-    except Exception as err:
+    except Exception:
         if DEBUG:
             print("Exception throw while parsing data group from .es")
             traceback.print_exc(file=sys.stdout)

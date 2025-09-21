@@ -878,17 +878,6 @@ class ESC(object):
             raise DecodingError()
         return (d, code_set)
 
-    # @staticmethod
-    # def find_designation(bytes):
-    #   for i, pattern in enumerate(ESC.GRAPHIC_SETS_TABLE):
-    #     if DEBUG:
-    #       print('{b} : {i} {p}'.format(b=str(bytes), i=str(i), p=str(pattern)))
-    #     if bytes == pattern:
-    #       if DEBUG:
-    #         print('found designation match at {p} at index {i} and desig {d}'.format(p=str(pattern), i=str(i), d=str(i%4)))
-    #       return DESIGNATION_TABLE.keys()[i%4]
-    #   #raise decoding error?
-
     @staticmethod
     def find_designation(byte_pattern):
         for i, pattern in enumerate(ESC.GRAPHIC_SETS_TABLE):
@@ -916,19 +905,6 @@ class ESC(object):
         area according to final byte
         """
         return ESC(f)
-        """
-    b = read.ucb(f)
-    if b in INVOCATION_TABLE:
-      print 'ESC INVOCATION {:#x}'.format(b)
-      return INVOCATION_TABLE[b](f)
-    if b in DESIGNATION_TABLE:
-      print 'ESC DESIGNATION {:#x}'.format(b)
-      return DESIGNATION_TABLE[b](f)
-    if b == TwoByte.CODE:
-      print 'ESC TWO BYTE {:#x}'.format(b)
-      return TwoByte.handler(f)  
-    raise DecodingError()
-    """
 
 
 class APS(object):
@@ -1536,7 +1512,7 @@ class CSI(object):
         """
         self._args = []
         c = read.ucb(f)
-        while c is not 0x20:
+        while c != 0x20:
             self._args.append(c)
             c = read.ucb(f)
         self._args.append(c)

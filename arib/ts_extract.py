@@ -154,7 +154,8 @@ def OnESPacket(current_pid, packet, header_size):
             caption = data_group.payload()
             # iterate through the Data Units in this payload via another generator.
             for data_unit in next_data_unit(caption):
-                # we're only interested in those Data Units which are "statement body" to get CC data.
+                # we're only interested in those Data Units which are "statement body"
+                # to get CC data.
                 if not isinstance(data_unit.payload(), StatementBody):
                     continue
 
@@ -188,11 +189,12 @@ def OnESPacket(current_pid, packet, header_size):
 
     except EOFError:
         pass
-    except Exception as err:
+    except Exception:
         if VERBOSE and not SILENT and pid >= 0:
             print(
-                "Warning: Nonfatal Exception thrown while handling DataGroup in ES. This may be due to many factors"
-                + " such as file corruption or the .ts file using as yet unsupported features."
+                "Warning: Nonfatal Exception thrown while handling DataGroup in ES. "
+                "This may be due to many factors "
+                "such as file corruption or the .ts file using as yet unsupported features."
             )
             traceback.print_exc(file=sys.stdout)
 
@@ -206,7 +208,10 @@ def main():
     parser.add_argument(
         "-p",
         "--pid",
-        help="Specify a PID of a PES known to contain closed caption info (tool will attempt to find the proper PID if not specified.).",
+        help=(
+            "Specify a PID of a PES known to contain closed caption info"
+            "(tool will attempt to find the proper PID if not specified.)."
+        ),
         type=int,
         default=-1,
     )

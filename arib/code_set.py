@@ -16,7 +16,6 @@ from arib import read
 from arib.drcs_cache import DRCS_CACHE
 from arib.drcs_cache import normalize_94
 from arib.drcs_cache import drcs0_pack
-from arib.drcs_cache import drcs0_unpack
 
 DEBUG = False
 
@@ -739,7 +738,7 @@ class Kanji(object):
             h = bytes.fromhex(s)  # was: s.decode('hex')
             try:
                 self._character = h.decode("euc-jisx0213")
-            except:
+            except UnicodeDecodeError:
                 self._character = "◻"
         if DEBUG:
             print(
@@ -1282,7 +1281,7 @@ class DRCS0(object):
 
     def __str__(self):
         """stringify"""
-        return f"DRCS group 0:"
+        return "DRCS group 0:"
 
     @staticmethod
     def decode(b, f):

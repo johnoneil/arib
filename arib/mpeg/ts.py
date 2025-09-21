@@ -27,8 +27,7 @@ class ES:
         b1 = payload[0]
         b2 = payload[1]
         b3 = payload[2]
-
-        b4 = payload[3]
+        # b4 = payload[3]
         if b1 != 0 or b2 != 0 or b3 != 1:
             return False
         return True
@@ -220,7 +219,7 @@ class TS(object):
         b1 = struct.unpack(">L", packet[TS.PCR_START_INDEX : TS.PCR_START_INDEX + 4])[0]
         b2 = struct.unpack(">H", packet[TS.PCR_START_INDEX + 4 : TS.PCR_START_INDEX + 6])[0]
         base = (b1 << 1) | (b2 >> 15)  # 33 bit base
-        extension = b2 & 0x1FF  # 9 bit extension
+        # extension = b2 & 0x1FF  # 9 bit extension
         # TODO: proper extension handling as per the spec
         # returning the base gives us good results currently
         # return base * 300 + extension
@@ -265,10 +264,10 @@ class TS(object):
         prev_percent_read = 0
         for packet in TS.next_packet(self._filename):
             # check_packet_formedness(packet)
-            pei = TS.get_transport_error_indicator(packet)
+            # pei = TS.get_transport_error_indicator(packet)
             pusi = TS.get_payload_start(packet)
             pid = TS.get_pid(packet)
-            tsc = TS.get_tsc(packet)
+            # tsc = TS.get_tsc(packet)
 
             # per .ts packet handler
             if self.OnTSPacket:
@@ -282,18 +281,17 @@ class TS(object):
                 self.Progress(self._read_size, self._total_filesize, percent_read)
                 prev_percent_read = new_percent_read
 
-            adaptation_field_control = TS.get_adaptation_field_control(packet)
-            continuity_counter = TS.get_continuity_counter(packet)
+            # adaptation_field_control = TS.get_adaptation_field_control(packet)
+            # continuity_counter = TS.get_continuity_counter(packet)
 
             # put together PES from payloads
             payload = TS.get_payload(packet)
-            if pusi == True:
+            if pusi:
                 if not ES.pes_packet_check_formedness(payload):
                     if pid in self._elementary_streams:
                         self._elementary_streams[pid] = None
                     continue
-                pes_id = ES.get_pes_stream_id(payload)
-                # todo: chek pes_id ?
+                # pes_id = ES.get_pes_stream_id(payload)
                 self._elementary_streams[pid] = bytearray(payload)
             else:
                 if pid in self._elementary_streams:
@@ -344,8 +342,8 @@ def OnTSPacket(packet):
     pcr = TS.get_pcr(packet)
     current_timestamp = pcr
     initial_timestamp = initial_timestamp or current_timestamp
-    delta = current_timestamp - initial_timestamp
-    elapsed_time_s = float(delta) / 90000.0
+    # delta = current_timestamp - initial_timestamp
+    # elapsed_time_s = float(delta) / 90000.0
 
 
 def OnESPacket(current_pid, packet, header_size):

@@ -13,8 +13,6 @@ text = ass_draw_dialogue(path, x=100, y=200)
 
 """
 
-from arib.drcs_cache import DrcsGlyph
-
 
 def drcs_unpack_to_bitmap(width, height, data, depth=2):
     """
