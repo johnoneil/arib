@@ -62,7 +62,7 @@ def ass_draw_dialogue(path, p_scale=1, fscx=100, fscy=100, anchor=1):
     x,y are the placement in script pixels (video coordinate space).
     We'll use \p<p_scale> and \pos(x,y). Path is in pixel units.
     """
-    # Note: \an<7> top-left anchor is nice for pixel-aligned sprites.
+    # Note: \an<1> bottom left anchor
     # colour is \1c, alpha is \1a; border is \bord for optional outline.
     return f"{{\\an{anchor}\\p{p_scale}}}" f"{path}{{\\p0}}"
 
@@ -163,35 +163,28 @@ class ClosedCaptionArea(object):
     def Dimensions(self):
         return self._Dimensions
 
+    # A tricky function.
+    # Text ROWs are actually "number of line feeds", or zero based.
+    # The vertical position is determined by current text size when the
+    # position even arrives.
     def RowCol2ScreenPos(self, row, col, size=TextSize.NORMAL):
-        # to get .ass anchors (using \an1) to line up with ARIB geometry
-        # we treat row data as one based (subtract one to use)
-        r = row - 1
-        c = col
 
-        # Base cell and gap (your caption plane numbers)
-        cw = self._CharacterDim.width  # e.g., 36
-        ch = self._CharacterDim.height  # e.g., 36
-        gx = self._char_spacing  # e.g., 4
-        gy = self._line_spacing  # e.g., 24
+        cell_w = self._CharacterDim.width
+        cell_h = self._CharacterDim.height
+        line_space = self._line_spacing
+        char_space = self._char_spacing
 
-        # Size scaling: scale the **cell**, not the **gap**
+        # baisc normal text size location.
+        # ARIB geometry gives us the lower left text corner, so
+        # we add 1 to row.
+        x = self.UL.x + col * (cell_w + char_space)
+        y = self.UL.y + (row + 1) * (cell_h + line_space)
+
         if size == TextSize.SMALL:
-            cell_w = cw * 0.5  # half width
-            cell_h = ch * 0.5  # half height
+            x = self.UL.x + col * (cell_w + char_space) * 0.5
+            y = self.UL.y + (row + 1) * 0.5 * (cell_h + line_space)
         elif size == TextSize.MEDIUM:
-            cell_w = cw * 0.5  # half width
-            cell_h = ch  # full height
-        else:  # NORMAL
-            cell_w = cw
-            cell_h = ch
-
-        # Step per column/row in this size’s grid
-        w = cell_w + gx
-        h = cell_h + gy
-
-        x = self.UL.x + c * w
-        y = self.UL.y + r * h
+            x = self.UL.x + col * (cell_w + char_space) * 0.5
 
         return Pos(int(round(x)), int(round(y)))
 
@@ -392,7 +385,7 @@ def position_set(formatter, p, timestamp):
     So we have to calculate pixel coordinates (and then sale them)
     """
     pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col, formatter._current_textsize)
-    line = "{{\\r{style}}}{color}{{\\pos({x},{y})}}".format(
+    line = "{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an1}}".format(
         color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y
     )
     formatter._current_lines.append(Dialog(line))
