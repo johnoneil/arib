@@ -1,4 +1,4 @@
-'''
+"""
 Module: drcs_decoder.py
 Desc: Turn DRCS binary data into formats we can display.
 Author: John O'Neil
@@ -11,9 +11,8 @@ bmp = drcs_unpack_to_bitmap(font._width, font._height, font._pixels, depth=font.
 path = bitmap_to_ass_path(bmp, alpha_threshold=1)
 text = ass_draw_dialogue(path, x=100, y=200)
 
-'''
+"""
 
-from arib.drcs_cache import DrcsGlyph
 
 def drcs_unpack_to_bitmap(width, height, data, depth=2):
     """
@@ -25,11 +24,11 @@ def drcs_unpack_to_bitmap(width, height, data, depth=2):
     assert depth in (1, 2, 4), "Handle common DRCS depths; extend if needed."
 
     if depth == 1:
-        masks_shifts = [(1 << (7 - i), 7 - i) for i in range(8)]   # 8 px/byte
+        masks_shifts = [(1 << (7 - i), 7 - i) for i in range(8)]  # 8 px/byte
     elif depth == 2:
         masks_shifts = [((3 << 6), 6), ((3 << 4), 4), ((3 << 2), 2), ((3 << 0), 0)]  # 4 px/byte
     else:  # depth == 4
-        masks_shifts = [((0xF << 4), 4), ((0xF << 0), 0)]          # 2 px/byte
+        masks_shifts = [((0xF << 4), 4), ((0xF << 0), 0)]  # 2 px/byte
 
     px_per_byte = len(masks_shifts)
     total_px = width * height
@@ -58,7 +57,3 @@ def drcs_unpack_to_bitmap(width, height, data, depth=2):
             break
 
     return out
-
-
-
-

@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: black
+        name: black (local)
+        entry: black
+        language: system
+        types: [python]

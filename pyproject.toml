@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arib"
-version = "0.7.1"
+version = "0.7.2"
 description = "ARIB MPEG-2 TS Closed Caption Decoding Tools"
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.8"
@@ -27,7 +27,6 @@ classifiers = [
 
 dependencies = [
   "requests>=2.31.0",
-  # add other true runtime deps here
 ]
 
 [project.urls]
@@ -44,11 +43,23 @@ arib-es-extract = "arib.es_extract:main"
 where = ["."]
 exclude = ["tests", "docs", "examples"]
 
-# If you ship non-.py assets inside the package, either:
-# 1) declare them here:
-# [tool.setuptools.package-data]
-# "arib" = ["data/*.tmpl", "assets/*"]
-#
-# or (legacy) add a MANIFEST.in and keep include_package_data = true:
-# [tool.setuptools]
-# include-package-data = true
+
+[project.optional-dependencies]
+dev = [
+  "black==24.8.0",
+  "pre-commit==3.8.0",
+  "ruff==0.6.7",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+skip-string-normalization = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"  # or whatever version you run
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]   # pycodestyle/pyflakes/warnings
+ignore = []
