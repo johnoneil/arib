@@ -1,0 +1,41 @@
+name: CI
+
+on:
+    push:
+        branches: [master]  # only when master gets new commits
+    pull_request:
+        branches: [master]  # only when a PR is opened/updated that targets master
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out source
+              uses: actions/checkout@v4
+
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.10"
+
+            - name: Install project + dev deps
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -e ".[dev]"
+
+            - name: Check formatting with Black
+              run: black --check .
+
+            - name: Lint with Ruff
+              run: ruff check .
+
+            - name: Run tests script
+              run: ./tests/run_tests.sh
+
+            - name: Check .tests/*.txt not modified
+              run: |
+                  # Fail if there are changes in .tests/*.txt
+                  if ! git diff --exit-code -- .tests/*.txt; then
+                      echo "::error::.tests/*.txt changed after running tests."
+                      exit 1
+                  fi
