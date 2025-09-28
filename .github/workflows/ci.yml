@@ -30,7 +30,7 @@ jobs:
               run: ruff check .
 
             - name: Run tests script
-              run: ./tests/run_tests.sh
+              run: ./tests/run-tests.sh
 
             - name: Check .tests/*.txt not modified
               run: |
