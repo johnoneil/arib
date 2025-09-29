@@ -39,3 +39,5 @@ jobs:
                       echo "::error::.tests/*.txt changed after running tests."
                       exit 1
                   fi
+            - name: Run unit tests with coverage
+              run: pytest --cov=arib --cov-report=term-missing

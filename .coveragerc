@@ -1,0 +1,9 @@
+[run]
+branch = True
+source = arib
+
+[report]
+show_missing = True
+omit =
+    */site-packages/*
+    */.venv/*

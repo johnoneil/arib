@@ -12,7 +12,6 @@ import argparse
 import traceback
 
 from pathlib import Path
-from sys import exit  # or: import sys
 
 
 from arib.closed_caption import next_data_unit
@@ -111,7 +110,7 @@ def main():
     inpath = Path(infilename)
     if not inpath.is_file():
         print(f"Input filename: {inpath} does not exist.")
-        exit(1)
+        return 1
 
     for data_group in next_data_group(infilename):
         try:
@@ -144,6 +143,7 @@ def main():
         except Exception:
             print("Exception thrown while handling .es datagroup post parsing.")
             traceback.print_exc(file=sys.stdout)
+    return 0
 
 
 if __name__ == "__main__":
