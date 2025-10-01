@@ -38,6 +38,7 @@ infilename = ""
 outfilename = ""
 tmax = 0
 disable_drcs = False
+show_debug_grid = False
 
 
 def OnProgress(bytes_read, total_bytes, percent):
@@ -118,7 +119,11 @@ def OnESPacket(current_pid, packet, header_size):
                 if not ass:
                     v = not SILENT
                     ass = ASSFormatter(
-                        tmax=tmax, video_filename=outfilename, verbose=v, disable_drcs=disable_drcs
+                        tmax=tmax,
+                        video_filename=outfilename,
+                        verbose=v,
+                        disable_drcs=disable_drcs,
+                        show_debug_grid=show_debug_grid,
                     )
 
                 ass.format(data_unit.payload().payload(), elapsed_time_s)
@@ -170,6 +175,7 @@ def main():
     global tmax
     global time_offset
     global disable_drcs
+    global show_debug_grid
 
     parser = argparse.ArgumentParser(
         description=(
@@ -211,6 +217,11 @@ def main():
         help="Disable emitting .ass drawing code for runtime (dynamic) DRCS characters.",
         action="store_true",
     )
+    parser.add_argument(
+        "--show-debug-grid",
+        help="Generate a character position debug grid" "visible onscreen.",
+        action="store_true",
+    )
     args = parser.parse_args()
 
     pid = args.pid
@@ -223,6 +234,7 @@ def main():
     tmax = args.tmax
     time_offset = args.timeoffset
     disable_drcs = args.disable_drcs
+    show_debug_grid = args.show_debug_grid
 
     if not os.path.exists(infilename) and not SILENT:
         print("Input filename :" + infilename + " does not exist.")
