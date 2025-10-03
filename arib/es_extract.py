@@ -48,6 +48,11 @@ DISPLAYED_CC_STATEMENTS = [
     code_set.DRCS14,
     code_set.DRCS15,
     control_characters.APS,
+    control_characters.APB,
+    control_characters.APF,
+    control_characters.APD,
+    control_characters.APU,
+    control_characters.APR,
     control_characters.MSZ,
     control_characters.NSZ,
     control_characters.SP,
@@ -65,6 +70,7 @@ DISPLAYED_CC_STATEMENTS = [
     control_characters.WHF,
     # control_characters.TIME,
     control_characters.HLC,
+    control_characters.PAPF,
 ]
 
 

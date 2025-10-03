@@ -331,9 +331,8 @@ class PAPF(object):
     CODE = 0x16
 
     def __init__(self, f):
-        # read the single byte paramter for now but ignore its effect on text placement
-        # TODO: implement proper screen text placement
-        read.ucb(f)
+        self._args = []
+        self._args.append(read.ucb(f) & 0x3F)  # p1
 
     def __len__(self):
         """Defiing len() operator to help
@@ -342,7 +341,11 @@ class PAPF(object):
         return 2
 
     def __str__(self):
-        return "<PAPF>"
+        return f"<PAPF {self._args[0]}>"
+
+    @property
+    def count(self):
+        return self._args[0]
 
     @staticmethod
     def handler(f):

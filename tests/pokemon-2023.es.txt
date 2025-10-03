@@ -42,13 +42,13 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,1><Normal Text><yellow>＜<Medium Text>リコ：<Normal Text>みんなのおかげで
-<Screen Posiiton to 6,7><Small Text>ぶじともど
+<Screen Posiiton to 6,7><Small Text>ぶじ<PAPF 4>と<PAPF 2>もど
 <Screen Posiiton to 15,13><Normal Text>無事に取り戻せた<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,15><yellow>わたしきおく
+<Screen Posiiton to 13,15><yellow>わたし<PAPF 2>きおく
 <Screen Posiiton to 15,15><Normal Text>私の記憶と<Medium Text>ペンダント。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -93,14 +93,14 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><yellow>いよいよ<Small Text>あ
+<Screen Posiiton to 6,0><yellow>いよいよ<PAPF 7><Small Text>あ
 <Screen Posiiton to 15,7><Normal Text>おばあちゃんに会うため<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,9><yellow>ちほうめざしゅっぱつ
+<Screen Posiiton to 13,9><yellow>ちほう<PAPF 1>めざ<PAPF 6>しゅっぱつ
 <Screen Posiiton to 15,5><Medium Text>ガラル<Normal Text>地方目指して<Medium Text> <Normal Text>出発です！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -152,7 +152,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Medium Text><yellow>ドット<Normal Text>が<Medium Text> <Normal Text>あのぐるみんだったという<Small Text>
-<Screen Posiiton to 13,7>しょうげきじじつはんめい
+<Screen Posiiton to 13,7>しょうげき<PAPF 2>じじつ<PAPF 2>はんめい
 <Screen Posiiton to 15,7><Normal Text>衝撃の事実が判明して…＞
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -169,7 +169,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3><yellow>おつ
+<Screen Posiiton to 13,3><yellow>お<PAPF 3>つ
 <Screen Posiiton to 15,0><Normal Text>《落ち着かない…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -187,7 +187,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 4,11><yellow>お
 <Screen Posiiton to 6,3><Normal Text>なんか<Medium Text> <Normal Text>追いつかないよ
-<Screen Posiiton to 3,4><Small Text>こころあたま
+<Screen Posiiton to 3,4><Small Text>こころ<PAPF 1>あたま
 <Screen Posiiton to 9,8><Normal Text>心が頭に…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -198,7 +198,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 4,13><yellow>こころ
 <Screen Posiiton to 6,2><Normal Text>ついてこい<Medium Text> <Normal Text>心
-<Screen Posiiton to 3,2><Small Text>まあたま
+<Screen Posiiton to 3,2><Small Text>ま<PAPF 5>あたま
 <Screen Posiiton to 9,3><Normal Text>待って<Medium Text> <Normal Text>頭！<Medium Text> <Normal Text>みたいな…》
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -316,7 +316,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,1><cyan>おつ
+<Screen Posiiton to 13,1><cyan>お<PAPF 3>つ
 <Screen Posiiton to 15,0><Normal Text>落ち着いてよ<Medium Text> ケンカ<Normal Text>するなって！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -362,7 +362,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><cyan>ほら<Small Text>てんき
+<Screen Posiiton to 6,0><cyan>ほら<Small Text><PAPF 9>てんき
 <Screen Posiiton to 15,1><Normal Text>せっかくいい天気なんだからさ<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -731,7 +731,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,1><Medium Text><yellow>カイデン<Normal Text>って<Medium Text> <Normal Text>もしかして<Small Text>
-<Screen Posiiton to 13,13>すこにがて
+<Screen Posiiton to 13,13>すこ<PAPF 2>にがて
 <Screen Posiiton to 15,2><Medium Text>ホゲータ<Normal Text>のこと<Medium Text> <Normal Text>少し苦手なのかな？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -740,7 +740,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,3><cyan>はやなか
+<Screen Posiiton to 11,3><cyan>はや<PAPF 2>なか
 <Screen Posiiton to 13,0><Medium Text>ハア <Normal Text>早く仲よくなって<Small Text>
 <Screen Posiiton to 15,1><Normal Text>ほしいんだけどな…<Medium Text>。
 <Closed caption management data for language: jpn>
@@ -809,7 +809,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,5>なかわる
+<Screen Posiiton to 13,5>なか<PAPF 13>わる
 <Screen Posiiton to 15,0><Medium Text>（モリー）<Normal Text>仲がいいんだか<Medium Text> <Normal Text>悪いんだか<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -944,7 +944,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,7>さいしょ
 <Screen Posiiton to 12,2><Medium Text>（ドット）<Normal Text>最初に<Medium Text>ゲット<Normal Text>した<Medium Text>ポケモン<Normal Text>を
-<Screen Posiiton to 6,6><Small Text>さいきょうそだ
+<Screen Posiiton to 6,6><Small Text>さいきょう<PAPF 1>そだ
 <Screen Posiiton to 15,4><Normal Text>じっくり最強に育てるのと<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -1005,14 +1005,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,13>せいかいせいかい
+<Screen Posiiton to 13,13>せいかい<PAPF 2>せいかい
 <Screen Posiiton to 15,5><Normal Text>どっちも正解が正解！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,5>つうあ
+<Screen Posiiton to 10,5>つう<PAPF 3>あ
 <Screen Posiiton to 12,0><Medium Text>ハート<Normal Text>が通じ合えば
 <Screen Posiiton to 6,6><Small Text>かたち
 <Screen Posiiton to 15,1><Medium Text>ポケモントレーナー<Normal Text>の形に<Medium Text>ルール<Normal Text>なんてない！
@@ -1022,9 +1022,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,5>きい
+<Screen Posiiton to 10,5>き<PAPF 3>い
 <Screen Posiiton to 12,2><Normal Text>お気に入りの<Medium Text>ポケモン<Normal Text>と<Small Text>
-<Screen Posiiton to 13,3>おもたの
+<Screen Posiiton to 13,3>おも<PAPF 13>たの
 <Screen Posiiton to 15,3><Normal Text>思いっきり<Medium Text>バトル<Normal Text>を楽しもうぜ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -1047,7 +1047,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,1><Normal Text><cyan>なぁ<Medium Text> カイデン ホゲータ<Normal Text>は
-<Screen Posiiton to 6,2><Small Text>まえなか
+<Screen Posiiton to 6,2><Small Text>まえ<PAPF 2>なか
 <Screen Posiiton to 15,2><Normal Text>お前と仲よくしたいだけなんだ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -1108,7 +1108,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,3><Small Text><cyan>きげんなおいっしょうた
+<Screen Posiiton to 6,3><Small Text><cyan>きげんなお<PAPF 4>いっしょ<PAPF 2>うた
 <Screen Posiiton to 15,0><Normal Text>なっ<Medium Text> <Normal Text>機嫌直して一緒に歌おうよ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -1538,7 +1538,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,25>うんどう
 <Screen Posiiton to 12,1><Normal Text>うん？<Medium Text> <Normal Text>まぁ<Medium Text> <Normal Text>ちょっとした運動と
-<Screen Posiiton to 6,6><Small Text>たびかいしょう
+<Screen Posiiton to 6,6><Small Text>たび<PAPF 6>かいしょう
 <Screen Posiiton to 15,12><Normal Text>旅の<Medium Text>ストレス<Normal Text>解消だ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -1547,9 +1547,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,0>いっしょあせなが
+<Screen Posiiton to 10,0>いっしょ<PAPF 2>あせ<PAPF 2>なが
 <Screen Posiiton to 12,0><Normal Text>一緒に汗を流せば<Small Text>
-<Screen Posiiton to 13,1>きずなふか
+<Screen Posiiton to 13,1>きずな<PAPF 1>ふか
 <Screen Posiiton to 15,1><Normal Text>絆も深まるしな<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -1564,7 +1564,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,9><cyan>かいしょうきずなふか
+<Screen Posiiton to 13,9><cyan>かいしょう<PAPF 1>きずな<PAPF 1>ふか
 <Screen Posiiton to 15,6><Medium Text>ストレス<Normal Text>解消<Medium Text> <Normal Text>絆が深まる…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -1776,7 +1776,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3><cyan>ちからあか
+<Screen Posiiton to 13,3><cyan>ちから<PAPF 2>あ<PAPF 11>か
 <Screen Posiiton to 15,3><Normal Text>力を合わせなきゃ勝てないよ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2030,7 +2030,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,11>さきらんきりゅう
+<Screen Posiiton to 13,11>さき<PAPF 2>らんきりゅう
 <Screen Posiiton to 15,0><Normal Text><DRCS group 1 id: 33><Medium Text>（ドット）<Normal Text>２<Medium Text>キロ<Normal Text>先に乱気流<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2076,7 +2076,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,2>こうはんい
 <Screen Posiiton to 12,0><Normal Text><DRCS group 1 id: 33>広範囲だから<Small Text>
-<Screen Posiiton to 13,3>かいひむり
+<Screen Posiiton to 13,3>かいひ<PAPF 10>むり
 <Screen Posiiton to 15,3><Normal Text>回避はたぶん無理<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2121,7 +2121,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,1><Small Text>そなおも
+<Screen Posiiton to 6,1><Small Text>そな<PAPF 16>おも
 <Screen Posiiton to 15,0><Normal Text><DRCS group 1 id: 33>備えたほうがいいと思う<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2164,7 +2164,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,19>はやはい
+<Screen Posiiton to 13,19>はや<PAPF 2>はい
 <Screen Posiiton to 15,11><Medium Text>ロイ<Normal Text>たちも早く入れよ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2175,7 +2175,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,0>ふねおつ
+<Screen Posiiton to 10,0>ふね<PAPF 13>お<PAPF 3>つ
 <Screen Posiiton to 12,0><Normal Text>船の<Medium Text>ポケモン<Normal Text>たちを落ち着かせないと<Small Text>
 <Screen Posiiton to 13,5>てつだ
 <Screen Posiiton to 15,1><Medium Text>リコ <Normal Text>手伝ってくれる？
@@ -2200,7 +2200,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,5><yellow>さきい
+<Screen Posiiton to 13,5><yellow>さき<PAPF 3>い
 <Screen Posiiton to 15,5><Normal Text>先に行くね<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -2233,7 +2233,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,2><Small Text>きりゅうちゅうしん
+<Screen Posiiton to 6,2><Small Text>きりゅう<PAPF 2>ちゅうしん
 <Screen Posiiton to 15,4><Normal Text>気流の中心をよけていくぞ<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -2249,7 +2249,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
 <Screen Posiiton to 5,0><Small Text><yellow>こわ
-<Screen Posiiton to 13,0><Normal Text>怖くないよ<Small Text>へいき
+<Screen Posiiton to 13,0><Normal Text>怖くないよ<Small Text><PAPF 3>へいき
 <Screen Posiiton to 15,1><Normal Text>ここにいれば平気だからね<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2314,7 +2314,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,8><Small Text><yellow>わたしみ
+<Screen Posiiton to 6,8><Small Text><yellow>わたし<PAPF 1>み
 <Screen Posiiton to 15,16><Normal Text>私<Medium Text> <Normal Text>見てくる<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2391,7 +2391,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,4><Small Text><cyan>いっぱつあ
+<Screen Posiiton to 6,4><Small Text><cyan>いっぱつ<PAPF 3>あ
 <Screen Posiiton to 15,2><Normal Text>わざが一発も当たらないって…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2399,13 +2399,13 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
 <Screen Posiiton to 5,1><Medium Text>ホゲ<Normal Text>…<Medium Text>。
-<Screen Posiiton to 6,27>カッ<Normal Text>？<Small Text><Normal Text><cyan>わぁ…<Medium Text>。
+<Screen Posiiton to 6,27>カッ<Normal Text>？<Small Text><PAPF 13><Normal Text><cyan>わぁ…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,3><Small Text><cyan>なかはい
+<Screen Posiiton to 6,3><Small Text><cyan>なか<PAPF 2>はい
 <Screen Posiiton to 15,6><Normal Text>中へ入ろう<Medium Text> ホゲータ カイデン<Normal Text>！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2565,7 +2565,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,9><yellow>なかはいはや
+<Screen Posiiton to 13,9><yellow>なか<PAPF 2>はい<PAPF 5>はや
 <Screen Posiiton to 15,6><Medium Text>ロイ <Normal Text>中へ入って<Medium Text> <Normal Text>早く！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2748,7 +2748,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9><yellow>つばさかぜう
+<Screen Posiiton to 10,9><yellow>つばさ<PAPF 1>かぜ<PAPF 3>う
 <Screen Posiiton to 12,0><Medium Text>カイデン<Normal Text>って<Medium Text> <Normal Text>翼に風を受けて
 <Screen Posiiton to 6,5><Small Text>お
 <Screen Posiiton to 15,1><Normal Text>でんきを起こすんだよね？
@@ -2759,7 +2759,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9><yellow>らんきりゅうつよかぜ
+<Screen Posiiton to 10,9><yellow>らんきりゅう<PAPF 2>つよ<PAPF 2>かぜ
 <Screen Posiiton to 12,0><Normal Text>さっきは<Medium Text> <Normal Text>乱気流の強い風を
 <Screen Posiiton to 6,1><Small Text>う
 <Screen Posiiton to 15,1><Normal Text>受けてたからじゃない？
@@ -2771,7 +2771,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Normal Text><cyan>そうか<Medium Text> <Normal Text>じゃあ
-<Screen Posiiton to 6,6><Small Text>つよかぜ
+<Screen Posiiton to 6,6><Small Text>つよ<PAPF 2>かぜ
 <Screen Posiiton to 15,1><Medium Text>バトル<Normal Text>のときに強い風をあびれば…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2804,7 +2804,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7><yellow>もくてきかき
+<Screen Posiiton to 13,7><yellow>もくてき<PAPF 3>か<PAPF 9>き
 <Screen Posiiton to 15,0><Normal Text>なんか<Medium Text> <Normal Text>目的が変わってる気が…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2824,7 +2824,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,8><Small Text>きぬ
+<Screen Posiiton to 6,8><Small Text>き<PAPF 3>ぬ
 <Screen Posiiton to 15,4><Medium Text>フウ <Normal Text>なんとか切り抜けたな<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2979,7 +2979,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Normal Text><yellow>ねっ<Medium Text> <Normal Text>ねぇ<Small Text>
-<Screen Posiiton to 13,1>いまいそが
+<Screen Posiiton to 13,1>いま<PAPF 1>いそが
 <Screen Posiiton to 15,1><Normal Text>今<Medium Text> <Normal Text>忙しいんじゃない？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -2987,7 +2987,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Normal Text><yellow>ほら<Medium Text> <Normal Text>ぐるみんだから<Small Text>
-<Screen Posiiton to 13,1>どうがさつえい
+<Screen Posiiton to 13,1>どうが<PAPF 3>さつえい
 <Screen Posiiton to 15,1><Normal Text>動画の撮影とか…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3004,7 +3004,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,8><yellow>ちが
 <Screen Posiiton to 12,3><Normal Text>えっ<Medium Text> <Normal Text>違うの<Medium Text> <Normal Text>してないよ<Small Text>
-<Screen Posiiton to 13,9>こころあたま
+<Screen Posiiton to 13,9>こころ<PAPF 1>あたま
 <Screen Posiiton to 15,4><Normal Text>ただ<Medium Text> <Normal Text>心と頭が…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3020,7 +3020,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,6><Small Text>へやまえ
+<Screen Posiiton to 6,6><Small Text>へや<PAPF 3>まえ
 <Screen Posiiton to 15,6><Medium Text>（ドット）<Normal Text>部屋の前で<Medium Text> <Normal Text>うるさい<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3080,9 +3080,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,15><yellow>へやき
+<Screen Posiiton to 10,15><yellow>へや<PAPF 3>き
 <Screen Posiiton to 12,2><Normal Text>《ぐるみんの部屋<Medium Text> <Normal Text>来ちゃった<Small Text>
-<Screen Posiiton to 13,11>おつ
+<Screen Posiiton to 13,11>お<PAPF 3>つ
 <Screen Posiiton to 15,5><Normal Text>おっ<Medium Text> <Normal Text>落ち着かない…》
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3135,7 +3135,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,3>とつばさかぜう
+<Screen Posiiton to 10,3>と<PAPF 9>つばさ<PAPF 1>かぜ<PAPF 3>う
 <Screen Posiiton to 12,2><Normal Text>飛ぶことで<Medium Text> <Normal Text>翼に風を受けて<Small Text>
 <Screen Posiiton to 13,11>つく
 <Screen Posiiton to 15,3><Normal Text>でんきを作る<Medium Text>ポケモン<Normal Text>だ<Medium Text>。
@@ -3145,14 +3145,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,13>こからだちい
+<Screen Posiiton to 13,13>こ<PAPF 2>からだ<PAPF 1>ちい
 <Screen Posiiton to 15,3><Normal Text>でも<Medium Text> <Normal Text>この子は体が小さい<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,2><Small Text>とにがて
+<Screen Posiiton to 6,2><Small Text>と<PAPF 6>にがて
 <Screen Posiiton to 15,3><Normal Text>飛ぶのも苦手なんだよね？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3160,7 +3160,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,5>はし
 <Screen Posiiton to 12,5><Normal Text>走るだけじゃ
-<Screen Posiiton to 6,3><Small Text>ふうりょくめんげんかい
+<Screen Posiiton to 6,3><Small Text>ふうりょくめん<PAPF 1>げんかい
 <Screen Posiiton to 15,6><Normal Text>風力面で限界がある…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3262,7 +3262,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,21><Medium Text><yellow>ロイ<Normal Text>…<Medium Text>。
-<Screen Posiiton to 6,0><Small Text><white>たかとお
+<Screen Posiiton to 6,0><Small Text><white>たか<PAPF 13>と<PAPF 3>お
 <Screen Posiiton to 15,0><Normal Text>高いところから飛び降りれば<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3270,7 +3270,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,0>いっしゅんつよかぜ
+<Screen Posiiton to 10,0>いっしゅん<PAPF 1>つよ<PAPF 2>かぜ
 <Screen Posiiton to 12,1><Normal Text>一瞬<Medium Text> <Normal Text>強い風を<Small Text>
 <Screen Posiiton to 13,3>う
 <Screen Posiiton to 15,2><Normal Text>受けられるかもだけど…<Medium Text>。
@@ -3330,7 +3330,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7><cyan>ぼくにんがったい
+<Screen Posiiton to 13,7><cyan>ぼく<PAPF 6>にん<PAPF 2>がったい
 <Screen Posiiton to 15,0><Normal Text>これが<Medium Text> <Normal Text>僕たち３人の合体わざだ！
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -3341,7 +3341,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,13><Medium Text>カーイ。
-<Screen Posiiton to 6,20><Small Text><cyan>きい
+<Screen Posiiton to 6,20><Small Text><cyan>き<PAPF 3>い
 <Screen Posiiton to 15,14><Normal Text>おっ<Medium Text> <Normal Text>気に入った？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3364,7 +3364,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,21><cyan>ちから
 <Screen Posiiton to 12,2><Normal Text>このわざは<Medium Text> <Normal Text>みんなの力を
-<Screen Posiiton to 6,2><Small Text>あかんせい
+<Screen Posiiton to 6,2><Small Text>あ<PAPF 10>かんせい
 <Screen Posiiton to 15,3><Normal Text>合わせないと完成しないんだ<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -3424,7 +3424,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><Small Text><yellow>わたしとど
+<Screen Posiiton to 6,0><Small Text><yellow>わたし<PAPF 1>とど
 <Screen Posiiton to 15,1><Normal Text>私<Medium Text> <Normal Text>届けてくる<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -3516,7 +3516,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,5><cyan>あしたたの
+<Screen Posiiton to 13,5><cyan>あした<PAPF 1>たの
 <Screen Posiiton to 15,4><Normal Text>明日<Medium Text> <Normal Text>楽しみにしててよ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3562,7 +3562,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,21><cyan>と
 <Screen Posiiton to 12,20><Normal Text>飛べ<Medium Text> カイデン<Normal Text>！
-<Screen Posiiton to 6,3><Small Text><white>そらほしうご
+<Screen Posiiton to 6,3><Small Text><white>そら<PAPF 9>ほし<PAPF 2>うご
 <Screen Posiiton to 15,0><Medium Text>（ランドウ）<Normal Text>空はめぐり<Medium Text> <Normal Text>星は動く<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3570,9 +3570,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,8>かみ
+<Screen Posiiton to 10,8>か<PAPF 13>み
 <Screen Posiiton to 12,1><Medium Text>（ランドウ）<Normal Text>変わらぬように見えても
-<Screen Posiiton to 6,4><Small Text>ばとど
+<Screen Posiiton to 6,4><Small Text>ば<PAPF 2>とど
 <Screen Posiiton to 15,3><Normal Text>その場に留まってはいない<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3581,7 +3581,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,3><Small Text>ひとおな
+<Screen Posiiton to 6,3><Small Text>ひと<PAPF 8>おな
 <Screen Posiiton to 15,6><Normal Text>人も<Medium Text>ポケモン<Normal Text>も同じこと<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -3595,13 +3595,13 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,3><Normal Text>うん？<Small Text>
-<Screen Posiiton to 13,5>ひらおと
+<Screen Posiiton to 13,5>ひら<PAPF 2>おと
 <Screen Posiiton to 15,0><Medium Text>（ドア<Normal Text>の開く音<Medium Text>）
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,9><cyan>いっかいねが
+<Screen Posiiton to 13,9><cyan>いっかい<PAPF 6>ねが
 <Screen Posiiton to 15,0><Medium Text>キャップ <Normal Text>もう１回<Medium Text>バトル <Normal Text>お願いします！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3624,7 +3624,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7>なにみ
+<Screen Posiiton to 13,7>なに<PAPF 3>み
 <Screen Posiiton to 15,0><Normal Text>さぁて<Medium Text> <Normal Text>何を見せてくれるんだ？
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -3699,7 +3699,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,23><Normal Text>なんて？<Small Text>ぜんぜんきと
+<Screen Posiiton to 11,23><Normal Text>なんて？<Small Text>ぜんぜん<PAPF 2>き<PAPF 3>と
 <Screen Posiiton to 15,0><Normal Text>全然<Medium Text> <Normal Text>聞き取れなかった<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3759,7 +3759,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
 <Screen Posiiton to 5,12><Medium Text>ゲッ。
-<Screen Posiiton to 6,10><Small Text><cyan>いっかいれんぞく
+<Screen Posiiton to 6,10><Small Text><cyan>いっかい<PAPF 1>れんぞく
 <Screen Posiiton to 15,1><Medium Text>ホゲータ <Normal Text>もう１回<Medium Text> <Normal Text>連続でひのこだ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -3918,7 +3918,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><Small Text>わるさくせん
+<Screen Posiiton to 6,5><Small Text>わる<PAPF 6>さくせん
 <Screen Posiiton to 15,10><Normal Text>悪くない作戦だったよ<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -3968,7 +3968,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7><cyan>とっくんちょうせん
+<Screen Posiiton to 13,7><cyan>とっくん<PAPF 5>ちょうせん
 <Screen Posiiton to 15,3><Normal Text>また特訓して<Medium Text> <Normal Text>挑戦しよう！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4167,7 +4167,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,9><yellow>まなか
+<Screen Posiiton to 13,9><yellow>ま<PAPF 4>なか
 <Screen Posiiton to 15,0><Normal Text>《いつの間にか仲よしになってる<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4180,7 +4180,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3><yellow>なかまふたの
+<Screen Posiiton to 13,3><yellow>なかま<PAPF 4>ふ<PAPF 8>たの
 <Screen Posiiton to 15,0><Medium Text>フフ <Normal Text>仲間が増えるのも楽しいかも》
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4226,7 +4226,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,9><cyan>つぎたお
+<Screen Posiiton to 13,9><cyan>つぎ<PAPF 10>たお
 <Screen Posiiton to 15,6><Normal Text><DRCS group 1 id: 33><Medium Text>「<Normal Text>次こそ<Medium Text>キャップ<Normal Text>を倒すぞ<Medium Text>」
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4278,7 +4278,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,11><cyan>そらと
+<Screen Posiiton to 13,11><cyan>そら<PAPF 2>と
 <Screen Posiiton to 15,6><Medium Text>キャップ <Normal Text>空<Medium Text> <Normal Text>飛んだよな…<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -4290,7 +4290,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,6>ぼうしと
+<Screen Posiiton to 10,6>ぼうし<PAPF 4>と
 <Screen Posiiton to 12,0><Medium Text>キャップ<Normal Text>の帽子を飛ばすとは<Small Text>
 <Screen Posiiton to 13,1>たい
 <Screen Posiiton to 15,1><Normal Text>大したもんだ<Medium Text>。
@@ -4510,13 +4510,13 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,19>そらと
+<Screen Posiiton to 13,19>そら<PAPF 3>と
 <Screen Posiiton to 15,7><Medium Text>（ドット）キャップ<Normal Text>が<Medium Text> <Normal Text>空を飛んだ？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9><cyan>たしみ
+<Screen Posiiton to 10,9><cyan>たし<PAPF 5>み
 <Screen Posiiton to 12,5><Medium Text>（ロイ）<Normal Text>確かに見たんだよ<Medium Text>。
 <Screen Posiiton to 6,9><Small Text><yellow>わたし
 <Screen Posiiton to 15,0><Medium Text>（リコ）<Normal Text>うん<Medium Text> <Normal Text>私も<Medium Text>。
@@ -4527,7 +4527,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,9>むり
-<Screen Posiiton to 13,3><Medium Text>（ドット）<Normal Text>無理にきまってるじゃん<Medium Text>。ピカチュウ<Normal Text>なんだから<Medium Text>。
+<Screen Posiiton to 13,3><Medium Text>（ドット）<Normal Text>無理にきまってるじゃん<Medium Text>。<PAPF 15>ピカチュウ<Normal Text>なんだから<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4558,7 +4558,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,3><cyan>まちが
 <Screen Posiiton to 12,2><Normal Text>間違いない<Medium Text>。 キャップ<Normal Text>は<Small Text>
-<Screen Posiiton to 13,3>そらととくべつ
+<Screen Posiiton to 13,3>そらと<PAPF 3>とくべつ
 <Screen Posiiton to 15,3><Normal Text>空飛ぶ特別な<Medium Text> ピカチュウ<Normal Text>なんだよ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4567,7 +4567,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,15>なぞしら
+<Screen Posiiton to 10,15>なぞ<PAPF 2>しら
 <Screen Posiiton to 12,8><Normal Text>で<Medium Text> <Normal Text>その謎を調べたいと？
 <Screen Posiiton to 7,6><yellow>そうなの<Medium Text>。
 <Closed caption management data for language: jpn>
@@ -4583,14 +4583,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><Small Text>ぼくふねの
+<Screen Posiiton to 6,0><Small Text>ぼく<PAPF 3>ふね<PAPF 3>の
 <Screen Posiiton to 15,0><Normal Text>僕が<Medium Text> <Normal Text>船に乗ったときには<Medium Text> <Normal Text>もう…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,17>あまえ
+<Screen Posiiton to 10,17>あ<PAPF 4>まえ
 <Screen Posiiton to 12,9><Normal Text>そうか<Medium Text> <Normal Text>当たり前すぎて
 <Screen Posiiton to 6,6><Small Text>かんが
 <Screen Posiiton to 15,12><Normal Text>考えなかったけど…<Medium Text>。
@@ -4600,7 +4600,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 7,1>ふたりき
+<Screen Posiiton to 7,1>ふたり<PAPF 3>き
 <Screen Posiiton to 9,0><Medium Text>（<Normal Text>２人<Medium Text>）<Normal Text>気になるよね！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4669,7 +4669,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,1><Small Text>ふたりどうが
+<Screen Posiiton to 6,1><Small Text>ふたり<PAPF 15>どうが
 <Screen Posiiton to 15,1><Medium Text>（<Normal Text>２人<Medium Text>）『リコロイチャンネル』<Normal Text>の動画だぜ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4688,7 +4688,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,17><cyan>こんかいきかく
+<Screen Posiiton to 13,17><cyan>こんかい<PAPF 3>きかく
 <Screen Posiiton to 15,4><Normal Text>というわけで<Medium Text> <Normal Text>今回の企画は？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4702,7 +4702,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,3>ふたり
 <Screen Posiiton to 12,2><Medium Text>（<Normal Text>２人<Medium Text>）「<Normal Text>そらとぶ<Medium Text>ピカチュウ<Normal Text>の
-<Screen Posiiton to 6,7><Small Text>なぞお
+<Screen Posiiton to 6,7><Small Text>なぞ<PAPF 3>お
 <Screen Posiiton to 15,14><Normal Text>謎を追え！<Medium Text>」。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -4770,7 +4770,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,19>どうが
 <Screen Posiiton to 12,2><Normal Text><DRCS group 1 id: 33><Medium Text>（ドット）<Normal Text>おもしろい動画が<Small Text>
-<Screen Posiiton to 13,7>とおも
+<Screen Posiiton to 13,7>と<PAPF 10>おも
 <Screen Posiiton to 15,6><Normal Text>撮れるかもと思ってね<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4816,7 +4816,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Normal Text><DRCS group 1 id: 33>うまくいけば<Medium Text> バズ<Normal Text>って<Small Text>
-<Screen Posiiton to 13,3>さいせいかいすうのぼ
+<Screen Posiiton to 13,3>さいせいかいすう<PAPF 8>のぼ
 <Screen Posiiton to 15,3><Normal Text>再生回数も<Medium Text> シビルドン<Normal Text>登り<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4865,7 +4865,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,8>ねえ
 <Screen Posiiton to 12,1><Normal Text><DRCS group 1 id: 33><Medium Text>ナンジャモ<Normal Text>姉さんの
-<Screen Posiiton to 6,2><Small Text>にんきこひちか
+<Screen Posiiton to 6,2><Small Text>にんき<PAPF 4>こ<PAPF 5>ひ<PAPF 2>ちか
 <Screen Posiiton to 15,4><Normal Text>人気を超える日も近い！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4911,7 +4911,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,11>まえで
+<Screen Posiiton to 13,11>まえ<PAPF 3>で
 <Screen Posiiton to 15,0><Normal Text>だったら<Medium Text> <Normal Text>お前が出なきゃ<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -4926,7 +4926,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,12><cyan>ひみつおし
+<Screen Posiiton to 10,12><cyan>ひみつ<PAPF 1>おし
 <Screen Posiiton to 12,5><Medium Text>キャップ<Normal Text>の秘密<Medium Text> <Normal Text>教えて！<Small Text>
 <Screen Posiiton to 13,7><white>ひみつ
 <Screen Posiiton to 15,0><Medium Text>（フリード）<Normal Text>秘密？
@@ -4975,13 +4975,13 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,2><Medium Text><yellow>キャップ<Normal Text>は<Small Text>
-<Screen Posiiton to 13,3>そらと
+<Screen Posiiton to 13,3>そら<PAPF 3>と
 <Screen Posiiton to 15,3><Normal Text>空を飛べるんじゃないかって<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,8><Small Text><yellow>きのうみ
+<Screen Posiiton to 6,8><Small Text><yellow>きのう<PAPF 8>み
 <Screen Posiiton to 15,15><Normal Text>昨日の<Medium Text>バトル<Normal Text>を見て<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5010,7 +5010,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Medium Text>キャップ<Normal Text>は<Medium Text> キャップ。
-<Screen Posiiton to 6,1><Small Text>おれたよせんちょう
+<Screen Posiiton to 6,1><Small Text>おれ<PAPF 6>たよ<PAPF 4>せんちょう
 <Screen Posiiton to 15,1><Normal Text>俺たちの頼れる船長だ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5079,7 +5079,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Normal Text><DRCS group 1 id: 33><Medium Text>（ドット）<Normal Text>こういうのは<Small Text>
-<Screen Posiiton to 13,5>じみちあつかんじん
+<Screen Posiiton to 13,5>じみち<PAPF 5>あつ<PAPF 4>かんじん
 <Screen Posiiton to 15,4><Normal Text>地道な<Medium Text> ネタ<Normal Text>集めが肝心<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5124,7 +5124,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,1><Small Text>ほかき
+<Screen Posiiton to 6,1><Small Text>ほか<PAPF 11>き
 <Screen Posiiton to 15,0><Normal Text><DRCS group 1 id: 33>他の<Medium Text>メンバー<Normal Text>にも聞いてみたら？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5149,9 +5149,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,0>そらみがる
+<Screen Posiiton to 10,0>そら<PAPF 6>みがる
 <Screen Posiiton to 12,0><Normal Text>空を？<Medium Text> <Normal Text>身軽だから
-<Screen Posiiton to 6,1><Small Text>とみ
+<Screen Posiiton to 6,1><Small Text>と<PAPF 15>み
 <Screen Posiiton to 15,1><Normal Text>飛んでるようにも見えるけど…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5199,7 +5199,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,7><Medium Text>（マードック）アイツ<Normal Text>は<Medium Text> <Normal Text>いい<Medium Text>ヤツ<Normal Text>だ<Medium Text>。
-<Screen Posiiton to 6,14><Small Text>すきら
+<Screen Posiiton to 6,14><Small Text>す<PAPF 2>きら
 <Screen Posiiton to 15,13><Normal Text>好き嫌いがなくて<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5207,7 +5207,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,3>なんた
+<Screen Posiiton to 10,3>なん<PAPF 14>た
 <Screen Posiiton to 12,3><Normal Text>何でも<Medium Text> <Normal Text>おいしく食べてくれる<Medium Text>。
 <Screen Posiiton to 7,0>（マホイップ）マホ。
 <Closed caption management data for language: jpn>
@@ -5216,7 +5216,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,0><Normal Text>あの<Medium Text>パワー<Normal Text>と<Medium Text>スピード
-<Screen Posiiton to 6,1><Small Text>えいよういとどしょうこ
+<Screen Posiiton to 6,1><Small Text>えいよう<PAPF 3>い<PAPF 2>とど<PAPF 8>しょうこ
 <Screen Posiiton to 15,1><Normal Text>栄養が行き届いている証拠だな<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5229,7 +5229,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,5><Medium Text>（ランドウ）キャップ<Small Text>きずな
+<Screen Posiiton to 13,5><Medium Text>（ランドウ）キャップ<PAPF 9><Small Text>きずな
 <Screen Posiiton to 15,7><Normal Text>それは<Medium Text> <Normal Text>はじまりの絆<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5348,7 +5348,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,3><Normal Text><yellow>もとは<Medium Text> <Normal Text>おじいちゃんの<Small Text>
-<Screen Posiiton to 13,9>つぶね
+<Screen Posiiton to 13,9>つ<PAPF 2>ぶね
 <Screen Posiiton to 15,8><Normal Text>釣り船なんだよね？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5400,7 +5400,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,13>てか
+<Screen Posiiton to 13,13>て<PAPF 3>か
 <Screen Posiiton to 15,0><Normal Text>わしも<Medium Text> オリオ<Normal Text>も手は貸したが<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5456,7 +5456,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,6><Medium Text>キャップ<Normal Text>と<Medium Text>フリード
-<Screen Posiiton to 6,7><Small Text>かれであ
+<Screen Posiiton to 6,7><Small Text>かれ<PAPF 5>であ
 <Screen Posiiton to 15,7><Normal Text>彼らが出会ったからこそ<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5464,7 +5464,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><Small Text>あらせかいひろ
+<Screen Posiiton to 6,5><Small Text>あら<PAPF 5>せかい<PAPF 2>ひろ
 <Screen Posiiton to 15,10><Normal Text>新たな世界が広がった<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -5489,7 +5489,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,10><cyan>なにおし
+<Screen Posiiton to 10,10><cyan>なに<PAPF 2>おし
 <Screen Posiiton to 12,3><Medium Text>フリード<Normal Text>は<Medium Text> <Normal Text>何も教えてくれなくて<Medium Text>。
 <Screen Posiiton to 7,8><white>ハハハハ<Normal Text>…<Medium Text>。
 <Closed caption management data for language: jpn>
@@ -5508,7 +5508,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,3><Small Text>とにがて
+<Screen Posiiton to 6,3><Small Text>と<PAPF 8>にがて
 <Screen Posiiton to 15,0><Medium Text>カメラ<Normal Text>に撮られるの苦手だし<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5532,9 +5532,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,0>わたしひこ
+<Screen Posiiton to 10,0>わたし<PAPF 9>ひ<PAPF 3>こ
 <Screen Posiiton to 12,0><Normal Text>私が<Medium Text> ホウエン<Normal Text>に引っ越したから<Small Text>
-<Screen Posiiton to 13,1>さいかいふね
+<Screen Posiiton to 13,1>さいかい<PAPF 13>ふね
 <Screen Posiiton to 15,1><Normal Text>再会したのは<Medium Text> <Normal Text>この船を…<Medium Text> <Normal Text>んっ？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5547,14 +5547,14 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,4><yellow>はなし
 <Screen Posiiton to 12,0><Normal Text>その話…<Medium Text>。
-<Screen Posiiton to 6,15><Small Text><cyan>くわき
+<Screen Posiiton to 6,15><Small Text><cyan>くわ<PAPF 5>き
 <Screen Posiiton to 15,15><Normal Text>詳しく聞きたい！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 5,3><Small Text>わたしはな
+<Screen Posiiton to 5,3><Small Text>わたし<PAPF 1>はな
 <Screen Posiiton to 13,0><Medium Text>フフフ<Normal Text>…<Medium Text> <Normal Text>私が話しても<Small Text>
 <Screen Posiiton to 15,7><Normal Text>いいんだけど…<Medium Text>。
 <Closed caption management data for language: jpn>
@@ -5659,7 +5659,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,13>うんめいてき
 <Screen Posiiton to 12,0><Medium Text>キャップ<Normal Text>と<Medium Text>フリード<Normal Text>の<Medium Text> <Normal Text>運命的な
-<Screen Posiiton to 6,1><Small Text>であはな
+<Screen Posiiton to 6,1><Small Text>であ<PAPF 11>はな
 <Screen Posiiton to 15,1><Normal Text>出会いについて話しま〜す！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5669,7 +5669,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,7>しきゅう
-<Screen Posiiton to 13,0><Medium Text>メンバー<Normal Text>は<Medium Text> <Normal Text>至急<Small Text>あつ
+<Screen Posiiton to 13,0><Medium Text>メンバー<Normal Text>は<Medium Text> <Normal Text>至急<Small Text><PAPF 1>あつ
 <Screen Posiiton to 15,1><Medium Text>ミーティングルーム<Normal Text>に集まるように！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5709,7 +5709,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,4><Small Text>きまわ
+<Screen Posiiton to 6,4><Small Text>き<PAPF 4>まわ
 <Screen Posiiton to 15,0><Normal Text>ま〜だ<Medium Text> <Normal Text>聞いて回ってたのか<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5722,9 +5722,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,3>なかまし
+<Screen Posiiton to 10,3>なかま<PAPF 15>し
 <Screen Posiiton to 12,3><Normal Text>仲間のこと<Medium Text> <Normal Text>もっと知りたい
-<Screen Posiiton to 6,5><Small Text>おもとうぜん
+<Screen Posiiton to 6,5><Small Text>おも<PAPF 6>とうぜん
 <Screen Posiiton to 15,6><Normal Text>って思うのは当然だろ？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5733,14 +5733,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><Small Text>かべしょうじ
+<Screen Posiiton to 6,5><Small Text>かべ<PAPF 7>しょうじ
 <Screen Posiiton to 15,10><Normal Text>壁に<Medium Text>ミミロル <Normal Text>障子に<Medium Text>メタング<Normal Text>！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,6><Small Text>そき
+<Screen Posiiton to 6,6><Small Text>そ<PAPF 4>き
 <Screen Posiiton to 15,7><Normal Text>なれ初め<Medium Text> <Normal Text>気にな<Medium Text>ルンパッパ。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5763,7 +5763,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,7>おし
 <Screen Posiiton to 12,7><Normal Text>教えようじゃないか
-<Screen Posiiton to 6,4><Small Text>おれであ
+<Screen Posiiton to 6,4><Small Text>おれ<PAPF 9>であ
 <Screen Posiiton to 15,8><Normal Text>俺と<Medium Text>キャップ<Normal Text>の出会いを<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5788,9 +5788,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,7>おれきぎょうけんきゅういんや
+<Screen Posiiton to 10,7>おれ<PAPF 2>きぎょう<PAPF 2>けんきゅういん<PAPF 2>や
 <Screen Posiiton to 12,0><Normal Text>あれは<Medium Text> <Normal Text>俺が企業の研究員を辞めて
-<Screen Posiiton to 6,4><Small Text>きゅうかすころ
+<Screen Posiiton to 6,4><Small Text>きゅうか<PAPF 3>す<PAPF 10>ころ
 <Screen Posiiton to 15,8><Normal Text>休暇を過ごしていた頃だ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5876,7 +5876,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,8>おきあいで
+<Screen Posiiton to 10,8>おきあい<PAPF 3>で
 <Screen Posiiton to 12,0><Normal Text>こいつで沖合に出てみるか？<Small Text>
 <Screen Posiiton to 13,1>おおもの
 <Screen Posiiton to 15,1><Normal Text>大物がおるかもしれん<Medium Text>。
@@ -5957,7 +5957,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,6>わか
 <Screen Posiiton to 12,0><Medium Text>（ランドウ）<Normal Text>若いうちは
-<Screen Posiiton to 6,4><Small Text>えものま
+<Screen Posiiton to 6,4><Small Text>えもの<PAPF 3>ま
 <Screen Posiiton to 15,2><Normal Text>ただ<Medium Text> <Normal Text>獲物を待たず<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -5965,7 +5965,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><Small Text>みずかうごえ
+<Screen Posiiton to 6,0><Small Text>みずか<PAPF 1>うご<PAPF 5>え
 <Screen Posiiton to 15,0><Normal Text>自ら動いて得るものよ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6212,7 +6212,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,1>むかしたんにんせんせい
+<Screen Posiiton to 13,1>むかし<PAPF 1>たんにん<PAPF 10>せんせい
 <Screen Posiiton to 15,2><Normal Text>昔<Medium Text> <Normal Text>担任だった<Medium Text> ルッカ<Normal Text>先生だった＞
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6285,7 +6285,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,23>がっこう
 <Screen Posiiton to 12,23><Normal Text>学校は？<Small Text>
-<Screen Posiiton to 13,1>こそだおつ
+<Screen Posiiton to 13,1>こそだ<PAPF 5>お<PAPF 3>つ
 <Screen Posiiton to 15,0><Normal Text>子育てが落ち着いたら<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6305,13 +6305,13 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,9>おれそうぞう
+<Screen Posiiton to 13,9>おれ<PAPF 5>そうぞう
 <Screen Posiiton to 15,9><Normal Text>俺には<Medium Text> <Normal Text>想像もできない<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,9>かいしゃや
+<Screen Posiiton to 13,9>かいしゃ<PAPF 2>や
 <Screen Posiiton to 15,0><Normal Text>どうして<Medium Text> <Normal Text>会社<Medium Text> <Normal Text>辞めちゃったの？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6372,16 +6372,16 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9>けんきゅうしつこ
+<Screen Posiiton to 10,9>けんきゅうしつ<PAPF 2>こ
 <Screen Posiiton to 12,9><Normal Text>研究室に籠もるのは
-<Screen Posiiton to 6,5><Small Text>しょうあ
+<Screen Posiiton to 6,5><Small Text>しょう<PAPF 2>あ
 <Screen Posiiton to 15,10><Normal Text>性に合いませんでした<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><Small Text>すけんきゅう
+<Screen Posiiton to 6,5><Small Text>す<PAPF 4>けんきゅう
 <Screen Posiiton to 15,0><Normal Text>だったら<Medium Text> <Normal Text>好きに研究したら？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6394,7 +6394,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3>おれてんさいはかせ
+<Screen Posiiton to 13,3>おれ<PAPF 5>てんさい<PAPF 4>はかせ
 <Screen Posiiton to 15,3><Normal Text>俺はね<Medium Text> <Normal Text>天才<Medium Text>ポケモン<Normal Text>博士なんです<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6421,7 +6421,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,0>べつ
 <Screen Posiiton to 12,0><Normal Text>別に<Medium Text>。
-<Screen Posiiton to 6,2><Small Text>はじゆうみ
+<Screen Posiiton to 6,2><Small Text>は<PAPF 5>じゆう<PAPF 3>み
 <Screen Posiiton to 15,1><Normal Text>晴れて自由の身になれたんだ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6430,14 +6430,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,13>きらくく
+<Screen Posiiton to 13,13>きらく<PAPF 3>く
 <Screen Posiiton to 15,1><Normal Text>しばらくは<Medium Text> <Normal Text>気楽に暮らしますよ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,6>あしたあさじかん
+<Screen Posiiton to 10,6>あした<PAPF 2>あさ<PAPF 2>じかん
 <Screen Posiiton to 12,0><Normal Text>よし<Medium Text> <Normal Text>明日の朝<Medium Text> <Normal Text>時間ある？<Small Text>
 <Screen Posiiton to 15,17><Normal Text>えっ？
 <Closed caption management data for language: jpn>
@@ -6446,9 +6446,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,11>いまきみ
+<Screen Posiiton to 10,11>いま<PAPF 2>きみ
 <Screen Posiiton to 12,2><Medium Text>フリード<Normal Text>くん<Medium Text> <Normal Text>今の君に
-<Screen Posiiton to 6,2><Small Text>あこ
+<Screen Posiiton to 6,2><Small Text>あ<PAPF 11>こ
 <Screen Posiiton to 15,3><Normal Text>会ってほしい子がいるの<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6460,7 +6460,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,23>じかん
 <Screen Posiiton to 12,7><Normal Text>ねみぃ…<Medium Text> <Normal Text>こんな時間に
-<Screen Posiiton to 6,4><Small Text>だれあ
+<Screen Posiiton to 6,4><Small Text>だれ<PAPF 3>あ
 <Screen Posiiton to 15,8><Normal Text>誰と会おうってんだ？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6505,14 +6505,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><Small Text>さいきんあたゆうめいこ
+<Screen Posiiton to 6,0><Small Text>さいきん<PAPF 5>あた<PAPF 4>ゆうめい<PAPF 3>こ
 <Screen Posiiton to 15,0><Normal Text>最近<Medium Text> <Normal Text>この辺りで有名な子<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,5>おれあ
+<Screen Posiiton to 10,5>おれ<PAPF 3>あ
 <Screen Posiiton to 12,5><Normal Text>俺に会わせたいって<Medium Text> ピカチュウ<Normal Text>？
 <Screen Posiiton to 7,0>そう<Medium Text>。
 <clear screen>
@@ -6527,9 +6527,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,4>わるせんせい
+<Screen Posiiton to 10,4>わる<PAPF 5>せんせい
 <Screen Posiiton to 12,4><Normal Text>悪いが<Medium Text> <Normal Text>先生<Medium Text> ピカチュウ<Normal Text>のことなら
-<Screen Posiiton to 6,6><Small Text>おれしつ
+<Screen Posiiton to 6,6><Small Text>おれ<PAPF 3>し<PAPF 3>つ
 <Screen Posiiton to 15,12><Normal Text>俺は知り尽くしてる<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6538,7 +6538,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,0>せいたいとくちょう
+<Screen Posiiton to 10,0>せいたい<PAPF 2>とくちょう
 <Screen Posiiton to 12,0><Normal Text>生態も特徴も<Small Text>
 <Screen Posiiton to 13,1>つか
 <Screen Posiiton to 15,1><Normal Text>使えるわざだって…<Medium Text>。
@@ -6551,7 +6551,7 @@
 <Screen Posiiton to 10,0>いまさら
 <Screen Posiiton to 12,0><Normal Text>今更…<Medium Text>。
 <Screen Posiiton to 5,24><Small Text>しず
-<Screen Posiiton to 13,24><Normal Text>静かに<Medium Text>。<Normal Text>えっ？
+<Screen Posiiton to 13,24><Normal Text>静かに<Medium Text>。<PAPF 5><Normal Text>えっ？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6726,7 +6726,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,11>そらと
+<Screen Posiiton to 11,11>そら<PAPF 3>と
 <Screen Posiiton to 13,0><Medium Text>（フリード）<Normal Text>よう<Medium Text> <Normal Text>空を飛べるなんて
 <Screen Posiiton to 7,2>すごいな！
 <Closed caption management data for language: jpn>
@@ -6741,7 +6741,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,2>おれ
 <Screen Posiiton to 12,2><Normal Text>俺は<Medium Text> フリード。
-<Screen Posiiton to 6,8><Small Text>みてんさいはかせ
+<Screen Posiiton to 6,8><Small Text>み<PAPF 5>てんさい<PAPF 4>はかせ
 <Screen Posiiton to 15,3><Normal Text>こう見えて<Medium Text> <Normal Text>天才<Medium Text>ポケモン<Normal Text>博士だ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6749,7 +6749,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7>まえし
+<Screen Posiiton to 13,7>まえ<PAPF 14>し
 <Screen Posiiton to 15,5><Normal Text>お前のこと<Medium Text> <Normal Text>もっと知りたい<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6793,7 +6793,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,12><Normal Text>なに<Medium Text> <Normal Text>こんなの<Small Text>
-<Screen Posiiton to 13,13>ぜんぜんたい
+<Screen Posiiton to 13,13>ぜんぜん<PAPF 1>たい
 <Screen Posiiton to 15,13><Normal Text>全然<Medium Text> <Normal Text>大したこと…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6833,7 +6833,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,8><Small Text>おれあきら
+<Screen Posiiton to 6,8><Small Text>おれ<PAPF 2>あきら
 <Screen Posiiton to 15,16><Normal Text>俺は諦めないぞ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6898,7 +6898,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 11,17><Medium Text>ピ<Normal Text>…<Medium Text>。
-<Screen Posiiton to 6,3><Small Text>なかなおと
+<Screen Posiiton to 6,3><Small Text>なか<PAPF 3>な<PAPF 2>おと
 <Screen Posiiton to 15,0><Medium Text>（<Normal Text>お腹の鳴る音<Medium Text>）
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6917,7 +6917,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,0>えんりょ
 <Screen Posiiton to 12,0><Normal Text>遠慮せず
-<Screen Posiiton to 6,1><Small Text>すた
+<Screen Posiiton to 6,1><Small Text>す<PAPF 11>た
 <Screen Posiiton to 15,1><Normal Text>好きなものを食べてくれ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -6945,14 +6945,14 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 12,4><Normal Text>きっと<Medium Text> <Normal Text>そのしっぽにも<Small Text>
-<Screen Posiiton to 13,5>なにひみつ
+<Screen Posiiton to 13,5>なに<PAPF 3>ひみつ
 <Screen Posiiton to 15,5><Normal Text>何か秘密が…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3>なかなおと
+<Screen Posiiton to 13,3>なか<PAPF 3>な<PAPF 2>おと
 <Screen Posiiton to 15,0><Medium Text>（<Normal Text>お腹の鳴る音<Medium Text>）
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7018,7 +7018,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><Small Text>えいようだいじ
+<Screen Posiiton to 6,0><Small Text>えいよう<PAPF 14>だいじ
 <Screen Posiiton to 15,0><Normal Text>栄養をとるのだって大事だぞ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7044,7 +7044,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><Small Text>すきら
+<Screen Posiiton to 6,5><Small Text>す<PAPF 2>きら
 <Screen Posiiton to 15,9><Normal Text>好き嫌いは<Medium Text> <Normal Text>なしと…<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -7057,7 +7057,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,11>きょうてんき
+<Screen Posiiton to 13,11>きょう<PAPF 7>てんき
 <Screen Posiiton to 15,2><Medium Text>ピカチュウ<Normal Text>！<Medium Text> <Normal Text>今日も<Medium Text> <Normal Text>いい天気だな！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7179,14 +7179,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3>けんきゅうじゅんちょう
+<Screen Posiiton to 13,3>けんきゅう<PAPF 2>じゅんちょう
 <Screen Posiiton to 15,3><Normal Text>研究は<Medium Text> <Normal Text>順調みたいね<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,11>みおも
+<Screen Posiiton to 13,11>み<PAPF 7>おも
 <Screen Posiiton to 15,6><Normal Text>これ見て<Medium Text> <Normal Text>そう思いますか？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7231,7 +7231,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,4><Small Text>みい
+<Screen Posiiton to 6,4><Small Text>み<PAPF 7>い
 <Screen Posiiton to 15,0><Normal Text><DRCS group 1 id: 33><Medium Text>（ルッカ）<Normal Text>見たから言ってるのよ<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -7282,16 +7282,16 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7>かんさつなに
+<Screen Posiiton to 13,7>かんさつ<PAPF 5>なに
 <Screen Posiiton to 15,0><Normal Text><DRCS group 1 id: 33><Medium Text>（ルッカ）<Normal Text>観察して<Medium Text> <Normal Text>何かわかった？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,21>からだかる
+<Screen Posiiton to 10,21>からだ<PAPF 1>かる
 <Screen Posiiton to 12,9><Normal Text>ええ<Medium Text>。 アイツ<Normal Text>は<Medium Text> <Normal Text>体が軽くて
-<Screen Posiiton to 6,5><Small Text>あしちから
+<Screen Posiiton to 6,5><Small Text>あし<PAPF 2>ちから
 <Screen Posiiton to 15,10><Normal Text>足の力も<Medium Text>ハンパ<Normal Text>ない<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7393,7 +7393,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,2><Small Text>そらとひけつ
+<Screen Posiiton to 6,2><Small Text>そら<PAPF 3>と<PAPF 5>ひけつ
 <Screen Posiiton to 15,4><Normal Text>空を飛べる秘訣がありました<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7481,7 +7481,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,6>でんきからだお
+<Screen Posiiton to 10,6>でんき<PAPF 3>からだ<PAPF 2>お
 <Screen Posiiton to 12,6><Normal Text>電気を体に帯びて<Small Text>
 <Screen Posiiton to 13,9>とっしん
 <Screen Posiiton to 15,9><Normal Text>突進するわざで<DRCS group 1 id: 33>
@@ -7490,9 +7490,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9>はしまわ
+<Screen Posiiton to 10,9>はし<PAPF 2>まわ
 <Screen Posiiton to 12,5><Medium Text>グルグル<Normal Text>走り回って<Small Text>
-<Screen Posiiton to 13,13>うずはっせい
+<Screen Posiiton to 13,13>うず<PAPF 2>はっせい
 <Screen Posiiton to 15,6><Medium Text>エネルギー<Normal Text>の渦を発生させる<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7538,9 +7538,9 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,10>きたあ
+<Screen Posiiton to 10,10>きた<PAPF 3>あ
 <Screen Posiiton to 12,4><Medium Text>アイツ<Normal Text>は<Medium Text> <Normal Text>鍛え上げた<Small Text>
-<Screen Posiiton to 13,19>とあ
+<Screen Posiiton to 13,19>と<PAPF 3>あ
 <Screen Posiiton to 15,6><Normal Text>しっぽを<Medium Text>バネ<Normal Text>に飛び上がり<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7548,14 +7548,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7>うずなかいっきじょうしょう
+<Screen Posiiton to 13,7>うず<PAPF 2>なか<PAPF 2>いっき<PAPF 3>じょうしょう
 <Screen Posiiton to 15,7><Normal Text>渦の中を一気に上昇！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,5>そらう
+<Screen Posiiton to 11,5>そら<PAPF 3>う
 <Screen Posiiton to 13,5><Normal Text>空に浮かぶことが
 <Screen Posiiton to 7,4>できるってわけだ<Medium Text>。
 <Closed caption management data for language: jpn>
@@ -7692,7 +7692,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9>すこあいだ
+<Screen Posiiton to 10,9>すこ<PAPF 4>あいだ
 <Screen Posiiton to 12,9><Normal Text>少しの間なら<Small Text>
 <Screen Posiiton to 13,11>ふゆう
 <Screen Posiiton to 15,10><Normal Text>浮遊できるみたいです<Medium Text>。
@@ -7797,9 +7797,9 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,9>なんかいしっぱい
+<Screen Posiiton to 10,9>なんかい<PAPF 1>しっぱい
 <Screen Posiiton to 12,0><Normal Text><DRCS group 1 id: 33>きっと<Medium Text> <Normal Text>何回<Medium Text> <Normal Text>失敗しても<Small Text>
-<Screen Posiiton to 13,1>あきらつづ
+<Screen Posiiton to 13,1>あきら<PAPF 11>つづ
 <Screen Posiiton to 15,1><Normal Text>諦めず<Medium Text> チャレンジ<Normal Text>し続けたんだろう<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7808,7 +7808,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,17>くらおれ
+<Screen Posiiton to 10,17>くら<PAPF 5>おれ
 <Screen Posiiton to 12,11><Normal Text>それに比べて<Medium Text> <Normal Text>俺は
 <Screen Posiiton to 6,10><Small Text>てんさいはかせ
 <Screen Posiiton to 15,14><Normal Text>なにが天才博士だ<Medium Text>。
@@ -7871,7 +7871,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><Small Text>きみであ
+<Screen Posiiton to 6,0><Small Text>きみ<PAPF 11>であ
 <Screen Posiiton to 15,0><Normal Text>君と<Medium Text> ピカチュウ<Normal Text>が出会えて<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -7943,7 +7943,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,1><Small Text>しょうらいたのわかもの
+<Screen Posiiton to 6,1><Small Text>しょうらい<PAPF 1>たの<PAPF 6>わかもの
 <Screen Posiiton to 15,2><Normal Text>将来が楽しみな若者かな<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8010,7 +8010,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,13>おれかんさつつづ
+<Screen Posiiton to 13,13>おれ<PAPF 3>かんさつ<PAPF 2>つづ
 <Screen Posiiton to 15,6><Normal Text>＜<Medium Text>フリード：<Normal Text>俺は<Medium Text> <Normal Text>観察を続けた<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8036,7 +8036,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,3>やせいどうし
+<Screen Posiiton to 13,3>やせい<PAPF 4>どうし
 <Screen Posiiton to 15,2><Normal Text>野生<Medium Text>ポケモン<Normal Text>同士の<Medium Text> バトル<Normal Text>でもない<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8044,9 +8044,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,5>といちにちいっかい
+<Screen Posiiton to 10,5>と<PAPF 7>いちにちいっかい
 <Screen Posiiton to 12,4><Normal Text>飛ぶのは<Medium Text> <Normal Text>一日１回
-<Screen Posiiton to 6,3><Small Text>きよるあ
+<Screen Posiiton to 6,3><Small Text>き<PAPF 6>よる<PAPF 3>あ
 <Screen Posiiton to 15,5><Normal Text>決まって夜が明けたとき<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8103,14 +8103,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,3><Small Text>とわけ
+<Screen Posiiton to 6,3><Small Text>と<PAPF 6>わけ
 <Screen Posiiton to 15,5><Normal Text>飛びたい訳はなんなんだ？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,7>おれし
+<Screen Posiiton to 13,7>おれ<PAPF 10>し
 <Screen Posiiton to 15,0><Normal Text>＜<Medium Text>フリード：<Normal Text>俺は<Medium Text> <Normal Text>もっと知りたかった<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8147,7 +8147,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,13>かんさつぶんせき
+<Screen Posiiton to 13,13>かんさつ<PAPF 6>ぶんせき
 <Screen Posiiton to 15,13><Normal Text>観察に<Medium Text> データ<Normal Text>分析…<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -8209,7 +8209,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,2><Small Text>ひさほんき
+<Screen Posiiton to 6,2><Small Text>ひさ<PAPF 8>ほんき
 <Screen Posiiton to 15,4><Normal Text>久しぶりに本気でいこうぜ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8268,14 +8268,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,6><Small Text>たかたか
+<Screen Posiiton to 6,6><Small Text>たか<PAPF 11>たか
 <Screen Posiiton to 15,6><Normal Text>もっと高く！<Medium Text> <Normal Text>もっと高く！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,5>おれのぼ
+<Screen Posiiton to 10,5>おれ<PAPF 6>のぼ
 <Screen Posiiton to 12,5><Normal Text>俺たちも昇るんだ！<Medium Text> リザードン<Normal Text>！
 <Screen Posiiton to 7,1><Medium Text>ピカピカ<Normal Text>…<Medium Text> ピカピカピカピカ<Normal Text>…<Medium Text>。
 <Closed caption management data for language: jpn>
@@ -8348,7 +8348,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,21>おれ
 <Screen Posiiton to 12,12><Normal Text>すげえ…<Medium Text> <Normal Text>俺たち<Small Text>
-<Screen Posiiton to 13,13>たいようたか
+<Screen Posiiton to 13,13>たいよう<PAPF 6>たか
 <Screen Posiiton to 15,13><Normal Text>太陽よりも高いぞ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8363,7 +8363,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,9>けしきみ
+<Screen Posiiton to 13,9>けしき<PAPF 3>み
 <Screen Posiiton to 15,4><Normal Text>この景色が見たくて<Medium Text> アイツ<Normal Text>は…<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8482,13 +8482,13 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,8><Small Text>まえおれ
+<Screen Posiiton to 6,8><Small Text>まえ<PAPF 3>おれ
 <Screen Posiiton to 15,14><Normal Text>お前は<Medium Text> <Normal Text>俺たちに<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,12>みけしき
+<Screen Posiiton to 10,12>み<PAPF 13>けしき
 <Screen Posiiton to 12,11><Normal Text>見たこともない景色を<Small Text>
 <Screen Posiiton to 13,19>み
 <Screen Posiiton to 15,18><Normal Text>見せてくれた<Medium Text>。
@@ -8503,30 +8503,30 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,10><Small Text>せかいひろ
+<Screen Posiiton to 6,10><Small Text>せかい<PAPF 3>ひろ
 <Screen Posiiton to 15,19><Normal Text>世界は<Medium Text> <Normal Text>広い<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
 <Screen Posiiton to 5,9><Small Text>し
-<Screen Posiiton to 13,9><Normal Text>まだまだ知らないことがたくさんある<Medium Text>。
+<Screen Posiiton to 13,9><Normal Text>まだまだ知らないことが<PAPF 9>たくさんある<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,11>おれいっしょこ
+<Screen Posiiton to 13,11>おれ<PAPF 2>いっしょ<PAPF 3>こ
 <Screen Posiiton to 15,11><Normal Text>俺と一緒に来ないか？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,10>たいようたかのぼ
+<Screen Posiiton to 10,10>たいよう<PAPF 6>たか<PAPF 2>のぼ
 <Screen Posiiton to 12,10><Normal Text>太陽よりも高く昇って<Small Text>
-<Screen Posiiton to 13,11>せかいじゅうみまわ
+<Screen Posiiton to 13,11>せかいじゅう<PAPF 3>み<PAPF 2>まわ
 <Screen Posiiton to 15,11><Normal Text>世界中を見て回ろう！
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -8554,9 +8554,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,8>あらみらいむ
+<Screen Posiiton to 10,8>あら<PAPF 5>みらい<PAPF 3>む
 <Screen Posiiton to 12,1><Normal Text>そして<Medium Text> <Normal Text>新たな未来に向かって<Small Text>
-<Screen Posiiton to 13,17>おれうごだ
+<Screen Posiiton to 13,17>おれ<PAPF 2>うご<PAPF 3>だ
 <Screen Posiiton to 15,17><Normal Text>俺は動き出す＞
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8573,7 +8573,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,5>ごうおれあず
+<Screen Posiiton to 13,5>ごう<PAPF 2>おれ<PAPF 2>あず
 <Screen Posiiton to 15,2><Medium Text>アサギ<Normal Text>号を俺に預けてくれないか？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8581,7 +8581,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,6><Small Text>であめぐ
+<Screen Posiiton to 6,6><Small Text>であ<PAPF 5>めぐ
 <Screen Posiiton to 15,0><Normal Text>おぬし<Medium Text> <Normal Text>よき出会いに恵まれたか<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8595,7 +8595,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,17>よだ
+<Screen Posiiton to 10,17>よ<PAPF 3>だ
 <Screen Posiiton to 12,8><Normal Text>いきなり呼び出して<Small Text>
 <Screen Posiiton to 13,11>しごとちゅう
 <Screen Posiiton to 15,11><Normal Text>仕事中なんだけど<Medium Text>。
@@ -8608,7 +8608,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,13>まえうでみこ
+<Screen Posiiton to 10,13>まえ<PAPF 2>うで<PAPF 3>みこ
 <Screen Posiiton to 12,7><Medium Text>オリオ <Normal Text>お前の腕を見込んでの
 <Screen Posiiton to 6,9><Small Text>ねが
 <Screen Posiiton to 15,16><Normal Text>お願いだ<Medium Text>。
@@ -8620,7 +8620,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,8>ごう
 <Screen Posiiton to 12,0><Normal Text>この<Medium Text> アサギ<Normal Text>号を<Small Text>
-<Screen Posiiton to 13,1>せかいいちひこうせんかいぞう
+<Screen Posiiton to 13,1>せかいいち<PAPF 4>ひこうせん<PAPF 2>かいぞう
 <Screen Posiiton to 15,1><Normal Text>世界一の飛行船に改造してくれ！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8671,7 +8671,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,11><Small Text>ゆうかんすがた
+<Screen Posiiton to 6,11><Small Text>ゆうかん<PAPF 2>すがた
 <Screen Posiiton to 15,15><Normal Text>なんて<Medium Text> <Normal Text>勇敢な姿<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8694,7 +8694,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0>どうだ<Medium Text> ピカチュウ<Small Text>い
+<Screen Posiiton to 6,0>どうだ<Medium Text> ピカチュウ<PAPF 11><Small Text>い
 <Screen Posiiton to 15,1><Normal Text>これなら<Medium Text> <Normal Text>どこへだって行けるぞ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8726,7 +8726,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,0><Small Text>すこはら
+<Screen Posiiton to 6,0><Small Text>すこ<PAPF 15>はら
 <Screen Posiiton to 15,0><Normal Text>少しずつ<Medium Text> <Normal Text>ちゃんと払うさ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8776,7 +8776,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,11>わたしふねの
+<Screen Posiiton to 13,11>わたし<PAPF 1>ふね<PAPF 3>の
 <Screen Posiiton to 15,11><Normal Text>私も船に乗せて<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8784,7 +8784,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
 <Screen Posiiton to 5,2><Medium Text>オリオ<Normal Text>…<Medium Text>。
-<Screen Posiiton to 6,8><Small Text>ふねひつよう
+<Screen Posiiton to 6,8><Small Text>ふね<PAPF 9>ひつよう
 <Screen Posiiton to 15,3><Medium Text>（オリオ）<Normal Text>船の<Medium Text>メンテナンス <Normal Text>必要でしょ？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8792,8 +8792,8 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 11,7>いましごと
-<Screen Posiiton to 13,7><Normal Text>今の仕事<Small Text>たいくつ
+<Screen Posiiton to 11,7>いま<PAPF 3>しごと
+<Screen Posiiton to 13,7><Normal Text>今の仕事<Small Text><PAPF 1>たいくつ
 <Screen Posiiton to 15,8><Normal Text>ちょうど退屈してたんだ<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -8930,7 +8930,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 6,5><Small Text>たかと
+<Screen Posiiton to 6,5><Small Text>たか<PAPF 3>と
 <Screen Posiiton to 15,0><Normal Text>どこまでも高く飛んでいこう！
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -9006,7 +9006,7 @@
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
 <Screen Posiiton to 10,12>ふね
 <Screen Posiiton to 12,1><Normal Text>＜<Medium Text>フリード：<Normal Text>この船で
-<Screen Posiiton to 6,4><Small Text>せかいじゆうめぐ
+<Screen Posiiton to 6,4><Small Text>せかい<PAPF 3>じゆう<PAPF 2>めぐ
 <Screen Posiiton to 15,7><Normal Text>世界を自由に巡りながら<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -9014,9 +9014,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,2>ふしぎふしぎ
+<Screen Posiiton to 10,2>ふしぎ<PAPF 5>ふしぎ
 <Screen Posiiton to 12,1><Normal Text>不思議な不思議な
-<Screen Posiiton to 6,8><Small Text>なぞお
+<Screen Posiiton to 6,8><Small Text>なぞ<PAPF 3>お
 <Screen Posiiton to 15,10><Medium Text>ポケモン<Normal Text>の謎を追いかける<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -9025,7 +9025,7 @@
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
 <Screen Posiiton to 5,0><Small Text>おれ
-<Screen Posiiton to 13,0><Normal Text>俺と<Medium Text>キャップ<Normal Text>は<Small Text>おおぞらま
+<Screen Posiiton to 13,0><Normal Text>俺と<Medium Text>キャップ<Normal Text>は<Small Text><PAPF 3>おおぞら<PAPF 3>ま
 <Screen Posiiton to 15,4><Normal Text>こうして<Medium Text> <Normal Text>大空に舞ったのさ＞
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -9058,7 +9058,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 13,13><yellow>かあせんせい
+<Screen Posiiton to 13,13><yellow>かあ<PAPF 6>せんせい
 <Screen Posiiton to 15,11><Normal Text>お母さんが先生なの<Medium Text>！？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -9122,14 +9122,14 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 9,5>おれであ
+<Screen Posiiton to 9,5>おれ<PAPF 10>であ
 <Screen Posiiton to 11,5><Normal Text>俺と<Medium Text>キャップ<Normal Text>は<Medium Text> <Normal Text>出会っていない<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 9,5>まえかあおんじん
+<Screen Posiiton to 9,5>まえ<PAPF 4>かあ<PAPF 7>おんじん
 <Screen Posiiton to 11,3><Normal Text>お前のお母さんは<Medium Text> <Normal Text>恩人なんだ<Medium Text>。
 <clear screen>
 <Closed caption management data for language: jpn>
@@ -9150,9 +9150,9 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 6,2>とどうが
+<Screen Posiiton to 6,2>と<PAPF 4>どうが
 <Screen Posiiton to 8,1><Normal Text>撮った動画
-<Screen Posiiton to 4,1><Small Text>へんしゅうお
+<Screen Posiiton to 4,1><Small Text>へんしゅう<PAPF 1>お
 <Screen Posiiton to 11,2><Normal Text>編集<Medium Text> <Normal Text>終わったけど<Medium Text> <Normal Text>どうする？
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -9192,7 +9192,7 @@
 <Closed caption management data for language: jpn>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 10,3><yellow>わたしいみ
+<Screen Posiiton to 10,3><yellow>わたし<PAPF 11>いみ
 <Screen Posiiton to 12,3><Normal Text>私<Medium Text> <Normal Text>ここにいる意味がわかった<Medium Text>。
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -9292,7 +9292,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c"><Small Text>
-<Screen Posiiton to 8,17><yellow>わたしであ
+<Screen Posiiton to 8,17><yellow>わたし<PAPF 2>であ
 <Screen Posiiton to 10,2><Medium Text>ライジングボルテッカーズ<Normal Text>が<Medium Text> <Normal Text>私と出会って<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>
@@ -9355,7 +9355,7 @@
 </DRCS>
 <clear screen>
 <CS:"7 S"><CS:"620;480 V"><CS:"170;30 _"><CS:"4 X"><CS:"24 Y"><CS:"36;36 W"><CS:"8 n"><CS:"1;0000 c">
-<Screen Posiiton to 4,3><Small Text><yellow>こんどかああ
+<Screen Posiiton to 4,3><Small Text><yellow>こんど<PAPF 4>かあ<PAPF 7>あ
 <Screen Posiiton to 11,6><Normal Text>今度<Medium Text> <Normal Text>お母さんに会ったら<DRCS group 1 id: 33>
 <Closed caption management data for language: jpn>
 <Closed caption management data for language: jpn>

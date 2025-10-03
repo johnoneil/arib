@@ -458,6 +458,11 @@ def position_set(formatter, p, timestamp):
     formatter.new_run(pos, formatter._current_textsize)
 
 
+def active_position_forward(formatter, papf, timestamp):
+    """Move the cursor forward n spaces"""
+    formatter.position_forward(papf.count, formatter._current_textsize)
+
+
 a_regex = re.compile(rb'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">')
 
 
@@ -487,13 +492,13 @@ def clear_screen(formatter, cs, timestamp):
     start_time_s = formatter._elapsed_time_s
     end_time_s = timestamp
     if formatter._elapsed_time_s == timestamp:
-        start_time_s = formatter._last_end_time
+        start_time_s = formatter._last_end_time_s
         end_time_s = start_time_s + formatter._tmax
     elif timestamp - formatter._elapsed_time_s > formatter._tmax:
         end_time_s = formatter._elapsed_time_s + formatter._tmax
 
     formatter._elapsed_time_s = timestamp
-    formatter._last_end_time = end_time_s
+    formatter._last_end_time_s = end_time_s
     formatter._current_textsize = TextSize.NORMAL
     formatter._current_text_color = TextColor.WHITE
     start_time = asstime(start_time_s)
@@ -518,6 +523,7 @@ class ASSFormatter(object):
         control_characters.CS: clear_screen,
         control_characters.CSI: control_character,  # {\pos(<X>,<Y>)}
         # control_characters.COL,
+        control_characters.PAPF: active_position_forward,
         control_characters.BKF: black,  # {\c&H000000&} \c&H<bb><gg><rr>&
         control_characters.RDF: red,  # {\c&H0000ff&}
         control_characters.GRF: green,  # {\c&H00ff00&}
@@ -583,6 +589,14 @@ class ASSFormatter(object):
     def new_run(self, pos, text_size: TextSize):
         # basic normal text size mid-line
         self._accumulated_text_runs.append(TextRun(pos))
+
+    def position_forward(self, n, text_size: TextSize):
+        # TODO: for now we'll pad spaces, but we really
+        # should start a new run at the location.
+        # Note we move n*2 spaces because for CJK fonts ascii spaces are typically
+        # half width.
+        spaces = " " * (n * 2)
+        self.add_char(spaces)
 
     def add_char(self, ch: str):
         glyph = TextGlyph(ch, self._current_text_color, self._current_textsize)
