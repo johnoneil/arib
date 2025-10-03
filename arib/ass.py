@@ -14,6 +14,7 @@ file.
 """
 from pathlib import Path
 from enum import Enum
+import copy
 from dataclasses import dataclass
 from typing import List
 import unicodedata
@@ -153,24 +154,57 @@ class TextColor(Enum):
         return mapping[self.value]
 
 
+def default_text_glyph_width(glyph) -> float:
+    if glyph.size == TextSize.NORMAL:
+        return len(glyph.ch) * (36 + 4)
+    else:
+        # medium and small text are half width
+        return len(glyph.ch) * (36 + 4) / 2.0
+
+
+def drcs_text_glyph_width(glyph) -> float:
+    if glyph.size == TextSize.NORMAL:
+        return 36 + 4
+    else:
+        # medium and small text are half width
+        return (36 + 4) / 2.0
+
+
 @dataclass
 class TextGlyph:
     ch: str
     color: TextColor
     size: TextSize
 
+    def __init__(self, ch, color, size, width_impl=default_text_glyph_width):
+        self.ch = ch
+        self.color = color
+        self.size = size
+        self.width_impl = width_impl
+
 
 class TextRun:
     def __init__(self, pos: Pos):
         self.items: List[TextGlyph] = []
         self.items = []
-        self.pos = pos
+        self.pos = copy.copy(pos)
+        self.end_pos = copy.copy(pos)
 
     def add_glyph(self, glyph: TextGlyph):
         self.items.append(glyph)
+        glyph_size = glyph.width_impl(glyph)
+        self.end_pos._x += glyph_size
 
     def is_small(self) -> bool:
         return all(g.size == TextSize.SMALL for g in self.items)
+
+    @property
+    def UL(self):
+        """Return the position in logical pixels of the end of this line.
+        This is primarily to support line-wrap, that is lines which extend
+        outside the teletext area should be wrapped to a new line.
+        """
+        return self.end_pos
 
     def __str__(self):
         """One TextRun represents one line of .ass file Dialog.
@@ -407,7 +441,7 @@ def drcs(formatter, c, timestamp):
         formatter.add_char("�")
     else:
         drawing_code = ass_draw_drcs_inline(c.glyph)
-        formatter.add_char(drawing_code)
+        formatter.add_char(drawing_code, size_strategy=drcs_text_glyph_width)
 
 
 def black(formatter, k, timestamp):
@@ -598,9 +632,21 @@ class ASSFormatter(object):
         spaces = " " * (n * 2)
         self.add_char(spaces)
 
-    def add_char(self, ch: str):
-        glyph = TextGlyph(ch, self._current_text_color, self._current_textsize)
+    def add_char(self, ch: str, size_strategy=default_text_glyph_width):
+        glyph = TextGlyph(
+            ch, self._current_text_color, self._current_textsize, width_impl=size_strategy
+        )
         if self._accumulated_text_runs:
+            end_pos = self._accumulated_text_runs[-1].end_pos
+            # wrap text into a new text run if we're extending outside the CC area.
+            # we wrap on 5 pixels to the edge or greater
+            if end_pos.x >= self._CCArea._UL.x + self._CCArea._Dimensions.width - 5:
+                new_run_pos = Pos(
+                    self._CCArea._UL.x,
+                    end_pos.y + self._CCArea._CharacterDim.height + self._CCArea._line_spacing,
+                )
+                self.new_run(new_run_pos, self._current_textsize)
+
             self._accumulated_text_runs[-1].add_glyph(glyph)
 
     def get_dialog_text_runs(self, start_time, end_time):
