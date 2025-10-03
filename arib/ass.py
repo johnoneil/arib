@@ -13,6 +13,9 @@ file.
 
 """
 from pathlib import Path
+from enum import Enum
+from dataclasses import dataclass
+from typing import List
 import unicodedata
 import arib.code_set as code_set
 import arib.control_characters as control_characters
@@ -100,30 +103,6 @@ class Pos(object):
         return self._y
 
 
-class Dialog(object):
-    """text and dialog"""
-
-    def __init__(self, s, x=None, y=None):
-        # make sure we always hold text
-        self._s = s.decode("utf-8", "replace") if isinstance(s, (bytes, bytearray)) else str(s)
-        self._x = x
-        self._y = y
-
-    def __iadd__(self, other):
-        if isinstance(other, (bytes, bytearray)):
-            other = other.decode("utf-8", "replace")
-        else:
-            other = str(other)
-        self._s += other
-        return self
-
-    def __len__(self):
-        return len(self._s)
-
-    def __str__(self):
-        return self._s
-
-
 class Size(object):
     """Screen width, height of an area in pixels"""
 
@@ -140,10 +119,102 @@ class Size(object):
         return self._h
 
 
-class TextSize(object):
-    SMALL = 1
-    MEDIUM = 2
-    NORMAL = 3
+class TextSize(Enum):
+    SMALL = "small"
+    MEDIUM = "medium"
+    NORMAL = "normal"
+
+    def __str__(self):
+        return self.value
+
+
+class TextColor(Enum):
+    BLACK = "black"
+    RED = "red"
+    GREEN = "green"
+    BLUE = "blue"
+    YELLOW = "yellow"
+    CYAN = "cyan"
+    MAGENTA = "magenta"
+    WHITE = "white"
+
+    def __str__(self):
+        # Mapping to ASS format BBGGRR
+        mapping = {
+            "black": "&H000000&",
+            "red": "&H0000FF&",
+            "green": "&H00FF00&",
+            "blue": "&HFF0000&",
+            "yellow": "&H00FFFF&",
+            "cyan": "&HFFFF00&",
+            "magenta": "&HFF00FF&",
+            "white": "&HFFFFFF&",
+        }
+        return mapping[self.value]
+
+
+@dataclass
+class TextGlyph:
+    ch: str
+    color: TextColor
+    size: TextSize
+
+
+class TextRun:
+    def __init__(self, pos: Pos):
+        self.items: List[TextGlyph] = []
+        self.items = []
+        self.pos = pos
+
+    def add_glyph(self, glyph: TextGlyph):
+        self.items.append(glyph)
+
+    def is_small(self) -> bool:
+        return all(g.size == TextSize.SMALL for g in self.items)
+
+    def __str__(self):
+        """One TextRun represents one line of .ass file Dialog.
+        We here only generate the text content. the initial tag and start time
+        and end time are added at a higher level of abstraction.
+        """
+        if not self.items:
+            print("WARNING: generating dialog line for empty teletext run.")
+            return ""
+
+        run_is_small = self.is_small()
+        x = self.pos.x
+        y = self.pos.y
+        # HACK: .ass files don't allow us to easily get lines of text to "fill up"
+        # the correct vertical space, anchor the text using /an4 (midpoint) and positon
+        # it as if it "fills up" the row.
+        if run_is_small:
+            y -= (36 + 24) / 4
+        else:
+            y -= (36 + 24) / 2
+        current_text_size = None
+        current_text_color = None
+        output = ""
+        for item in self.items:
+            if current_text_color is None or current_text_size is None:
+                current_text_size = item.size
+                current_text_color = item.color
+                # first item, so we emit color and size and pos
+                output += (
+                    f"{current_text_size},,0000,0000,0000,,{{\\c{current_text_color}}}"
+                    f"{{\\pos({x},{y})}}{{\\an4}}"
+                )
+
+            if current_text_size != item.size:
+                current_text_size = item.size
+                output += f"{{\\r{current_text_size}}}{{\\c{current_text_color}}}"
+
+            if current_text_color != item.color:
+                current_text_color = item.color
+                output += f"{{\\r{current_text_size}}}{{\\c{current_text_color}}}"
+
+            output += item.ch
+        output += "\\N\n"
+        return output
 
 
 class ClosedCaptionArea(object):
@@ -269,28 +340,28 @@ def asstime(seconds):
 def kanji(formatter, k, timestamp):
     formatter.open_file()
     if formatter._current_textsize == TextSize.MEDIUM:
-        formatter._current_lines[-1] += to_halfwidth_katakana_or_punct_char(str(k))
+        c = to_halfwidth_katakana_or_punct_char(str(k))
+        formatter.add_char(c)
     else:
-        formatter._current_lines[-1] += k
-    # print unicode(k)
+        formatter.add_char(str(k))
 
 
 def alphanumeric(formatter, a, timestamp):
     formatter.open_file()
     if formatter._current_textsize == TextSize.MEDIUM:
-        formatter._current_lines[-1] += to_halfwidth_katakana_or_punct_char(str(a))
+        c = to_halfwidth_katakana_or_punct_char(str(a))
+        formatter.add_char(c)
     else:
-        formatter._current_lines[-1] += a
-    # print unicode(a)
+        formatter.add_char(str(a))
 
 
 def hiragana(formatter, h, timestamp):
     formatter.open_file()
     if formatter._current_textsize == TextSize.MEDIUM:
-        formatter._current_lines[-1] += to_halfwidth_katakana_or_punct_char(str(h))
+        c = to_halfwidth_katakana_or_punct_char(str(h))
+        formatter.add_char(c)
     else:
-        formatter._current_lines[-1] += h
-    # print unicode(h)
+        formatter.add_char(str(h))
 
 
 def katakana(formatter, k, timestamp):
@@ -301,103 +372,82 @@ def katakana(formatter, k, timestamp):
     # characters, even in "uniform" width fonts. So this replacement enables us to
     # use a typical CJK font without scaling it to half width for medium.
     if formatter._current_textsize == TextSize.MEDIUM:
-        formatter._current_lines[-1] += to_halfwidth_katakana_or_punct_char(str(k))
+        c = to_halfwidth_katakana_or_punct_char(str(k))
+        formatter.add_char(c)
     else:
-        formatter._current_lines[-1] += k
-    # print unicode(k)
+        formatter.add_char(str(k))
 
 
 def medium(formatter, k, timestamp):
     formatter.open_file()
-    formatter._current_lines[-1] += "{\\rmedium}" + formatter._current_color
-    formatter._current_style = "medium"
     formatter._current_textsize = TextSize.MEDIUM
 
 
 def normal(formatter, k, timestamp):
     formatter.open_file()
-    formatter._current_lines[-1] += "{\\rnormal}" + formatter._current_color
-    formatter._current_style = "normal"
     formatter._current_textsize = TextSize.NORMAL
 
 
 def small(formatter, k, timestamp):
     formatter.open_file()
-    formatter._current_lines[-1] += "{\\rsmall}" + formatter._current_color
-    formatter._current_style = "small"
     formatter._current_textsize = TextSize.SMALL
 
 
 def space(formatter, k, timestamp):
     formatter.open_file()
     if formatter._current_textsize == TextSize.MEDIUM:
-        formatter._current_lines[-1] += to_halfwidth_katakana_or_punct_char(str(" "))
+        c = to_halfwidth_katakana_or_punct_char(str(" "))
+        formatter.add_char(c)
     else:
-        formatter._current_lines[-1] += " "
+        formatter.add_char(" ")
 
 
 def drcs(formatter, c, timestamp):
     if formatter._disable_drcs:
-        formatter._current_lines[-1] += "�"
+        formatter.add_char("�")
     else:
         drawing_code = ass_draw_drcs_inline(c.glyph)
-        formatter._current_lines[-1] += drawing_code
+        formatter.add_char(drawing_code)
 
 
 def black(formatter, k, timestamp):
     formatter.open_file()
-    # {\c&H000000&} \c&H<bb><gg><rr>& {\c&Hffffff&}
-    formatter._current_lines[-1] += r"{\c&H000000&}"
-    formatter._current_color = r"{\c&H000000&}"
+    formatter._current_text_color = TextColor.BLACK
 
 
 def red(formatter, k, timestamp):
-    # {\c&H0000ff&}
     formatter.open_file()
-    formatter._current_lines[-1] += r"{\c&H0000ff&}"
-    formatter._current_color = r"{\c&H0000ff&}"
+    formatter._current_text_color = TextColor.RED
 
 
 def green(formatter, k, timestamp):
-    # {\c&H00ff00&}
     formatter.open_file()
-    formatter._current_lines[-1] += r"{\c&H00ff00&}"
-    formatter._current_color = r"{\c&H00ff00&}"
+    formatter._current_text_color = TextColor.GREEN
 
 
 def yellow(formatter, k, timestamp):
-    # {\c&H00ffff&}
     formatter.open_file()
-    formatter._current_lines[-1] += r"{\c&H00ffff&}"
-    formatter._current_color = r"{\c&H00ffff&}"
+    formatter._current_text_color = TextColor.YELLOW
 
 
 def blue(formatter, k, timestamp):
-    # {\c&Hff0000&}
     formatter.open_file()
-    formatter._current_lines[-1] += r"{\c&Hff0000&}"
-    formatter._current_color = r"{\c&Hff0000&}"
+    formatter._current_text_color = TextColor.BLUE
 
 
 def magenta(formatter, k, timestamp):
-    # {\c&Hff00ff&}
     formatter.open_file()
-    formatter._current_lines[-1] += r"{\c&Hff00ff&}"
-    formatter._current_color = r"{\c&Hff00ff&}"
+    formatter._current_text_color = TextColor.MAGENTA
 
 
 def cyan(formatter, k, timestamp):
-    # {\c&Hffff00&}
     formatter.open_file()
-    formatter._current_lines[-1] += r"{\c&Hffff00&}"
-    formatter._current_color = r"{\c&Hffff00&}"
+    formatter._current_text_color = TextColor.CYAN
 
 
 def white(formatter, k, timestamp):
-    # {\c&Hffffff&}
     formatter.open_file()
-    formatter._current_lines[-1] += r"{\c&Hffffff&}"
-    formatter._current_color = r"{\c&Hffffff&}"
+    formatter._current_text_color = TextColor.WHITE
 
 
 def position_set(formatter, p, timestamp):
@@ -405,10 +455,7 @@ def position_set(formatter, p, timestamp):
     So we have to calculate pixel coordinates (and then sale them)
     """
     pos = formatter._CCArea.RowCol2ScreenPos(p.row, p.col, formatter._current_textsize)
-    line = "{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an1}}".format(
-        color=formatter._current_color, style=formatter._current_style, x=pos.x, y=pos.y
-    )
-    formatter._current_lines.append(Dialog(line))
+    formatter.new_run(pos, formatter._current_textsize)
 
 
 a_regex = re.compile(rb'<CS:"(?P<x>\d{1,4});(?P<y>\d{1,4}) a">')
@@ -424,17 +471,10 @@ def control_character(formatter, csi, timestamp):
         # APS Control Sequences (absolute positioning of text as <CS: 170;389 a> above
         # indicate the LOWER LEFT HAND CORNER of text position.
         # TODO: this code is very fragile and needs better error handling.
-        x = a_match.group("x").decode("ascii")
-        y = a_match.group("y").decode("ascii")
-        # print(f"x type: {type(x)}-->{x}")
-        # print(f"y type: {type(y)}-->{y}")
-        formatter._current_lines.append(
-            Dialog(
-                "{{\\r{style}}}{color}{{\\pos({x},{y})}}{{\\an1}}".format(
-                    color=formatter._current_color, style=formatter._current_style, x=x, y=y
-                )
-            )
-        )
+        x = float(a_match.group("x").decode("ascii"))
+        y = float(a_match.group("y").decode("ascii"))
+        pos = Pos(x, y)
+        formatter.new_run(pos, formatter._current_textsize)
         return
 
 
@@ -442,32 +482,26 @@ pos_regex = r"({\\pos\(\d{1,4},\d{1,4}\)})"
 
 
 def clear_screen(formatter, cs, timestamp):
-
-    if timestamp - formatter._elapsed_time_s > formatter._tmax:
-        end_time = asstime(formatter._elapsed_time_s + formatter._tmax)
-    else:
-        end_time = asstime(timestamp)
-    start_time = asstime(formatter._elapsed_time_s)
-
-    if (
-        len(formatter._current_lines[0]) or len(formatter._current_lines)
-    ) and start_time != end_time:
-        for current_line in reversed(formatter._current_lines):
-            if not len(current_line):
-                continue
-
-            line = "Dialogue: 0,{start_time},{end_time},normal,,0000,0000,0000,,{line}\\N\n".format(
-                start_time=start_time, end_time=end_time, line=current_line._s
-            )
-            # TODO: add option to dump to stdout
-            # print line.encode('utf-8')
-            if formatter._ass_file:
-                formatter._ass_file.write(line)
-            formatter._current_lines = [Dialog("")]
+    # edge case where no timestamp turned up from the .ts file while parsing it,
+    # so we can use the cached end_time of the last subtitle as the start of this one.
+    start_time_s = formatter._elapsed_time_s
+    end_time_s = timestamp
+    if formatter._elapsed_time_s == timestamp:
+        start_time_s = formatter._last_end_time
+        end_time_s = start_time_s + formatter._tmax
+    elif timestamp - formatter._elapsed_time_s > formatter._tmax:
+        end_time_s = formatter._elapsed_time_s + formatter._tmax
 
     formatter._elapsed_time_s = timestamp
+    formatter._last_end_time = end_time_s
     formatter._current_textsize = TextSize.NORMAL
-    formatter._current_color = r"{\c&Hffffff&}"
+    formatter._current_text_color = TextColor.WHITE
+    start_time = asstime(start_time_s)
+    end_time = asstime(end_time_s)
+    runs = formatter.get_dialog_text_runs(start_time, end_time)
+    for run in runs:
+        if formatter._ass_file:
+            formatter._ass_file.write(run)
 
 
 class ASSFormatter(object):
@@ -533,10 +567,9 @@ class ASSFormatter(object):
         self._CCArea = ClosedCaptionArea()
         self._pos = Pos(0, 0)
         self._elapsed_time_s = 0.0
+        self._last_end_time_s = 0.0
         self._ass_file = None
-        self._current_lines = [Dialog("")]
-        self._current_style = "normal"
-        self._current_color = r"{\c&Hffffff&}"
+        self._current_text_color = TextColor.WHITE
         self._current_textsize = TextSize.NORMAL
         self._filename = video_filename
         self._width = width
@@ -545,6 +578,24 @@ class ASSFormatter(object):
         self._verbose = verbose
         self._disable_drcs = disable_drcs
         self._show_debug_grid = show_debug_grid
+        self._accumulated_text_runs: List[TextRun] = []
+
+    def new_run(self, pos, text_size: TextSize):
+        # basic normal text size mid-line
+        self._accumulated_text_runs.append(TextRun(pos))
+
+    def add_char(self, ch: str):
+        glyph = TextGlyph(ch, self._current_text_color, self._current_textsize)
+        if self._accumulated_text_runs:
+            self._accumulated_text_runs[-1].add_glyph(glyph)
+
+    def get_dialog_text_runs(self, start_time, end_time):
+        runs = []
+        prefix = f"Dialogue: 0,{start_time},{end_time},"
+        for run in self._accumulated_text_runs:
+            runs.append(prefix + str(run))
+        self._accumulated_text_runs = []
+        return runs
 
     def open_file(self):
         if not self._ass_file:
@@ -647,6 +698,8 @@ FULL_PUNCT_TO_HALF = {
     "」": "｣",  # U+300D -> U+FF63
     "ー": "ｰ",  # already in KATA map; here for completeness
     "　": " ",  # ideographic space -> ASCII space
+    "（": "(",
+    "）": ")",
 }
 
 COMBINING_DAKUTEN = "\u3099"  # ゙

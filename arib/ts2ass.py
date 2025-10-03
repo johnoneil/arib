@@ -200,7 +200,7 @@ def main():
     parser.add_argument("-v", "--verbose", help="Verbose output.", action="store_true")
     parser.add_argument("-q", "--quiet", help="Does not write to stdout.", action="store_true")
     parser.add_argument(
-        "-t", "--tmax", help="Subtitle display time limit (seconds).", type=int, default=5
+        "-t", "--tmax", help="Subtitle display time limit (seconds).", type=int, default=4
     )
     parser.add_argument(
         "-m",
