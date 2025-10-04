@@ -12,7 +12,6 @@ import argparse
 import traceback
 
 from pathlib import Path
-from sys import exit  # or: import sys
 
 
 from arib.closed_caption import next_data_unit
@@ -49,6 +48,11 @@ DISPLAYED_CC_STATEMENTS = [
     code_set.DRCS14,
     code_set.DRCS15,
     control_characters.APS,
+    control_characters.APB,
+    control_characters.APF,
+    control_characters.APD,
+    control_characters.APU,
+    control_characters.APR,
     control_characters.MSZ,
     control_characters.NSZ,
     control_characters.SP,
@@ -66,6 +70,7 @@ DISPLAYED_CC_STATEMENTS = [
     control_characters.WHF,
     # control_characters.TIME,
     control_characters.HLC,
+    control_characters.PAPF,
 ]
 
 
@@ -111,7 +116,7 @@ def main():
     inpath = Path(infilename)
     if not inpath.is_file():
         print(f"Input filename: {inpath} does not exist.")
-        exit(1)
+        return 1
 
     for data_group in next_data_group(infilename):
         try:
@@ -144,6 +149,7 @@ def main():
         except Exception:
             print("Exception thrown while handling .es datagroup post parsing.")
             traceback.print_exc(file=sys.stdout)
+    return 0
 
 
 if __name__ == "__main__":
