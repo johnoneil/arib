@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
-Module: ts2ass
-Desc: Extract ARIB CCs from an MPEG transport stream and produce an .ass subtitle file..
+Module: ts2srt
+Desc: Extract ARIB CCs from an MPEG transport stream and produce an .srt subtitle file off them.
 Author: John O'Neil
 Email: oneil.john@gmail.com
-DATE: Saturday, May 24th 2014
-UPDATED: Saturday, Jan 12th 2017
-UPDATED: Saturday, Oct 4th, 2025
+DATE: Saturday, Oct 4th 2025
 """
 
 from __future__ import annotations
@@ -28,7 +26,7 @@ from arib.arib_exceptions import FileOpenError
 from arib.mpeg.ts import TS
 from arib.mpeg.ts import ES
 
-from arib.ass import ASSFormatter
+from arib.srt import ASSFormatter as SrtFormatter
 
 
 @dataclass(frozen=True)
@@ -40,11 +38,9 @@ class Config:
     quiet: bool
     tmax: int
     time_offset: float
-    disable_drcs: bool
-    show_debug_grid: bool
 
 
-class TS2ASS:
+class TS2srt:
     def __init__(self, cfg: Config):
         self.cfg = cfg
 
@@ -52,7 +48,7 @@ class TS2ASS:
         self.initial_timestamp: Optional[int] = None
         self.elapsed_time_s: float = 0.0
         self.pid: int = cfg.pid  # may be discovered later from mgmt data if -1
-        self.ass: Optional[ASSFormatter] = None
+        self.srt: Optional[SrtFormatter] = None
 
     # ---- callbacks (former On* functions) ----
 
@@ -88,17 +84,15 @@ class TS2ASS:
                     if not isinstance(data_unit.payload(), StatementBody):
                         continue
 
-                    if not self.ass:
+                    if not self.srt:
                         v = not self.cfg.quiet
-                        self.ass = ASSFormatter(
+                        self.srt = SrtFormatter(
                             tmax=self.cfg.tmax,
                             video_filename=str(self.cfg.outfile),
                             verbose=v,
-                            disable_drcs=self.cfg.disable_drcs,
-                            show_debug_grid=self.cfg.show_debug_grid,
                         )
 
-                    self.ass.format(data_unit.payload().payload(), self.elapsed_time_s)
+                    self.srt.format(data_unit.payload().payload(), self.elapsed_time_s)
 
                 # (Old commented PID detection code retained in spirit by mgmt data branch below)
 
@@ -127,8 +121,9 @@ class TS2ASS:
             # Preserve original behavior: print when we have (or found) a PID
             if not self.cfg.quiet and self.pid >= 0:
                 print(
-                    "Exception thrown while handling DataGroup in ES. This may be due to many factors"
-                    + "such as file corruption or the .ts file using as yet unsupported features."
+                    "Exception thrown while handling DataGroup in ES."
+                    "This may be due to many factors"
+                    "such as file corruption or the .ts file using as yet unsupported features."
                 )
                 traceback.print_exc(file=sys.stdout)
 
@@ -150,7 +145,7 @@ class TS2ASS:
             print(f"*** Sorry. No ARIB subtitle content was found in file: {self.cfg.infile} ***")
             return -1
 
-        if self.ass and not self.ass.file_written() and not self.cfg.quiet:
+        if self.srt and not self.srt.file_written() and not self.cfg.quiet:
             print(
                 "*** Sorry. No nonempty ARIB closed caption content found in file "
                 + str(self.cfg.infile)
@@ -165,12 +160,12 @@ def parse_args(argv=None) -> Config:
     parser = argparse.ArgumentParser(
         description=(
             "Remove ARIB formatted Closed Caption information from an MPEG TS file "
-            "and format the results as a standard .ass subtitle file."
+            "and format the results as a standard .srt subtitle file."
         )
     )
     parser.add_argument("infile", help="Input filename (MPEG2 Transport Stream File)", type=str)
     parser.add_argument(
-        "-o", "--outfile", help="Output filename (.ass subtitle file)", type=str, default=None
+        "-o", "--outfile", help="Output filename (.srt subtitle file)", type=str, default=None
     )
     parser.add_argument(
         "-p",
@@ -191,26 +186,16 @@ def parse_args(argv=None) -> Config:
         "-m",
         "--timeoffset",
         help=(
-            "Shift all time values in generated .ass file"
+            "Shift all time values in generated .srt file"
             "by indicated floating point offset in seconds."
         ),
         type=float,
         default=0.0,
     )
-    parser.add_argument(
-        "--disable-drcs",
-        help="Disable emitting .ass drawing code for runtime (dynamic) DRCS characters.",
-        action="store_true",
-    )
-    parser.add_argument(
-        "--show-debug-grid",
-        help="Generate a character position debug grid visible onscreen.",
-        action="store_true",
-    )
     args = parser.parse_args(argv)
 
     infile = Path(args.infile)
-    outfile = Path(args.outfile) if args.outfile is not None else infile.with_suffix(".ass")
+    outfile = Path(args.outfile) if args.outfile is not None else infile.with_suffix(".srt")
 
     return Config(
         infile=infile,
@@ -220,14 +205,12 @@ def parse_args(argv=None) -> Config:
         quiet=bool(args.quiet),
         tmax=int(args.tmax),
         time_offset=float(args.timeoffset),
-        disable_drcs=bool(args.disable_drcs),
-        show_debug_grid=bool(args.show_debug_grid),
     )
 
 
 def main(argv=None):
     cfg = parse_args(argv)
-    app = TS2ASS(cfg)
+    app = TS2srt(cfg)
     rc = app.run()
     sys.exit(rc)
 
