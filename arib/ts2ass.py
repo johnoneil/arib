@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# vim: set ts=2 expandtab:
+#!/usr/bin/env python3
 """
 Module: ts2ass
 Desc: Extract ARIB CCs from an MPEG transport stream and produce an .ass subtitle file off them.

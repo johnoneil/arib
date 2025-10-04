@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# vim: set ts=2 expandtab:
+#!/usr/bin/env python3
 """
 Module: autosub.py
 Desc: Extract CCs from .ts file-->translate via bing-->output .ass subtitle file
