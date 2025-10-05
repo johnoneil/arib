@@ -72,7 +72,7 @@ def ass_draw_dialogue(path, p_scale=1, fscx=100, fscy=100, anchor=1):
     return f"{{\\an{anchor}\\p{p_scale}}}" f"{path}{{\\p0}}"
 
 
-def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 2) -> str:
+def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 0) -> str:
     """
     Emit a DRCS vector drawing that inherits the CURRENT ASS state:
     - inherits \1c (primary color), \1a (alpha), \bord, \\shad, etc.
@@ -81,7 +81,7 @@ def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 2) -> str:
     - optionally pads with N spaces after the drawing
 
     Example use (inline):
-      "{\\c&H00FF00&}" + ass_draw_drcs_inline(glyph, pad_spaces=2) + "お前たちは"
+      "{\\c&H00FF00&}" + ass_draw_drcs_inline(glyph, pad_spaces=0) + "お前たちは"
     """
     bmp = drcs_unpack_to_bitmap(glyph.width, glyph.height, glyph.bitmap, depth=glyph.depth_bits)
     path = bitmap_to_ass_path(bmp, alpha_threshold=1)
@@ -348,8 +348,8 @@ def rectangles_dialog_union(
     start_s: float,
     end_s: float,
     *,
-    pad_x: int = 8,
-    pad_y: int = 6,
+    pad_x: int = 0,
+    pad_y: int = 0,
     alpha: int = 0x80,  # 0x00 opaque .. 0xFF invisible
     color_bgr: str = "&H000000&",
     style: str = "Default",
@@ -840,7 +840,7 @@ class ASSFormatter(object):
         start_time = asstime(start_time_s)
         end_time = asstime(end_time_s)
         runs = []
-        prefix = f"Dialogue: 0,{start_time},{end_time},"
+        prefix = f"Dialogue: 1,{start_time},{end_time},"
         for run in self._accumulated_text_runs:
             # optionl dark background:
             # rect_line = run.rectangle_dialog_for_run(
