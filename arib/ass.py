@@ -250,6 +250,90 @@ class TextRun:
         output += "\\N\n"
         return output
 
+    def _ass_time(self, seconds: float) -> str:
+        """
+        ASS time format is H:MM:SS.cs (centiseconds).
+        Accepts seconds as float.
+        """
+        if seconds < 0:
+            seconds = 0
+        total_cs = int(round(seconds * 100))
+        cs = total_cs % 100
+        total_s = total_cs // 100
+        s = total_s % 60
+        total_m = total_s // 60
+        m = total_m % 60
+        h = total_m // 60
+        return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
+
+    def rectangle_dialog_for_run(
+        self,
+        start_s: float,
+        end_s: float,
+        *,
+        pad_x: int = 8,
+        pad_y: int = 6,
+        alpha: int = 0x80,  # 0x00 = opaque, 0xFF = fully transparent (ASS)
+        color_bgr: str = "&H000000&",  # primary color (BGR) for fill
+        style: str = "Default",
+        layer: int = 0,
+    ) -> str:
+        """
+        Build a single Dialogue line containing a dark, semi-transparent rectangle
+        that sits behind the given TextRun.
+
+        - start_s/end_s: seconds (float) for the ASS timing.
+        - pad_x/pad_y: pixels of padding around the text bounds.
+        - alpha: 0x00..0xFF, where larger is more transparent (ASS quirk).
+        - color_bgr: ASS BGR hex, e.g. "&H000000&" = black.
+        - style: ASS style name.
+        - layer: ASS layer (lower draws earlier/behind).
+
+        Returns a ready-to-write ASS 'Dialogue:' line.
+        """
+        # Determine row height from your conventions
+        # NORMAL/MEDIUM rows: 36 glyph + 24 leading = 60
+        # SMALL rows: half height = 30
+        row_h = 30 if self.is_small() else 60
+
+        # Text bounds in screen pixels
+        left = self.pos.x
+        right = self.end_pos.x
+        width = max(0, right - left)
+
+        # Top-left anchor for the rectangle:
+        # run.pos is the *left-mid* of the line; top = midY - row_h/2
+        top = self.pos.y - (row_h / 2)
+
+        # Apply padding
+        x0 = int(round(left - pad_x))
+        y0 = int(round(top - pad_y))
+        w = int(round(width + 2 * pad_x))
+        h = int(round(row_h + 2 * pad_y))
+
+        # Times
+        t0 = self._ass_time(start_s)
+        t1 = self._ass_time(end_s)
+
+        # Build the ASS drawing Dialogue line.
+        # We use \an7 so \pos() anchors the *top-left* corner of the drawing.
+        # \1c sets fill color; \1a sets the alpha of the primary fill.
+        # \bord0 and \shad0 keep the box crisp; add \blur if you like a soft edge.
+        drawing_tags = (
+            f"{{\\an7}}"
+            f"{{\\pos({x0},{y0})}}"
+            f"{{\\p1}}{{\\bord0}}{{\\shad0}}"
+            f"{{\\1c{color_bgr}}}{{\\1a&H{alpha:02X}&}}"
+        )
+
+        # Rectangle path in local coords: (0,0) to (w,h)
+        # m = move, l = line. Close by returning to start.
+        path = f"m 0 0 l {w} 0 l {w} {h} l 0 {h} l 0 0"
+
+        # \p0 turns off drawing mode at the end (not strictly required on a pure drawing line,
+        # but nice if you concatenate or reuse tags).
+        return f"Dialogue: {layer},{t0},{t1},{style},,0,0,0,," f"{drawing_tags}{path}{{\\p0}}\n"
+
 
 class ClosedCaptionArea(object):
     def __init__(self):
@@ -535,9 +619,8 @@ def clear_screen(formatter, cs, timestamp):
     formatter._last_end_time_s = end_time_s
     formatter._current_textsize = TextSize.NORMAL
     formatter._current_text_color = TextColor.WHITE
-    start_time = asstime(start_time_s)
-    end_time = asstime(end_time_s)
-    runs = formatter.get_dialog_text_runs(start_time, end_time)
+
+    runs = formatter.get_dialog_text_runs(start_time_s, end_time_s)
     for run in runs:
         if formatter._ass_file:
             formatter._ass_file.write(run)
@@ -649,10 +732,24 @@ class ASSFormatter(object):
 
             self._accumulated_text_runs[-1].add_glyph(glyph)
 
-    def get_dialog_text_runs(self, start_time, end_time):
+    def get_dialog_text_runs(self, start_time_s, end_time_s):
+        start_time = asstime(start_time_s)
+        end_time = asstime(end_time_s)
         runs = []
         prefix = f"Dialogue: 0,{start_time},{end_time},"
         for run in self._accumulated_text_runs:
+            # optionl dark background:
+            rect_line = run.rectangle_dialog_for_run(
+                start_s=start_time_s,
+                end_s=end_time_s,
+                pad_x=10,
+                pad_y=8,
+                alpha=0x80,  # ~50% transparent
+                color_bgr="&H000000&",  # black box
+                style="Default",
+                layer=0,  # lower layer so it draws behind the text
+            )
+            runs.append(rect_line)
             runs.append(prefix + str(run))
         self._accumulated_text_runs = []
         return runs
