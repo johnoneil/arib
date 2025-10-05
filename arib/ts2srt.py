@@ -26,7 +26,7 @@ from arib.arib_exceptions import FileOpenError
 from arib.mpeg.ts import TS
 from arib.mpeg.ts import ES
 
-from arib.srt import ASSFormatter as SrtFormatter
+from arib.srt import SRTFormatter
 
 
 @dataclass(frozen=True)
@@ -38,6 +38,7 @@ class Config:
     quiet: bool
     tmax: int
     time_offset: float
+    enable_small_text: bool
 
 
 class TS2srt:
@@ -48,7 +49,7 @@ class TS2srt:
         self.initial_timestamp: Optional[int] = None
         self.elapsed_time_s: float = 0.0
         self.pid: int = cfg.pid  # may be discovered later from mgmt data if -1
-        self.srt: Optional[SrtFormatter] = None
+        self.srt: Optional[SRTFormatter] = None
 
     # ---- callbacks (former On* functions) ----
 
@@ -86,10 +87,11 @@ class TS2srt:
 
                     if not self.srt:
                         v = not self.cfg.quiet
-                        self.srt = SrtFormatter(
+                        self.srt = SRTFormatter(
                             tmax=self.cfg.tmax,
                             video_filename=str(self.cfg.outfile),
                             verbose=v,
+                            enable_small_text=self.cfg.enable_small_text,
                         )
 
                     self.srt.format(data_unit.payload().payload(), self.elapsed_time_s)
@@ -123,7 +125,8 @@ class TS2srt:
                 print(
                     "Exception thrown while handling DataGroup in ES."
                     "This may be due to many factors"
-                    "such as file corruption or the .ts file using as yet unsupported features."
+                    "such as file corruption or the .ts file using"
+                    "as yet unsupported features."
                 )
                 traceback.print_exc(file=sys.stdout)
 
@@ -192,6 +195,13 @@ def parse_args(argv=None) -> Config:
         type=float,
         default=0.0,
     )
+    parser.add_argument(
+        "--enable-small-text",
+        help=(
+            "Enable the extraction of small (furigana or ruby) text" "and emit it to the .srt file."
+        ),
+        action="store_true",
+    )
     args = parser.parse_args(argv)
 
     infile = Path(args.infile)
@@ -205,6 +215,7 @@ def parse_args(argv=None) -> Config:
         quiet=bool(args.quiet),
         tmax=int(args.tmax),
         time_offset=float(args.timeoffset),
+        enable_small_text=bool(args.enable_small_text),
     )
 
 
