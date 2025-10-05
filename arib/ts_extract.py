@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Module: test
 Desc: Test to see how quickly I can parse TS es packets
