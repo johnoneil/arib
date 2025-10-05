@@ -1,10 +1,15 @@
 name: CI
 
 on:
-    push:
-        branches: [master]  # only when master gets new commits
-    pull_request:
-        branches: [master]  # only when a PR is opened/updated that targets master
+  push:
+    branches:
+      - master
+      - 'development-*'   # add pattern for development branches
+  pull_request:
+    branches:
+      - master
+      - 'development-*'   # allow PRs targeting development-* branches
+
 
 jobs:
     test:
