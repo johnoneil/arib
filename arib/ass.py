@@ -271,8 +271,8 @@ class TextRun:
         start_s: float,
         end_s: float,
         *,
-        pad_x: int = 8,
-        pad_y: int = 6,
+        pad_x: int = 0,
+        pad_y: int = 0,
         alpha: int = 0x80,  # 0x00 = opaque, 0xFF = fully transparent (ASS)
         color_bgr: str = "&H000000&",  # primary color (BGR) for fill
         style: str = "Default",
@@ -304,6 +304,14 @@ class TextRun:
         # Top-left anchor for the rectangle:
         # run.pos is the *left-mid* of the line; top = midY - row_h/2
         top = self.pos.y - (row_h / 2)
+        # top = self.pos.y - row_h
+        # HACK: .ass files don't allow us to easily get lines of text to "fill up"
+        # the correct vertical space, anchor the text using /an4 (midpoint) and positon
+        # it as if it "fills up" the row.
+        if self.is_small():
+            top -= (36 + 24) / 4
+        else:
+            top -= (36 + 24) / 2
 
         # Apply padding
         x0 = int(round(left - pad_x))
@@ -333,6 +341,102 @@ class TextRun:
         # \p0 turns off drawing mode at the end (not strictly required on a pure drawing line,
         # but nice if you concatenate or reuse tags).
         return f"Dialogue: {layer},{t0},{t1},{style},,0,0,0,," f"{drawing_tags}{path}{{\\p0}}\n"
+
+
+def rectangles_dialog_union(
+    runs: list,
+    start_s: float,
+    end_s: float,
+    *,
+    pad_x: int = 8,
+    pad_y: int = 6,
+    alpha: int = 0x80,  # 0x00 opaque .. 0xFF invisible
+    color_bgr: str = "&H000000&",
+    style: str = "Default",
+    layer: int = 0,
+    y_tol: int = 2,  # tolerance to group runs into same row band
+) -> str:
+    """
+    Build a single Dialogue line that draws a set of axis-aligned rectangles
+    representing merged background boxes for the given TextRuns. Merges
+    horizontally within each row band to avoid overlap (and thus stacking).
+    Coordinates are absolute screen pixels.
+    """
+
+    def _ass_time(seconds: float) -> str:
+        secs = max(0.0, seconds)
+        total_cs = int(round(secs * 100))
+        cs = total_cs % 100
+        total_s = total_cs // 100
+        s = total_s % 60
+        total_m = total_s // 60
+        m = total_m % 60
+        h = total_m // 60
+        return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
+
+    # 1) Collect rectangles (before merging)
+    rects_by_band = {}  # key: (band_y0, band_h) -> list of [x0, x1]
+    for run in runs:
+        row_h = 30 if run.is_small() else 60
+        left = run.pos.x
+        right = run.end_pos.x
+        if right < left:
+            left, right = right, left
+
+        top = run.pos.y - (row_h / 2)
+        # HACK:
+        if run.is_small():
+            top -= (36 + 24) / 4
+        else:
+            top -= (36 + 24) / 2
+        x0 = int(round(left - pad_x))
+        x1 = int(round(right + pad_x))
+        y0 = int(round(top - pad_y))
+        h = int(round(row_h + 2 * pad_y))
+
+        # Snap y0 to an existing band within tolerance, or create a new band
+        chosen_key = None
+        for by0, bh in rects_by_band.keys():
+            if abs(by0 - y0) <= y_tol and bh == h:
+                chosen_key = (by0, bh)
+                break
+        if chosen_key is None:
+            chosen_key = (y0, h)
+            rects_by_band[chosen_key] = []
+        rects_by_band[chosen_key].append([x0, x1])
+
+    # 2) Merge intervals within each band
+    merged_rects = []  # list of (x0, y0, w, h)
+    for (y0, h), intervals in rects_by_band.items():
+        intervals.sort(key=lambda ab: (ab[0], ab[1]))
+        merged = []
+        for a, b in intervals:
+            if not merged or a > merged[-1][1]:
+                merged.append([a, b])
+            else:
+                merged[-1][1] = max(merged[-1][1], b)
+        for a, b in merged:
+            merged_rects.append((a, y0, b - a, h))
+
+    if not merged_rects:
+        return ""
+
+    # 3) Build one drawing with absolute coords; \pos(0,0) + \an7
+    t0 = _ass_time(start_s)
+    t1 = _ass_time(end_s)
+
+    tags = (
+        f"{{\\an7}}{{\\pos(0,0)}}{{\\p1}}{{\\bord0}}{{\\shad0}}"
+        f"{{\\1c{color_bgr}}}{{\\1a&H{alpha:02X}&}}"
+    )
+
+    # Multi-rect path; each rect is its own subpath
+    path_parts = []
+    for x, y, w, h in merged_rects:
+        path_parts.append(f"m {x} {y} l {x+w} {y} l {x+w} {y+h} l {x} {y+h} l {x} {y}")
+
+    path = " ".join(path_parts)
+    return f"Dialogue: {layer},{t0},{t1},{style},,0,0,0,,{tags}{path}{{\\p0}}\n"
 
 
 class ClosedCaptionArea(object):
@@ -739,18 +843,22 @@ class ASSFormatter(object):
         prefix = f"Dialogue: 0,{start_time},{end_time},"
         for run in self._accumulated_text_runs:
             # optionl dark background:
-            rect_line = run.rectangle_dialog_for_run(
-                start_s=start_time_s,
-                end_s=end_time_s,
-                pad_x=10,
-                pad_y=8,
-                alpha=0x80,  # ~50% transparent
-                color_bgr="&H000000&",  # black box
-                style="Default",
-                layer=0,  # lower layer so it draws behind the text
-            )
-            runs.append(rect_line)
+            # rect_line = run.rectangle_dialog_for_run(
+            #     start_s=start_time_s,
+            #     end_s=end_time_s,
+            #     pad_x=10,
+            #     pad_y=8,
+            #     alpha=0x80,  # ~50% transparent
+            #     color_bgr="&H000000&",  # black box
+            #     style="Default",
+            #     layer=0,  # lower layer so it draws behind the text
+            # )
+            # runs.append(rect_line)
             runs.append(prefix + str(run))
+        rectangles = rectangles_dialog_union(
+            self._accumulated_text_runs, start_s=start_time_s, end_s=end_time_s
+        )
+        runs.append(rectangles)
         self._accumulated_text_runs = []
         return runs
 
