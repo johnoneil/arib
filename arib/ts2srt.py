@@ -39,6 +39,7 @@ class Config:
     tmax: int
     time_offset: float
     enable_small_text: bool
+    output_to_stdout: bool
 
 
 class TS2srt:
@@ -55,7 +56,7 @@ class TS2srt:
 
     def on_progress(self, bytes_read, total_bytes, percent):
         # preserve original behavior: show progress only when not verbose and not quiet
-        if not self.cfg.verbose and not self.cfg.quiet:
+        if not self.cfg.verbose and not self.cfg.quiet and not self.cfg.output_to_stdout:
             sys.stdout.write(f"progress: {percent:.2f}%   \r")
             sys.stdout.flush()
 
@@ -92,6 +93,7 @@ class TS2srt:
                             video_filename=str(self.cfg.outfile),
                             verbose=v,
                             enable_small_text=self.cfg.enable_small_text,
+                            output_to_stdout=self.cfg.output_to_stdout,
                         )
 
                     self.srt.format(data_unit.payload().payload(), self.elapsed_time_s)
@@ -104,7 +106,7 @@ class TS2srt:
                 numlang = management_data.num_languages()
                 if self.pid < 0 and numlang > 0:
                     for language in range(numlang):
-                        if not self.cfg.quiet:
+                        if not self.cfg.quiet and not self.cfg.output_to_stdout:
                             print(
                                 "Closed caption management data for language: "
                                 + management_data.language_code(language)
@@ -124,7 +126,7 @@ class TS2srt:
             if not self.cfg.quiet and self.pid >= 0:
                 print(
                     "Exception thrown while handling DataGroup in ES."
-                    "This may be due to many factors"
+                    "This may be due to many factors "
                     "such as file corruption or the .ts file using"
                     "as yet unsupported features."
                 )
@@ -170,6 +172,7 @@ def parse_args(argv=None) -> Config:
     parser.add_argument(
         "-o", "--outfile", help="Output filename (.srt subtitle file)", type=str, default=None
     )
+    parser.add_argument("--stdout", help="Output .srt content to stdout.", action="store_true")
     parser.add_argument(
         "-p",
         "--pid",
@@ -216,6 +219,7 @@ def parse_args(argv=None) -> Config:
         tmax=int(args.tmax),
         time_offset=float(args.timeoffset),
         enable_small_text=bool(args.enable_small_text),
+        output_to_stdout=bool(args.stdout),
     )
 
 

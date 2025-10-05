@@ -128,7 +128,7 @@ class TS2ASS:
             if not self.cfg.quiet and self.pid >= 0:
                 print(
                     "Exception thrown while handling DataGroup in ES."
-                    "This may be due to many factors"
+                    "This may be due to many factors "
                     + "such as file corruption or the .ts file using"
                     " as yet unsupported features."
                 )
