@@ -4,9 +4,9 @@ Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stre
 
 [![CI](https://github.com/johnoneil/arib/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/johnoneil/arib/actions/workflows/ci.yml)
 
-<img src="img/gaki-2.jpg" width="200">
-<img src="img/ace-of-diamond.jpg" width="200">
-<img src="img/knights-of-sidonia.jpg" width="200">
+<p>
+<img src="img/gaki-2.jpg" width="200"><img src="img/ace-of-diamond.jpg" width="200"><img src="img/knights-of-sidonia.jpg" width="200">
+</p>
 
 
 # Description
