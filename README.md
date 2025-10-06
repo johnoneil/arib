@@ -4,9 +4,10 @@ Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stre
 
 [![CI](https://github.com/johnoneil/arib/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/johnoneil/arib/actions/workflows/ci.yml)
 
-<p>
-<img src="img/gaki-2.jpg" width="300"><img src="img/ace-of-diamond.jpg" width="300"><img src="img/knights-of-sidonia.jpg" width="300">
-</p>
+<img src="img/gaki-2.jpg" width="200">
+<img src="img/ace-of-diamond.jpg" width="200">
+<img src="img/knights-of-sidonia.jpg" width="200">
+
 
 # Description
 Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separate PES (Packetized Elementary Stream) within the TS. The format of the data within this PES is described by the (Japanese native) ARIB B-24 standard. An English document describing this standard is included in the Arib/docs directory in this repository.
