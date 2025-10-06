@@ -41,6 +41,7 @@ class Config:
     tmax: int
     time_offset: float
     disable_drcs: bool
+    disable_backgrounds: bool
     show_debug_grid: bool
 
 
@@ -95,6 +96,7 @@ class TS2ASS:
                             video_filename=str(self.cfg.outfile),
                             verbose=v,
                             disable_drcs=self.cfg.disable_drcs,
+                            disable_backgrounds=self.cfg.disable_backgrounds,
                             show_debug_grid=self.cfg.show_debug_grid,
                         )
 
@@ -205,6 +207,11 @@ def parse_args(argv=None) -> Config:
         action="store_true",
     )
     parser.add_argument(
+        "--disable-backgrounds",
+        help="Disable shaded backgrounds behind on screen text.",
+        action="store_true",
+    )
+    parser.add_argument(
         "--show-debug-grid",
         help="Generate a character position debug grid visible onscreen.",
         action="store_true",
@@ -223,6 +230,7 @@ def parse_args(argv=None) -> Config:
         tmax=int(args.tmax),
         time_offset=float(args.timeoffset),
         disable_drcs=bool(args.disable_drcs),
+        disable_backgrounds=bool(args.disable_backgrounds),
         show_debug_grid=bool(args.show_debug_grid),
     )
 

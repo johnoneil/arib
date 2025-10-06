@@ -72,7 +72,7 @@ def ass_draw_dialogue(path, p_scale=1, fscx=100, fscy=100, anchor=1):
     return f"{{\\an{anchor}\\p{p_scale}}}" f"{path}{{\\p0}}"
 
 
-def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 2) -> str:
+def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 0) -> str:
     """
     Emit a DRCS vector drawing that inherits the CURRENT ASS state:
     - inherits \1c (primary color), \1a (alpha), \bord, \\shad, etc.
@@ -81,7 +81,7 @@ def ass_draw_drcs_inline(glyph: DrcsGlyph, pad_spaces: int = 2) -> str:
     - optionally pads with N spaces after the drawing
 
     Example use (inline):
-      "{\\c&H00FF00&}" + ass_draw_drcs_inline(glyph, pad_spaces=2) + "お前たちは"
+      "{\\c&H00FF00&}" + ass_draw_drcs_inline(glyph, pad_spaces=0) + "お前たちは"
     """
     bmp = drcs_unpack_to_bitmap(glyph.width, glyph.height, glyph.bitmap, depth=glyph.depth_bits)
     path = bitmap_to_ass_path(bmp, alpha_threshold=1)
@@ -155,19 +155,11 @@ class TextColor(Enum):
 
 
 def default_text_glyph_width(glyph) -> float:
-    if glyph.size == TextSize.NORMAL:
-        return len(glyph.ch) * (36 + 4)
-    else:
-        # medium and small text are half width
-        return len(glyph.ch) * (36 + 4) / 2.0
+    return len(glyph.ch) * CLOSED_CAPTION_AREA.text_width(glyph.size)
 
 
 def drcs_text_glyph_width(glyph) -> float:
-    if glyph.size == TextSize.NORMAL:
-        return 36 + 4
-    else:
-        # medium and small text are half width
-        return (36 + 4) / 2.0
+    return CLOSED_CAPTION_AREA.text_width(glyph.size)
 
 
 @dataclass
@@ -189,6 +181,7 @@ class TextRun:
         self.items = []
         self.pos = copy.copy(pos)
         self.end_pos = copy.copy(pos)
+        self.cc_area = CLOSED_CAPTION_AREA
 
     def add_glyph(self, glyph: TextGlyph):
         self.items.append(glyph)
@@ -215,16 +208,12 @@ class TextRun:
             print("WARNING: generating dialog line for empty teletext run.")
             return ""
 
-        run_is_small = self.is_small()
         x = self.pos.x
         y = self.pos.y
-        # HACK: .ass files don't allow us to easily get lines of text to "fill up"
+        # .ass files don't allow us to easily get lines of text to "fill up"
         # the correct vertical space, anchor the text using /an4 (midpoint) and positon
         # it as if it "fills up" the row.
-        if run_is_small:
-            y -= (36 + 24) / 4
-        else:
-            y -= (36 + 24) / 2
+        y -= self.cc_area.text_nudge(self.is_small())
         current_text_size = None
         current_text_color = None
         output = ""
@@ -251,6 +240,98 @@ class TextRun:
         return output
 
 
+def rectangles_dialog_union(
+    runs: list,
+    start_s: float,
+    end_s: float,
+    *,
+    pad_x: int = 0,
+    pad_y: int = 0,
+    alpha: int = 0x80,  # 0x00 opaque .. 0xFF invisible
+    color_bgr: str = "&H000000&",
+    style: str = "Default",
+    layer: int = 0,
+    y_tol: int = 2,  # tolerance to group runs into same row band
+) -> str:
+    """
+    Build a single Dialogue line that draws a set of axis-aligned rectangles
+    representing merged background boxes for the given TextRuns. Merges
+    horizontally within each row band to avoid overlap (and thus stacking).
+    Coordinates are absolute screen pixels.
+    """
+
+    def _ass_time(seconds: float) -> str:
+        secs = max(0.0, seconds)
+        total_cs = int(round(secs * 100))
+        cs = total_cs % 100
+        total_s = total_cs // 100
+        s = total_s % 60
+        total_m = total_s // 60
+        m = total_m % 60
+        h = total_m // 60
+        return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
+
+    # 1) Collect rectangles (before merging)
+    rects_by_band = {}  # key: (band_y0, band_h) -> list of [x0, x1]
+    for run in runs:
+        row_h = 30 if run.is_small() else 60
+        left = run.pos.x
+        right = run.end_pos.x
+        if right < left:
+            left, right = right, left
+
+        top = run.pos.y - (row_h / 2)
+        top -= CLOSED_CAPTION_AREA.text_nudge(run.is_small())
+        x0 = int(round(left - pad_x))
+        x1 = int(round(right + pad_x))
+        y0 = int(round(top - pad_y))
+        h = int(round(row_h + 2 * pad_y))
+
+        # Snap y0 to an existing band within tolerance, or create a new band
+        chosen_key = None
+        for by0, bh in rects_by_band.keys():
+            if abs(by0 - y0) <= y_tol and bh == h:
+                chosen_key = (by0, bh)
+                break
+        if chosen_key is None:
+            chosen_key = (y0, h)
+            rects_by_band[chosen_key] = []
+        rects_by_band[chosen_key].append([x0, x1])
+
+    # 2) Merge intervals within each band
+    merged_rects = []  # list of (x0, y0, w, h)
+    for (y0, h), intervals in rects_by_band.items():
+        intervals.sort(key=lambda ab: (ab[0], ab[1]))
+        merged = []
+        for a, b in intervals:
+            if not merged or a > merged[-1][1]:
+                merged.append([a, b])
+            else:
+                merged[-1][1] = max(merged[-1][1], b)
+        for a, b in merged:
+            merged_rects.append((a, y0, b - a, h))
+
+    if not merged_rects:
+        return ""
+
+    # 3) Build one drawing with absolute coords; \pos(0,0) + \an7
+    t0 = _ass_time(start_s)
+    t1 = _ass_time(end_s)
+
+    tags = (
+        f"{{\\an7}}{{\\pos(0,0)}}{{\\p1}}{{\\bord0}}{{\\shad0}}"
+        f"{{\\1c{color_bgr}}}{{\\1a&H{alpha:02X}&}}"
+    )
+
+    # Multi-rect path; each rect is its own subpath
+    path_parts = []
+    for x, y, w, h in merged_rects:
+        path_parts.append(f"m {x} {y} l {x+w} {y} l {x+w} {y+h} l {x} {y+h} l {x} {y}")
+
+    path = " ".join(path_parts)
+    return f"Dialogue: {layer},{t0},{t1},{style},,0,0,0,,{tags}{path}{{\\p0}}\n"
+
+
 class ClosedCaptionArea(object):
     def __init__(self):
         # these values represent horizontal mode ('7')
@@ -268,6 +349,18 @@ class ClosedCaptionArea(object):
     @property
     def Dimensions(self):
         return self._Dimensions
+
+    def text_nudge(self, is_small: bool):
+        if is_small:
+            return (self._CharacterDim.height + self._line_spacing) // 4
+        else:
+            return (self._CharacterDim.height + self._line_spacing) // 2
+
+    def text_width(self, size: TextSize):
+        if size == TextSize.NORMAL:
+            return self._CharacterDim.width + self._char_spacing
+        else:
+            return (self._CharacterDim.width + self._char_spacing) // 2
 
     # A tricky function.
     # Text ROWs are actually "number of line feeds", or zero based.
@@ -293,6 +386,9 @@ class ClosedCaptionArea(object):
             x = self.UL.x + col * (cell_w + char_space) * 0.5
 
         return Pos(int(round(x)), int(round(y)))
+
+
+CLOSED_CAPTION_AREA = ClosedCaptionArea()
 
 
 class ASSFile(object):
@@ -535,9 +631,8 @@ def clear_screen(formatter, cs, timestamp):
     formatter._last_end_time_s = end_time_s
     formatter._current_textsize = TextSize.NORMAL
     formatter._current_text_color = TextColor.WHITE
-    start_time = asstime(start_time_s)
-    end_time = asstime(end_time_s)
-    runs = formatter.get_dialog_text_runs(start_time, end_time)
+
+    runs = formatter.get_dialog_text_runs(start_time_s, end_time_s)
     for run in runs:
         if formatter._ass_file:
             formatter._ass_file.write(run)
@@ -594,6 +689,7 @@ class ASSFormatter(object):
         video_filename="output.ass",
         verbose=False,
         disable_drcs=False,
+        disable_backgrounds=False,
         show_debug_grid=False,
     ):
         """
@@ -604,7 +700,7 @@ class ASSFormatter(object):
         """
         self._color = default_color
         self._tmax = tmax
-        self._CCArea = ClosedCaptionArea()
+        self._CCArea = CLOSED_CAPTION_AREA
         self._pos = Pos(0, 0)
         self._elapsed_time_s = 0.0
         self._last_end_time_s = 0.0
@@ -617,6 +713,7 @@ class ASSFormatter(object):
         self._height = height
         self._verbose = verbose
         self._disable_drcs = disable_drcs
+        self._disable_backgrounds = disable_backgrounds
         self._show_debug_grid = show_debug_grid
         self._accumulated_text_runs: List[TextRun] = []
 
@@ -649,11 +746,18 @@ class ASSFormatter(object):
 
             self._accumulated_text_runs[-1].add_glyph(glyph)
 
-    def get_dialog_text_runs(self, start_time, end_time):
+    def get_dialog_text_runs(self, start_time_s, end_time_s):
+        start_time = asstime(start_time_s)
+        end_time = asstime(end_time_s)
         runs = []
-        prefix = f"Dialogue: 0,{start_time},{end_time},"
+        prefix = f"Dialogue: 1,{start_time},{end_time},"
         for run in self._accumulated_text_runs:
             runs.append(prefix + str(run))
+        if not self._disable_backgrounds:
+            rectangles = rectangles_dialog_union(
+                self._accumulated_text_runs, start_s=start_time_s, end_s=end_time_s
+            )
+            runs.append(rectangles)
         self._accumulated_text_runs = []
         return runs
 

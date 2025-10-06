@@ -4,13 +4,15 @@ Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stre
 
 [![CI](https://github.com/johnoneil/arib/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/johnoneil/arib/actions/workflows/ci.yml)
 
+<img src="img/gaki-2.jpg" width="200">
+<img src="img/ace-of-diamond.jpg" width="200">
+<img src="img/knights-of-sidonia.jpg" width="200">
+
 
 # Description
 Closed Captions (CCs) are encoded in Japanese MPEG Transport Streams as a separate PES (Packetized Elementary Stream) within the TS. The format of the data within this PES is described by the (Japanese native) ARIB B-24 standard. An English document describing this standard is included in the Arib/docs directory in this repository.
 
-This python package provides tools to find and parse this ARIB closed caption information in MPGEG TS files.
-
-This code can be used in your own applications or used via the arib-ts2ass tool which this package provides.
+This python package provides tools to find and parse this ARIB closed caption information in MPGEG TS files and can be used in your own applications or used via the tools which this package provides.
 
 # Installation
 
@@ -30,11 +32,9 @@ pip install -e .
 
 # Tools Provided
 
-If installed, this package should provide the following tools.
-
 ## `arib-ts2srt`
 
-As an example this package provides the `arib-ts2srt` tool which extracts closed caption data from a `.ts` file and produces a simple `.srt` file. This application also serves as a simple example of how to use the underying library.
+This package provides the `arib-ts2srt` tool which extracts closed caption data from a `.ts` file and produces a simple `.srt` file output. This application also serves as a simple example of how to use the underying library.
 
 ```
 arib-ts2srt <input .ts file> [-o <optional output .srt file>]
@@ -50,7 +50,7 @@ arib-ts2srt --stdou <input .ts. file> > output.srt
 
 This tool outputs ARIB subtitle information in a formatted `.ass` ("advanced substation alpha") file. The advantage is that text position, color and size can be captured and presented as intended in the `.ts` stream. This is esecially advantageous in presenting furigana or ruby pronunciation guides correctly.
 
-![example of ass file](img/gaki2.png "Example ass file.")
+<img src="img/knights-of-sidonia-2.jpg" width="400">
 
 If no sutitle stream identifieer (PID) is provided to the tool, arib-ts2ass will attempt to find the PID of the elementary stream carriing Closed Caption information, or one can be specified if it is known (see below concerning how to find PID values in TS files).
 
