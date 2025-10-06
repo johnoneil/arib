@@ -155,19 +155,11 @@ class TextColor(Enum):
 
 
 def default_text_glyph_width(glyph) -> float:
-    if glyph.size == TextSize.NORMAL:
-        return len(glyph.ch) * (36 + 4)
-    else:
-        # medium and small text are half width
-        return len(glyph.ch) * (36 + 4) / 2.0
+    return len(glyph.ch) * CLOSED_CAPTION_AREA.text_width(glyph.size)
 
 
 def drcs_text_glyph_width(glyph) -> float:
-    if glyph.size == TextSize.NORMAL:
-        return 36 + 4
-    else:
-        # medium and small text are half width
-        return (36 + 4) / 2.0
+    return CLOSED_CAPTION_AREA.text_width(glyph.size)
 
 
 @dataclass
@@ -189,6 +181,7 @@ class TextRun:
         self.items = []
         self.pos = copy.copy(pos)
         self.end_pos = copy.copy(pos)
+        self.cc_area = CLOSED_CAPTION_AREA
 
     def add_glyph(self, glyph: TextGlyph):
         self.items.append(glyph)
@@ -215,16 +208,12 @@ class TextRun:
             print("WARNING: generating dialog line for empty teletext run.")
             return ""
 
-        run_is_small = self.is_small()
         x = self.pos.x
         y = self.pos.y
-        # HACK: .ass files don't allow us to easily get lines of text to "fill up"
+        # .ass files don't allow us to easily get lines of text to "fill up"
         # the correct vertical space, anchor the text using /an4 (midpoint) and positon
         # it as if it "fills up" the row.
-        if run_is_small:
-            y -= (36 + 24) / 4
-        else:
-            y -= (36 + 24) / 2
+        y -= self.cc_area.text_nudge(self.is_small())
         current_text_size = None
         current_text_color = None
         output = ""
@@ -292,11 +281,7 @@ def rectangles_dialog_union(
             left, right = right, left
 
         top = run.pos.y - (row_h / 2)
-        # HACK:
-        if run.is_small():
-            top -= (36 + 24) / 4
-        else:
-            top -= (36 + 24) / 2
+        top -= CLOSED_CAPTION_AREA.text_nudge(run.is_small())
         x0 = int(round(left - pad_x))
         x1 = int(round(right + pad_x))
         y0 = int(round(top - pad_y))
@@ -365,6 +350,18 @@ class ClosedCaptionArea(object):
     def Dimensions(self):
         return self._Dimensions
 
+    def text_nudge(self, is_small: bool):
+        if is_small:
+            return (self._CharacterDim.height + self._line_spacing) // 4
+        else:
+            return (self._CharacterDim.height + self._line_spacing) // 2
+
+    def text_width(self, size: TextSize):
+        if size == TextSize.NORMAL:
+            return self._CharacterDim.width + self._char_spacing
+        else:
+            return (self._CharacterDim.width + self._char_spacing) // 2
+
     # A tricky function.
     # Text ROWs are actually "number of line feeds", or zero based.
     # The vertical position is determined by current text size when the
@@ -389,6 +386,9 @@ class ClosedCaptionArea(object):
             x = self.UL.x + col * (cell_w + char_space) * 0.5
 
         return Pos(int(round(x)), int(round(y)))
+
+
+CLOSED_CAPTION_AREA = ClosedCaptionArea()
 
 
 class ASSFile(object):
@@ -700,7 +700,7 @@ class ASSFormatter(object):
         """
         self._color = default_color
         self._tmax = tmax
-        self._CCArea = ClosedCaptionArea()
+        self._CCArea = CLOSED_CAPTION_AREA
         self._pos = Pos(0, 0)
         self._elapsed_time_s = 0.0
         self._last_end_time_s = 0.0
