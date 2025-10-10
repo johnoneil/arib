@@ -177,6 +177,22 @@ class SRTFormatter:
             self.current_lines.append("")
 
     def emit_lines(self, timestamp: float) -> None:
+
+        start_time = self._elapsed_time_s
+        end_time = timestamp
+        if self._elapsed_time_s == timestamp:
+            start_time = self._last_end_time_s
+            end_time = start_time + self._tmax
+        elif timestamp - self._elapsed_time_s > self._tmax:
+            end_time = self._elapsed_time_s + self._tmax
+
+        self._elapsed_time_s = timestamp
+        self._last_end_time_s = end_time
+        self._current_textsize = TextSize.NORMAL
+
+        start = srt_timecode(start_time)
+        end = srt_timecode(end_time)
+
         lines = "\n".join(s for s in self.current_lines if s)
         if lines:
             # lazily create writer only when we truly write the first non-empty subtitle
@@ -186,17 +202,6 @@ class SRTFormatter:
                     target = "(stdout)" if self._to_stdout else self._filename
                     print("Writing .srt output to: " + target)
                 self._writer = SRTWriter(self._filename, to_stdout=self._to_stdout)
-
-            # compute times as before
-            start_time = self._elapsed_time_s
-            end_time = timestamp
-            if end_time - start_time <= 0.0:
-                start_time = end_time - self._tmax
-            elif end_time - start_time > self._tmax:
-                start_time = end_time - self._tmax
-
-            start = srt_timecode(start_time)
-            end = srt_timecode(end_time)
 
             self._writer.write(f"{self.line_count}\n")
             self._writer.write(f"{start} --> {end}\n")
