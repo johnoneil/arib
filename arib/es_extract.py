@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Module: es-extract
 Desc: Extract ARIB closed caption info from a previously demuxed Elementary Stream

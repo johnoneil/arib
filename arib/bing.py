@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# vim: set ts=2 expandtab:
+#!/usr/bin/env python3
 """
 Module: bing.py
 Desc: Translate strings via Bing traslate

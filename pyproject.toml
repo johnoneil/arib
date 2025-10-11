@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arib"
-version = "0.7.3"
+version = "0.7.4"
 description = "ARIB MPEG-2 TS Closed Caption Decoding Tools"
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.10"
@@ -34,6 +34,7 @@ Issues = "https://github.com/johnoneil/arib/issues"
 
 [project.entry-points."console_scripts"]
 arib-ts2ass = "arib.ts2ass:main"
+arib-ts2srt = "arib.ts2srt:main"
 arib-ts-extract = "arib.ts_extract:main"
 arib-es-extract = "arib.es_extract:main"
 
