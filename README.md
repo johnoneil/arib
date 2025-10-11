@@ -37,13 +37,13 @@ pip install -e .
 This package provides the `arib-ts2srt` tool which extracts closed caption data from a `.ts` file and produces a simple `.srt` file output. This application also serves as a simple example of how to use the underying library.
 
 ```
-arib-ts2srt <input .ts file> [-o <optional output .srt file>]
+arib-ts2srt stream.ts [-o <optional output .srt file>]
 ```
 
 An option exists to alternately output `.srt` data directly to stdout:
 
 ```
-arib-ts2srt --stdou <input .ts. file> > output.srt
+arib-ts2srt --stdout stream.ts > output.srt
 ```
 
 ## `arib-ts2ass`
