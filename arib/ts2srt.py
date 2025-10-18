@@ -144,7 +144,13 @@ class TS2srt:
         ts.OnTSPacket = self.on_ts_packet
         ts.OnESPacket = self.on_es_packet
 
-        ts.Parse()
+        try:
+            ts.Parse()
+        finally:
+            # Ensure buffered subtitle data is written to disk even if parsing
+            # encounters errors partway through the file
+            if self.srt:
+                self.srt.finalize()
 
         if self.pid < 0 and not self.cfg.quiet:
             print(f"*** Sorry. No ARIB subtitle content was found in file: {self.cfg.infile} ***")
