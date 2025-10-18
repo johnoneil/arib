@@ -128,7 +128,13 @@ class TS(object):
             # memory map the file if necessary (prob requires 64 bit systems)
             _file = f
             if memorymap:
-                _file = mmap.mmap(f.fileno(), 0, prot=mmap.PROT_READ)
+                # --- START OF MODIFICATION ---
+                # This block checks the operating system to use the correct mmap parameter.
+                if os.name == 'nt':  # 'nt' is the name for Windows
+                    _file = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)
+                else:  # For other systems like Linux or macOS
+                    _file = mmap.mmap(f.fileno(), 0, prot=mmap.PROT_READ)
+                # --- END OF MODIFICATION ---
 
             while True:
                 packet = _file.read(TS.PACKET_SIZE)
