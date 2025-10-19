@@ -7,13 +7,13 @@ Email: oneil.john@gmail.com
 DATE: Thursday, October 20th 2016
 
 """
-import os
-import sys
 import argparse
-import struct
 
 # memorymap file on 64 bit systems
 import mmap
+import os
+import struct
+import sys
 
 
 class ES:

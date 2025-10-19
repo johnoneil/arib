@@ -7,21 +7,17 @@ Email: oneil.john@gmail.com
 DATE: Saturday January 14th 2017
 
 """
-import sys
 import argparse
+import sys
 import traceback
-
 from pathlib import Path
 
-
-from arib.closed_caption import next_data_unit
-from arib.closed_caption import StatementBody
 import arib.code_set as code_set
 import arib.control_characters as control_characters
-from arib.data_group import next_data_group
 
 # print out some additional info for DRCS values
-from arib.closed_caption import set_DRCS_debug
+from arib.closed_caption import StatementBody, next_data_unit, set_DRCS_debug
+from arib.data_group import next_data_group
 
 set_DRCS_debug(True)
 

@@ -11,12 +11,11 @@ caption and teletext elementary stream.
 
 """
 import sys
-from arib import read
-from arib.read import EOFError
 import traceback
 
-from arib.closed_caption import CaptionStatementData
-from arib.closed_caption import CaptionManagementData
+from arib import read
+from arib.closed_caption import CaptionManagementData, CaptionStatementData
+from arib.read import EOFError
 
 DEBUG = False
 

@@ -1,5 +1,7 @@
 import sys
+
 import pytest
+
 import arib.es_extract as cli
 
 # List of input .es files to run the CLI against

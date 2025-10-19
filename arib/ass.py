@@ -12,18 +12,19 @@ to turn arib package subtitle objects into a .ass
 file.
 
 """
-from pathlib import Path
-from enum import Enum
 import copy
-from dataclasses import dataclass
-from typing import List
+import re
 import unicodedata
+from dataclasses import dataclass
+from enum import Enum
+from pathlib import Path
+from typing import List
+
 import arib.code_set as code_set
 import arib.control_characters as control_characters
-import re
 from arib.arib_exceptions import FileOpenError
-from arib.drcs_decoder import drcs_unpack_to_bitmap
 from arib.drcs_cache import DrcsGlyph
+from arib.drcs_decoder import drcs_unpack_to_bitmap
 
 
 # DRCS drawing support

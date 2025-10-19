@@ -1,7 +1,8 @@
-from dataclasses import dataclass
-from typing import Tuple, Optional
-from collections import OrderedDict
 import threading
+from collections import OrderedDict
+from dataclasses import dataclass
+from typing import Optional, Tuple
+
 from arib import read
 
 
