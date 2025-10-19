@@ -1,9 +1,9 @@
-from pathlib import Path
-from enum import Enum
-import sys
 import math
-from typing import Optional, Union, Callable, Dict, Any
 import re
+import sys
+from enum import Enum
+from pathlib import Path
+from typing import Any, Callable, Dict, Optional, Union
 
 import arib.code_set as code_set
 import arib.control_characters as control_characters

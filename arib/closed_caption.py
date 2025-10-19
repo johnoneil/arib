@@ -14,12 +14,14 @@ an ARIB data group
 
 from arib import read
 from arib.decoder import Decoder
-from arib.drcs_cache import DRCS_CACHE
-from arib.drcs_cache import DrcsGlyph
-from arib.drcs_cache import drcs_set_from_font_id_byte
-from arib.drcs_cache import normalize_94
-from arib.drcs_cache import is_94_byte
-from arib.drcs_cache import drcs0_pack
+from arib.drcs_cache import (
+    DRCS_CACHE,
+    DrcsGlyph,
+    drcs0_pack,
+    drcs_set_from_font_id_byte,
+    is_94_byte,
+    normalize_94,
+)
 
 DEBUG = False
 DRCS_DEBUG = False

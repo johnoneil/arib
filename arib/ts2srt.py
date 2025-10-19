@@ -9,23 +9,18 @@ DATE: Saturday, Oct 4th 2025
 
 from __future__ import annotations
 
-import sys
 import argparse
+import sys
 import traceback
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
 
-from arib.read import EOFError
-
-from arib.closed_caption import next_data_unit
-from arib.closed_caption import StatementBody
-from arib.data_group import DataGroup
 from arib.arib_exceptions import FileOpenError
-
-from arib.mpeg.ts import TS
-from arib.mpeg.ts import ES
-
+from arib.closed_caption import StatementBody, next_data_unit
+from arib.data_group import DataGroup
+from arib.mpeg.ts import ES, TS
+from arib.read import EOFError
 from arib.srt import SRTFormatter
 
 
@@ -128,7 +123,7 @@ class TS2srt:
                     "Exception thrown while handling DataGroup in ES."
                     "This may be due to many factors "
                     "such as file corruption or the .ts file using"
-                    "as yet unsupported features."
+                    " as yet unsupported features."
                 )
                 traceback.print_exc(file=sys.stdout)
 

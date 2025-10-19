@@ -9,9 +9,8 @@ DATE: Sunday, March 9th 2014
 """
 
 from arib import read
-from arib.code_set import code_set_handler_from_final_byte
-from arib.code_set import in_code_set_table
 from arib.arib_exceptions import DecodingError
+from arib.code_set import code_set_handler_from_final_byte, in_code_set_table
 
 DEBUG = False
 

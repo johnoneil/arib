@@ -11,24 +11,19 @@ UPDATED: Saturday, Oct 4th, 2025
 
 from __future__ import annotations
 
-import sys
 import argparse
+import sys
 import traceback
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
 
-from arib.read import EOFError
-
-from arib.closed_caption import next_data_unit
-from arib.closed_caption import StatementBody
-from arib.data_group import DataGroup
 from arib.arib_exceptions import FileOpenError
-
-from arib.mpeg.ts import TS
-from arib.mpeg.ts import ES
-
 from arib.ass import ASSFormatter
+from arib.closed_caption import StatementBody, next_data_unit
+from arib.data_group import DataGroup
+from arib.mpeg.ts import ES, TS
+from arib.read import EOFError
 
 
 @dataclass(frozen=True)

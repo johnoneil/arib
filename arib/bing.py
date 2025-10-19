@@ -12,8 +12,9 @@ after http://stackoverflow.com/questions/12017846/microsoft-translator-api-in-py
 """
 import argparse
 import json
-import requests
 import urllib
+
+import requests
 
 
 def translate(text, from_language="ja", to_language="en", client_id="", secret_key=""):

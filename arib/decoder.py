@@ -8,12 +8,10 @@ DATE: Friday, March 15th 2014
 
 """
 
-from arib import read
-from arib.control_characters import is_control_character
-from arib.control_characters import handle_control_character
 import arib.control_characters as control_char
-from arib import code_set
+from arib import code_set, read
 from arib.arib_exceptions import DecodingError
+from arib.control_characters import handle_control_character, is_control_character
 
 DEBUG = False
 

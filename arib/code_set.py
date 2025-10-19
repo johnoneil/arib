@@ -11,11 +11,9 @@ handling for code sets in japanese closed captions
 
 """
 
-from arib.arib_exceptions import UnimplimentedError
 from arib import read
-from arib.drcs_cache import DRCS_CACHE
-from arib.drcs_cache import normalize_94
-from arib.drcs_cache import drcs0_pack
+from arib.arib_exceptions import UnimplimentedError
+from arib.drcs_cache import DRCS_CACHE, drcs0_pack, normalize_94
 
 DEBUG = False
 

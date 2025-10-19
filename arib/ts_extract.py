@@ -7,23 +7,19 @@ Email: oneil.john@gmail.com
 DATE: Thursday, October 20th 2016
 
 """
+import argparse
 import os
 import sys
-import argparse
 import traceback
-from arib.read import EOFError
 
-from arib.mpeg.ts import TS
-from arib.mpeg.ts import ES
-
-from arib.closed_caption import next_data_unit
-from arib.closed_caption import StatementBody
 import arib.code_set as code_set
 import arib.control_characters as control_characters
-from arib.data_group import DataGroup
 
 # print out some additional info for DRCS values
-from arib.closed_caption import set_DRCS_debug
+from arib.closed_caption import StatementBody, next_data_unit, set_DRCS_debug
+from arib.data_group import DataGroup
+from arib.mpeg.ts import ES, TS
+from arib.read import EOFError
 
 set_DRCS_debug(True)
 
