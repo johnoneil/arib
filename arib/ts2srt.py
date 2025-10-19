@@ -143,12 +143,11 @@ class TS2srt:
         ts.OnESPacket = self.on_es_packet
 
         try:
-            try:
-                ts.Parse()
-            except KeyboardInterrupt:
-                if not_quiet:
-                    print("Interrupted by user.")
-                return 130  # conventional SIGINT exit
+            ts.Parse()
+        except KeyboardInterrupt:
+            if not_quiet:
+                print("Interrupted by user.")
+            return 130  # conventional SIGINT exit
         finally:
             # Ensure buffered subtitle data is written to disk even if parsing
             # encounters errors partway through the file
