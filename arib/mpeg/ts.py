@@ -130,7 +130,7 @@ class TS(object):
             if memorymap:
                 # --- START OF MODIFICATION ---
                 # This block checks the operating system to use the correct mmap parameter.
-                if os.name == 'nt':  # 'nt' is the name for Windows
+                if os.name == "nt":  # 'nt' is the name for Windows
                     _file = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)
                 else:  # For other systems like Linux or macOS
                     _file = mmap.mmap(f.fileno(), 0, prot=mmap.PROT_READ)
