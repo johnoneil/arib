@@ -120,43 +120,48 @@ class TS(object):
     PCR_START_INDEX = 6
     PCR_SIZE_BYTES = 6
 
+    # pcr time wrap
+    WRAP = 1 << 33
+
     @staticmethod
     def next_packet(filename, memorymap=True):
-        """Generator to remove a series of TS packets from a TS file"""
+        """Generator yielding TS packets from a .ts file."""
         with open(filename, "rb") as f:
-
-            # memory map the file if necessary (prob requires 64 bit systems)
-            _file = f
+            # Choose backing file-like object
             if memorymap:
-                # --- START OF MODIFICATION ---
-                # This block checks the operating system to use the correct mmap parameter.
                 if os.name == "nt":  # 'nt' is the name for Windows
-                    _file = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)
+                    mm = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)
                 else:  # For other systems like Linux or macOS
-                    _file = mmap.mmap(f.fileno(), 0, prot=mmap.PROT_READ)
-                # --- END OF MODIFICATION ---
+                    mm = mmap.mmap(f.fileno(), 0, prot=mmap.PROT_READ)
+                _file = mm
+            else:
+                mm = None
+                _file = f
 
-            while True:
-                packet = _file.read(TS.PACKET_SIZE)
-                if packet:
-                    # first byte SHOULD be the sync byte
-                    # but if it isn't find one.
+            try:
+                while True:
+                    packet = _file.read(TS.PACKET_SIZE)
+                    if not packet:
+                        break
+
+                    # Attempt to realign if sync byte missing
                     if packet[0] != TS.SYNC_BYTE:
-                        start_byte = 0
-                        print(packet[0])
-                        for i in range(start_byte, TS.PACKET_SIZE):
+                        start = -1
+                        for i in range(TS.PACKET_SIZE):
                             if packet[i] == TS.SYNC_BYTE:
-                                start_byte = i
+                                start = i
                                 break
-                        # didn't find a new start? FAIL
-                        if start_byte == 0:
-                            raise Exception("failure to find sync byte in ts packet size.")
-                            continue
-                        remainder = _file.read(TS.PACKET_SIZE - start_byte)
-                        packet = packet[start_byte:] + remainder
+                        if start == -1:
+                            raise ValueError("Failed to find sync byte within 188 bytes")
+
+                        remainder = _file.read(TS.PACKET_SIZE - start)
+                        packet = packet[start:] + remainder
+
                     yield packet
-                else:
-                    break
+
+            finally:
+                if mm is not None:
+                    mm.close()
 
     @staticmethod
     def check_packet_formedness(packet):
@@ -233,10 +238,10 @@ class TS(object):
 
     @staticmethod
     def pcr_delta_time_ms(pcr_t1, pcr_t2, offset=0):
-        """Return a floating point time in milliseconds representing the
-        Difference in time between two PCR timestamps
-        """
-        return float(pcr_t2 - pcr_t1) / 90000.0 + offset
+        delta = (pcr_t2 - pcr_t1) & (TS.WRAP - 1)
+        if delta > TS.WRAP // 2:
+            delta -= TS.WRAP
+        return delta / 90.0 + offset
 
     @staticmethod
     def get_payload_length(packet):
