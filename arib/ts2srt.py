@@ -130,8 +130,11 @@ class TS2srt:
     # ---- driver ----
 
     def run(self) -> int:
-        if not self.cfg.infile.exists() and not self.cfg.quiet:
-            print(f"Input filename :{self.cfg.infile} does not exist.")
+        not_quiet = not self.cfg.quiet
+
+        if not self.cfg.infile.exists():
+            if not_quiet:
+                print(f"Input filename :{self.cfg.infile} does not exist.")
             return -1
 
         ts = TS(str(self.cfg.infile))
@@ -141,25 +144,47 @@ class TS2srt:
 
         try:
             ts.Parse()
+        except KeyboardInterrupt:
+            if not_quiet:
+                print("Interrupted by user.")
+            return 130  # conventional SIGINT exit
         finally:
             # Ensure buffered subtitle data is written to disk even if parsing
             # encounters errors partway through the file
             if self.srt:
                 self.srt.finalize()
 
-        if self.pid < 0 and not self.cfg.quiet:
-            print(f"*** Sorry. No ARIB subtitle content was found in file: {self.cfg.infile} ***")
+        # If we never found a usable PID, report "no ARIB subtitle content".
+        if self.pid < 0:
+            if not_quiet:
+                print(
+                    "*** Sorry. No ARIB subtitle content"
+                    f" was found in file: {self.cfg.infile} ***"
+                )
             return -1
 
-        if self.srt and not self.srt.file_written() and not self.cfg.quiet:
+        # Success conditions:
+        # - stdout mode (no file to check)
+        # - non-empty outfile on disk
+        # - formatter believes it wrote (fallback)
+        if self.cfg.output_to_stdout:
+            return 0
+
+        try:
+            if self.cfg.outfile.exists() and self.cfg.outfile.stat().st_size > 0:
+                return 0
+        except OSError:
+            pass  # fall back to formatter flag
+
+        if self.srt and getattr(self.srt, "file_written", None) and self.srt.file_written():
+            return 0
+
+        if not_quiet:
             print(
-                "*** Sorry. No nonempty ARIB closed caption content found in file "
-                + str(self.cfg.infile)
-                + " ***"
+                f"*** Sorry. No nonempty ARIB closed caption content found in file "
+                f"{self.cfg.infile} ***"
             )
-            return -1
-
-        return 0
+        return -1
 
 
 def parse_args(argv=None) -> Config:
